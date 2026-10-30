@@ -24,9 +24,9 @@ THUMBS = REPO / "thumbs"
 KIND = {".pdf": "pdf", ".jpg": "image", ".jpeg": "image", ".png": "image", ".webp": "image",
         ".stl": "model", ".glb": "model", ".3mf": "model", ".html": "html"}
 # HTML previews are served from the repo itself (Seafile forbids framing): local path -> repo path
-HTML = {"04_3D-Modelle/Modell-Ansichten_HTML/index.html": "html/modell-ansichten/index.html",
-        "02_Analyse/Details/Kern335/Treppe_Kern335_Detailmappe_2.html": "html/kern335-detailmappe.html",
-        "02_Analyse/Raumprogramm/TIB_1102_D_Flaechen-Editor_10.html": "html/flaechen-editor.html"}
+HTML = {"05_3D-Modelle/Modell-Ansichten_HTML/index.html": "html/modell-ansichten/index.html",
+        "02_Plaene/Details/Kern335/Treppe_Kern335_Detailmappe_2.html": "html/kern335-detailmappe.html",
+        "03_Analyse/Raumprogramm/TIB_1102_D_Flaechen-Editor_10.html": "html/flaechen-editor.html"}
 
 # (title, [entries]); entry = ("open", globs) | ("latest", globs) | ("stack", title, globs)
 # "latest": newest version open (name_v3 / name_2 beats name), older ones go into one "Ältere Versionen" stack.
@@ -35,64 +35,68 @@ SECTIONS = [
     ("Bestand · Pläne Uni", [
         ("open", ["01_Bestand_Uni/Grundrisse/*.pdf", "01_Bestand_Uni/Schnitte/*.pdf", "01_Bestand_Uni/Ansichten/*.pdf"]),
         ("latest", ["01_Bestand_Uni/Lageplan/*.pdf"]),
+        ("open", ["01_Bestand_Uni/Historisch/*.pdf"]),  # 1961 original furniture plan
         ("stack", "Nachbargebäude", ["01_Bestand_Uni/Nachbargebaeude/**"]),
         ("stack", "Buchscans", ["01_Bestand_Uni/Buchscans/*"]),
         ("stack", "CAD + Raumliste", ["01_Bestand_Uni/*/*"]),
     ]),
-    ("Analyse · Grundrisse", [
-        ("open", ["02_Analyse/Grundrisse/*_M1-200.pdf"]),
-        ("open", ["02_Analyse/Grundrisse_Moeblierung/*.pdf"]),
-        ("stack", "Grundrisse A3 · M 1:250", ["02_Analyse/Grundrisse/*_A3.pdf"]),
-        ("stack", "CAD (DXF)", ["02_Analyse/Grundrisse*/*.dxf"]),
+    ("Grundrisse", [
+        ("open", ["02_Plaene/Grundrisse/*_M1-200.pdf"]),
+        ("stack", "Grundrisse A3 · M 1:250", ["02_Plaene/Grundrisse/*_A3.pdf"]),
+        ("stack", "CAD (DXF)", ["02_Plaene/Grundrisse/*.dxf"]),
     ]),
-    ("Analyse · Schnitte", [
-        ("open", ["02_Analyse/Schnitte/TIB_*.pdf", "02_Analyse/Schnitte/hannover-*.pdf"]),
-        ("stack", "Städtebaulicher Schnitt · Stile", ["02_Analyse/Schnitte/LP_*.pdf"]),
-        ("stack", "CAD (DXF)", ["02_Analyse/Schnitte/*"]),
+    ("Schnitte", [
+        ("open", ["02_Plaene/Schnitte/TIB_*.pdf", "02_Plaene/Schnitte/hannover-*.pdf"]),
+        ("stack", "Städtebaulicher Schnitt · Stile", ["02_Plaene/Schnitte/LP_*.pdf"]),
+        ("stack", "CAD (DXF)", ["02_Plaene/Schnitte/*"]),
     ]),
-    ("Analyse · Lageplan", [
-        ("latest", ["02_Analyse/Lageplan/*_Lageplan_*.pdf"]),
-        ("stack", "Alle Pläne (Sammel-PDF)", ["02_Analyse/Lageplan/*alle_Plaene*"]),
-        ("stack", "CAD (DXF)", ["02_Analyse/Lageplan/*"]),
+    ("Lageplan", [
+        ("latest", ["02_Plaene/Lageplan/*_Lageplan_*.pdf"]),
+        ("stack", "Alle Pläne (Sammel-PDF)", ["02_Plaene/Lageplan/*alle_Plaene*"]),
+        ("stack", "CAD (DXF)", ["02_Plaene/Lageplan/*"]),
+    ]),
+    ("Details", [
+        ("latest", ["02_Plaene/Details/*.pdf", "02_Plaene/Details/Kern335/*.pdf"]),
+        ("latest", ["02_Plaene/Details/Kern335/*.html"]),
+        ("stack", "Kern 335 · Fotos", ["02_Plaene/Details/Kern335/Fotos/*", "02_Plaene/Details/Kern335/WhatsApp*"]),
+        ("stack", "Kern 335 · Grafiken + CAD", ["02_Plaene/Details/**"]),
+    ]),
+    ("Analyse · Möblierung + Nutzung", [
+        ("open", ["03_Analyse/Moeblierung_Nutzung/*.pdf"]),
+        ("stack", "CAD (DXF)", ["03_Analyse/Moeblierung_Nutzung/*.dxf"]),
     ]),
     ("Analyse · Raumprogramm", [
-        ("latest", ["02_Analyse/Raumprogramm/*.pdf"]),
-        ("open", ["02_Analyse/Raumprogramm/*.html"]),
-        ("stack", "Grafiken, Excel, DXF", ["02_Analyse/Raumprogramm/*"]),
-    ]),
-    ("Analyse · Details", [
-        ("latest", ["02_Analyse/Details/*.pdf", "02_Analyse/Details/Kern335/*.pdf"]),
-        ("latest", ["02_Analyse/Details/Kern335/*.html"]),
-        ("stack", "Kern 335 · Fotos", ["02_Analyse/Details/Kern335/Fotos/*", "02_Analyse/Details/Kern335/WhatsApp*"]),
-        ("stack", "Kern 335 · Grafiken + CAD", ["02_Analyse/Details/**"]),
+        ("latest", ["03_Analyse/Raumprogramm/*.pdf"]),
+        ("open", ["03_Analyse/Raumprogramm/*.html"]),
+        ("stack", "Grafiken, Excel, DXF", ["03_Analyse/Raumprogramm/*"]),
     ]),
     ("Entwurf", [
-        ("latest", ["03_Entwurf/Renderings/TIB_Vergleich_*"]),
-        ("stack", "Varianten Andis", ["03_Entwurf/Renderings/Andis*"]),
-        ("stack", "Varianten Luca", ["03_Entwurf/Renderings/Luca*"]),
-        ("stack", "Optionen 1–15", ["03_Entwurf/Renderings/Option*"]),
-        ("stack", "Lagepläne Varianten", ["03_Entwurf/Lageplaene_Varianten/*"]),
-        ("stack", "Flächenbedarf (Rhino)", ["03_Entwurf/Flaechenbedarf/*"]),
+        ("latest", ["04_Entwurf/Renderings/TIB_Vergleich_*"]),
+        ("stack", "Varianten Andis", ["04_Entwurf/Renderings/Andis*"]),
+        ("stack", "Varianten Luca", ["04_Entwurf/Renderings/Luca*"]),
+        ("stack", "Optionen 1–15", ["04_Entwurf/Renderings/Option*"]),
+        ("stack", "Lagepläne Varianten", ["04_Entwurf/Lageplaene_Varianten/*"]),
+        ("stack", "Flächenbedarf (Rhino)", ["04_Entwurf/Flaechenbedarf/*"]),
     ]),
     ("3D-Modelle", [
-        ("open", ["04_3D-Modelle/Modell-Ansichten_HTML/index.html", "04_3D-Modelle/Web-Vorschau/*.glb"]),
-        ("latest", ["04_3D-Modelle/Bestandsmodell/*.png"]),
-        ("stack", "Modell Uni · Ansichten", ["04_3D-Modelle/Bestandsmodell_Uni/*.png"]),
-        ("stack", "Rhino-Dateien + Bericht", ["04_3D-Modelle/*/*.3dm", "04_3D-Modelle/*/*.ifc", "04_3D-Modelle/*/*.md"]),
+        ("open", ["05_3D-Modelle/Modell-Ansichten_HTML/index.html", "05_3D-Modelle/Web-Vorschau/*.glb"]),
+        ("latest", ["05_3D-Modelle/Bestandsmodell/*.png"]),
+        ("stack", "Modell Uni · Ansichten", ["05_3D-Modelle/Bestandsmodell_Uni/*.png"]),
+        ("stack", "Rhino-Dateien + Bericht", ["05_3D-Modelle/*/*.3dm", "05_3D-Modelle/*/*.ifc", "05_3D-Modelle/*/*.md"]),
     ]),
     ("3D-Druck", [
-        ("open", ["05_3D-Druck/Bestand_M1-500/*.stl", "05_3D-Druck/Varianten_M1-500/*.stl", "05_3D-Druck/Varianten_M1-500/*.png"]),
-        ("stack", "Druckteile geteilt", ["05_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/**"]),
-        ("stack", "Bambu 3MF + Liesmich", ["05_3D-Druck/**"]),
+        ("open", ["06_3D-Druck/Bestand_M1-500/*.stl", "06_3D-Druck/Varianten_M1-500/*.stl", "06_3D-Druck/Varianten_M1-500/*.png"]),
+        ("stack", "Druckteile geteilt", ["06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/**"]),
+        ("stack", "Bambu 3MF + Liesmich", ["06_3D-Druck/**"]),
     ]),
     ("Fotos", [
-        ("stack", "Fassade", ["06_Fotos/Fassade/*"]),
-        ("stack", "Innen", ["06_Fotos/Innen/*"]),
-        ("stack", "Innenhöfe", ["06_Fotos/Innenhoefe/*"]),
-        ("stack", "Details + Material", ["06_Fotos/Details/*"]),
-        ("stack", "Historisch", ["06_Fotos/Historisch/*"]),
-        ("stack", "Luftbilder", ["06_Fotos/Luftbilder/*"]),
-        ("stack", "Modellfotos 20.10.", ["06_Fotos/Modellfotos_2026-10-20/*"]),
+        ("stack", "Fassade", ["07_Fotos/Fassade/*"]),
+        ("stack", "Innen", ["07_Fotos/Innen/*"]),
+        ("stack", "Innenhöfe", ["07_Fotos/Innenhoefe/*"]),
+        ("stack", "Details + Material", ["07_Fotos/Details/*"]),
+        ("stack", "Historisch", ["07_Fotos/Historisch/*"]),
+        ("stack", "Luftbilder", ["07_Fotos/Luftbilder/*"]),
+        ("stack", "Modellfotos 20.10.", ["07_Fotos/Modellfotos_2026-10-20/*"]),
     ]),
 ]
 
