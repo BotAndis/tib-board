@@ -36,6 +36,8 @@ SECTIONS = [
         ("open", ["01_Bestand_Uni/Grundrisse/*.pdf", "01_Bestand_Uni/Schnitte/*.pdf", "01_Bestand_Uni/Ansichten/*.pdf"]),
         ("latest", ["01_Bestand_Uni/Lageplan/*.pdf"]),
         ("open", ["01_Bestand_Uni/Historisch/*.pdf"]),  # 1961 original furniture plan
+        ("stack", "Wettbewerb 1982/83", ["01_Bestand_Uni/Historisch/Archiv_1960-2013/1982-83_Wettbewerb/*"]),
+        ("stack", "Historische Pläne 1960–2013", ["01_Bestand_Uni/Historisch/Archiv_1960-2013/*"]),
         ("stack", "Nachbargebäude", ["01_Bestand_Uni/Nachbargebaeude/**"]),
         ("stack", "Buchscans", ["01_Bestand_Uni/Buchscans/*"]),
         ("stack", "CAD + Raumliste", ["01_Bestand_Uni/*/*"]),
