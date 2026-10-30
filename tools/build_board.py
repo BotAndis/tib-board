@@ -1,7 +1,7 @@
 """Build board.json + thumbnails from the local 'Übersicht Main Datein' tree (already synced to Seafile).
 
 - SECTIONS below decides what lies open on the board and what goes into stacks.
-- Positions/sizes you changed on the board (edit mode, saved into board.json) are kept; only new items get auto-placed.
+- Positions/sizes you changed on the board (edit mode, saved into board.json) are kept; everything else is re-flowed.
 - PDFs and 3D files get one Seafile share link each: only /seafhttp/f/<token>/ allows the page to fetch them (CORS).
 Run: uv run --no-project --python 3.12 --with mcp==1.27.2 --with pymupdf --with pillow python build_board.py
 """
@@ -86,10 +86,13 @@ SECTIONS = [
         ("stack", "Bambu 3MF + Liesmich", ["05_3D-Druck/**"]),
     ]),
     ("Fotos", [
-        ("stack", "Pressefotos", ["06_Fotos/Pressefotos/*"]),
-        ("stack", "Besichtigung 20.10.", ["06_Fotos/Besichtigung_2026-10-20/*"]),
-        ("stack", "Perspektiven 21.10.", ["06_Fotos/Perspektiven_2026-10-21/*"]),
-        ("stack", "Online", ["06_Fotos/Online/*"]),
+        ("stack", "Fassade", ["06_Fotos/Fassade/*"]),
+        ("stack", "Innen", ["06_Fotos/Innen/*"]),
+        ("stack", "Innenhöfe", ["06_Fotos/Innenhoefe/*"]),
+        ("stack", "Details + Material", ["06_Fotos/Details/*"]),
+        ("stack", "Historisch", ["06_Fotos/Historisch/*"]),
+        ("stack", "Luftbilder", ["06_Fotos/Luftbilder/*"]),
+        ("stack", "Modellfotos 20.10.", ["06_Fotos/Modellfotos_2026-10-20/*"]),
     ]),
 ]
 
@@ -215,22 +218,23 @@ def main():
 
 
 def layout(sections):
-    """Keep saved positions; place new items in justified rows per section."""
+    """Keep what was moved in edit mode (and renamed labels); flow everything else in justified rows per section."""
     board = REPO / "board.json"
     old = json.loads(board.read_text(encoding="utf-8")) if board.exists() else {}
-    pos = {i["id"]: i for i in old.get("items", [])} | {l["id"]: l for l in old.get("labels", [])}
+    pos = {i["id"]: i for i in old.get("items", []) + old.get("labels", []) if i.get("moved")}
+    texts = {l["id"]: l["text"] for l in old.get("labels", [])}
     items, labels, y = [], [], 0
     ROW_H, MAX_W, GAP = 300, 5200, 40
     for s in sections:
         lid = "label:" + s["title"]
-        labels.append(pos.get(lid) or {"id": lid, "text": s["title"], "x": 0, "y": y})
+        labels.append(pos.get(lid) or {"id": lid, "text": texts.get(lid, s["title"]), "x": 0, "y": y})
         y += 90
         x = 0
         for it in s["items"]:
             w = ROW_H * it.get("ar", 1.0) if it["kind"] in ("pdf", "image") else ROW_H
             if it["id"] in pos:
                 p = pos[it["id"]]
-                it |= {"x": p["x"], "y": p["y"], "w": p["w"]}
+                it |= {"x": p["x"], "y": p["y"], "w": p["w"], "moved": True}
             else:
                 if x and x + w > MAX_W:
                     x, y = 0, y + ROW_H + 90

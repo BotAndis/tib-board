@@ -12,6 +12,16 @@ VAR = f"{B}/03_Entwurf/Varianten/2026-10-26_Claude-Optionen"
 DR = f"{B}/04_Modelle/3D-Druck"
 DRV = f"{DR}/2026-10-27_Varianten-M1-500"
 FO = f"{B}/02_Bestand/Fotos"
+RF = "D:/Claude_Workspaces/CX-NEA/Rhino-Arch-AI/work/refs/tib"
+
+
+def pf(*names):  # press photos by name pattern
+    return [f"{FO}/Pressefotos/{n}" for n in names]
+
+
+def dsc(*ranges):  # site-visit photos 21.10. by number range
+    return [f"{FO}/2026-10-21_Perspektive-Fotos/DSC_{n}.JPG" for a, b in ranges for n in range(a, b + 1)]
+
 
 # destination folder -> source globs (recursive ** keeps the subfolders below the glob root)
 PLAN = {
@@ -46,10 +56,20 @@ PLAN = {
     "05_3D-Druck/Bestand_M1-500": [f"{PU}/Modell/TIB_Druck_1zu500_mm.stl", f"{DR}/druck bestand tib getrennt.stl", f"{DR}/Bambulab/*.3mf"],
     "05_3D-Druck/Varianten_M1-500": [f"{DRV}/*.png", f"{DRV}/*.txt", f"{DRV}/komplett_mit-Stuetzen/*.stl"],
     "05_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen": [f"{DRV}/geteilt_ohne-Stuetzen/**/*.stl"],
-    "06_Fotos/Besichtigung_2026-10-20": [f"{FO}/2026-10-20_Besichtigung/*.JPG"],
-    "06_Fotos/Perspektiven_2026-10-21": [f"{FO}/2026-10-21_Perspektive-Fotos/*.JPG"],
-    "06_Fotos/Pressefotos": [f"{FO}/Pressefotos/*"],
-    "06_Fotos/Online": [f"{FO}/Online/*"],
+    # photos sorted by topic (incl. the references the 3D model was built from); new photos: add them to a topic
+    "06_Fotos/Modellfotos_2026-10-20": [f"{FO}/2026-10-20_Besichtigung/*.JPG"],
+    "06_Fotos/Fassade": [f"{FO}/Online/*", *pf("TIB_Aussenansicht1_RGB.JPG", "TIB_Aussenansicht_Standort_*", "Technische_*",
+                                                 "csm_technat-aussen*", "images.jpg"),
+                         f"{RF}/ph/cat_00.jpg", f"{RF}/ph/cat_01.jpg", f"{RF}/ph/welf_*.jpg", f"{RF}/web/w1_00.jpg",
+                         f"{RF}/web/w7_11.jpg", f"{RF}/user/review3/eg_[st]*", f"{RF}/user/review3/annex_east_*", f"{RF}/sv/*.png"],
+    "06_Fotos/Innen": [*dsc((2497, 2500), (2510, 2547), (2552, 2557), (2560, 2561), (2569, 2572)),
+                       *pf("*Galerie*", "*Lesesaal*", "hannover_tib_ub_*"), f"{RF}/ph/cat_0[2-6].jpg",
+                       f"{RF}/user/interior_*.webp", f"{RF}/web/w3_13.jpg"],
+    "06_Fotos/Innenhoefe": dsc((2501, 2509), (2562, 2568)),
+    "06_Fotos/Details": dsc((2548, 2551), (2558, 2559)),
+    "06_Fotos/Historisch": [*pf("Screenshot_*", "TIB_Außenansicht*", "TIB_im_Bau_*"), f"{RF}/user/review3/eg_historic_bw.png"],
+    "06_Fotos/Luftbilder": [*pf("gottfried-*"), f"{RF}/web/wc_02.jpg", f"{RF}/cesium/tib_ortho_google.png",
+                            f"{RF}/cesium/corners.png", f"{RF}/user/review3/annex_roof_google3d.webp"],
 }
 
 

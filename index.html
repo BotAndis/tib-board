@@ -385,12 +385,12 @@ function editDrag(e) {
     return { move(dx, dy) {
       if (rz) { it.w = Math.max(60, it.w + dx); c.style.width = m.style.width = it.w + "px"; m.style.height = it.w / ar + "px"; }
       else { it.x += dx; it.y += dy; c.style.left = it.x + "px"; c.style.top = it.y + "px"; }
-    }, end() { it.x = Math.round(it.x); it.y = Math.round(it.y); it.w = Math.round(it.w); } };
+    }, end() { it.x = Math.round(it.x); it.y = Math.round(it.y); it.w = Math.round(it.w); it.moved = true; } };
   }
   if (lab && !lab.isContentEditable) {
     const l = lab.lab;
     return { move(dx, dy) { l.x += dx; l.y += dy; lab.style.left = l.x + "px"; lab.style.top = l.y + "px"; },
-      end() { l.x = Math.round(l.x); l.y = Math.round(l.y); } };
+      end() { l.x = Math.round(l.x); l.y = Math.round(l.y); l.moved = true; } };
   }
   return null;
 }
