@@ -228,20 +228,21 @@ def layout(sections):
     for s in sections:
         lid = "label:" + s["title"]
         labels.append(pos.get(lid) or {"id": lid, "text": texts.get(lid, s["title"]), "x": 0, "y": y})
-        y += 90
+        y += 250  # room for the 180px section title
+        h = ROW_H * 2 if s["title"] == "Fotos" else ROW_H  # photo stacks are the content there, so show them bigger
         x = 0
         for it in s["items"]:
-            w = ROW_H * it.get("ar", 1.0) if it["kind"] in ("pdf", "image") else ROW_H
+            w = h * it.get("ar", 1.0) if it["kind"] in ("pdf", "image") else h
             if it["id"] in pos:
                 p = pos[it["id"]]
                 it |= {"x": p["x"], "y": p["y"], "w": p["w"], "moved": True}
             else:
                 if x and x + w > MAX_W:
-                    x, y = 0, y + ROW_H + 90
+                    x, y = 0, y + h + 110
                 it |= {"x": x, "y": y, "w": round(w)}
                 x += w + GAP
             items.append(it)
-        y += ROW_H + 220
+        y += h + 380
     board.write_text(json.dumps({"labels": labels, "items": items}, ensure_ascii=False, indent=1), encoding="utf-8")
 
 

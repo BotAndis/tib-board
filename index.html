@@ -22,7 +22,8 @@ html,body{margin:0;height:100%;overflow:hidden;background:var(--bg);color:var(--
 .pdf .media img{object-fit:contain}
 .media canvas.hi{position:absolute;pointer-events:none}
 .cap{margin-top:8px;font-size:13px;color:var(--mute);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.far .cap{visibility:hidden}
+.far .card:not(.stack) .cap{visibility:hidden}
+.stack .cap{font-size:40px;color:var(--ink);margin-top:12px}
 .tile{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:6px;height:100%;
   background:var(--tile);color:var(--mute);font-size:22px;letter-spacing:.06em;text-transform:uppercase}
 .tile small{font-size:11px;letter-spacing:0;text-transform:none}
@@ -31,7 +32,7 @@ html,body{margin:0;height:100%;overflow:hidden;background:var(--bg);color:var(--
   color:var(--mute);font-size:12px;text-transform:uppercase}
 .mosaic img{width:100%;height:100%;object-fit:cover}
 .count{position:absolute;right:8px;bottom:8px;background:rgba(255,255,255,.92);border-radius:10px;padding:2px 8px;font-size:12px}
-.label{position:absolute;font-size:64px;font-weight:500;letter-spacing:-.01em;white-space:nowrap;user-select:none}
+.label{position:absolute;font-size:180px;line-height:1;font-weight:600;letter-spacing:-.025em;white-space:nowrap;user-select:none}
 /* overlay */
 #ov{position:fixed;inset:0;background:var(--bg);display:flex;flex-direction:column;z-index:10}
 #ov[hidden]{display:none}
