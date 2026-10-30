@@ -73,13 +73,24 @@ PLAN = {
 }
 
 
+# photos left out on purpose: same perspective as a kept one (one day + one night view per viewpoint is enough)
+SKIP_FOTOS = {f"DSC_{n}.JPG" for n in (
+    2460, 2461, 2462, 2464, 2465, 2466, 2468, 2469, 2471, 2472, 2473, 2474, 2475, 2477, 2478, 2498, 2503, 2504, 2506,
+    2508, 2509, 2512, 2514, 2518, 2521, 2524, 2526, 2529, 2530, 2532, 2533, 2535, 2536, 2538, 2539, 2541, 2543, 2546,
+    2548, 2552, 2554, 2555, 2559, 2560, 2563, 2565, 2571)} | {
+    "cat_01.jpg", "cat_02.jpg", "commons_0dcff9.jpg", "commons_551fbe.jpg", "commons_5b2aae.jpg", "commons_95bc1d.jpg",
+    "corners.png", "csm_technat-aussen-2_d59ba30e01.jpg", "eg_sw_day_tinted.webp", "eg_sw_dusk_all_around.webp",
+    "images.jpg", "interior_1_lesesaal.webp", "interior_2_gallery.webp", "n_nw_00.png", "s_east_00.png", "w3_13.jpg",
+    "welf_01.jpg", "welf_06.jpg"}
+
+
 def stage(out):
     n = 0
     for dest, globs in PLAN.items():
         for g in globs:
             root = g.split("**")[0] if "**" in g else None
             for src in glob.glob(g, recursive=True):
-                if not os.path.isfile(src):
+                if not os.path.isfile(src) or dest.startswith("06_Fotos") and os.path.basename(src) in SKIP_FOTOS:
                     continue
                 rel = os.path.relpath(src, root) if root else os.path.basename(src)
                 dst = os.path.join(out, dest, rel)
