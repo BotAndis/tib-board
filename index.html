@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<title>TIB Übersicht</title>
+<script type="importmap">
+{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.165.0/build/three.module.js",
+ "three/addons/":"https://cdn.jsdelivr.net/npm/three@0.165.0/examples/jsm/"}}
+</script>
+<style>
+:root{--ink:#1a1a1a;--mute:#8a8a8a;--line:#e7e7e7;--bg:#fff;--tile:#f4f4f2}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;overflow:hidden;background:var(--bg);color:var(--ink);
+  font:13px/1.35 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+.host{position:fixed;inset:0;overflow:hidden;touch-action:none;cursor:grab}
+.host.panning{cursor:grabbing}
+.world{position:absolute;left:0;top:0;transform-origin:0 0}
+.card{position:absolute;cursor:pointer}
+.media{position:relative;background:#fff;outline:1px solid var(--line);overflow:hidden}
+.media img{display:block;width:100%;height:100%;object-fit:cover;pointer-events:none;user-select:none}
+.pdf .media img{object-fit:contain}
+.media canvas.hi{position:absolute;pointer-events:none}
+.cap{margin-top:8px;font-size:13px;color:var(--mute);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.far .cap{visibility:hidden}
+.tile{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:6px;height:100%;
+  background:var(--tile);color:var(--mute);font-size:22px;letter-spacing:.06em;text-transform:uppercase}
+.tile small{font-size:11px;letter-spacing:0;text-transform:none}
+.mosaic{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:2px;height:100%;background:#fff}
+.mosaic>*{overflow:hidden;background:var(--tile);display:flex;align-items:center;justify-content:center;
+  color:var(--mute);font-size:12px;text-transform:uppercase}
+.mosaic img{width:100%;height:100%;object-fit:cover}
+.count{position:absolute;right:8px;bottom:8px;background:rgba(255,255,255,.92);border-radius:10px;padding:2px 8px;font-size:12px}
+.label{position:absolute;font-size:64px;font-weight:500;letter-spacing:-.01em;white-space:nowrap;user-select:none}
+/* overlay */
+#ov{position:fixed;inset:0;background:var(--bg);display:flex;flex-direction:column;z-index:10}
+#ov[hidden]{display:none}
+.bar{display:flex;align-items:center;gap:18px;padding:12px 16px;border-bottom:1px solid var(--line);min-height:48px}
+.bar .t{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:14px}
+.bar a,.bar button{color:var(--ink);text-decoration:none;background:none;border:0;font:inherit;cursor:pointer;padding:4px 0}
+.bar a:hover,.bar button:hover{color:var(--mute)}
+#ovbody{position:relative;flex:1;min-height:0}
+#ovbody>.host{position:absolute}
+.page{position:absolute;background:#fff;box-shadow:0 0 0 1px var(--line)}
+.page img{width:100%;height:100%;display:block}
+.page canvas.hi{position:absolute}
+.grid{position:absolute;inset:0;overflow:auto;padding:24px 16px;display:grid;gap:28px 20px;align-content:start;
+  grid-template-columns:repeat(auto-fill,minmax(220px,1fr))}
+.grid .card{position:relative}
+.grid .media{aspect-ratio:4/3}
+.grid .pdf .media{aspect-ratio:1/1.414}
+iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.center{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;color:var(--mute)}
+.center a{color:var(--ink)}
+.msg{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);color:var(--mute)}
+/* edit mode */
+#save{position:fixed;right:16px;bottom:16px;z-index:5;padding:8px 14px;border:1px solid var(--ink);background:#fff;font:inherit;cursor:pointer}
+.edit .card{cursor:move}
+.edit .label{cursor:move}
+.rz{display:none;position:absolute;right:-7px;bottom:-7px;width:14px;height:14px;background:var(--ink);cursor:nwse-resize}
+.edit .card:hover .rz{display:block}
+@media (max-width:600px){.bar{gap:12px;padding:10px 12px}}
+</style>
+</head>
+<body>
+<div class="host" id="board"><div class="world" id="world"></div></div>
+<div id="ov" hidden>
+  <div class="bar"><button id="ovback" title="Zurück">←</button><span class="t" id="ovtitle"></span>
+    <a id="ovdl" target="_blank" rel="noopener">Download</a><button id="ovclose" title="Schließen">✕</button></div>
+  <div id="ovbody"></div>
+</div>
+<script type="module">
+const PDFJS = "https://cdn.jsdelivr.net/npm/pdfjs-dist@4.4.168/build/pdf.min.mjs";
+const PDFJS_WORKER = "https://cdn.jsdelivr.net/npm/pdfjs-dist@4.4.168/build/pdf.worker.min.mjs";
+const EDIT = new URLSearchParams(location.search).has("edit");
+const $ = (s, r = document) => r.querySelector(s);
+const el = (tag, cls, html) => { const e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; };
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const mb = n => n > 1e6 ? (n / 1e6).toFixed(1) + " MB" : Math.max(1, Math.round(n / 1e3)) + " KB";
+
+/* ---------- pan / zoom ---------- */
+class View {
+  constructor(host, world, { onChange, onClick, onDrag, min = 0.03, max = 40 } = {}) {
+    Object.assign(this, { host, world, onChange, onClick, onDrag, min, max, x: 0, y: 0, s: 1, gen: 0 });
+    const pts = new Map(); let start = null, moved = 0, drag = null, pinch = null;
+    host.addEventListener("pointerdown", e => {
+      if (e.button > 0) return;
+      host.setPointerCapture(e.pointerId);
+      pts.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      if (pts.size === 1) { start = { x: e.clientX, y: e.clientY, t: e.target }; moved = 0; drag = onDrag?.(e) || null; }
+      if (pts.size === 2) { drag = null; const [a, b] = [...pts.values()]; pinch = { d: Math.hypot(a.x - b.x, a.y - b.y) }; }
+    });
+    host.addEventListener("pointermove", e => {
+      const p = pts.get(e.pointerId); if (!p) return;
+      const dx = e.clientX - p.x, dy = e.clientY - p.y; p.x = e.clientX; p.y = e.clientY;
+      moved += Math.abs(dx) + Math.abs(dy);
+      if (pts.size === 2) {
+        const [a, b] = [...pts.values()], d = Math.hypot(a.x - b.x, a.y - b.y), r = host.getBoundingClientRect();
+        this.x += dx / 2; this.y += dy / 2;
+        this.zoomAt((a.x + b.x) / 2 - r.left, (a.y + b.y) / 2 - r.top, d / pinch.d); pinch.d = d;
+      } else if (drag) drag.move(dx / this.s, dy / this.s);
+      else { host.classList.add("panning"); this.x += dx; this.y += dy; this.apply(); }
+    });
+    const up = e => {
+      if (!pts.delete(e.pointerId)) return;
+      host.classList.remove("panning");
+      if (pts.size === 0) { if (drag) drag.end?.(); else if (moved < 6 && start) onClick?.(start.t, e); drag = null; start = null; pinch = null; }
+    };
+    host.addEventListener("pointerup", up); host.addEventListener("pointercancel", up);
+    host.addEventListener("wheel", e => {
+      e.preventDefault();
+      const r = host.getBoundingClientRect();
+      // mouse wheel (big integer steps) and pinch (ctrlKey) zoom; trackpad two-finger scroll pans
+      const zoom = e.ctrlKey || e.deltaMode === 1 || (e.deltaX === 0 && Math.abs(e.deltaY) >= 50 && Number.isInteger(e.deltaY));
+      if (zoom) this.zoomAt(e.clientX - r.left, e.clientY - r.top, Math.exp(-e.deltaY * (e.ctrlKey ? 0.01 : 0.0016)));
+      else { this.x -= e.deltaX; this.y -= e.deltaY; this.apply(); }
+    }, { passive: false });
+  }
+  zoomAt(cx, cy, f) {
+    const s = Math.min(this.max, Math.max(this.min, this.s * f));
+    this.x = cx - (cx - this.x) * (s / this.s); this.y = cy - (cy - this.y) * (s / this.s); this.s = s; this.apply();
+  }
+  fit(w, h, pad = 24, top = false) {
+    const r = this.host.getBoundingClientRect();
+    this.s = Math.min((r.width - 2 * pad) / w, (r.height - 2 * pad) / h);
+    this.x = (r.width - w * this.s) / 2; this.y = top ? pad : (r.height - h * this.s) / 2; this.apply();
+  }
+  apply() {
+    this.world.style.transform = `translate(${this.x}px,${this.y}px) scale(${this.s})`;
+    this.gen++; clearTimeout(this.t); this.t = setTimeout(() => this.onChange?.(), 160);
+  }
+}
+
+/* ---------- PDF: sharp re-render of only the visible part ---------- */
+let pdfjsP;
+const pdfjs = () => pdfjsP ??= import(PDFJS).then(m => { m.GlobalWorkerOptions.workerSrc = PDFJS_WORKER; return m; });
+const docs = new Map();
+function getDoc(url) {
+  let p = docs.get(url);
+  if (p) docs.delete(url);  // move to the end (LRU)
+  else p = pdfjs().then(m => m.getDocument({ url, disableRange: true, disableStream: true, isEvalSupported: false }).promise);
+  docs.set(url, p);
+  if (docs.size > 8) { const [k, old] = docs.entries().next().value; docs.delete(k); old.then(d => d.destroy()).catch(() => {}); }
+  return p;
+}
+// targets: [{box, page: () => Promise<PDFPage>, minPx}] ; renders sequentially, aborts when the view moves again
+async function sharpen(view, targets) {
+  const gen = view.gen, hr = view.host.getBoundingClientRect(), dpr = devicePixelRatio || 1;
+  for (const t of targets) {
+    const r = t.box.getBoundingClientRect(), old = t.box.querySelector("canvas.hi");
+    const x0 = Math.max(r.left, hr.left), y0 = Math.max(r.top, hr.top), x1 = Math.min(r.right, hr.right), y1 = Math.min(r.bottom, hr.bottom);
+    if (x1 <= x0 || y1 <= y0 || r.width * dpr < t.minPx) { old?.remove(); continue; }
+    try {
+      const page = await t.page();
+      if (gen !== view.gen) return;
+      const w1 = page.getViewport({ scale: 1 }).width, vp = page.getViewport({ scale: r.width * dpr / w1 });
+      const c = el("canvas", "hi"); c.width = Math.round((x1 - x0) * dpr); c.height = Math.round((y1 - y0) * dpr);
+      Object.assign(c.style, { left: (x0 - r.left) / r.width * 100 + "%", top: (y0 - r.top) / r.height * 100 + "%",
+        width: (x1 - x0) / r.width * 100 + "%", height: (y1 - y0) / r.height * 100 + "%" });
+      const task = page.render({ canvasContext: c.getContext("2d"), viewport: vp, background: "#fff",
+        transform: [1, 0, 0, 1, -(x0 - r.left) * dpr, -(y0 - r.top) * dpr] });
+      view.tasks = (view.tasks || []).concat(task);
+      await task.promise;
+      if (gen !== view.gen) return;
+      old?.remove(); t.box.append(c);
+    } catch (err) { if (err?.name !== "RenderingCancelledException") console.warn("pdf", err); return; }
+  }
+}
+const cancelTasks = v => { (v.tasks || []).forEach(t => t.cancel()); v.tasks = []; };
+
+/* ---------- 3D ---------- */
+let threeP;
+const three = () => threeP ??= Promise.all([import("three"), import("three/addons/controls/OrbitControls.js"),
+  import("three/addons/loaders/STLLoader.js"), import("three/addons/loaders/GLTFLoader.js"), import("three/addons/loaders/3MFLoader.js")])
+  .then(([T, { OrbitControls }, { STLLoader }, { GLTFLoader }, { ThreeMFLoader }]) => ({ T, OrbitControls, STLLoader, GLTFLoader, ThreeMFLoader }));
+const models = new Map();
+function loadModel(item) {
+  if (!models.has(item.url)) models.set(item.url, (async () => {
+    const L = await three(), { T } = L, buf = await (await fetch(item.url)).arrayBuffer();
+    let obj;
+    if (item.ext === "glb") obj = (await new L.GLTFLoader().parseAsync(buf, "")).scene;
+    else {
+      obj = item.ext === "3mf" ? new L.ThreeMFLoader().parse(buf) : new T.Mesh(new L.STLLoader().parse(buf));
+      obj.rotation.x = -Math.PI / 2;  // print files are Z-up
+      obj.traverse(o => {
+        if (!o.isMesh) return;
+        o.geometry.computeVertexNormals();
+        o.material = new T.MeshStandardMaterial({ color: 0xebe9e4, roughness: .95, flatShading: true });
+        if (o.geometry.attributes.position.count < 1.2e6)
+          o.add(new T.LineSegments(new T.EdgesGeometry(o.geometry, 30), new T.LineBasicMaterial({ color: 0x3a3a3a })));
+      });
+    }
+    return obj;
+  })());
+  return models.get(item.url);
+}
+function stage(L, obj, w, h, renderer) {
+  const { T } = L, scene = new T.Scene(); scene.background = new T.Color(0xffffff);
+  scene.add(obj, new T.HemisphereLight(0xffffff, 0xb5b5b5, 2.2));
+  const box = new T.Box3().setFromObject(obj), size = box.getSize(new T.Vector3()).length() || 1, c = box.getCenter(new T.Vector3());
+  const sun = new T.DirectionalLight(0xffffff, 1.6); sun.position.set(c.x + size, c.y + size * 1.4, c.z + size * .6); scene.add(sun);
+  const cam = new T.PerspectiveCamera(30, w / h, size / 500, size * 20);
+  cam.position.copy(c).add(new T.Vector3(1, .75, 1).normalize().multiplyScalar(size * 1.55 * Math.max(1, h / w))); cam.lookAt(c);
+  renderer.setSize(w, h, false);
+  return { scene, cam, c };
+}
+let thumbR;
+const modelThumbs = [];
+async function modelThumb(item, img) {  // one shared renderer, one card at a time
+  const L = await three(), obj = (await loadModel(item)).clone();
+  thumbR ??= new L.T.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
+  thumbR.setPixelRatio(1);
+  const { scene, cam } = stage(L, obj, 600, 600, thumbR);
+  thumbR.render(scene, cam); img.src = thumbR.domElement.toDataURL("image/webp", .85);
+}
+let thumbQ = Promise.resolve();
+
+/* ---------- board ---------- */
+const board = await (await fetch("board.json", { cache: "no-cache" })).json();
+const host = $("#board"), world = $("#world");
+const pdfTargets = [];
+
+function media(item, big) {
+  const m = el("div", "media");
+  if (item.kind === "stack") {
+    const mo = el("div", "mosaic");
+    for (const c of item.items.slice(0, 4)) mo.append(c.thumb ? Object.assign(el("img"), { src: c.thumb, loading: "lazy", alt: "" }) : el("div", "", esc(c.ext)));
+    m.append(mo, el("span", "count", item.items.length));
+  } else if (item.thumb) m.append(Object.assign(el("img"), { src: item.thumb, loading: "lazy", alt: "" }));
+  else if (item.kind === "model" && item.url) {
+    const img = el("img"); m.append(el("div", "tile", "3D"), img);
+    img.style.cssText = "position:absolute;inset:0";
+    modelThumbs.push([item, img]);
+  } else m.append(el("div", "tile", `${esc(item.kind === "html" ? "Interaktiv ↗" : item.ext)}<small>${esc(mb(item.size))}</small>`));
+  return m;
+}
+
+function card(item) {
+  const c = el("div", "card " + item.kind); c.item = item;
+  const m = media(item);
+  const ar = item.ar || 1;
+  m.style.width = item.w + "px"; m.style.height = item.w / ar + "px";
+  c.style.left = item.x + "px"; c.style.top = item.y + "px"; c.style.width = item.w + "px";
+  c.append(m, el("div", "cap", esc(item.title) + (item.kind === "stack" ? ` · ${item.items.length}` : "")));
+  if (EDIT) c.append(el("div", "rz"));
+  if (item.kind === "pdf" && item.url) pdfTargets.push({ box: m, page: () => getDoc(item.url).then(d => d.getPage(1)), minPx: 1250 });
+  return c;
+}
+
+for (const l of board.labels) {
+  const e = el("div", "label", esc(l.text)); e.style.left = l.x + "px"; e.style.top = l.y + "px"; e.lab = l; world.append(e);
+}
+for (const it of board.items) world.append(it.el = card(it));
+
+const view = new View(host, world, {
+  onChange() {
+    host.classList.toggle("far", view.s < .55);
+    cancelTasks(view);
+    sharpen(view, pdfTargets);
+  },
+  onClick(t) { const c = t.closest?.(".card"); if (c && !EDIT) openItem(c.item, siblingsOf(c.item)); },
+  onDrag: EDIT ? editDrag : null,
+});
+const W = Math.max(...board.items.map(i => i.x + i.w), ...board.labels.map(l => l.x + 600));
+view.fit(W, 1, 40, true);
+view.s = Math.max(view.s, .12); view.apply();
+
+// model card thumbnails once they scroll into view
+const io = new IntersectionObserver(es => es.forEach(e => {
+  if (!e.isIntersecting) return; io.unobserve(e.target);
+  const job = modelThumbs.find(([, img]) => img === e.target.querySelector("img:last-child"));
+  if (job) thumbQ = thumbQ.then(() => modelThumb(...job)).catch(err => console.warn("3d", err));
+}));
+board.items.filter(i => i.kind === "model" && i.url).forEach(i => io.observe(i.el.querySelector(".media")));
+
+function siblingsOf(item) {  // same section row: everything close in y
+  return board.items.filter(i => i.kind !== "stack" && Math.abs(i.y - item.y) < 40);
+}
+
+/* ---------- overlay ---------- */
+const ov = $("#ov"), body = $("#ovbody"), levels = [];
+let dispose = null;
+function openItem(item, list) {
+  if (item.kind === "file") { location.href = item.dl; return; }
+  levels.push({ item, list }); show();
+}
+function back() { levels.pop(); levels.length ? show() : close(); }
+function close() { levels.length = 0; dispose?.(); dispose = null; body.innerHTML = ""; ov.hidden = true; }
+$("#ovclose").onclick = close; $("#ovback").onclick = back;
+addEventListener("keydown", e => {
+  if (ov.hidden) return;
+  if (e.key === "Escape") back();
+  const top = levels.at(-1);
+  if ((e.key === "ArrowRight" || e.key === "ArrowLeft") && top?.list && top.item.kind !== "stack") {
+    const L = top.list.filter(i => i.kind !== "file"), i = L.indexOf(top.item);
+    const n = L[(i + (e.key === "ArrowRight" ? 1 : -1) + L.length) % L.length];
+    if (n && n !== top.item) { top.item = n; show(); }
+  }
+});
+
+function show() {
+  dispose?.(); dispose = null; body.innerHTML = ""; ov.hidden = false;
+  const { item } = levels.at(-1);
+  $("#ovtitle").textContent = item.title + (item.size ? `  ·  ${item.ext.toUpperCase()} ${mb(item.size)}` : "");
+  $("#ovback").style.visibility = levels.length > 1 ? "visible" : "hidden";
+  const dl = $("#ovdl"); dl.hidden = !item.dl; if (item.dl) dl.href = item.dl;
+  ({ pdf: showPdf, image: showImage, model: showModel, html: showHtml, stack: showStack })[item.kind]?.(item);
+}
+
+function zoomHost() {
+  const h = el("div", "host"), w = el("div", "world"); h.style.position = "absolute"; h.append(w); body.append(h); return [h, w];
+}
+
+async function showPdf(item) {
+  if (!item.url) { body.append(el("div", "center", `Noch nicht verlinkt. <a href="${esc(item.dl)}">Download</a>`)); return; }
+  const [h, w] = zoomHost(), note = el("div", "msg", "Lädt …"); body.append(note);
+  const v = new View(h, w, { onChange: () => { cancelTasks(v); sharpen(v, targets); } });
+  const targets = [];
+  dispose = () => cancelTasks(v);
+  try {
+    const doc = await getDoc(item.url); let y = 0, maxW = 0;
+    for (let n = 1; n <= doc.numPages; n++) {
+      const page = await doc.getPage(n), vp = page.getViewport({ scale: 1 });
+      const p = el("div", "page"); Object.assign(p.style, { left: 0, top: y + "px", width: vp.width + "px", height: vp.height + "px" });
+      if (n === 1 && item.thumb) p.append(Object.assign(el("img"), { src: item.thumb, alt: "" }));
+      w.append(p); targets.push({ box: p, page: () => Promise.resolve(page), minPx: 0 });
+      y += vp.height + 24; maxW = Math.max(maxW, vp.width);
+    }
+    note.remove();
+    v.fit(maxW, targets[0].box.offsetHeight, 24);
+  } catch (err) { note.textContent = "PDF konnte nicht geladen werden."; console.warn(err); }
+}
+
+function showImage(item) {
+  const [h, w] = zoomHost(), img = Object.assign(el("img"), { src: item.thumb, alt: "" });
+  const W = 2000, H = W / (item.ar || 1);
+  Object.assign(img.style, { width: W + "px", height: H + "px", display: "block" });
+  const full = new Image(); full.onload = () => { img.src = full.src; }; full.src = item.raw;
+  w.append(img); const v = new View(h, w); v.fit(W, H, 16);
+}
+
+async function showModel(item) {
+  const note = el("div", "msg", "3D-Modell lädt …"); body.append(note);
+  let alive = true, raf;
+  dispose = () => { alive = false; cancelAnimationFrame(raf); };
+  try {
+    const L = await three(), obj = (await loadModel(item)).clone();
+    if (!alive) return;
+    const r = body.getBoundingClientRect(), renderer = new L.T.WebGLRenderer({ antialias: true });
+    renderer.setPixelRatio(devicePixelRatio);
+    const { scene, cam, c } = stage(L, obj, r.width, r.height, renderer);
+    renderer.setSize(r.width, r.height);  // also sets the canvas CSS size (stage() leaves it for thumbnails)
+    const ctl = new L.OrbitControls(cam, renderer.domElement); ctl.target.copy(c); ctl.enableDamping = true; ctl.update();
+    note.remove(); body.append(renderer.domElement);
+    const loop = () => { ctl.update(); renderer.render(scene, cam); raf = requestAnimationFrame(loop); }; loop();
+    dispose = () => { alive = false; cancelAnimationFrame(raf); ctl.dispose(); renderer.dispose(); };
+  } catch (err) { note.textContent = "3D-Modell konnte nicht geladen werden."; console.warn(err); }
+}
+
+function showHtml(item) { body.append(Object.assign(el("iframe"), { src: item.url })); }
+
+function showStack(item) {
+  const g = el("div", "grid");
+  for (const c of item.items) {
+    const d = el("div", "card " + c.kind); const m = media(c);
+    d.append(m, el("div", "cap", esc(c.title)));
+    d.onclick = () => openItem(c, item.items);
+    g.append(d);
+  }
+  body.append(g);
+  const obs = new IntersectionObserver(es => es.forEach(e => {
+    if (!e.isIntersecting) return; obs.unobserve(e.target);
+    const job = modelThumbs.find(([, img]) => img === e.target.querySelector("img:last-child"));
+    if (job) thumbQ = thumbQ.then(() => modelThumb(...job)).catch(err => console.warn("3d", err));
+  }), { root: g });
+  g.querySelectorAll(".model .media").forEach(m => obs.observe(m));
+  dispose = () => obs.disconnect();
+}
+
+/* ---------- edit mode (?edit): move / resize, rename labels, save ---------- */
+function editDrag(e) {
+  const rz = e.target.closest(".rz"), c = e.target.closest(".card"), lab = e.target.closest(".label");
+  if (c) {
+    const it = c.item, m = c.querySelector(".media"), ar = it.ar || 1;
+    return { move(dx, dy) {
+      if (rz) { it.w = Math.max(60, it.w + dx); c.style.width = m.style.width = it.w + "px"; m.style.height = it.w / ar + "px"; }
+      else { it.x += dx; it.y += dy; c.style.left = it.x + "px"; c.style.top = it.y + "px"; }
+    }, end() { it.x = Math.round(it.x); it.y = Math.round(it.y); it.w = Math.round(it.w); } };
+  }
+  if (lab && !lab.isContentEditable) {
+    const l = lab.lab;
+    return { move(dx, dy) { l.x += dx; l.y += dy; lab.style.left = l.x + "px"; lab.style.top = l.y + "px"; },
+      end() { l.x = Math.round(l.x); l.y = Math.round(l.y); } };
+  }
+  return null;
+}
+if (EDIT) {
+  document.body.classList.add("edit");
+  world.addEventListener("dblclick", e => {
+    const lab = e.target.closest(".label"); if (!lab) return;
+    lab.contentEditable = "true"; lab.focus();
+    lab.onblur = () => { lab.contentEditable = "false"; lab.lab.text = lab.textContent.trim(); };
+  });
+  const btn = el("button", "", "Speichern"); btn.id = "save"; document.body.append(btn);
+  btn.onclick = async () => {
+    const json = JSON.stringify({ labels: board.labels, items: board.items.map(({ el, ...i }) => i) }, null, 1);
+    const gh = location.hostname.match(/^([^.]+)\.github\.io$/);
+    if (!gh) {  // local: hand the file over
+      const a = Object.assign(el("a"), { href: URL.createObjectURL(new Blob([json], { type: "application/json" })), download: "board.json" });
+      a.click(); return;
+    }
+    let token = localStorage.getItem("gh-token") || prompt("GitHub-Token (nur für dieses Repo, Contents: write):");
+    if (!token) return;
+    const api = `https://api.github.com/repos/${gh[1]}/${location.pathname.split("/")[1]}/contents/board.json`;
+    const H = { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json" };
+    btn.textContent = "Speichert …";
+    try {
+      const cur = await fetch(api, { headers: H, cache: "no-store" });
+      if (cur.status === 401) { localStorage.removeItem("gh-token"); throw new Error("Token ungültig"); }
+      const { sha } = await cur.json();
+      const bytes = new TextEncoder().encode(json); let bin = "";
+      for (let i = 0; i < bytes.length; i += 0x8000) bin += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
+      const content = btoa(bin);
+      const r = await fetch(api, { method: "PUT", headers: H, body: JSON.stringify({ message: "Board-Layout", content, sha }) });
+      if (!r.ok) throw new Error(r.status + " " + (await r.text()).slice(0, 120));
+      localStorage.setItem("gh-token", token);
+      btn.textContent = "Gespeichert ✓ (online in ~1 min)";
+    } catch (err) { btn.textContent = "Fehler: " + err.message; }
+    setTimeout(() => btn.textContent = "Speichern", 4000);
+  };
+}
+</script>
+</body>
+</html>

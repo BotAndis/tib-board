@@ -1,0 +1,262 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>TIB Model Views</title>
+<style>
+/* Review sheet: cards of photo/model swipe beside drawing/model swipe; drawings stay on white paper in both themes */
+:root{--bg:#f4f3f0;--panel:#fff;--ink:#1d1d1b;--mute:#666560;--line:#d9d6cf;--acc:#b3261e;--paper:#fff;
+  --chip:rgba(255,255,255,.9);--chip-ink:#1d1d1b;--red-t:#b3261e;--blue-t:#1f5fbf;--scrim:rgba(10,10,12,.86)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#151619;--panel:#1e1f23;--ink:#ebeae6;--mute:#a4a39e;--line:#38393e;
+  --acc:#e5584f;--paper:#fff;--chip:rgba(24,25,28,.86);--chip-ink:#ebeae6;--red-t:#ff7a72;--blue-t:#7aa7ff;--diff-t:#ce98ec;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#151619;--panel:#1e1f23;--ink:#ebeae6;--mute:#a4a39e;--line:#38393e;
+  --acc:#e5584f;--paper:#fff;--chip:rgba(24,25,28,.86);--chip-ink:#ebeae6;--red-t:#ff7a72;--blue-t:#7aa7ff;--diff-t:#ce98ec;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;font:14px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink)}
+header{display:flex;gap:6px 16px;align-items:baseline;flex-wrap:wrap;padding:12px 16px;border-bottom:1px solid var(--line);background:var(--panel);position:sticky;top:env(safe-area-inset-top,0px);z-index:5}
+header h1{font-size:16px;margin:0;font-weight:650;text-wrap:balance}
+header span{color:var(--mute);font-size:13px}
+main{padding-block:14px 40px;padding-inline:16px;max-width:1700px;margin:0 auto}
+main>p{margin:0 0 14px;max-width:75ch;color:var(--mute)}
+.r{color:var(--red-t)}.b{color:var(--blue-t)}
+h2{font-size:17px;margin:0 0 12px;text-wrap:balance}
+.bar{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin:0 0 10px}
+.bar .lab{color:var(--mute);margin-right:4px;font-size:12.5px;text-transform:uppercase;letter-spacing:.05em}
+button.t{border:1px solid var(--line);background:var(--panel);padding:5px 10px;border-radius:6px;cursor:pointer;font:inherit;color:var(--ink)}
+button.t.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+button.t:focus-visible,.cmp:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+.view-card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px;margin-bottom:18px}
+.view-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px}
+.view-grid figure{margin:0;min-width:0}
+.cmp{position:relative;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--paper);cursor:zoom-in;max-width:100%}
+.cmp img{width:100%;display:block}
+.cmp .top{position:absolute;inset:0}
+.cmp .top img{position:absolute;inset:0;height:100%}
+.cmp .line{position:absolute;top:0;bottom:0;width:2px;background:var(--acc);pointer-events:none}
+.cmp .lab{position:absolute;top:6px;background:var(--chip);color:var(--chip-ink);padding:2px 7px;border-radius:5px;font-size:12px}
+.cmprow{display:flex;gap:8px;align-items:center;font-size:12.5px;color:var(--mute);margin-top:6px;font-variant-numeric:tabular-nums}
+.cmprow input[type=range]{flex:1;min-width:0}
+.pane{position:relative;background:var(--paper);border:1px solid var(--line);border-radius:8px;overflow:hidden;height:360px;isolation:isolate}
+.pane svg{width:100%;height:100%;display:block;cursor:grab;touch-action:pan-y;position:absolute;inset:0}
+.pane svg:active{cursor:grabbing}
+.swipe{position:absolute;top:0;bottom:0;width:3px;background:var(--acc);z-index:3}
+.ctl{display:grid;grid-template-columns:0 auto minmax(90px,1fr);gap:8px;align-items:center;margin:6px 0;font-size:12.5px;color:var(--mute)}
+.ctl input[type=range]{width:100%}
+.drawing{min-width:0}
+.drawing-card .pane{height:min(70vh,720px)}
+.drawing-card select{max-width:100%;font:inherit;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:3px}
+.pane svg.diff-sheet{pointer-events:none}
+.legend .diff{color:var(--diff-t,#8b35ad)}
+#drawings-heading{margin-top:30px}
+.legend{font-size:12.5px;color:var(--mute);margin:6px 0}
+.legend .red{color:var(--red-t)}.legend .blue{color:var(--blue-t)}
+#lightbox{position:fixed;inset:0;background:var(--scrim);display:none;align-items:center;justify-content:center;z-index:20;padding:16px}
+.enlarged{border:1px solid var(--line);border-radius:8px;padding:12px;background:var(--panel);width:min(94vw,1400px);max-height:94vh;overflow:auto}
+.enlarged .cmp{cursor:default;width:fit-content;margin:auto}
+.enlarged .cmp>img{width:auto;max-width:100%;max-height:74vh}
+.enlarged .close{float:right;margin-bottom:8px}
+@media (max-width:800px){.view-grid{grid-template-columns:1fr}.pane{height:300px}.drawing-card .pane{height:420px}.drawing-card{padding:10px}}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
+</style>
+<header><h1>TIB 1102 · photo and model views</h1><span>Leibniz Universität Hannover, Technische Informationsbibliothek · audit fixes + furniture, 25 Oct 2026</span></header>
+<main>
+<p>13 views: 8 from outside, 2 from the air, 3 inside. Left: the real photo against the Rhino model from the same solved camera; drag the slider, switch the display mode, and click to enlarge. Outside views show only the building over the photo, with the basement faint below grade. Right: <span class="r">the given drawing (red)</span> against <span class="b">the same drawing generated from the 3D model (blue)</span>. Ctrl + wheel (or Meta + wheel) / pinch to zoom, mouse drag to pan, double-click to reset.</p>
+<div id="views"></div>
+<h2 id="drawings-heading">Drawings</h2>
+<p><span class="r">Given drawing in red</span> against <span class="b">model in blue</span>, with the same zoom, pan, swipe and overlay controls as above.</p>
+<div id="drawings" aria-labelledby="drawings-heading"></div>
+</main>
+<div id="lightbox" role="dialog" aria-modal="true" aria-label="Enlarged photo comparison"></div>
+<script src="assets/viewer.js"></script>
+<script src="js/views.js"></script>
+<script type="application/json" id="drawing-groups">
+[
+  {"title":"Plans","id":"plans","drawings":[{"type":"plan","level":"UG2"},{"type":"plan","level":"UG1"},{"type":"plan","level":"EG"},{"type":"plan","level":"OG1"},{"type":"plan","level":"OG2"},{"type":"plan","level":"Dach"}]},
+  {"title":"Sections","id":"sections","drawings":[{"type":"sec","id":"AA"},{"type":"sec","id":"BB50"},{"type":"sec","id":"BS_A"},{"type":"sec","id":"BS_B"},{"type":"sec","id":"SYS_A"},{"type":"sec","id":"SYS_B"}]},
+  {"title":"Elevations","id":"elevations","drawings":[{"type":"el","side":"Sued"},{"type":"el","side":"Ost"},{"type":"el","side":"Nord"},{"type":"el","side":"West"}]}
+]
+</script>
+<script>
+const RED = "#d0312d", BLUE = "#1f5fbf";
+const SIDES = {Sued: "South", Nord: "North", West: "West", Ost: "East"};
+const drawingGroups = JSON.parse(document.getElementById("drawing-groups").textContent);
+const drawingKey = spec => spec.type === "roof" ? "plan_Dach" : spec.type + "_" + (spec.side || spec.level || spec.id);
+const label = (parent, text) => { const e = V.h("span", {}, parent); e.textContent = text; return e; };
+const lb = document.getElementById("lightbox");
+let opener;
+function closeLightbox() { lb.style.display = "none"; lb.replaceChildren(); opener?.focus(); }
+lb.onclick = e => { if (e.target === lb) closeLightbox(); };
+document.addEventListener("keydown", e => {
+  if (lb.style.display !== "flex") return;
+  if (e.key === "Escape") closeLightbox();
+  if (e.key === "Tab") {
+    const items = [...lb.querySelectorAll("button,input")], first = items[0], last = items.at(-1);
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  }
+});
+
+function cmp(parent, view, initial = {}, enlarge = true) {
+  const f = V.h("figure", {}, parent), modes = V.h("div", {}, f);
+  const box = V.h("div", {class: "cmp"}, f);
+  V.h("img", {src: view.photo, alt: view.label, width: view.size[0], height: view.size[1], style: "height:auto"}, box);
+  const top = V.h("div", {class: "top"}, box);
+  const below = V.h("img", {alt: "", hidden: ""}, top), model = V.h("img", {alt: "", hidden: ""}, top);
+  const line = V.h("div", {class: "line"}, box);
+  label(V.h("span", {class: "lab", style: "left:6px"}, box), "photo");
+  const modeLabel = V.h("span", {class: "lab", style: "right:6px"}, box);
+  const row = V.h("div", {class: "cmprow"}, f); label(row, "photo");
+  const r = V.h("input", {type: "range", min: 0, max: 100, value: initial.swipe ?? 50, "aria-label": "Photo/model swipe"}, row);
+  label(row, "model");
+  const opacityRow = V.h("label", {class: "cmprow"}, f); label(opacityRow, "Below grade opacity");
+  opacityRow.hidden = !view.below;
+  const opacity = V.h("input", {type: "range", min: 0, max: 100, value: initial.opacity ?? 25}, opacityRow);
+  const value = label(opacityRow, opacity.value + "%");
+  let mode = initial.mode || view.modes[0];
+  const set = () => { top.style.clipPath = `inset(0 0 0 ${r.value}%)`; line.style.left = r.value + "%"; };
+  const pick = key => {
+    mode = key; model.hidden = !view.images[key];
+    if (!model.hidden) model.src = view.images[key];
+    below.hidden = !view.belowImages[key];
+    if (!below.hidden) below.src = view.belowImages[key];
+    modeLabel.textContent = key || "photo";
+  };
+  V.buttons(modes, "Mode", view.modes.map(k => [k, k]), mode, pick);
+  opacity.oninput = () => { below.style.opacity = opacity.value / 100; value.textContent = opacity.value + "%"; };
+  r.oninput = set; opacity.oninput(); pick(mode); set();
+  if (enlarge) {
+    box.tabIndex = 0; box.setAttribute("role", "button"); box.setAttribute("aria-label", "Enlarge " + view.label);
+    const open = () => {
+      opener = box; lb.replaceChildren();
+      const content = V.h("div", {class: "enlarged"}, lb);
+      const close = V.h("button", {class: "t close", type: "button"}, content, "Close"); close.onclick = closeLightbox;
+      cmp(content, view, {mode, swipe: r.value, opacity: opacity.value}, false);
+      lb.style.display = "flex"; close.focus();
+    };
+    box.onclick = open; box.onkeydown = e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); } };
+  }
+}
+
+function drawing(parent, spec, full = false) {
+  const key = drawingKey(spec);
+  const data = TIB[key];
+  let box, given, model, title, cut;
+  if (spec.type === "el") {
+    box = [data.u[0], -data.z[1], data.u[1] - data.u[0], data.z[1] - data.z[0]];
+    title = (SIDES[spec.side] || spec.side) + " elevation";
+    model = svg => V.paths(svg, Object.values(TIB["m2d_" + spec.side] || data.model).flat(), BLUE, 0.8);
+    given = (svg, source) => {
+      const d = source === "dwg" ? data.dwg : data.rev;
+      V.paths(svg, source === "dwg" ? d.trees : d.light, RED, 0.4);
+      V.paths(svg, source === "dwg" ? d.drawing : d.dark, RED, 0.8);
+    };
+  } else if (spec.type === "sec") {
+    box = data.box; cut = Object.hasOwn(data.cuts, spec.cut) ? spec.cut : data.best;
+    title = `${data.title} · cut ${data.axis} = ${cut} m`;
+    model = svg => V.paths(svg, data.cuts[cut], BLUE, 0.9);
+    given = svg => { V.paths(svg, data.draw.light, RED, 0.4); V.paths(svg, data.draw.main, RED, 0.7); };
+  } else {
+    const b = data.top.box; box = [b[0], -b[3], b[2] - b[0], b[3] - b[1]];
+    title = spec.type === "roof" ? "Roof" : (spec.level === "Dach" ? "Roof" : spec.level) + " plan";
+    model = svg => {
+      const paths = spec.type === "roof" ? TIB.m2d_roof : data.cut;
+      if (paths) for (const group in paths) V.paths(svg, paths[group], BLUE, /^(walls|facade)/.test(group) ? 1 : 0.7);
+    };
+    given = svg => {
+      V.paths(svg, data.hatch, null, 1, "rgba(208,49,45,.15)");
+      for (const group in data.dwg) V.paths(svg, data.dwg[group], RED, group === "walls" ? 1 : 0.7);
+    };
+  }
+  const viewport = new V.View(box), p = V.pane(parent, "", viewport, 2);
+  model(p.sheets[0]); given(p.sheets[1], "rev");
+  const controls = V.h("div", {}, parent);
+  if (spec.type === "el") V.buttons(controls, "Given", [["rev", "Revised"], ["dwg", "DWG"]], "rev", source => {
+    p.sheets[1].replaceChildren(); given(p.sheets[1], source);
+  });
+  if (full && spec.type === "sec") {
+    const row = V.h("label", {class: "cmprow"}, controls); label(row, "Model cut");
+    const select = V.h("select", {"aria-label": data.title + " model cut"}, row);
+    for (const key of Object.keys(data.cuts).sort((a, b) => Number(a) - Number(b))) {
+      const option = V.h("option", {value: key}, select);
+      option.textContent = `${data.axis} = ${key} m${key === data.best ? " (best)" : ""}`;
+    }
+    select.value = cut;
+    select.onchange = () => { cut = select.value; p.sheets[0].replaceChildren(); model(p.sheets[0]); };
+  }
+  V.swipe(controls, p, "drawing / model");
+  const swipe = controls.querySelector("input[type=range]");
+  swipe.setAttribute("aria-label", title + " swipe"); swipe.value = 50;
+  const overlayRow = V.h("label", {class: "cmprow"}, controls);
+  const overlay = V.h("input", {type: "checkbox"}, overlayRow); label(overlayRow, "Overlay (dark = match)");
+  const apply = () => {
+    p.sheets[1].style.mixBlendMode = overlay.checked ? "multiply" : "normal";
+    p.sheets[1].style.background = overlay.checked ? "transparent" : "white";   // opaque paper on the drawing side
+    swipe.disabled = overlay.checked; p.div.querySelector(".swipe").hidden = overlay.checked;
+    if (overlay.checked) p.sheets[1].style.clipPath = "none"; else swipe.oninput();
+  };
+  swipe.oninput(); overlay.onchange = apply; apply();
+  if (full && (spec.type === "plan" || spec.type === "roof")) {
+    const diff = V.svgEl("svg", {class: "diff-sheet", preserveAspectRatio: "xMidYMid meet", "aria-hidden": "true"}, p.div);
+    viewport.attach(diff); diff.setAttribute("hidden", "");
+    for (const kind of ["model_only", "plan_only"]) {
+      const group = V.svgEl("g", {"data-kind": kind}, diff);
+      V.paths(group, data.diff.filter(r => r.kind === kind).map(r => r.d), "#8b35ad", 2);
+      if (kind === "plan_only") group.setAttribute("stroke-dasharray", "5 3");
+    }
+  }
+  return title;
+}
+
+async function start() {
+  const files = new Set([...TIB.views, ...drawingGroups].flatMap(v => v.drawings.map(drawingKey)));
+  await Promise.all([...files].map(key => new Promise((resolve, reject) => {
+    const script = V.h("script", {src: "js/" + key + ".js"}, document.head);
+    script.onload = resolve; script.onerror = () => reject(new Error("Cannot load " + script.src));
+  })));
+  const list = document.getElementById("views");
+  for (const view of TIB.views) {
+    const card = V.h("article", {class: "view-card", id: view.id}, list);
+    const heading = V.h("h2", {}, card); heading.textContent = view.label;
+    const grid = V.h("div", {class: "view-grid"}, card);
+    cmp(V.h("div", {class: "photo-view"}, grid), view);
+    const right = V.h("div", {class: "drawing"}, grid), tabs = V.h("div", {}, right);
+    const panels = view.drawings.map((spec, i) => {
+      const panel = V.h("div", {class: "drawing-tab"}, right);
+      const title = drawing(panel, spec); panel.hidden = i !== 0; return {panel, title};
+    });
+    V.buttons(tabs, "Drawing", panels.map(({title}, i) => [i, title]), 0, index => {
+      panels.forEach(({panel}, i) => { panel.hidden = i !== index; });
+    });
+    V.h("p", {class: "legend"}, right, '<span class="red">Red: given drawing</span> · <span class="blue">Blue: model</span>');
+  }
+  for (const group of drawingGroups) {
+    const card = V.h("article", {class: "view-card drawing-card", id: "drawings-" + group.id}, document.getElementById("drawings"));
+    V.h("h2", {}, card, group.title);
+    const tabs = V.h("div", {}, card);
+    const panels = group.drawings.map((spec, i) => {
+      const panel = V.h("div", {class: "drawing-tab", id: `drawings-${group.id}-${i}`}, card);
+      drawing(panel, spec, true); panel.hidden = i !== 0;
+      const title = spec.type === "sec" ? `${spec.id} · ${TIB[drawingKey(spec)].title}` :
+        spec.type === "el" ? SIDES[spec.side] : spec.level === "Dach" ? "Roof" : spec.level || "Roof";
+      return {panel, title};
+    });
+    const bar = V.buttons(tabs, group.title, panels.map(({title}, i) => [i, title]), 0, index => {
+      panels.forEach(({panel}, i) => { panel.hidden = i !== index; });
+    });
+    bar.querySelectorAll("button").forEach((button, i) => button.setAttribute("aria-controls", panels[i].panel.id));
+    V.h("p", {class: "legend"}, card, '<span class="red">Red: given drawing</span> · <span class="blue">Blue: model</span>');
+    if (group.id === "plans") {
+      const row = V.h("label", {class: "cmprow"}, tabs);
+      const checkbox = V.h("input", {type: "checkbox"}, row); label(row, "Show differences");
+      const legend = V.h("p", {class: "legend", hidden: ""}, tabs,
+        '<span class="diff">Purple outline: model only (solid) · plan only (dashed)</span>');
+      checkbox.onchange = () => {
+        card.querySelectorAll(".diff-sheet").forEach(svg => svg.toggleAttribute("hidden", !checkbox.checked));
+        legend.hidden = !checkbox.checked;
+      };
+    }
+  }
+}
+start().catch(error => {
+  console.error(error); document.getElementById("views").textContent = "Unable to load views: " + error.message;
+});
+</script>
+
+</body></html>

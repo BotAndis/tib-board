@@ -1,0 +1,245 @@
+"""Build board.json + thumbnails from the local 'Übersicht Main Datein' tree (already synced to Seafile).
+
+- SECTIONS below decides what lies open on the board and what goes into stacks.
+- Positions/sizes you changed on the board (edit mode, saved into board.json) are kept; only new items get auto-placed.
+- PDFs and 3D files get one Seafile share link each: only /seafhttp/f/<token>/ allows the page to fetch them (CORS).
+Run: uv run --no-project --python 3.12 --with mcp==1.27.2 --with pymupdf --with pillow python build_board.py
+"""
+import fnmatch, hashlib, json, re, shutil, sys
+from pathlib import Path
+from urllib.parse import quote
+
+import fitz
+from PIL import Image
+
+sys.path.insert(0, "D:/Claude_Workspaces/CX-NEA/Seafile-MCP")
+import server as sf  # noqa: E402
+
+LOCAL = Path("D:/UNI/Bachelor/Übersicht Main Datein")
+LIB, REMOTE = "Neuer Start", "/Bachelor Kempe/Übersicht Main Datein"
+FOLDER_LINK = "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/"
+REPO = Path(__file__).resolve().parent.parent
+THUMBS = REPO / "thumbs"
+
+KIND = {".pdf": "pdf", ".jpg": "image", ".jpeg": "image", ".png": "image", ".webp": "image",
+        ".stl": "model", ".glb": "model", ".3mf": "model", ".html": "html"}
+# HTML previews are served from the repo itself (Seafile forbids framing): local path -> repo path
+HTML = {"04_3D-Modelle/Modell-Ansichten_HTML/index.html": "html/modell-ansichten/index.html",
+        "02_Analyse/Details/Kern335/Treppe_Kern335_Detailmappe_2.html": "html/kern335-detailmappe.html",
+        "02_Analyse/Raumprogramm/TIB_1102_D_Flaechen-Editor_10.html": "html/flaechen-editor.html"}
+
+# (title, [entries]); entry = ("open", globs) | ("latest", globs) | ("stack", title, globs)
+# "latest": newest version open (name_v3 / name_2 beats name), older ones go into one "Ältere Versionen" stack.
+SECTIONS = [
+    ("Aufgabe", [("open", ["00_Aufgabe/*.pdf"])]),
+    ("Bestand · Pläne Uni", [
+        ("open", ["01_Bestand_Uni/Grundrisse/*.pdf", "01_Bestand_Uni/Schnitte/*.pdf", "01_Bestand_Uni/Ansichten/*.pdf"]),
+        ("latest", ["01_Bestand_Uni/Lageplan/*.pdf"]),
+        ("stack", "Nachbargebäude", ["01_Bestand_Uni/Nachbargebaeude/**"]),
+        ("stack", "Buchscans", ["01_Bestand_Uni/Buchscans/*"]),
+        ("stack", "CAD + Raumliste", ["01_Bestand_Uni/*/*"]),
+    ]),
+    ("Analyse · Grundrisse", [
+        ("open", ["02_Analyse/Grundrisse/*_M1-200.pdf"]),
+        ("open", ["02_Analyse/Grundrisse_Moeblierung/*.pdf"]),
+        ("stack", "Grundrisse A3 · M 1:250", ["02_Analyse/Grundrisse/*_A3.pdf"]),
+        ("stack", "CAD (DXF)", ["02_Analyse/Grundrisse*/*.dxf"]),
+    ]),
+    ("Analyse · Schnitte", [
+        ("open", ["02_Analyse/Schnitte/TIB_*.pdf", "02_Analyse/Schnitte/hannover-*.pdf"]),
+        ("stack", "Städtebaulicher Schnitt · Stile", ["02_Analyse/Schnitte/LP_*.pdf"]),
+        ("stack", "CAD (DXF)", ["02_Analyse/Schnitte/*"]),
+    ]),
+    ("Analyse · Lageplan", [
+        ("latest", ["02_Analyse/Lageplan/*_Lageplan_*.pdf"]),
+        ("stack", "Alle Pläne (Sammel-PDF)", ["02_Analyse/Lageplan/*alle_Plaene*"]),
+        ("stack", "CAD (DXF)", ["02_Analyse/Lageplan/*"]),
+    ]),
+    ("Analyse · Raumprogramm", [
+        ("latest", ["02_Analyse/Raumprogramm/*.pdf"]),
+        ("open", ["02_Analyse/Raumprogramm/*.html"]),
+        ("stack", "Grafiken, Excel, DXF", ["02_Analyse/Raumprogramm/*"]),
+    ]),
+    ("Analyse · Details", [
+        ("latest", ["02_Analyse/Details/*.pdf", "02_Analyse/Details/Kern335/*.pdf"]),
+        ("latest", ["02_Analyse/Details/Kern335/*.html"]),
+        ("stack", "Kern 335 · Fotos", ["02_Analyse/Details/Kern335/Fotos/*", "02_Analyse/Details/Kern335/WhatsApp*"]),
+        ("stack", "Kern 335 · Grafiken + CAD", ["02_Analyse/Details/**"]),
+    ]),
+    ("Entwurf", [
+        ("latest", ["03_Entwurf/Renderings/TIB_Vergleich_*"]),
+        ("stack", "Varianten Andis", ["03_Entwurf/Renderings/Andis*"]),
+        ("stack", "Varianten Luca", ["03_Entwurf/Renderings/Luca*"]),
+        ("stack", "Optionen 1–15", ["03_Entwurf/Renderings/Option*"]),
+        ("stack", "Lagepläne Varianten", ["03_Entwurf/Lageplaene_Varianten/*"]),
+        ("stack", "Flächenbedarf (Rhino)", ["03_Entwurf/Flaechenbedarf/*"]),
+    ]),
+    ("3D-Modelle", [
+        ("open", ["04_3D-Modelle/Modell-Ansichten_HTML/index.html", "04_3D-Modelle/Web-Vorschau/*.glb"]),
+        ("latest", ["04_3D-Modelle/Bestandsmodell/*.png"]),
+        ("stack", "Modell Uni · Ansichten", ["04_3D-Modelle/Bestandsmodell_Uni/*.png"]),
+        ("stack", "Rhino-Dateien + Bericht", ["04_3D-Modelle/*/*.3dm", "04_3D-Modelle/*/*.ifc", "04_3D-Modelle/*/*.md"]),
+    ]),
+    ("3D-Druck", [
+        ("open", ["05_3D-Druck/Bestand_M1-500/*.stl", "05_3D-Druck/Varianten_M1-500/*.stl", "05_3D-Druck/Varianten_M1-500/*.png"]),
+        ("stack", "Druckteile geteilt", ["05_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/**"]),
+        ("stack", "Bambu 3MF + Liesmich", ["05_3D-Druck/**"]),
+    ]),
+    ("Fotos", [
+        ("stack", "Pressefotos", ["06_Fotos/Pressefotos/*"]),
+        ("stack", "Besichtigung 20.10.", ["06_Fotos/Besichtigung_2026-10-20/*"]),
+        ("stack", "Perspektiven 21.10.", ["06_Fotos/Perspektiven_2026-10-21/*"]),
+        ("stack", "Online", ["06_Fotos/Online/*"]),
+    ]),
+]
+
+VER = re.compile(r"_(?:v)?(\d+)$")
+
+
+def version(rel):
+    stem = Path(rel).stem
+    m = VER.search(stem)
+    return (VER.sub("", stem), int(m.group(1)) if m else 1)
+
+
+def match(rel, globs):
+    # fnmatch '*' also crosses '/', so a plain '*' segment would swallow subfolders: compare segment counts
+    for g in globs:
+        if g.endswith("/**"):
+            if rel.startswith(g[:-2]):
+                return True
+        elif fnmatch.fnmatch(rel, g) and rel.count("/") == g.count("/"):
+            return True
+    return False
+
+
+def thumb(rel, kind):
+    """Thumbnail in the repo; returns (path, width/height)."""
+    src = LOCAL / rel
+    out = THUMBS / (hashlib.sha1(rel.encode()).hexdigest()[:16] + ".webp")
+    if not out.exists():
+        if kind == "pdf":
+            page = fitz.open(src)[0]
+            z = 1100 / max(page.rect.width, page.rect.height)
+            pix = page.get_pixmap(matrix=fitz.Matrix(z, z), alpha=False)
+            im = Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
+        else:
+            im = Image.open(src)
+            im.thumbnail((720, 720))
+            im = im.convert("RGB")
+        im.save(out, "WEBP", quality=82)
+    w, h = Image.open(out).size
+    return out.relative_to(REPO).as_posix(), round(w / h, 4)
+
+
+def main():
+    files = sorted(p.relative_to(LOCAL).as_posix() for p in LOCAL.rglob("*") if p.is_file()
+                   and "Modell-Ansichten_HTML/" not in p.relative_to(LOCAL).as_posix()
+                   or p.relative_to(LOCAL).as_posix() in HTML)
+    THUMBS.mkdir(exist_ok=True)
+    repo = sf._repo(LIB)
+    cache = Path(__file__).with_name("links.json")  # path -> share token, so re-runs never create duplicates
+    links = json.loads(cache.read_text(encoding="utf-8")) if cache.exists() else {}
+    remote = {f"{f['parent_dir'].rstrip('/')}/{f['name']}"
+              for f in sf.api("GET", f"/api2/repos/{repo}/dir/", params={"p": REMOTE, "t": "f", "recursive": 1})}
+
+    def item(rel):
+        ext = Path(rel).suffix.lower()
+        kind = KIND.get(ext, "file")
+        if kind == "html" and rel not in HTML:
+            kind = "file"
+        it = {"id": rel, "kind": kind, "title": Path(rel).stem.replace("_", " "), "ext": ext[1:],
+              "size": (LOCAL / rel).stat().st_size,
+              "dl": f"{FOLDER_LINK}files/?p={quote('/' + rel)}&dl=1",
+              "raw": f"{FOLDER_LINK}files/?p={quote('/' + rel)}&raw=1"}
+        if kind in ("pdf", "image"):
+            it["thumb"], it["ar"] = thumb(rel, kind)
+        if kind in ("pdf", "model"):
+            path = f"{REMOTE}/{rel}"
+            if path not in remote:
+                print("not on Seafile yet, skipped link:", rel)
+            else:
+                if path not in links:
+                    have = sf.api("GET", "/api/v2.1/share-links/", params={"repo_id": repo, "path": path})
+                    links[path] = have[0]["token"] if have else \
+                        sf.api("POST", "/api/v2.1/share-links/", json={"repo_id": repo, "path": path})["token"]
+                    cache.write_text(json.dumps(links, ensure_ascii=False, indent=1), encoding="utf-8")
+                it["url"] = f"{sf.SERVER}/seafhttp/f/{links[path]}/"
+        if kind == "html":
+            it["url"] = HTML[rel]
+            it["title"] = {"html/modell-ansichten/index.html": "Modell-Ansichten (interaktiv)"}.get(HTML[rel], it["title"])
+        return it
+
+    used, sections = set(), []
+    for title, entries in SECTIONS:
+        cards, stacks = [], []
+        for e in entries:
+            if e[0] == "stack":
+                rels = [r for r in files if r not in used and match(r, e[2])]
+                if rels:
+                    used.update(rels)
+                    stacks.append({"id": f"stack:{title}:{e[1]}", "kind": "stack", "title": e[1],
+                                   "items": [item(r) for r in rels]})
+                continue
+            rels = [r for r in files if r not in used and match(r, e[1])]
+            used.update(rels)
+            if e[0] == "latest":
+                best = {}
+                for r in rels:
+                    k, v = version(r)
+                    if k not in best or (v, (LOCAL / r).stat().st_mtime) > best[k][0]:
+                        best[k] = ((v, (LOCAL / r).stat().st_mtime), r)
+                newest = {r for _, r in best.values()}
+                older = [r for r in rels if r not in newest]
+                rels = [r for r in rels if r in newest]
+                if older:
+                    stacks.append({"id": f"stack:{title}:old:{len(stacks)}", "kind": "stack",
+                                   "title": "Ältere Versionen", "items": [item(r) for r in older]})
+            cards += [item(r) for r in rels]
+        sections.append({"title": title, "items": cards + stacks})
+
+    left = [r for r in files if r not in used]
+    if left:
+        sections.append({"title": "Neu / unsortiert", "items": [item(r) for r in left]})
+
+    for rel, dst in HTML.items():
+        src, out = LOCAL / rel, REPO / dst
+        out.parent.mkdir(parents=True, exist_ok=True)
+        if rel.endswith("Modell-Ansichten_HTML/index.html"):
+            shutil.copytree(src.parent, out.parent, dirs_exist_ok=True)
+        else:
+            shutil.copy2(src, out)
+
+    layout(sections)
+    print(sum(len(s["items"]) for s in sections), "board items in", len(sections), "sections")
+
+
+def layout(sections):
+    """Keep saved positions; place new items in justified rows per section."""
+    board = REPO / "board.json"
+    old = json.loads(board.read_text(encoding="utf-8")) if board.exists() else {}
+    pos = {i["id"]: i for i in old.get("items", [])} | {l["id"]: l for l in old.get("labels", [])}
+    items, labels, y = [], [], 0
+    ROW_H, MAX_W, GAP = 300, 5200, 40
+    for s in sections:
+        lid = "label:" + s["title"]
+        labels.append(pos.get(lid) or {"id": lid, "text": s["title"], "x": 0, "y": y})
+        y += 90
+        x = 0
+        for it in s["items"]:
+            w = ROW_H * it.get("ar", 1.0) if it["kind"] in ("pdf", "image") else ROW_H
+            if it["id"] in pos:
+                p = pos[it["id"]]
+                it |= {"x": p["x"], "y": p["y"], "w": p["w"]}
+            else:
+                if x and x + w > MAX_W:
+                    x, y = 0, y + ROW_H + 90
+                it |= {"x": x, "y": y, "w": round(w)}
+                x += w + GAP
+            items.append(it)
+        y += ROW_H + 220
+    board.write_text(json.dumps({"labels": labels, "items": items}, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
+if __name__ == "__main__":
+    main()
