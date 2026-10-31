@@ -53,8 +53,12 @@ SECTIONS = [
         ("stack", "CAD (DXF)", ["02_Plaene/Grundrisse/*.dxf"]),
     ]),
     ("Schnitte", [
-        ("open", ["02_Plaene/Schnitte/TIB_*.pdf", "02_Plaene/Schnitte/hannover-*.pdf"]),
-        ("stack", "Städtebaulicher Schnitt · Stile", ["02_Plaene/Schnitte/LP_*.pdf"]),
+        ("pick", ["02_Plaene/Schnitte/*_Schnitt_Skizze*.pdf"]),  # same look as the Lageplan; the other styles stay in the box
+        ("open", ["02_Plaene/Schnitte/TIB_*.pdf"]),
+        ("box", "Weitere Stile + Versionen", [
+            ("latest", ["02_Plaene/Schnitte/LP_*.pdf"]),
+            ("open", ["02_Plaene/Schnitte/hannover-*.pdf"]),
+        ]),
         ("stack", "CAD (DXF)", ["02_Plaene/Schnitte/*"]),
     ]),
     # the reworked elevation sheet (main() builds this section before the Bestand box claims it)
