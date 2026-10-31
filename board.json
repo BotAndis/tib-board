@@ -43,34 +43,40 @@
    "y": 5580
   },
   {
-   "id": "label:3D-Druck",
-   "text": "3D-Druck",
+   "id": "label:3D-Druck · Bestand",
+   "text": "3D-Druck · Bestand",
    "x": 0,
    "y": 6510
+  },
+  {
+   "id": "label:3D-Druck · Entwurf",
+   "text": "3D-Druck · Entwurf",
+   "x": 0,
+   "y": 7440
   },
   {
    "id": "label:Analyse · Möblierung + Nutzung",
    "text": "Analyse · Möblierung + Nutzung",
    "x": 0,
-   "y": 7440
+   "y": 8370
   },
   {
    "id": "label:Analyse · Raumprogramm",
    "text": "Analyse · Raumprogramm",
    "x": 0,
-   "y": 8370
+   "y": 9300
   },
   {
    "id": "label:Fotos",
    "text": "Fotos",
    "x": 0,
-   "y": 9300
+   "y": 10230
   },
   {
    "id": "label:Referenzen",
    "text": "Referenzen",
    "x": 0,
-   "y": 10530
+   "y": 11460
   },
   {
    "id": "label:Zeitplan",
@@ -3727,8 +3733,21 @@
    "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Bestand_M1-500/TIB_Druck_1zu500_mm.stl&dl=1",
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Bestand_M1-500/TIB_Druck_1zu500_mm.stl&raw=1",
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/32be4ce2d8f9463c92dc/",
-   "section": "3D-Druck",
+   "section": "3D-Druck · Bestand",
    "x": 0,
+   "y": 6760,
+   "w": 300
+  },
+  {
+   "id": "06_3D-Druck/Bestand_M1-500/druck bestand tib getrennt.3mf",
+   "kind": "file",
+   "title": "druck bestand tib getrennt",
+   "ext": "3mf",
+   "size": 101087,
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Bestand_M1-500/druck%20bestand%20tib%20getrennt.3mf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Bestand_M1-500/druck%20bestand%20tib%20getrennt.3mf&raw=1",
+   "section": "3D-Druck · Bestand",
+   "x": 340.0,
    "y": 6760,
    "w": 300
   },
@@ -3741,8 +3760,8 @@
    "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Bestand_M1-500/druck%20bestand%20tib%20getrennt.stl&dl=1",
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Bestand_M1-500/druck%20bestand%20tib%20getrennt.stl&raw=1",
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/05b34aed64764d94b33a/",
-   "section": "3D-Druck",
-   "x": 340.0,
+   "section": "3D-Druck · Bestand",
+   "x": 680.0,
    "y": 6760,
    "w": 300
   },
@@ -3756,10 +3775,23 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/A3_Zusammenbau_Wandteile_v2.png&raw=1",
    "thumb": "thumbs/8445f2362778aba6.webp",
    "ar": 0.7,
-   "section": "3D-Druck",
-   "x": 680.0,
-   "y": 6760,
+   "section": "3D-Druck · Entwurf",
+   "x": 0,
+   "y": 7690,
    "w": 210
+  },
+  {
+   "id": "06_3D-Druck/Varianten_M1-500/LIESMICH.txt",
+   "kind": "file",
+   "title": "LIESMICH",
+   "ext": "txt",
+   "size": 3250,
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/LIESMICH.txt&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/LIESMICH.txt&raw=1",
+   "section": "3D-Druck · Entwurf",
+   "x": 250.0,
+   "y": 7690,
+   "w": 300
   },
   {
    "id": "06_3D-Druck/Varianten_M1-500/TIB_12.2-komplett_M1-495_v1.stl",
@@ -3770,9 +3802,9 @@
    "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/TIB_12.2-komplett_M1-495_v1.stl&dl=1",
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/TIB_12.2-komplett_M1-495_v1.stl&raw=1",
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/d714c7cda96c4886821b/",
-   "section": "3D-Druck",
-   "x": 930.0,
-   "y": 6760,
+   "section": "3D-Druck · Entwurf",
+   "x": 590.0,
+   "y": 7690,
    "w": 300
   },
   {
@@ -3784,9 +3816,9 @@
    "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/TIB_A2.2-komplett_M1-495_v1.stl&dl=1",
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/TIB_A2.2-komplett_M1-495_v1.stl&raw=1",
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/4647550fb4164b9f8e20/",
-   "section": "3D-Druck",
-   "x": 1270.0,
-   "y": 6760,
+   "section": "3D-Druck · Entwurf",
+   "x": 930.0,
+   "y": 7690,
    "w": 300
   },
   {
@@ -3798,9 +3830,9 @@
    "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/TIB_A3-komplett-Dach-gelocht_M1-495_v3.stl&dl=1",
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/TIB_A3-komplett-Dach-gelocht_M1-495_v3.stl&raw=1",
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/dc2e6acac1c1416e98e8/",
-   "section": "3D-Druck",
-   "x": 1610.0,
-   "y": 6760,
+   "section": "3D-Druck · Entwurf",
+   "x": 1270.0,
+   "y": 7690,
    "w": 300
   },
   {
@@ -3812,15 +3844,66 @@
    "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/TIB_A3-komplett-Dach-geschlossen_M1-495_v2.stl&dl=1",
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/TIB_A3-komplett-Dach-geschlossen_M1-495_v2.stl&raw=1",
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/3275404e9b9d45699270/",
-   "section": "3D-Druck",
-   "x": 1950.0,
-   "y": 6760,
+   "section": "3D-Druck · Entwurf",
+   "x": 1610.0,
+   "y": 7690,
    "w": 300
   },
   {
-   "id": "stack:3D-Druck:Druckteile geteilt",
+   "id": "stack:3D-Druck · Entwurf:A1 · Platte 1 · A3 einteilig",
    "kind": "stack",
-   "title": "Druckteile geteilt",
+   "title": "A1 · Platte 1 · A3 einteilig",
+   "items": [
+    {
+     "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-1_A3-einteilig/A3/TIB_A3-Hauptbau-Aufstockung_M1-495_v1.stl",
+     "kind": "model",
+     "title": "TIB A3-Hauptbau-Aufstockung M1-495 v1",
+     "ext": "stl",
+     "size": 1684,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-1_A3-einteilig/A3/TIB_A3-Hauptbau-Aufstockung_M1-495_v1.stl&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-1_A3-einteilig/A3/TIB_A3-Hauptbau-Aufstockung_M1-495_v1.stl&raw=1",
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/22b21ebc3cd940089863/"
+    },
+    {
+     "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-1_A3-einteilig/A3/TIB_A3-Ostfluegel-Dach-gelocht_M1-495_v2.stl",
+     "kind": "model",
+     "title": "TIB A3-Ostfluegel-Dach-gelocht M1-495 v2",
+     "ext": "stl",
+     "size": 23284,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-1_A3-einteilig/A3/TIB_A3-Ostfluegel-Dach-gelocht_M1-495_v2.stl&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-1_A3-einteilig/A3/TIB_A3-Ostfluegel-Dach-gelocht_M1-495_v2.stl&raw=1",
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/3ab8f7d275684289baab/"
+    },
+    {
+     "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-1_A3-einteilig/A3/TIB_A3-Ostfluegel-Dach-geschlossen_M1-495_v1.stl",
+     "kind": "model",
+     "title": "TIB A3-Ostfluegel-Dach-geschlossen M1-495 v1",
+     "ext": "stl",
+     "size": 4284,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-1_A3-einteilig/A3/TIB_A3-Ostfluegel-Dach-geschlossen_M1-495_v1.stl&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-1_A3-einteilig/A3/TIB_A3-Ostfluegel-Dach-geschlossen_M1-495_v1.stl&raw=1",
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/98c612548caa4dcab2e2/"
+    },
+    {
+     "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-1_A3-einteilig/A3/TIB_A3-Ostfluegel-Rasterhuelle-mit-Boden_M1-495_v2.stl",
+     "kind": "model",
+     "title": "TIB A3-Ostfluegel-Rasterhuelle-mit-Boden M1-495 v2",
+     "ext": "stl",
+     "size": 79684,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-1_A3-einteilig/A3/TIB_A3-Ostfluegel-Rasterhuelle-mit-Boden_M1-495_v2.stl&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-1_A3-einteilig/A3/TIB_A3-Ostfluegel-Rasterhuelle-mit-Boden_M1-495_v2.stl&raw=1",
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/465a871affbb432ea60f/"
+    }
+   ],
+   "section": "3D-Druck · Entwurf",
+   "x": 1950.0,
+   "y": 7690,
+   "w": 300
+  },
+  {
+   "id": "stack:3D-Druck · Entwurf:A1 · Platte 1 · A3 Wandteile",
+   "kind": "stack",
+   "title": "A1 · Platte 1 · A3 Wandteile",
    "items": [
     {
      "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-1_A3-Wandteile/A3/TIB_A3-Hauptbau-Aufstockung_M1-495_v1.stl",
@@ -4021,47 +4104,18 @@
      "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-1_A3-Wandteile/A3/TIB_A3-Wand-18-Hof-Nordost-Suedwand_M1-495_v2.stl&dl=1",
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-1_A3-Wandteile/A3/TIB_A3-Wand-18-Hof-Nordost-Suedwand_M1-495_v2.stl&raw=1",
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/704f8ede08e74d94bcdb/"
-    },
-    {
-     "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-1_A3-einteilig/A3/TIB_A3-Hauptbau-Aufstockung_M1-495_v1.stl",
-     "kind": "model",
-     "title": "TIB A3-Hauptbau-Aufstockung M1-495 v1",
-     "ext": "stl",
-     "size": 1684,
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-1_A3-einteilig/A3/TIB_A3-Hauptbau-Aufstockung_M1-495_v1.stl&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-1_A3-einteilig/A3/TIB_A3-Hauptbau-Aufstockung_M1-495_v1.stl&raw=1",
-     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/22b21ebc3cd940089863/"
-    },
-    {
-     "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-1_A3-einteilig/A3/TIB_A3-Ostfluegel-Dach-gelocht_M1-495_v2.stl",
-     "kind": "model",
-     "title": "TIB A3-Ostfluegel-Dach-gelocht M1-495 v2",
-     "ext": "stl",
-     "size": 23284,
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-1_A3-einteilig/A3/TIB_A3-Ostfluegel-Dach-gelocht_M1-495_v2.stl&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-1_A3-einteilig/A3/TIB_A3-Ostfluegel-Dach-gelocht_M1-495_v2.stl&raw=1",
-     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/3ab8f7d275684289baab/"
-    },
-    {
-     "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-1_A3-einteilig/A3/TIB_A3-Ostfluegel-Dach-geschlossen_M1-495_v1.stl",
-     "kind": "model",
-     "title": "TIB A3-Ostfluegel-Dach-geschlossen M1-495 v1",
-     "ext": "stl",
-     "size": 4284,
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-1_A3-einteilig/A3/TIB_A3-Ostfluegel-Dach-geschlossen_M1-495_v1.stl&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-1_A3-einteilig/A3/TIB_A3-Ostfluegel-Dach-geschlossen_M1-495_v1.stl&raw=1",
-     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/98c612548caa4dcab2e2/"
-    },
-    {
-     "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-1_A3-einteilig/A3/TIB_A3-Ostfluegel-Rasterhuelle-mit-Boden_M1-495_v2.stl",
-     "kind": "model",
-     "title": "TIB A3-Ostfluegel-Rasterhuelle-mit-Boden M1-495 v2",
-     "ext": "stl",
-     "size": 79684,
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-1_A3-einteilig/A3/TIB_A3-Ostfluegel-Rasterhuelle-mit-Boden_M1-495_v2.stl&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-1_A3-einteilig/A3/TIB_A3-Ostfluegel-Rasterhuelle-mit-Boden_M1-495_v2.stl&raw=1",
-     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/465a871affbb432ea60f/"
-    },
+    }
+   ],
+   "section": "3D-Druck · Entwurf",
+   "x": 2290.0,
+   "y": 7690,
+   "w": 300
+  },
+  {
+   "id": "stack:3D-Druck · Entwurf:A1 · Platte 2",
+   "kind": "stack",
+   "title": "A1 · Platte 2",
+   "items": [
     {
      "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-2/12.2/TIB_12.2-Glasbruecke_M1-495_v1.stl",
      "kind": "model",
@@ -4121,7 +4175,18 @@
      "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-2/A2.2/TIB_A2.2-Neubau-OG_M1-495_v1.stl&dl=1",
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-2/A2.2/TIB_A2.2-Neubau-OG_M1-495_v1.stl&raw=1",
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/14e7280bc855461988d9/"
-    },
+    }
+   ],
+   "section": "3D-Druck · Entwurf",
+   "x": 2630.0,
+   "y": 7690,
+   "w": 300
+  },
+  {
+   "id": "stack:3D-Druck · Entwurf:A1 · Platte 3 · A3 Daecher",
+   "kind": "stack",
+   "title": "A1 · Platte 3 · A3 Daecher",
+   "items": [
     {
      "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-3_A3-Daecher/A3/TIB_A3-Ostfluegel-Dach-gelocht_M1-495_v2.stl",
      "kind": "model",
@@ -4141,7 +4206,129 @@
      "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-3_A3-Daecher/A3/TIB_A3-Ostfluegel-Dach-geschlossen_M1-495_v1.stl&dl=1",
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A1_Platte-3_A3-Daecher/A3/TIB_A3-Ostfluegel-Dach-geschlossen_M1-495_v1.stl&raw=1",
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/7750d198369a415dbb39/"
+    }
+   ],
+   "section": "3D-Druck · Entwurf",
+   "x": 2970.0,
+   "y": 7690,
+   "w": 300
+  },
+  {
+   "id": "stack:3D-Druck · Entwurf:A2L · eine Platte · A3 einteilig",
+   "kind": "stack",
+   "title": "A2L · eine Platte · A3 einteilig",
+   "items": [
+    {
+     "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/12.2/TIB_12.2-Glasbruecke_M1-495_v1.stl",
+     "kind": "model",
+     "title": "TIB 12.2-Glasbruecke M1-495 v1",
+     "ext": "stl",
+     "size": 684,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/12.2/TIB_12.2-Glasbruecke_M1-495_v1.stl&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/12.2/TIB_12.2-Glasbruecke_M1-495_v1.stl&raw=1",
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/aa71e27e1bda4b75b757/"
     },
+    {
+     "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/12.2/TIB_12.2-Glashalle-mit-Kragarm_M1-495_v1.stl",
+     "kind": "model",
+     "title": "TIB 12.2-Glashalle-mit-Kragarm M1-495 v1",
+     "ext": "stl",
+     "size": 9484,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/12.2/TIB_12.2-Glashalle-mit-Kragarm_M1-495_v1.stl&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/12.2/TIB_12.2-Glashalle-mit-Kragarm_M1-495_v1.stl&raw=1",
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/417fe4e60de54059894c/"
+    },
+    {
+     "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/12.2/TIB_12.2-Ziegelwuerfel_M1-495_v1.stl",
+     "kind": "model",
+     "title": "TIB 12.2-Ziegelwuerfel M1-495 v1",
+     "ext": "stl",
+     "size": 2284,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/12.2/TIB_12.2-Ziegelwuerfel_M1-495_v1.stl&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/12.2/TIB_12.2-Ziegelwuerfel_M1-495_v1.stl&raw=1",
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/cf453b854fbb40f79595/"
+    },
+    {
+     "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A2.2/TIB_A2.2-Holzaufstockung-Hauptbau_M1-495_v1.stl",
+     "kind": "model",
+     "title": "TIB A2.2-Holzaufstockung-Hauptbau M1-495 v1",
+     "ext": "stl",
+     "size": 1684,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A2.2/TIB_A2.2-Holzaufstockung-Hauptbau_M1-495_v1.stl&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A2.2/TIB_A2.2-Holzaufstockung-Hauptbau_M1-495_v1.stl&raw=1",
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/8e8ff80eb98443ca8009/"
+    },
+    {
+     "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A2.2/TIB_A2.2-Neubau-EG_M1-495_v1.stl",
+     "kind": "model",
+     "title": "TIB A2.2-Neubau-EG M1-495 v1",
+     "ext": "stl",
+     "size": 1284,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A2.2/TIB_A2.2-Neubau-EG_M1-495_v1.stl&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A2.2/TIB_A2.2-Neubau-EG_M1-495_v1.stl&raw=1",
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/fb9efd0ed6ec42408064/"
+    },
+    {
+     "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A2.2/TIB_A2.2-Neubau-OG_M1-495_v1.stl",
+     "kind": "model",
+     "title": "TIB A2.2-Neubau-OG M1-495 v1",
+     "ext": "stl",
+     "size": 6184,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A2.2/TIB_A2.2-Neubau-OG_M1-495_v1.stl&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A2.2/TIB_A2.2-Neubau-OG_M1-495_v1.stl&raw=1",
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/8cb9ecbdd08141719932/"
+    },
+    {
+     "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A3/TIB_A3-Hauptbau-Aufstockung_M1-495_v1.stl",
+     "kind": "model",
+     "title": "TIB A3-Hauptbau-Aufstockung M1-495 v1",
+     "ext": "stl",
+     "size": 1684,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A3/TIB_A3-Hauptbau-Aufstockung_M1-495_v1.stl&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A3/TIB_A3-Hauptbau-Aufstockung_M1-495_v1.stl&raw=1",
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/c6a4cfad5b7247408a3a/"
+    },
+    {
+     "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A3/TIB_A3-Ostfluegel-Dach-gelocht_M1-495_v2.stl",
+     "kind": "model",
+     "title": "TIB A3-Ostfluegel-Dach-gelocht M1-495 v2",
+     "ext": "stl",
+     "size": 23284,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A3/TIB_A3-Ostfluegel-Dach-gelocht_M1-495_v2.stl&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A3/TIB_A3-Ostfluegel-Dach-gelocht_M1-495_v2.stl&raw=1",
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/9e9afe0783a54c9b9198/"
+    },
+    {
+     "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A3/TIB_A3-Ostfluegel-Dach-geschlossen_M1-495_v1.stl",
+     "kind": "model",
+     "title": "TIB A3-Ostfluegel-Dach-geschlossen M1-495 v1",
+     "ext": "stl",
+     "size": 4284,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A3/TIB_A3-Ostfluegel-Dach-geschlossen_M1-495_v1.stl&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A3/TIB_A3-Ostfluegel-Dach-geschlossen_M1-495_v1.stl&raw=1",
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/9991345dd92a4447812c/"
+    },
+    {
+     "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A3/TIB_A3-Ostfluegel-Rasterhuelle-mit-Boden_M1-495_v2.stl",
+     "kind": "model",
+     "title": "TIB A3-Ostfluegel-Rasterhuelle-mit-Boden M1-495 v2",
+     "ext": "stl",
+     "size": 79684,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A3/TIB_A3-Ostfluegel-Rasterhuelle-mit-Boden_M1-495_v2.stl&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A3/TIB_A3-Ostfluegel-Rasterhuelle-mit-Boden_M1-495_v2.stl&raw=1",
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/d04b2a8bd7f443698271/"
+    }
+   ],
+   "section": "3D-Druck · Entwurf",
+   "x": 3310.0,
+   "y": 7690,
+   "w": 300
+  },
+  {
+   "id": "stack:3D-Druck · Entwurf:A2L · Platte 1 · A3 Wandteile",
+   "kind": "stack",
+   "title": "A2L · Platte 1 · A3 Wandteile",
+   "items": [
     {
      "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_Platte-1_A3-Wandteile/A3/TIB_A3-Hauptbau-Aufstockung_M1-495_v1.stl",
      "kind": "model",
@@ -4361,7 +4548,18 @@
      "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_Platte-1_A3-Wandteile/A3/TIB_A3-Wand-18-Hof-Nordost-Suedwand_M1-495_v2.stl&dl=1",
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_Platte-1_A3-Wandteile/A3/TIB_A3-Wand-18-Hof-Nordost-Suedwand_M1-495_v2.stl&raw=1",
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/2871e68ff6474f698ae7/"
-    },
+    }
+   ],
+   "section": "3D-Druck · Entwurf",
+   "x": 3650.0,
+   "y": 7690,
+   "w": 300
+  },
+  {
+   "id": "stack:3D-Druck · Entwurf:A2L · Platte 2",
+   "kind": "stack",
+   "title": "A2L · Platte 2",
+   "items": [
     {
      "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_Platte-2/12.2/TIB_12.2-Glasbruecke_M1-495_v1.stl",
      "kind": "model",
@@ -4421,141 +4619,11 @@
      "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_Platte-2/A2.2/TIB_A2.2-Neubau-OG_M1-495_v1.stl&dl=1",
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_Platte-2/A2.2/TIB_A2.2-Neubau-OG_M1-495_v1.stl&raw=1",
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/1a5ea93a65394800b1b5/"
-    },
-    {
-     "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/12.2/TIB_12.2-Glasbruecke_M1-495_v1.stl",
-     "kind": "model",
-     "title": "TIB 12.2-Glasbruecke M1-495 v1",
-     "ext": "stl",
-     "size": 684,
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/12.2/TIB_12.2-Glasbruecke_M1-495_v1.stl&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/12.2/TIB_12.2-Glasbruecke_M1-495_v1.stl&raw=1",
-     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/aa71e27e1bda4b75b757/"
-    },
-    {
-     "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/12.2/TIB_12.2-Glashalle-mit-Kragarm_M1-495_v1.stl",
-     "kind": "model",
-     "title": "TIB 12.2-Glashalle-mit-Kragarm M1-495 v1",
-     "ext": "stl",
-     "size": 9484,
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/12.2/TIB_12.2-Glashalle-mit-Kragarm_M1-495_v1.stl&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/12.2/TIB_12.2-Glashalle-mit-Kragarm_M1-495_v1.stl&raw=1",
-     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/417fe4e60de54059894c/"
-    },
-    {
-     "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/12.2/TIB_12.2-Ziegelwuerfel_M1-495_v1.stl",
-     "kind": "model",
-     "title": "TIB 12.2-Ziegelwuerfel M1-495 v1",
-     "ext": "stl",
-     "size": 2284,
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/12.2/TIB_12.2-Ziegelwuerfel_M1-495_v1.stl&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/12.2/TIB_12.2-Ziegelwuerfel_M1-495_v1.stl&raw=1",
-     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/cf453b854fbb40f79595/"
-    },
-    {
-     "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A2.2/TIB_A2.2-Holzaufstockung-Hauptbau_M1-495_v1.stl",
-     "kind": "model",
-     "title": "TIB A2.2-Holzaufstockung-Hauptbau M1-495 v1",
-     "ext": "stl",
-     "size": 1684,
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A2.2/TIB_A2.2-Holzaufstockung-Hauptbau_M1-495_v1.stl&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A2.2/TIB_A2.2-Holzaufstockung-Hauptbau_M1-495_v1.stl&raw=1",
-     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/8e8ff80eb98443ca8009/"
-    },
-    {
-     "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A2.2/TIB_A2.2-Neubau-EG_M1-495_v1.stl",
-     "kind": "model",
-     "title": "TIB A2.2-Neubau-EG M1-495 v1",
-     "ext": "stl",
-     "size": 1284,
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A2.2/TIB_A2.2-Neubau-EG_M1-495_v1.stl&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A2.2/TIB_A2.2-Neubau-EG_M1-495_v1.stl&raw=1",
-     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/fb9efd0ed6ec42408064/"
-    },
-    {
-     "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A2.2/TIB_A2.2-Neubau-OG_M1-495_v1.stl",
-     "kind": "model",
-     "title": "TIB A2.2-Neubau-OG M1-495 v1",
-     "ext": "stl",
-     "size": 6184,
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A2.2/TIB_A2.2-Neubau-OG_M1-495_v1.stl&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A2.2/TIB_A2.2-Neubau-OG_M1-495_v1.stl&raw=1",
-     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/8cb9ecbdd08141719932/"
-    },
-    {
-     "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A3/TIB_A3-Hauptbau-Aufstockung_M1-495_v1.stl",
-     "kind": "model",
-     "title": "TIB A3-Hauptbau-Aufstockung M1-495 v1",
-     "ext": "stl",
-     "size": 1684,
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A3/TIB_A3-Hauptbau-Aufstockung_M1-495_v1.stl&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A3/TIB_A3-Hauptbau-Aufstockung_M1-495_v1.stl&raw=1",
-     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/c6a4cfad5b7247408a3a/"
-    },
-    {
-     "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A3/TIB_A3-Ostfluegel-Dach-gelocht_M1-495_v2.stl",
-     "kind": "model",
-     "title": "TIB A3-Ostfluegel-Dach-gelocht M1-495 v2",
-     "ext": "stl",
-     "size": 23284,
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A3/TIB_A3-Ostfluegel-Dach-gelocht_M1-495_v2.stl&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A3/TIB_A3-Ostfluegel-Dach-gelocht_M1-495_v2.stl&raw=1",
-     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/9e9afe0783a54c9b9198/"
-    },
-    {
-     "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A3/TIB_A3-Ostfluegel-Dach-geschlossen_M1-495_v1.stl",
-     "kind": "model",
-     "title": "TIB A3-Ostfluegel-Dach-geschlossen M1-495 v1",
-     "ext": "stl",
-     "size": 4284,
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A3/TIB_A3-Ostfluegel-Dach-geschlossen_M1-495_v1.stl&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A3/TIB_A3-Ostfluegel-Dach-geschlossen_M1-495_v1.stl&raw=1",
-     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/9991345dd92a4447812c/"
-    },
-    {
-     "id": "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A3/TIB_A3-Ostfluegel-Rasterhuelle-mit-Boden_M1-495_v2.stl",
-     "kind": "model",
-     "title": "TIB A3-Ostfluegel-Rasterhuelle-mit-Boden M1-495 v2",
-     "ext": "stl",
-     "size": 79684,
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A3/TIB_A3-Ostfluegel-Rasterhuelle-mit-Boden_M1-495_v2.stl&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/A2L_eine-Platte_A3-einteilig/A3/TIB_A3-Ostfluegel-Rasterhuelle-mit-Boden_M1-495_v2.stl&raw=1",
-     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/d04b2a8bd7f443698271/"
     }
    ],
-   "section": "3D-Druck",
-   "x": 2290.0,
-   "y": 6760,
-   "w": 300
-  },
-  {
-   "id": "stack:3D-Druck:Bambu 3MF + Liesmich",
-   "kind": "stack",
-   "title": "Bambu 3MF + Liesmich",
-   "items": [
-    {
-     "id": "06_3D-Druck/Bestand_M1-500/druck bestand tib getrennt.3mf",
-     "kind": "model",
-     "title": "druck bestand tib getrennt",
-     "ext": "3mf",
-     "size": 101087,
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Bestand_M1-500/druck%20bestand%20tib%20getrennt.3mf&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Bestand_M1-500/druck%20bestand%20tib%20getrennt.3mf&raw=1",
-     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/da61623d19d8498081f9/"
-    },
-    {
-     "id": "06_3D-Druck/Varianten_M1-500/LIESMICH.txt",
-     "kind": "file",
-     "title": "LIESMICH",
-     "ext": "txt",
-     "size": 3250,
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/LIESMICH.txt&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/06_3D-Druck/Varianten_M1-500/LIESMICH.txt&raw=1"
-    }
-   ],
-   "section": "3D-Druck",
-   "x": 2630.0,
-   "y": 6760,
+   "section": "3D-Druck · Entwurf",
+   "x": 3990.0,
+   "y": 7690,
    "w": 300
   },
   {
@@ -4571,7 +4639,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/32c5becf5bd145cc9cb2/",
    "section": "Analyse · Möblierung + Nutzung",
    "x": 0,
-   "y": 7690,
+   "y": 8620,
    "w": 424
   },
   {
@@ -4587,7 +4655,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/16b4b2ec8ebd4f6aa596/",
    "section": "Analyse · Möblierung + Nutzung",
    "x": 464.16999999999996,
-   "y": 7690,
+   "y": 8620,
    "w": 424
   },
   {
@@ -4603,7 +4671,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/48ba8a90c0ff4b3abd81/",
    "section": "Analyse · Möblierung + Nutzung",
    "x": 928.3399999999999,
-   "y": 7690,
+   "y": 8620,
    "w": 424
   },
   {
@@ -4619,7 +4687,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/4dd961c156054f7ba9f0/",
    "section": "Analyse · Möblierung + Nutzung",
    "x": 1392.5099999999998,
-   "y": 7690,
+   "y": 8620,
    "w": 424
   },
   {
@@ -4635,7 +4703,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/25f03c28f0cc4d5da6df/",
    "section": "Analyse · Möblierung + Nutzung",
    "x": 1856.6799999999998,
-   "y": 7690,
+   "y": 8620,
    "w": 424
   },
   {
@@ -4651,7 +4719,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/e93fd1ebc7524efe9a7e/",
    "section": "Analyse · Möblierung + Nutzung",
    "x": 2320.85,
-   "y": 7690,
+   "y": 8620,
    "w": 424
   },
   {
@@ -4707,7 +4775,7 @@
    ],
    "section": "Analyse · Möblierung + Nutzung",
    "x": 2785.02,
-   "y": 7690,
+   "y": 8620,
    "w": 300
   },
   {
@@ -4723,7 +4791,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/02c389917bad41ba8961/",
    "section": "Analyse · Raumprogramm",
    "x": 0,
-   "y": 8620,
+   "y": 9550,
    "w": 425
   },
   {
@@ -4739,7 +4807,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/dba8c620fbaa43bf94bc/",
    "section": "Analyse · Raumprogramm",
    "x": 464.71,
-   "y": 8620,
+   "y": 9550,
    "w": 425
   },
   {
@@ -4755,7 +4823,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/5f6a830fe5c2468a8461/",
    "section": "Analyse · Raumprogramm",
    "x": 929.42,
-   "y": 8620,
+   "y": 9550,
    "w": 425
   },
   {
@@ -4771,7 +4839,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/dde1bf11beec432eb53c/",
    "section": "Analyse · Raumprogramm",
    "x": 1394.1299999999999,
-   "y": 8620,
+   "y": 9550,
    "w": 425
   },
   {
@@ -4787,7 +4855,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/f5d42ff6dcae416d8483/",
    "section": "Analyse · Raumprogramm",
    "x": 1858.84,
-   "y": 8620,
+   "y": 9550,
    "w": 425
   },
   {
@@ -4801,7 +4869,7 @@
    "url": "html/flaechen-editor.html",
    "section": "Analyse · Raumprogramm",
    "x": 2323.5499999999997,
-   "y": 8620,
+   "y": 9550,
    "w": 300
   },
   {
@@ -4848,7 +4916,7 @@
    ],
    "section": "Analyse · Raumprogramm",
    "x": 2663.5499999999997,
-   "y": 8620,
+   "y": 9550,
    "w": 300
   },
   {
@@ -4979,7 +5047,7 @@
    ],
    "section": "Analyse · Raumprogramm",
    "x": 3003.5499999999997,
-   "y": 8620,
+   "y": 9550,
    "w": 300
   },
   {
@@ -5144,7 +5212,7 @@
    ],
    "section": "Fotos",
    "x": 0,
-   "y": 9550,
+   "y": 10480,
    "w": 600
   },
   {
@@ -5573,7 +5641,7 @@
    ],
    "section": "Fotos",
    "x": 640.0,
-   "y": 9550,
+   "y": 10480,
    "w": 600
   },
   {
@@ -5683,7 +5751,7 @@
    ],
    "section": "Fotos",
    "x": 1280.0,
-   "y": 9550,
+   "y": 10480,
    "w": 600
   },
   {
@@ -5738,7 +5806,7 @@
    ],
    "section": "Fotos",
    "x": 1920.0,
-   "y": 9550,
+   "y": 10480,
    "w": 600
   },
   {
@@ -5848,7 +5916,7 @@
    ],
    "section": "Fotos",
    "x": 2560.0,
-   "y": 9550,
+   "y": 10480,
    "w": 600
   },
   {
@@ -5903,7 +5971,7 @@
    ],
    "section": "Fotos",
    "x": 3200.0,
-   "y": 9550,
+   "y": 10480,
    "w": 600
   },
   {
@@ -5969,7 +6037,7 @@
    ],
    "section": "Fotos",
    "x": 3840.0,
-   "y": 9550,
+   "y": 10480,
    "w": 600
   },
   {
@@ -5985,7 +6053,7 @@
    "ar": 1.2195,
    "section": "Referenzen",
    "x": 0,
-   "y": 10780,
+   "y": 11710,
    "w": 1463
   },
   {
@@ -5998,7 +6066,7 @@
    "raw": "html/zeitplan.html",
    "url": "html/zeitplan.html",
    "live": true,
-   "ar": 0.49,
+   "ar": 0.3015,
    "section": "Zeitplan",
    "x": -3352,
    "y": 250,

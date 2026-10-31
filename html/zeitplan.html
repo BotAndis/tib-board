@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Zeitplan Bachelorthesis</title>
 <style>
-:root{--ink:#1a1a1a;--mute:#8a8a8a;--line:#e2e2e0;--bg:#fff;--we:#f6f6f4;
+:root{--ink:#1a1a1a;--mute:#8a8a8a;--line:#e2e2e0;--grid:#9d9d9a;--bg:#fff;--we:#f6f6f4;--now:#1e7be0;
   --p1:#d4351c;--p2:#e08a00;--p3:#2f6fb5;--pk:#3d8b5a}
 *{box-sizing:border-box}
 /* sized from the width: the board shows this page in a card of any size */
@@ -19,15 +19,16 @@ h1{margin:0;font-size:4.4rem;line-height:1;font-weight:600;letter-spacing:-.025e
 .next b{color:var(--ink);font-weight:600}
 .legend{display:flex;flex-wrap:wrap;gap:.4rem 1.8rem;margin-bottom:1.3rem;font-size:1rem}
 .legend span::before{content:"";display:inline-block;width:.9rem;height:.9rem;margin-right:.45rem;vertical-align:-.1rem;background:var(--c)}
-.cal{display:grid;grid-template-columns:4.6rem repeat(7,minmax(0,1fr));border-bottom:1px solid var(--line)}
+/* 1fr rows in an auto-height grid all take the tallest row's height: every day cell the same size */
+.cal{display:grid;grid-template-columns:4.6rem repeat(7,minmax(0,1fr));grid-template-rows:auto;grid-auto-rows:1fr;border-bottom:.1rem solid var(--grid);border-right:.1rem solid var(--grid)}
 .h{padding:.4rem .5rem;font-size:.95rem;color:var(--mute);border-bottom:2px solid var(--ink)}
 .h small{display:block;color:var(--pk);font-size:.75rem}
-.kw{padding:.5rem .4rem;font-size:.85rem;color:var(--mute);border-top:1px solid var(--line)}
+.kw{padding:.5rem .4rem;font-size:.85rem;color:var(--mute);border-top:.1rem solid var(--grid)}
 .kw b{display:block;color:var(--ink);font-size:1.2rem;font-weight:600}
-.d{position:relative;min-height:6.4rem;padding:.45rem .5rem .55rem;border-top:1px solid var(--line);border-left:1px solid var(--line)}
+.d{position:relative;min-height:6.4rem;padding:.45rem .5rem .55rem;border-top:.1rem solid var(--grid);border-left:.1rem solid var(--grid)}
 .d.we{background:var(--we)}
-.d.m1{border-top:2px solid var(--ink)}  /* first 7 days of a month + the 1st's left edge: the month boundary */
-.d.first{border-left:2px solid var(--ink)}
+.d.m1{border-top:.14rem solid #5c5c5a}  /* first 7 days of a month + the 1st's left edge: the month boundary */
+.d.first{border-left:.14rem solid #5c5c5a}
 .n{font-size:1rem;color:var(--mute)}
 .n b{color:var(--ink)}
 .e{margin-top:.35rem;padding:.25rem .4rem;border-left:.28rem solid var(--c);font-size:.85rem;line-height:1.15;
@@ -38,11 +39,12 @@ h1{margin:0;font-size:4.4rem;line-height:1;font-weight:600;letter-spacing:-.025e
 .e.p2{font-weight:600}
 .e.p2 small{font-weight:400}
 .p1{--c:var(--p1)}.p2{--c:var(--p2)}.p3{--c:var(--p3)}.pk{--c:var(--pk)}
-/* past days: faded, text struck through, one diagonal line across the cell */
+/* past days: faded, text struck through, a red X inset from the edges so every day stays its own box */
 .past>*{opacity:.42;text-decoration:line-through}
-.past::after{content:"";position:absolute;inset:0;pointer-events:none;
-  background:linear-gradient(to top right,transparent calc(50% - .05rem),var(--mute) calc(50% - .05rem),var(--mute) calc(50% + .05rem),transparent calc(50% + .05rem))}
-.today{outline:.3rem solid var(--ink);outline-offset:-.3rem;z-index:1}
+.past::after{content:"";position:absolute;inset:.9rem;pointer-events:none;--x:transparent calc(50% - .1rem),var(--p1) calc(50% - .1rem),var(--p1) calc(50% + .1rem),transparent calc(50% + .1rem);
+  background:linear-gradient(to top right,var(--x)),linear-gradient(to bottom right,var(--x))}
+.d.today{background:color-mix(in srgb,var(--now) 22%,var(--bg))}
+.today .n b{color:var(--now)}
 .foot{margin-top:1.3rem;color:var(--mute);font-size:.9rem;line-height:1.4}
 </style>
 </head>
@@ -113,7 +115,7 @@ function render() {
       const isToday = +d === +today;
       const cls = ["d", d.getDay() % 6 ? "" : "we", d.getDate() <= 7 ? "m1" : "", d.getDate() === 1 ? "first" : "",
         d < today ? "past" : "", isToday ? "today" : ""].join(" ");
-      h += `<div class="${cls}"><div class="n">${d.getDate() === 1 ? `<b>1. ${MON[d.getMonth()]}</b>` : d.getDate()}` +
+      h += `<div class="${cls}"><div class="n">${WD[d.getDay()]} ${d.getDate() === 1 ? `<b>1. ${MON[d.getMonth()]}</b>` : d.getDate()}` +
         `${isToday ? " <b>· heute</b>" : ""}</div>` +
         (byDay.get(num(d)) || []).map(e => `<div class="e p${e.p}">${e.t}<small>${e.s}</small></div>`).join("") + "</div>";
     }

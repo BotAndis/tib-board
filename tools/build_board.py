@@ -23,7 +23,7 @@ REPO = Path(__file__).resolve().parent.parent
 THUMBS = REPO / "thumbs"
 
 KIND = {".pdf": "pdf", ".jpg": "image", ".jpeg": "image", ".png": "image", ".webp": "image",
-        ".stl": "model", ".glb": "model", ".3mf": "model", ".html": "html"}
+        ".stl": "model", ".glb": "model", ".html": "html"}  # .3mf: Bambu project files break three's 3MFLoader -> download card
 # HTML previews are served from the repo itself (Seafile forbids framing): local path -> repo path
 HTML = {"05_3D-Modelle/Modell-Ansichten_HTML/index.html": "html/modell-ansichten/index.html",
         "02_Plaene/Details/Kern335/Treppe_Kern335_Detailmappe_2.html": "html/kern335-detailmappe.html",
@@ -83,10 +83,15 @@ SECTIONS = [
         ("stack", "Modell Uni · Ansichten", ["05_3D-Modelle/Bestandsmodell_Uni/*.png"]),
         ("stack", "Rhino-Dateien + Bericht", ["05_3D-Modelle/*/*.3dm", "05_3D-Modelle/*/*.ifc", "05_3D-Modelle/*/*.md"]),
     ]),
-    ("3D-Druck", [
-        ("open", ["06_3D-Druck/Bestand_M1-500/*.stl", "06_3D-Druck/Varianten_M1-500/*.stl", "06_3D-Druck/Varianten_M1-500/*.png"]),
-        ("stack", "Druckteile geteilt", ["06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/**"]),
-        ("stack", "Bambu 3MF + Liesmich", ["06_3D-Druck/**"]),
+    # existing building and design variants are separate prints, never one row
+    ("3D-Druck · Bestand", [("open", ["06_3D-Druck/Bestand_M1-500/*"])]),
+    ("3D-Druck · Entwurf", [
+        ("open", ["06_3D-Druck/Varianten_M1-500/*"]),  # complete variants, assembly sheet, LIESMICH
+        # one stack per print plate instead of one 70-part pile ("A1_Platte-2" -> "A1 · Platte 2")
+        *[("stack", p.replace("_", " · ").replace("-", " "), [f"06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/{p}/**"])
+          for p in ["A1_Platte-1_A3-einteilig", "A1_Platte-1_A3-Wandteile", "A1_Platte-2", "A1_Platte-3_A3-Daecher",
+                    "A2L_eine-Platte_A3-einteilig", "A2L_Platte-1_A3-Wandteile", "A2L_Platte-2"]],
+        ("stack", "Druckteile weitere", ["06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/**"]),
     ]),
     ("Analyse · Möblierung + Nutzung", [
         ("open", ["03_Analyse/Moeblierung_Nutzung/*.pdf"]),
@@ -122,7 +127,7 @@ REFS = {"id": "html/referenzen/index.html", "kind": "html", "title": "Referenzen
         "url": "html/referenzen/index.html"}
 # dates from the brief, a repo-only page shown live in its card ("live"): one big column left of everything (LEFT)
 ZEITPLAN = {"id": "html/zeitplan.html", "kind": "html", "title": "Zeitplan · Termine", "ext": "html", "size": 0,
-            "dl": "html/zeitplan.html", "raw": "html/zeitplan.html", "url": "html/zeitplan.html", "live": True, "ar": 0.49}
+            "dl": "html/zeitplan.html", "raw": "html/zeitplan.html", "url": "html/zeitplan.html", "live": True, "ar": 0.3015}
 LEFT = "Zeitplan"
 
 # side columns right of the main one, in this order, each starting level with the named main section
@@ -286,7 +291,7 @@ def layout(sections):
         tops[s["title"]] = y
         y += 250  # room for the 180px section title
         # photo stacks are the content there, so show them bigger; the references tile is a page preview
-        h = {"Fotos": ROW_H * 2, "Referenzen": ROW_H * 4, LEFT: ROW_H * 16}.get(s["title"], ROW_H)
+        h = {"Fotos": ROW_H * 2, "Referenzen": ROW_H * 4, LEFT: ROW_H * 26}.get(s["title"], ROW_H)
         x = 0
         for it in s["items"]:
             w = h * it.get("ar", 1.0)  # square unless the item knows its shape
@@ -308,7 +313,7 @@ def layout(sections):
             y = flow(s, 0, y)
     s = next((s for s in sections if s["title"] == LEFT), None)
     if s:  # its single card ends 1000 before the main column, top level with the first section
-        flow(s, -round(ROW_H * 16 * s["items"][0]["ar"] + 1000), 0)
+        flow(s, -round(ROW_H * 26 * s["items"][0]["ar"] + 1000), 0)
     for title in SIDE:
         s = next((s for s in sections if s["title"] == title), None)
         if s:  # next column starts 1000 right of everything so far (labels ~100 px per character at 180 px)
