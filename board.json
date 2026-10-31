@@ -73,6 +73,12 @@
    "y": 10530
   },
   {
+   "id": "label:Zeitplan",
+   "text": "Zeitplan",
+   "x": -3352,
+   "y": 0
+  },
+  {
    "id": "label:Entwurf · Volumenstudien",
    "text": "Entwurf · Volumenstudien",
    "x": 5440.0,
@@ -5981,6 +5987,22 @@
    "x": 0,
    "y": 10780,
    "w": 1463
+  },
+  {
+   "id": "html/zeitplan.html",
+   "kind": "html",
+   "title": "Zeitplan · Termine",
+   "ext": "html",
+   "size": 0,
+   "dl": "html/zeitplan.html",
+   "raw": "html/zeitplan.html",
+   "url": "html/zeitplan.html",
+   "live": true,
+   "ar": 0.49,
+   "section": "Zeitplan",
+   "x": -3352,
+   "y": 250,
+   "w": 2352
   },
   {
    "id": "04_Entwurf/Renderings/TIB_Vergleich_Fussgaenger_v3.jpg",

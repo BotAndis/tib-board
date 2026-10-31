@@ -21,6 +21,7 @@ html,body{margin:0;height:100%;overflow:hidden;background:var(--bg);color:var(--
 .media img{display:block;width:100%;height:100%;object-fit:cover;pointer-events:none;user-select:none}
 .pdf .media img{object-fit:contain}
 .media canvas.hi{position:absolute;pointer-events:none}
+.media iframe{pointer-events:none}
 .cap{margin-top:8px;font-size:13px;color:var(--mute);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .far .card:not(.stack) .cap{visibility:hidden}
 .stack .cap{font-size:40px;color:var(--ink);margin-top:12px}
@@ -30,7 +31,7 @@ html,body{margin:0;height:100%;overflow:hidden;background:var(--bg);color:var(--
 .mosaic{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:2px;height:100%;background:#fff}
 .mosaic>*{overflow:hidden;background:var(--tile);display:flex;align-items:center;justify-content:center;
   color:var(--mute);font-size:12px;text-transform:uppercase}
-.mosaic img{width:100%;height:100%;object-fit:cover}
+.mosaic img{width:100%;height:100%;object-fit:contain;background:#fff}
 .count{position:absolute;right:8px;bottom:8px;background:rgba(255,255,255,.92);border-radius:10px;padding:2px 8px;font-size:12px}
 .label{position:absolute;font-size:180px;line-height:1;font-weight:600;letter-spacing:-.025em;white-space:nowrap;user-select:none}
 /* overlay */
@@ -227,7 +228,8 @@ function media(item, big) {
     const mo = el("div", "mosaic");
     for (const c of item.items.slice(0, 4)) mo.append(c.thumb ? Object.assign(el("img"), { src: c.thumb, loading: "lazy", alt: "" }) : el("div", "", esc(c.ext)));
     m.append(mo, el("span", "count", item.items.length));
-  } else if (item.thumb) m.append(Object.assign(el("img"), { src: item.thumb, loading: "lazy", alt: "" }));
+  } else if (item.live) m.append(Object.assign(el("iframe"), { src: item.url, scrolling: "no", tabIndex: -1 }));
+  else if (item.thumb) m.append(Object.assign(el("img"), { src: item.thumb, loading: "lazy", alt: "" }));
   else if (item.kind === "model" && item.url) {
     const img = el("img"); m.append(el("div", "tile", "3D"), img);
     img.style.cssText = "position:absolute;inset:0";
@@ -262,9 +264,11 @@ const view = new View(host, world, {
   onClick(t) { const c = t.closest?.(".card"); if (c && !EDIT) openItem(c.item, siblingsOf(c.item)); },
   onDrag: EDIT ? editDrag : null,
 });
-const W = Math.max(...board.items.map(i => i.x + i.w), ...board.labels.map(l => l.x + 600));
+const X0 = Math.min(0, ...board.items.map(i => i.x), ...board.labels.map(l => l.x));  // the Zeitplan column lies left of 0
+const W = Math.max(...board.items.map(i => i.x + i.w), ...board.labels.map(l => l.x + 600)) - X0;
 view.fit(W, 1, 40, true);
-view.s = Math.max(view.s, .12); view.apply();
+view.s = Math.max(view.s, .12);
+view.x = Math.max(40, (host.clientWidth - W * view.s) / 2) - X0 * view.s; view.apply();
 
 // model card thumbnails once they scroll into view
 const io = new IntersectionObserver(es => es.forEach(e => {

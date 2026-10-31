@@ -120,6 +120,10 @@ SECTIONS = [
 REFS = {"id": "html/referenzen/index.html", "kind": "html", "title": "Referenzen · Bibliotheken", "ext": "html",
         "size": 0, "dl": "html/referenzen/index.html", "raw": "html/referenzen/index.html",
         "url": "html/referenzen/index.html"}
+# dates from the brief, a repo-only page shown live in its card ("live"): one big column left of everything (LEFT)
+ZEITPLAN = {"id": "html/zeitplan.html", "kind": "html", "title": "Zeitplan · Termine", "ext": "html", "size": 0,
+            "dl": "html/zeitplan.html", "raw": "html/zeitplan.html", "url": "html/zeitplan.html", "live": True, "ar": 0.49}
+LEFT = "Zeitplan"
 
 # side columns right of the main one, in this order, each starting level with the named main section
 SIDE = {"Entwurf · Volumenstudien": "Aufgabenstellung"}
@@ -249,6 +253,7 @@ def main():
     preview = next(THUMBS.glob("referenzen-*.webp"))  # name carries a content hash, written by build_refs.py
     w, h = Image.open(preview).size
     sections.append({"title": "Referenzen", "items": [REFS | {"thumb": preview.relative_to(REPO).as_posix(), "ar": round(w / h, 4)}]})
+    sections.append({"title": LEFT, "items": [dict(ZEITPLAN)]})
 
     left = [r for r in files if r not in used]
     if left:
@@ -281,7 +286,7 @@ def layout(sections):
         tops[s["title"]] = y
         y += 250  # room for the 180px section title
         # photo stacks are the content there, so show them bigger; the references tile is a page preview
-        h = {"Fotos": ROW_H * 2, "Referenzen": ROW_H * 4}.get(s["title"], ROW_H)
+        h = {"Fotos": ROW_H * 2, "Referenzen": ROW_H * 4, LEFT: ROW_H * 16}.get(s["title"], ROW_H)
         x = 0
         for it in s["items"]:
             w = h * it.get("ar", 1.0)  # square unless the item knows its shape
@@ -299,8 +304,11 @@ def layout(sections):
 
     y = 0
     for s in sections:
-        if s["title"] not in SIDE:
+        if s["title"] not in SIDE and s["title"] != LEFT:
             y = flow(s, 0, y)
+    s = next((s for s in sections if s["title"] == LEFT), None)
+    if s:  # its single card ends 1000 before the main column, top level with the first section
+        flow(s, -round(ROW_H * 16 * s["items"][0]["ar"] + 1000), 0)
     for title in SIDE:
         s = next((s for s in sections if s["title"] == title), None)
         if s:  # next column starts 1000 right of everything so far (labels ~100 px per character at 180 px)
