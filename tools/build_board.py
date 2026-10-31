@@ -29,10 +29,23 @@ HTML = {"05_3D-Modelle/Modell-Ansichten_HTML/index.html": "html/modell-ansichten
         "02_Plaene/Details/Kern335/Treppe_Kern335_Detailmappe_2.html": "html/kern335-detailmappe.html",
         "03_Analyse/Raumprogramm/TIB_1102_D_Flaechen-Editor_10.html": "html/flaechen-editor.html"}
 
-# (title, [entries]); entry = ("open", globs) | ("latest", globs) | ("stack", title, globs)
+# (title, [entries]); entry = ("open", globs) | ("latest", globs) | ("stack", title, globs) | ("box", title, [entries])
 # "latest": newest version open (name_v3 / name_2 beats name), older ones go into one "Ältere Versionen" stack.
 SECTIONS = [
-    ("Aufgabenstellung", [("open", ["00_Aufgabe/*.pdf"])]),
+    ("Aufgabenstellung", [
+        ("open", ["00_Aufgabe/*.pdf"]),
+        # the university's plans: one box next to the brief, everything inside
+        ("box", "Bestand · Pläne Uni", [
+            ("open", ["01_Bestand_Uni/Grundrisse/*.pdf", "01_Bestand_Uni/Schnitte/*.pdf", "01_Bestand_Uni/Ansichten/*.pdf"]),
+            ("latest", ["01_Bestand_Uni/Lageplan/*.pdf"]),
+            ("open", ["01_Bestand_Uni/Historisch/*.pdf"]),  # 1961 original furniture plan
+            ("stack", "Wettbewerb 1982/83", ["01_Bestand_Uni/Historisch/Archiv_1960-2013/1982-83_Wettbewerb/*"]),
+            ("stack", "Historische Pläne 1960–2013", ["01_Bestand_Uni/Historisch/Archiv_1960-2013/*"]),
+            ("stack", "Nachbargebäude", ["01_Bestand_Uni/Nachbargebaeude/**"]),
+            ("stack", "Buchscans", ["01_Bestand_Uni/Buchscans/*"]),
+            ("stack", "CAD + Raumliste", ["01_Bestand_Uni/*/*"]),
+        ]),
+    ]),
     ("Grundrisse", [
         ("open", ["02_Plaene/Grundrisse/*_M1-200.pdf"]),
         ("stack", "Grundrisse A3 · M 1:250", ["02_Plaene/Grundrisse/*_A3.pdf"]),
@@ -43,7 +56,7 @@ SECTIONS = [
         ("stack", "Städtebaulicher Schnitt · Stile", ["02_Plaene/Schnitte/LP_*.pdf"]),
         ("stack", "CAD (DXF)", ["02_Plaene/Schnitte/*"]),
     ]),
-    # the reworked elevation sheet; listed before Bestand so Bestand does not claim it
+    # the reworked elevation sheet (main() builds this section before the Bestand box claims it)
     ("Ansichten", [("open", ["01_Bestand_Uni/Ansichten/*berarbeitet*.pdf", "02_Plaene/Ansichten/*.pdf"])]),
     ("Lageplan", [
         ("latest", ["02_Plaene/Lageplan/*_Lageplan_*.pdf"]),
@@ -76,7 +89,7 @@ SECTIONS = [
         ("open", ["03_Analyse/Raumprogramm/*.html"]),
         ("stack", "Grafiken, Excel, DXF", ["03_Analyse/Raumprogramm/*"]),
     ]),
-    # side columns (see SIDE): volume studies so far, and the university's own plans
+    # side column (see SIDE): volume studies so far
     ("Entwurf · Volumenstudien", [
         ("latest", ["04_Entwurf/Renderings/TIB_Vergleich_*"]),
         ("stack", "Varianten Andis", ["04_Entwurf/Renderings/Andis*"]),
@@ -84,16 +97,6 @@ SECTIONS = [
         ("stack", "Optionen 1–15", ["04_Entwurf/Renderings/Option*"]),
         ("stack", "Lagepläne Varianten", ["04_Entwurf/Lageplaene_Varianten/*"]),
         ("stack", "Flächenbedarf (Rhino)", ["04_Entwurf/Flaechenbedarf/*"]),
-    ]),
-    ("Bestand · Pläne Uni", [
-        ("open", ["01_Bestand_Uni/Grundrisse/*.pdf", "01_Bestand_Uni/Schnitte/*.pdf", "01_Bestand_Uni/Ansichten/*.pdf"]),
-        ("latest", ["01_Bestand_Uni/Lageplan/*.pdf"]),
-        ("open", ["01_Bestand_Uni/Historisch/*.pdf"]),  # 1961 original furniture plan
-        ("stack", "Wettbewerb 1982/83", ["01_Bestand_Uni/Historisch/Archiv_1960-2013/1982-83_Wettbewerb/*"]),
-        ("stack", "Historische Pläne 1960–2013", ["01_Bestand_Uni/Historisch/Archiv_1960-2013/*"]),
-        ("stack", "Nachbargebäude", ["01_Bestand_Uni/Nachbargebaeude/**"]),
-        ("stack", "Buchscans", ["01_Bestand_Uni/Buchscans/*"]),
-        ("stack", "CAD + Raumliste", ["01_Bestand_Uni/*/*"]),
     ]),
     ("Fotos", [
         ("stack", "Fassade", ["07_Fotos/Fassade/*"]),
@@ -111,7 +114,7 @@ REFS = {"id": "html/referenzen/index.html", "kind": "html", "title": "Referenzen
         "url": "html/referenzen/index.html"}
 
 # side columns right of the main one, in this order, each starting level with the named main section
-SIDE = {"Entwurf · Volumenstudien": "Aufgabenstellung", "Bestand · Pläne Uni": "Grundrisse"}
+SIDE = {"Entwurf · Volumenstudien": "Aufgabenstellung"}
 
 VER = re.compile(r"_(?:v)?(\d+)$")
 
@@ -190,10 +193,17 @@ def main():
             it["title"] = {"html/modell-ansichten/index.html": "Modell-Ansichten (interaktiv)"}.get(HTML[rel], it["title"])
         return it
 
-    used, sections = set(), []
-    for title, entries in SECTIONS:
+    used = set()
+
+    def build(title, entries):
         cards, stacks = [], []
         for e in entries:
+            if e[0] == "box":  # a whole group folded into one stack (stacks inside it open as sub-levels)
+                inner = build(f"{title}:{e[1]}", e[2])
+                if inner:
+                    stacks.append({"id": f"stack:{title}:{e[1]}", "kind": "stack", "title": e[1], "items": inner,
+                                   "ar": 2})  # wide enough for its heading
+                continue
             if e[0] == "stack":
                 rels = [r for r in files if r not in used and match(r, e[2])]
                 if rels:
@@ -216,7 +226,11 @@ def main():
                     stacks.append({"id": f"stack:{title}:old:{len(stacks)}", "kind": "stack",
                                    "title": "Ältere Versionen", "items": [item(r) for r in older]})
             cards += [item(r) for r in rels]
-        sections.append({"title": title, "items": cards + stacks})
+        return cards + stacks
+
+    # Ansichten claims the reworked elevation sheet before the Bestand box can
+    built = {t: build(t, es) for t, es in sorted(SECTIONS, key=lambda s: s[0] != "Ansichten")}
+    sections = [{"title": t, "items": built[t]} for t, _ in SECTIONS]
 
     # reference page lives only in the repo (built by build_refs.py), not in the Seafile tree
     thumb = next(THUMBS.glob("referenzen-*.webp"))  # name carries a content hash, written by build_refs.py
@@ -257,7 +271,7 @@ def layout(sections):
         h = {"Fotos": ROW_H * 2, "Referenzen": ROW_H * 4}.get(s["title"], ROW_H)
         x = 0
         for it in s["items"]:
-            w = h * it.get("ar", 1.0) if it["kind"] in ("pdf", "image") or it["id"] == REFS["id"] else h
+            w = h * it.get("ar", 1.0)  # square unless the item knows its shape
             it["section"] = s["title"]
             if it["id"] in pos:
                 p = pos[it["id"]]
