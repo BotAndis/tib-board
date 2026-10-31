@@ -130,7 +130,14 @@ def preview(data):
             dr.rectangle((x, top, x + cw - 1, top + ch - 1), outline="#e7e7e7", width=2)
         y = top + ch + 12
     im = im.crop((0, 0, W, y + 30))
-    im.save(OUT.parent.parent / "thumbs" / "referenzen.webp", "WEBP", quality=86)
+    # content hash in the name: browsers cache thumbs hard, a new preview must get a new URL
+    import hashlib, io
+    buf = io.BytesIO()
+    im.save(buf, "WEBP", quality=86)
+    thumbs = OUT.parent.parent / "thumbs"
+    for old in thumbs.glob("referenzen*.webp"):
+        old.unlink()
+    (thumbs / f"referenzen-{hashlib.sha1(buf.getvalue()).hexdigest()[:8]}.webp").write_bytes(buf.getvalue())
     print("preview", im.size, "ar", round(im.width / im.height, 4))
 
 

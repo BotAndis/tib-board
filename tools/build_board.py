@@ -104,7 +104,7 @@ SECTIONS = [
 
 REFS = {"id": "html/referenzen/index.html", "kind": "html", "title": "Referenzen · Bibliotheken", "ext": "html",
         "size": 0, "dl": "html/referenzen/index.html", "raw": "html/referenzen/index.html",
-        "url": "html/referenzen/index.html", "thumb": "thumbs/referenzen.webp"}
+        "url": "html/referenzen/index.html"}
 
 VER = re.compile(r"_(?:v)?(\d+)$")
 
@@ -212,8 +212,9 @@ def main():
         sections.append({"title": title, "items": cards + stacks})
 
     # reference page lives only in the repo (built by build_refs.py), not in the Seafile tree
-    w, h = Image.open(REPO / REFS["thumb"]).size
-    sections.append({"title": "Referenzen", "items": [REFS | {"ar": round(w / h, 4)}]})
+    thumb = next(THUMBS.glob("referenzen-*.webp"))  # name carries a content hash, written by build_refs.py
+    w, h = Image.open(thumb).size
+    sections.append({"title": "Referenzen", "items": [REFS | {"thumb": thumb.relative_to(REPO).as_posix(), "ar": round(w / h, 4)}]})
 
     left = [r for r in files if r not in used]
     if left:
