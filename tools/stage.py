@@ -24,52 +24,57 @@ def dsc(*ranges):  # site-visit photos 21.10. by number range
 
 
 # destination folder -> source globs (recursive ** keeps the subfolders below the glob root)
+U, E = "1_Bestand_von-der-Uni", "2_Bestand_eigene-Pläne"
 PLAN = {
-    "00_Aufgabe": [f"{B}/00_Aufgabe/*.pdf"],
-    "01_Bestand_Uni/Grundrisse": [f"{PU}/GR/*.pdf", f"{PU}/GR/*.dwg"],
-    "01_Bestand_Uni/Schnitte": [f"{PU}/SC/*.pdf", f"{PU}/SC/*.dwg"],
-    "01_Bestand_Uni/Ansichten": [f"{PU}/Ansichten/*.pdf", f"{PU}/Ansichten/*.dwg", f"{PU}/Ansichten/*.pln"],
-    "01_Bestand_Uni/Lageplan": [f"{PU}/LP/*.pdf", f"{PU}/LP/*.dwg"],
-    "01_Bestand_Uni/Nachbargebaeude": [f"{PU}/Nachbargebäude/**/*.pdf", f"{PU}/Nachbargebäude/**/*.dwg"],
-    "01_Bestand_Uni/Raumliste": [f"{B}/02_Bestand/Raumliste/*.xlsx"],
-    "01_Bestand_Uni/Buchscans": [f"{B}/02_Bestand/Buchscans/*.jpg"],
-    "02_Plaene/Grundrisse": [f"{AN}/Grundrisse/TIB_1102_Grundriss_{g}_M1-*" for g in ("??", "???", "Dach")],
-    "03_Analyse/Moeblierung_Nutzung": [f"{AN}/Grundrisse/*Moeblierung*"],
-    "02_Plaene/Schnitte": [f"{AN}/Schnitte/*"],
-    "02_Plaene/Lageplan": [f"{AN}/Lageplan/*"],
-    "03_Analyse/Raumprogramm": [f"{AN}/Raumprogramm/*.pdf", f"{AN}/Raumprogramm/*.png", f"{AN}/Raumprogramm/*.xlsx",
-                                f"{AN}/Raumprogramm/*.dxf", f"{AN}/Raumprogramm/TIB_1102_D_Flaechen-Editor_10.html"],
-    "02_Plaene/Details": [f"{AN}/Details/*.pdf", f"{AN}/Details/*.svg"],
-    "02_Plaene/Details/Kern335": [f"{AN}/Details/Kern335/*.pdf", f"{AN}/Details/Kern335/*.png", f"{AN}/Details/Kern335/*.dxf",
+    "0_Aufgabe": [f"{B}/00_Aufgabe/*.pdf"],
+    f"{U}/Grundrisse": [f"{PU}/GR/*.pdf", f"{PU}/GR/*.dwg"],
+    f"{U}/Schnitte": [f"{PU}/SC/*.pdf", f"{PU}/SC/*.dwg"],
+    f"{U}/Ansichten": [f"{PU}/Ansichten/*.pdf", f"{PU}/Ansichten/*.dwg", f"{PU}/Ansichten/*.pln"],
+    f"{U}/Lageplan": [f"{PU}/LP/*.pdf", f"{PU}/LP/*.dwg"],
+    f"{U}/Nachbargebäude_Marstall-1103": [f"{PU}/Nachbargebäude/Marstall_1103/*.pdf", f"{PU}/Nachbargebäude/Marstall_1103/*.dwg"],
+    f"{U}/Nachbargebäude_Garage-1114": [f"{PU}/Nachbargebäude/Garage_1114/*.pdf", f"{PU}/Nachbargebäude/Garage_1114/*.dwg"],
+    f"{U}/Raumliste": [f"{B}/02_Bestand/Raumliste/*.xlsx"],
+    f"{U}/Buchscans": [f"{B}/02_Bestand/Buchscans/*.jpg"],
+    f"{E}/Grundrisse": [f"{AN}/Grundrisse/TIB_1102_Grundriss_{g}_M1-*" for g in ("??", "???", "Dach")],
+    f"{E}/Möblierung+Nutzung": [f"{AN}/Grundrisse/*Moeblierung*"],
+    f"{E}/Schnitte": [f"{AN}/Schnitte/*"],
+    f"{E}/Lageplan": [f"{AN}/Lageplan/*"],
+    f"{E}/Raumprogramm": [f"{AN}/Raumprogramm/*.pdf", f"{AN}/Raumprogramm/*.png", f"{AN}/Raumprogramm/*.xlsx",
+                          f"{AN}/Raumprogramm/*.dxf", f"{AN}/Raumprogramm/TIB_1102_D_Flaechen-Editor_10.html"],
+    f"{E}/Detail_Dach-Innenhof": [f"{AN}/Details/*.pdf", f"{AN}/Details/*.svg"],
+    f"{E}/Detail_Treppe-Kern335": [f"{AN}/Details/Kern335/*.pdf", f"{AN}/Details/Kern335/*.png", f"{AN}/Details/Kern335/*.dxf",
                                    f"{AN}/Details/Kern335/*.html",
                                    f"{AN}/Details/Kern335/*.3dm", f"{AN}/Details/Kern335/Fotos/*"],
-    "04_Entwurf/Lageplaene_Varianten": [f"{VAR}/Lageplaene/*.pdf"],
-    "04_Entwurf/Renderings": [f"{VAR}/*.jpg"],
-    "04_Entwurf/Flaechenbedarf": [f"{B}/04_Entwurf/Varianten/*.3dm"],
+    "4_Entwurf/Lagepläne_Varianten": [f"{VAR}/Lageplaene/*.pdf"],
+    "4_Entwurf/Vergleiche": [f"{VAR}/TIB_Vergleich_*.jpg"],
+    "4_Entwurf/Varianten_Andis": [f"{VAR}/Andis*.jpg"],
+    "4_Entwurf/Varianten_Luca": [f"{VAR}/Luca*.jpg"],
+    "4_Entwurf/Optionen_1-15": [f"{VAR}/Option*.jpg"],
+    "4_Entwurf/Flächenbedarf": [f"{B}/04_Entwurf/Varianten/*.3dm"],
     # shortcut: the Rhino model itself is left out while it is still being edited; add its final .3dm here when done
-    "05_3D-Modelle/Bestandsmodell": [f"{B}/04_Modelle/Bestandsmodell/*.png", f"{B}/04_Modelle/Bestandsmodell/*Pruefbericht_v3.md"],
-    "05_3D-Modelle/Bestandsmodell_Uni": [f"{PU}/Modell/TIB_011_detail_final.3dm", f"{PU}/Modell/_shots/*.png"],
-    "05_3D-Modelle/Modell-Ansichten_HTML": ["D:/Claude_Workspaces/CX-NEA/Rhino-Arch-AI/work/review/tib/publish/**/*"],
-    "05_3D-Modelle/Volumenmodell":[f"{PU}/Tib_Volument.3dm"],
-    "05_3D-Modelle/Umgebungsmodell": ["D:/Claude_Workspaces/CX-NEA/Map-Maker/downloads/hannover-tib/TIB_Umgebung_500m_LoD2.*"],
-    "05_3D-Modelle/Web-Vorschau": [f"{B}/04_Modelle/Web-Vorschau/*.glb"],
-    "06_3D-Druck/Bestand_M1-500": [f"{PU}/Modell/TIB_Druck_1zu500_mm.stl", f"{DR}/druck bestand tib getrennt.stl", f"{DR}/Bambulab/*.3mf"],
-    "06_3D-Druck/Varianten_M1-500": [f"{DRV}/*.png", f"{DRV}/*.txt", f"{DRV}/komplett_mit-Stuetzen/*.stl"],
-    "06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen": [f"{DRV}/geteilt_ohne-Stuetzen/**/*.stl"],
+    "5_3D-Modelle/Bestandsmodell": [f"{B}/04_Modelle/Bestandsmodell/*.png", f"{B}/04_Modelle/Bestandsmodell/*Pruefbericht_v3.md"],
+    "5_3D-Modelle/Bestandsmodell_Uni": [f"{PU}/Modell/TIB_011_detail_final.3dm", f"{PU}/Modell/_shots/*.png"],
+    "5_3D-Modelle/Modell-Ansichten_Web": ["D:/Claude_Workspaces/CX-NEA/Rhino-Arch-AI/work/review/tib/publish/**/*"],
+    "5_3D-Modelle/Volumen": [f"{PU}/Tib_Volument.3dm"],
+    "5_3D-Modelle/Umgebung": ["D:/Claude_Workspaces/CX-NEA/Map-Maker/downloads/hannover-tib/TIB_Umgebung_500m_LoD2.*"],
+    "6_3D-Druck/Bestand_M1-500": [f"{PU}/Modell/TIB_Druck_1zu500_mm.stl", f"{DR}/druck bestand tib getrennt.stl", f"{DR}/Bambulab/*.3mf"],
+    "6_3D-Druck/Entwurf_M1-500": [f"{DRV}/*.png", f"{DRV}/*.txt", f"{DRV}/komplett_mit-Stuetzen/*.stl"],
+    # shortcut: keeps <plate>/<variant>/ below the glob root, while the sorted tree has <plate>/ flat; flatten by hand
+    "6_3D-Druck/Entwurf_Platten": [f"{DRV}/geteilt_ohne-Stuetzen/**/*.stl"],
     # photos sorted by topic (incl. the references the 3D model was built from); new photos: add them to a topic
-    "07_Fotos/Modellfotos_2026-10-20": [f"{FO}/2026-10-20_Besichtigung/*.JPG"],
-    "07_Fotos/Fassade": [f"{FO}/Online/*", *pf("TIB_Aussenansicht1_RGB.JPG", "TIB_Aussenansicht_Standort_*", "Technische_*",
+    "3_Bestand_Fotos/Modellfotos_2026-10-20": [f"{FO}/2026-10-20_Besichtigung/*.JPG"],
+    "3_Bestand_Fotos/Fassade": [f"{FO}/Online/*", *pf("TIB_Aussenansicht1_RGB.JPG", "TIB_Aussenansicht_Standort_*", "Technische_*",
                                                  "csm_technat-aussen*", "images.jpg"),
                          f"{RF}/ph/cat_00.jpg", f"{RF}/ph/cat_01.jpg", f"{RF}/ph/welf_*.jpg", f"{RF}/web/w1_00.jpg",
                          f"{RF}/web/w7_11.jpg", f"{RF}/user/review3/eg_[st]*", f"{RF}/user/review3/annex_east_*", f"{RF}/sv/*.png"],
-    "07_Fotos/Innen": [*dsc((2497, 2500), (2510, 2547), (2552, 2557), (2560, 2561), (2569, 2572)),
-                       *pf("*Galerie*", "*Lesesaal*", "hannover_tib_ub_*"), f"{RF}/ph/cat_0[2-6].jpg",
-                       f"{RF}/user/interior_*.webp", f"{RF}/web/w3_13.jpg"],
-    "07_Fotos/Innenhoefe": dsc((2501, 2509), (2562, 2568)),
-    "07_Fotos/Details": dsc((2548, 2551), (2558, 2559)),
-    "07_Fotos/Historisch": [*pf("Screenshot_*", "TIB_Außenansicht*", "TIB_im_Bau_*"), f"{RF}/user/review3/eg_historic_bw.png"],
-    "07_Fotos/Luftbilder": [*pf("gottfried-*"), f"{RF}/web/wc_02.jpg", f"{RF}/cesium/tib_ortho_google.png",
-                            f"{RF}/cesium/corners.png", f"{RF}/user/review3/annex_roof_google3d.webp"],
+    "3_Bestand_Fotos/Innen": [*dsc((2497, 2500), (2510, 2547), (2552, 2557), (2560, 2561), (2569, 2572)),
+                              *pf("*Galerie*", "*Lesesaal*", "hannover_tib_ub_*"), f"{RF}/ph/cat_0[2-6].jpg",
+                              f"{RF}/user/interior_*.webp", f"{RF}/web/w3_13.jpg"],
+    "3_Bestand_Fotos/Innenhöfe": dsc((2501, 2509), (2562, 2568)),
+    "3_Bestand_Fotos/Details": dsc((2548, 2551), (2558, 2559)),
+    "3_Bestand_Fotos/Historisch": [*pf("Screenshot_*", "TIB_Außenansicht*", "TIB_im_Bau_*"), f"{RF}/user/review3/eg_historic_bw.png"],
+    "3_Bestand_Fotos/Luftbilder": [*pf("gottfried-*"), f"{RF}/web/wc_02.jpg", f"{RF}/cesium/tib_ortho_google.png",
+                                   f"{RF}/cesium/corners.png", f"{RF}/user/review3/annex_roof_google3d.webp"],
 }
 
 
@@ -86,15 +91,18 @@ SKIP_FOTOS = {f"DSC_{n}.JPG" for n in (
 
 def stage(out):
     n = 0
+    # a file sorted by hand since (e.g. into 'Ältere Versionen' or a renderings subfolder) must not come back twice
+    # shortcut: a new file named like an unrelated existing one is skipped too; rename it at the source then
+    have = {f for _, _, fs in os.walk(out) for f in fs}
     for dest, globs in PLAN.items():
         for g in globs:
             root = g.split("**")[0] if "**" in g else None
             for src in glob.glob(g, recursive=True):
-                if not os.path.isfile(src) or dest.startswith("07_Fotos") and os.path.basename(src) in SKIP_FOTOS:
+                if not os.path.isfile(src) or dest.startswith("3_Bestand_Fotos") and os.path.basename(src) in SKIP_FOTOS:
                     continue
                 rel = os.path.relpath(src, root) if root else os.path.basename(src)
                 dst = os.path.join(out, dest, rel)
-                if os.path.exists(dst):
+                if os.path.exists(dst) or not dest.endswith("_Web") and os.path.basename(src) in have:
                     continue
                 os.makedirs(os.path.dirname(dst), exist_ok=True)
                 shutil.copy2(src, dst)

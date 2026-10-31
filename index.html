@@ -276,7 +276,7 @@ const view = new View(host, world, {
 const X0 = Math.min(0, ...board.items.map(i => i.x), ...board.labels.map(l => l.x));  // the Zeitplan column lies left of 0
 const W = Math.max(...board.items.map(i => i.x + i.w), ...board.labels.map(l => l.x + 600)) - X0;
 view.fit(W, 1, 40, true);
-view.s = Math.max(view.s, .12);
+view.s = Math.max(view.s, .05);  // whole board at first: Grundlagen left, Entwurf right
 view.x = Math.max(40, (host.clientWidth - W * view.s) / 2) - X0 * view.s; view.apply();
 
 // model card thumbnails once they scroll into view

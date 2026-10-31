@@ -4,7 +4,7 @@
 - Positions/sizes you changed on the board (edit mode, saved into board.json) are kept; everything else is re-flowed.
 - PDFs and 3D files get one Seafile share link each: only /seafhttp/f/<token>/ allows the page to fetch them (CORS).
 Run: uv run --no-project --python 3.12 --with mcp==1.27.2 --with pymupdf --with pillow python build_board.py
-Add --layout to only re-sort board.json after changing SECTIONS / SIDE (no Seafile, no new files).
+Add --layout to only re-sort board.json after changing GRID (no Seafile, no new files; new SECTIONS need a full run).
 The board is also edited online (?edit saves board.json + uploads/ to GitHub): the run pulls first and keeps
 those uploads, so commit + push board.json right after it.
 """
@@ -27,100 +27,93 @@ THUMBS = REPO / "thumbs"
 KIND = {".pdf": "pdf", ".jpg": "image", ".jpeg": "image", ".png": "image", ".webp": "image",
         ".stl": "model", ".glb": "model", ".html": "html"}  # .3mf: Bambu project files break three's 3MFLoader -> download card
 # HTML previews are served from the repo itself (Seafile forbids framing): local path -> repo path
-HTML = {"05_3D-Modelle/Modell-Ansichten_HTML/index.html": "html/modell-ansichten/index.html",
-        "02_Plaene/Details/Kern335/Treppe_Kern335_Detailmappe_2.html": "html/kern335-detailmappe.html",
-        "03_Analyse/Raumprogramm/TIB_1102_D_Flaechen-Editor_10.html": "html/flaechen-editor.html"}
+HTML = {"5_3D-Modelle/Modell-Ansichten_Web/index.html": "html/modell-ansichten/index.html",
+        "2_Bestand_eigene-Pläne/Detail_Treppe-Kern335/Treppe_Kern335_Detailmappe_2.html": "html/kern335-detailmappe.html",
+        "2_Bestand_eigene-Pläne/Raumprogramm/TIB_1102_D_Flaechen-Editor_10.html": "html/flaechen-editor.html"}
 
+# The board follows the folder 1:1: chapter folder "N_…" -> sections "N … · <subfolder>", same order, same names.
+# Older versions live in each folder's "Ältere Versionen" subfolder (D:/UNI/_ordnung/plan_2026-10-31.csv), so no
+# version guessing here: what lies in a folder is open, the subfolder is one stack.
 # (title, [entries]); entry = ("open", globs) | ("latest", globs) | ("pick", globs) | ("stack", title, globs) | ("box", title, [entries])
 # "pick": like "latest", but older versions stay free for a later entry.
 # "latest": newest version open (name_v3 / name_2 beats name), older ones go into one "Ältere Versionen" stack.
+U, E, F, D, M, P, O = ("1_Bestand_von-der-Uni", "2_Bestand_eigene-Pläne", "3_Bestand_Fotos", "4_Entwurf", "5_3D-Modelle",
+                       "6_3D-Druck", "Ältere Versionen")
+PLATES = sorted(p.name for p in (LOCAL / P / "Entwurf_Platten").iterdir() if p.is_dir())
 SECTIONS = [
-    ("Aufgabenstellung", [
-        ("open", ["00_Aufgabe/*.pdf"]),
-        # the university's plans: one box next to the brief, everything inside
-        ("box", "Bestand · Pläne Uni", [
-            ("open", ["01_Bestand_Uni/Grundrisse/*.pdf", "01_Bestand_Uni/Schnitte/*.pdf", "01_Bestand_Uni/Ansichten/*.pdf"]),
-            ("latest", ["01_Bestand_Uni/Lageplan/*.pdf"]),
-            ("open", ["01_Bestand_Uni/Historisch/*.pdf"]),  # 1961 original furniture plan
-            ("stack", "Wettbewerb 1982/83", ["01_Bestand_Uni/Historisch/Archiv_1960-2013/1982-83_Wettbewerb/*"]),
-            ("stack", "Historische Pläne 1960–2013", ["01_Bestand_Uni/Historisch/Archiv_1960-2013/*"]),
-            ("stack", "Nachbargebäude", ["01_Bestand_Uni/Nachbargebaeude/**"]),
-            ("stack", "Buchscans", ["01_Bestand_Uni/Buchscans/*"]),
-            ("stack", "CAD + Raumliste", ["01_Bestand_Uni/*/*"]),
-        ]),
+    ("0 Aufgabe", [("open", ["0_Aufgabe/*.pdf"])]),
+    *[(f"1 Uni · {t}", [("open", [f"{U}/{t}/*.pdf"]), ("stack", "CAD", [f"{U}/{t}/*"])])
+      for t in ("Grundrisse", "Schnitte", "Ansichten", "Lageplan")],
+    ("1 Uni · Archiv + Nachbarn", [
+        ("open", [f"{U}/Archiv_1960-2013/1961_*Moeblierung*"]),  # the original 1961 furniture plan
+        ("stack", "Archiv 1960–2013", [f"{U}/Archiv_1960-2013/*"]),
+        ("stack", "Wettbewerb 1982/83", [f"{U}/Wettbewerb_1982-83/*"]),
+        ("stack", "Nachbargebäude · Marstall 1103", [f"{U}/Nachbargebäude_Marstall-1103/*"]),
+        ("stack", "Nachbargebäude · Garage 1114", [f"{U}/Nachbargebäude_Garage-1114/*"]),
+        ("stack", "Raumliste", [f"{U}/Raumliste/*"]),
+        ("stack", "Buchscans", [f"{U}/Buchscans/*"]),
     ]),
-    ("Grundrisse", [
-        ("open", ["02_Plaene/Grundrisse/*_M1-200.pdf"]),
-        ("stack", "Grundrisse A3 · M 1:250", ["02_Plaene/Grundrisse/*_A3.pdf"]),
-        ("stack", "CAD (DXF)", ["02_Plaene/Grundrisse/*.dxf"]),
+    ("2 Eigene Pläne · Grundrisse", [
+        ("open", [f"{E}/Grundrisse/*_M1-200.pdf"]),
+        ("stack", "A3 · M 1:250", [f"{E}/Grundrisse/*_A3.pdf"]),
+        ("stack", "CAD", [f"{E}/Grundrisse/*"]),
     ]),
-    ("Schnitte", [
-        ("pick", ["02_Plaene/Schnitte/*_Schnitt_Skizze*.pdf"]),  # same look as the Lageplan; the other styles stay in the box
-        ("open", ["02_Plaene/Schnitte/TIB_*.pdf"]),
-        ("box", "Weitere Stile + Versionen", [
-            ("latest", ["02_Plaene/Schnitte/LP_*.pdf"]),
-            ("open", ["02_Plaene/Schnitte/hannover-*.pdf"]),
-        ]),
-        ("stack", "CAD (DXF)", ["02_Plaene/Schnitte/*"]),
+    ("2 Eigene Pläne · Schnitte", [
+        ("open", [f"{E}/Schnitte/*_Schnitt_Skizze*.pdf", f"{E}/Schnitte/TIB_*.pdf"]),  # same look as the Lageplan
+        ("stack", "Weitere Stile", [f"{E}/Schnitte/*.pdf"]),
+        ("stack", O, [f"{E}/Schnitte/{O}/*"]),
+        ("stack", "CAD", [f"{E}/Schnitte/*"]),
     ]),
-    # the reworked elevation sheet (main() builds this section before the Bestand box claims it)
-    ("Ansichten", [("open", ["01_Bestand_Uni/Ansichten/*berarbeitet*.pdf", "02_Plaene/Ansichten/*.pdf"])]),
-    ("Lageplan", [
-        ("pick", ["02_Plaene/Lageplan/*_Lageplan_Skizze*.pdf"]),  # the chosen style; the others stay in the box
-        ("box", "Weitere Stile + Versionen", [
-            ("latest", ["02_Plaene/Lageplan/*_Lageplan_*.pdf"]),
-            ("stack", "Alle Pläne (Sammel-PDF)", ["02_Plaene/Lageplan/*alle_Plaene*"]),
-        ]),
-        ("stack", "CAD (DXF)", ["02_Plaene/Lageplan/*"]),
+    ("2 Eigene Pläne · Ansichten", [("open", [f"{E}/Ansichten/*"])]),
+    ("2 Eigene Pläne · Lageplan", [
+        ("open", [f"{E}/Lageplan/*_Lageplan_Skizze*.pdf"]),  # the chosen style
+        ("stack", "Weitere Stile", [f"{E}/Lageplan/*_Lageplan_*.pdf"]),
+        ("stack", "Alle Pläne (Sammel-PDF)", [f"{E}/Lageplan/*alle_Plaene*"]),
+        ("stack", O, [f"{E}/Lageplan/{O}/*"]),
+        ("stack", "CAD", [f"{E}/Lageplan/*"]),
     ]),
-    ("Details", [
-        ("latest", ["02_Plaene/Details/*.pdf", "02_Plaene/Details/Kern335/*.pdf"]),
-        ("latest", ["02_Plaene/Details/Kern335/*.html"]),
-        ("stack", "Kern 335 · Fotos", ["02_Plaene/Details/Kern335/Fotos/*", "02_Plaene/Details/Kern335/WhatsApp*"]),
-        ("stack", "Kern 335 · Grafiken + CAD", ["02_Plaene/Details/**"]),
+    ("2 Eigene Pläne · Details", [
+        ("open", [f"{E}/Detail_*/*.pdf", f"{E}/Detail_Treppe-Kern335/*.html"]),
+        ("stack", "Treppe Kern 335 · Fotos", [f"{E}/Detail_Treppe-Kern335/WhatsApp*"]),
+        ("stack", "Grafiken + CAD", [f"{E}/Detail_*/*"]),
+        ("stack", O, [f"{E}/Detail_*/{O}/*"]),
     ]),
-    ("3D-Modelle", [
-        ("open", ["05_3D-Modelle/Modell-Ansichten_HTML/index.html", "05_3D-Modelle/Web-Vorschau/*.glb"]),
-        ("latest", ["05_3D-Modelle/Bestandsmodell/*.png"]),
-        ("stack", "Modell Uni · Ansichten", ["05_3D-Modelle/Bestandsmodell_Uni/*.png"]),
-        ("stack", "Rhino-Dateien + Bericht", ["05_3D-Modelle/*/*.3dm", "05_3D-Modelle/*/*.ifc", "05_3D-Modelle/*/*.md"]),
+    ("2 Eigene Pläne · Möblierung + Nutzung", [
+        ("open", [f"{E}/Möblierung+Nutzung/*.pdf"]),
+        ("stack", "CAD", [f"{E}/Möblierung+Nutzung/*"]),
+    ]),
+    ("2 Eigene Pläne · Raumprogramm", [
+        ("open", [f"{E}/Raumprogramm/*.pdf", f"{E}/Raumprogramm/*.html"]),
+        ("stack", "Grafiken, Excel, CAD", [f"{E}/Raumprogramm/*"]),
+        ("stack", O, [f"{E}/Raumprogramm/{O}/*"]),
+    ]),
+    ("3 Fotos", [("stack", t.replace("_2026-10-20", " 20.10."), [f"{F}/{t}/*"]) for t in
+                 ("Fassade", "Innen", "Innenhöfe", "Details", "Historisch", "Luftbilder", "Modellfotos_2026-10-20")]),
+    ("4 Entwurf · Volumenstudien", [
+        ("open", [f"{D}/Vergleiche/*"]),
+        ("stack", "Varianten Andis", [f"{D}/Varianten_Andis/*"]),
+        ("stack", "Varianten Luca", [f"{D}/Varianten_Luca/*"]),
+        ("stack", "Optionen 1–15", [f"{D}/Optionen_1-15/*"]),
+        ("stack", "Lagepläne Varianten", [f"{D}/Lagepläne_Varianten/*"]),
+        ("stack", "Flächenbedarf (Rhino)", [f"{D}/Flächenbedarf/*"]),
+        ("stack", O, [f"{D}/Vergleiche/{O}/*", f"{D}/Lagepläne_Varianten/{O}/*"]),
+    ]),
+    # empty until the design has plans: the rows line up with the Bestand rows of the same name
+    *[(f"4 Entwurf · {t}", [("open", [f"{D}/{t}/*"]), ("stack", O, [f"{D}/{t}/{O}/*"])])
+      for t in ("Grundrisse", "Schnitte", "Ansichten", "Lageplan", "Details")],
+    ("5 3D-Modelle", [
+        ("open", [f"{M}/Modell-Ansichten_Web/index.html", f"{M}/Bestandsmodell/*.png"]),
+        ("stack", "Modell Uni · Ansichten", [f"{M}/Bestandsmodell_Uni/*.png"]),
+        ("stack", "Rhino, IFC + Bericht", [f"{M}/*/*"]),
+        ("stack", O, [f"{M}/Bestandsmodell/{O}/*"]),
     ]),
     # existing building and design variants are separate prints, never one row
-    ("3D-Druck · Bestand", [("open", ["06_3D-Druck/Bestand_M1-500/*"])]),
-    ("3D-Druck · Entwurf", [
-        ("open", ["06_3D-Druck/Varianten_M1-500/*"]),  # complete variants, assembly sheet, LIESMICH
+    ("6 3D-Druck · Bestand", [("open", [f"{P}/Bestand_M1-500/*"])]),
+    ("6 3D-Druck · Entwurf", [
+        ("open", [f"{P}/Entwurf_M1-500/*"]),  # complete variants, assembly sheet, LIESMICH
         # one stack per print plate instead of one 70-part pile ("A1_Platte-2" -> "A1 · Platte 2")
-        *[("stack", p.replace("_", " · ").replace("-", " "), [f"06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/{p}/**"])
-          for p in ["A1_Platte-1_A3-einteilig", "A1_Platte-1_A3-Wandteile", "A1_Platte-2", "A1_Platte-3_A3-Daecher",
-                    "A2L_eine-Platte_A3-einteilig", "A2L_Platte-1_A3-Wandteile", "A2L_Platte-2"]],
-        ("stack", "Druckteile weitere", ["06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/**"]),
-    ]),
-    ("Analyse · Möblierung + Nutzung", [
-        ("open", ["03_Analyse/Moeblierung_Nutzung/*.pdf"]),
-        ("stack", "CAD (DXF)", ["03_Analyse/Moeblierung_Nutzung/*.dxf"]),
-    ]),
-    ("Analyse · Raumprogramm", [
-        ("latest", ["03_Analyse/Raumprogramm/*.pdf"]),
-        ("open", ["03_Analyse/Raumprogramm/*.html"]),
-        ("stack", "Grafiken, Excel, DXF", ["03_Analyse/Raumprogramm/*"]),
-    ]),
-    # side column (see SIDE): volume studies so far
-    ("Entwurf · Volumenstudien", [
-        ("latest", ["04_Entwurf/Renderings/TIB_Vergleich_*"]),
-        ("stack", "Varianten Andis", ["04_Entwurf/Renderings/Andis*"]),
-        ("stack", "Varianten Luca", ["04_Entwurf/Renderings/Luca*"]),
-        ("stack", "Optionen 1–15", ["04_Entwurf/Renderings/Option*"]),
-        ("stack", "Lagepläne Varianten", ["04_Entwurf/Lageplaene_Varianten/*"]),
-        ("stack", "Flächenbedarf (Rhino)", ["04_Entwurf/Flaechenbedarf/*"]),
-    ]),
-    ("Fotos", [
-        ("stack", "Fassade", ["07_Fotos/Fassade/*"]),
-        ("stack", "Innen", ["07_Fotos/Innen/*"]),
-        ("stack", "Innenhöfe", ["07_Fotos/Innenhoefe/*"]),
-        ("stack", "Details + Material", ["07_Fotos/Details/*"]),
-        ("stack", "Historisch", ["07_Fotos/Historisch/*"]),
-        ("stack", "Luftbilder", ["07_Fotos/Luftbilder/*"]),
-        ("stack", "Modellfotos 20.10.", ["07_Fotos/Modellfotos_2026-10-20/*"]),
+        *[("stack", p.replace("_", " · ").replace("-", " "), [f"{P}/Entwurf_Platten/{p}/*"]) for p in PLATES],
+        ("stack", O, [f"{P}/Entwurf_M1-500/{O}/*"]),
     ]),
 ]
 
@@ -132,8 +125,16 @@ ZEITPLAN = {"id": "html/zeitplan.html", "kind": "html", "title": "Zeitplan · Te
             "dl": "html/zeitplan.html", "raw": "html/zeitplan.html", "url": "html/zeitplan.html", "live": True, "ar": 0.3015}
 LEFT = "Zeitplan"
 
-# side columns right of the main one, in this order, each starting level with the named main section
-SIDE = {"Entwurf · Volumenstudien": "Aufgabenstellung"}
+# rows of (Grundlagen | eigene Pläne | Entwurf); a row starts below the tallest cell of the row above, so the
+# Entwurf plans sit level with the Bestand plans of the same name
+GRID = [
+    ("0 Aufgabe", None, "4 Entwurf · Volumenstudien"),
+    *[(f"1 Uni · {t}", f"2 Eigene Pläne · {t}", f"4 Entwurf · {t}") for t in ("Grundrisse", "Schnitte", "Ansichten", "Lageplan")],
+    (None, "2 Eigene Pläne · Details", "4 Entwurf · Details"),
+    ("1 Uni · Archiv + Nachbarn", "2 Eigene Pläne · Möblierung + Nutzung", "6 3D-Druck · Entwurf"),
+    ("3 Fotos", "2 Eigene Pläne · Raumprogramm", "Referenzen"),
+    ("5 3D-Modelle", "6 3D-Druck · Bestand", None),
+]
 
 VER = re.compile(r"_(?:v)?(\d+)$")
 
@@ -176,7 +177,7 @@ def thumb(rel, kind):
 
 def main():
     files = sorted(p.relative_to(LOCAL).as_posix() for p in LOCAL.rglob("*") if p.is_file()
-                   and "Modell-Ansichten_HTML/" not in p.relative_to(LOCAL).as_posix()
+                   and "Modell-Ansichten_Web/" not in p.relative_to(LOCAL).as_posix()
                    or p.relative_to(LOCAL).as_posix() in HTML)
     THUMBS.mkdir(exist_ok=True)
     repo = sf._repo(LIB)
@@ -252,9 +253,7 @@ def main():
             cards += [item(r) for r in rels]
         return cards + stacks
 
-    # Ansichten claims the reworked elevation sheet before the Bestand box can
-    built = {t: build(t, es) for t, es in sorted(SECTIONS, key=lambda s: s[0] != "Ansichten")}
-    sections = [{"title": t, "items": built[t]} for t, _ in SECTIONS]
+    sections = [{"title": t, "items": build(t, es)} for t, es in SECTIONS]
 
     # reference page lives only in the repo (built by build_refs.py), not in the Seafile tree
     preview = next(THUMBS.glob("referenzen-*.webp"))  # name carries a content hash, written by build_refs.py
@@ -269,7 +268,7 @@ def main():
     for rel, dst in HTML.items():
         src, out = LOCAL / rel, REPO / dst
         out.parent.mkdir(parents=True, exist_ok=True)
-        if rel.endswith("Modell-Ansichten_HTML/index.html"):
+        if rel.endswith("Modell-Ansichten_Web/index.html"):
             shutil.copytree(src.parent, out.parent, dirs_exist_ok=True)
         else:
             shutil.copy2(src, out)
@@ -285,16 +284,15 @@ def layout(sections):
     old = json.loads(board.read_text(encoding="utf-8")) if board.exists() else {}
     pos = {i["id"]: i for i in old.get("items", []) + old.get("labels", []) if i.get("moved")}
     texts = {l["id"]: l["text"] for l in old.get("labels", [])}
-    items, labels, tops = [], [], {}
+    items, labels = [], []
     ROW_H, MAX_W, GAP = 300, 5200, 40
 
     def flow(s, x0, y):
         lid = "label:" + s["title"]
         labels.append(pos.get(lid) or {"id": lid, "text": texts.get(lid, s["title"]), "x": x0, "y": y})
-        tops[s["title"]] = y
         y += 250  # room for the 180px section title
         # photo stacks are the content there, so show them bigger; the references tile is a page preview
-        h = {"Fotos": ROW_H * 2, "Referenzen": ROW_H * 4, LEFT: ROW_H * 26}.get(s["title"], ROW_H)
+        h = {"3 Fotos": ROW_H * 2, "Referenzen": ROW_H * 4, LEFT: ROW_H * 26}.get(s["title"], ROW_H)
         x = 0
         for it in s["items"]:
             w = h * it.get("ar", 1.0)  # square unless the item knows its shape
@@ -310,18 +308,17 @@ def layout(sections):
             items.append(it)
         return y + h + 380
 
+    by = {s["title"]: s for s in sections}
+    cols = (0, MAX_W + 1200, 2 * MAX_W + 1200 + 4000)  # the wider gap parts Grundlagen (left) from Entwurf (right)
     y = 0
-    for s in sections:
-        if s["title"] not in SIDE and s["title"] != LEFT:
+    for row in GRID:
+        y = max([flow(by[t], x, y) for x, t in zip(cols, row) if t in by] or [y])
+    for s in sections:  # anything not in GRID (e.g. "Neu / unsortiert") goes below the left column
+        if s["title"] != LEFT and not any(s["title"] in row for row in GRID):
             y = flow(s, 0, y)
-    s = next((s for s in sections if s["title"] == LEFT), None)
-    if s:  # its single card ends 1000 before the main column, top level with the first section
+    s = by.get(LEFT)
+    if s:  # its single card ends 1000 before the first column, top level with the first row
         flow(s, -round(ROW_H * 26 * s["items"][0]["ar"] + 1000), 0)
-    for title in SIDE:
-        s = next((s for s in sections if s["title"] == title), None)
-        if s:  # next column starts 1000 right of everything so far (labels ~100 px per character at 180 px)
-            right = max([i["x"] + i["w"] for i in items] + [l["x"] + 100 * len(l["text"]) for l in labels])
-            flow(s, right + 1000, tops.get(SIDE[title], 0))
     # files dropped onto the board online live in the repo (uploads/), not in the Seafile tree: keep them where they lie
     ids = {i["id"] for i in items}
     items += [i for i in old.get("items", []) if i.get("upload") and i["id"] not in ids]
