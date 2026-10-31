@@ -5,8 +5,10 @@
 - PDFs and 3D files get one Seafile share link each: only /seafhttp/f/<token>/ allows the page to fetch them (CORS).
 Run: uv run --no-project --python 3.12 --with mcp==1.27.2 --with pymupdf --with pillow python build_board.py
 Add --layout to only re-sort board.json after changing SECTIONS / SIDE (no Seafile, no new files).
+The board is also edited online (?edit saves board.json + uploads/ to GitHub): the run pulls first and keeps
+those uploads, so commit + push board.json right after it.
 """
-import fnmatch, hashlib, json, re, shutil, sys
+import fnmatch, hashlib, json, re, shutil, subprocess, sys
 from pathlib import Path
 from urllib.parse import quote
 
@@ -279,6 +281,7 @@ def main():
 def layout(sections):
     """Keep what was moved in edit mode (and renamed labels); flow everything else in justified rows per section."""
     board = REPO / "board.json"
+    subprocess.run(["git", "-C", str(REPO), "pull", "--ff-only", "-q"], check=True)  # latest online moves + uploads
     old = json.loads(board.read_text(encoding="utf-8")) if board.exists() else {}
     pos = {i["id"]: i for i in old.get("items", []) + old.get("labels", []) if i.get("moved")}
     texts = {l["id"]: l["text"] for l in old.get("labels", [])}
@@ -319,6 +322,9 @@ def layout(sections):
         if s:  # next column starts 1000 right of everything so far (labels ~100 px per character at 180 px)
             right = max([i["x"] + i["w"] for i in items] + [l["x"] + 100 * len(l["text"]) for l in labels])
             flow(s, right + 1000, tops.get(SIDE[title], 0))
+    # files dropped onto the board online live in the repo (uploads/), not in the Seafile tree: keep them where they lie
+    ids = {i["id"] for i in items}
+    items += [i for i in old.get("items", []) if i.get("upload") and i["id"] not in ids]
     board.write_text(json.dumps({"labels": labels, "items": items}, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
@@ -328,7 +334,7 @@ def relayout():
     labs = sorted(old["labels"], key=lambda l: l["y"])
     groups = {l["text"]: [] for l in labs}
     names = {l["text"]: l["id"][len("label:"):] for l in labs}
-    for it in sorted(old["items"], key=lambda i: (i["y"], i["x"])):
+    for it in sorted((i for i in old["items"] if not i.get("upload")), key=lambda i: (i["y"], i["x"])):  # layout() keeps uploads
         # boards written before the "section" field: plain vertical bands under each label
         sec = it.get("section") or names[[l for l in labs if l["y"] <= it["y"]][-1]["text"]]
         groups.setdefault(sec, []).append(it)

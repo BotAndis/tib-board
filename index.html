@@ -218,18 +218,26 @@ async function modelThumb(item, img) {  // one shared renderer, one card at a ti
 let thumbQ = Promise.resolve();
 
 /* ---------- board ---------- */
-const board = await (await fetch("board.json", { cache: "no-cache" })).json();
+let boardText = await (await fetch("board.json", { cache: "no-cache" })).text();
+const board = JSON.parse(boardText);
 const host = $("#board"), world = $("#world");
 const pdfTargets = [];
+
+// a fresh upload reaches Pages ~1 min after its commit: retry a missing thumbnail for a while
+function thumbImg(src) {
+  const i = Object.assign(el("img"), { src, loading: "lazy", alt: "" });
+  let n = 0; i.onerror = () => ++n < 15 && setTimeout(() => i.src = `${src}?r=${n}`, 20000);
+  return i;
+}
 
 function media(item, big) {
   const m = el("div", "media");
   if (item.kind === "stack") {
     const mo = el("div", "mosaic");
-    for (const c of item.items.slice(0, 4)) mo.append(c.thumb ? Object.assign(el("img"), { src: c.thumb, loading: "lazy", alt: "" }) : el("div", "", esc(c.ext)));
+    for (const c of item.items.slice(0, 4)) mo.append(c.thumb ? thumbImg(c.thumb) : el("div", "", esc(c.ext)));
     m.append(mo, el("span", "count", item.items.length));
   } else if (item.live) m.append(Object.assign(el("iframe"), { src: item.url, scrolling: "no", tabIndex: -1 }));
-  else if (item.thumb) m.append(Object.assign(el("img"), { src: item.thumb, loading: "lazy", alt: "" }));
+  else if (item.thumb) m.append(thumbImg(item.thumb));
   else if (item.kind === "model" && item.url) {
     const img = el("img"); m.append(el("div", "tile", "3D"), img);
     img.style.cssText = "position:absolute;inset:0";
@@ -250,9 +258,10 @@ function card(item) {
   return c;
 }
 
-for (const l of board.labels) {
-  const e = el("div", "label", esc(l.text)); e.style.left = l.x + "px"; e.style.top = l.y + "px"; e.lab = l; world.append(e);
+function label(l) {
+  const e = el("div", "label", esc(l.text)); e.style.left = l.x + "px"; e.style.top = l.y + "px"; e.lab = l; return l.el = e;
 }
+for (const l of board.labels) world.append(label(l));
 for (const it of board.items) world.append(it.el = card(it));
 
 const view = new View(host, world, {
@@ -382,57 +391,194 @@ function showStack(item) {
   dispose = () => obs.disconnect();
 }
 
-/* ---------- edit mode (?edit): move / resize, rename labels, save ---------- */
+/* ---------- live: a board saved elsewhere replaces this one, except what is still being changed here ---------- */
+const strip = ({ el, ...i }) => i;
+const dirty = new Map();  // id -> change number, for cards/labels changed here and not saved yet
+let rev = 0, saving = null, again = false, timer, known;
+const touch = id => dirty.set(id, ++rev);
+
+function sync(mine, theirs, make) {
+  const old = new Map(mine.map(i => [i.id, i]));
+  const out = theirs.map(n => {
+    const o = old.get(n.id); old.delete(n.id);
+    if (o && (dirty.has(o.id) || JSON.stringify(strip(o)) === JSON.stringify(n))) return o;
+    const e = make(n); o ? o.el.replaceWith(e) : world.append(e);
+    return n;
+  });
+  for (const o of old.values()) dirty.has(o.id) ? out.push(o) : o.el.remove();
+  return out;
+}
+function apply(nb) {
+  board.labels = sync(board.labels, nb.labels, label);
+  board.items = sync(board.items, nb.items, n => {
+    const c = n.el = card(n);
+    if (n.kind === "model" && n.url) io.observe(c.querySelector(".media"));
+    return c;
+  });
+  for (let i = pdfTargets.length; i--;) if (!pdfTargets[i].box.isConnected) pdfTargets.splice(i, 1);
+  view.apply();
+}
+
+/* ---------- GitHub: the repo is the shared store; editors share one token (Contents: write, this repo only) ---------- */
+const GH = location.hostname.match(/^([^.]+)\.github\.io$/);
+const REPO = GH && `https://api.github.com/repos/${GH[1]}/${location.pathname.split("/")[1]}/`;
+let token = localStorage.getItem("gh-token");
+const b64 = bytes => { let s = ""; for (let i = 0; i < bytes.length; i += 0x8000) s += String.fromCharCode(...bytes.subarray(i, i + 0x8000)); return btoa(s); };
+const unb64 = s => new TextDecoder().decode(Uint8Array.from(atob(s), c => c.charCodeAt(0)));
+function login() {
+  if (!token && (token = prompt("GitHub-Token (nur für dieses Repo, Contents: write):"))) localStorage.setItem("gh-token", token);
+  return token;
+}
+async function gh(path, opt = {}) {  // 409 / 422 (someone saved first, name taken) are left to the caller
+  if (!login()) throw new Error("kein Token");
+  const r = await fetch(REPO + path, { cache: "no-cache", ...opt, headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json" } });
+  if (r.status === 401) { localStorage.removeItem("gh-token"); token = null; throw new Error("Token ungültig"); }
+  if (!r.ok && r.status !== 409 && r.status !== 422) throw new Error(r.status + " " + (await r.text()).slice(0, 120));
+  return r;
+}
+async function remote() {  // newest board.json in the repo; GitHub sends the content inline only up to 1 MB
+  const f = await (await gh("contents/board.json")).json();
+  return { sha: f.sha, board: JSON.parse(unb64(f.content || (await (await gh("git/blobs/" + f.sha)).json()).content)) };
+}
+
+async function poll() {
+  if (document.hidden || saving) return;
+  try {
+    if (EDIT && REPO && token) {
+      const { sha, board: nb } = await remote();
+      if (sha !== known) { apply(nb); known = sha; }
+    } else {  // viewers: the Pages copy, ~1 min behind the repo
+      const t = await (await fetch("board.json", { cache: "no-cache" })).text();
+      if (t !== boardText) { boardText = t; apply(JSON.parse(t)); }
+    }
+  } catch (err) { console.warn("live", err); }
+}
+setInterval(poll, EDIT && REPO ? 5000 : 30000);
+
+/* ---------- edit mode (?edit): move / resize, rename labels, drop files; every change saves itself ---------- */
+const btn = el("button", "", "Speichern"); btn.id = "save";
+// my unsaved changes on top of the newest board.json: only what was changed here is written, so parallel
+// editors keep each other's work; if someone saved in between, GitHub refuses the stale sha (409) and we redo it
+async function push() {
+  for (let n = 1; ; n++) {
+    const ids = new Map(dirty), { sha, board: nb } = await remote();
+    const mine = new Map([...board.items, ...board.labels].map(i => [i.id, i]));
+    for (const o of [...nb.items, ...nb.labels]) {
+      const m = ids.has(o.id) && mine.get(o.id);
+      if (m) for (const k of ["x", "y", "w", "text", "moved"]) if (k in m) o[k] = m[k];
+    }
+    for (const id of ids.keys()) if (mine.get(id)?.upload && !nb.items.some(i => i.id === id)) nb.items.push(strip(mine.get(id)));
+    const r = await gh("contents/board.json", { method: "PUT", body: JSON.stringify({ message: "Board-Layout", sha,
+      content: b64(new TextEncoder().encode(JSON.stringify(nb, null, 1))) }) });
+    if (r.ok) {
+      for (const [id, v] of ids) if (dirty.get(id) === v) dirty.delete(id);
+      known = (await r.json()).content.sha; apply(nb); return;
+    }
+    if (n === 5) throw new Error("wird gerade woanders gespeichert");
+    await new Promise(r => setTimeout(r, 700 * n));  // GitHub may hand out the old sha for a moment after a save
+  }
+}
+function save(now) {
+  clearTimeout(timer);
+  if (!REPO || !dirty.size) return;
+  if (!now) { timer = setTimeout(save, 1500, true); return; }
+  if (saving) { again = true; return; }
+  btn.textContent = "Speichert …";
+  saving = push().then(() => { btn.textContent = "Gespeichert ✓"; }, err => { btn.textContent = `Fehler: ${err.message} · nochmal`; })
+    .finally(() => { saving = null; if (again) { again = false; save(true); } });
+}
+
+async function putNew(path, blob) {  // never replaces a file in the repo: a taken name gets _2, _3 …
+  const content = b64(new Uint8Array(await blob.arrayBuffer()));
+  for (let n = 1; n <= 20; n++) {
+    const p = n === 1 ? path : path.replace(/(\.\w+)?$/, `_${n}$1`);
+    const r = await gh("contents/" + p.split("/").map(encodeURIComponent).join("/"),
+      { method: "PUT", body: JSON.stringify({ message: "Upload " + p, content }) });
+    if (r.ok) return p;
+    const msg = await r.text();
+    if (r.status !== 422 || !msg.includes("sha")) throw new Error(r.status + " " + msg.slice(0, 120));  // not a name clash
+  }
+  throw new Error("kein freier Name für " + path);
+}
+async function thumbOf(file, kind) {  // same sizes as build_board.py: PDFs 1100 px, images 720 px on the long side
+  let c;
+  if (kind === "pdf") {
+    const doc = await (await pdfjs()).getDocument({ data: new Uint8Array(await file.arrayBuffer()), isEvalSupported: false }).promise;
+    const page = await doc.getPage(1), v1 = page.getViewport({ scale: 1 });
+    const vp = page.getViewport({ scale: 1100 / Math.max(v1.width, v1.height) });
+    c = Object.assign(el("canvas"), { width: Math.round(vp.width), height: Math.round(vp.height) });
+    await page.render({ canvasContext: c.getContext("2d"), viewport: vp, background: "#fff" }).promise;
+    doc.destroy();
+  } else if (kind === "image") {
+    const b = await createImageBitmap(file), z = Math.min(1, 720 / Math.max(b.width, b.height));
+    c = Object.assign(el("canvas"), { width: Math.round(b.width * z), height: Math.round(b.height * z) });
+    const g = c.getContext("2d"); g.fillStyle = "#fff"; g.fillRect(0, 0, c.width, c.height); g.drawImage(b, 0, 0, c.width, c.height);
+  } else return null;
+  return { blob: await new Promise(r => c.toBlob(r, "image/webp", .82)), ar: +(c.width / c.height).toFixed(4) };
+}
+const KIND = { pdf: "pdf", jpg: "image", jpeg: "image", png: "image", webp: "image", stl: "model", glb: "model" };  // .3mf: download card, as in build_board.py
+// file -> uploads/ in the repo (+ thumbnail) and a card where it was dropped; returns the card width
+async function upload(file, x, y) {
+  if (file.size > 50e6) throw new Error(`${file.name} ist größer als 50 MB`);
+  const ext = file.name.includes(".") ? file.name.split(".").pop().toLowerCase() : "", kind = KIND[ext] || "file";
+  const t = await thumbOf(file, kind).catch(() => null);  // unreadable file: card without preview
+  const path = await putNew("uploads/" + file.name.replace(/[^\p{L}\p{N}._-]+/gu, "_"), file);
+  const thumb = t && await putNew(`uploads/thumbs/${path.slice(8)}.${t.blob.type.split("/")[1]}`, t.blob);
+  const it = { id: path, kind, title: file.name.replace(/\.[^.]+$/, "").replace(/_/g, " "), ext, size: file.size,
+    dl: path, raw: path, url: path, x: Math.round(x), y: Math.round(y), w: 300, moved: true, upload: true };
+  if (t) Object.assign(it, { ar: t.ar, w: Math.round(300 * t.ar), thumb: URL.createObjectURL(t.blob) });
+  touch(it.id); board.items.push(it); world.append(it.el = card(it));
+  if (t) it.thumb = thumb;  // the card keeps showing the local copy until Pages has the repo one
+  if (kind === "model") io.observe(it.el.querySelector(".media"));
+  save(true);
+  return it.w;
+}
+
 function editDrag(e) {
   const rz = e.target.closest(".rz"), c = e.target.closest(".card"), lab = e.target.closest(".label");
   if (c) {
     const it = c.item, m = c.querySelector(".media"), ar = it.ar || 1;
     return { move(dx, dy) {
+      touch(it.id);
       if (rz) { it.w = Math.max(60, it.w + dx); c.style.width = m.style.width = it.w + "px"; m.style.height = it.w / ar + "px"; }
       else { it.x += dx; it.y += dy; c.style.left = it.x + "px"; c.style.top = it.y + "px"; }
-    }, end() { it.x = Math.round(it.x); it.y = Math.round(it.y); it.w = Math.round(it.w); it.moved = true; } };
+    }, end() { it.x = Math.round(it.x); it.y = Math.round(it.y); it.w = Math.round(it.w); it.moved = true; save(); } };
   }
   if (lab && !lab.isContentEditable) {
     const l = lab.lab;
-    return { move(dx, dy) { l.x += dx; l.y += dy; lab.style.left = l.x + "px"; lab.style.top = l.y + "px"; },
-      end() { l.x = Math.round(l.x); l.y = Math.round(l.y); l.moved = true; } };
+    return { move(dx, dy) { touch(l.id); l.x += dx; l.y += dy; lab.style.left = l.x + "px"; lab.style.top = l.y + "px"; },
+      end() { l.x = Math.round(l.x); l.y = Math.round(l.y); l.moved = true; save(); } };
   }
   return null;
 }
 if (EDIT) {
   document.body.classList.add("edit");
+  document.body.append(btn);
+  if (REPO) login();
   world.addEventListener("dblclick", e => {
     const lab = e.target.closest(".label"); if (!lab) return;
-    lab.contentEditable = "true"; lab.focus();
-    lab.onblur = () => { lab.contentEditable = "false"; lab.lab.text = lab.textContent.trim(); };
+    touch(lab.lab.id); lab.contentEditable = "true"; lab.focus();
+    lab.onblur = () => { lab.contentEditable = "false"; lab.lab.text = lab.textContent.trim(); touch(lab.lab.id); save(); };
   });
-  const btn = el("button", "", "Speichern"); btn.id = "save"; document.body.append(btn);
-  btn.onclick = async () => {
-    const json = JSON.stringify({ labels: board.labels, items: board.items.map(({ el, ...i }) => i) }, null, 1);
-    const gh = location.hostname.match(/^([^.]+)\.github\.io$/);
-    if (!gh) {  // local: hand the file over
-      const a = Object.assign(el("a"), { href: URL.createObjectURL(new Blob([json], { type: "application/json" })), download: "board.json" });
-      a.click(); return;
-    }
-    let token = localStorage.getItem("gh-token") || prompt("GitHub-Token (nur für dieses Repo, Contents: write):");
-    if (!token) return;
-    const api = `https://api.github.com/repos/${gh[1]}/${location.pathname.split("/")[1]}/contents/board.json`;
-    const H = { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json" };
-    btn.textContent = "Speichert …";
-    try {
-      const cur = await fetch(api, { headers: H, cache: "no-store" });
-      if (cur.status === 401) { localStorage.removeItem("gh-token"); throw new Error("Token ungültig"); }
-      const { sha } = await cur.json();
-      const bytes = new TextEncoder().encode(json); let bin = "";
-      for (let i = 0; i < bytes.length; i += 0x8000) bin += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
-      const content = btoa(bin);
-      const r = await fetch(api, { method: "PUT", headers: H, body: JSON.stringify({ message: "Board-Layout", content, sha }) });
-      if (!r.ok) throw new Error(r.status + " " + (await r.text()).slice(0, 120));
-      localStorage.setItem("gh-token", token);
-      btn.textContent = "Gespeichert ✓ (online in ~1 min)";
-    } catch (err) { btn.textContent = "Fehler: " + err.message; }
-    setTimeout(() => btn.textContent = "Speichern", 4000);
+  btn.onclick = () => {
+    if (REPO) return save(true);
+    // local: hand the file over
+    const json = JSON.stringify({ labels: board.labels.map(strip), items: board.items.map(strip) }, null, 1);
+    Object.assign(el("a"), { href: URL.createObjectURL(new Blob([json], { type: "application/json" })), download: "board.json" }).click();
   };
+  host.addEventListener("dragover", e => e.preventDefault());
+  host.addEventListener("drop", async e => {
+    e.preventDefault();
+    const files = [...e.dataTransfer.files], r = host.getBoundingClientRect();  // the list empties once the event is over
+    if (!REPO) { btn.textContent = "Hochladen geht nur online"; return; }
+    let x = (e.clientX - r.left - view.x) / view.s;
+    const y = (e.clientY - r.top - view.y) / view.s;
+    for (const [i, f] of files.entries()) {
+      btn.textContent = `Lädt hoch … ${i + 1}/${files.length}`;
+      try { x += await upload(f, x, y) + 40; } catch (err) { btn.textContent = `Fehler: ${err.message}`; return; }
+    }
+  });
+  addEventListener("beforeunload", e => { if (REPO && (dirty.size || saving)) e.preventDefault(); });
 }
 </script>
 </body>
