@@ -15,6 +15,7 @@ UMBAU = {"kopenhagen-black-diamond", "leipzig-dnb", "peking-nationalbibliothek",
          "zuerich-rechtswiss", "freiburg-ub", "tilburg-lochal", "luzern-ub", "berlin-staatsbibliothek",
          "washington-mlk-umbau", "paris-richelieu", "oxford-weston", "bern-vonroll", "stuttgart-wlb",
          "toronto-story-arts", "budapest-bbu"}
+PREVIEW = ["washington-mlk", "washington-mlk-umbau", "berlin-grimm-zentrum", "freiburg-ub"]  # rows on the board tile
 # one line: how the building is organised (Magazin / Freihand / Lesen / Erschließung)
 NOTES = {
     "kopenhagen-black-diamond": "Erweiterung am Altbau: zwei Blöcke, dazwischen ein Atrium-Spalt; Brücken über die Straße zum Bestand.",
@@ -90,15 +91,47 @@ def main(raw):
         data[slug] = keep | {"umbau": slug in UMBAU, "note": NOTES.get(slug, ""), "images": images}
     ordered = sorted(data.values(), key=lambda p: (p["category"], p.get("book_page") or 999, p["slug"]))  # slug keeps MLK original before its Umbau
     data_file.write_text(json.dumps(ordered, ensure_ascii=False, indent=1), encoding="utf-8")
-    # board tile: 2x2 exteriors
-    tile, outs = Image.new("RGB", (720, 720), "white"), [p for p in ordered if "aussen" in p["images"]][:4]
-    for i, p in enumerate(outs):
-        im = Image.open(OUT / "img" / p["slug"] / "aussen.webp")
-        s = min(im.size)
-        im = im.crop(((im.width - s) // 2, (im.height - s) // 2, (im.width + s) // 2, (im.height + s) // 2)).resize((359, 359))
-        tile.paste(im, ((i % 2) * 361, (i // 2) * 361))
-    tile.save(OUT.parent.parent / "thumbs" / "referenzen.webp", "WEBP", quality=82)
     print(len(ordered), "projects;", sum(len(p["images"]) for p in ordered), "images")
+    preview({p["slug"]: p for p in ordered})
+
+
+def preview(data):
+    """Board tile: a miniature of the page itself (header, column labels, a few full rows)."""
+    from PIL import ImageDraw, ImageFont
+    font = lambda size, bold=False: ImageFont.truetype(f"C:/Windows/Fonts/segoeui{'b' if bold else ''}.ttf", size)
+    W, M, G = 2000, 60, 16
+    cw = (W - 2 * M - 5 * G) // 6
+    ch = cw * 3 // 4
+    rows = [data[s] for s in PREVIEW if s in data]
+    im = Image.new("RGB", (W, 260 + len(rows) * (ch + 130)), "white")
+    dr = ImageDraw.Draw(im)
+    dr.text((M, 46), "Referenzen · Bibliotheken", font=font(56, True), fill="#1a1a1a")
+    for i, t in enumerate(["ERDGESCHOSS", "REGELGESCHOSS", "SCHNITT", "AUSSEN", "INNEN", "INNEN"]):
+        dr.text((M + i * (cw + G), 140), t, font=font(22), fill="#8a8a8a")
+    y = 190
+    for p in rows:
+        dr.line((M, y, W - M, y), fill="#e7e7e7", width=2)
+        dr.text((M, y + 26), p["title"], font=font(34, True), fill="#1a1a1a")
+        dr.text((M, y + 72), f"{p['city']}, {p['country']} · {p['architect']} · {p['year']}", font=font(26), fill="#8a8a8a")
+        top = y + 118
+        for i, role in enumerate(["eg", "og", "schnitt", "aussen", "innen1", "innen2"]):
+            x, f = M + i * (cw + G), OUT / "img" / p["slug"] / f"{role}.webp"
+            if not f.exists():
+                continue
+            src = Image.open(f).convert("RGB")
+            if role in PLANS:  # plans fit inside the cell, photos fill it
+                src.thumbnail((cw - 16, ch - 16))
+                im.paste(src, (x + (cw - src.width) // 2, top + (ch - src.height) // 2))
+            else:
+                s = min(src.width / cw, src.height / ch)
+                bw, bh = int(cw * s), int(ch * s)
+                src = src.crop(((src.width - bw) // 2, (src.height - bh) // 2, (src.width + bw) // 2, (src.height + bh) // 2)).resize((cw, ch))
+                im.paste(src, (x, top))
+            dr.rectangle((x, top, x + cw - 1, top + ch - 1), outline="#e7e7e7", width=2)
+        y = top + ch + 12
+    im = im.crop((0, 0, W, y + 30))
+    im.save(OUT.parent.parent / "thumbs" / "referenzen.webp", "WEBP", quality=86)
+    print("preview", im.size, "ar", round(im.width / im.height, 4))
 
 
 if __name__ == "__main__":

@@ -212,7 +212,8 @@ def main():
         sections.append({"title": title, "items": cards + stacks})
 
     # reference page lives only in the repo (built by build_refs.py), not in the Seafile tree
-    sections.append({"title": "Referenzen", "items": [REFS]})
+    w, h = Image.open(REPO / REFS["thumb"]).size
+    sections.append({"title": "Referenzen", "items": [REFS | {"ar": round(w / h, 4)}]})
 
     left = [r for r in files if r not in used]
     if left:
@@ -242,10 +243,11 @@ def layout(sections):
         lid = "label:" + s["title"]
         labels.append(pos.get(lid) or {"id": lid, "text": texts.get(lid, s["title"]), "x": 0, "y": y})
         y += 250  # room for the 180px section title
-        h = ROW_H * 2 if s["title"] == "Fotos" else ROW_H  # photo stacks are the content there, so show them bigger
+        # photo stacks are the content there, so show them bigger; the references tile is a page preview
+        h = {"Fotos": ROW_H * 2, "Referenzen": ROW_H * 4}.get(s["title"], ROW_H)
         x = 0
         for it in s["items"]:
-            w = h * it.get("ar", 1.0) if it["kind"] in ("pdf", "image") else h
+            w = h * it.get("ar", 1.0) if it["kind"] in ("pdf", "image") or it["id"] == REFS["id"] else h
             if it["id"] in pos:
                 p = pos[it["id"]]
                 it |= {"x": p["x"], "y": p["y"], "w": p["w"], "moved": True}
