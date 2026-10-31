@@ -29,7 +29,8 @@ HTML = {"05_3D-Modelle/Modell-Ansichten_HTML/index.html": "html/modell-ansichten
         "02_Plaene/Details/Kern335/Treppe_Kern335_Detailmappe_2.html": "html/kern335-detailmappe.html",
         "03_Analyse/Raumprogramm/TIB_1102_D_Flaechen-Editor_10.html": "html/flaechen-editor.html"}
 
-# (title, [entries]); entry = ("open", globs) | ("latest", globs) | ("stack", title, globs) | ("box", title, [entries])
+# (title, [entries]); entry = ("open", globs) | ("latest", globs) | ("pick", globs) | ("stack", title, globs) | ("box", title, [entries])
+# "pick": like "latest", but older versions stay free for a later entry.
 # "latest": newest version open (name_v3 / name_2 beats name), older ones go into one "Ältere Versionen" stack.
 SECTIONS = [
     ("Aufgabenstellung", [
@@ -59,8 +60,11 @@ SECTIONS = [
     # the reworked elevation sheet (main() builds this section before the Bestand box claims it)
     ("Ansichten", [("open", ["01_Bestand_Uni/Ansichten/*berarbeitet*.pdf", "02_Plaene/Ansichten/*.pdf"])]),
     ("Lageplan", [
-        ("latest", ["02_Plaene/Lageplan/*_Lageplan_*.pdf"]),
-        ("stack", "Alle Pläne (Sammel-PDF)", ["02_Plaene/Lageplan/*alle_Plaene*"]),
+        ("pick", ["02_Plaene/Lageplan/*_Lageplan_Skizze*.pdf"]),  # the chosen style; the others stay in the box
+        ("box", "Weitere Stile + Versionen", [
+            ("latest", ["02_Plaene/Lageplan/*_Lageplan_*.pdf"]),
+            ("stack", "Alle Pläne (Sammel-PDF)", ["02_Plaene/Lageplan/*alle_Plaene*"]),
+        ]),
         ("stack", "CAD (DXF)", ["02_Plaene/Lageplan/*"]),
     ]),
     ("Details", [
@@ -213,7 +217,7 @@ def main():
                 continue
             rels = [r for r in files if r not in used and match(r, e[1])]
             used.update(rels)
-            if e[0] == "latest":
+            if e[0] in ("latest", "pick"):
                 best = {}
                 for r in rels:
                     k, v = version(r)
@@ -222,9 +226,14 @@ def main():
                 newest = {r for _, r in best.values()}
                 older = [r for r in rels if r not in newest]
                 rels = [r for r in rels if r in newest]
-                if older:
-                    stacks.append({"id": f"stack:{title}:old:{len(stacks)}", "kind": "stack",
-                                   "title": "Ältere Versionen", "items": [item(r) for r in older]})
+                if e[0] == "pick":
+                    used.difference_update(older)  # left for a later entry (e.g. a box)
+                elif older:  # one "Ältere Versionen" stack per section, however many "latest" entries
+                    old = next((s for s in stacks if s["title"] == "Ältere Versionen"), None)
+                    if not old:
+                        old = {"id": f"stack:{title}:old:{len(stacks)}", "kind": "stack", "title": "Ältere Versionen", "items": []}
+                        stacks.append(old)
+                    old["items"] += [item(r) for r in older]
             cards += [item(r) for r in rels]
         return cards + stacks
 
@@ -233,9 +242,9 @@ def main():
     sections = [{"title": t, "items": built[t]} for t, _ in SECTIONS]
 
     # reference page lives only in the repo (built by build_refs.py), not in the Seafile tree
-    thumb = next(THUMBS.glob("referenzen-*.webp"))  # name carries a content hash, written by build_refs.py
-    w, h = Image.open(thumb).size
-    sections.append({"title": "Referenzen", "items": [REFS | {"thumb": thumb.relative_to(REPO).as_posix(), "ar": round(w / h, 4)}]})
+    preview = next(THUMBS.glob("referenzen-*.webp"))  # name carries a content hash, written by build_refs.py
+    w, h = Image.open(preview).size
+    sections.append({"title": "Referenzen", "items": [REFS | {"thumb": preview.relative_to(REPO).as_posix(), "ar": round(w / h, 4)}]})
 
     left = [r for r in files if r not in used]
     if left:
