@@ -71,6 +71,12 @@
    "text": "Fotos",
    "x": 0,
    "y": 11050
+  },
+  {
+   "id": "label:Referenzen",
+   "text": "Referenzen",
+   "x": 0,
+   "y": 12280
   }
  ],
  "items": [
@@ -8149,6 +8155,20 @@
    "x": 3840,
    "y": 11300,
    "w": 600
+  },
+  {
+   "id": "html/referenzen/index.html",
+   "kind": "html",
+   "title": "Referenzen · Bibliotheken",
+   "ext": "html",
+   "size": 0,
+   "dl": "html/referenzen/index.html",
+   "raw": "html/referenzen/index.html",
+   "url": "html/referenzen/index.html",
+   "thumb": "thumbs/referenzen.webp",
+   "x": 0,
+   "y": 12530,
+   "w": 300
   }
  ]
 }

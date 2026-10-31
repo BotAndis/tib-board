@@ -102,6 +102,10 @@ SECTIONS = [
     ]),
 ]
 
+REFS = {"id": "html/referenzen/index.html", "kind": "html", "title": "Referenzen · Bibliotheken", "ext": "html",
+        "size": 0, "dl": "html/referenzen/index.html", "raw": "html/referenzen/index.html",
+        "url": "html/referenzen/index.html", "thumb": "thumbs/referenzen.webp"}
+
 VER = re.compile(r"_(?:v)?(\d+)$")
 
 
@@ -206,6 +210,9 @@ def main():
                                    "title": "Ältere Versionen", "items": [item(r) for r in older]})
             cards += [item(r) for r in rels]
         sections.append({"title": title, "items": cards + stacks})
+
+    # reference page lives only in the repo (built by build_refs.py), not in the Seafile tree
+    sections.append({"title": "Referenzen", "items": [REFS]})
 
     left = [r for r in files if r not in used]
     if left:
