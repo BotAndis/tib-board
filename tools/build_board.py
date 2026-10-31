@@ -31,7 +31,7 @@ HTML = {"5_3D-Modelle/Modell-Ansichten_Web/index.html": "html/modell-ansichten/i
         "2_Bestand_eigene-Pläne/Detail_Treppe-Kern335/Treppe_Kern335_Detailmappe_2.html": "html/kern335-detailmappe.html",
         "2_Bestand_eigene-Pläne/Raumprogramm/TIB_1102_D_Flaechen-Editor_10.html": "html/flaechen-editor.html"}
 
-# The board follows the folder 1:1: chapter folder "N_…" -> sections "N … · <subfolder>", same order, same names.
+# Sections are named like the subfolders; the university's plans + archive stay folded into one box by the brief.
 # Older versions live in each folder's "Ältere Versionen" subfolder (D:/UNI/_ordnung/plan_2026-10-31.csv), so no
 # version guessing here: what lies in a folder is open, the subfolder is one stack.
 # (title, [entries]); entry = ("open", globs) | ("latest", globs) | ("pick", globs) | ("stack", title, globs) | ("box", title, [entries])
@@ -41,55 +41,56 @@ U, E, F, D, M, P, O = ("1_Bestand_von-der-Uni", "2_Bestand_eigene-Pläne", "3_Be
                        "6_3D-Druck", "Ältere Versionen")
 PLATES = sorted(p.name for p in (LOCAL / P / "Entwurf_Platten").iterdir() if p.is_dir())
 SECTIONS = [
-    ("0 Aufgabe", [("open", ["0_Aufgabe/*.pdf"])]),
-    *[(f"1 Uni · {t}", [("open", [f"{U}/{t}/*.pdf"]), ("stack", "CAD", [f"{U}/{t}/*"])])
-      for t in ("Grundrisse", "Schnitte", "Ansichten", "Lageplan")],
-    ("1 Uni · Archiv + Nachbarn", [
-        ("open", [f"{U}/Archiv_1960-2013/1961_*Moeblierung*"]),  # the original 1961 furniture plan
-        ("stack", "Archiv 1960–2013", [f"{U}/Archiv_1960-2013/*"]),
-        ("stack", "Wettbewerb 1982/83", [f"{U}/Wettbewerb_1982-83/*"]),
-        ("stack", "Nachbargebäude · Marstall 1103", [f"{U}/Nachbargebäude_Marstall-1103/*"]),
-        ("stack", "Nachbargebäude · Garage 1114", [f"{U}/Nachbargebäude_Garage-1114/*"]),
-        ("stack", "Raumliste", [f"{U}/Raumliste/*"]),
-        ("stack", "Buchscans", [f"{U}/Buchscans/*"]),
+    ("Aufgabenstellung", [
+        ("open", ["0_Aufgabe/*.pdf"]),
+        ("box", "Bestand · Pläne Uni", [
+            ("open", [f"{U}/{t}/*.pdf" for t in ("Grundrisse", "Schnitte", "Ansichten", "Lageplan")]
+             + [f"{U}/Archiv_1960-2013/1961_*Moeblierung*"]),  # + the original 1961 furniture plan
+            ("stack", "Wettbewerb 1982/83", [f"{U}/Wettbewerb_1982-83/*"]),
+            ("stack", "Archiv 1960–2013", [f"{U}/Archiv_1960-2013/*"]),
+            ("stack", "Nachbargebäude · Marstall 1103", [f"{U}/Nachbargebäude_Marstall-1103/*"]),
+            ("stack", "Nachbargebäude · Garage 1114", [f"{U}/Nachbargebäude_Garage-1114/*"]),
+            ("stack", "Buchscans", [f"{U}/Buchscans/*"]),
+            ("stack", "CAD + Raumliste", [f"{U}/*/*"]),
+        ]),
     ]),
-    ("2 Eigene Pläne · Grundrisse", [
+    ("Grundrisse", [
         ("open", [f"{E}/Grundrisse/*_M1-200.pdf"]),
         ("stack", "A3 · M 1:250", [f"{E}/Grundrisse/*_A3.pdf"]),
         ("stack", "CAD", [f"{E}/Grundrisse/*"]),
     ]),
-    ("2 Eigene Pläne · Schnitte", [
+    ("Schnitte", [
         ("open", [f"{E}/Schnitte/*_Schnitt_Skizze*.pdf", f"{E}/Schnitte/TIB_*.pdf"]),  # same look as the Lageplan
         ("stack", "Weitere Stile", [f"{E}/Schnitte/*.pdf"]),
         ("stack", O, [f"{E}/Schnitte/{O}/*"]),
         ("stack", "CAD", [f"{E}/Schnitte/*"]),
     ]),
-    ("2 Eigene Pläne · Ansichten", [("open", [f"{E}/Ansichten/*"])]),
-    ("2 Eigene Pläne · Lageplan", [
+    ("Ansichten", [("open", [f"{E}/Ansichten/*"])]),
+    ("Lageplan", [
         ("open", [f"{E}/Lageplan/*_Lageplan_Skizze*.pdf"]),  # the chosen style
         ("stack", "Weitere Stile", [f"{E}/Lageplan/*_Lageplan_*.pdf"]),
         ("stack", "Alle Pläne (Sammel-PDF)", [f"{E}/Lageplan/*alle_Plaene*"]),
         ("stack", O, [f"{E}/Lageplan/{O}/*"]),
         ("stack", "CAD", [f"{E}/Lageplan/*"]),
     ]),
-    ("2 Eigene Pläne · Details", [
+    ("Details", [
         ("open", [f"{E}/Detail_*/*.pdf", f"{E}/Detail_Treppe-Kern335/*.html"]),
         ("stack", "Treppe Kern 335 · Fotos", [f"{E}/Detail_Treppe-Kern335/WhatsApp*"]),
         ("stack", "Grafiken + CAD", [f"{E}/Detail_*/*"]),
         ("stack", O, [f"{E}/Detail_*/{O}/*"]),
     ]),
-    ("2 Eigene Pläne · Möblierung + Nutzung", [
+    ("Möblierung + Nutzung", [
         ("open", [f"{E}/Möblierung+Nutzung/*.pdf"]),
         ("stack", "CAD", [f"{E}/Möblierung+Nutzung/*"]),
     ]),
-    ("2 Eigene Pläne · Raumprogramm", [
+    ("Raumprogramm", [
         ("open", [f"{E}/Raumprogramm/*.pdf", f"{E}/Raumprogramm/*.html"]),
         ("stack", "Grafiken, Excel, CAD", [f"{E}/Raumprogramm/*"]),
         ("stack", O, [f"{E}/Raumprogramm/{O}/*"]),
     ]),
-    ("3 Fotos", [("stack", t.replace("_2026-10-20", " 20.10."), [f"{F}/{t}/*"]) for t in
-                 ("Fassade", "Innen", "Innenhöfe", "Details", "Historisch", "Luftbilder", "Modellfotos_2026-10-20")]),
-    ("4 Entwurf · Volumenstudien", [
+    ("Fotos", [("stack", t.replace("_2026-10-20", " 20.10."), [f"{F}/{t}/*"]) for t in
+               ("Fassade", "Innen", "Innenhöfe", "Details", "Historisch", "Luftbilder", "Modellfotos_2026-10-20")]),
+    ("Entwurf · Volumenstudien", [
         ("open", [f"{D}/Vergleiche/*"]),
         ("stack", "Varianten Andis", [f"{D}/Varianten_Andis/*"]),
         ("stack", "Varianten Luca", [f"{D}/Varianten_Luca/*"]),
@@ -99,17 +100,17 @@ SECTIONS = [
         ("stack", O, [f"{D}/Vergleiche/{O}/*", f"{D}/Lagepläne_Varianten/{O}/*"]),
     ]),
     # empty until the design has plans: the rows line up with the Bestand rows of the same name
-    *[(f"4 Entwurf · {t}", [("open", [f"{D}/{t}/*"]), ("stack", O, [f"{D}/{t}/{O}/*"])])
+    *[(f"Entwurf · {t}", [("open", [f"{D}/{t}/*"]), ("stack", O, [f"{D}/{t}/{O}/*"])])
       for t in ("Grundrisse", "Schnitte", "Ansichten", "Lageplan", "Details")],
-    ("5 3D-Modelle", [
+    ("3D-Modelle", [
         ("open", [f"{M}/Modell-Ansichten_Web/index.html", f"{M}/Bestandsmodell/*.png"]),
         ("stack", "Modell Uni · Ansichten", [f"{M}/Bestandsmodell_Uni/*.png"]),
         ("stack", "Rhino, IFC + Bericht", [f"{M}/*/*"]),
         ("stack", O, [f"{M}/Bestandsmodell/{O}/*"]),
     ]),
     # existing building and design variants are separate prints, never one row
-    ("6 3D-Druck · Bestand", [("open", [f"{P}/Bestand_M1-500/*"])]),
-    ("6 3D-Druck · Entwurf", [
+    ("3D-Druck · Bestand", [("open", [f"{P}/Bestand_M1-500/*"])]),
+    ("3D-Druck · Entwurf", [
         ("open", [f"{P}/Entwurf_M1-500/*"]),  # complete variants, assembly sheet, LIESMICH
         # one stack per print plate instead of one 70-part pile ("A1_Platte-2" -> "A1 · Platte 2")
         *[("stack", p.replace("_", " · ").replace("-", " "), [f"{P}/Entwurf_Platten/{p}/*"]) for p in PLATES],
@@ -125,15 +126,17 @@ ZEITPLAN = {"id": "html/zeitplan.html", "kind": "html", "title": "Zeitplan · Te
             "dl": "html/zeitplan.html", "raw": "html/zeitplan.html", "url": "html/zeitplan.html", "live": True, "ar": 0.3015}
 LEFT = "Zeitplan"
 
-# rows of (Grundlagen | eigene Pläne | Entwurf); a row starts below the tallest cell of the row above, so the
-# Entwurf plans sit level with the Bestand plans of the same name
+# rows of (Grundlagen | Entwurf); a row starts below the taller cell of the row above, so the Entwurf plans sit
+# level with the Bestand plans of the same name
 GRID = [
-    ("0 Aufgabe", None, "4 Entwurf · Volumenstudien"),
-    *[(f"1 Uni · {t}", f"2 Eigene Pläne · {t}", f"4 Entwurf · {t}") for t in ("Grundrisse", "Schnitte", "Ansichten", "Lageplan")],
-    (None, "2 Eigene Pläne · Details", "4 Entwurf · Details"),
-    ("1 Uni · Archiv + Nachbarn", "2 Eigene Pläne · Möblierung + Nutzung", "6 3D-Druck · Entwurf"),
-    ("3 Fotos", "2 Eigene Pläne · Raumprogramm", "Referenzen"),
-    ("5 3D-Modelle", "6 3D-Druck · Bestand", None),
+    ("Aufgabenstellung", "Entwurf · Volumenstudien"),
+    ("Referenzen", None),
+    *[(t, f"Entwurf · {t}") for t in ("Grundrisse", "Schnitte", "Ansichten", "Lageplan", "Details")],
+    ("Möblierung + Nutzung", "3D-Druck · Entwurf"),
+    ("Raumprogramm", None),
+    ("Fotos", None),
+    ("3D-Modelle", None),
+    ("3D-Druck · Bestand", None),
 ]
 
 VER = re.compile(r"_(?:v)?(\d+)$")
@@ -292,7 +295,7 @@ def layout(sections):
         labels.append(pos.get(lid) or {"id": lid, "text": texts.get(lid, s["title"]), "x": x0, "y": y})
         y += 250  # room for the 180px section title
         # photo stacks are the content there, so show them bigger; the references tile is a page preview
-        h = {"3 Fotos": ROW_H * 2, "Referenzen": ROW_H * 4, LEFT: ROW_H * 26}.get(s["title"], ROW_H)
+        h = {"Fotos": ROW_H * 2, "Referenzen": ROW_H * 4, LEFT: ROW_H * 26}.get(s["title"], ROW_H)
         x = 0
         for it in s["items"]:
             w = h * it.get("ar", 1.0)  # square unless the item knows its shape
@@ -309,7 +312,7 @@ def layout(sections):
         return y + h + 380
 
     by = {s["title"]: s for s in sections}
-    cols = (0, MAX_W + 1200, 2 * MAX_W + 1200 + 4000)  # the wider gap parts Grundlagen (left) from Entwurf (right)
+    cols = (0, MAX_W + 4000)  # the wide gap parts Grundlagen (left) from Entwurf (right)
     y = 0
     for row in GRID:
         y = max([flow(by[t], x, y) for x, t in zip(cols, row) if t in by] or [y])

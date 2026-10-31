@@ -56,8 +56,9 @@ iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .center a{color:var(--ink)}
 .msg{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);color:var(--mute)}
 /* edit mode */
-#save,#undo{position:fixed;right:16px;bottom:16px;z-index:5;padding:8px 14px;border:1px solid var(--ink);background:#fff;font:inherit;cursor:pointer}
-#undo{bottom:58px}
+#save,#undo,#lock{position:fixed;right:16px;bottom:16px;z-index:5;padding:8px 14px;border:1px solid var(--ink);background:#fff;font:inherit;cursor:pointer}
+#save{bottom:58px}
+#undo{bottom:100px}
 .edit .card{cursor:move}
 .edit .label{cursor:move}
 .rz{display:none;position:absolute;right:-7px;bottom:-7px;width:14px;height:14px;background:var(--ink);cursor:nwse-resize}
@@ -75,7 +76,7 @@ iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 <script type="module">
 const PDFJS = "https://cdn.jsdelivr.net/npm/pdfjs-dist@4.4.168/build/pdf.min.mjs";
 const PDFJS_WORKER = "https://cdn.jsdelivr.net/npm/pdfjs-dist@4.4.168/build/pdf.worker.min.mjs";
-const EDIT = new URLSearchParams(location.search).has("edit");
+let editing = false;  // the lock button turns edit mode on: move, resize, rename, drop files
 const $ = (s, r = document) => r.querySelector(s);
 const el = (tag, cls, html) => { const e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; };
 const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -254,7 +255,7 @@ function card(item) {
   m.style.width = item.w + "px"; m.style.height = item.w / ar + "px";
   c.style.left = item.x + "px"; c.style.top = item.y + "px"; c.style.width = item.w + "px";
   c.append(m, el("div", "cap", esc(item.title) + (item.kind === "stack" ? ` · ${item.items.length}` : "")));
-  if (EDIT) c.append(el("div", "rz"));
+  c.append(el("div", "rz"));  // resize handle, shown only while unlocked (.edit)
   if (item.kind === "pdf" && item.url) pdfTargets.push({ box: m, page: () => getDoc(item.url).then(d => d.getPage(1)), minPx: 1250 });
   return c;
 }
@@ -271,8 +272,8 @@ const view = new View(host, world, {
     cancelTasks(view);
     sharpen(view, pdfTargets);
   },
-  onClick(t) { const c = t.closest?.(".card"); if (c && !EDIT) openItem(c.item, siblingsOf(c.item)); },
-  onDrag: EDIT ? editDrag : null,
+  onClick(t) { const c = t.closest?.(".card"); if (c && !editing) openItem(c.item, siblingsOf(c.item)); },
+  onDrag: e => editing ? editDrag(e) : null,
 });
 const X0 = Math.min(0, ...board.items.map(i => i.x), ...board.labels.map(l => l.x));  // the Zeitplan column lies left of 0
 const W = Math.max(...board.items.map(i => i.x + i.w), ...board.labels.map(l => l.x + 600)) - X0;
@@ -446,7 +447,7 @@ async function remote() {  // newest board.json in the repo; GitHub sends the co
 async function poll() {
   if (document.hidden || saving) return;
   try {
-    if (EDIT && REPO && token) {
+    if (REPO && token) {
       const { sha, board: nb } = await remote();
       if (sha !== known) { apply(nb); known = sha; }
     } else {  // viewers: the Pages copy, ~1 min behind the repo
@@ -455,7 +456,7 @@ async function poll() {
     }
   } catch (err) { console.warn("live", err); }
 }
-setInterval(poll, EDIT && REPO ? 5000 : 30000);
+setTimeout(function tick() { poll(); setTimeout(tick, REPO && token ? 5000 : 30000); }, 5000);  // a token can come later
 
 /* ---------- edit mode (?edit): move / resize, rename labels, drop files; every change saves itself ---------- */
 const btn = el("button", "", "Speichern"); btn.id = "save";
@@ -573,16 +574,24 @@ function editDrag(e) {
   }
   return null;
 }
-if (EDIT) {
-  document.body.classList.add("edit");
-  document.body.append(btn, undoBtn);
+{  // edit controls: everything stays locked until the lock button is clicked
+  const icon = shackle => `<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" style="display:block"><rect x="5" y="11" width="14" height="10"/><path d="${shackle}"/></svg>`;
+  const LOCKED = icon("M8 11V7a4 4 0 0 1 8 0v4"), OPEN = icon("M8 11V7a4 4 0 0 1 7.5-1.9");
+  const lock = el("button", "", LOCKED); lock.id = "lock"; lock.title = "Zum Bearbeiten entsperren"; btn.hidden = true;
+  lock.onclick = () => {
+    if (!editing && REPO && !login()) return;  // editing online needs the shared token
+    editing = !editing;
+    document.body.classList.toggle("edit", editing);
+    lock.innerHTML = editing ? OPEN : LOCKED; lock.title = editing ? "Sperren" : "Zum Bearbeiten entsperren";
+    btn.hidden = !editing; undoBtn.hidden = !editing || !undos.length;
+  };
+  document.body.append(lock, btn, undoBtn);
   undoBtn.onclick = undo;
   addEventListener("keydown", e => {
-    if ((e.ctrlKey || e.metaKey) && !e.shiftKey && e.key.toLowerCase() === "z" && !e.target.isContentEditable) { e.preventDefault(); undo(); }
+    if (editing && (e.ctrlKey || e.metaKey) && !e.shiftKey && e.key.toLowerCase() === "z" && !e.target.isContentEditable) { e.preventDefault(); undo(); }
   });
-  if (REPO) login();
   world.addEventListener("dblclick", e => {
-    const lab = e.target.closest(".label"); if (!lab) return;
+    const lab = editing && e.target.closest(".label"); if (!lab) return;
     const before = { text: lab.lab.text };
     touch(lab.lab.id); lab.contentEditable = "true"; lab.focus();
     lab.onblur = () => {
@@ -601,6 +610,7 @@ if (EDIT) {
   host.addEventListener("drop", async e => {
     e.preventDefault();
     const files = [...e.dataTransfer.files], r = host.getBoundingClientRect();  // the list empties once the event is over
+    if (!editing) return;
     if (!REPO) { btn.textContent = "Hochladen geht nur online"; return; }
     let x = (e.clientX - r.left - view.x) / view.s;
     const y = (e.clientY - r.top - view.y) / view.s;
