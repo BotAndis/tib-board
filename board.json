@@ -2285,16 +2285,16 @@
    "w": 300
   },
   {
-   "id": "02_Plaene/Schnitte/LP_1100_Welfengarten_Schnitt_Skizze.pdf",
+   "id": "02_Plaene/Schnitte/LP_1100_Welfengarten_Schnitt_Skizze_v4.pdf",
    "kind": "pdf",
-   "title": "LP 1100 Welfengarten Schnitt Skizze",
+   "title": "LP 1100 Welfengarten Schnitt Skizze v4",
    "ext": "pdf",
-   "size": 2670155,
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/02_Plaene/Schnitte/LP_1100_Welfengarten_Schnitt_Skizze.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/02_Plaene/Schnitte/LP_1100_Welfengarten_Schnitt_Skizze.pdf&raw=1",
-   "thumb": "thumbs/53f74d537e1b1acd.webp",
+   "size": 2666920,
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/02_Plaene/Schnitte/LP_1100_Welfengarten_Schnitt_Skizze_v4.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/02_Plaene/Schnitte/LP_1100_Welfengarten_Schnitt_Skizze_v4.pdf&raw=1",
+   "thumb": "thumbs/dd1cc22484353994.webp",
    "ar": 1.4139,
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/eec9b01741314d4c8d22/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/869b3fb82839419b8e19/",
    "section": "Schnitte",
    "x": 0,
    "y": 2110,
@@ -2460,6 +2460,18 @@
      "thumb": "thumbs/0af27ef5f474c3ff.webp",
      "ar": 1.4139,
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/1ee90dddec494a24a5a6/"
+    },
+    {
+     "id": "02_Plaene/Schnitte/LP_1100_Welfengarten_Schnitt_Skizze.pdf",
+     "kind": "pdf",
+     "title": "LP 1100 Welfengarten Schnitt Skizze",
+     "ext": "pdf",
+     "size": 2670155,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/02_Plaene/Schnitte/LP_1100_Welfengarten_Schnitt_Skizze.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/02_Plaene/Schnitte/LP_1100_Welfengarten_Schnitt_Skizze.pdf&raw=1",
+     "thumb": "thumbs/53f74d537e1b1acd.webp",
+     "ar": 1.4139,
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/eec9b01741314d4c8d22/"
     },
     {
      "id": "02_Plaene/Schnitte/hannover-welfengarten_section_A.pdf",
