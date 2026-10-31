@@ -56,7 +56,8 @@ iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .center a{color:var(--ink)}
 .msg{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);color:var(--mute)}
 /* edit mode */
-#save{position:fixed;right:16px;bottom:16px;z-index:5;padding:8px 14px;border:1px solid var(--ink);background:#fff;font:inherit;cursor:pointer}
+#save,#undo{position:fixed;right:16px;bottom:16px;z-index:5;padding:8px 14px;border:1px solid var(--ink);background:#fff;font:inherit;cursor:pointer}
+#undo{bottom:58px}
 .edit .card{cursor:move}
 .edit .label{cursor:move}
 .rz{display:none;position:absolute;right:-7px;bottom:-7px;width:14px;height:14px;background:var(--ink);cursor:nwse-resize}
@@ -396,6 +397,7 @@ const strip = ({ el, ...i }) => i;
 const dirty = new Map();  // id -> change number, for cards/labels changed here and not saved yet
 let rev = 0, saving = null, again = false, timer, known;
 const touch = id => dirty.set(id, ++rev);
+const gone = new Set();  // uploads taken off the board again with Strg+Z; their files stay in uploads/
 
 function sync(mine, theirs, make) {
   const old = new Map(mine.map(i => [i.id, i]));
@@ -410,7 +412,7 @@ function sync(mine, theirs, make) {
 }
 function apply(nb) {
   board.labels = sync(board.labels, nb.labels, label);
-  board.items = sync(board.items, nb.items, n => {
+  board.items = sync(board.items, nb.items.filter(i => !gone.has(i.id)), n => {
     const c = n.el = card(n);
     if (n.kind === "model" && n.url) io.observe(c.querySelector(".media"));
     return c;
@@ -468,6 +470,7 @@ async function push() {
       if (m) for (const k of ["x", "y", "w", "text", "moved"]) if (k in m) o[k] = m[k];
     }
     for (const id of ids.keys()) if (mine.get(id)?.upload && !nb.items.some(i => i.id === id)) nb.items.push(strip(mine.get(id)));
+    nb.items = nb.items.filter(i => !gone.has(i.id));
     const r = await gh("contents/board.json", { method: "PUT", body: JSON.stringify({ message: "Board-Layout", sha,
       content: b64(new TextEncoder().encode(JSON.stringify(nb, null, 1))) }) });
     if (r.ok) {
@@ -527,38 +530,66 @@ async function upload(file, x, y) {
   const it = { id: path, kind, title: file.name.replace(/\.[^.]+$/, "").replace(/_/g, " "), ext, size: file.size,
     dl: path, raw: path, url: path, x: Math.round(x), y: Math.round(y), w: 300, moved: true, upload: true };
   if (t) Object.assign(it, { ar: t.ar, w: Math.round(300 * t.ar), thumb: URL.createObjectURL(t.blob) });
-  touch(it.id); board.items.push(it); world.append(it.el = card(it));
+  touch(it.id); board.items.push(it); world.append(it.el = card(it)); remember(it.id);
   if (t) it.thumb = thumb;  // the card keeps showing the local copy until Pages has the repo one
   if (kind === "model") io.observe(it.el.querySelector(".media"));
   save(true);
   return it.w;
 }
 
+// Strg+Z: one entry per move / resize / rename / upload, by id, so a newer copy from a live update still matches
+const undos = [], undoBtn = el("button", "", "↶"); undoBtn.id = "undo"; undoBtn.title = "Rückgängig (Strg+Z)"; undoBtn.hidden = true;
+function remember(id, before) { undos.push({ id, before }); undoBtn.hidden = false; }  // no before: an upload
+function undo() {
+  const u = undos.pop(); undoBtn.hidden = !undos.length;
+  const o = u && [...board.items, ...board.labels].find(i => i.id === u.id); if (!o) return;
+  if (!u.before) { gone.add(o.id); o.el.remove(); board.items.splice(board.items.indexOf(o), 1); }
+  else {
+    Object.assign(o, u.before); const e = o.el; e.style.left = o.x + "px"; e.style.top = o.y + "px";
+    if (e.lab) e.textContent = o.text;
+    else { const m = e.querySelector(".media"); e.style.width = m.style.width = o.w + "px"; m.style.height = o.w / (o.ar || 1) + "px"; }
+  }
+  touch(o.id); save();
+}
+
 function editDrag(e) {
   const rz = e.target.closest(".rz"), c = e.target.closest(".card"), lab = e.target.closest(".label");
+  let before;  // set on the first move, so a plain click changes nothing
   if (c) {
     const it = c.item, m = c.querySelector(".media"), ar = it.ar || 1;
     return { move(dx, dy) {
-      touch(it.id);
+      before ??= { x: it.x, y: it.y, w: it.w, moved: it.moved }; touch(it.id);
       if (rz) { it.w = Math.max(60, it.w + dx); c.style.width = m.style.width = it.w + "px"; m.style.height = it.w / ar + "px"; }
       else { it.x += dx; it.y += dy; c.style.left = it.x + "px"; c.style.top = it.y + "px"; }
-    }, end() { it.x = Math.round(it.x); it.y = Math.round(it.y); it.w = Math.round(it.w); it.moved = true; save(); } };
+    }, end() {
+      if (!before) return;
+      it.x = Math.round(it.x); it.y = Math.round(it.y); it.w = Math.round(it.w); it.moved = true; remember(it.id, before); save();
+    } };
   }
   if (lab && !lab.isContentEditable) {
     const l = lab.lab;
-    return { move(dx, dy) { touch(l.id); l.x += dx; l.y += dy; lab.style.left = l.x + "px"; lab.style.top = l.y + "px"; },
-      end() { l.x = Math.round(l.x); l.y = Math.round(l.y); l.moved = true; save(); } };
+    return { move(dx, dy) { before ??= { x: l.x, y: l.y, moved: l.moved }; touch(l.id); l.x += dx; l.y += dy; lab.style.left = l.x + "px"; lab.style.top = l.y + "px"; },
+      end() { if (!before) return; l.x = Math.round(l.x); l.y = Math.round(l.y); l.moved = true; remember(l.id, before); save(); } };
   }
   return null;
 }
 if (EDIT) {
   document.body.classList.add("edit");
-  document.body.append(btn);
+  document.body.append(btn, undoBtn);
+  undoBtn.onclick = undo;
+  addEventListener("keydown", e => {
+    if ((e.ctrlKey || e.metaKey) && !e.shiftKey && e.key.toLowerCase() === "z" && !e.target.isContentEditable) { e.preventDefault(); undo(); }
+  });
   if (REPO) login();
   world.addEventListener("dblclick", e => {
     const lab = e.target.closest(".label"); if (!lab) return;
+    const before = { text: lab.lab.text };
     touch(lab.lab.id); lab.contentEditable = "true"; lab.focus();
-    lab.onblur = () => { lab.contentEditable = "false"; lab.lab.text = lab.textContent.trim(); touch(lab.lab.id); save(); };
+    lab.onblur = () => {
+      lab.contentEditable = "false"; lab.lab.text = lab.textContent.trim(); touch(lab.lab.id);
+      if (lab.lab.text !== before.text) remember(lab.lab.id, before);
+      save();
+    };
   });
   btn.onclick = () => {
     if (REPO) return save(true);
