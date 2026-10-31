@@ -32,34 +32,7 @@ HTML = {"05_3D-Modelle/Modell-Ansichten_HTML/index.html": "html/modell-ansichten
 # (title, [entries]); entry = ("open", globs) | ("latest", globs) | ("stack", title, globs)
 # "latest": newest version open (name_v3 / name_2 beats name), older ones go into one "Ältere Versionen" stack.
 SECTIONS = [
-    ("Analyse · Möblierung + Nutzung", [
-        ("open", ["03_Analyse/Moeblierung_Nutzung/*.pdf"]),
-        ("stack", "CAD (DXF)", ["03_Analyse/Moeblierung_Nutzung/*.dxf"]),
-    ]),
-    ("Analyse · Raumprogramm", [
-        ("latest", ["03_Analyse/Raumprogramm/*.pdf"]),
-        ("open", ["03_Analyse/Raumprogramm/*.html"]),
-        ("stack", "Grafiken, Excel, DXF", ["03_Analyse/Raumprogramm/*"]),
-    ]),
-    ("Entwurf", [
-        ("latest", ["04_Entwurf/Renderings/TIB_Vergleich_*"]),
-        ("stack", "Varianten Andis", ["04_Entwurf/Renderings/Andis*"]),
-        ("stack", "Varianten Luca", ["04_Entwurf/Renderings/Luca*"]),
-        ("stack", "Optionen 1–15", ["04_Entwurf/Renderings/Option*"]),
-        ("stack", "Lagepläne Varianten", ["04_Entwurf/Lageplaene_Varianten/*"]),
-        ("stack", "Flächenbedarf (Rhino)", ["04_Entwurf/Flaechenbedarf/*"]),
-    ]),
-    ("Aufgabe", [("open", ["00_Aufgabe/*.pdf"])]),
-    ("Bestand · Pläne Uni", [
-        ("open", ["01_Bestand_Uni/Grundrisse/*.pdf", "01_Bestand_Uni/Schnitte/*.pdf", "01_Bestand_Uni/Ansichten/*.pdf"]),
-        ("latest", ["01_Bestand_Uni/Lageplan/*.pdf"]),
-        ("open", ["01_Bestand_Uni/Historisch/*.pdf"]),  # 1961 original furniture plan
-        ("stack", "Wettbewerb 1982/83", ["01_Bestand_Uni/Historisch/Archiv_1960-2013/1982-83_Wettbewerb/*"]),
-        ("stack", "Historische Pläne 1960–2013", ["01_Bestand_Uni/Historisch/Archiv_1960-2013/*"]),
-        ("stack", "Nachbargebäude", ["01_Bestand_Uni/Nachbargebaeude/**"]),
-        ("stack", "Buchscans", ["01_Bestand_Uni/Buchscans/*"]),
-        ("stack", "CAD + Raumliste", ["01_Bestand_Uni/*/*"]),
-    ]),
+    ("Aufgabenstellung", [("open", ["00_Aufgabe/*.pdf"])]),
     ("Grundrisse", [
         ("open", ["02_Plaene/Grundrisse/*_M1-200.pdf"]),
         ("stack", "Grundrisse A3 · M 1:250", ["02_Plaene/Grundrisse/*_A3.pdf"]),
@@ -70,6 +43,8 @@ SECTIONS = [
         ("stack", "Städtebaulicher Schnitt · Stile", ["02_Plaene/Schnitte/LP_*.pdf"]),
         ("stack", "CAD (DXF)", ["02_Plaene/Schnitte/*"]),
     ]),
+    # the reworked elevation sheet; listed before Bestand so Bestand does not claim it
+    ("Ansichten", [("open", ["01_Bestand_Uni/Ansichten/*berarbeitet*.pdf", "02_Plaene/Ansichten/*.pdf"])]),
     ("Lageplan", [
         ("latest", ["02_Plaene/Lageplan/*_Lageplan_*.pdf"]),
         ("stack", "Alle Pläne (Sammel-PDF)", ["02_Plaene/Lageplan/*alle_Plaene*"]),
@@ -92,6 +67,34 @@ SECTIONS = [
         ("stack", "Druckteile geteilt", ["06_3D-Druck/Varianten_M1-500/geteilt_ohne-Stuetzen/**"]),
         ("stack", "Bambu 3MF + Liesmich", ["06_3D-Druck/**"]),
     ]),
+    ("Analyse · Möblierung + Nutzung", [
+        ("open", ["03_Analyse/Moeblierung_Nutzung/*.pdf"]),
+        ("stack", "CAD (DXF)", ["03_Analyse/Moeblierung_Nutzung/*.dxf"]),
+    ]),
+    ("Analyse · Raumprogramm", [
+        ("latest", ["03_Analyse/Raumprogramm/*.pdf"]),
+        ("open", ["03_Analyse/Raumprogramm/*.html"]),
+        ("stack", "Grafiken, Excel, DXF", ["03_Analyse/Raumprogramm/*"]),
+    ]),
+    # side columns (see SIDE): volume studies so far, and the university's own plans
+    ("Entwurf · Volumenstudien", [
+        ("latest", ["04_Entwurf/Renderings/TIB_Vergleich_*"]),
+        ("stack", "Varianten Andis", ["04_Entwurf/Renderings/Andis*"]),
+        ("stack", "Varianten Luca", ["04_Entwurf/Renderings/Luca*"]),
+        ("stack", "Optionen 1–15", ["04_Entwurf/Renderings/Option*"]),
+        ("stack", "Lagepläne Varianten", ["04_Entwurf/Lageplaene_Varianten/*"]),
+        ("stack", "Flächenbedarf (Rhino)", ["04_Entwurf/Flaechenbedarf/*"]),
+    ]),
+    ("Bestand · Pläne Uni", [
+        ("open", ["01_Bestand_Uni/Grundrisse/*.pdf", "01_Bestand_Uni/Schnitte/*.pdf", "01_Bestand_Uni/Ansichten/*.pdf"]),
+        ("latest", ["01_Bestand_Uni/Lageplan/*.pdf"]),
+        ("open", ["01_Bestand_Uni/Historisch/*.pdf"]),  # 1961 original furniture plan
+        ("stack", "Wettbewerb 1982/83", ["01_Bestand_Uni/Historisch/Archiv_1960-2013/1982-83_Wettbewerb/*"]),
+        ("stack", "Historische Pläne 1960–2013", ["01_Bestand_Uni/Historisch/Archiv_1960-2013/*"]),
+        ("stack", "Nachbargebäude", ["01_Bestand_Uni/Nachbargebaeude/**"]),
+        ("stack", "Buchscans", ["01_Bestand_Uni/Buchscans/*"]),
+        ("stack", "CAD + Raumliste", ["01_Bestand_Uni/*/*"]),
+    ]),
     ("Fotos", [
         ("stack", "Fassade", ["07_Fotos/Fassade/*"]),
         ("stack", "Innen", ["07_Fotos/Innen/*"]),
@@ -107,8 +110,8 @@ REFS = {"id": "html/referenzen/index.html", "kind": "html", "title": "Referenzen
         "size": 0, "dl": "html/referenzen/index.html", "raw": "html/referenzen/index.html",
         "url": "html/referenzen/index.html"}
 
-# less relevant sections: own column right of the main one, starting level with the named section
-SIDE = {"Bestand · Pläne Uni": "Grundrisse"}
+# side columns right of the main one, in this order, each starting level with the named main section
+SIDE = {"Entwurf · Volumenstudien": "Aufgabenstellung", "Bestand · Pläne Uni": "Grundrisse"}
 
 VER = re.compile(r"_(?:v)?(\d+)$")
 
@@ -271,9 +274,11 @@ def layout(sections):
     for s in sections:
         if s["title"] not in SIDE:
             y = flow(s, 0, y)
-    for s in sections:
-        if s["title"] in SIDE:
-            flow(s, MAX_W + 1000, tops.get(SIDE[s["title"]], 0))
+    for title in SIDE:
+        s = next((s for s in sections if s["title"] == title), None)
+        if s:  # next column starts 1000 right of everything so far (labels ~100 px per character at 180 px)
+            right = max([i["x"] + i["w"] for i in items] + [l["x"] + 100 * len(l["text"]) for l in labels])
+            flow(s, right + 1000, tops.get(SIDE[title], 0))
     board.write_text(json.dumps({"labels": labels, "items": items}, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
