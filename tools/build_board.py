@@ -4,6 +4,7 @@
 - Positions/sizes you changed on the board (edit mode, saved into board.json) are kept; everything else is re-flowed.
 - PDFs and 3D files get one Seafile share link each: only /seafhttp/f/<token>/ allows the page to fetch them (CORS).
 Run: uv run --no-project --python 3.12 --with mcp==1.27.2 --with pymupdf --with pillow python build_board.py
+Add --layout to only re-sort board.json after changing SECTIONS / SIDE (no Seafile, no new files).
 """
 import fnmatch, hashlib, json, re, shutil, sys
 from pathlib import Path
@@ -31,6 +32,23 @@ HTML = {"05_3D-Modelle/Modell-Ansichten_HTML/index.html": "html/modell-ansichten
 # (title, [entries]); entry = ("open", globs) | ("latest", globs) | ("stack", title, globs)
 # "latest": newest version open (name_v3 / name_2 beats name), older ones go into one "Ältere Versionen" stack.
 SECTIONS = [
+    ("Analyse · Möblierung + Nutzung", [
+        ("open", ["03_Analyse/Moeblierung_Nutzung/*.pdf"]),
+        ("stack", "CAD (DXF)", ["03_Analyse/Moeblierung_Nutzung/*.dxf"]),
+    ]),
+    ("Analyse · Raumprogramm", [
+        ("latest", ["03_Analyse/Raumprogramm/*.pdf"]),
+        ("open", ["03_Analyse/Raumprogramm/*.html"]),
+        ("stack", "Grafiken, Excel, DXF", ["03_Analyse/Raumprogramm/*"]),
+    ]),
+    ("Entwurf", [
+        ("latest", ["04_Entwurf/Renderings/TIB_Vergleich_*"]),
+        ("stack", "Varianten Andis", ["04_Entwurf/Renderings/Andis*"]),
+        ("stack", "Varianten Luca", ["04_Entwurf/Renderings/Luca*"]),
+        ("stack", "Optionen 1–15", ["04_Entwurf/Renderings/Option*"]),
+        ("stack", "Lagepläne Varianten", ["04_Entwurf/Lageplaene_Varianten/*"]),
+        ("stack", "Flächenbedarf (Rhino)", ["04_Entwurf/Flaechenbedarf/*"]),
+    ]),
     ("Aufgabe", [("open", ["00_Aufgabe/*.pdf"])]),
     ("Bestand · Pläne Uni", [
         ("open", ["01_Bestand_Uni/Grundrisse/*.pdf", "01_Bestand_Uni/Schnitte/*.pdf", "01_Bestand_Uni/Ansichten/*.pdf"]),
@@ -63,23 +81,6 @@ SECTIONS = [
         ("stack", "Kern 335 · Fotos", ["02_Plaene/Details/Kern335/Fotos/*", "02_Plaene/Details/Kern335/WhatsApp*"]),
         ("stack", "Kern 335 · Grafiken + CAD", ["02_Plaene/Details/**"]),
     ]),
-    ("Analyse · Möblierung + Nutzung", [
-        ("open", ["03_Analyse/Moeblierung_Nutzung/*.pdf"]),
-        ("stack", "CAD (DXF)", ["03_Analyse/Moeblierung_Nutzung/*.dxf"]),
-    ]),
-    ("Analyse · Raumprogramm", [
-        ("latest", ["03_Analyse/Raumprogramm/*.pdf"]),
-        ("open", ["03_Analyse/Raumprogramm/*.html"]),
-        ("stack", "Grafiken, Excel, DXF", ["03_Analyse/Raumprogramm/*"]),
-    ]),
-    ("Entwurf", [
-        ("latest", ["04_Entwurf/Renderings/TIB_Vergleich_*"]),
-        ("stack", "Varianten Andis", ["04_Entwurf/Renderings/Andis*"]),
-        ("stack", "Varianten Luca", ["04_Entwurf/Renderings/Luca*"]),
-        ("stack", "Optionen 1–15", ["04_Entwurf/Renderings/Option*"]),
-        ("stack", "Lagepläne Varianten", ["04_Entwurf/Lageplaene_Varianten/*"]),
-        ("stack", "Flächenbedarf (Rhino)", ["04_Entwurf/Flaechenbedarf/*"]),
-    ]),
     ("3D-Modelle", [
         ("open", ["05_3D-Modelle/Modell-Ansichten_HTML/index.html", "05_3D-Modelle/Web-Vorschau/*.glb"]),
         ("latest", ["05_3D-Modelle/Bestandsmodell/*.png"]),
@@ -105,6 +106,9 @@ SECTIONS = [
 REFS = {"id": "html/referenzen/index.html", "kind": "html", "title": "Referenzen · Bibliotheken", "ext": "html",
         "size": 0, "dl": "html/referenzen/index.html", "raw": "html/referenzen/index.html",
         "url": "html/referenzen/index.html"}
+
+# less relevant sections: own column right of the main one, starting level with the named section
+SIDE = {"Bestand · Pläne Uni": "Grundrisse"}
 
 VER = re.compile(r"_(?:v)?(\d+)$")
 
@@ -238,29 +242,56 @@ def layout(sections):
     old = json.loads(board.read_text(encoding="utf-8")) if board.exists() else {}
     pos = {i["id"]: i for i in old.get("items", []) + old.get("labels", []) if i.get("moved")}
     texts = {l["id"]: l["text"] for l in old.get("labels", [])}
-    items, labels, y = [], [], 0
+    items, labels, tops = [], [], {}
     ROW_H, MAX_W, GAP = 300, 5200, 40
-    for s in sections:
+
+    def flow(s, x0, y):
         lid = "label:" + s["title"]
-        labels.append(pos.get(lid) or {"id": lid, "text": texts.get(lid, s["title"]), "x": 0, "y": y})
+        labels.append(pos.get(lid) or {"id": lid, "text": texts.get(lid, s["title"]), "x": x0, "y": y})
+        tops[s["title"]] = y
         y += 250  # room for the 180px section title
         # photo stacks are the content there, so show them bigger; the references tile is a page preview
         h = {"Fotos": ROW_H * 2, "Referenzen": ROW_H * 4}.get(s["title"], ROW_H)
         x = 0
         for it in s["items"]:
             w = h * it.get("ar", 1.0) if it["kind"] in ("pdf", "image") or it["id"] == REFS["id"] else h
+            it["section"] = s["title"]
             if it["id"] in pos:
                 p = pos[it["id"]]
                 it |= {"x": p["x"], "y": p["y"], "w": p["w"], "moved": True}
             else:
                 if x and x + w > MAX_W:
                     x, y = 0, y + h + 110
-                it |= {"x": x, "y": y, "w": round(w)}
+                it |= {"x": x0 + x, "y": y, "w": round(w)}
                 x += w + GAP
             items.append(it)
-        y += h + 380
+        return y + h + 380
+
+    y = 0
+    for s in sections:
+        if s["title"] not in SIDE:
+            y = flow(s, 0, y)
+    for s in sections:
+        if s["title"] in SIDE:
+            flow(s, MAX_W + 1000, tops.get(SIDE[s["title"]], 0))
     board.write_text(json.dumps({"labels": labels, "items": items}, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
+def relayout():
+    """Re-sort the existing board.json into SECTIONS order; touches no files and no Seafile."""
+    old = json.loads((REPO / "board.json").read_text(encoding="utf-8"))
+    labs = sorted(old["labels"], key=lambda l: l["y"])
+    groups = {l["text"]: [] for l in labs}
+    names = {l["text"]: l["id"][len("label:"):] for l in labs}
+    for it in sorted(old["items"], key=lambda i: (i["y"], i["x"])):
+        # boards written before the "section" field: plain vertical bands under each label
+        sec = it.get("section") or names[[l for l in labs if l["y"] <= it["y"]][-1]["text"]]
+        groups.setdefault(sec, []).append(it)
+    groups = {names.get(k, k): v for k, v in groups.items()}
+    order = [t for t, _ in SECTIONS] + ["Referenzen"]
+    order += [t for t in groups if t not in order]
+    layout([{"title": t, "items": groups[t]} for t in order if groups.get(t)])
+
+
 if __name__ == "__main__":
-    main()
+    relayout() if "--layout" in sys.argv else main()
