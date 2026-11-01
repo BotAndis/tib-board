@@ -269,6 +269,236 @@
   }
  },
  {
+  "slug": "austin-central",
+  "title": "Austin Central Library",
+  "city": "Austin",
+  "country": "USA",
+  "architect": "Lake|Flato / Shepley Bulfinch",
+  "year": 2017,
+  "category": "gross",
+  "book_page": null,
+  "umbau": false,
+  "note": "Ein sechsgeschossiges Tageslichtatrium mit versetzten Treppen und Brücken erschließt die umlaufenden Freihand- und Lesebereiche über den öffentlichen Eingangs- und Veranstaltungszonen; AIA/ALA Library Building Award 2018.",
+  "images": {
+   "eg": {
+    "label": "Eingangsebene mit Veranstaltungssaal und Lageplan",
+    "src": "https://assets.austinconventioncenter.com/rfq/Austin-Central-Library-Lake-Flato.pdf#page=7 · Plan: Lake|Flato / Shepley Bulfinch",
+    "ar": 1.5
+   },
+   "schnitt": {
+    "label": "Längsschnitt durch das Atrium mit Tageslichtanalyse",
+    "src": "https://assets.austinconventioncenter.com/rfq/Austin-Central-Library-Lake-Flato.pdf#page=10 · Zeichnung: Lake|Flato / Shepley Bulfinch; Tageslichtanalyse: Integrated Design Lab",
+    "ar": 2.131
+   },
+   "aussen": {
+    "label": "Außen, Bibliothek an Shoal Creek und Fußgängerbrücke",
+    "src": "https://archinect.com/features/article/150175413/porch-atrium-terrace-a-deeper-look-at-lake-flato-s-austin-central-library · Foto: Lara Swimmer",
+    "ar": 1.49
+   },
+   "innen1": {
+    "label": "Sechsgeschossiges Atrium mit Brücken und Oberlicht",
+    "src": "https://archinect.com/features/article/150175413/porch-atrium-terrace-a-deeper-look-at-lake-flato-s-austin-central-library · Foto: Nic Lehoux",
+    "ar": 0.75
+   },
+   "innen2": {
+    "label": "Leseloggia mit Sitzplätzen an der Außenfassade",
+    "src": "https://archinect.com/features/article/150175413/porch-atrium-terrace-a-deeper-look-at-lake-flato-s-austin-central-library · Foto: Nic Lehoux",
+    "ar": 1.333
+   }
+  }
+ },
+ {
+  "slug": "calgary-central",
+  "title": "Calgary Central Library",
+  "city": "Calgary",
+  "country": "Kanada",
+  "architect": "Snøhetta / DIALOG",
+  "year": 2018,
+  "category": "gross",
+  "book_page": null,
+  "umbau": false,
+  "note": "Um ein spitzovales Atrium mit Oculus steigen Erschließung und Freihandbereiche von der über der Stadtbahn angehobenen Eingangsebene zu ruhigeren Lesebereichen und dem Great Reading Room auf.",
+  "images": {
+   "eg": {
+    "label": "Straßenebene (Level 0), Veranstaltungsräume und Stadtbahntrasse",
+    "src": "https://www.archdaily.com/905263/calgary-central-library-snohetta/5be4343908a5e5f7ac000978-calgary-central-library-snohetta-floor-plan · Plan: Snøhetta / DIALOG",
+    "ar": 1.872
+   },
+   "og": {
+    "label": "Angehobene Eingangsebene (Level 1) mit Atrium",
+    "src": "https://www.archdaily.com/905263/calgary-central-library-snohetta/5be4344508a5e549e3000392-calgary-central-library-snohetta-floor-plan · Plan: Snøhetta / DIALOG",
+    "ar": 1.918
+   },
+   "og2": {
+    "label": "Level 3, Freihandbestand und Lesebereiche um den Atriumluftraum",
+    "src": "https://www.archdaily.com/905263/calgary-central-library-snohetta/5be4358208a5e5f7ac000986-calgary-central-library-snohetta-floor-plan · Plan: Snøhetta / DIALOG",
+    "ar": 1.546
+   },
+   "schnitt": {
+    "label": "Längsschnitt durch das Atrium, Blick nach Osten",
+    "src": "https://www.archdaily.com/905263/calgary-central-library-snohetta/5be4359c08a5e5f7ac000987-calgary-central-library-snohetta-section · Zeichnung: Snøhetta / DIALOG",
+    "ar": 1.882
+   },
+   "aussen": {
+    "label": "Außen, hexagonale Glasfassade und angehobener Eingang",
+    "src": "https://www.archdaily.com/905263/calgary-central-library-snohetta/5be0907008a5e5e9750000cc-calgary-central-library-snohetta-image · Foto: Michael Grimm, über Snøhetta",
+    "ar": 1.5
+   },
+   "innen1": {
+    "label": "Atrium, Holzgalerien und Treppen unter dem Oculus",
+    "src": "https://www.archdaily.com/905263/calgary-central-library-snohetta/5be0914008a5e5ff86000335-calgary-central-library-snohetta-image · Foto: Michael Grimm, über Snøhetta",
+    "ar": 1.5
+   },
+   "innen2": {
+    "label": "Great Reading Room auf Level 4, ruhige Leseplätze zwischen Holzlamellen",
+    "src": "https://www.archdaily.com/905263/calgary-central-library-snohetta/5be0922808a5e5ff8600033a-calgary-central-library-snohetta-image · Foto: Michael Grimm, über Snøhetta",
+    "ar": 1.5
+   }
+  }
+ },
+ {
+  "slug": "christchurch-turanga",
+  "title": "Tūranga – Christchurch Central Library",
+  "city": "Christchurch",
+  "country": "Neuseeland",
+  "architect": "Schmidt Hammer Lassen / Architectus",
+  "year": 2018,
+  "category": "gross",
+  "book_page": null,
+  "umbau": false,
+  "note": "Ein gestaffeltes Atrium mit breiten Treppen verbindet das offene Erdgeschoss und die Gemeinschaftsbereiche mit den darüberliegenden Freihand-, Lese- und Lernbereichen; NZIA John Scott Award for Public Architecture 2019.",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss, öffentliche Eingangsebene (Ground Floor)",
+    "src": "https://www.archdaily.com/904165/turanga-schimdt-hammer-lassen-architects-plus-architectus · Plan: Schmidt Hammer Lassen / Architectus",
+    "ar": 1.333
+   },
+   "og": {
+    "label": "1. OG, Gemeinschaftsbereiche und zentrale Sitztreppe (Level 01)",
+    "src": "https://www.archdaily.com/904165/turanga-schimdt-hammer-lassen-architects-plus-architectus · Plan: Schmidt Hammer Lassen / Architectus",
+    "ar": 1.333
+   },
+   "og2": {
+    "label": "4. OG, Lesebereiche und Terrassen am Atrium (Level 04)",
+    "src": "https://www.archdaily.com/904165/turanga-schimdt-hammer-lassen-architects-plus-architectus · Plan: Schmidt Hammer Lassen / Architectus",
+    "ar": 1.333
+   },
+   "schnitt": {
+    "label": "Längsschnitt durch gestaffeltes Atrium und Treppen (Section 02)",
+    "src": "https://www.archdaily.com/904165/turanga-schimdt-hammer-lassen-architects-plus-architectus · Zeichnung: Schmidt Hammer Lassen / Architectus",
+    "ar": 1.333
+   },
+   "aussen": {
+    "label": "Außen, Fassade zum Cathedral Square",
+    "src": "https://www.archdaily.com/904165/turanga-schimdt-hammer-lassen-architects-plus-architectus · Foto: Adam Mørk",
+    "ar": 1.204
+   },
+   "innen1": {
+    "label": "Atrium, Blick über mehrere Geschosse zum Oberlicht",
+    "src": "https://www.archdaily.com/904165/turanga-schimdt-hammer-lassen-architects-plus-architectus · Foto: Adam Mørk",
+    "ar": 0.749
+   },
+   "innen2": {
+    "label": "Breite Sitztreppe im Atrium mit angrenzenden Lesebereichen",
+    "src": "https://www.archdaily.com/904165/turanga-schimdt-hammer-lassen-architects-plus-architectus · Foto: Adam Mørk",
+    "ar": 1.165
+   }
+  }
+ },
+ {
+  "slug": "halifax-central",
+  "title": "Halifax Central Library",
+  "city": "Halifax",
+  "country": "Kanada",
+  "architect": "schmidt hammer lassen / Fowler Bauld & Mitchell",
+  "year": 2014,
+  "category": "gross",
+  "book_page": null,
+  "umbau": false,
+  "note": "Ein über fünf Geschosse offenes Atrium verbindet die versetzt gestapelten Bibliotheksebenen durch kreuzende Treppen und Brücken, während Freihandbestände und Lesebereiche an seinen Rändern liegen.",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss (Level 1) mit Atrium und Vorplätzen",
+    "src": "https://www.archdaily.com/577039/new-halifax-central-library-schmidt-hammer-lassen/548a498ee58ecec43700007d-new-halifax-central-library-schmidt-hammer-lassen-image · Plan: schmidt hammer lassen / Fowler Bauld & Mitchell",
+    "ar": 0.708
+   },
+   "og": {
+    "label": "1. OG (Level 2), Kinderbibliothek und Atriumöffnung",
+    "src": "https://www.archdaily.com/577039/new-halifax-central-library-schmidt-hammer-lassen/548a4704e58ece0c90000072-new-halifax-central-library-schmidt-hammer-lassen-image · Plan: schmidt hammer lassen / Fowler Bauld & Mitchell",
+    "ar": 0.905
+   },
+   "og2": {
+    "label": "2. OG (Level 3), Freihandbestand und Lesebereiche am Atrium",
+    "src": "https://www.archdaily.com/577039/new-halifax-central-library-schmidt-hammer-lassen/548a477ae58ece0d7900006b-new-halifax-central-library-schmidt-hammer-lassen-image · Plan: schmidt hammer lassen / Fowler Bauld & Mitchell",
+    "ar": 1.0
+   },
+   "schnitt": {
+    "label": "Schnitt B–B durch Atrium und kreuzende Treppen",
+    "src": "https://www.archdaily.com/577039/new-halifax-central-library-schmidt-hammer-lassen/548a48cce58ece0c90000077-new-halifax-central-library-schmidt-hammer-lassen-image · Zeichnung: schmidt hammer lassen / Fowler Bauld & Mitchell",
+    "ar": 2.61
+   },
+   "aussen": {
+    "label": "Außen, gestapelte Baukörper und auskragender Halifax Living Room",
+    "src": "https://www.archdaily.com/577039/new-halifax-central-library-schmidt-hammer-lassen/548a4a4de58ece0c9000007f-new-halifax-central-library-schmidt-hammer-lassen-image · Foto: Adam Mørk",
+    "ar": 1.142
+   },
+   "innen1": {
+    "label": "Atrium vom Erdgeschoss, kreuzende Treppen unter dem Glasdach",
+    "src": "https://www.archdaily.com/577039/new-halifax-central-library-schmidt-hammer-lassen/548a48b9e58ece0c90000076-new-halifax-central-library-schmidt-hammer-lassen-image · Foto: Adam Mørk",
+    "ar": 1.439
+   },
+   "innen2": {
+    "label": "Atrium von einer oberen Galerie, Freihandbereiche und Treppenbrücken",
+    "src": "https://www.archdaily.com/577039/new-halifax-central-library-schmidt-hammer-lassen/548a49b8e58ecec43700007e-new-halifax-central-library-schmidt-hammer-lassen-image · Foto: Adam Mørk",
+    "ar": 1.028
+   }
+  }
+ },
+ {
+  "slug": "mexiko-vasconcelos",
+  "title": "Biblioteca Vasconcelos",
+  "city": "Mexiko-Stadt",
+  "country": "Mexiko",
+  "architect": "Alberto Kalach / TAX",
+  "year": 2006,
+  "category": "gross",
+  "book_page": null,
+  "umbau": false,
+  "note": "Eine langgestreckte, mehrgeschossige Halle bildet die gemeinsame Erschließung; die Freihandregale hängen als offene Stahlgalerien im Luftraum, die Leseplätze orientieren sich zum Garten.",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss mit Garten, Längs- und Querschnitt",
+    "src": "https://www.archdaily.com/98584/vasconcelos-library-alberto-kalach · Plan: Alberto Kalach / TAX",
+    "ar": 0.772
+   },
+   "og": {
+    "label": "Hängeregale im Atrium: Detailgrundriss einer Regalebene und Schnitte",
+    "src": "https://www.archdaily.com/98584/vasconcelos-library-alberto-kalach · Plan: Alberto Kalach / TAX",
+    "ar": 1.294
+   },
+   "schnitt": {
+    "label": "Querschnitte durch Halle, Hängeregale und seitliche Lesebereiche",
+    "src": "https://www.archdaily.com/98584/vasconcelos-library-alberto-kalach · Zeichnung: Alberto Kalach / TAX",
+    "ar": 1.559
+   },
+   "aussen": {
+    "label": "Eingangsseite mit Betonvordach und Garten",
+    "src": "https://archeyes.com/vasconcelos-library-by-alberto-kalach/ · Foto: Roberto Ortiz de Landazuri",
+    "ar": 0.75
+   },
+   "innen1": {
+    "label": "Blick durch die zentrale Halle mit hängenden Regalgalerien",
+    "src": "https://archeyes.com/vasconcelos-library-by-alberto-kalach/ · Foto: Trevor Patt",
+    "ar": 1.333
+   },
+   "innen2": {
+    "label": "Halle mit Walskelett von Gabriel Orozco und Regalgalerien",
+    "src": "https://archeyes.com/vasconcelos-library-by-alberto-kalach/ · Foto: Trevor Patt",
+    "ar": 0.75
+   }
+  }
+ },
+ {
   "slug": "oslo-deichman",
   "title": "Deichman Bjørvika",
   "city": "Oslo",
@@ -318,6 +548,143 @@
   }
  },
  {
+  "slug": "rotterdam-centrale",
+  "title": "Centrale Bibliotheek Rotterdam",
+  "city": "Rotterdam",
+  "country": "Niederlande",
+  "architect": "Van den Broek & Bakema / Hans Boot",
+  "year": 1983,
+  "category": "gross",
+  "book_page": null,
+  "umbau": false,
+  "note": "Die Geschosse staffeln sich um die verglaste Rolltreppenhalle; Freihandbestände und Lesebereiche liegen an ihren offenen Galerien, die geschlossenen Magazine im rückwärtigen Gebäudeteil.",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss, Publikationszeichnung 144f mit Eingangshalle und Auditorium",
+    "src": "https://hdl.handle.net/21.12141/id/collect.56AA538A-1D90-4902-9D94-7D920D7396B9 · Plan: Van den Broek & Bakema / Hans Boot; Sammlung Nieuwe Instituut, BROX2288r13.2",
+    "ar": 1.235
+   },
+   "og": {
+    "label": "1. OG mit Jugendabteilung und Rolltreppenvide (Archivplan)",
+    "src": "https://hdl.handle.net/21.12141/id/collect.340D6C16-5851-47E2-99D2-D02B07EAE342 · Plan: Van den Broek & Bakema; Sammlung Nieuwe Instituut, BROX2288r1.6",
+    "ar": 1.011
+   },
+   "og2": {
+    "label": "2. OG mit Lese- und Studiensaal an der Vide (Archivplan)",
+    "src": "https://hdl.handle.net/21.12141/id/collect.340D6C16-5851-47E2-99D2-D02B07EAE342 · Plan: Van den Broek & Bakema; Sammlung Nieuwe Instituut, BROX2288r1.6",
+    "ar": 1.008
+   },
+   "schnitt": {
+    "label": "Schnitt durch gestufte Rolltreppenhalle und Magazintrakt (Archivplan)",
+    "src": "https://hdl.handle.net/21.12141/id/collect.340D6C16-5851-47E2-99D2-D02B07EAE342 · Zeichnung: Van den Broek & Bakema; Sammlung Nieuwe Instituut, BROX2288r1.6",
+    "ar": 1.235
+   },
+   "aussen": {
+    "label": "Außenansicht der gestuften Glasfront vom Vorplatz",
+    "src": "https://www.broekbakema.nl/projecten/centrale-bibliotheek/ · Foto: Archiv Broekbakema; Fotograf auf der Quellseite nicht genannt",
+    "ar": 1.6
+   },
+   "innen1": {
+    "label": "Offene Rolltreppenhalle unter der gestuften Glasfront",
+    "src": "https://www.broekbakema.nl/projecten/centrale-bibliotheek/ · Foto: Archiv Broekbakema; Fotograf auf der Quellseite nicht genannt",
+    "ar": 1.6
+   },
+   "innen2": {
+    "label": "Galerien, Rolltreppen und Schachfeld in der zentralen Halle",
+    "src": "https://www.broekbakema.nl/projecten/centrale-bibliotheek/ · Foto: Archiv Broekbakema; Fotograf auf der Quellseite nicht genannt",
+    "ar": 1.6
+   }
+  }
+ },
+ {
+  "slug": "seattle-central",
+  "title": "Seattle Central Library",
+  "city": "Seattle",
+  "country": "USA",
+  "architect": "OMA / LMN",
+  "year": 2004,
+  "category": "gross",
+  "book_page": null,
+  "umbau": false,
+  "note": "Versetzte Programmplattformen mit Freihandbestand in der Book Spiral und gestaffelten Lesebereichen fassen den mehrgeschossigen Living-Room-Luftraum, den Rolltreppen zwischen den öffentlichen Ebenen erschließen.",
+  "images": {
+   "og": {
+    "label": "Level 3, Living Room und Eingang an der 5th Avenue",
+    "src": "https://lmnarchitects.com/lmn-research/seattle-central-library-curtain-wall-design · Plan: OMA / LMN",
+    "ar": 0.933
+   },
+   "og2": {
+    "label": "Level 10, Lesesaal und Luftraum zum Living Room",
+    "src": "https://www.archdaily.com/11651/seattle-central-library-oma-lmn/57219427e58ece4528000005-seattle-central-library-oma-lmn-plan-10 · Plan: OMA / LMN",
+    "ar": 0.964
+   },
+   "schnitt": {
+    "label": "Schnitt durch Living-Room-Luftraum und Book Spiral",
+    "src": "https://www.archdaily.com/11651/seattle-central-library-oma-lmn/57219551e58ecea06b000002-seattle-central-library-oma-lmn-section-2 · Zeichnung: OMA / LMN",
+    "ar": 1.526
+   },
+   "aussen": {
+    "label": "Außen, beleuchtete Glasfassade in der Abenddämmerung",
+    "src": "https://rex-ny.com/project/seattle-library/ · Foto: Philippe Ruault",
+    "ar": 1.255
+   },
+   "innen1": {
+    "label": "Living Room auf Level 3, hoher Luftraum unter der Glasfassade",
+    "src": "https://www.archdaily.com/11651/seattle-central-library-oma-lmn/57219724e58ecea06b000009-seattle-central-library-oma-lmn-photo · Foto: Philippe Ruault",
+    "ar": 1.255
+   },
+   "innen2": {
+    "label": "Lesesaal auf Level 10 unter dem geneigten Glasdach",
+    "src": "https://www.archdaily.com/11651/seattle-central-library-oma-lmn/57219964e58eced1af000006-seattle-central-library-oma-lmn-photo · Foto: Philippe Ruault",
+    "ar": 1.259
+   }
+  }
+ },
+ {
+  "slug": "shanghai-library-east",
+  "title": "Shanghai Library East",
+  "city": "Shanghai",
+  "country": "China",
+  "architect": "Schmidt Hammer Lassen / Arcplus",
+  "year": 2022,
+  "category": "gross",
+  "book_page": null,
+  "umbau": false,
+  "note": "Um ein über mehrere Ebenen gestaffeltes Atrium gruppieren sich Freihandbestände und Leseräume, während im Erdgeschoss das öffentliche Forum und seitlich Kinderbibliothek und Veranstaltungssaal liegen; AIA International Honor Award 2023.",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss mit Forum, Kinderbibliothek und Saal (Level 1)",
+    "src": "https://www.archdaily.com/989766/shanghai-library-east-shl · Plan: Schmidt Hammer Lassen / Arcplus",
+    "ar": 1.414
+   },
+   "og": {
+    "label": "2. OG, Freihand- und Lesebereiche am Atrium (Level 3)",
+    "src": "https://www.archdaily.com/989766/shanghai-library-east-shl · Plan: Schmidt Hammer Lassen / Arcplus",
+    "ar": 1.414
+   },
+   "og2": {
+    "label": "4. OG, veränderter Atriumausschnitt und Themenbereiche (Level 5)",
+    "src": "https://www.archdaily.com/989766/shanghai-library-east-shl · Plan: Schmidt Hammer Lassen / Arcplus",
+    "ar": 1.414
+   },
+   "aussen": {
+    "label": "Außen, Bibliothek aus dem Straßenraum",
+    "src": "https://www.gooood.cn/shanghai-library-east-by-schmidt-hammer-lassen-architects.htm · Foto: Tian Fangfang; © SHL",
+    "ar": 1.333
+   },
+   "innen1": {
+    "label": "Zentrales Atrium, Blick vom Forum zu Galerien und Oberlicht",
+    "src": "https://www.gooood.cn/shanghai-library-east-by-schmidt-hammer-lassen-architects.htm · Foto: Tian Fangfang; © SHL",
+    "ar": 0.75
+   },
+   "innen2": {
+    "label": "Mehrgeschossiger Lesesaal an der Glasfassade",
+    "src": "https://www.gooood.cn/shanghai-library-east-by-schmidt-hammer-lassen-architects.htm · Foto: Tian Fangfang; © SHL",
+    "ar": 0.75
+   }
+  }
+ },
+ {
   "slug": "stockholm-asplund",
   "title": "Stadtbibliothek Stockholm",
   "city": "Stockholm",
@@ -358,6 +725,55 @@
     "label": "Lesesaal im Seitenflügel",
     "src": "https://commons.wikimedia.org/wiki/File:2019-08-12_Stockholms_stadsbibliotek_35.jpg · Foto: Nemo bis (CC BY-SA 3.0)",
     "ar": 1.333
+   }
+  }
+ },
+ {
+  "slug": "tianjin-binhai",
+  "title": "Tianjin Binhai Library",
+  "city": "Tianjin",
+  "country": "China",
+  "architect": "MVRDV / Tianjin Urban Planning and Design Institute (TUPDI)",
+  "year": 2017,
+  "category": "gross",
+  "book_page": null,
+  "umbau": false,
+  "note": "Das Atrium mit kugelförmigem Auditorium verbindet terrassierte Aufenthaltszonen mit seitlichen Freihand- und Lesebereichen sowie dem Magazin im UG; die unzugänglichen oberen Atriumregale zeigen gedruckte Buchrücken.",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss (1F), Atrium mit Eye und seitlichen Lesebereichen",
+    "src": "https://www.gooood.cn/en/tianjin-binhai-public-library-by-mvrdv-and-tianjin-urban-planning-design-institute.htm · Plan: MVRDV / TUPDI",
+    "ar": 1.72
+   },
+   "og": {
+    "label": "1. OG (2F), Lesesäle und Terrassen am Atrium",
+    "src": "https://www.gooood.cn/en/tianjin-binhai-public-library-by-mvrdv-and-tianjin-urban-planning-design-institute.htm · Plan: MVRDV / TUPDI",
+    "ar": 2.106
+   },
+   "og2": {
+    "label": "2. OG (3F), Lesebereiche beiderseits des Atriumluftraums",
+    "src": "https://www.gooood.cn/en/tianjin-binhai-public-library-by-mvrdv-and-tianjin-urban-planning-design-institute.htm · Plan: MVRDV / TUPDI",
+    "ar": 2.198
+   },
+   "schnitt": {
+    "label": "Längsschnitt durch Atrium, Eye und terrassierte Regallandschaft",
+    "src": "https://www.gooood.cn/en/tianjin-binhai-public-library-by-mvrdv-and-tianjin-urban-planning-design-institute.htm · Zeichnung: MVRDV / TUPDI",
+    "ar": 3.426
+   },
+   "aussen": {
+    "label": "Außen, verglaste Atriumfassade mit Blick auf das Eye",
+    "src": "https://www.archdaily.com/882819/tianjin-binhai-library-mvrdv-plus-tianjin-urban-planning-and-design-institute · Foto: Ossip van Duivenbode",
+    "ar": 1.5
+   },
+   "innen1": {
+    "label": "Atrium mit kugelförmigem Eye und umlaufenden Regalterrassen",
+    "src": "https://www.archdaily.com/882819/tianjin-binhai-library-mvrdv-plus-tianjin-urban-planning-and-design-institute · Foto: Ossip van Duivenbode",
+    "ar": 1.318
+   },
+   "innen2": {
+    "label": "Atrium von einer Regalterrasse, Eye und verglaste Außenwand",
+    "src": "https://www.archdaily.com/882819/tianjin-binhai-library-mvrdv-plus-tianjin-urban-planning-and-design-institute · Foto: Ossip van Duivenbode",
+    "ar": 1.5
    }
   }
  },
@@ -763,6 +1179,55 @@
   }
  },
  {
+  "slug": "barcelona-garcia-marquez",
+  "title": "Biblioteca Gabriel García Márquez",
+  "city": "Barcelona",
+  "country": "Spanien",
+  "architect": "SUMA Arquitectura",
+  "year": 2022,
+  "category": "klein",
+  "book_page": null,
+  "umbau": false,
+  "note": "Um ein dreieckiges Treppenatrium über mehrere Geschosse liegen Freihandbestände, offene Leselandschaften und Lernräume; IFLA Public Library of the Year 2023.",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss, Eingang und öffentliches Forum (Floor 0)",
+    "src": "https://www.archdaily.com/1000198/gabriel-garcia-marquez-library-suma-arquitectura · Plan: SUMA Arquitectura",
+    "ar": 1.464
+   },
+   "og": {
+    "label": "3. OG, Freihandbibliothek um das dreieckige Atrium",
+    "src": "https://www.archdaily.com/1000198/gabriel-garcia-marquez-library-suma-arquitectura · Plan: SUMA Arquitectura",
+    "ar": 1.463
+   },
+   "og2": {
+    "label": "2. OG, Luftraum und Lesebereiche",
+    "src": "https://www.archdaily.com/1000198/gabriel-garcia-marquez-library-suma-arquitectura · Plan: SUMA Arquitectura",
+    "ar": 1.494
+   },
+   "schnitt": {
+    "label": "Schnitt durch Treppenatrium und Lesegeschosse",
+    "src": "https://www.archdaily.com/1000198/gabriel-garcia-marquez-library-suma-arquitectura · Zeichnung: SUMA Arquitectura",
+    "ar": 1.478
+   },
+   "aussen": {
+    "label": "Außen, Straßenfassade mit angehobener Gebäudeecke",
+    "src": "https://www.archdaily.com/1000198/gabriel-garcia-marquez-library-suma-arquitectura · Foto: Jesús Granada",
+    "ar": 1.766
+   },
+   "innen1": {
+    "label": "Treppenatrium, Blick durch die Holztragstruktur nach oben",
+    "src": "https://www.archdaily.com/1000198/gabriel-garcia-marquez-library-suma-arquitectura · Foto: Jesús Granada",
+    "ar": 0.582
+   },
+   "innen2": {
+    "label": "Lesebereich mit Bücherregalen und Hängesesseln am Fenster",
+    "src": "https://www.archdaily.com/1000198/gabriel-garcia-marquez-library-suma-arquitectura · Foto: Jesús Granada",
+    "ar": 1.124
+   }
+  }
+ },
+ {
   "slug": "heidenheim-dudler",
   "title": "Stadtbibliothek Heidenheim",
   "city": "Heidenheim",
@@ -1130,6 +1595,89 @@
   }
  },
  {
+  "slug": "british-library",
+  "title": "British Library, St Pancras",
+  "city": "London",
+  "country": "Vereinigtes Königreich",
+  "architect": "Colin St John Wilson & Partners / MJ Long",
+  "year": 1998,
+  "category": "national",
+  "book_page": null,
+  "umbau": false,
+  "note": "Ein mehrgeschossiges Eingangsatrium umschließt den gläsernen Magazinblock der King’s Library und verteilt Besucher über Treppen und Galerien zu den seitlich angeordneten Lesesälen.",
+  "images": {
+   "og": {
+    "label": "2. Obergeschoss, Humanities-Lesesaal und Lufträume",
+    "src": "https://led22.ru/ledstat/books/Lighting_Modern_Buildings.pdf · Plan: Colin St John Wilson & Partners; Derek Phillips, Lighting Modern Buildings (2000), S. 178",
+    "ar": 1.142
+   },
+   "schnitt": {
+    "label": "Längsschnitt durch Eingangshalle und Magazine, früher Entwurfsstand",
+    "src": "https://architecture-history.org/architects/architects/WILSON/OBJ/1998%2C%20British%20Library%2C%20London%2C%20UK.html · Zeichnung: Colin St John Wilson & Partners",
+    "ar": 3.103
+   },
+   "aussen": {
+    "label": "Außen, Eingang und Piazza mit St Pancras im Hintergrund",
+    "src": "https://thomasguignard.photo/2022/11/20/the-british-library/ · Foto: Thomas Guignard",
+    "ar": 1.501
+   },
+   "innen1": {
+    "label": "Atrium, King’s-Library-Turm und Erschließungsgalerien",
+    "src": "https://thomasguignard.photo/2022/11/20/the-british-library/ · Foto: Thomas Guignard",
+    "ar": 1.501
+   },
+   "innen2": {
+    "label": "Eingangsatrium, Treppen und Galerien unter dem geschwungenen Dach",
+    "src": "https://thomasguignard.photo/2022/11/20/the-british-library/ · Foto: Thomas Guignard",
+    "ar": 1.501
+   }
+  }
+ },
+ {
+  "slug": "jerusalem-nli",
+  "title": "National Library of Israel",
+  "city": "Jerusalem",
+  "country": "Israel",
+  "architect": "Herzog & de Meuron / Mann-Shinar Architects",
+  "year": 2023,
+  "category": "national",
+  "book_page": null,
+  "umbau": false,
+  "note": "Terrassierte Lesegeschosse und Freihandbestände umgeben einen runden, überdachten Bücherbrunnen, unter dem das automatisierte Tiefmagazin liegt.",
+  "images": {
+   "eg": {
+    "label": "Eingangsgeschoss L0, Kaplan-Eingang und Luftraum des Lesesaals",
+    "src": "https://mann-shinar.com/project/national-library-of-israel-3/ · Plan: Herzog & de Meuron / Mann-Shinar Architects",
+    "ar": 1.868
+   },
+   "og": {
+    "label": "Lesegeschoss L−1 (1. UG), Galerie am zentralen Bücherbrunnen",
+    "src": "https://mann-shinar.com/project/national-library-of-israel-3/ · Plan: Herzog & de Meuron / Mann-Shinar Architects",
+    "ar": 1.868
+   },
+   "schnitt": {
+    "label": "Längsschnitt durch Bücherbrunnen, Lesegeschosse und Tiefmagazin",
+    "src": "https://mann-shinar.com/project/national-library-of-israel-3/ · Zeichnung: Herzog & de Meuron / Mann-Shinar Architects",
+    "ar": 1.868
+   },
+   "aussen": {
+    "label": "Außen, auskragender Steinbau über dem Garten",
+    "src": "https://mann-shinar.com/project/national-library-of-israel-3/ · Foto: Hufton + Crow",
+    "ar": 1.001
+   },
+   "innen1": {
+    "label": "Lesesaalatrium, gestaffelte Galerien unter dem runden Oberlicht",
+    "src": "https://mann-shinar.com/project/national-library-of-israel-3/ · Foto: Hufton + Crow",
+    "ar": 0.982
+   },
+   "innen2": {
+    "label": "Lesebereich mit Blick über die Freihandbestände zum Atrium",
+    "src": "https://mann-shinar.com/project/national-library-of-israel-3/ · Foto: Hufton + Crow",
+    "ar": 1.902
+   }
+  }
+ },
+ {
   "slug": "paris-richelieu",
   "title": "Bibliothèque nationale de France, Site Richelieu (Umbau)",
   "city": "Paris",
@@ -1404,6 +1952,55 @@
   }
  },
  {
+  "slug": "aberdeen-duncan-rice",
+  "title": "Sir Duncan Rice Library",
+  "city": "Aberdeen",
+  "country": "Vereinigtes Königreich",
+  "architect": "Schmidt Hammer Lassen Architects",
+  "year": 2012,
+  "category": "uni",
+  "book_page": null,
+  "umbau": false,
+  "note": "Ein spiralförmig versetztes Atrium verbindet die Geschosse als Orientierungskern, während Freihandbestände und Leseplätze darum sowie entlang der Fassade angeordnet sind.",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss, Foyer, Ausstellung und Café am Atrium",
+    "src": "https://www.archdaily.com/276161/university-of-aberdeen-new-library-schmidt-hammer-lassen-architects · Plan: Schmidt Hammer Lassen Architects",
+    "ar": 1.026
+   },
+   "og": {
+    "label": "2. Obergeschoss (Level 02), Leseplätze um den versetzten Luftraum",
+    "src": "https://www.archdaily.com/276161/university-of-aberdeen-new-library-schmidt-hammer-lassen-architects · Plan: Schmidt Hammer Lassen Architects",
+    "ar": 1.241
+   },
+   "og2": {
+    "label": "6. Obergeschoss (Level 06), Freihandbestand und Atriumöffnung",
+    "src": "https://www.archdaily.com/276161/university-of-aberdeen-new-library-schmidt-hammer-lassen-architects · Plan: Schmidt Hammer Lassen Architects",
+    "ar": 1.238
+   },
+   "schnitt": {
+    "label": "Schnitt A–A durch das Atrium, Lesegeschosse und Archiv im Untergeschoss",
+    "src": "https://www.archdaily.com/276161/university-of-aberdeen-new-library-schmidt-hammer-lassen-architects · Zeichnung: Schmidt Hammer Lassen Architects",
+    "ar": 1.609
+   },
+   "aussen": {
+    "label": "Außen, Bibliothekskubus mit vertikal gemusterter Glasfassade",
+    "src": "https://www.archdaily.com/276161/university-of-aberdeen-new-library-schmidt-hammer-lassen-architects · Foto: bereitgestellt von Schmidt Hammer Lassen Architects (Fotograf nicht genannt)",
+    "ar": 0.787
+   },
+   "innen1": {
+    "label": "Spiralförmiges Atrium, Blick von oben durch die Geschosse",
+    "src": "https://www.archdaily.com/276161/university-of-aberdeen-new-library-schmidt-hammer-lassen-architects · Foto: bereitgestellt von Schmidt Hammer Lassen Architects (Fotograf nicht genannt)",
+    "ar": 1.33
+   },
+   "innen2": {
+    "label": "Atriumgalerien mit Freihandregalen und Blick in die unteren Geschosse",
+    "src": "https://www.archdaily.com/276161/university-of-aberdeen-new-library-schmidt-hammer-lassen-architects · Foto: bereitgestellt von Schmidt Hammer Lassen Architects (Fotograf nicht genannt)",
+    "ar": 1.336
+   }
+  }
+ },
+ {
   "slug": "budapest-bbu",
   "title": "Bibliothek der Budapest Business University (Erweiterung Campus 1970er)",
   "city": "Budapest",
@@ -1444,6 +2041,55 @@
     "label": "Lesesaal",
     "src": "https://www.baunetz.de/meldungen/Meldungen-Erweiterung_in_Budapest_von_Gereben_Marian_Epiteszek_8628347.html",
     "ar": 1.25
+   }
+  }
+ },
+ {
+  "slug": "cottbus-ikmz",
+  "title": "IKMZ BTU Cottbus",
+  "city": "Cottbus",
+  "country": "Deutschland",
+  "architect": "Herzog & de Meuron",
+  "year": 2004,
+  "category": "uni",
+  "book_page": null,
+  "umbau": false,
+  "note": "Die Freihandbestände liegen im farbigen Gebäudekern, während mehrgeschossige Leseräume an der Fassade und der durchgehende Luftraum der Wendeltreppe die Ebenen räumlich verbinden.",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss mit Foyer, Ausleihe und Wendeltreppe",
+    "src": "https://www.herzogdemeuron.com/projects/166-ikmz-btu-cottbus-information-communications-and-media-centre-brandenburg-university-of-technology/ · Plan: Herzog & de Meuron",
+    "ar": 1.414
+   },
+   "og": {
+    "label": "3. OG mit Freihandbestand, Lesebereichen und Lufträumen",
+    "src": "https://www.herzogdemeuron.com/projects/166-ikmz-btu-cottbus-information-communications-and-media-centre-brandenburg-university-of-technology/ · Plan: Herzog & de Meuron",
+    "ar": 1.414
+   },
+   "og2": {
+    "label": "4. OG mit versetzten Lufträumen",
+    "src": "https://www.herzogdemeuron.com/projects/166-ikmz-btu-cottbus-information-communications-and-media-centre-brandenburg-university-of-technology/ · Plan: Herzog & de Meuron",
+    "ar": 1.415
+   },
+   "schnitt": {
+    "label": "Schnitt S1 durch Wendeltreppe und mehrgeschossige Leseräume",
+    "src": "https://www.herzogdemeuron.com/projects/166-ikmz-btu-cottbus-information-communications-and-media-centre-brandenburg-university-of-technology/ · Zeichnung: Herzog & de Meuron",
+    "ar": 1.143
+   },
+   "aussen": {
+    "label": "Außenansicht der geschwungenen, bedruckten Glasfassade",
+    "src": "https://www.herzogdemeuron.com/projects/166-ikmz-btu-cottbus-information-communications-and-media-centre-brandenburg-university-of-technology/ · Foto: Monika Nikolic / artur-photo",
+    "ar": 1.25
+   },
+   "innen1": {
+    "label": "Durchgehender Treppenluftraum, Blick in die farbige Spirale",
+    "src": "https://www.herzogdemeuron.com/projects/166-ikmz-btu-cottbus-information-communications-and-media-centre-brandenburg-university-of-technology/ · Foto: Pierre de Meuron",
+    "ar": 1.333
+   },
+   "innen2": {
+    "label": "Mehrgeschossiger Lesebereich neben der Wendeltreppe",
+    "src": "https://www.herzogdemeuron.com/projects/166-ikmz-btu-cottbus-information-communications-and-media-centre-brandenburg-university-of-technology/ · Foto: Duccio Malagamba",
+    "ar": 0.853
    }
   }
  },
@@ -1747,6 +2393,55 @@
     "label": "Arbeitsplätze an der bedruckten Fassade",
     "src": "https://www.archdaily.com/136377/utrecht-library-wiel-arets-architects · Foto: Jan Bitter / Andrea Giannotti",
     "ar": 0.706
+   }
+  }
+ },
+ {
+  "slug": "yale-beinecke",
+  "title": "Beinecke Rare Book & Manuscript Library",
+  "city": "New Haven",
+  "country": "USA",
+  "architect": "Gordon Bunshaft / SOM",
+  "year": 1963,
+  "category": "uni",
+  "book_page": null,
+  "umbau": false,
+  "note": "Ein sechsgeschossiger gläserner Magazinturm steht frei in der hohen Ausstellungshalle mit Empore; Lesesaal und weitere Magazine liegen im Untergeschoss am abgesenkten Skulpturenhof.",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss, Eingangshalle mit Bücherturm und abgesenktem Skulpturenhof",
+    "src": "https://www.archdaily.com/65987/ad-classics-beinecke-rare-book-and-manuscript-library-skidmore-owings-merrill · Plan: SOM; Reproduktion: Ezra Stoller/Esto",
+    "ar": 1.311
+   },
+   "og": {
+    "label": "Emporengeschoss der Ausstellungshalle, mit Quer- und Längsschnitt",
+    "src": "https://www.archdaily.com/65987/ad-classics-beinecke-rare-book-and-manuscript-library-skidmore-owings-merrill · Plan und Schnitte: SOM; Reproduktion: Ezra Stoller/Esto",
+    "ar": 0.779
+   },
+   "og2": {
+    "label": "Court Level (1. UG), Lesesaal und Arbeitsräume am Skulpturenhof",
+    "src": "https://cdn.archmedia.eu/en/b/beinecke-rare-book-and-manuscript-library · Plan: SOM",
+    "ar": 1.51
+   },
+   "schnitt": {
+    "label": "Querschnitt durch die hohe Halle, Bücherturm und unterirdische Magazine",
+    "src": "https://cdn.archmedia.eu/en/b/beinecke-rare-book-and-manuscript-library · Zeichnung: SOM",
+    "ar": 1.475
+   },
+   "aussen": {
+    "label": "Außen, Marmorfassade zum Hewitt Quadrangle",
+    "src": "https://www.archdaily.com/65987/ad-classics-beinecke-rare-book-and-manuscript-library-skidmore-owings-merrill · Foto: Gunnar Klack, CC BY-SA 4.0",
+    "ar": 1.431
+   },
+   "innen1": {
+    "label": "Hohe Ausstellungshalle mit sechsgeschossigem gläsernem Bücherturm",
+    "src": "https://www.archdaily.com/65987/ad-classics-beinecke-rare-book-and-manuscript-library-skidmore-owings-merrill · Foto: Ezra Stoller/Esto",
+    "ar": 1.269
+   },
+   "innen2": {
+    "label": "Galerie zwischen Bücherturm und transluzenter Marmorfassade",
+    "src": "https://www.archdaily.com/65987/ad-classics-beinecke-rare-book-and-manuscript-library-skidmore-owings-merrill · Foto: Ezra Stoller/Esto",
+    "ar": 0.998
    }
   }
  }
