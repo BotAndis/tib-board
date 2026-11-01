@@ -41,6 +41,15 @@ figcaption{margin-top:6px;color:var(--mute);white-space:nowrap;overflow:hidden;t
 .alt button{background:rgba(255,255,255,.94);border:1px solid var(--line);border-radius:9px;padding:0 7px;font-size:11px}
 .alt button[aria-pressed=true]{background:var(--ink);color:#fff;border-color:var(--ink)}
 .empty{color:var(--mute);padding:40px 0}
+/* ratings: my stars + note, everyone else's below */
+.rate{flex-basis:100%;display:flex;flex-wrap:wrap;align-items:center;gap:4px 12px;margin-top:6px}
+.stars button{font-size:18px;line-height:1;color:#d0d0d0;padding:0 1px}
+.stars button[aria-pressed=true],.stars:hover button{color:var(--ink)}
+.stars button:hover~button{color:#d0d0d0}
+.avg{color:var(--mute)}
+.mynote{flex:1;min-width:180px;max-width:520px;border:1px solid var(--line);border-radius:14px;padding:3px 11px;font:inherit}
+.rnote{flex-basis:100%;margin:0}
+.rnote b{font-weight:600;margin-right:6px}
 /* lightbox */
 dialog{border:0;padding:0;margin:0;width:100vw;height:100vh;max-width:none;max-height:none;background:#fff}
 dialog::backdrop{background:#fff}
@@ -103,7 +112,7 @@ function project(p) {
     p.book_page ? `Entwurfsatlas S. ${p.book_page}` : ""].join("");
   return `<article class="ref" id="${p.slug}"><header><h3>${esc(p.title)}</h3>
     <span class="meta">${esc(p.city)}, ${esc(p.country)} · ${esc(p.architect)}${p.year ? " · " + p.year : ""}</span>
-    <span class="tags">${tags}</span>${p.note ? `<p class="note">${esc(p.note)}</p>` : ""}</header>
+    <span class="tags">${tags}</span>${p.note ? `<p class="note">${esc(p.note)}</p>` : ""}${rateBox(p.slug)}</header>
     <div class="row">${COLS.map(([r, n]) => cell(p, r, n)).join("")}</div></article>`;
 }
 function render() {
@@ -143,12 +152,80 @@ $("list").onclick = e => {
     for (const b of alt.parentNode.children) b.setAttribute("aria-pressed", b === alt);
     return;
   }
+  const star = e.target.closest(".stars button");
+  if (star) {  // clicking your current rating again clears it
+    const slug = star.closest(".rate").dataset.slug, s = +star.dataset.s;
+    return rate(slug, { stars: RATINGS[slug]?.[me]?.stars === s ? 0 : s });
+  }
   const fig = e.target.closest("figure[data-role]"); if (fig) openLb(fig.dataset.slug, fig.dataset.role);
 };
+$("list").addEventListener("change", e => {
+  if (e.target.matches(".mynote")) rate(e.target.closest(".rate").dataset.slug, { note: e.target.value.trim() });
+});
 $("lbprev").onclick = () => step(-1); $("lbnext").onclick = () => step(1); $("lbclose").onclick = () => $("lb").close();
 $("lb").addEventListener("keydown", e => { if (e.key === "ArrowLeft") step(-1); if (e.key === "ArrowRight") step(1); });
 $("lbimg").onclick = () => $("lb").close();
-fetch("data.json", { cache: "no-cache" }).then(r => r.json()).then(d => { DATA = d; render(); if (location.hash) document.querySelector(location.hash)?.scrollIntoView(); });
+
+/* ---------- ratings: ratings.json in the repo, {slug: {name: {stars, note}}}; saved with the board's GitHub token ---------- */
+const GH = location.hostname.match(/^([^.]+)\.github\.io$/);
+const REPO = GH && `https://api.github.com/repos/${GH[1]}/${location.pathname.split("/")[1]}/`;
+const RFILE = "contents/html/referenzen/ratings.json";
+let token = localStorage.getItem("gh-token"), me = localStorage.getItem("ref-name") || "", RATINGS = {}, saving = false;
+const b64 = s => btoa(String.fromCharCode(...new TextEncoder().encode(s)));
+const unb64 = s => new TextDecoder().decode(Uint8Array.from(atob(s), c => c.charCodeAt(0)));
+async function gh(path, opt = {}) {  // 409 (someone saved first) is left to the caller
+  if (!token && (token = prompt("GitHub-Token (nur für dieses Repo, Contents: write):"))) localStorage.setItem("gh-token", token);
+  if (!token) throw new Error("kein Token");
+  const r = await fetch(REPO + path, { cache: "no-cache", ...opt, headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json" } });
+  if (r.status === 401) { localStorage.removeItem("gh-token"); token = null; throw new Error("Token ungültig"); }
+  if (!r.ok && r.status !== 409) throw new Error(r.status + " " + (await r.text()).slice(0, 120));
+  return r;
+}
+async function remoteRatings() {
+  const f = await (await gh(RFILE)).json();
+  return { sha: f.sha, data: JSON.parse(unb64(f.content)) };
+}
+function rateBox(slug) {
+  const all = Object.entries(RATINGS[slug] || {}), mine = RATINGS[slug]?.[me] || {};
+  const rated = all.filter(([, r]) => r.stars), avg = rated.reduce((s, [, r]) => s + r.stars, 0) / (rated.length || 1);
+  return `<div class="rate" data-slug="${slug}"><span class="stars" title="Deine Bewertung">${[1, 2, 3, 4, 5].map(n =>
+      `<button data-s="${n}" aria-label="${n} Sterne" aria-pressed="${n <= (mine.stars || 0)}">★</button>`).join("")}</span>
+    <span class="avg">${rated.length ? `Ø ${avg.toFixed(1)} · ${rated.length} ${rated.length > 1 ? "Bewertungen" : "Bewertung"}` : "noch nicht bewertet"}</span>
+    <input class="mynote" placeholder="Deine Notiz …" aria-label="Deine Notiz" value="${esc(mine.note)}">
+    ${all.filter(([n, r]) => n !== me && (r.stars || r.note)).map(([n, r]) =>
+      `<p class="rnote"><b>${esc(n)}</b>${r.stars ? "★".repeat(r.stars) + " " : ""}${esc(r.note)}</p>`).join("")}</div>`;
+}
+const redraw = slug => { const box = document.querySelector(`.rate[data-slug="${slug}"]`); if (box) box.outerHTML = rateBox(slug); };
+async function rate(slug, patch) {
+  if (!REPO) return alert("Bewerten geht nur auf der GitHub-Seite.");
+  if (!me && !(me = (prompt("Dein Name (steht bei deinen Bewertungen):") || "").trim())) return;
+  localStorage.setItem("ref-name", me);
+  const put = d => (d[slug] = { ...d[slug], [me]: { ...d[slug]?.[me], ...patch } }, d);
+  put(RATINGS); redraw(slug);  // show it at once, then write it on top of the newest file
+  saving = true;
+  try {
+    for (let n = 0; n < 5; n++) {
+      const { sha, data } = await remoteRatings();
+      const r = await gh(RFILE, { method: "PUT", body: JSON.stringify({ message: "Referenz-Bewertung", sha,
+        content: b64(JSON.stringify(put(data), null, 1)) }) });
+      if (r.ok) { RATINGS = data; return; }
+    }
+    throw new Error("zu viele gleichzeitige Änderungen");
+  } catch (err) { alert("Bewertung nicht gespeichert: " + err.message); }
+  finally { saving = false; Object.keys(RATINGS).forEach(redraw); }
+}
+async function pollRatings() {  // editors read the repo, viewers the Pages copy (~1 min behind)
+  if (document.hidden || saving || document.activeElement?.matches(".mynote")) return;
+  try {
+    const d = REPO && token ? (await remoteRatings()).data : await (await fetch("ratings.json", { cache: "no-cache" })).json();
+    if (JSON.stringify(d) !== JSON.stringify(RATINGS)) { RATINGS = d; render(); }
+  } catch (err) { console.warn("ratings", err); }
+}
+setInterval(pollRatings, 20000);
+
+Promise.all([fetch("data.json", { cache: "no-cache" }).then(r => r.json()),
+  fetch("ratings.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({}))])
+  .then(([d, r]) => { DATA = d; RATINGS = r; render(); if (location.hash) document.querySelector(location.hash)?.scrollIntoView(); });
 </script>
 </body>
 </html>
