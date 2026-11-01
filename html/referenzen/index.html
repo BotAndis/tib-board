@@ -29,6 +29,7 @@ h2{font-size:40px;font-weight:600;letter-spacing:-.02em;margin:56px 0 4px}
 .ref h3{margin:0;font-size:17px;font-weight:600}
 .meta{color:var(--ink)}
 .tags{color:var(--mute)}
+a.tag{text-decoration:none}
 .tag{display:inline-block;border:1px solid var(--ink);border-radius:10px;padding:0 7px;font-size:11px;margin-right:6px}
 .note{flex-basis:100%;color:var(--mute);margin:2px 0 0}
 figure{margin:0;min-width:0}
@@ -90,7 +91,7 @@ const CATS = {national: ["Nationalbibliotheken", "Große Bestände, Magazin + Le
   uni: ["Universitätsbibliotheken", "Hochschul- und Landesbibliotheken", "Universität"]};
 const COLS = [["eg", "Erdgeschoss"], ["og", "Regelgeschoss"], ["schnitt", "Schnitt"],
   ["aussen", "Außen"], ["innen1", "Innen"], ["innen2", "Innen"]];
-const FILTERS = [["alle", "Alle"], ["umbau", "Umbau / Bestand"], ["buch", "Entwurfsatlas"], ...Object.entries(CATS).map(([k, v]) => [k, v[2]])];
+const FILTERS = [["alle", "Alle"], ["umbau", "Umbau / Bestand"], ["kt", "Kempe Thill"], ["buch", "Entwurfsatlas"], ...Object.entries(CATS).map(([k, v]) => [k, v[2]])];
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
 const $ = id => document.getElementById(id);
 let DATA = [], filter = "alle", lbList = [], lbI = 0;
@@ -109,6 +110,7 @@ function cell(p, role, name) {
 }
 function project(p) {
   const tags = [p.umbau ? `<span class="tag">Umbau / Bestand</span>` : "",
+    p.kt ? `<a class="tag" href="../kempe-thill/index.html#referenzen" title="passt zur Haltung von Studio Kempe Thill">Kempe Thill</a>` : "",
     p.book_page ? `Entwurfsatlas S. ${p.book_page}` : ""].join("");
   return `<article class="ref" id="${p.slug}"><header><h3>${esc(p.title)}</h3>
     <span class="meta">${esc(p.city)}, ${esc(p.country)} · ${esc(p.architect)}${p.year ? " · " + p.year : ""}</span>
@@ -117,7 +119,7 @@ function project(p) {
 }
 function render() {
   const q = $("q").value.trim().toLowerCase();
-  const show = DATA.filter(p => (filter === "alle" || (filter === "umbau" && p.umbau) || (filter === "buch" && p.book_page) || p.category === filter)
+  const show = DATA.filter(p => (filter === "alle" || (filter === "umbau" && p.umbau) || (filter === "kt" && p.kt) || (filter === "buch" && p.book_page) || p.category === filter)
     && (!q || [p.title, p.city, p.country, p.architect].join(" ").toLowerCase().includes(q)));
   $("list").innerHTML = Object.entries(CATS).map(([k, [t, s]]) => {
     const ps = show.filter(p => p.category === k);
@@ -225,7 +227,10 @@ setInterval(pollRatings, 20000);
 
 Promise.all([fetch("data.json", { cache: "no-cache" }).then(r => r.json()),
   fetch("ratings.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({}))])
-  .then(([d, r]) => { DATA = d; RATINGS = r; render(); if (location.hash) document.querySelector(location.hash)?.scrollIntoView(); });
+  .then(([d, r]) => { DATA = d; RATINGS = r;
+    const f = new URLSearchParams(location.search).get("filter");  // e.g. ?filter=kt from the Kempe Thill page
+    if (f && FILTERS.some(([k]) => k === f)) { filter = f; for (const x of $("filters").children) x.setAttribute("aria-pressed", x.dataset.f === f); }
+    render(); if (location.hash) document.querySelector(location.hash)?.scrollIntoView(); });
 </script>
 </body>
 </html>

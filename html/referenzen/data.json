@@ -41,7 +41,8 @@
     "src": "https://www.architectmagazine.com/awards/aia-awards/2021-aia-twenty-five-year-award-burton-barr-phoenix-central-library_o · Foto: Bill Timmerman (rechte Hälfte eines Diptychons)",
     "ar": 1.161
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "norwich-millennium",
@@ -80,7 +81,8 @@
     "src": "https://www.hopkins.co.uk/projects/civic-and-culture/the-forum/",
     "ar": 1.274
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "amsterdam-oba",
@@ -124,7 +126,8 @@
     "src": "https://www.archdaily.com/505344/public-library-amsterdam-jo-coenen-and-co-architekten/5370c935c07a806f33000095-public-library-amsterdam-jo-coenen-and-co-architekten-photo · Foto: Arjen Schmitz",
     "ar": 1.5
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "stuttgart-stadtbibliothek",
@@ -168,7 +171,8 @@
     "src": "https://www.archdaily.com/193568/stuttgart-city-library-yi-architects/501718d728ba0d235b000e09-stuttgart-city-library-yi-architects-photo · Foto: Stefan Müller",
     "ar": 0.746
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "birmingham-library",
@@ -217,7 +221,8 @@
     "src": "https://www.archdaily.com/421970/library-of-birmingham-mecanoo/521f4b03e8e44ebd90000003-library-of-birmingham-mecanoo-photo · Foto: Christian Richters",
     "ar": 1.333
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "aarhus-dokk1",
@@ -266,7 +271,8 @@
     "src": "https://www.archdaily.com/644920/dokk1-schmidt-hammer-lassen-architects/5586f915e58ece09c2000207-dokk1-schmidt-hammer-lassen-architects-photo · Foto: Adam Mørk",
     "ar": 1.28
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "austin-central",
@@ -305,7 +311,8 @@
     "src": "https://archinect.com/features/article/150175413/porch-atrium-terrace-a-deeper-look-at-lake-flato-s-austin-central-library · Foto: Nic Lehoux",
     "ar": 1.333
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "calgary-central",
@@ -354,7 +361,8 @@
     "src": "https://www.archdaily.com/905263/calgary-central-library-snohetta/5be0922808a5e5ff8600033a-calgary-central-library-snohetta-image · Foto: Michael Grimm, über Snøhetta",
     "ar": 1.5
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "christchurch-turanga",
@@ -403,7 +411,8 @@
     "src": "https://www.archdaily.com/904165/turanga-schimdt-hammer-lassen-architects-plus-architectus · Foto: Adam Mørk",
     "ar": 1.165
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "halifax-central",
@@ -452,7 +461,8 @@
     "src": "https://www.archdaily.com/577039/new-halifax-central-library-schmidt-hammer-lassen/548a49b8e58ecec43700007e-new-halifax-central-library-schmidt-hammer-lassen-image · Foto: Adam Mørk",
     "ar": 1.028
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "mexiko-vasconcelos",
@@ -495,6 +505,57 @@
     "label": "Halle mit Walskelett von Gabriel Orozco und Regalgalerien",
     "src": "https://archeyes.com/vasconcelos-library-by-alberto-kalach/ · Foto: Trevor Patt",
     "ar": 0.75
+   }
+  },
+  "kt": true
+ },
+ {
+  "slug": "niagara-falls-rudolph",
+  "title": "Niagara Falls Public Library (Earl W. Brydges Library)",
+  "city": "Niagara Falls",
+  "country": "USA",
+  "architect": "Paul Rudolph",
+  "year": 1974,
+  "category": "gross",
+  "book_page": null,
+  "umbau": false,
+  "kt": true,
+  "note": "Offene Lesegeschosse unter schrägen Dachflügeln mit hohen Oberlichtaufsätzen; Bibliothek in EG und 1. OG, darüber vermietete Flächen.",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss (US „First Floor Plan“, Entwurfsblatt 10.04.1969)",
+    "src": "https://www.paulrudolph.institute/196904-niagara-falls-public-library · Plan: Paul Rudolph, Architect (Blatt 2)",
+    "ar": 1.637
+   },
+   "og": {
+    "label": "1. OG (US „Second Floor Plan“, Entwurfsblatt 1969)",
+    "src": "https://www.paulrudolph.institute/196904-niagara-falls-public-library · Plan: Paul Rudolph, Architect (Blatt 3)",
+    "ar": 1.712
+   },
+   "og2": {
+    "label": "2. OG (US „Third Floor Plan“, Entwurfsblatt 1969)",
+    "src": "https://www.paulrudolph.institute/196904-niagara-falls-public-library · Plan: Paul Rudolph, Architect (Blatt 4)",
+    "ar": 1.641
+   },
+   "schnitt": {
+    "label": "Schnitt A-A (Entwurfsblatt 1969)",
+    "src": "https://www.paulrudolph.institute/196904-niagara-falls-public-library · Zeichnung: Paul Rudolph, Architect (Blatt 8)",
+    "ar": 1.85
+   },
+   "aussen": {
+    "label": "Außen: Dachflügel mit Oberlichtaufsätzen",
+    "src": "https://www.paulrudolph.institute/196904-niagara-falls-public-library · Foto: Archiv Paul Rudolph Institute (Fotograf:in nicht angegeben)",
+    "ar": 1.478
+   },
+   "innen1": {
+    "label": "Lesebereich unter den Oberlichtern",
+    "src": "https://www.paulrudolph.institute/196904-niagara-falls-public-library · Foto: Archiv Paul Rudolph Institute (Fotograf:in nicht angegeben)",
+    "ar": 0.793
+   },
+   "innen2": {
+    "label": "Hauptlesesaal",
+    "src": "https://www.paulrudolph.institute/196904-niagara-falls-public-library · Foto: Archiv Paul Rudolph Institute (Fotograf:in nicht angegeben)",
+    "ar": 1.437
    }
   }
  },
@@ -545,7 +606,8 @@
     "src": "https://www.archdaily.com/942813/deichman-library-atelier-oslo-plus-lund-hagem/5efca459b35765a0a60004e8-deichman-library-atelier-oslo-plus-lund-hagem-photo · Foto: Einar Aslaksen",
     "ar": 1.333
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "rotterdam-centrale",
@@ -594,7 +656,8 @@
     "src": "https://www.broekbakema.nl/projecten/centrale-bibliotheek/ · Foto: Archiv Broekbakema; Fotograf auf der Quellseite nicht genannt",
     "ar": 1.6
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "seattle-central",
@@ -638,7 +701,8 @@
     "src": "https://www.archdaily.com/11651/seattle-central-library-oma-lmn/57219964e58eced1af000006-seattle-central-library-oma-lmn-photo · Foto: Philippe Ruault",
     "ar": 1.259
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "shanghai-library-east",
@@ -682,7 +746,8 @@
     "src": "https://www.gooood.cn/shanghai-library-east-by-schmidt-hammer-lassen-architects.htm · Foto: Tian Fangfang; © SHL",
     "ar": 0.75
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "stockholm-asplund",
@@ -726,7 +791,8 @@
     "src": "https://commons.wikimedia.org/wiki/File:2019-08-12_Stockholms_stadsbibliotek_35.jpg · Foto: Nemo bis (CC BY-SA 3.0)",
     "ar": 1.333
    }
-  }
+  },
+  "kt": true
  },
  {
   "slug": "tianjin-binhai",
@@ -775,7 +841,8 @@
     "src": "https://www.archdaily.com/882819/tianjin-binhai-library-mvrdv-plus-tianjin-urban-planning-and-design-institute · Foto: Ossip van Duivenbode",
     "ar": 1.5
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "tilburg-lochal",
@@ -824,7 +891,8 @@
     "src": "https://www.baunetzwissen.de/bauen-im-bestand/objekte/kulturbauten/lochal-in-tilburg-9983681 · Foto: Stijn Bollaert",
     "ar": 1.333
    }
-  }
+  },
+  "kt": true
  },
  {
   "slug": "washington-mlk",
@@ -868,7 +936,8 @@
     "src": "https://commons.wikimedia.org/wiki/File:The_Martin_Luther_King,_Jr._Memorial_Library,_Washington,_D.C_LCCN2012630219.tif · Foto: Carol M. Highsmith",
     "ar": 1.326
    }
-  }
+  },
+  "kt": true
  },
  {
   "slug": "washington-mlk-umbau",
@@ -917,7 +986,8 @@
     "src": "https://www.archdaily.com/972337/the-martin-luther-king-jr-memorial-library-mecanoo-plus-otj-architects · Foto: Trent Bell",
     "ar": 1.806
    }
-  }
+  },
+  "kt": true
  },
  {
   "slug": "london-peckham",
@@ -966,7 +1036,8 @@
     "src": "https://www.archiweb.cz/en/b/peckham-library-and-media-centre",
     "ar": 1.363
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "london-whitechapel",
@@ -1010,7 +1081,8 @@
     "src": "https://www.archiweb.cz/en/b/idea-store-whitechapel · Foto: Pavel Nasadil",
     "ar": 1.333
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "scottsdale-arabian",
@@ -1049,7 +1121,8 @@
     "src": "https://www.archdaily.com/130435/arabian-library-richardbauer · Foto: Bill Timmerman",
     "ar": 1.506
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "viana-siza",
@@ -1093,7 +1166,8 @@
     "src": "https://divisare.com/projects/89852-alvaro-siza-vieira-fernando-guerra-fg-sg-biblioteca-municipal · Foto: Fernando Guerra / FG+SG",
     "ar": 1.499
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "vennesla",
@@ -1137,7 +1211,8 @@
     "src": "https://www.archdaily.com/209340/vennesla-library-and-culture-house-helen-hard · Foto: Emile Ashley",
     "ar": 0.665
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "ceuta",
@@ -1176,7 +1251,8 @@
     "src": "https://www.archdaily.com/393114/public-library-in-ceuta-paredes-pedrosa · Foto: Fernando Alda",
     "ar": 0.892
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "barcelona-garcia-marquez",
@@ -1225,7 +1301,8 @@
     "src": "https://www.archdaily.com/1000198/gabriel-garcia-marquez-library-suma-arquitectura · Foto: Jesús Granada",
     "ar": 1.124
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "heidenheim-dudler",
@@ -1274,7 +1351,8 @@
     "src": "https://www.archdaily.com/891245/city-library-heidenheim-max-dudler · Foto: Stefan Müller",
     "ar": 1.333
    }
-  }
+  },
+  "kt": true
  },
  {
   "slug": "kanazawa-umimirai",
@@ -1318,7 +1396,8 @@
     "src": "https://www.archdaily.com/145757/kanazawa-umimirai-library-coelacanth-kh-architects · Foto: Satoshi Asakawa",
     "ar": 1.499
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "latem-office",
@@ -1362,7 +1441,8 @@
     "src": "https://www.baunetz.de/meldungen/Meldungen-Stadtbibliothek_bei_Gent_von_Office_8492243.html",
     "ar": 0.707
    }
-  }
+  },
+  "kt": true
  },
  {
   "slug": "viipuri-aalto",
@@ -1411,7 +1491,8 @@
     "src": "https://www.archdaily.com/630420/ad-classics-viipuri-library-alvar-aalto · Foto: Flickr user ninara",
     "ar": 1.501
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "kopenhagen-black-diamond",
@@ -1460,7 +1541,8 @@
     "src": "https://www.archdaily.com/913400/the-royal-library-shl/5c8fda2d284dd14c82000320-the-royal-library-shl-photo · Foto: Adam Mørk",
     "ar": 1.501
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "peking-nationalbibliothek",
@@ -1504,7 +1586,8 @@
     "src": "https://divisare.com/projects/243010-ksp-engel-national-library-of-china · Foto: Hans Schlupp",
     "ar": 1.504
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "leipzig-dnb",
@@ -1548,7 +1631,8 @@
     "src": "https://www.heinze.de/architekturobjekt/deutsche-nationalbibliothek-in-leipzig-erweiterung/11729273/ · Foto: Maix Mayer",
     "ar": 1.333
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "berlin-staatsbibliothek",
@@ -1592,7 +1676,8 @@
     "src": "https://www.baunetzwissen.de/brandschutz/objekte/kultur-bildung/staatsbibliothek-unter-den-linden-in-berlin-3405249 · Foto: Kati Türschmann",
     "ar": 1.333
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "british-library",
@@ -1631,7 +1716,8 @@
     "src": "https://thomasguignard.photo/2022/11/20/the-british-library/ · Foto: Thomas Guignard",
     "ar": 1.501
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "jerusalem-nli",
@@ -1675,7 +1761,8 @@
     "src": "https://mann-shinar.com/project/national-library-of-israel-3/ · Foto: Hufton + Crow",
     "ar": 1.902
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "paris-richelieu",
@@ -1719,7 +1806,8 @@
     "src": "https://commons.wikimedia.org/wiki/File:La_salle_ovale_du_site_Richelieu,_Biblioth%C3%A8que_nationale_de_France,_Paris_2022.jpg · Foto: Jean-Pierre Dalbéra",
     "ar": 1.418
    }
-  }
+  },
+  "kt": true
  },
  {
   "slug": "delft-tu",
@@ -1768,7 +1856,8 @@
     "src": "https://www.archdaily.com/958636/library-delft-university-of-technology-mecanoo · Foto: Greg Holmes",
     "ar": 0.667
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "berlin-philologische",
@@ -1812,7 +1901,8 @@
     "src": "https://www.archdaily.com/438400/free-university-of-berlin-foster-partners · Foto: Reinhard Görner / Nigel Young",
     "ar": 0.664
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "berlin-grimm-zentrum",
@@ -1856,7 +1946,8 @@
     "src": "https://www.archdaily.com/376900/jacob-and-wilhelm-grimm-centre-max-dudler · Foto: Stefan Müller",
     "ar": 0.741
    }
-  }
+  },
+  "kt": true
  },
  {
   "slug": "peking-tsinghua",
@@ -1900,7 +1991,8 @@
     "src": "https://www.botta.ch/it/SPAZI%20DELLA%20CULTURA?idx=1 · Foto: Enrico Cano",
     "ar": 1.333
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "katowice-ciniba",
@@ -1949,7 +2041,8 @@
     "src": "https://www.archdaily.com/284180/ciniba-hs99 · Foto: Tomasz Zakrzewski",
     "ar": 1.502
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "aberdeen-duncan-rice",
@@ -1998,7 +2091,8 @@
     "src": "https://www.archdaily.com/276161/university-of-aberdeen-new-library-schmidt-hammer-lassen-architects · Foto: bereitgestellt von Schmidt Hammer Lassen Architects (Fotograf nicht genannt)",
     "ar": 1.336
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "budapest-bbu",
@@ -2042,7 +2136,8 @@
     "src": "https://www.baunetz.de/meldungen/Meldungen-Erweiterung_in_Budapest_von_Gereben_Marian_Epiteszek_8628347.html",
     "ar": 1.25
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "cottbus-ikmz",
@@ -2091,7 +2186,8 @@
     "src": "https://www.herzogdemeuron.com/projects/166-ikmz-btu-cottbus-information-communications-and-media-centre-brandenburg-university-of-technology/ · Foto: Duccio Malagamba",
     "ar": 0.853
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "darmstadt-ulb",
@@ -2134,6 +2230,57 @@
     "label": "Lesesaal",
     "src": "https://librarybuildings.info/germany/ulb-stadtmitte-universitats-und-landesbibliothek-darmstadt",
     "ar": 1.5
+   }
+  },
+  "kt": false
+ },
+ {
+  "slug": "eindhoven-metaforum",
+  "title": "MetaForum, TU Eindhoven (Umbau W-hal)",
+  "city": "Eindhoven",
+  "country": "Niederlande",
+  "architect": "Ector Hoogstad Architecten (Bestand: Jacques Choisy, 2. Hälfte 1950er)",
+  "year": 2012,
+  "category": "uni",
+  "book_page": null,
+  "umbau": true,
+  "kt": true,
+  "note": "Umbau einer Versuchshalle: Bibliothek und Lernplätze in der Halle und im neuen UG, Fakultät als Block auf 20 Stahlstützen darüber.",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss (laut Quelle „Ground floor“)",
+    "src": "https://www.archdaily.com/288636/metaforum-ector-hoogstad-architecten · Plan: Ector Hoogstad Architecten",
+    "ar": 0.707
+   },
+   "og": {
+    "label": "1. OG (laut Quelle „First floor“)",
+    "src": "https://www.archdaily.com/288636/metaforum-ector-hoogstad-architecten · Plan: Ector Hoogstad Architecten",
+    "ar": 0.707
+   },
+   "og2": {
+    "label": "4. OG, Fakultätsblock über der Halle (laut Quelle „4th Floor“)",
+    "src": "https://www.archdaily.com/288636/metaforum-ector-hoogstad-architecten · Plan: Ector Hoogstad Architecten",
+    "ar": 0.707
+   },
+   "schnitt": {
+    "label": "Längsschnitt",
+    "src": "https://www.archdaily.com/288636/metaforum-ector-hoogstad-architecten · Zeichnung: Ector Hoogstad Architecten",
+    "ar": 1.413
+   },
+   "aussen": {
+    "label": "Außen: Halle mit aufgesetztem Fakultätsblock, Wasserbecken",
+    "src": "https://www.archdaily.com/288636/metaforum-ector-hoogstad-architecten · Foto: Norbert van Onna (Vermutung nach Dateiname „NvO“; ArchDaily nennt drei Fotograf:innen)",
+    "ar": 1.369
+   },
+   "innen1": {
+    "label": "Lernbereich mit Regalen in der Halle",
+    "src": "https://www.archdaily.com/288636/metaforum-ector-hoogstad-architecten · Foto: Bart van Overbeeke / Petra Appelhof / Norbert van Onna (laut ArchDaily; Einzelzuordnung nicht angegeben)",
+    "ar": 1.339
+   },
+   "innen2": {
+    "label": "Treppe und Lernlandschaft in der Halle",
+    "src": "https://www.archdaily.com/288636/metaforum-ector-hoogstad-architecten · Foto: Bart van Overbeeke / Petra Appelhof / Norbert van Onna (laut ArchDaily; Einzelzuordnung nicht angegeben)",
+    "ar": 0.747
    }
   }
  },
@@ -2179,7 +2326,8 @@
     "src": "https://commons.wikimedia.org/wiki/File:Exeter_Library_Carrels_02.jpg · Foto: Cysj1024 (CC BY-SA 4.0)",
     "ar": 1.333
    }
-  }
+  },
+  "kt": true
  },
  {
   "slug": "freiburg-ub",
@@ -2222,6 +2370,147 @@
     "label": "Lesesaal",
     "src": "https://www.archdaily.com/783418/library-in-freiburg-degelo-architekten-plus-ittenbrechbuhl · Foto: Barbara Bühler",
     "ar": 0.801
+   }
+  },
+  "kt": true
+ },
+ {
+  "slug": "fribourg-bcu",
+  "title": "Kantons- und Universitätsbibliothek Fribourg (Wettbewerb)",
+  "city": "Fribourg",
+  "country": "Schweiz",
+  "architect": "Atelier Kempe Thill (Wettbewerb, 3. Preis)",
+  "year": 2010,
+  "category": "uni",
+  "book_page": null,
+  "umbau": true,
+  "kt": true,
+  "note": "Wettbewerb: 70er-Erweiterung abgerissen, Altbau von 1910 restauriert; neue Bibliothek unter dem Garten, Herz ist ein ovaler Lesesaal unter einem Oberlicht.",
+  "images": {
+   "eg": {
+    "label": "Gartenebene / Erdgeschoss (Vermutung nach Planinhalt; Plan in der Quelle unbeschriftet)",
+    "src": "https://atelierkempethill.com/projects/0099-university-library/ · Plan: Atelier Kempe Thill (rechte Hälfte des Planblatts)",
+    "ar": 0.548
+   },
+   "og": {
+    "label": "Untergeschoss mit ovalem Lesesaal (Vermutung nach Planinhalt; kein Obergeschoss)",
+    "src": "https://atelierkempethill.com/projects/0099-university-library/ · Plan: Atelier Kempe Thill (linke Hälfte des Planblatts)",
+    "ar": 0.561
+   },
+   "schnitt": {
+    "label": "Längsschnitt durch Altbau, Lesesaal und Garten",
+    "src": "https://atelierkempethill.com/projects/0099-university-library/ · Zeichnung: Atelier Kempe Thill",
+    "ar": 2.92
+   },
+   "aussen": {
+    "label": "Rendering: Garten auf dem Dach der Erweiterung vor der neobarocken Gartenfassade",
+    "src": "https://atelierkempethill.com/projects/0099-university-library/ · Visualisierung: Atelier Kempe Thill",
+    "ar": 1.709
+   },
+   "innen1": {
+    "label": "Rendering: ovaler Lesesaal unter dem Oberlicht",
+    "src": "https://atelierkempethill.com/projects/0099-university-library/ · Visualisierung: Atelier Kempe Thill",
+    "ar": 1.869
+   },
+   "innen2": {
+    "label": "Rendering: abgesenkter Hof zwischen Alt- und Neubau",
+    "src": "https://atelierkempethill.com/projects/0099-university-library/ · Visualisierung: Atelier Kempe Thill",
+    "ar": 1.778
+   }
+  }
+ },
+ {
+  "slug": "graz-ub",
+  "title": "Universitätsbibliothek Graz (Umbau und Erweiterung)",
+  "city": "Graz",
+  "country": "Österreich",
+  "architect": "Atelier Thomas Pucher (Bestand: Lesesaalbau 1895)",
+  "year": 2019,
+  "category": "uni",
+  "book_page": null,
+  "umbau": true,
+  "kt": true,
+  "note": "Umbau: 70er-Anbau abgerissen, historischer Lesesaal bleibt; Glasfoyer als Fuge, oben ein auskragender zweigeschossiger Lesesaal-Balken.",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss (laut Dateiname „EG00“)",
+    "src": "https://www.archdaily.com/998386/university-of-graz-library-atelier-thomas-pucher · Plan: Atelier Thomas Pucher",
+    "ar": 1.414
+   },
+   "og": {
+    "label": "4. OG mit neuem Lesesaal im Glasbalken (laut Dateiname „OG04“)",
+    "src": "https://www.archdaily.com/998386/university-of-graz-library-atelier-thomas-pucher · Plan: Atelier Thomas Pucher",
+    "ar": 1.414
+   },
+   "schnitt": {
+    "label": "Längsschnitt: historischer Lesesaal, Atrium, neuer Lesesaal",
+    "src": "https://www.archdaily.com/998386/university-of-graz-library-atelier-thomas-pucher · Zeichnung: Atelier Thomas Pucher",
+    "ar": 1.413
+   },
+   "aussen": {
+    "label": "Außen: auskragender Glasbalken über dem Altbau von 1895",
+    "src": "https://www.archdaily.com/998386/university-of-graz-library-atelier-thomas-pucher · Foto: Crystal O’Brien-Kupfner / David Schreyer (laut ArchDaily)",
+    "ar": 1.429
+   },
+   "innen1": {
+    "label": "Neuer Lesesaal im Glasbalken",
+    "src": "https://www.archdaily.com/998386/university-of-graz-library-atelier-thomas-pucher · Foto: Crystal O’Brien-Kupfner / David Schreyer (laut ArchDaily)",
+    "ar": 1.59
+   },
+   "innen2": {
+    "label": "Glasfoyer zwischen Altbau und Hauptgebäude",
+    "src": "https://www.archdaily.com/998386/university-of-graz-library-atelier-thomas-pucher · Foto: Crystal O’Brien-Kupfner / David Schreyer (laut ArchDaily)",
+    "ar": 1.429
+   }
+  }
+ },
+ {
+  "slug": "kingston-town-house",
+  "title": "Town House, Kingston University",
+  "city": "London (Kingston upon Thames)",
+  "country": "Großbritannien",
+  "architect": "Grafton Architects",
+  "year": 2019,
+  "category": "uni",
+  "book_page": null,
+  "umbau": false,
+  "kt": true,
+  "note": "Neubau an der Straße: Kolonnade als offener Rand, dreigeschossiger Innenhof mit Freitreppe; Bibliothek und Archiv in den Obergeschossen.",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss (Legende: Entrance, Café, Courtyard, Theatre)",
+    "src": "https://www.archiweb.cz/en/b/mestsky-dum-kingston-university · Plan: Grafton Architects",
+    "ar": 1.415
+   },
+   "og": {
+    "label": "1. OG (Legende: Library, Courtyard, Dance Studio)",
+    "src": "https://www.archiweb.cz/en/b/mestsky-dum-kingston-university · Plan: Grafton Architects",
+    "ar": 1.415
+   },
+   "og2": {
+    "label": "2. OG (Legende: Library, Special Collections, Archive, Group Rooms)",
+    "src": "https://www.archiweb.cz/en/b/mestsky-dum-kingston-university · Plan: Grafton Architects",
+    "ar": 1.415
+   },
+   "schnitt": {
+    "label": "Längsschnitt mit Atrium und Freitreppe",
+    "src": "https://www.archiweb.cz/en/b/mestsky-dum-kingston-university · Zeichnung: Grafton Architects",
+    "ar": 1.648
+   },
+   "aussen": {
+    "label": "Kolonnade an der Penrhyn Road mit Straßenbäumen",
+    "src": "https://www.archiweb.cz/en/b/mestsky-dum-kingston-university · Foto: Dennis Gilbert / VIEW",
+    "ar": 0.75
+   },
+   "innen1": {
+    "label": "Bibliotheksgeschosse mit Treppen und Galerien",
+    "src": "https://www.archiweb.cz/en/b/mestsky-dum-kingston-university · Foto: Ed Reeve",
+    "ar": 0.667
+   },
+   "innen2": {
+    "label": "Innenhof/Saal mit Sitzstufen",
+    "src": "https://www.archiweb.cz/en/b/mestsky-dum-kingston-university · Foto: Ed Reeve",
+    "ar": 1.5
    }
   }
  },
@@ -2267,6 +2556,87 @@
     "src": "https://afasiaarchzine.com/2020/10/lussi-halter-casagrande/ · Foto: Leonardo Finotti",
     "ar": 1.5
    }
+  },
+  "kt": true
+ },
+ {
+  "slug": "muenster-dioezesanbibliothek",
+  "title": "Diözesanbibliothek Münster",
+  "city": "Münster",
+  "country": "Deutschland",
+  "architect": "Max Dudler",
+  "year": 2005,
+  "category": "uni",
+  "book_page": null,
+  "umbau": true,
+  "kt": true,
+  "note": "Ergänzung eines Priesterseminars: drei Neubauten (Bibliothek, zwei Verwaltungsbauten) bilden mit dem Bestand Hof, Garten, Gasse und Kreuzgang.",
+  "images": {
+   "eg": {
+    "label": "Grundriss (in der Quelle nur „Grundriss“; Vermutung: Erdgeschoss, Gewölbe im Altbau, Kreuzgang am Hof)",
+    "src": "https://www.maxdudler.de/en/projects/0208_mdb_dioezesanbibliothek/ · Plan: Max Dudler",
+    "ar": 1.0
+   },
+   "aussen": {
+    "label": "Straßenansicht: Steinraster der Neubauten neben dem Altbau",
+    "src": "https://www.maxdudler.de/en/projects/0208_mdb_dioezesanbibliothek/ · Foto: Max Dudler (Fotograf:in auf der Seite nicht genannt)",
+    "ar": 1.333
+   },
+   "innen1": {
+    "label": "Lesesaal",
+    "src": "https://www.maxdudler.de/en/projects/0208_mdb_dioezesanbibliothek/ · Foto: Max Dudler (Fotograf:in auf der Seite nicht genannt)",
+    "ar": 1.333
+   },
+   "innen2": {
+    "label": "Treppe in der Bibliothek",
+    "src": "https://www.maxdudler.de/en/projects/0208_mdb_dioezesanbibliothek/ · Foto: Max Dudler (Fotograf:in auf der Seite nicht genannt)",
+    "ar": 1.332
+   }
+  }
+ },
+ {
+  "slug": "muenster-philosophikum",
+  "title": "Philosophikum am Domplatz, Universität Münster",
+  "city": "Münster",
+  "country": "Deutschland",
+  "architect": "Peter Böhm Architekten",
+  "year": 2017,
+  "category": "uni",
+  "book_page": null,
+  "umbau": true,
+  "kt": true,
+  "note": "Erweiterung am Altbau: Bibliotheksriegel als „hohe Regalwand“ zum Platz, Halle als Fuge zum Bestand, Hof als ruhiger Stadtplatz.",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss (laut Dateiname „Ground floor“)",
+    "src": "https://www.archdaily.com/es/892928/philosophikum-peter-bohm-architekten · Plan: Peter Böhm Architekten",
+    "ar": 1.412
+   },
+   "og": {
+    "label": "2. OG (laut Dateiname „2nd floor“)",
+    "src": "https://www.archdaily.com/es/892928/philosophikum-peter-bohm-architekten · Plan: Peter Böhm Architekten",
+    "ar": 1.412
+   },
+   "schnitt": {
+    "label": "Schnitt durch Bibliothek und Halle",
+    "src": "https://www.archdaily.com/es/892928/philosophikum-peter-bohm-architekten · Zeichnung: Peter Böhm Architekten",
+    "ar": 1.742
+   },
+   "aussen": {
+    "label": "Vorhof mit der Rasterfassade der Bibliothek",
+    "src": "https://www.archdaily.com/es/892928/philosophikum-peter-bohm-architekten · Foto: Lukas Roth",
+    "ar": 1.333
+   },
+   "innen1": {
+    "label": "Bibliothek: Regale und Treppe hinter dem Fassadenraster",
+    "src": "https://www.archdaily.com/es/892928/philosophikum-peter-bohm-architekten · Foto: Lukas Roth",
+    "ar": 0.999
+   },
+   "innen2": {
+    "label": "Atrium/Halle zwischen Alt- und Neubau",
+    "src": "https://www.archdaily.com/es/892928/philosophikum-peter-bohm-architekten · Foto: Lukas Roth",
+    "ar": 0.746
+   }
   }
  },
  {
@@ -2311,7 +2681,8 @@
     "src": "https://www.archdaily.com/996892/wurttemberg-state-library-annex-lro-gmbh-and-co-kg-freie-architekten-bda · Foto: Brigida González",
     "ar": 0.714
    }
-  }
+  },
+  "kt": true
  },
  {
   "slug": "toronto-story-arts",
@@ -2350,7 +2721,8 @@
     "src": "https://www.baunetz.de/meldungen/Meldungen-Bibliotheksanbau_in_Toronto_von_RDH_Architects_9894559.html · Foto: Tom Arban",
     "ar": 0.66
    }
-  }
+  },
+  "kt": true
  },
  {
   "slug": "utrecht-ub",
@@ -2394,7 +2766,8 @@
     "src": "https://www.archdaily.com/136377/utrecht-library-wiel-arets-architects · Foto: Jan Bitter / Andrea Giannotti",
     "ar": 0.706
    }
-  }
+  },
+  "kt": true
  },
  {
   "slug": "yale-beinecke",
@@ -2443,6 +2816,7 @@
     "src": "https://www.archdaily.com/65987/ad-classics-beinecke-rare-book-and-manuscript-library-skidmore-owings-merrill · Foto: Ezra Stoller/Esto",
     "ar": 0.998
    }
-  }
+  },
+  "kt": true
  }
 ]
