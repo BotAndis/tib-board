@@ -15,6 +15,8 @@ UMBAU = {"kopenhagen-black-diamond", "leipzig-dnb", "peking-nationalbibliothek",
          "zuerich-rechtswiss", "freiburg-ub", "tilburg-lochal", "luzern-ub", "berlin-staatsbibliothek",
          "washington-mlk-umbau", "paris-richelieu", "oxford-weston", "bern-vonroll", "stuttgart-wlb",
          "toronto-story-arts", "budapest-bbu"}
+# fits the taste of Studio Kempe Thill (see html/kempe-thill/): "Kempe Thill" filter chip + tag on the page
+KT = set()  # filled below
 PREVIEW = ["washington-mlk", "washington-mlk-umbau", "berlin-grimm-zentrum", "freiburg-ub"]  # rows on the board tile
 # one line: how the building is organised (Magazin / Freihand / Lesen / Erschließung)
 NOTES = {
@@ -88,7 +90,9 @@ def main(raw):
             images[role] = {"label": info.get("label", ""), "src": info.get("src", ""),
                             "ar": round(im.width / im.height, 3)}
         keep = {k: meta.get(k) for k in ("slug", "title", "city", "country", "architect", "year", "category", "book_page")}
-        data[slug] = keep | {"umbau": slug in UMBAU, "note": NOTES.get(slug) or meta.get("note", ""), "images": images}
+        data[slug] = keep | {"umbau": slug in UMBAU, "kt": slug in KT, "note": NOTES.get(slug) or meta.get("note", ""), "images": images}
+    for p in data.values():  # also flag fitting projects that were collected earlier
+        p["kt"] = p["slug"] in KT
     ordered = sorted(data.values(), key=lambda p: (p["category"], p.get("book_page") or 999, p["slug"]))  # slug keeps MLK original before its Umbau
     data_file.write_text(json.dumps(ordered, ensure_ascii=False, indent=1), encoding="utf-8")
     print(len(ordered), "projects;", sum(len(p["images"]) for p in ordered), "images")
@@ -98,7 +102,11 @@ def main(raw):
 def preview(data):
     """Board tile: a miniature of the page itself (header, column labels, a few full rows)."""
     from PIL import ImageDraw, ImageFont
-    font = lambda size, bold=False: ImageFont.truetype(f"C:/Windows/Fonts/segoeui{'b' if bold else ''}.ttf", size)
+    def font(size, bold=False):
+        try:
+            return ImageFont.truetype(f"C:/Windows/Fonts/segoeui{'b' if bold else ''}.ttf", size)
+        except OSError:  # not on Windows
+            return ImageFont.truetype(f"DejaVuSans{'-Bold' if bold else ''}.ttf", size)
     W, M, G = 2000, 60, 16
     cw = (W - 2 * M - 5 * G) // 6
     ch = cw * 3 // 4

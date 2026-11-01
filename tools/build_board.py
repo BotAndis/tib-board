@@ -121,6 +121,10 @@ SECTIONS = [
 REFS = {"id": "html/referenzen/index.html", "kind": "html", "title": "Referenzen · Bibliotheken", "ext": "html",
         "size": 0, "dl": "html/referenzen/index.html", "raw": "html/referenzen/index.html",
         "url": "html/referenzen/index.html"}
+# research page on the studio (repo-only, written by hand): a second tile right of the references
+KT = {"id": "html/kempe-thill/index.html", "kind": "html", "title": "Kempe Thill · Büro + Haltung", "ext": "html",
+      "size": 0, "dl": "html/kempe-thill/index.html", "raw": "html/kempe-thill/index.html",
+      "url": "html/kempe-thill/index.html", "thumb": "thumbs/kempe-thill.webp"}
 # dates from the brief, a repo-only page shown live in its card ("live"): one big column left of everything (LEFT)
 ZEITPLAN = {"id": "html/zeitplan.html", "kind": "html", "title": "Zeitplan · Termine", "ext": "html", "size": 0,
             "dl": "html/zeitplan.html", "raw": "html/zeitplan.html", "url": "html/zeitplan.html", "live": True, "ar": 0.3015}
@@ -261,7 +265,9 @@ def main():
     # reference page lives only in the repo (built by build_refs.py), not in the Seafile tree
     preview = next(THUMBS.glob("referenzen-*.webp"))  # name carries a content hash, written by build_refs.py
     w, h = Image.open(preview).size
-    sections.append({"title": "Referenzen", "items": [REFS | {"thumb": preview.relative_to(REPO).as_posix(), "ar": round(w / h, 4)}]})
+    kw, kh = Image.open(REPO / KT["thumb"]).size
+    sections.append({"title": "Referenzen", "items": [REFS | {"thumb": preview.relative_to(REPO).as_posix(), "ar": round(w / h, 4)},
+                                                      KT | {"ar": round(kw / kh, 4)}]})
     sections.append({"title": LEFT, "items": [dict(ZEITPLAN)]})
 
     left = [r for r in files if r not in used]
