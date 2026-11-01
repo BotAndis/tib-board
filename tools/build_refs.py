@@ -14,9 +14,14 @@ ROLES = ["eg", "og", "og2", "schnitt", "aussen", "innen1", "innen2"]
 UMBAU = {"kopenhagen-black-diamond", "leipzig-dnb", "peking-nationalbibliothek", "malmoe-stadtbibliothek",
          "zuerich-rechtswiss", "freiburg-ub", "tilburg-lochal", "luzern-ub", "berlin-staatsbibliothek",
          "washington-mlk-umbau", "paris-richelieu", "oxford-weston", "bern-vonroll", "stuttgart-wlb",
-         "toronto-story-arts", "budapest-bbu"}
+         "toronto-story-arts", "budapest-bbu",
+         "fribourg-bcu", "eindhoven-metaforum", "graz-ub", "muenster-philosophikum", "muenster-dioezesanbibliothek"}
 # fits the taste of Studio Kempe Thill (see html/kempe-thill/): "Kempe Thill" filter chip + tag on the page
-KT = set()  # filled below
+KT = {"fribourg-bcu", "eindhoven-metaforum", "graz-ub", "muenster-philosophikum", "muenster-dioezesanbibliothek",
+      "kingston-town-house", "niagara-falls-rudolph", "washington-mlk", "washington-mlk-umbau", "toronto-story-arts",
+      "freiburg-ub", "luzern-ub", "stuttgart-wlb", "tilburg-lochal", "berlin-grimm-zentrum",
+      "heidenheim-dudler", "exeter-kahn", "yale-beinecke", "stockholm-asplund", "paris-richelieu",
+      "mexiko-vasconcelos", "latem-office", "utrecht-ub"}
 PREVIEW = ["washington-mlk", "washington-mlk-umbau", "berlin-grimm-zentrum", "freiburg-ub"]  # rows on the board tile
 # one line: how the building is organised (Magazin / Freihand / Lesen / Erschließung)
 NOTES = {
@@ -58,6 +63,13 @@ NOTES = {
     "kanazawa-umimirai": "Ein großer quadratischer Raum über zwei Geschosse; die Lochfassade bringt gleichmäßiges Licht.",
     "paris-richelieu": "Umbau des historischen Bibliotheksblocks: Säle und Magazine saniert, neue Erschließung und Glasgalerie am Ehrenhof.",
     "latem-office":"Runder Grundriss: Regale entlang der Rundwand, rechteckiger Kern mit Glashof in der Mitte.",
+    "fribourg-bcu": "Wettbewerb: 70er-Erweiterung abgerissen, Altbau von 1910 restauriert; neue Bibliothek unter dem Garten, Herz ist ein ovaler Lesesaal unter einem Oberlicht.",
+    "eindhoven-metaforum": "Umbau einer Versuchshalle: Bibliothek und Lernplätze in der Halle und im neuen UG, Fakultät als Block auf 20 Stahlstützen darüber.",
+    "graz-ub": "Umbau: 70er-Anbau abgerissen, historischer Lesesaal bleibt; Glasfoyer als Fuge, oben ein auskragender zweigeschossiger Lesesaal-Balken.",
+    "muenster-philosophikum": "Erweiterung am Altbau: Bibliotheksriegel als „hohe Regalwand“ zum Platz, Halle als Fuge zum Bestand, Hof als ruhiger Stadtplatz.",
+    "muenster-dioezesanbibliothek": "Ergänzung eines Priesterseminars: drei Neubauten (Bibliothek, zwei Verwaltungsbauten) bilden mit dem Bestand Hof, Garten, Gasse und Kreuzgang.",
+    "kingston-town-house": "Neubau an der Straße: Kolonnade als offener Rand, dreigeschossiger Innenhof mit Freitreppe; Bibliothek und Archiv in den Obergeschossen.",
+    "niagara-falls-rudolph": "Offene Lesegeschosse unter schrägen Dachflügeln mit hohen Oberlichtaufsätzen; Bibliothek in EG und 1. OG, darüber vermietete Flächen.",
 }
 
 
