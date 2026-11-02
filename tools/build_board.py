@@ -8,7 +8,7 @@ Add --layout to only re-sort board.json after changing GRID (no Seafile, no new 
 The board is also edited online (?edit saves board.json + uploads/ to GitHub): the run pulls first and keeps
 those uploads, so commit + push board.json right after it.
 """
-import fnmatch, hashlib, json, re, shutil, subprocess, sys
+import fnmatch, hashlib, json, re, shutil, subprocess, sys, time
 from pathlib import Path
 from urllib.parse import quote
 
@@ -159,6 +159,24 @@ def match(rel, globs):
     return False
 
 
+STAMP = re.compile(r"(20\d{6})_(\d{6}|\d{2}\b)")  # PXL_20261021_081119857 / WA_20261102_07 (index keeps chat order)
+
+
+def shot(rel):
+    """Capture time for sorting photo stacks: EXIF, else the date in the name, else file mtime."""
+    try:
+        ex = Image.open(LOCAL / rel).getexif()
+        t = ex.get_ifd(0x8769).get(36867) or ex.get(306)
+        if t:
+            return t.replace(":", "").replace(" ", "")[:14]
+    except OSError:
+        pass
+    m = STAMP.search(Path(rel).stem)
+    if m:
+        return m.group(1) + m.group(2).ljust(6, "0")
+    return time.strftime("%Y%m%d%H%M%S", time.localtime((LOCAL / rel).stat().st_mtime))
+
+
 def thumb(rel, kind):
     """Thumbnail in the repo; returns (path, width/height)."""
     src = LOCAL / rel
@@ -231,6 +249,8 @@ def main():
                 rels = [r for r in files if r not in used and match(r, e[2])]
                 if rels:
                     used.update(rels)
+                    if all(KIND.get(Path(r).suffix.lower()) == "image" for r in rels):
+                        rels.sort(key=shot)
                     stacks.append({"id": f"stack:{title}:{e[1]}", "kind": "stack", "title": e[1],
                                    "items": [item(r) for r in rels]})
                 continue
