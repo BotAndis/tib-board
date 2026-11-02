@@ -88,7 +88,10 @@ def main(raw):
             images[role] = {"label": info.get("label", ""), "src": info.get("src", ""),
                             "ar": round(im.width / im.height, 3)}
         keep = {k: meta.get(k) for k in ("slug", "title", "city", "country", "architect", "year", "category", "book_page")}
-        data[slug] = keep | {"umbau": slug in UMBAU, "note": NOTES.get(slug) or meta.get("note", ""), "images": images}
+        old = data.get(slug, {})
+        data[slug] = keep | {"umbau": slug in UMBAU or bool(meta.get("umbau")), "note": NOTES.get(slug) or meta.get("note", ""),
+                             "link": meta.get("link") or old.get("link"), "relevance": meta.get("relevance") or old.get("relevance"),
+                             "images": images}
     ordered = sorted(data.values(), key=lambda p: (p["category"], p.get("book_page") or 999, p["slug"]))  # slug keeps MLK original before its Umbau
     data_file.write_text(json.dumps(ordered, ensure_ascii=False, indent=1), encoding="utf-8")
     print(len(ordered), "projects;", sum(len(p["images"]) for p in ordered), "images")

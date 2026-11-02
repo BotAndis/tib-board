@@ -87,7 +87,8 @@ dialog::backdrop{background:#fff}
 const CATS = {national: ["Nationalbibliotheken", "Große Bestände, Magazin + Lesesäle", "National"],
   gross: ["Große öffentliche Bibliotheken", "Stadt-/Zentralbibliotheken", "Groß öffentlich"],
   klein: ["Kleine öffentliche Bibliotheken", "Stadtteil- und Stadtbibliotheken", "Klein öffentlich"],
-  uni: ["Universitätsbibliotheken", "Hochschul- und Landesbibliotheken", "Universität"]};
+  uni: ["Universitätsbibliotheken", "Hochschul- und Landesbibliotheken", "Universität"],
+  kollektiv: ["Kollektivräume im Bestand", "Keine Bibliotheken: Umbauten mit kleinem Eingriff (As Found)", "Kollektivraum"]};
 const COLS = [["eg", "Erdgeschoss"], ["og", "Regelgeschoss"], ["schnitt", "Schnitt"],
   ["aussen", "Außen"], ["innen1", "Innen"], ["innen2", "Innen"]];
 const FILTERS = [["alle", "Alle"], ["umbau", "Umbau / Bestand"], ["buch", "Entwurfsatlas"], ...Object.entries(CATS).map(([k, v]) => [k, v[2]])];
@@ -112,7 +113,7 @@ function project(p) {
     p.book_page ? `Entwurfsatlas S. ${p.book_page}` : ""].join("");
   return `<article class="ref" id="${p.slug}"><header><h3>${esc(p.title)}</h3>
     <span class="meta">${esc(p.city)}, ${esc(p.country)} · ${esc(p.architect)}${p.year ? " · " + p.year : ""}</span>
-    <span class="tags">${tags}</span>${p.note ? `<p class="note">${esc(p.note)}</p>` : ""}${rateBox(p.slug)}</header>
+    <span class="tags">${tags}</span>${p.link ? `<a class="tag" href="${esc(p.link)}" target="_blank" rel="noopener">${esc(new URL(p.link).hostname.replace(/^www\./, ""))} ↗</a>` : ""}${p.note ? `<p class="note">${esc(p.note)}</p>` : ""}${p.relevance ? `<p class="note">Für die TIB: ${esc(p.relevance)}</p>` : ""}${rateBox(p.slug)}</header>
     <div class="row">${COLS.map(([r, n]) => cell(p, r, n)).join("")}</div></article>`;
 }
 function render() {

@@ -10,6 +10,8 @@
   "book_page": 146,
   "umbau": false,
   "note": "Großer Block: Erschließung über das Atrium „Crystal Canyon“, oben ein stützenfreier Lesesaal unter abgehängtem Dach.",
+  "link": "https://www.baunetz.de/meldungen/Meldungen-AIA-Award_fuer_Bibliothek_in_Phoenix_von_Will_Bruder_7617343.html",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Erdgeschoss",
@@ -54,6 +56,8 @@
   "book_page": 150,
   "umbau": false,
   "note": "Bibliothek als ein Flügel eines Hufeisens um ein großes gläsernes Atrium (The Forum).",
+  "link": "https://www.hopkins.co.uk/projects/civic-and-culture/the-forum/",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Erdgeschoss (Planaxonometrie)",
@@ -93,6 +97,8 @@
   "book_page": 158,
   "umbau": false,
   "note": "Gestapelte Geschosse um eine zentrale Rolltreppenhalle; Bereiche nach Themen pro Ebene.",
+  "link": "https://divisare.com/projects/395620-jo-coenen-giulio-marzullo-oba-openbare-bibliotheek-amsterdam",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Ebene 0 (Erdgeschoss)",
@@ -137,6 +143,8 @@
   "book_page": 164,
   "umbau": false,
   "note": "Würfel: innen das „Herz“ (Leerraum über mehrere Ebenen), darüber der trichterförmige Galeriesaal.",
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Stadtbibliothek_Stuttgart_eingeweiht_2354719.html",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Erdgeschoss (Herz, Eingangshalle)",
@@ -181,6 +189,8 @@
   "book_page": 166,
   "umbau": false,
   "note": "Gestapelte Boxen; Rotunden als Lichthöfe verbinden die Ebenen, Bücherrotunde im 3. OG.",
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Bibliothek_in_Birmingham_von_Mecanoo_3296167.html",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Erdgeschoss (mit REP-Theater)",
@@ -230,6 +240,8 @@
   "book_page": null,
   "umbau": false,
   "note": "Ein großer offener Bibliotheksboden auf einem Sockel; Kerne gliedern die Fläche.",
+  "link": "https://divisare.com/projects/292281-schmidt-hammer-lassen-architects-dokk1",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Ebene 00 (Erdgeschoss: Ankunft, Parken, Logistik)",
@@ -305,7 +317,8 @@
     "src": "https://archinect.com/features/article/150175413/porch-atrium-terrace-a-deeper-look-at-lake-flato-s-austin-central-library · Foto: Nic Lehoux",
     "ar": 1.333
    }
-  }
+  },
+  "link": "https://www.lakeflato.com/project/austin-central-library/"
  },
  {
   "slug": "calgary-central",
@@ -354,7 +367,8 @@
     "src": "https://www.archdaily.com/905263/calgary-central-library-snohetta/5be0922808a5e5ff8600033a-calgary-central-library-snohetta-image · Foto: Michael Grimm, über Snøhetta",
     "ar": 1.5
    }
-  }
+  },
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Zentralbibliothek_in_Calgary_von_Snohetta_5535024.html"
  },
  {
   "slug": "christchurch-turanga",
@@ -403,7 +417,8 @@
     "src": "https://www.archdaily.com/904165/turanga-schimdt-hammer-lassen-architects-plus-architectus · Foto: Adam Mørk",
     "ar": 1.165
    }
-  }
+  },
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Bibliothek_in_Christchurch_von_Schmidt_Hammer_Lassen_5519127.html"
  },
  {
   "slug": "halifax-central",
@@ -452,6 +467,99 @@
     "src": "https://www.archdaily.com/577039/new-halifax-central-library-schmidt-hammer-lassen/548a49b8e58ecec43700007e-new-halifax-central-library-schmidt-hammer-lassen-image · Foto: Adam Mørk",
     "ar": 1.028
    }
+  },
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Bibliothek_von_Schmidt_Hammer_Lassen_in_Kanada_4161183.html"
+ },
+ {
+  "slug": "malmoe-stadtbibliothek",
+  "title": "Stadtbibliothek Malmö (Erweiterung „Kalendrar des Lichts“)",
+  "city": "Malmö",
+  "country": "Schweden",
+  "architect": "Henning Larsen",
+  "year": 1997,
+  "category": "gross",
+  "book_page": null,
+  "umbau": true,
+  "note": "Drei Bauteile in Reihe: der Altbau „Slottet“, ein runder Eingangsbau als Gelenk und der Lichtkalender als hohe Freihandhalle mit Galerien hinter der Glaswand zum Park.",
+  "link": "https://henninglarsen.com/projects/malmo-library",
+  "relevance": null,
+  "images": {
+   "eg": {
+    "label": "Orientierungsschema Eingangsgeschoss (Rundbau „Cylindern“, Lichtkalender, Slottet), Stand 1999",
+    "src": "https://www.enssib.fr/bibliotheque-numerique/documents/61712-la-bibliotheque-municipale-de-malm.pdf · Annexe 3",
+    "ar": 1.743
+   },
+   "og": {
+    "label": "Orientierungsschema 1. OG (Rundbau und Lichtkalender), Stand 1999",
+    "src": "https://www.enssib.fr/bibliotheque-numerique/documents/61712-la-bibliotheque-municipale-de-malm.pdf · Annexe 3",
+    "ar": 1.8
+   },
+   "aussen": {
+    "label": "Außen, Altbau „Slottet“ und Lichtkalender vom Park",
+    "src": "https://commons.wikimedia.org/wiki/File:Malm%C3%B6_City_Library.jpg · Foto: Maria Eklind (CC BY-SA 2.0)",
+    "ar": 1.5
+   },
+   "innen1": {
+    "label": "Lichtkalender: Freihandhalle mit Glasfassade zum Park",
+    "src": "https://commons.wikimedia.org/wiki/File:Malm%C3%B6_Library_in_daylight.jpg · Foto: Susanne Nilsson (CC BY-SA 2.0)",
+    "ar": 1.5
+   },
+   "innen2": {
+    "label": "Lichtkalender: Galerien und Treppe",
+    "src": "https://commons.wikimedia.org/wiki/File:Malmo_stadsbibliotek,_Johannes_Jansson.jpg · Foto: Johannes Jansson (CC BY 2.5 DK)",
+    "ar": 1.494
+   }
+  }
+ },
+ {
+  "slug": "mechelen-predikheren",
+  "title": "Stadsbibliotheek Het Predikheren",
+  "city": "Mechelen",
+  "country": "Belgien",
+  "architect": "Korteknie Stuhlmacher Architecten + Callebaut Architecten + Bureau Bouwtechniek",
+  "year": 2019,
+  "category": "gross",
+  "book_page": null,
+  "umbau": true,
+  "note": "Freihand- und Leseräume liegen in den Klosterflügeln und im Dachraum, während Kreuzgang und Hof die gemeinsame Erschließung und öffentliche Mitte bilden.",
+  "link": "https://callebaut-architecten.be/project/predikherenklooster-mechelen/",
+  "relevance": "Für die TIB beantwortet der Bibliothekseinbau in klar erhaltene Raumringe die Frage nach neuen Lese- und Kollektivräumen bei sichtbaren Gebrauchsspuren und verbindet Minhs Palimpsest-Lesart mit einer lesbaren Grundordnung.",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss",
+    "src": "https://www.archdaily.com/944248/city-library-het-predikheren-korteknie-stuhlmacher-architecten-plus-callebaut-architecten-plus-bureau-bouwtechniek",
+    "ar": 1.027
+   },
+   "og": {
+    "label": "1. OG",
+    "src": "https://www.archdaily.com/944248/city-library-het-predikheren-korteknie-stuhlmacher-architecten-plus-callebaut-architecten-plus-bureau-bouwtechniek",
+    "ar": 1.038
+   },
+   "og2": {
+    "label": "2. OG – Dachraum",
+    "src": "https://www.archdaily.com/944248/city-library-het-predikheren-korteknie-stuhlmacher-architecten-plus-callebaut-architecten-plus-bureau-bouwtechniek",
+    "ar": 1.034
+   },
+   "schnitt": {
+    "label": "Längsschnitt 1",
+    "src": "https://www.archdaily.com/944248/city-library-het-predikheren-korteknie-stuhlmacher-architecten-plus-callebaut-architecten-plus-bureau-bouwtechniek",
+    "ar": 1.84
+   },
+   "aussen": {
+    "label": "Außen vom Park",
+    "src": "https://www.archdaily.com/944248/city-library-het-predikheren-korteknie-stuhlmacher-architecten-plus-callebaut-architecten-plus-bureau-bouwtechniek · Foto: Luuk Kramer",
+    "ar": 1.501
+   },
+   "innen1": {
+    "label": "Leseraum mit erhaltenen Putzspuren",
+    "src": "https://www.archdaily.com/944248/city-library-het-predikheren-korteknie-stuhlmacher-architecten-plus-callebaut-architecten-plus-bureau-bouwtechniek · Foto: Luuk Kramer",
+    "ar": 1.501
+   },
+   "innen2": {
+    "label": "Kinderbibliothek unter dem Dachtragwerk",
+    "src": "https://www.archdaily.com/944248/city-library-het-predikheren-korteknie-stuhlmacher-architecten-plus-callebaut-architecten-plus-bureau-bouwtechniek · Foto: Luuk Kramer",
+    "ar": 1.501
+   }
   }
  },
  {
@@ -496,6 +604,43 @@
     "src": "https://archeyes.com/vasconcelos-library-by-alberto-kalach/ · Foto: Trevor Patt",
     "ar": 0.75
    }
+  },
+  "link": "https://divisare.com/projects/372371-tomas-casademunt-biblioteca-vasconcelos"
+ },
+ {
+  "slug": "muenster-dioezesanbibliothek",
+  "title": "Diözesanbibliothek Münster",
+  "city": "Münster",
+  "country": "Deutschland",
+  "architect": "Max Dudler",
+  "year": 2005,
+  "category": "gross",
+  "book_page": null,
+  "umbau": true,
+  "note": "Neue Riegel mit Magazin und langem Lesesaal schließen sich mit dem bestehenden Priesterseminar zu einem Ensemble um einen kreuzgangartigen Hof; Erschließung über Treppenhallen an den Gelenken.",
+  "link": "https://www.maxdudler.de/en/projects/0208_mdb_dioezesanbibliothek/",
+  "relevance": "Antwortet auf die Frage, wie eine Erweiterung als ruhiger Riegel im Raster des Bestands einen Hof fasst (Richtung D / Kreuzganghaus C′); für Kempe Thill serielle Fassade und Typus statt Geste, für Minh ein Bestand, der Mitte des Ensembles bleibt.",
+  "images": {
+   "eg": {
+    "label": "Grundriss (Geschoss vermutl. EG)",
+    "src": "https://www.maxdudler.de/en/projects/0208_mdb_dioezesanbibliothek/",
+    "ar": 1.165
+   },
+   "aussen": {
+    "label": "Außen, Fassade zum Kirchplatz",
+    "src": "https://www.maxdudler.de/en/projects/0208_mdb_dioezesanbibliothek/",
+    "ar": 1.333
+   },
+   "innen1": {
+    "label": "Lesesaal",
+    "src": "https://www.maxdudler.de/en/projects/0208_mdb_dioezesanbibliothek/",
+    "ar": 1.333
+   },
+   "innen2": {
+    "label": "Treppe in der Bibliothek",
+    "src": "https://www.maxdudler.de/en/projects/0208_mdb_dioezesanbibliothek/",
+    "ar": 1.332
+   }
   }
  },
  {
@@ -509,6 +654,8 @@
   "book_page": null,
   "umbau": false,
   "note": "Drei Lichtschächte durchstoßen alle Geschosse; offene Raumfolge statt abgetrennter Abteilungen.",
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Bibliothek_in_Oslo_von_Lundhagem_und_Atelier_Oslo_7308757.html",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Erdgeschoss",
@@ -594,7 +741,8 @@
     "src": "https://www.broekbakema.nl/projecten/centrale-bibliotheek/ · Foto: Archiv Broekbakema; Fotograf auf der Quellseite nicht genannt",
     "ar": 1.6
    }
-  }
+  },
+  "link": "https://www.broekbakema.nl/projecten/centrale-bibliotheek/"
  },
  {
   "slug": "seattle-central",
@@ -638,7 +786,8 @@
     "src": "https://www.archdaily.com/11651/seattle-central-library-oma-lmn/57219964e58eced1af000006-seattle-central-library-oma-lmn-photo · Foto: Philippe Ruault",
     "ar": 1.259
    }
-  }
+  },
+  "link": "https://www.baunetzwissen.de/sonnenschutz/objekte/bildung---forschung/zentralbibliothek-in-seattle-usa-72940"
  },
  {
   "slug": "shanghai-library-east",
@@ -682,7 +831,8 @@
     "src": "https://www.gooood.cn/shanghai-library-east-by-schmidt-hammer-lassen-architects.htm · Foto: Tian Fangfang; © SHL",
     "ar": 0.75
    }
-  }
+  },
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Schmidt_Hammer_Lassen_gewinnen_Wettbewerb_in_Shanghai_4936398.html"
  },
  {
   "slug": "stockholm-asplund",
@@ -695,6 +845,8 @@
   "book_page": null,
   "umbau": false,
   "note": "Rotunde als zentraler Ausleihsaal mit Bücherwänden; U-förmige Flügel mit Lesesälen.",
+  "link": "https://divisare.com/projects/366362-gunnar-asplund-valentina-solano-stockholm-public-library",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Erdgeschoss (Bestand mit Umbauentwurf Caruso St John 2014, nicht realisiert)",
@@ -775,7 +927,8 @@
     "src": "https://www.archdaily.com/882819/tianjin-binhai-library-mvrdv-plus-tianjin-urban-planning-and-design-institute · Foto: Ossip van Duivenbode",
     "ar": 1.5
    }
-  }
+  },
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Bibliothek_von_MVRDV_in_China_4772844.html"
  },
  {
   "slug": "tilburg-lochal",
@@ -788,6 +941,8 @@
   "book_page": null,
   "umbau": true,
   "note": "Umbau einer Lokhalle: Halle bleibt offen, Bibliothek auf eingestellten Plattformen und Sitzstufen.",
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Reaktivierte_Industriehalle_in_Tilburg_6947606.html",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Erdgeschoss",
@@ -827,6 +982,103 @@
   }
  },
  {
+  "slug": "turku-stadtbibliothek",
+  "title": "Stadtbibliothek Turku (Hauptbibliothek)",
+  "city": "Turku",
+  "country": "Finnland",
+  "architect": "JKMM Architects",
+  "year": 2007,
+  "category": "gross",
+  "book_page": null,
+  "umbau": true,
+  "note": "Neubau am Blockrand, der die alte Bibliothek von 1903 und weitere Altbauten um einen offenen Hof ergänzt; Freihand in einer großen, zur Straße verglasten Halle, Altbau mit Café und Lesesälen über einen Gang angebunden.",
+  "link": "https://divisare.com/projects/95811-jkmm-architects-arno-de-la-chapelle-jonny-holmen-michael-perlmutter-city-library",
+  "relevance": "Antwortet auf die Frage, wie ein Erweiterungsbau an der Straße den Altbau Hauptfigur bleiben lässt und den Hof frei hält (Zone a, Richtung A′/D); Kempe Thill würden die große Glasfront zur Stadt teilen, Minh die Haltung, den Bestand nicht zu überbauen.",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss (1. kerros)",
+    "src": "https://jkmm.fi/work/turku-library/",
+    "ar": 2.127
+   },
+   "og": {
+    "label": "1. OG",
+    "src": "https://jkmm.fi/work/turku-library/",
+    "ar": 2.069
+   },
+   "og2": {
+    "label": "2. OG",
+    "src": "https://jkmm.fi/work/turku-library/",
+    "ar": 2.013
+   },
+   "schnitt": {
+    "label": "Schnitt A",
+    "src": "https://jkmm.fi/work/turku-library/",
+    "ar": 2.716
+   },
+   "aussen": {
+    "label": "Außen, Glasfront der Halle zur Straße",
+    "src": "https://jkmm.fi/work/turku-library/ · Foto: Michael Perlmutter",
+    "ar": 1.383
+   },
+   "innen1": {
+    "label": "Lesebereich in der Halle",
+    "src": "https://jkmm.fi/work/turku-library/ · Foto: Michael Perlmutter",
+    "ar": 0.786
+   },
+   "innen2": {
+    "label": "Treppe und Theke",
+    "src": "https://jkmm.fi/work/turku-library/ · Foto: Michael Perlmutter",
+    "ar": 1.417
+   }
+  }
+ },
+ {
+  "slug": "utrecht-neude",
+  "title": "Bibliotheek Neude (ehem. Hauptpostamt)",
+  "city": "Utrecht",
+  "country": "Niederlande",
+  "architect": "Rijnboutt + Zecc Architecten (Bestand: Joseph Crouwel jr., 1924)",
+  "year": 2020,
+  "category": "gross",
+  "book_page": null,
+  "umbau": true,
+  "note": "Symmetrische Schalterhalle mit Parabelgewölbe als zentraler Lese- und Aufenthaltsraum, Freihand in den umlaufenden Flügeln, Treppen und Rolltreppen in den Seitenfluren, Magazin entfällt.",
+  "link": "https://rijnboutt.nl/project/post-utrecht",
+  "relevance": "Antwortet auf die Frage, wie eine bestehende Halle mit Oberlicht (TIB-Kataloghalle) ohne Umbau ihrer Form zum öffentlichen Kollektivraum der Bibliothek wird; für Minh Bestand als Ressource, für Kempe Thill ein symmetrischer Raum mit Zentrum.",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss",
+    "src": "https://www.archdaily.com/943774/utrecht-central-library-and-post-office-zecc-architecten-plus-rijnboutt",
+    "ar": 0.89
+   },
+   "og": {
+    "label": "1. OG",
+    "src": "https://www.archdaily.com/943774/utrecht-central-library-and-post-office-zecc-architecten-plus-rijnboutt",
+    "ar": 0.821
+   },
+   "schnitt": {
+    "label": "Schnitt",
+    "src": "https://www.archdaily.com/943774/utrecht-central-library-and-post-office-zecc-architecten-plus-rijnboutt",
+    "ar": 2.874
+   },
+   "aussen": {
+    "label": "Außen",
+    "src": "https://www.archdaily.com/943774/utrecht-central-library-and-post-office-zecc-architecten-plus-rijnboutt",
+    "ar": 1.35
+   },
+   "innen1": {
+    "label": "Ehemalige Schalterhalle als Lesehalle",
+    "src": "https://www.archdaily.com/943774/utrecht-central-library-and-post-office-zecc-architecten-plus-rijnboutt",
+    "ar": 1.134
+   },
+   "innen2": {
+    "label": "Eingang zur Halle",
+    "src": "https://www.archdaily.com/943774/utrecht-central-library-and-post-office-zecc-architecten-plus-rijnboutt",
+    "ar": 1.459
+   }
+  }
+ },
+ {
   "slug": "washington-mlk",
   "title": "Martin Luther King Jr. Memorial Library – Originalzustand",
   "city": "Washington, D.C.",
@@ -837,6 +1089,8 @@
   "book_page": null,
   "umbau": false,
   "note": "Mies 1972: Stahl-Glas-Box im Stützenraster, offene Geschosse um Kerne, zurückgesetztes Erdgeschoss.",
+  "link": "https://divisare.com/projects/396355-ludwig-mies-van-der-rohe-leonid-furmansky-martin-luther-king-jr-memorial-library",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Erdgeschoss (US First Floor) – HABS-Bestandsaufnahme des Mies-Baus vor dem Umbau",
@@ -881,6 +1135,8 @@
   "book_page": null,
   "umbau": true,
   "note": "Modernisierung 2020: Raster bleibt; neue Treppen durch die Kerne, neues Dachgeschoss mit Terrasse.",
+  "link": "https://www.mecanoo.nl/Projects/project/102/Martin-Luther-King-Jr-Memorial-Library?c=208",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Erdgeschoss (US First Floor) nach Umbau",
@@ -930,6 +1186,8 @@
   "book_page": 174,
   "umbau": false,
   "note": "Umgedrehtes L: die Bibliothek als Box auf Stützen über dem Platz, Pods im Lesesaal.",
+  "link": "https://www.baunetz.de/meldungen/Meldungen_RIBA_erklaert_Peckham_Library_zum_Building_of_the_Year_2000__7925.html",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Erdgeschoss (Eingang, Platz unter der Auskragung)",
@@ -969,6 +1227,57 @@
   }
  },
  {
+  "slug": "madrid-usera",
+  "title": "Biblioteca Pública Usera José Hierro",
+  "city": "Madrid",
+  "country": "Spanien",
+  "architect": "Ábalos & Herreros",
+  "year": 2003,
+  "category": "klein",
+  "book_page": 178,
+  "umbau": false,
+  "note": "Schlanker Turm über einem breiten Sockel: Zugangsebene mit Freihand, Kinder- und Zeitungsbereich, darüber Lesesäle mit Galerien in doppelgeschossigen Lufträumen und Treppen/Nebenräumen in einem Streifen an der Rückseite.",
+  "link": "https://arquitecturaviva.com/works/biblioteca-publica-de-usera-5",
+  "relevance": null,
+  "images": {
+   "eg": {
+    "label": "Zugangsebene ±0,00 (EG)",
+    "src": "https://bdt.degruyter.com/entry/BDT_17_032/ (Building Types Online, De Gruyter)",
+    "ar": 1.353
+   },
+   "og": {
+    "label": "2. OG (+13,73, Lesesaal; Galeriegeschoss darüber nicht gezeigt)",
+    "src": "https://bdt.degruyter.com/entry/BDT_17_032/ (Building Types Online, De Gruyter)",
+    "ar": 1.0
+   },
+   "og2": {
+    "label": "1. OG (+6,68, Mehrzwecksaal und Luftraum)",
+    "src": "https://bdt.degruyter.com/entry/BDT_17_032/ (Building Types Online, De Gruyter)",
+    "ar": 0.874
+   },
+   "schnitt": {
+    "label": "Schnitt",
+    "src": "https://aeworldmap.com/2022/10/03/usera-public-library-madrid-spain/",
+    "ar": 1.661
+   },
+   "aussen": {
+    "label": "Außen",
+    "src": "https://aeworldmap.com/2022/10/03/usera-public-library-madrid-spain/",
+    "ar": 1.469
+   },
+   "innen1": {
+    "label": "Lesesaal (doppelgeschossig)",
+    "src": "https://aeworldmap.com/2022/10/03/usera-public-library-madrid-spain/",
+    "ar": 1.486
+   },
+   "innen2": {
+    "label": "Lesesaal mit Glasaufzug",
+    "src": "https://exhibits.lib.ttu.edu/s/archlib/item/39378 · Foto: TTU Architecture Library",
+    "ar": 0.666
+   }
+  }
+ },
+ {
   "slug": "london-whitechapel",
   "title": "Whitechapel Idea Store",
   "city": "London",
@@ -979,6 +1288,8 @@
   "book_page": 184,
   "umbau": false,
   "note": "Gestapelte Geschosse an einer Rolltreppen-Fassade zur Straße; oben Café und Terrasse.",
+  "link": "https://www.baunetz.de/meldungen/Meldungen_Bibliothek_von_David_Adjaye_in_London_eroeffnet_21932.html",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Erdgeschoss (Zuordnung aus Plan erschlossen)",
@@ -1013,6 +1324,42 @@
   }
  },
  {
+  "slug": "la-miriam-matthews",
+  "title": "Miriam Matthews Hyde Park Branch Library",
+  "city": "Los Angeles",
+  "country": "USA",
+  "architect": "HplusF Architecture and Design",
+  "year": 2004,
+  "category": "klein",
+  "book_page": 188,
+  "umbau": false,
+  "note": "Eingeschossiger Flachbau: eine durchgehende Freihand- und Lesehalle unter gestaffelten Oberlichtern, Eingang mit Veranstaltungsraum und Personalbereich an der Straßenecke, Kinderbereich mit Hof am anderen Ende.",
+  "link": "https://hplusf.com/projects/hyde-park-library/",
+  "relevance": null,
+  "images": {
+   "eg": {
+    "label": "Grundriss EG (einziges Geschoss)",
+    "src": "https://hplusf.com/projects/hyde-park-library/",
+    "ar": 1.876
+   },
+   "schnitt": {
+    "label": "Querschnitt",
+    "src": "https://bdt.degruyter.com/entry/BDT_17_035/ (Building Types Online, De Gruyter)",
+    "ar": 3.548
+   },
+   "aussen": {
+    "label": "Außen (Florence Ave / Van Ness Ave)",
+    "src": "https://www.lapl.org/branches/hyde-park",
+    "ar": 1.505
+   },
+   "innen1": {
+    "label": "Lesebereich unter dem Holztragwerk",
+    "src": "https://hplusf.com/projects/hyde-park-library/ · Foto: HplusF",
+    "ar": 1.329
+   }
+  }
+ },
+ {
   "slug": "scottsdale-arabian",
   "title": "Arabian Public Library",
   "city": "Scottsdale",
@@ -1023,6 +1370,8 @@
   "book_page": 190,
   "umbau": false,
   "note": "Eingeschossig: ein Raum unter einem gefalteten Dach, Licht über eine Schlucht im Inneren.",
+  "link": "https://www.architecturalrecord.com/articles/8096-arabian-public-library-project-portfolio",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Erdgeschoss (eingeschossig, mit Legende)",
@@ -1062,6 +1411,8 @@
   "book_page": 192,
   "umbau": false,
   "note": "Quadratischer Ring über dem Platz, Lesesäle umlaufen einen offenen Hof.",
+  "link": "https://divisare.com/projects/89852-alvaro-siza-vieira-fernando-guerra-fg-sg-biblioteca-municipal",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Zugangsebene (Piso de acesso), mit Schnitten",
@@ -1096,6 +1447,52 @@
   }
  },
  {
+  "slug": "strasbourg-malraux",
+  "title": "Médiathèque André Malraux",
+  "city": "Straßburg",
+  "country": "Frankreich",
+  "architect": "Jean-Marc Ibos, Myrto Vitart",
+  "year": 2008,
+  "category": "klein",
+  "book_page": 198,
+  "umbau": false,
+  "note": "Umgebauter Getreidespeicher als langer Riegel: der entkernte Silo am Kopf als 47 m hohe Eingangshalle, dahinter durchgehende Freihandgeschosse mit zentralem Treppen-/Aufzugskern und Außentreppen an der Längsfassade.",
+  "link": "https://divisare.com/projects/245008-ibos-vitart-andre-malraux-library",
+  "relevance": null,
+  "images": {
+   "og": {
+    "label": "1. OG vermutl. (Level 02)",
+    "src": "https://bdt.degruyter.com/entry/BDT_17_039/ (Building Types Online, De Gruyter)",
+    "ar": 3.338
+   },
+   "og2": {
+    "label": "2. OG vermutl. (Level 03)",
+    "src": "https://bdt.degruyter.com/entry/BDT_17_039/ (Building Types Online, De Gruyter)",
+    "ar": 3.338
+   },
+   "schnitt": {
+    "label": "Längsschnitt (Bestand rot)",
+    "src": "https://bdt.degruyter.com/entry/BDT_17_039/ (Building Types Online, De Gruyter)",
+    "ar": 3.338
+   },
+   "aussen": {
+    "label": "Außen (Hafenseite)",
+    "src": "https://divisare.com/projects/245008-ibos-vitart-andre-malraux-library",
+    "ar": 1.266
+   },
+   "innen1": {
+    "label": "Lesesaal an der Fassade",
+    "src": "https://divisare.com/projects/245008-ibos-vitart-andre-malraux-library",
+    "ar": 1.509
+   },
+   "innen2": {
+    "label": "Atrium / Lufträume",
+    "src": "https://divisare.com/projects/245008-ibos-vitart-andre-malraux-library",
+    "ar": 1.333
+   }
+  }
+ },
+ {
   "slug": "vennesla",
   "title": "Vennesla Bibliotek og Kulturhus",
   "city": "Vennesla",
@@ -1106,6 +1503,8 @@
   "book_page": 202,
   "umbau": false,
   "note": "Ein langer Raum; Holzrippen tragen das Dach und bilden zugleich Regale und Nischen.",
+  "link": "https://www.archdaily.com/209340/vennesla-library-and-culture-house-helen-hard",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Erdgeschoss",
@@ -1140,6 +1539,47 @@
   }
  },
  {
+  "slug": "almada",
+  "title": "Biblioteca Municipal de Almada",
+  "city": "Almada",
+  "country": "Portugal",
+  "architect": "Santa-Rita Arquitectos",
+  "year": 2012,
+  "category": "klein",
+  "book_page": 206,
+  "umbau": false,
+  "note": "Eingeschossiges, von farbigen Patios ausgehöhltes Quadrat auf begrüntem Sockel: Eingangshalle in der Mitte, Erwachsenen- und Kinderlesesaal umfließen die Höfe, Verwaltung und Saal an den Rändern.",
+  "link": "https://www.cm-almada.pt/biblioteca-municipal-maria-lamas",
+  "relevance": null,
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss (einziges Geschoss)",
+    "src": "https://bdt.degruyter.com/entry/BDT_17_041/ (Building Types Online, De Gruyter)",
+    "ar": 1.028
+   },
+   "schnitt": {
+    "label": "Schnitt B-B",
+    "src": "https://bdt.degruyter.com/entry/BDT_17_041/ (Building Types Online, De Gruyter)",
+    "ar": 6.077
+   },
+   "aussen": {
+    "label": "Außen, Eingangsseite",
+    "src": "https://www.cm-almada.pt/biblioteca-municipal-maria-lamas · Foto: CM Almada",
+    "ar": 1.441
+   },
+   "innen1": {
+    "label": "Lesesaal / Freihand",
+    "src": "https://www.cm-almada.pt/biblioteca-municipal-maria-lamas · Foto: CM Almada",
+    "ar": 1.333
+   },
+   "innen2": {
+    "label": "Fenster zum Patio (klein, 465 px)",
+    "src": "https://bdt.degruyter.com/entry/BDT_17_041/ (Building Types Online, De Gruyter)",
+    "ar": 1.002
+   }
+  }
+ },
+ {
   "slug": "ceuta",
   "title": "Biblioteca Pública de Ceuta",
   "city": "Ceuta",
@@ -1150,6 +1590,8 @@
   "book_page": 208,
   "umbau": false,
   "note": "Bibliothek über einer archäologischen Grabung: Lesesäle auf Plattformen über den Funden.",
+  "link": "https://www.baunetzwissen.de/fassade/objekte/kultur-bildung/oeffentliche-bibliothek-in-ceuta-4086725",
+  "relevance": null,
   "images": {
    "og": {
     "label": "Ebene 2 (+8,40 m) mit Ausgrabung",
@@ -1225,6 +1667,135 @@
     "src": "https://www.archdaily.com/1000198/gabriel-garcia-marquez-library-suma-arquitectura · Foto: Jesús Granada",
     "ar": 1.124
    }
+  },
+  "link": "https://divisare.com/projects/496610-suma-arquitectura-jesus-granada-gabriel-garcia-marquez-library"
+ },
+ {
+  "slug": "barcelona-montbau",
+  "title": "Biblioteca Montbau – Albert Pérez Baró",
+  "city": "Barcelona",
+  "country": "Spanien",
+  "architect": "OliverasBoix Arquitectes",
+  "year": 2015,
+  "category": "klein",
+  "book_page": null,
+  "umbau": true,
+  "note": "Drei ehemalige Schulriegel sind durch Verbindungszonen zu einer ebenerdigen Freihandbibliothek mit Lesebereichen an Höfen und Fassaden zusammengeführt.",
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Umbau_von_OliverasBoix_in_Barcelona_4933420.html",
+  "relevance": "Für die TIB zeigt der Erhalt der modernistischen Schulriegel mit gezielten Fenster- und Verbindungseingriffen, wie Minhs Ressourcenprinzip eine bestehende Bibliothek samt sozialer Verankerung räumlich erweitert.",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss",
+    "src": "https://www.archdaily.com/801110/montbau-library-rehabilitation-oliverasboix-arquitectes",
+    "ar": 1.576
+   },
+   "schnitt": {
+    "label": "Fassadenschnitte BB/CC und Fensterdetail",
+    "src": "https://www.archdaily.com/801110/montbau-library-rehabilitation-oliverasboix-arquitectes",
+    "ar": 1.238
+   },
+   "aussen": {
+    "label": "Außen – Lesefenster im erhaltenen Schulriegel",
+    "src": "https://www.archdaily.com/801110/montbau-library-rehabilitation-oliverasboix-arquitectes · Foto: José Hevia",
+    "ar": 1.578
+   },
+   "innen1": {
+    "label": "Leseband an der Verglasung",
+    "src": "https://www.archdaily.com/801110/montbau-library-rehabilitation-oliverasboix-arquitectes · Foto: José Hevia",
+    "ar": 1.524
+   },
+   "innen2": {
+    "label": "Inneres Fenster zwischen Bibliotheksbereichen",
+    "src": "https://www.archdaily.com/801110/montbau-library-rehabilitation-oliverasboix-arquitectes · Foto: José Hevia",
+    "ar": 1.501
+   }
+  }
+ },
+ {
+  "slug": "berlin-bibliothek-alte-feuerwache",
+  "title": "Bibliothek Alte Feuerwache, Berlin-Niederschöneweide",
+  "city": "Berlin",
+  "country": "Deutschland",
+  "architect": "Chestnutt_Niess Architekten; Bestand Feuerwache 1907/08 (denkmalgeschützt)",
+  "year": 2015,
+  "category": "klein",
+  "book_page": null,
+  "umbau": true,
+  "note": "Ein dunkel verkleideter, niedriger Neubau legt sich als Winkel um einen neuen Innenhof an die denkmalgeschützte Feuerwache; die Fahrzeughalle wird Veranstaltungsraum, die Freihand liegt im offenen Neubau mit verglaster Hofwand, der Hof ist das Zentrum, an dem Alt und Neu sich treffen.",
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Bibliothek_von_Chestnutt_Niess_Architekten_in_Berlin_4435643.html",
+  "relevance": "Antwort auf Zone a und C′ Kreuzganghaus: der Neubau ordnet sich niedrig unter den geschützten Altbau und bildet mit ihm einen Hof als gemeinsame Mitte – Hof als Organisationsmitte (vgl. Sep-Ruf-Haus) und zweiter Körper mit Abstand in Material und Höhe, statt Anbau-Collage.",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss mit Innenhof",
+    "src": "https://chestnutt-niess.de/bibliothek-alte-feuerwache/",
+    "ar": 1.144
+   },
+   "schnitt": {
+    "label": "Schnitt durch Neubau und Hof",
+    "src": "https://chestnutt-niess.de/bibliothek-alte-feuerwache/",
+    "ar": 1.927
+   },
+   "aussen": {
+    "label": "Außen, Feuerwache und Neubau an der Straße",
+    "src": "https://chestnutt-niess.de/bibliothek-alte-feuerwache/ · Foto: Werner Huthmacher (laut BauNetz)",
+    "ar": 1.5
+   },
+   "innen1": {
+    "label": "Innenhof zwischen Alt und Neu",
+    "src": "https://chestnutt-niess.de/bibliothek-alte-feuerwache/ · Foto: Werner Huthmacher (laut BauNetz)",
+    "ar": 2.089
+   },
+   "innen2": {
+    "label": "Freihand im Neubau mit Blick auf den Altbau",
+    "src": "https://chestnutt-niess.de/bibliothek-alte-feuerwache/ · Foto: Werner Huthmacher (laut BauNetz)",
+    "ar": 1.5
+   }
+  }
+ },
+ {
+  "slug": "berlin-bibliothek-luisenbad",
+  "title": "Bibliothek am Luisenbad",
+  "city": "Berlin",
+  "country": "Deutschland",
+  "architect": "Chestnutt_Niess Architekten",
+  "year": 1995,
+  "category": "klein",
+  "book_page": null,
+  "umbau": true,
+  "note": "Die denkmalgeschützten Reste des Luisenbads (Vestibül und Comptoir) werden Eingang, Café und Lesesäle; der Hauptteil der Bibliothek liegt als halb versenkte, viertelkreisförmige Freihandhalle unter einem begehbaren Platz und ist über Rampen und Lufträume mit dem Altbau verbunden.",
+  "link": "https://chestnutt-niess.de/bibliothek-luisenbad/",
+  "relevance": "Antwort auf die Variante „alles unter die Erde“ und die Adresse: im geschützten Ensemble bleibt der Altbau Adresse und Gesicht, während die eigentliche Bibliothek abgesenkt unter einem öffentlichen Platz liegt – Gegenstück zu Fribourg/Landtag, aber mit sichtbarer Kante zum Platz statt völliger Unsichtbarkeit; Minh würde die bewusst ruinösen Spuren (Palimpsest) schätzen.",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss (vermutl.), Altbau und Platz über der Halle",
+    "src": "https://chestnutt-niess.de/bibliothek-luisenbad/",
+    "ar": 1.452
+   },
+   "og": {
+    "label": "Untergeschoss (vermutl.), versenkte Freihandhalle",
+    "src": "https://chestnutt-niess.de/bibliothek-luisenbad/",
+    "ar": 1.444
+   },
+   "schnitt": {
+    "label": "Längsschnitt, Altbau und abgesenkte Halle",
+    "src": "https://chestnutt-niess.de/bibliothek-luisenbad/",
+    "ar": 1.657
+   },
+   "aussen": {
+    "label": "Außen, verglaste Kante der versenkten Halle am Platz",
+    "src": "https://chestnutt-niess.de/bibliothek-luisenbad/",
+    "ar": 1.501
+   },
+   "innen1": {
+    "label": "Freihandhalle mit Altbauwand",
+    "src": "https://chestnutt-niess.de/bibliothek-luisenbad/",
+    "ar": 1.501
+   },
+   "innen2": {
+    "label": "Rampe zwischen Altbau und Halle (861 px)",
+    "src": "https://chestnutt-niess.de/bibliothek-luisenbad/",
+    "ar": 1.248
+   }
   }
  },
  {
@@ -1238,6 +1809,8 @@
   "book_page": null,
   "umbau": false,
   "note": "Kompakter Block mit einer zentralen Treppenhalle durch alle Geschosse.",
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Stadtbibliothek_in_Heidenheim_von_Max_Dudler_4777540.html",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Erdgeschoss",
@@ -1287,6 +1860,8 @@
   "book_page": null,
   "umbau": false,
   "note": "Ein großer quadratischer Raum über zwei Geschosse; die Lochfassade bringt gleichmäßiges Licht.",
+  "link": "https://www.archdaily.com/145757/kanazawa-umimirai-library-coelacanth-kh-architects",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Erdgeschoss (1F) – Ausschnitt aus Grundrissblatt",
@@ -1331,6 +1906,8 @@
   "book_page": null,
   "umbau": false,
   "note": "Runder Grundriss: Regale entlang der Rundwand, rechteckiger Kern mit Glashof in der Mitte.",
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Stadtbibliothek_bei_Gent_von_Office_8492243.html",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Erdgeschoss (+00)",
@@ -1365,6 +1942,57 @@
   }
  },
  {
+  "slug": "mittweida-stadtbibliothek",
+  "title": "Stadtbibliothek Erich Loest",
+  "city": "Mittweida",
+  "country": "Deutschland",
+  "architect": "Raum und Bau",
+  "year": 2023,
+  "category": "klein",
+  "book_page": null,
+  "umbau": true,
+  "note": "Kompakter Block hinter der wiederhergestellten Gründerzeitfassade: im EG Foyer, Lesecafé und Veranstaltungssaal, darüber ein zweigeschossiger Lesesaal mit umlaufender Galerie und Regalwänden unter einem Zickzack-Dach mit verglasten Giebeln, Kern und Treppe an der Seite.",
+  "link": "https://www.baunetzwissen.de/elektro/objekte/kultur-bildung/stadtbibliothek-in-mittweida-10030424",
+  "relevance": "Antwortet auf die Frage, wie ein Sheddach über einem zweigeschossigen Lesesaal mit Galerie die Mitte des Hauses bildet (Kataloghalle, Richtung B′); für Kempe Thill Architektur des Daches und Raum mit Zentrum, für Minh die Wiederverwendung geborgener Bauteile (Treppe, Türen, Ziegel), auch wenn fast alles neu gebaut wurde.",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss",
+    "src": "https://www.baunetzwissen.de/elektro/objekte/kultur-bildung/stadtbibliothek-in-mittweida-10030424",
+    "ar": 1.16
+   },
+   "og": {
+    "label": "1. OG",
+    "src": "https://www.baunetzwissen.de/elektro/objekte/kultur-bildung/stadtbibliothek-in-mittweida-10030424",
+    "ar": 1.173
+   },
+   "og2": {
+    "label": "2. OG (Galerie)",
+    "src": "https://www.baunetzwissen.de/elektro/objekte/kultur-bildung/stadtbibliothek-in-mittweida-10030424",
+    "ar": 1.17
+   },
+   "schnitt": {
+    "label": "Schnitt A-A",
+    "src": "https://www.baunetzwissen.de/elektro/objekte/kultur-bildung/stadtbibliothek-in-mittweida-10030424",
+    "ar": 2.024
+   },
+   "aussen": {
+    "label": "Außen, Straßenfassade mit Sheddach",
+    "src": "https://www.baunetzwissen.de/elektro/objekte/kultur-bildung/stadtbibliothek-in-mittweida-10030424 · Foto: Henrik Schipper",
+    "ar": 1.5
+   },
+   "innen1": {
+    "label": "Lesesaal mit Galerie unter dem Sheddach",
+    "src": "https://www.baunetzwissen.de/elektro/objekte/kultur-bildung/stadtbibliothek-in-mittweida-10030424 · Foto: Henrik Schipper",
+    "ar": 1.5
+   },
+   "innen2": {
+    "label": "Zweigeschossiger Lesesaal",
+    "src": "https://www.baunetzwissen.de/elektro/objekte/kultur-bildung/stadtbibliothek-in-mittweida-10030424 · Foto: Robert Gomlich",
+    "ar": 1.5
+   }
+  }
+ },
+ {
   "slug": "viipuri-aalto",
   "title": "Stadtbibliothek Viipuri",
   "city": "Wyborg",
@@ -1375,6 +2003,8 @@
   "book_page": null,
   "umbau": false,
   "note": "Zwei versetzte Riegel: Lesesaal mit Oberlichtern auf mehreren Ebenen, Ausleihe in der Mitte.",
+  "link": "https://www.alvaraalto.fi/en/architecture/alvar-aalto-library/",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Erdgeschoss (Eingang, Vortragssaal)",
@@ -1414,6 +2044,292 @@
   }
  },
  {
+  "slug": "vilassar-de-dalt-can-manyer",
+  "title": "Biblioteca Can Manyer",
+  "city": "Vilassar de Dalt",
+  "country": "Spanien",
+  "architect": "Dilmé & Fabré Arquitectes",
+  "year": 2014,
+  "category": "klein",
+  "book_page": null,
+  "umbau": true,
+  "note": "Zwei offene Bibliotheksgeschosse mit Lesetischen und Freihandregalen sind über zwei offene Treppen verbunden, während geschlossene Nebenräume als niedrige Holzeinbauten in den Hallen stehen.",
+  "link": "https://dft.cat/projects/biblioteca-pau-piferrer-de-vilassar-de-dalt/",
+  "relevance": "Für die TIB zeigt Can Manyer, wie zwei neue Treppen und niedrige Einbauten große Bestandsleseräume organisieren und ein vorhandener Boden als Ressource und Spur im Sinne von Minhs Lehre erhalten bleibt.",
+  "images": {
+   "eg": {
+    "label": "vermutl. Erdgeschoss (934 px breit)",
+    "src": "https://dft.cat/projects/biblioteca-pau-piferrer-de-vilassar-de-dalt/",
+    "ar": 1.038
+   },
+   "og": {
+    "label": "vermutl. 1. OG (933 px breit)",
+    "src": "https://dft.cat/projects/biblioteca-pau-piferrer-de-vilassar-de-dalt/",
+    "ar": 1.037
+   },
+   "schnitt": {
+    "label": "Querschnitt durch Halle und Treppe",
+    "src": "https://dft.cat/projects/biblioteca-pau-piferrer-de-vilassar-de-dalt/",
+    "ar": 1.535
+   },
+   "aussen": {
+    "label": "Außen – ehemalige Textilfabrik",
+    "src": "https://dft.cat/projects/biblioteca-pau-piferrer-de-vilassar-de-dalt/",
+    "ar": 1.333
+   },
+   "innen1": {
+    "label": "Treppe und erhaltener Mosaikboden",
+    "src": "https://dft.cat/projects/biblioteca-pau-piferrer-de-vilassar-de-dalt/",
+    "ar": 1.333
+   },
+   "innen2": {
+    "label": "Freihandbereich unter den Dachbindern",
+    "src": "https://dft.cat/projects/biblioteca-pau-piferrer-de-vilassar-de-dalt/",
+    "ar": 1.333
+   }
+  }
+ },
+ {
+  "slug": "barcelona-lleialtat-santsenca",
+  "title": "Centre Cívic Lleialtat Santsenca 1214",
+  "city": "Barcelona",
+  "country": "Spanien",
+  "architect": "HARQUITECTES",
+  "year": 2017,
+  "category": "kollektiv",
+  "book_page": null,
+  "umbau": true,
+  "note": "Drei Bestandskörper mit Sälen und gemeinschaftlichen Arbeitsräumen sind durch ein längliches Atrium mit Treppen und Stegen als gemeinsame Erschließungsstraße verbunden.",
+  "link": "https://divisare.com/projects/380869-h-arquitectes-adria-goula-civic-centre-lleialtat-santsenca-1214",
+  "relevance": "Für die TIB zeigt die belichtete Erschließungsstraße, wie vorhandene Raumteile mit wenigen klaren Verbindungen zu einem Kollektivraum zusammenwachsen und historische Wandspuren nach Minhs Ressourcenprinzip sichtbar bleiben.",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss",
+    "src": "https://www.archdaily.com/es/889533/centro-civico-lleialtat-santsenca-1214-harquitectes",
+    "ar": 1.104
+   },
+   "og": {
+    "label": "2. OG (1173 px breit)",
+    "src": "https://www.archdaily.com/es/889533/centro-civico-lleialtat-santsenca-1214-harquitectes",
+    "ar": 0.861
+   },
+   "schnitt": {
+    "label": "Längsschnitt durch das Atrium",
+    "src": "https://www.archdaily.com/es/889533/centro-civico-lleialtat-santsenca-1214-harquitectes",
+    "ar": 1.521
+   },
+   "aussen": {
+    "label": "Außen – erhaltene Genossenschaftsfassade",
+    "src": "https://www.archdaily.com/es/889533/centro-civico-lleialtat-santsenca-1214-harquitectes · Foto: Adrià Goula",
+    "ar": 0.933
+   },
+   "innen1": {
+    "label": "Atrium mit Stegen und erhaltenen Wandspuren",
+    "src": "https://www.archdaily.com/es/889533/centro-civico-lleialtat-santsenca-1214-harquitectes · Foto: Adrià Goula",
+    "ar": 0.729
+   },
+   "innen2": {
+    "label": "Oberlichtsaal mit Gebrauchsspuren",
+    "src": "https://www.archdaily.com/es/889533/centro-civico-lleialtat-santsenca-1214-harquitectes · Foto: Adrià Goula",
+    "ar": 1.5
+   }
+  }
+ },
+ {
+  "slug": "barcelona-sala-beckett",
+  "title": "Sala Beckett / Obrador Internacional de Dramatúrgia",
+  "city": "Barcelona",
+  "country": "Spanien",
+  "architect": "Flores & Prats",
+  "year": 2016,
+  "category": "kollektiv",
+  "book_page": null,
+  "umbau": true,
+  "note": "Ein öffentliches Foyer mit Bar erschließt den Theaterraum im Erdgeschoss und verbindet über alte und neue Treppen die Proben-, Unterrichts- und Veranstaltungsräume der Obergeschosse.",
+  "link": "https://divisare.com/projects/366518-flores-prats-adria-goula-sala-beckett",
+  "relevance": "Für die TIB zeigt die Weiterverwendung inventarisierter Türen, Fenster, Böden und Treppen, wie Minhs Eingriff am einzelnen Element die Kataloghalle mit neuen gemeinschaftlichen Nutzungen verbinden kann.",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss",
+    "src": "https://www.archdaily.com/799128/sala-beckett-flores-and-prats",
+    "ar": 0.636
+   },
+   "og": {
+    "label": "1. OG",
+    "src": "https://www.archdaily.com/799128/sala-beckett-flores-and-prats",
+    "ar": 0.63
+   },
+   "og2": {
+    "label": "2. OG",
+    "src": "https://www.archdaily.com/799128/sala-beckett-flores-and-prats",
+    "ar": 0.64
+   },
+   "schnitt": {
+    "label": "Längsschnitt B mit Materialschichten",
+    "src": "https://www.archdaily.com/799128/sala-beckett-flores-and-prats",
+    "ar": 2.094
+   },
+   "aussen": {
+    "label": "Außen – Eingang an der Straßenecke",
+    "src": "https://divisare.com/projects/366518-flores-prats-adria-goula-sala-beckett · Foto: Adrià Goula (Angabe Divisare)",
+    "ar": 1.501
+   },
+   "innen1": {
+    "label": "Alte und neue Treppe mit Putzspuren",
+    "src": "https://divisare.com/projects/366518-flores-prats-adria-goula-sala-beckett · Foto: Adrià Goula (Angabe Divisare)",
+    "ar": 2.0
+   },
+   "innen2": {
+    "label": "Öffentliche Bar im ehemaligen Genossenschaftshaus",
+    "src": "https://divisare.com/projects/366518-flores-prats-adria-goula-sala-beckett · Foto: Adrià Goula (Angabe Divisare)",
+    "ar": 2.0
+   }
+  }
+ },
+ {
+  "slug": "berlin-st-agnes",
+  "title": "St. Agnes / König Galerie",
+  "city": "Berlin",
+  "country": "Deutschland",
+  "architect": "Brandlhuber+ Emde, Burlon + Riegler Riewe Architekten; Bestand: Werner Düttmann",
+  "year": 2015,
+  "category": "kollektiv",
+  "book_page": null,
+  "umbau": true,
+  "note": "Eine frei eingestellte Betonebene teilt den hohen ehemaligen Kirchenraum in einen unteren Galerie- und Lagerbereich und einen oberen Ausstellungssaal mit erhaltener Oberlichtbelichtung.",
+  "link": "https://www.baunetzwissen.de/beton/objekte/kultur/st-agnes-kirche-in-berlin-4504165",
+  "relevance": "Für die TIB prüft der einzelne eingestellte Betontisch die Frage nach maximalem Raumgewinn durch einen präzisen Eingriff in eine Nachkriegshalle und verbindet Minhs Ressourcenansatz mit Kempe Thills Interesse an großen einfachen Elementen.",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss",
+    "src": "https://www.baunetzwissen.de/beton/objekte/kultur/st-agnes-kirche-in-berlin-4504165",
+    "ar": 1.333
+   },
+   "og": {
+    "label": "1. OG – eingestellte Galerieebene",
+    "src": "https://www.baunetzwissen.de/beton/objekte/kultur/st-agnes-kirche-in-berlin-4504165",
+    "ar": 1.333
+   },
+   "schnitt": {
+    "label": "Längsschnitt durch Kirche und Nebentrakt",
+    "src": "https://www.baunetzwissen.de/beton/objekte/kultur/st-agnes-kirche-in-berlin-4504165",
+    "ar": 1.787
+   },
+   "aussen": {
+    "label": "Außen – erhaltenes Ensemble der 1960er Jahre",
+    "src": "https://www.baunetzwissen.de/beton/objekte/kultur/st-agnes-kirche-in-berlin-4504165 · Foto: Gute Gestaltung / Ute Zscharnt (Bildnachweis BauNetz Wissen) ? Foto: BauNetz (yk), Berlin",
+    "ar": 1.333
+   },
+   "innen1": {
+    "label": "Galerie unter dem eingestellten Betontisch",
+    "src": "https://www.baunetzwissen.de/beton/objekte/kultur/st-agnes-kirche-in-berlin-4504165 · Foto: Gute Gestaltung / Ute Zscharnt (Bildnachweis BauNetz Wissen)",
+    "ar": 1.501
+   },
+   "innen2": {
+    "label": "Oberer Ausstellungssaal mit alter Dachbelichtung",
+    "src": "https://www.baunetzwissen.de/beton/objekte/kultur/st-agnes-kirche-in-berlin-4504165 · Foto: Gute Gestaltung / Ute Zscharnt (Bildnachweis BauNetz Wissen)",
+    "ar": 1.501
+   }
+  }
+ },
+ {
+  "slug": "london-goldsmiths-cca",
+  "title": "Goldsmiths Centre for Contemporary Art",
+  "city": "London",
+  "country": "Vereinigtes Königreich",
+  "architect": "Assemble",
+  "year": 2018,
+  "category": "kollektiv",
+  "book_page": null,
+  "umbau": true,
+  "note": "Ein doppelgeschossiger Projektraum, Café und Treppen verbinden unterschiedlich belichtete Galerien in den ehemaligen Bädernebenräumen und den erhaltenen Wasserbehältern.",
+  "link": "https://divisare.com/projects/396297-assemble-goldsmiths-cca",
+  "relevance": "Für die TIB zeigt der neue öffentliche Rundgang durch ehemalige Technikräume, wie Treppen, Durchgänge und Oberlichter vorhandene Raumreserven erschließen und robuste Spuren nach Minhs Lehre weiter nutzbar machen.",
+  "images": {
+   "eg": {
+    "label": "Eingangsebene mit Café (vermutl. EG)",
+    "src": "https://divisare.com/projects/396297-assemble-goldsmiths-cca",
+    "ar": 1.599
+   },
+   "og": {
+    "label": "Tank- und Galerieebene (vermutl. 1. OG)",
+    "src": "https://divisare.com/projects/396297-assemble-goldsmiths-cca",
+    "ar": 1.531
+   },
+   "schnitt": {
+    "label": "Querschnitt durch Projektraum und Tanks",
+    "src": "https://divisare.com/projects/396297-assemble-goldsmiths-cca",
+    "ar": 1.672
+   },
+   "aussen": {
+    "label": "Außen – neuer Zugang zwischen Bestandsbauten",
+    "src": "https://divisare.com/projects/396297-assemble-goldsmiths-cca · Foto: Assemble",
+    "ar": 0.667
+   },
+   "innen1": {
+    "label": "Doppelgeschossiger Projektraum mit Wandspuren",
+    "src": "https://divisare.com/projects/396297-assemble-goldsmiths-cca · Foto: Assemble",
+    "ar": 0.692
+   },
+   "innen2": {
+    "label": "Galerie im erhaltenen Wasserbehälter",
+    "src": "https://divisare.com/projects/396297-assemble-goldsmiths-cca · Foto: Assemble",
+    "ar": 1.357
+   }
+  }
+ },
+ {
+  "slug": "paris-palais-de-tokyo",
+  "title": "Palais de Tokyo – zweite Transformationsphase",
+  "city": "Paris",
+  "country": "Frankreich",
+  "architect": "Lacaton & Vassal",
+  "year": 2012,
+  "category": "kollektiv",
+  "book_page": null,
+  "umbau": true,
+  "note": "Vier Bestandsniveaus verbinden Ausstellungshallen, Foyer, Buchhandlung und Gastronomie, während Archiv und Ressourcenzentrum auf Ebene 3A liegen und Treppen die unterschiedlichen Raumhöhen erschließen.",
+  "link": "https://lacatonvassal.com/index.php?idp=20",
+  "relevance": "Für die TIB zeigt die etappenweise Öffnung bislang ungenutzter Räume bei belassenen Beton- und Abbruchspuren, wie Minhs minimale Transformation einen Kollektivraum sowie Archiv- und Rechercheangebote im vorhandenen Tragwerk ermöglicht.",
+  "images": {
+   "eg": {
+    "label": "Eingangsebene 2 (Quellennummerierung)",
+    "src": "https://www.lacatonvassal.com/data/documents/20120619-200555DOMUS_june%202012-40-49_PalaisTokyo.pdf · Domus 959, Juni 2012, S. 44–45 · Zeichnung: Lacaton & Vassal",
+    "ar": 1.195
+   },
+   "og": {
+    "label": "Ebene 3A – Archiv und Ressourcenzentrum",
+    "src": "https://www.lacatonvassal.com/data/documents/20120619-200555DOMUS_june%202012-40-49_PalaisTokyo.pdf · Domus 959, Juni 2012, S. 44–45 · Zeichnung: Lacaton & Vassal",
+    "ar": 1.184
+   },
+   "og2": {
+    "label": "Ebene 3B (Quellennummerierung)",
+    "src": "https://www.lacatonvassal.com/data/documents/20120619-200555DOMUS_june%202012-40-49_PalaisTokyo.pdf · Domus 959, Juni 2012, S. 44–45 · Zeichnung: Lacaton & Vassal",
+    "ar": 1.172
+   },
+   "schnitt": {
+    "label": "Längsschnitt A",
+    "src": "https://www.lacatonvassal.com/data/documents/20120619-200555DOMUS_june%202012-40-49_PalaisTokyo.pdf · Domus 959, Juni 2012, S. 44–45 · Zeichnung: Lacaton & Vassal",
+    "ar": 3.819
+   },
+   "aussen": {
+    "label": "Außen – Avenue du Président Wilson",
+    "src": "https://lacatonvassal.com/index.php?idp=20 · Foto: Philippe Ruault",
+    "ar": 1.499
+   },
+   "innen1": {
+    "label": "Öffentliches Foyer im erhaltenen Betonskelett",
+    "src": "https://www.archdaily.com/248026/palais-de-tokyo-expansion-lacaton-vassal · Foto: 11h45",
+    "ar": 1.501
+   },
+   "innen2": {
+    "label": "Neue Treppe zwischen roh belassenen Bestandsräumen",
+    "src": "https://www.archdaily.com/248026/palais-de-tokyo-expansion-lacaton-vassal · Foto: 11h45",
+    "ar": 0.666
+   }
+  }
+ },
+ {
   "slug": "kopenhagen-black-diamond",
   "title": "Königliche Bibliothek („Schwarzer Diamant“)",
   "city": "Kopenhagen",
@@ -1424,6 +2340,8 @@
   "book_page": 122,
   "umbau": true,
   "note": "Erweiterung am Altbau: zwei Blöcke, dazwischen ein Atrium-Spalt; Brücken über die Straße zum Bestand.",
+  "link": "https://www.baunetz.de/meldungen/Meldungen_Erweiterungsbau_der_Koeniglichen_Bibliothek_Kopenhagen_eroeffnet_5801.html",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Erdgeschoss (Ausschnitt)",
@@ -1463,6 +2381,98 @@
   }
  },
  {
+  "slug": "singapur-nationalbibliothek",
+  "title": "Nationalbibliothek Singapur",
+  "city": "Singapur",
+  "country": "Singapur",
+  "architect": "T. R. Hamzah & Yeang",
+  "year": 2005,
+  "category": "national",
+  "book_page": 126,
+  "umbau": false,
+  "note": "Zwei 16-geschossige Riegel beiderseits einer offenen, überdachten Innenstraße, über Brücken verbunden; Ausleihbibliothek im Untergeschoss, Präsenzbibliothek gestapelt auf den Ebenen 7 bis 13, dazwischen bepflanzte Sky Courts.",
+  "link": "https://www.e-architect.com/singapore/national-library-singapore",
+  "relevance": null,
+  "images": {
+   "eg": {
+    "label": "Grundrisse Ebene 1 (Plaza), Ebene 4 und 5 (klein, 669 px)",
+    "src": "https://www.researchgate.net/figure/Floor-plan-of-the-National-Library-Building_fig2_334467194",
+    "ar": 2.276
+   },
+   "og": {
+    "label": "Orientierungsplan Ebene 7, Lee Kong Chian Reference Library (Website der NLB)",
+    "src": "https://www.nlb.gov.sg/main/visit-us/our-libraries-and-locations/libraries/national-library-singapore",
+    "ar": 2.203
+   },
+   "aussen": {
+    "label": "Außen, Victoria Street",
+    "src": "https://commons.wikimedia.org/wiki/File:Librer%C3%ADa_nacional,_Singapur,_2023-08-17,_DD_15.jpg · Foto: Diego Delso (CC BY-SA 4.0)",
+    "ar": 1.098
+   },
+   "innen1": {
+    "label": "Freihandbereich (Central Arts Library)",
+    "src": "https://commons.wikimedia.org/wiki/File:Nterior_of_Central_Arts_Library_at_the_National_Library_Building,_Singapore,_6_December_2025.jpg · Foto: Leongyy02 (CC BY-SA 4.0)",
+    "ar": 1.3
+   },
+   "innen2": {
+    "label": "Bepflanzter Innenhof",
+    "src": "https://commons.wikimedia.org/wiki/File:The_Courtyard,_NLB_Bldg.JPG · Foto: Terence Ong (CC BY 2.5)",
+    "ar": 1.333
+   }
+  }
+ },
+ {
+  "slug": "leon-guanajuato",
+  "title": "Zentralbibliothek des Bundesstaats Guanajuato",
+  "city": "León",
+  "country": "Mexiko",
+  "architect": "Pei Partnership Architects",
+  "year": 2006,
+  "category": "national",
+  "book_page": 130,
+  "umbau": false,
+  "note": "Zwei Baukörper, verbunden durch eine zweigeschossige Glasgalerie; im Hauptbau ein rundes Atrium durch alle drei Geschosse, Kinderbibliothek und Publikumsbereiche im EG, Lesesäle und Sondersammlungen in den Obergeschossen.",
+  "link": "https://www.ala.org/winner/biblioteca-central-estatal-wigberto-jimenez-moreno",
+  "relevance": null,
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss",
+    "src": "https://bdt.degruyter.com/entry/BDT_17_022/ (Building Types Online, De Gruyter)",
+    "ar": 1.03
+   },
+   "og": {
+    "label": "1. OG",
+    "src": "https://bdt.degruyter.com/entry/BDT_17_022/ (Building Types Online, De Gruyter)",
+    "ar": 1.235
+   },
+   "og2": {
+    "label": "2. OG",
+    "src": "https://bdt.degruyter.com/entry/BDT_17_022/ (Building Types Online, De Gruyter)",
+    "ar": 1.27
+   },
+   "schnitt": {
+    "label": "Längsschnitt",
+    "src": "https://bdt.degruyter.com/entry/BDT_17_022/ (Building Types Online, De Gruyter)",
+    "ar": 2.213
+   },
+   "aussen": {
+    "label": "Außen, mit Stahlpergola",
+    "src": "https://commons.wikimedia.org/wiki/File:Biblioteca_Central_Estatal_de_Guanajuato_(Le%C3%B3n)_I.jpg · Foto: Juan Carlos Fonseca Mata (CC BY-SA 4.0)",
+    "ar": 1.333
+   },
+   "innen1": {
+    "label": "Rundes Atrium mit Skulptur",
+    "src": "https://www.gtoviaja.com/biblioteca-central-estatal-wigberto-jimenez-moreno/ · Foto: gtoviaja",
+    "ar": 1.5
+   },
+   "innen2": {
+    "label": "Galerie zwischen den Baukörpern",
+    "src": "https://www.gtoviaja.com/biblioteca-central-estatal-“wigberto-jimenez-moreno”/ · Foto: gtoviaja",
+    "ar": 1.5
+   }
+  }
+ },
+ {
   "slug": "peking-nationalbibliothek",
   "title": "Chinesische Nationalbibliothek (Erweiterung)",
   "city": "Peking",
@@ -1473,6 +2483,8 @@
   "book_page": 134,
   "umbau": true,
   "note": "Erweiterung: Schatzmagazin im Sockel, darüber offene Lese-Terrassen unter einem schwebenden Dach.",
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Nationalbibliothek_in_China_fertig_639307.html",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Erdgeschoss (Ausschnitt aus Grundrissblatt)",
@@ -1517,6 +2529,8 @@
   "book_page": 140,
   "umbau": true,
   "note": "Anbau an den Altbau: Magazingeschosse im Raster, ein öffentlicher Weg verbindet Alt und Neu.",
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Erweiterungsbau_der_Nationalbibliothek_in_Leipzig_fertig_1603035.html",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Erdgeschoss („Öffentlicher Weg“, mit Altbau)",
@@ -1561,6 +2575,8 @@
   "book_page": null,
   "umbau": true,
   "note": "Umbau im Bestand: neuer Lesesaal-Kubus im kriegszerstörten Kern, Magazine ringsum im Altbau.",
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Generalsanierung_von_hg_merz_in_Berlin_abgeschlossen_7045583.html",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "2. Bibliotheksgeschoss (Eingangsebene mit Lindenhalle und Brunnenhof)",
@@ -1631,7 +2647,8 @@
     "src": "https://thomasguignard.photo/2022/11/20/the-british-library/ · Foto: Thomas Guignard",
     "ar": 1.501
    }
-  }
+  },
+  "link": "https://www.baunetz.de/meldungen/Meldungen_Neubau_der_British_Library_in_London_feierlich_eingeweiht_3803.html"
  },
  {
   "slug": "jerusalem-nli",
@@ -1675,6 +2692,48 @@
     "src": "https://mann-shinar.com/project/national-library-of-israel-3/ · Foto: Hufton + Crow",
     "ar": 1.902
    }
+  },
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Nationalbibliothek_von_Herzog_-_de_Meuron_4728837.html"
+ },
+ {
+  "slug": "paris-bnf",
+  "title": "Bibliothèque nationale de France, Site François-Mitterrand",
+  "city": "Paris",
+  "country": "Frankreich",
+  "architect": "Dominique Perrault",
+  "year": 1996,
+  "category": "national",
+  "book_page": null,
+  "umbau": false,
+  "note": "Vier L-förmige Magazintürme an den Ecken einer Holzesplanade; die Lesesäle liegen in zwei Sockelgeschossen (Haut-de-jardin öffentlich, Rez-de-jardin Forschung) als Ring um einen versenkten Waldgarten.",
+  "link": "https://divisare.com/projects/336345-dominique-perrault-architecture-davide-galli-national-library-of-france",
+  "relevance": null,
+  "images": {
+   "eg": {
+    "label": "Orientierungsplan Haut-de-jardin (Publikumsebene, Website der BnF, 2014)",
+    "src": "https://www.bnf.fr/sites/default/files/2019-02/plan_hdj.pdf",
+    "ar": 0.5
+   },
+   "og": {
+    "label": "Orientierungsplan Rez-de-jardin (Forschungsebene, Gartengeschoss darunter)",
+    "src": "https://commons.wikimedia.org/wiki/File:Plan_de_la_Biblioth%C3%A8que_du_Rez-de-jardin.svg · Grafik: Paris 16 (CC BY-SA 4.0)",
+    "ar": 1.938
+   },
+   "aussen": {
+    "label": "Außen: Esplanade mit zwei der vier Türme und dem versenkten Garten",
+    "src": "https://www.archdaily.com/103592/ad-classics-national-library-of-france-dominique-perrault-2 · Foto: Davide Galli Atelier Fotografico",
+    "ar": 1.501
+   },
+   "innen1": {
+    "label": "Forschungslesesaal Rez-de-jardin",
+    "src": "https://commons.wikimedia.org/wiki/File:Paris_BNF_Biblioth%C3%A8que_nationale_de_France,_site_Fran%C3%A7ois_Mitterrand_-_Rez-de-Jardin.jpg · Foto: Vincent Desjardins",
+    "ar": 1.331
+   },
+   "innen2": {
+    "label": "Lesesaal am Garten (geringe Auflösung, 470 px)",
+    "src": "https://www.archdaily.com/103592/ad-classics-national-library-of-france-dominique-perrault-2 · Foto: Perrault Architecture",
+    "ar": 0.767
+   }
   }
  },
  {
@@ -1688,6 +2747,8 @@
   "book_page": null,
   "umbau": true,
   "note": "Umbau des historischen Bibliotheksblocks: Säle und Magazine saniert, neue Erschließung und Glasgalerie am Ehrenhof.",
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Modernisierung_von_Atelier_Bruno_Gaudin_in_Paris_8097081.html",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Erdgeschoss, Bestand vor Umbau (grün: Erschließung)",
@@ -1732,6 +2793,8 @@
   "book_page": 216,
   "umbau": false,
   "note": "Bibliothek unter einem begrünten Dachkeil: eine große Halle mit Bücherwand, der Kegel bringt Licht.",
+  "link": "https://www.mecanoo.nl/Projects/project/27/Library-Delft-University-of-Technology?t=0",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Erdgeschoss",
@@ -1771,6 +2834,52 @@
   }
  },
  {
+  "slug": "zuerich-rechtswiss",
+  "title": "Bibliothek des Rechtswissenschaftlichen Instituts, Universität Zürich",
+  "city": "Zürich",
+  "country": "Schweiz",
+  "architect": "Santiago Calatrava",
+  "year": 2004,
+  "category": "uni",
+  "book_page": 220,
+  "umbau": true,
+  "note": "Elliptischer, glasüberdachter Lichthof im Innenhof des Altbaus mit sechs geschwungenen Galerien aus Freihandregalen und Brüstungsleseplätzen, erschlossen über zwei Treppen- und Liftkerne an den Schmalseiten.",
+  "link": "https://www.baunetz.de/meldungen/Meldungen_Universitaetsbibliothek_von_Calatrava_in_Zuerich_vor_Eroeffnung_17851.html",
+  "relevance": null,
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss (Planstand 2000)",
+    "src": "https://www.uzh.ch/cmsssl/ius/dam/jcr:a640b057-9720-46cc-8303-65e295deb382/Ausstellungsplakat%20Baugeschichte%20Chemical%20Landmark%20R%C3%A4mistrasse.pdf · Plan: Santiago Calatrava",
+    "ar": 1.186
+   },
+   "og": {
+    "label": "2. OG mit Lesegalerien (Planstand 2000)",
+    "src": "https://www.uzh.ch/cmsssl/ius/dam/jcr:a640b057-9720-46cc-8303-65e295deb382/Ausstellungsplakat%20Baugeschichte%20Chemical%20Landmark%20R%C3%A4mistrasse.pdf · Plan: Santiago Calatrava",
+    "ar": 1.218
+   },
+   "schnitt": {
+    "label": "Querschnitt Rämistrasse – Schönleinstrasse",
+    "src": "https://www.uzh.ch/cmsssl/ius/dam/jcr:a640b057-9720-46cc-8303-65e295deb382/Ausstellungsplakat%20Baugeschichte%20Chemical%20Landmark%20R%C3%A4mistrasse.pdf · Plan: Santiago Calatrava",
+    "ar": 2.19
+   },
+   "aussen": {
+    "label": "Außen (Luftbild, Glaskuppel im Hof des Altbaus)",
+    "src": "https://calatrava.com/projects/university-of-zurich-law-faculty-zuerich.html",
+    "ar": 1.287
+   },
+   "innen1": {
+    "label": "Elliptische Galerien mit Freihandregalen",
+    "src": "https://calatrava.com/projects/university-of-zurich-law-faculty-zuerich.html",
+    "ar": 1.292
+   },
+   "innen2": {
+    "label": "Lesetische unter dem Oberlicht",
+    "src": "https://calatrava.com/projects/university-of-zurich-law-faculty-zuerich.html",
+    "ar": 1.278
+   }
+  }
+ },
+ {
   "slug": "berlin-philologische",
   "title": "Philologische Bibliothek, Freie Universität",
   "city": "Berlin",
@@ -1781,6 +2890,8 @@
   "book_page": 226,
   "umbau": false,
   "note": "Einbau in einen Innenhof der „Rostlaube“: geschwungene Geschosse unter einer Kuppelhülle.",
+  "link": "https://www.baunetz.de/meldungen/Meldungen_Foster-Bibliothek_in_Berlin_eroeffnet_21295.html",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Erdgeschoss (Level 0)",
@@ -1825,6 +2936,8 @@
   "book_page": 232,
   "umbau": false,
   "note": "Langer Block, Regale im Raster; mittiger Lesesaal mit Terrassen, die nach oben zurückspringen.",
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Dudler_gewinnt_Wettbewerb_fuer_Grimm-Zentrum_in_Berlin_17903.html",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Erdgeschoss",
@@ -1869,6 +2982,8 @@
   "book_page": 248,
   "umbau": false,
   "note": "",
+  "link": "https://www.tsinghua.edu.cn/en/info/1245/4510.htm",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Erdgeschoss",
@@ -1913,6 +3028,8 @@
   "book_page": 252,
   "umbau": false,
   "note": "Kompakter Würfel mit Atrium in der Mitte, Lesebereiche ringsum; Kompaktmagazin im UG.",
+  "link": "https://10lat.ciniba.edu.pl/projekt-ciniba/",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Erdgeschoss",
@@ -1998,6 +3115,191 @@
     "src": "https://www.archdaily.com/276161/university-of-aberdeen-new-library-schmidt-hammer-lassen-architects · Foto: bereitgestellt von Schmidt Hammer Lassen Architects (Fotograf nicht genannt)",
     "ar": 1.336
    }
+  },
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Queen_weiht_Bibliothek_in_Aberdeen_ein_2947431.html"
+ },
+ {
+  "slug": "antwerpen-campus-opera",
+  "title": "Campus Opera, KU Leuven (ehem. Provinciaal Veiligheidsinstituut)",
+  "city": "Antwerpen",
+  "country": "Belgien",
+  "architect": "B-architecten; Bestand Marc Appel und Jan Welslau (Entwurf 1946, 1950er)",
+  "year": 2024,
+  "category": "uni",
+  "book_page": null,
+  "umbau": true,
+  "note": "Nachkriegsbau um ein ovales Atrium unter Glasdach: die 1990 eingezogene Decke zwischen EG und 1. OG wird entfernt und die Treppe rekonstruiert, sodass die Halle wieder durch alle Geschosse reicht; auf den umlaufenden Galerien liegt die offene Bibliothek, im EG Treff- und Cafébereich, Hörsaal und Seminarräume liegen am Rand.",
+  "link": "https://b-architecten.be/projects/jezusstraat",
+  "relevance": "Direkteste Antwort auf die Kataloghalle (Strategie D): eine Nachkriegs-Mitte unter Glasdach wird durch Rückbau einer späteren Zutat wieder geöffnet und als Kollektivraum mit Freihand auf den Galerien genutzt – Kempe Thills „Zutaten weg, Mitte stärken“ und Minhs kleinster Eingriff mit größter Raumwirkung in einem Projekt.",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss (Niveau 0)",
+    "src": "https://www.archdaily.com/1016401/campus-opera-b-architecten",
+    "ar": 1.546
+   },
+   "og": {
+    "label": "2. OG (Niveau +2)",
+    "src": "https://www.archdaily.com/1016401/campus-opera-b-architecten",
+    "ar": 1.546
+   },
+   "schnitt": {
+    "label": "Längsschnitt durch das Atrium",
+    "src": "https://www.archdaily.com/1016401/campus-opera-b-architecten",
+    "ar": 2.414
+   },
+   "aussen": {
+    "label": "Außen, Fassade Jezusstraat",
+    "src": "https://www.archdaily.com/1016401/campus-opera-b-architecten · Foto: Lucid",
+    "ar": 0.634
+   },
+   "innen1": {
+    "label": "Atrium mit Bibliotheksgalerien und Glasdach",
+    "src": "https://www.archdaily.com/1016401/campus-opera-b-architecten · Foto: Lucid",
+    "ar": 0.666
+   },
+   "innen2": {
+    "label": "Wieder geöffnetes Atrium vom Erdgeschoss",
+    "src": "https://www.archdaily.com/1016401/campus-opera-b-architecten · Foto: Lucid",
+    "ar": 0.687
+   }
+  }
+ },
+ {
+  "slug": "basel-universitaetsbibliothek",
+  "title": "Universitätsbibliothek Basel, Umbau",
+  "city": "Basel",
+  "country": "Schweiz",
+  "architect": "Schröer Sell Architekten (Bestand: Otto H. Senn 1962–68; Magazinbau Emanuel La Roche 1896)",
+  "year": 2021,
+  "category": "uni",
+  "book_page": null,
+  "umbau": true,
+  "note": "Langer Magazinflügel von 1896 und Senn-Bau der 1960er mit verglaster Straßenfront treffen im spitzen Winkel; großer sechseckiger Lesesaal mit Galerie unter Betonschale im Zentrum, Umbau im Betrieb mit offenen Lernlandschaften im Foyer und den Freihandgeschossen.",
+  "link": "https://www.baunetzwissen.de/akustik/objekte/bildung/umbau-universitaetsbibliothek-in-basel-7895888",
+  "relevance": "Antwortet direkt auf die TIB-Frage, wie eine denkmalgeschützte Universitätsbibliothek der 1960er mit Glas-Metall-Fassade vom Archiv zur Lernlandschaft wird, ohne Oberflächen zu ändern; Minh-Fall par excellence (Bestand als Ressource, schrittweise, Eingriffe rot in den Plänen), für Kempe Thill Gegenprobe zur Hülle-sanieren-Strategie (Kallmorgen).",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss (Eingriffe rot), klein: ca. 830 × 1370 px",
+    "src": "https://www.baunetzwissen.de/akustik/objekte/bildung/umbau-universitaetsbibliothek-in-basel-7895888",
+    "ar": 0.606
+   },
+   "og": {
+    "label": "1. OG mit großem Lesesaal, klein: ca. 830 × 1370 px",
+    "src": "https://www.baunetzwissen.de/akustik/objekte/bildung/umbau-universitaetsbibliothek-in-basel-7895888",
+    "ar": 0.609
+   },
+   "og2": {
+    "label": "2. OG, klein: ca. 830 × 1370 px",
+    "src": "https://www.baunetzwissen.de/akustik/objekte/bildung/umbau-universitaetsbibliothek-in-basel-7895888",
+    "ar": 0.609
+   },
+   "aussen": {
+    "label": "Außen, Senn-Bau der 1960er",
+    "src": "https://www.baunetzwissen.de/akustik/objekte/bildung/umbau-universitaetsbibliothek-in-basel-7895888 · Foto: Mark Niedermann",
+    "ar": 1.5
+   },
+   "innen1": {
+    "label": "Foyer mit Treppe",
+    "src": "https://www.baunetzwissen.de/akustik/objekte/bildung/umbau-universitaetsbibliothek-in-basel-7895888 · Foto: Andi Cortellini",
+    "ar": 1.333
+   },
+   "innen2": {
+    "label": "Lernplätze an der Treppe",
+    "src": "https://www.baunetzwissen.de/akustik/objekte/bildung/umbau-universitaetsbibliothek-in-basel-7895888 · Foto: Andi Cortellini",
+    "ar": 1.501
+   }
+  }
+ },
+ {
+  "slug": "berlin-tu-ub",
+  "title": "Universitätsbibliothek der TU und UdK Berlin",
+  "city": "Berlin",
+  "country": "Deutschland",
+  "architect": "Walter A. Noebel",
+  "year": 2004,
+  "category": "uni",
+  "book_page": null,
+  "umbau": false,
+  "note": "Langer fünfgeschossiger Block mit drei Lichthöfen, um die sich auf jeder Etage Freihandregale und Leseplätze legen; Erschließung über Treppen zwischen den Höfen, Magazin im Untergeschoss.",
+  "link": "https://www.baunetzwissen.de/sicherheitstechnik/objekte/kultur-bildung/universitaetsbibliothek-in-berlin-72708",
+  "relevance": null,
+  "images": {
+   "eg": {
+    "label": "Orientierungsplan EG (Website der Bibliothek)",
+    "src": "https://www.tu.berlin/ub/suchen-ausleihen/suche-in-tu-bibliotheken/wegweiser-zum-buch",
+    "ar": 1.876
+   },
+   "og": {
+    "label": "Orientierungsplan 2. OG (Website der Bibliothek)",
+    "src": "https://www.tu.berlin/ub/suchen-ausleihen/suche-in-tu-bibliotheken/wegweiser-zum-buch",
+    "ar": 1.89
+   },
+   "aussen": {
+    "label": "Außen, Ecke Fasanenstraße",
+    "src": "https://commons.wikimedia.org/wiki/File:Berlin_tuhdk_bib_24.04.2012_12-28-54.jpg · Foto: Dirk Ingo Franje",
+    "ar": 1.505
+   },
+   "innen1": {
+    "label": "Lichthof über alle Geschosse",
+    "src": "https://commons.wikimedia.org/wiki/File:VW_Bibliothek_interior.jpg · Foto: Matti Blume",
+    "ar": 0.738
+   },
+   "innen2": {
+    "label": "Lesesaal im Erdgeschoss",
+    "src": "https://commons.wikimedia.org/wiki/File:Reading_room,_Ground_floor,_VW_Library,_Berlin.jpg · Foto: MB-one",
+    "ar": 1.333
+   }
+  }
+ },
+ {
+  "slug": "bern-vonroll",
+  "title": "Universitätsbibliothek vonRoll (Hochschulzentrum vonRoll, Neubau Institutsgebäude auf ehem. Fabrikareal)",
+  "city": "Bern",
+  "country": "Schweiz",
+  "architect": "Giuliani Hönger (Entwurf) mit Spreng + Partner / arb Architekten",
+  "year": 2013,
+  "category": "uni",
+  "book_page": null,
+  "umbau": true,
+  "note": "Freihandbibliothek als ein großer Hallenraum im 2. Untergeschoss unter drei Lichthöfen, darunter das zentrale Speichermagazin der UB, darüber Unterricht und Büros um die Höfe.",
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Wettbewerb_fuer_Uni_Bern_entschieden_17407.html",
+  "relevance": null,
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss Institutsgebäude",
+    "src": "https://www.phbern.ch/sites/default/files/2019-12/20141017_broschuere_vonroll_rek.pdf · Plan: AGG Kanton Bern",
+    "ar": 1.372
+   },
+   "og": {
+    "label": "2. UG – Freihandbibliothek",
+    "src": "https://www.phbern.ch/sites/default/files/2019-12/20141017_broschuere_vonroll_rek.pdf · Plan: AGG Kanton Bern",
+    "ar": 1.402
+   },
+   "og2": {
+    "label": "3. UG – Speichermagazin der UB",
+    "src": "https://www.phbern.ch/sites/default/files/2019-12/20141017_broschuere_vonroll_rek.pdf · Plan: AGG Kanton Bern",
+    "ar": 1.366
+   },
+   "schnitt": {
+    "label": "Längsschnitt mit drei Lichthöfen",
+    "src": "https://www.phbern.ch/sites/default/files/2019-12/20141017_broschuere_vonroll_rek.pdf · Plan: AGG Kanton Bern",
+    "ar": 4.175
+   },
+   "aussen": {
+    "label": "Außen: Institutsgebäude Fabrikstrasse 8 (Neubau mit Bibliothek)",
+    "src": "https://commons.wikimedia.org/wiki/File:Areal_vonRoll_der_Universit%C3%A4t_Bern.jpg · Foto: Universität Bern",
+    "ar": 1.5
+   },
+   "innen1": {
+    "label": "Freihandbibliothek über drei Untergeschosse (Blick von oben)",
+    "src": "https://commons.wikimedia.org/wiki/File:Bibliothek_des_Hochschulzentrums_vonRoll.JPG · Foto: PHBern",
+    "ar": 1.509
+   },
+   "innen2": {
+    "label": "Lesebereich unter dem Oberlicht (gleicher Hallenraum, andere Ebene)",
+    "src": "https://commons.wikimedia.org/wiki/File:Bibliothek_vonRoll_der_Universit%C3%A4t_Bern.jpg · Foto: Universität Bern",
+    "ar": 1.5
+   }
   }
  },
  {
@@ -2011,6 +3313,8 @@
   "book_page": null,
   "umbau": true,
   "note": "Neubau am 1970er-Campus: unten Cafeteria + Hörsaal, oben die Bibliothek um einen Kern; Galerie verbindet die Altbauten.",
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Erweiterung_in_Budapest_von_Gereben_Marian_Epiteszek_8628347.html",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Erdgeschoss Campus mit Neubau (Erschließung gelb)",
@@ -2041,6 +3345,47 @@
     "label": "Lesesaal",
     "src": "https://www.baunetz.de/meldungen/Meldungen-Erweiterung_in_Budapest_von_Gereben_Marian_Epiteszek_8628347.html",
     "ar": 1.25
+   }
+  }
+ },
+ {
+  "slug": "canterbury-templeman-library",
+  "title": "Templeman Library, University of Kent – Erweiterung und Umbau",
+  "city": "Canterbury",
+  "country": "Vereinigtes Königreich",
+  "architect": "Penoyre & Prasad; Bestand Lord Holford (ab 1968)",
+  "year": 2017,
+  "category": "uni",
+  "book_page": null,
+  "umbau": true,
+  "note": "Brutalistische Campusbibliothek aus vier Blöcken (A–D) mit Betonkassettendecken, um einen fünfgeschossigen Erweiterungsriegel zum Campusplatz ergänzt; ein mehrgeschossiges Atrium an der alten Ziegelfassade und herausgeschnittene Deckenfelder verbinden die Ebenen, das Erdgeschoss wird mit Café, Hörsaal und Seminarräumen öffentlich.",
+  "link": "https://architecturetoday.co.uk/?p=121610",
+  "relevance": "Antwort auf Zone a und die Fuge (A′/D): eine 1960er-Universitätsbibliothek ohne vorgesehene Erweiterung wächst um einen Riegel, die alte Außenwand wird Innenwand eines Atriums und die Bestandsdecken werden gezielt geöffnet – für Kempe Thill lehrreich als Skelett-weiterbauen, aber die Lamellenfassade ist eher Geste als Ordnung (Gegenbeispiel für die Hülle).",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss (Besucherplan der Bibliothek, schematisch)",
+    "src": "https://kent.ac.uk/infoscreen/templeman/floor-plans.pdf",
+    "ar": 2.308
+   },
+   "og": {
+    "label": "1. OG (Besucherplan der Bibliothek, schematisch)",
+    "src": "https://kent.ac.uk/infoscreen/templeman/floor-plans.pdf",
+    "ar": 2.54
+   },
+   "aussen": {
+    "label": "Außen, Bestand (Ziegel) und Erweiterung zum Campusplatz",
+    "src": "https://architecturetoday.co.uk/?p=121610 · Foto: Quintin Lake",
+    "ar": 1.5
+   },
+   "innen1": {
+    "label": "Atrium an der alten Ziegelfassade",
+    "src": "https://architecturetoday.co.uk/?p=121610 · Foto: Quintin Lake",
+    "ar": 0.667
+   },
+   "innen2": {
+    "label": "Bestandsgeschoss mit Kassettendecke und geöffneten Deckenfeldern",
+    "src": "https://architecturetoday.co.uk/?p=121610 · Foto: Tim Crocker",
+    "ar": 1.5
    }
   }
  },
@@ -2091,7 +3436,8 @@
     "src": "https://www.herzogdemeuron.com/projects/166-ikmz-btu-cottbus-information-communications-and-media-centre-brandenburg-university-of-technology/ · Foto: Duccio Malagamba",
     "ar": 0.853
    }
-  }
+  },
+  "link": "https://www.baunetz.de/meldungen/Meldungen_Bibliothek_von_Herzog_de_Meuron_in_Cottbus_eroeffnet_18845.html"
  },
  {
   "slug": "darmstadt-ulb",
@@ -2104,6 +3450,8 @@
   "book_page": null,
   "umbau": false,
   "note": "Großer Block mit zentralem Atrium; Leseplätze an der Fassade, Freihand in der Gebäudetiefe.",
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Bibliothek_in_Darmstadt_fertig_3257525.html",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Erdgeschoss",
@@ -2138,6 +3486,200 @@
   }
  },
  {
+  "slug": "dresden-slub",
+  "title": "SLUB Sächsische Landesbibliothek – Staats- und Universitätsbibliothek",
+  "city": "Dresden",
+  "country": "Deutschland",
+  "architect": "Ortner & Ortner",
+  "year": 2002,
+  "category": "uni",
+  "book_page": null,
+  "umbau": false,
+  "note": "Zwei Kuben über einem dreigeschossigen, unter dem Rasen liegenden Sockel; der Lesesaal sitzt als Halle mit Oberlicht in der Mitte, Freihand und Arbeitsplätze ringsum auf den Ebenen 0 bis -2.",
+  "link": "https://ortner-ortner.com/de/baukunst/projekte/kultur/slub-dresden",
+  "relevance": null,
+  "images": {
+   "eg": {
+    "label": "Orientierungsplan Ebene 0 (Eingang, Lesesaal in der Mitte; 3D-Gebäudeplan der SLUB, Draufsicht)",
+    "src": "https://3d.slub-dresden.de/viewer?p=3&b=5&f=11&lang=de",
+    "ar": 1.0
+   },
+   "og": {
+    "label": "Orientierungsplan Ebene -1 (Freihand unter dem Rasen; 3D-Gebäudeplan der SLUB, Draufsicht)",
+    "src": "https://3d.slub-dresden.de/viewer?p=3&b=5&f=21&lang=de",
+    "ar": 1.0
+   },
+   "og2": {
+    "label": "Grundrisse Kubus: Ebene 1 (Vortragssaal, Cafeteria) und vermutl. Ebene 2 (klein, 560 px)",
+    "src": "https://www.archiweb.cz/en/b/s-l-u-b",
+    "ar": 1.333
+   },
+   "schnitt": {
+    "label": "Längsschnitt durch Lesesaal und beide Kuben (Scan, 990 px)",
+    "src": "https://aeworldmap.com/2022/11/09/saxon-state-and-university-library-dresden-germany/",
+    "ar": 2.26
+   },
+   "aussen": {
+    "label": "Außen (beide Kuben, Lesesaal-Oberlicht im Rasen)",
+    "src": "https://www.ortner-ortner.com/en/baukunst/projekte/kultur/slub-dresden · Foto: Stefan Müller",
+    "ar": 1.436
+   },
+   "innen1": {
+    "label": "Zentraler Lesesaal",
+    "src": "https://www.ortner-ortner.com/en/baukunst/projekte/kultur/slub-dresden · Foto: Stefan Müller",
+    "ar": 1.373
+   },
+   "innen2": {
+    "label": "Freihandbereich mit Galerie",
+    "src": "https://www.ortner-ortner.com/en/baukunst/projekte/kultur/slub-dresden · Foto: Stefan Müller",
+    "ar": 1.258
+   }
+  }
+ },
+ {
+  "slug": "eindhoven-metaforum",
+  "title": "MetaForum, TU Eindhoven (Universitätsbibliothek in der W-Hal)",
+  "city": "Eindhoven",
+  "country": "Niederlande",
+  "architect": "Ector Hoogstad Architecten",
+  "year": 2012,
+  "category": "uni",
+  "book_page": null,
+  "umbau": true,
+  "note": "Die Nachkriegs-Versuchshalle W-Hal wird unter ihrem Hallendach zur offenen Bibliotheks- und Lernlandschaft mit Lufträumen ins neue Untergeschoss; darüber steht der Fakultätsblock auf eigenen Schrägstützen durch die Halle, ohne das alte Tragwerk zu belasten.",
+  "link": "https://ectorhoogstad.com/en/project/metaforum-eindhoven-university-technology",
+  "relevance": "Beantwortet Zone b und Strategie E zugleich: Aufstockung über einer Halle auf eigener Struktur statt Lastnachweis, und ein großes Dach über Alt und Neu, unter dem Bibliothek und Lernen ein Kollektivraum werden – für Kempe Thill ein Beleg für Skelett erhalten und Struktur vor Programm, kritisch bleibt die Höhe des Turms gegenüber einem Ensemble wie dem Welfenschloss.",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss",
+    "src": "https://www.archdaily.com/288636/metaforum-ector-hoogstad-architecten",
+    "ar": 0.611
+   },
+   "og": {
+    "label": "1. OG (Galerie über der Lernlandschaft)",
+    "src": "https://www.archdaily.com/288636/metaforum-ector-hoogstad-architecten",
+    "ar": 0.589
+   },
+   "og2": {
+    "label": "4. OG (Fakultätsgeschoss über dem Hallendach)",
+    "src": "https://www.archdaily.com/288636/metaforum-ector-hoogstad-architecten",
+    "ar": 0.589
+   },
+   "schnitt": {
+    "label": "Querschnitt",
+    "src": "https://www.archdaily.com/288636/metaforum-ector-hoogstad-architecten",
+    "ar": 1.83
+   },
+   "aussen": {
+    "label": "Außen, Halle mit aufgesetztem Fakultätsblock",
+    "src": "https://www.archdaily.com/288636/metaforum-ector-hoogstad-architecten · Foto: Bart van Overbeeke / Norbert van Onna",
+    "ar": 1.339
+   },
+   "innen1": {
+    "label": "Lernlandschaft unter dem Hallendach, Schrägstützen des Aufbaus",
+    "src": "https://www.archdaily.com/288636/metaforum-ector-hoogstad-architecten · Foto: Bart van Overbeeke / Norbert van Onna",
+    "ar": 1.339
+   },
+   "innen2": {
+    "label": "Lufträume zur Bibliothek im Untergeschoss",
+    "src": "https://www.archdaily.com/288636/metaforum-ector-hoogstad-architecten · Foto: Bart van Overbeeke / Norbert van Onna",
+    "ar": 0.747
+   }
+  }
+ },
+ {
+  "slug": "espoo-harald-herlin",
+  "title": "Harald Herlin Learning Centre (Aalto-Universitätsbibliothek)",
+  "city": "Espoo",
+  "country": "Finnland",
+  "architect": "Arkkitehdit NRT (Architektur) mit JKMM Architects (Innenraum); Bestand Alvar Aalto 1970",
+  "year": 2016,
+  "category": "uni",
+  "book_page": null,
+  "umbau": true,
+  "note": "Aaltos Universitätsbibliothek von 1970: der zweigeschossige Lesesaal oben bleibt restauriert, darunter werden die früheren Magazin- und Nebenräume durch einen Deckendurchbruch mit Treppe zu einer offenen Lernlandschaft mit Café, Gruppenräumen und Nischen.",
+  "link": "https://jkmm.fi/work/harald-herlin-learning-center/",
+  "relevance": "Antwort auf die Kernfrage Kataloghalle/Magazin als Kollektivraum (Strategie D): eine geschützte 1960/70er-Universitätsbibliothek bleibt in Hülle und Lesesaal unangetastet, das Archivgeschoss wird mit einem einzigen Schnitt zum Lernzentrum – Minhs kleinster Hebel mit großer Raumwirkung, aber die bunte Möblierung ist genau die bloße Neumöblierung, über die der TIB-Entwurf hinausgehen muss.",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss (finn. 1. Geschoss), Lernzentrum mit Deckendurchbruch",
+    "src": "https://www.archdaily.com/876977/aalto-university-library-harald-herlin-learning-centre-jkmm",
+    "ar": 2.493
+   },
+   "og": {
+    "label": "2. Geschoss mit Aaltos Lesesaal",
+    "src": "https://www.archdaily.com/876977/aalto-university-library-harald-herlin-learning-centre-jkmm",
+    "ar": 2.496
+   },
+   "schnitt": {
+    "label": "Schnitt als Konzeptdiagramm (kein Werkplan)",
+    "src": "https://www.archdaily.com/876977/aalto-university-library-harald-herlin-learning-centre-jkmm",
+    "ar": 1.085
+   },
+   "aussen": {
+    "label": "Außen, Eingang (Aalto-Bau 1970)",
+    "src": "https://commons.wikimedia.org/wiki/File:Otaniemi_campus_library.jpg · Foto: Juutilai",
+    "ar": 1.45
+   },
+   "innen1": {
+    "label": "Lernlandschaft unter dem Deckendurchbruch",
+    "src": "https://www.archdaily.com/876977/aalto-university-library-harald-herlin-learning-centre-jkmm · Foto: Tuomas Uusheimo",
+    "ar": 1.333
+   },
+   "innen2": {
+    "label": "Aaltos Lesesaal mit Oberlichtern, restauriert",
+    "src": "https://www.archdaily.com/876977/aalto-university-library-harald-herlin-learning-centre-jkmm · Foto: Tuomas Uusheimo",
+    "ar": 1.0
+   }
+  }
+ },
+ {
+  "slug": "essen-folkwang-bibliothek",
+  "title": "Folkwang Bibliothek",
+  "city": "Essen",
+  "country": "Deutschland",
+  "architect": "Max Dudler",
+  "year": 2012,
+  "category": "uni",
+  "book_page": null,
+  "umbau": false,
+  "note": "Kompakter Block, der das Geviert der ehemaligen Abtei Werden schließt: mittiger, über alle Obergeschosse offener Lesesaal unter Oberlichtkassetten, Regale in den Raumschichten beidseits, Treppe und Kerne in der Spitze des Trapezes, Magazin im Untergeschoss.",
+  "link": "https://divisare.com/projects/216443-max-dudler-stefan-muller-folkwang-library",
+  "relevance": "Antwortet auf die Frage, wie ein neuer Körper einen historischen Hof schließt und innen ein Oberlicht-Lesesaal als Mitte wirkt (Zone a, Oberlicht); für Kempe Thill Raster, Symmetrie und Licht durch die Wand (Onyx-Glas wie Beinecke), Dudler ist Studio-Gast.",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss (vermutl.), klein: 1177 px",
+    "src": "https://www.archdaily.com/320254/folkwang-library-max-dudler",
+    "ar": 1.418
+   },
+   "og": {
+    "label": "Obergeschoss mit Lesesaal-Luftraum (vermutl.), klein: 1134 px",
+    "src": "https://www.archdaily.com/320254/folkwang-library-max-dudler",
+    "ar": 2.268
+   },
+   "schnitt": {
+    "label": "Schnitt",
+    "src": "https://www.archdaily.com/320254/folkwang-library-max-dudler",
+    "ar": 4.367
+   },
+   "aussen": {
+    "label": "Außen, Hofseite neben dem Abteibau",
+    "src": "https://www.archdaily.com/320254/folkwang-library-max-dudler · Foto: Stefan Müller",
+    "ar": 1.354
+   },
+   "innen1": {
+    "label": "Lesesaal unter Oberlicht",
+    "src": "https://www.archdaily.com/320254/folkwang-library-max-dudler · Foto: Stefan Müller",
+    "ar": 0.913
+   },
+   "innen2": {
+    "label": "Lesesaal",
+    "src": "https://www.archdaily.com/320254/folkwang-library-max-dudler · Foto: Stefan Müller",
+    "ar": 0.668
+   }
+  }
+ },
+ {
   "slug": "exeter-kahn",
   "title": "Phillips Exeter Academy Library",
   "city": "Exeter",
@@ -2148,6 +3690,8 @@
   "book_page": null,
   "umbau": false,
   "note": "Drei Schichten: außen Leseplätze am Fenster, in der Mitte Regale, innen ein großer Lichthof.",
+  "link": "https://divisare.com/projects/304785-louis-i-kahn-xavier-de-jaureguiberry-library-at-phillips-exeter-academy",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Erdgeschoss / Eingangsebene",
@@ -2192,6 +3736,8 @@
   "book_page": null,
   "umbau": true,
   "note": "Umbau einer 1970er-Bibliothek: Tragwerk bleibt, neue Hülle; offenes Erdgeschoss, Lesesäle darüber.",
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Unibibliothek_von_Degelo_Architekten_umgebaut_4576941.html",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Erdgeschoss",
@@ -2226,6 +3772,88 @@
   }
  },
  {
+  "slug": "gent-boekentoren",
+  "title": "Boekentoren, Universitätsbibliothek Gent – Restaurierung und Umbau",
+  "city": "Gent",
+  "country": "Belgien",
+  "architect": "Robbrecht en Daem architecten mit BARO, SumProject, Barbara Van der Wee; Bestand Henry van de Velde (1933–1939)",
+  "year": 2021,
+  "category": "uni",
+  "book_page": null,
+  "umbau": true,
+  "note": "Denkmalgeschützte Universitätsbibliothek aus Bücherturm und Flügeln um einen Innenhof: das Magazin wandert in ein neues Tiefdepot unter den Hof (Engelse Koer), die frei gewordenen Säle werden zu Lesesaal, Studienlandschaft und Gruppenarbeitsplätzen.",
+  "link": "https://robbrechtendaem.com/projects/boekentoren-university-library",
+  "relevance": "Antwort auf Lichthöfe und Archiv-zu-Kollektivraum (C′/D, Variante „alles unter die Erde“): im geschützten Ensemble bleibt der Hof offen und nimmt das Magazin unter sich auf, während die Säle des Bestands an die Nutzer zurückgegeben werden – Kempe-Thill-Haltung „restaurieren statt einpacken“ und Minhs Palimpsest (Spuren von Van de Velde lesbar) zugleich.",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss mit Innenhof (Besucherplan, schematisch)",
+    "src": "https://tour.boekentoren.gent/en/map",
+    "ar": 1.639
+   },
+   "og": {
+    "label": "1. OG (Besucherplan, schematisch)",
+    "src": "https://tour.boekentoren.gent/en/map",
+    "ar": 1.639
+   },
+   "aussen": {
+    "label": "Luftbild, Turm, Flügel und Hof über dem Tiefdepot",
+    "src": "https://tour.boekentoren.gent/en/room/toren-2 · Foto: UGent",
+    "ar": 1.132
+   },
+   "innen1": {
+    "label": "Studienlandschaft im restaurierten Saal unter Oberlichtern (1000 px)",
+    "src": "https://tour.boekentoren.gent/en/room/studielandschap · Foto: UGent",
+    "ar": 1.468
+   },
+   "innen2": {
+    "label": "Neues Tiefdepot unter dem Hof",
+    "src": "https://tour.boekentoren.gent/en/room/underground-depot · Foto: UGent",
+    "ar": 1.498
+   }
+  }
+ },
+ {
+  "slug": "hachioji-tama-art-university",
+  "title": "Bibliothek der Tama Art University",
+  "city": "Hachiōji (Tokio)",
+  "country": "Japan",
+  "architect": "Toyo Ito & Associates",
+  "year": 2007,
+  "category": "uni",
+  "book_page": null,
+  "umbau": false,
+  "note": "Zweigeschossige Halle aus einem Feld sich kreuzender Betonbögen ohne Innenwände: im EG Galerie, Arkade und Medien, im OG Lesesaal und Freihand unter einer Decke, Kerne und geschlossenes Magazin an der Rückseite, Kompaktmagazin im Untergeschoss.",
+  "link": "https://divisare.com/projects/322210-toyo-ito-associates-rasmus-hjortshoj-coast-tama-art-university-library",
+  "relevance": "Antwortet auf die Frage, wie eine einzige Struktur (Bogenfeld) ohne Wände einen Kollektivraum für Lesen und Freihand bildet und das Magazin nach hinten bzw. unten rückt; für Kempe Thill Wiederholung, große Scheiben und Struktur als Raum, aber gekrümmte Achsen liegen nah an der Geste (Ishigami-Zone, eher respektiert).",
+  "images": {
+   "og": {
+    "label": "2. Geschoss (Lesesaal, Freihand), klein: 1017 px",
+    "src": "https://divisare.com/projects/322210-toyo-ito-associates-rasmus-hjortshoj-coast-tama-art-university-library",
+    "ar": 1.461
+   },
+   "schnitt": {
+    "label": "Schnitt",
+    "src": "https://divisare.com/projects/322210-toyo-ito-associates-rasmus-hjortshoj-coast-tama-art-university-library",
+    "ar": 2.833
+   },
+   "aussen": {
+    "label": "Außen",
+    "src": "https://divisare.com/projects/322210-toyo-ito-associates-rasmus-hjortshoj-coast-tama-art-university-library · Foto: Rasmus Hjortshøj (Coast)",
+    "ar": 1.25
+   },
+   "innen1": {
+    "label": "Erdgeschoss, Bogenhalle",
+    "src": "https://divisare.com/projects/322210-toyo-ito-associates-rasmus-hjortshoj-coast-tama-art-university-library · Foto: Rasmus Hjortshøj (Coast)",
+    "ar": 1.603
+   },
+   "innen2": {
+    "label": "Lesebereich an der Glasfassade",
+    "src": "https://divisare.com/projects/322210-toyo-ito-associates-rasmus-hjortshoj-coast-tama-art-university-library · Foto: Rasmus Hjortshøj (Coast)",
+    "ar": 1.0
+   }
+  }
+ },
+ {
   "slug": "luzern-ub",
   "title": "Zentral- und Hochschulbibliothek Luzern (Umbau)",
   "city": "Luzern",
@@ -2236,6 +3864,8 @@
   "book_page": null,
   "umbau": true,
   "note": "Umbau des Baus von 1951: Bestand saniert, Struktur und Lesesaal bleiben.",
+  "link": "https://www.haltercasagrande.ch/de/projekte/bauten/zentral-und-hochschulbibliothek",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Erdgeschoss mit Umgebung",
@@ -2270,6 +3900,98 @@
   }
  },
  {
+  "slug": "oxford-weston",
+  "title": "Weston Library (Umbau New Bodleian)",
+  "city": "Oxford",
+  "country": "UK",
+  "architect": "WilkinsonEyre",
+  "year": 2015,
+  "category": "uni",
+  "book_page": null,
+  "umbau": true,
+  "note": "Ausgekerntes Magazinhaus: öffentliche Blackwell Hall als Eingangs- und Ausstellungshalle im Erdgeschoss, Lesesäle in den Obergeschossen und das klimatisierte Magazin in den Untergeschossen.",
+  "link": "https://divisare.com/projects/322277-wilkinsoneyre-will-pryce-james-brittain-weston-library-university-of-oxford",
+  "relevance": null,
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss mit Blackwell Hall (klein, 970 px)",
+    "src": "https://e-architect.com/oxford/weston-library-at-oxford-university · Plan: WilkinsonEyre",
+    "ar": 1.375
+   },
+   "og": {
+    "label": "1. OG mit Lesesälen (klein, 980 px)",
+    "src": "https://e-architect.com/oxford/weston-library-at-oxford-university · Plan: WilkinsonEyre",
+    "ar": 1.392
+   },
+   "schnitt": {
+    "label": "Gebäudeschnitt (klein, 990 px)",
+    "src": "https://e-architect.com/oxford/weston-library-at-oxford-university · Plan: WilkinsonEyre",
+    "ar": 1.413
+   },
+   "aussen": {
+    "label": "Außen, Ecke Broad Street / Parks Road",
+    "src": "https://architecturetoday.co.uk/award-entries/weston-library/ · Foto: James Brittain",
+    "ar": 1.719
+   },
+   "innen1": {
+    "label": "Blackwell Hall (Eingangshalle anstelle des alten Büchermagazins)",
+    "src": "https://architecturetoday.co.uk/award-entries/weston-library/ · Foto: James Brittain",
+    "ar": 1.336
+   },
+   "innen2": {
+    "label": "Lesesaal (Charles Wendell David Reading Room)",
+    "src": "https://architecturetoday.co.uk/award-entries/weston-library/ · Foto: Ben Bisek",
+    "ar": 1.501
+   }
+  }
+ },
+ {
+  "slug": "paris-sainte-genevieve",
+  "title": "Bibliothèque Sainte-Geneviève",
+  "city": "Paris",
+  "country": "Frankreich",
+  "architect": "Henri Labrouste",
+  "year": 1850,
+  "category": "uni",
+  "book_page": null,
+  "umbau": false,
+  "note": "Langgestreckter Block: Magazin und Nebenräume im massiven Erdgeschoss beidseits einer Mittelachse mit Haupttreppe, darüber ein einziger Lesesaal über die ganze Gebäudelänge unter zwei eisernen Tonnengewölben auf einer mittigen Stützenreihe.",
+  "link": "https://fr.wikipedia.org/wiki/Biblioth%C3%A8que_Sainte-Genevi%C3%A8ve",
+  "relevance": "Antwortet auf die Frage, wie aus dem Archiv (unten) ein einziger großer Kollektivraum (oben) wird, Leitbild für Richtung E und die Kataloghalle; Labrouste steht in Kempes eigener Linie (Durand, Labrouste, Perret) und die Struktur ist zugleich der Raum.",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss (Magazin), historische Tafel",
+    "src": "https://commons.wikimedia.org/wiki/File:Bibliothek_Sainte-Genevi%C3%A8ve_ground_floor_plan.jpg",
+    "ar": 2.546
+   },
+   "og": {
+    "label": "Obergeschoss (Lesesaal), historische Tafel",
+    "src": "https://commons.wikimedia.org/wiki/File:Biblioth%C3%A8que_Sainte-Genevi%C3%A8ve_floor_plan.jpg",
+    "ar": 2.613
+   },
+   "schnitt": {
+    "label": "Querschnitt",
+    "src": "https://commons.wikimedia.org/wiki/File:Biblioth%C3%A8que_Sainte-Genevi%C3%A8ve_elevation.jpg",
+    "ar": 1.159
+   },
+   "aussen": {
+    "label": "Außen, Fassade zur Place du Panthéon",
+    "src": "https://commons.wikimedia.org/wiki/File:Front_bibliotheque_Sainte-Genevieve_Paris.jpg · Foto: Jastrow",
+    "ar": 1.677
+   },
+   "innen1": {
+    "label": "Lesesaal (Salle Labrouste)",
+    "src": "https://commons.wikimedia.org/wiki/File:Salle_Labrouste_architecture.jpg · Foto: Communication BSG",
+    "ar": 1.498
+   },
+   "innen2": {
+    "label": "Lesesaal (Salle Labrouste)",
+    "src": "https://commons.wikimedia.org/wiki/File:Salle_de_lecture_Labrouste.jpg · Foto: Communication BSG",
+    "ar": 1.333
+   }
+  }
+ },
+ {
   "slug": "stuttgart-wlb",
   "title": "Württembergische Landesbibliothek, Erweiterung",
   "city": "Stuttgart",
@@ -2280,6 +4002,8 @@
   "book_page": null,
   "umbau": true,
   "note": "Erweiterungsbau neben dem Altbau von 1970; beide Häuser sind verbunden und werden gemeinsam genutzt.",
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Erweiterung_der_Wuerttembergischen_Landesbibliothek_in_Stuttgart_von_Lederer_Ragnarsdottir_Oei_7283538.html",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Erdgeschoss (Neubau unten links, Altbau Horst Linde oben)",
@@ -2324,6 +4048,8 @@
   "book_page": null,
   "umbau": true,
   "note": "Gläserner Anbau an einen Mies-artigen Bau von 1954: Leseband an der Glasfassade, Regale und Räume dahinter.",
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Bibliotheksanbau_in_Toronto_von_RDH_Architects_9894559.html",
+  "relevance": null,
   "images": {
    "eg": {
     "label": "Grundriss Erdgeschoss mit Anbau",
@@ -2363,6 +4089,8 @@
   "book_page": null,
   "umbau": false,
   "note": "Schwarzer Block: Magazine als geschlossene Boxen in der Halle, Leseplätze dazwischen.",
+  "link": "https://www.baunetzwissen.de/beton/objekte/bildung/universitaetsbibliothek-in-utrecht-69816",
+  "relevance": null,
   "images": {
    "og": {
     "label": "6. OG (Ebene 6, Regelgeschoss)",
@@ -2393,6 +4121,57 @@
     "label": "Arbeitsplätze an der bedruckten Fassade",
     "src": "https://www.archdaily.com/136377/utrecht-library-wiel-arets-architects · Foto: Jan Bitter / Andrea Giannotti",
     "ar": 0.706
+   }
+  }
+ },
+ {
+  "slug": "wildau-th-bibliothek",
+  "title": "Hochschulbibliothek TH Wildau in Halle 10 (Informations- und Medienzentrum)",
+  "city": "Wildau",
+  "country": "Deutschland",
+  "architect": "Chestnutt_Niess Architekten; Bestand: Maschinenhalle 1921 (denkmalgeschützt)",
+  "year": 2007,
+  "category": "uni",
+  "book_page": null,
+  "umbau": true,
+  "note": "In die denkmalgeschützte Ziegel-Maschinenhalle ist ein Haus im Haus gestellt: Mensa und Eingang unten, darüber umlaufende Bibliotheksebenen mit Freihand und Arbeitsplätzen um eine zentrale Halle unter dem alten Glasdach, Treppen und Kerne als feste Blöcke im Raster der Halle.",
+  "link": "https://www.baunetzwissen.de/boden/objekte/bildung/informations--und-medienzentrum-der-tfh-wildau-653860",
+  "relevance": "Antwort auf Strategie E und die Kataloghalle: unter einem großen Bestandsdach wird die Halle selbst zum Kollektivraum, die Bibliothek legt sich als Galerien um den Luftraum und die denkmalgeschützte Hülle bleibt außen unverändert – Kempe Thills „Huis in huis“ und „große Überspannungen = Freiheit“ als realisierte Hochschulbibliothek.",
+  "images": {
+   "eg": {
+    "label": "Erdgeschoss (vermutl., Mensa und Eingang)",
+    "src": "https://chestnutt-niess.de/tfh-wildau/",
+    "ar": 1.444
+   },
+   "og": {
+    "label": "1. OG (vermutl.), erste Bibliotheksebene mit Treppe in der Halle",
+    "src": "https://chestnutt-niess.de/tfh-wildau/",
+    "ar": 1.52
+   },
+   "og2": {
+    "label": "2. OG (vermutl.), Galerie um den Luftraum",
+    "src": "https://chestnutt-niess.de/tfh-wildau/",
+    "ar": 1.497
+   },
+   "schnitt": {
+    "label": "Querschnitt durch Halle und Glasdach",
+    "src": "https://chestnutt-niess.de/tfh-wildau/",
+    "ar": 1.365
+   },
+   "aussen": {
+    "label": "Außen, denkmalgeschützte Halle 10",
+    "src": "https://chestnutt-niess.de/tfh-wildau/",
+    "ar": 1.501
+   },
+   "innen1": {
+    "label": "Bibliotheksgalerie am Luftraum unter dem Glasdach",
+    "src": "https://chestnutt-niess.de/tfh-wildau/",
+    "ar": 1.501
+   },
+   "innen2": {
+    "label": "Lesebereich in der Halle",
+    "src": "https://chestnutt-niess.de/tfh-wildau/",
+    "ar": 1.501
    }
   }
  },
@@ -2443,6 +4222,7 @@
     "src": "https://www.archdaily.com/65987/ad-classics-beinecke-rare-book-and-manuscript-library-skidmore-owings-merrill · Foto: Ezra Stoller/Esto",
     "ar": 0.998
    }
-  }
+  },
+  "link": "https://beinecke.library.yale.edu/beinecke/about-us/history-and-architecture"
  }
 ]
