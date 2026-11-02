@@ -37,6 +37,8 @@ PLAN = {
     f"{U}/Buchscans": [f"{B}/02_Bestand/Buchscans/*.jpg"],
     f"{E}/Grundrisse": [f"{AN}/Grundrisse/TIB_1102_Grundriss_{g}_M1-*" for g in ("??", "???", "Dach")],
     f"{E}/Möblierung+Nutzung": [f"{AN}/Grundrisse/*Moeblierung*"],
+    f"{E}/Möbelbestand": [f"{AN}/Grundrisse/*Moebelbestand_Inventar_A3_*", f"{AN}/Grundrisse/*_Moebel_M1-*",
+                          f"{AN}/Grundrisse/*Moebelbestand_v*.csv"],
     f"{E}/Schnitte": [f"{AN}/Schnitte/*"],
     f"{E}/Lageplan": [f"{AN}/Lageplan/*"],
     f"{E}/Raumprogramm": [f"{AN}/Raumprogramm/*.pdf", f"{AN}/Raumprogramm/*.png", f"{AN}/Raumprogramm/*.xlsx",

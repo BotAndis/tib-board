@@ -83,6 +83,11 @@ SECTIONS = [
         ("open", [f"{E}/Möblierung+Nutzung/*.pdf"]),
         ("stack", "CAD", [f"{E}/Möblierung+Nutzung/*"]),
     ]),
+    ("Möbelbestand", [
+        ("latest", [f"{E}/Möbelbestand/*Inventar_A3*.pdf", f"{E}/Möbelbestand/*_Moebel_M1-250_A3_*.pdf"]),
+        ("stack", "CAD + Einzelliste", [f"{E}/Möbelbestand/*"]),
+        ("stack", O, [f"{E}/Möbelbestand/{O}/*"]),
+    ]),
     ("Raumprogramm", [
         ("open", [f"{E}/Raumprogramm/*.pdf", f"{E}/Raumprogramm/*.html"]),
         ("stack", "Grafiken, Excel, CAD", [f"{E}/Raumprogramm/*"]),
@@ -133,6 +138,7 @@ GRID = [
     ("Referenzen", None),
     *[(t, f"Entwurf · {t}") for t in ("Grundrisse", "Schnitte", "Ansichten", "Lageplan", "Details")],
     ("Möblierung + Nutzung", "3D-Druck · Entwurf"),
+    ("Möbelbestand", None),
     ("Raumprogramm", None),
     ("Fotos", None),
     ("3D-Modelle", None),

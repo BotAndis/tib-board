@@ -91,28 +91,34 @@
    "y": 7410
   },
   {
+   "id": "label:Möbelbestand",
+   "text": "Möbelbestand",
+   "x": 0,
+   "y": 8340
+  },
+  {
    "id": "label:Raumprogramm",
    "text": "Raumprogramm",
    "x": 0,
-   "y": 8340
+   "y": 9270
   },
   {
    "id": "label:Fotos",
    "text": "Fotos",
    "x": 0,
-   "y": 9270
+   "y": 10200
   },
   {
    "id": "label:3D-Modelle",
    "text": "3D-Modelle",
    "x": 0,
-   "y": 10500
+   "y": 11430
   },
   {
    "id": "label:3D-Druck · Bestand",
    "text": "3D-Druck · Bestand",
    "x": 0,
-   "y": 11430
+   "y": 12360
   },
   {
    "id": "label:Zeitplan",
@@ -6874,6 +6880,394 @@
    "w": 300
   },
   {
+   "id": "2_Bestand_eigene-Pläne/Möbelbestand/TIB_1102_Moebelbestand_Inventar_A3_v4.pdf",
+   "kind": "pdf",
+   "title": "TIB 1102 Moebelbestand Inventar A3 v4",
+   "ext": "pdf",
+   "size": 1286990,
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/TIB_1102_Moebelbestand_Inventar_A3_v4.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/TIB_1102_Moebelbestand_Inventar_A3_v4.pdf&raw=1",
+   "thumb": "thumbs/262a5c02f9c7f921.webp",
+   "ar": 1.4139,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/ca0ae7f2c90a42c9b30d/",
+   "section": "Möbelbestand",
+   "x": 0,
+   "y": 8590,
+   "w": 424
+  },
+  {
+   "id": "2_Bestand_eigene-Pläne/Möbelbestand/TIB_1102_Grundriss_UG2_Moebel_M1-250_A3_v4.pdf",
+   "kind": "pdf",
+   "title": "TIB 1102 Grundriss UG2 Moebel M1-250 A3 v4",
+   "ext": "pdf",
+   "size": 66832,
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/TIB_1102_Grundriss_UG2_Moebel_M1-250_A3_v4.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/TIB_1102_Grundriss_UG2_Moebel_M1-250_A3_v4.pdf&raw=1",
+   "thumb": "thumbs/f18da8ea7c7768ac.webp",
+   "ar": 1.4139,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/3ebdcf14307b43f28a80/",
+   "section": "Möbelbestand",
+   "x": 464.16999999999996,
+   "y": 8590,
+   "w": 424
+  },
+  {
+   "id": "2_Bestand_eigene-Pläne/Möbelbestand/TIB_1102_Grundriss_UG1_Moebel_M1-250_A3_v4.pdf",
+   "kind": "pdf",
+   "title": "TIB 1102 Grundriss UG1 Moebel M1-250 A3 v4",
+   "ext": "pdf",
+   "size": 117880,
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/TIB_1102_Grundriss_UG1_Moebel_M1-250_A3_v4.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/TIB_1102_Grundriss_UG1_Moebel_M1-250_A3_v4.pdf&raw=1",
+   "thumb": "thumbs/4a028c020abf92fe.webp",
+   "ar": 1.4139,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/7b1f59736cf54e46bd44/",
+   "section": "Möbelbestand",
+   "x": 928.3399999999999,
+   "y": 8590,
+   "w": 424
+  },
+  {
+   "id": "2_Bestand_eigene-Pläne/Möbelbestand/TIB_1102_Grundriss_OG2_Moebel_M1-250_A3_v4.pdf",
+   "kind": "pdf",
+   "title": "TIB 1102 Grundriss OG2 Moebel M1-250 A3 v4",
+   "ext": "pdf",
+   "size": 226250,
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/TIB_1102_Grundriss_OG2_Moebel_M1-250_A3_v4.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/TIB_1102_Grundriss_OG2_Moebel_M1-250_A3_v4.pdf&raw=1",
+   "thumb": "thumbs/495303ab3c22e447.webp",
+   "ar": 1.4139,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/8cf2c7c5f65246ed9ae0/",
+   "section": "Möbelbestand",
+   "x": 1392.5099999999998,
+   "y": 8590,
+   "w": 424
+  },
+  {
+   "id": "2_Bestand_eigene-Pläne/Möbelbestand/TIB_1102_Grundriss_OG1_Moebel_M1-250_A3_v4.pdf",
+   "kind": "pdf",
+   "title": "TIB 1102 Grundriss OG1 Moebel M1-250 A3 v4",
+   "ext": "pdf",
+   "size": 464126,
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/TIB_1102_Grundriss_OG1_Moebel_M1-250_A3_v4.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/TIB_1102_Grundriss_OG1_Moebel_M1-250_A3_v4.pdf&raw=1",
+   "thumb": "thumbs/cf97ddb911ac1a43.webp",
+   "ar": 1.4139,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/f5aefd5f790a4de69da9/",
+   "section": "Möbelbestand",
+   "x": 1856.6799999999998,
+   "y": 8590,
+   "w": 424
+  },
+  {
+   "id": "2_Bestand_eigene-Pläne/Möbelbestand/TIB_1102_Grundriss_EG_Moebel_M1-250_A3_v4.pdf",
+   "kind": "pdf",
+   "title": "TIB 1102 Grundriss EG Moebel M1-250 A3 v4",
+   "ext": "pdf",
+   "size": 231411,
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/TIB_1102_Grundriss_EG_Moebel_M1-250_A3_v4.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/TIB_1102_Grundriss_EG_Moebel_M1-250_A3_v4.pdf&raw=1",
+   "thumb": "thumbs/9a227821e6677740.webp",
+   "ar": 1.4139,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/6f8ea0c273a84c31bd43/",
+   "section": "Möbelbestand",
+   "x": 2320.85,
+   "y": 8590,
+   "w": 424
+  },
+  {
+   "id": "stack:Möbelbestand:CAD + Einzelliste",
+   "kind": "stack",
+   "title": "CAD + Einzelliste",
+   "items": [
+    {
+     "id": "2_Bestand_eigene-Pläne/Möbelbestand/TIB_1102_Moebelbestand_v1.csv",
+     "kind": "file",
+     "title": "TIB 1102 Moebelbestand v1",
+     "ext": "csv",
+     "size": 105683,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/TIB_1102_Moebelbestand_v1.csv&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/TIB_1102_Moebelbestand_v1.csv&raw=1"
+    },
+    {
+     "id": "2_Bestand_eigene-Pläne/Möbelbestand/TIB_1102_Grundriss_UG2_Moebel_M1-200_v1.dxf",
+     "kind": "file",
+     "title": "TIB 1102 Grundriss UG2 Moebel M1-200 v1",
+     "ext": "dxf",
+     "size": 953920,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/TIB_1102_Grundriss_UG2_Moebel_M1-200_v1.dxf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/TIB_1102_Grundriss_UG2_Moebel_M1-200_v1.dxf&raw=1"
+    },
+    {
+     "id": "2_Bestand_eigene-Pläne/Möbelbestand/TIB_1102_Grundriss_UG1_Moebel_M1-200_v1.dxf",
+     "kind": "file",
+     "title": "TIB 1102 Grundriss UG1 Moebel M1-200 v1",
+     "ext": "dxf",
+     "size": 1415909,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/TIB_1102_Grundriss_UG1_Moebel_M1-200_v1.dxf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/TIB_1102_Grundriss_UG1_Moebel_M1-200_v1.dxf&raw=1"
+    },
+    {
+     "id": "2_Bestand_eigene-Pläne/Möbelbestand/TIB_1102_Grundriss_OG2_Moebel_M1-200_v1.dxf",
+     "kind": "file",
+     "title": "TIB 1102 Grundriss OG2 Moebel M1-200 v1",
+     "ext": "dxf",
+     "size": 3492430,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/TIB_1102_Grundriss_OG2_Moebel_M1-200_v1.dxf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/TIB_1102_Grundriss_OG2_Moebel_M1-200_v1.dxf&raw=1"
+    },
+    {
+     "id": "2_Bestand_eigene-Pläne/Möbelbestand/TIB_1102_Grundriss_OG1_Moebel_M1-200_v1.dxf",
+     "kind": "file",
+     "title": "TIB 1102 Grundriss OG1 Moebel M1-200 v1",
+     "ext": "dxf",
+     "size": 6983141,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/TIB_1102_Grundriss_OG1_Moebel_M1-200_v1.dxf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/TIB_1102_Grundriss_OG1_Moebel_M1-200_v1.dxf&raw=1"
+    },
+    {
+     "id": "2_Bestand_eigene-Pläne/Möbelbestand/TIB_1102_Grundriss_EG_Moebel_M1-200_v1.dxf",
+     "kind": "file",
+     "title": "TIB 1102 Grundriss EG Moebel M1-200 v1",
+     "ext": "dxf",
+     "size": 3052834,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/TIB_1102_Grundriss_EG_Moebel_M1-200_v1.dxf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/TIB_1102_Grundriss_EG_Moebel_M1-200_v1.dxf&raw=1"
+    }
+   ],
+   "section": "Möbelbestand",
+   "x": 2785.02,
+   "y": 8590,
+   "w": 300
+  },
+  {
+   "id": "stack:Möbelbestand:Ältere Versionen",
+   "kind": "stack",
+   "title": "Ältere Versionen",
+   "items": [
+    {
+     "id": "2_Bestand_eigene-Pläne/Möbelbestand/Ältere Versionen/TIB_1102_Moebelbestand_Inventar_A3_v3.pdf",
+     "kind": "pdf",
+     "title": "TIB 1102 Moebelbestand Inventar A3 v3",
+     "ext": "pdf",
+     "size": 1286992,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Moebelbestand_Inventar_A3_v3.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Moebelbestand_Inventar_A3_v3.pdf&raw=1",
+     "thumb": "thumbs/2e934bcbfe173d27.webp",
+     "ar": 1.4139,
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/3491dea2529a4a8fa41f/"
+    },
+    {
+     "id": "2_Bestand_eigene-Pläne/Möbelbestand/Ältere Versionen/TIB_1102_Grundriss_UG2_Moebel_M1-250_A3_v3.pdf",
+     "kind": "pdf",
+     "title": "TIB 1102 Grundriss UG2 Moebel M1-250 A3 v3",
+     "ext": "pdf",
+     "size": 66834,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Grundriss_UG2_Moebel_M1-250_A3_v3.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Grundriss_UG2_Moebel_M1-250_A3_v3.pdf&raw=1",
+     "thumb": "thumbs/18b7ddf32047258e.webp",
+     "ar": 1.4139,
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/a5ade85e246841a08a09/"
+    },
+    {
+     "id": "2_Bestand_eigene-Pläne/Möbelbestand/Ältere Versionen/TIB_1102_Grundriss_UG1_Moebel_M1-250_A3_v3.pdf",
+     "kind": "pdf",
+     "title": "TIB 1102 Grundriss UG1 Moebel M1-250 A3 v3",
+     "ext": "pdf",
+     "size": 117882,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Grundriss_UG1_Moebel_M1-250_A3_v3.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Grundriss_UG1_Moebel_M1-250_A3_v3.pdf&raw=1",
+     "thumb": "thumbs/1e70e41f3c4aac07.webp",
+     "ar": 1.4139,
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/6785f53ee5544f99af55/"
+    },
+    {
+     "id": "2_Bestand_eigene-Pläne/Möbelbestand/Ältere Versionen/TIB_1102_Grundriss_OG2_Moebel_M1-250_A3_v3.pdf",
+     "kind": "pdf",
+     "title": "TIB 1102 Grundriss OG2 Moebel M1-250 A3 v3",
+     "ext": "pdf",
+     "size": 226252,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Grundriss_OG2_Moebel_M1-250_A3_v3.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Grundriss_OG2_Moebel_M1-250_A3_v3.pdf&raw=1",
+     "thumb": "thumbs/8d851cf7981677af.webp",
+     "ar": 1.4139,
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/03ca7fae53474bacb12b/"
+    },
+    {
+     "id": "2_Bestand_eigene-Pläne/Möbelbestand/Ältere Versionen/TIB_1102_Grundriss_OG1_Moebel_M1-250_A3_v3.pdf",
+     "kind": "pdf",
+     "title": "TIB 1102 Grundriss OG1 Moebel M1-250 A3 v3",
+     "ext": "pdf",
+     "size": 464128,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Grundriss_OG1_Moebel_M1-250_A3_v3.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Grundriss_OG1_Moebel_M1-250_A3_v3.pdf&raw=1",
+     "thumb": "thumbs/c08d6b9b0c695bdd.webp",
+     "ar": 1.4139,
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/470f5ce3e72a459b9103/"
+    },
+    {
+     "id": "2_Bestand_eigene-Pläne/Möbelbestand/Ältere Versionen/TIB_1102_Grundriss_EG_Moebel_M1-250_A3_v3.pdf",
+     "kind": "pdf",
+     "title": "TIB 1102 Grundriss EG Moebel M1-250 A3 v3",
+     "ext": "pdf",
+     "size": 231413,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Grundriss_EG_Moebel_M1-250_A3_v3.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Grundriss_EG_Moebel_M1-250_A3_v3.pdf&raw=1",
+     "thumb": "thumbs/fe71524203998823.webp",
+     "ar": 1.4139,
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/f6e453c70edf459b83d2/"
+    },
+    {
+     "id": "2_Bestand_eigene-Pläne/Möbelbestand/Ältere Versionen/TIB_1102_Moebelbestand_Inventar_A3_v2.pdf",
+     "kind": "pdf",
+     "title": "TIB 1102 Moebelbestand Inventar A3 v2",
+     "ext": "pdf",
+     "size": 1287755,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Moebelbestand_Inventar_A3_v2.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Moebelbestand_Inventar_A3_v2.pdf&raw=1",
+     "thumb": "thumbs/49f2998bc87a810a.webp",
+     "ar": 1.4139,
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/210c46bac560480d9204/"
+    },
+    {
+     "id": "2_Bestand_eigene-Pläne/Möbelbestand/Ältere Versionen/TIB_1102_Grundriss_UG2_Moebel_M1-250_A3_v2.pdf",
+     "kind": "pdf",
+     "title": "TIB 1102 Grundriss UG2 Moebel M1-250 A3 v2",
+     "ext": "pdf",
+     "size": 66913,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Grundriss_UG2_Moebel_M1-250_A3_v2.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Grundriss_UG2_Moebel_M1-250_A3_v2.pdf&raw=1",
+     "thumb": "thumbs/5c7441a6256b722d.webp",
+     "ar": 1.4139,
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/e95d2b7203f44838a35e/"
+    },
+    {
+     "id": "2_Bestand_eigene-Pläne/Möbelbestand/Ältere Versionen/TIB_1102_Grundriss_UG1_Moebel_M1-250_A3_v2.pdf",
+     "kind": "pdf",
+     "title": "TIB 1102 Grundriss UG1 Moebel M1-250 A3 v2",
+     "ext": "pdf",
+     "size": 117964,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Grundriss_UG1_Moebel_M1-250_A3_v2.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Grundriss_UG1_Moebel_M1-250_A3_v2.pdf&raw=1",
+     "thumb": "thumbs/4fa8b10cc1792c93.webp",
+     "ar": 1.4139,
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/9f249e327d434910ae6d/"
+    },
+    {
+     "id": "2_Bestand_eigene-Pläne/Möbelbestand/Ältere Versionen/TIB_1102_Grundriss_OG2_Moebel_M1-250_A3_v2.pdf",
+     "kind": "pdf",
+     "title": "TIB 1102 Grundriss OG2 Moebel M1-250 A3 v2",
+     "ext": "pdf",
+     "size": 226284,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Grundriss_OG2_Moebel_M1-250_A3_v2.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Grundriss_OG2_Moebel_M1-250_A3_v2.pdf&raw=1",
+     "thumb": "thumbs/0563e8caeb52f6a2.webp",
+     "ar": 1.4139,
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/173d12e884994b58baed/"
+    },
+    {
+     "id": "2_Bestand_eigene-Pläne/Möbelbestand/Ältere Versionen/TIB_1102_Grundriss_OG1_Moebel_M1-250_A3_v2.pdf",
+     "kind": "pdf",
+     "title": "TIB 1102 Grundriss OG1 Moebel M1-250 A3 v2",
+     "ext": "pdf",
+     "size": 464159,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Grundriss_OG1_Moebel_M1-250_A3_v2.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Grundriss_OG1_Moebel_M1-250_A3_v2.pdf&raw=1",
+     "thumb": "thumbs/c1ddc294a87f9b0a.webp",
+     "ar": 1.4139,
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/9e6ce4ac85864da6b7c4/"
+    },
+    {
+     "id": "2_Bestand_eigene-Pläne/Möbelbestand/Ältere Versionen/TIB_1102_Grundriss_EG_Moebel_M1-250_A3_v2.pdf",
+     "kind": "pdf",
+     "title": "TIB 1102 Grundriss EG Moebel M1-250 A3 v2",
+     "ext": "pdf",
+     "size": 231454,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Grundriss_EG_Moebel_M1-250_A3_v2.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Grundriss_EG_Moebel_M1-250_A3_v2.pdf&raw=1",
+     "thumb": "thumbs/58498499e2570c4b.webp",
+     "ar": 1.4139,
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/f627bf354511429db034/"
+    },
+    {
+     "id": "2_Bestand_eigene-Pläne/Möbelbestand/Ältere Versionen/TIB_1102_Moebelbestand_Inventar_A3_v1.pdf",
+     "kind": "pdf",
+     "title": "TIB 1102 Moebelbestand Inventar A3 v1",
+     "ext": "pdf",
+     "size": 1288698,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Moebelbestand_Inventar_A3_v1.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Moebelbestand_Inventar_A3_v1.pdf&raw=1",
+     "thumb": "thumbs/5ac7367b6c607729.webp",
+     "ar": 1.4139,
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/eaf763f093954918bba6/"
+    },
+    {
+     "id": "2_Bestand_eigene-Pläne/Möbelbestand/Ältere Versionen/TIB_1102_Grundriss_UG2_Moebel_M1-250_A3_v1.pdf",
+     "kind": "pdf",
+     "title": "TIB 1102 Grundriss UG2 Moebel M1-250 A3 v1",
+     "ext": "pdf",
+     "size": 105522,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Grundriss_UG2_Moebel_M1-250_A3_v1.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Grundriss_UG2_Moebel_M1-250_A3_v1.pdf&raw=1",
+     "thumb": "thumbs/6b592d1b39f8b450.webp",
+     "ar": 1.4139,
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/a3f09d2c51b24d3fa1a8/"
+    },
+    {
+     "id": "2_Bestand_eigene-Pläne/Möbelbestand/Ältere Versionen/TIB_1102_Grundriss_UG1_Moebel_M1-250_A3_v1.pdf",
+     "kind": "pdf",
+     "title": "TIB 1102 Grundriss UG1 Moebel M1-250 A3 v1",
+     "ext": "pdf",
+     "size": 216650,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Grundriss_UG1_Moebel_M1-250_A3_v1.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Grundriss_UG1_Moebel_M1-250_A3_v1.pdf&raw=1",
+     "thumb": "thumbs/79898c9a3bc46a6e.webp",
+     "ar": 1.4139,
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/14ef002bc5d9427cbd12/"
+    },
+    {
+     "id": "2_Bestand_eigene-Pläne/Möbelbestand/Ältere Versionen/TIB_1102_Grundriss_OG2_Moebel_M1-250_A3_v1.pdf",
+     "kind": "pdf",
+     "title": "TIB 1102 Grundriss OG2 Moebel M1-250 A3 v1",
+     "ext": "pdf",
+     "size": 381744,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Grundriss_OG2_Moebel_M1-250_A3_v1.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Grundriss_OG2_Moebel_M1-250_A3_v1.pdf&raw=1",
+     "thumb": "thumbs/714c11971622d7f0.webp",
+     "ar": 1.4139,
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/fcd3671d54e6427cbe2e/"
+    },
+    {
+     "id": "2_Bestand_eigene-Pläne/Möbelbestand/Ältere Versionen/TIB_1102_Grundriss_OG1_Moebel_M1-250_A3_v1.pdf",
+     "kind": "pdf",
+     "title": "TIB 1102 Grundriss OG1 Moebel M1-250 A3 v1",
+     "ext": "pdf",
+     "size": 641481,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Grundriss_OG1_Moebel_M1-250_A3_v1.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Grundriss_OG1_Moebel_M1-250_A3_v1.pdf&raw=1",
+     "thumb": "thumbs/96a30ce24b85c79e.webp",
+     "ar": 1.4139,
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/28913edbf5084b61a720/"
+    },
+    {
+     "id": "2_Bestand_eigene-Pläne/Möbelbestand/Ältere Versionen/TIB_1102_Grundriss_EG_Moebel_M1-250_A3_v1.pdf",
+     "kind": "pdf",
+     "title": "TIB 1102 Grundriss EG Moebel M1-250 A3 v1",
+     "ext": "pdf",
+     "size": 774553,
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Grundriss_EG_Moebel_M1-250_A3_v1.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/M%C3%B6belbestand/%C3%84ltere%20Versionen/TIB_1102_Grundriss_EG_Moebel_M1-250_A3_v1.pdf&raw=1",
+     "thumb": "thumbs/3687298475deabd5.webp",
+     "ar": 1.4139,
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/5832802e164c4d70a862/"
+    }
+   ],
+   "section": "Möbelbestand",
+   "x": 3125.02,
+   "y": 8590,
+   "w": 300
+  },
+  {
    "id": "2_Bestand_eigene-Pläne/Raumprogramm/TIB_1102_D_Flaechen-Editor_10.html",
    "kind": "html",
    "title": "TIB 1102 D Flaechen-Editor 10",
@@ -6884,7 +7278,7 @@
    "url": "html/flaechen-editor.html",
    "section": "Raumprogramm",
    "x": 0,
-   "y": 8590,
+   "y": 9520,
    "w": 300
   },
   {
@@ -6900,7 +7294,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/f5d42ff6dcae416d8483/",
    "section": "Raumprogramm",
    "x": 340.0,
-   "y": 8590,
+   "y": 9520,
    "w": 425
   },
   {
@@ -6916,7 +7310,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/dba8c620fbaa43bf94bc/",
    "section": "Raumprogramm",
    "x": 804.71,
-   "y": 8590,
+   "y": 9520,
    "w": 425
   },
   {
@@ -6932,7 +7326,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/02c389917bad41ba8961/",
    "section": "Raumprogramm",
    "x": 1269.42,
-   "y": 8590,
+   "y": 9520,
    "w": 425
   },
   {
@@ -6948,7 +7342,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/5f6a830fe5c2468a8461/",
    "section": "Raumprogramm",
    "x": 1734.13,
-   "y": 8590,
+   "y": 9520,
    "w": 425
   },
   {
@@ -6964,7 +7358,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/dde1bf11beec432eb53c/",
    "section": "Raumprogramm",
    "x": 2198.84,
-   "y": 8590,
+   "y": 9520,
    "w": 425
   },
   {
@@ -7035,7 +7429,7 @@
    ],
    "section": "Raumprogramm",
    "x": 2663.55,
-   "y": 8590,
+   "y": 9520,
    "w": 300
   },
   {
@@ -7142,7 +7536,7 @@
    ],
    "section": "Raumprogramm",
    "x": 3003.55,
-   "y": 8590,
+   "y": 9520,
    "w": 300
   },
   {
@@ -7505,7 +7899,7 @@
    ],
    "section": "Fotos",
    "x": 0,
-   "y": 9520,
+   "y": 10450,
    "w": 600
   },
   {
@@ -8968,7 +9362,7 @@
    ],
    "section": "Fotos",
    "x": 640.0,
-   "y": 9520,
+   "y": 10450,
    "w": 600
   },
   {
@@ -9199,7 +9593,7 @@
    ],
    "section": "Fotos",
    "x": 1280.0,
-   "y": 9520,
+   "y": 10450,
    "w": 600
   },
   {
@@ -9573,7 +9967,7 @@
    ],
    "section": "Fotos",
    "x": 1920.0,
-   "y": 9520,
+   "y": 10450,
    "w": 600
   },
   {
@@ -9683,7 +10077,7 @@
    ],
    "section": "Fotos",
    "x": 2560.0,
-   "y": 9520,
+   "y": 10450,
    "w": 600
   },
   {
@@ -9738,7 +10132,7 @@
    ],
    "section": "Fotos",
    "x": 3200.0,
-   "y": 9520,
+   "y": 10450,
    "w": 600
   },
   {
@@ -9804,7 +10198,7 @@
    ],
    "section": "Fotos",
    "x": 3840.0,
-   "y": 9520,
+   "y": 10450,
    "w": 600
   },
   {
@@ -9819,7 +10213,7 @@
    "ar": 1.7143,
    "section": "3D-Modelle",
    "x": 0,
-   "y": 10750,
+   "y": 11680,
    "w": 514
   },
   {
@@ -9833,7 +10227,7 @@
    "url": "html/modell-ansichten/index.html",
    "section": "3D-Modelle",
    "x": 554.29,
-   "y": 10750,
+   "y": 11680,
    "w": 300
   },
   {
@@ -10130,7 +10524,7 @@
    ],
    "section": "3D-Modelle",
    "x": 894.29,
-   "y": 10750,
+   "y": 11680,
    "w": 300
   },
   {
@@ -10195,7 +10589,7 @@
    ],
    "section": "3D-Modelle",
    "x": 1234.29,
-   "y": 10750,
+   "y": 11680,
    "w": 300
   },
   {
@@ -10261,7 +10655,7 @@
    ],
    "section": "3D-Modelle",
    "x": 1574.29,
-   "y": 10750,
+   "y": 11680,
    "w": 300
   },
   {
@@ -10274,7 +10668,7 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/6_3D-Druck/Bestand_M1-500/druck%20bestand%20tib%20getrennt.3mf&raw=1",
    "section": "3D-Druck · Bestand",
    "x": 0,
-   "y": 11680,
+   "y": 12610,
    "w": 300
   },
   {
@@ -10288,7 +10682,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/05b34aed64764d94b33a/",
    "section": "3D-Druck · Bestand",
    "x": 340.0,
-   "y": 11680,
+   "y": 12610,
    "w": 300
   },
   {
@@ -10302,7 +10696,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/32be4ce2d8f9463c92dc/",
    "section": "3D-Druck · Bestand",
    "x": 680.0,
-   "y": 11680,
+   "y": 12610,
    "w": 300
   },
   {
