@@ -162,8 +162,14 @@ def match(rel, globs):
 STAMP = re.compile(r"(20\d{6})_(\d{6}|\d{2}\b)")  # PXL_20261021_081119857 / WA_20261102_07 (index keeps chat order)
 
 
+# WhatsApp photos carry no capture time: each is placed right after the most similar dated photo (DINOv2 match)
+ANCHORS = json.loads(Path(__file__).with_name("photo_anchors.json").read_text(encoding="utf-8"))
+
+
 def shot(rel):
     """Capture time for sorting photo stacks: EXIF, else the date in the name, else file mtime."""
+    if rel in ANCHORS:
+        return shot(ANCHORS[rel]) + "~" + rel
     try:
         ex = Image.open(LOCAL / rel).getexif()
         t = ex.get_ifd(0x8769).get(36867) or ex.get(306)
