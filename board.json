@@ -4294,8 +4294,9 @@
    "ar": 1.2195,
    "section": "Referenzen",
    "x": 0,
-   "y": 1180,
-   "w": 1463
+   "y": 1178,
+   "w": 1463,
+   "moved": true
   },
   {
    "id": "2_Bestand_eigene-Pläne/Grundrisse/TIB_1102_Grundriss_UG2_M1-200.pdf",
@@ -5526,7 +5527,7 @@
    "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Detail_Dach-Innenhof/TIB_Detail2_M1-25_Schnitt%2BGrundriss_v3.pdf&dl=1",
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Detail_Dach-Innenhof/TIB_Detail2_M1-25_Schnitt%2BGrundriss_v3.pdf&raw=1",
    "thumb": "thumbs/28db6cba056d847c.webp",
-   "ar": 1.0,
+   "ar": 1,
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/775f160cb7f84a848cd4/",
    "section": "Details",
    "x": 1056.63,
@@ -5590,7 +5591,7 @@
    "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Detail_Dach-Innenhof/TIB_Detail2_M1-50_Schnitt%2BGrundriss_v6.pdf&dl=1",
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Detail_Dach-Innenhof/TIB_Detail2_M1-50_Schnitt%2BGrundriss_v6.pdf&raw=1",
    "thumb": "thumbs/58d9bf7a9f0c2fc1.webp",
-   "ar": 1.0,
+   "ar": 1,
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/5bb4f0224c9b482abfdd/",
    "section": "Details",
    "x": 2029.0900000000001,
@@ -6041,7 +6042,7 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/6_3D-Druck/Entwurf_M1-500/TIB_A3-komplett-Dach-geschlossen_M1-495_v2.stl&raw=1",
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/3275404e9b9d45699270/",
    "section": "3D-Druck · Entwurf",
-   "x": 9540.0,
+   "x": 9540,
    "y": 7660,
    "w": 300
   },
@@ -6055,7 +6056,7 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/6_3D-Druck/Entwurf_M1-500/TIB_A3-komplett-Dach-gelocht_M1-495_v3.stl&raw=1",
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/dc2e6acac1c1416e98e8/",
    "section": "3D-Druck · Entwurf",
-   "x": 9880.0,
+   "x": 9880,
    "y": 7660,
    "w": 300
   },
@@ -6070,7 +6071,7 @@
    "thumb": "thumbs/080517a5b27ca997.webp",
    "ar": 0.7,
    "section": "3D-Druck · Entwurf",
-   "x": 10220.0,
+   "x": 10220,
    "y": 7660,
    "w": 210
   },
@@ -6084,7 +6085,7 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/6_3D-Druck/Entwurf_M1-500/TIB_A2.2-komplett_M1-495_v1.stl&raw=1",
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/4647550fb4164b9f8e20/",
    "section": "3D-Druck · Entwurf",
-   "x": 10470.0,
+   "x": 10470,
    "y": 7660,
    "w": 300
   },
@@ -6098,7 +6099,7 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/6_3D-Druck/Entwurf_M1-500/TIB_12.2-komplett_M1-495_v1.stl&raw=1",
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/d714c7cda96c4886821b/",
    "section": "3D-Druck · Entwurf",
-   "x": 10810.0,
+   "x": 10810,
    "y": 7660,
    "w": 300
   },
@@ -6309,7 +6310,7 @@
     }
    ],
    "section": "3D-Druck · Entwurf",
-   "x": 11150.0,
+   "x": 11150,
    "y": 7660,
    "w": 300
   },
@@ -6360,7 +6361,7 @@
     }
    ],
    "section": "3D-Druck · Entwurf",
-   "x": 11490.0,
+   "x": 11490,
    "y": 7660,
    "w": 300
   },
@@ -6431,7 +6432,7 @@
     }
    ],
    "section": "3D-Druck · Entwurf",
-   "x": 11830.0,
+   "x": 11830,
    "y": 7660,
    "w": 300
   },
@@ -6462,7 +6463,7 @@
     }
    ],
    "section": "3D-Druck · Entwurf",
-   "x": 12170.0,
+   "x": 12170,
    "y": 7660,
    "w": 300
   },
@@ -6693,7 +6694,7 @@
     }
    ],
    "section": "3D-Druck · Entwurf",
-   "x": 12510.0,
+   "x": 12510,
    "y": 7660,
    "w": 300
   },
@@ -6764,7 +6765,7 @@
     }
    ],
    "section": "3D-Druck · Entwurf",
-   "x": 12850.0,
+   "x": 12850,
    "y": 7660,
    "w": 300
   },
@@ -6875,7 +6876,7 @@
     }
    ],
    "section": "3D-Druck · Entwurf",
-   "x": 13190.0,
+   "x": 13190,
    "y": 7660,
    "w": 300
   },
@@ -7293,7 +7294,7 @@
    "ar": 1.4157,
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/f5d42ff6dcae416d8483/",
    "section": "Raumprogramm",
-   "x": 340.0,
+   "x": 340,
    "y": 9520,
    "w": 425
   },
@@ -7619,7 +7620,7 @@
      "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/3_Bestand_Fotos/Fassade/w7_11.jpg&dl=1",
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/3_Bestand_Fotos/Fassade/w7_11.jpg&raw=1",
      "thumb": "thumbs/c9e1d994cd8df1f6.webp",
-     "ar": 2.0
+     "ar": 2
     },
     {
      "id": "3_Bestand_Fotos/Fassade/g25_00.png",
@@ -9361,7 +9362,7 @@
     }
    ],
    "section": "Fotos",
-   "x": 640.0,
+   "x": 640,
    "y": 10450,
    "w": 600
   },
@@ -9592,7 +9593,7 @@
     }
    ],
    "section": "Fotos",
-   "x": 1280.0,
+   "x": 1280,
    "y": 10450,
    "w": 600
   },
@@ -9966,7 +9967,7 @@
     }
    ],
    "section": "Fotos",
-   "x": 1920.0,
+   "x": 1920,
    "y": 10450,
    "w": 600
   },
@@ -10076,7 +10077,7 @@
     }
    ],
    "section": "Fotos",
-   "x": 2560.0,
+   "x": 2560,
    "y": 10450,
    "w": 600
   },
@@ -10131,7 +10132,7 @@
     }
    ],
    "section": "Fotos",
-   "x": 3200.0,
+   "x": 3200,
    "y": 10450,
    "w": 600
   },
@@ -10197,7 +10198,7 @@
     }
    ],
    "section": "Fotos",
-   "x": 3840.0,
+   "x": 3840,
    "y": 10450,
    "w": 600
   },
@@ -10681,7 +10682,7 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/6_3D-Druck/Bestand_M1-500/druck%20bestand%20tib%20getrennt.stl&raw=1",
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/05b34aed64764d94b33a/",
    "section": "3D-Druck · Bestand",
-   "x": 340.0,
+   "x": 340,
    "y": 12610,
    "w": 300
   },
@@ -10695,7 +10696,7 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/6_3D-Druck/Bestand_M1-500/TIB_Druck_1zu500_mm.stl&raw=1",
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/32be4ce2d8f9463c92dc/",
    "section": "3D-Druck · Bestand",
-   "x": 680.0,
+   "x": 680,
    "y": 12610,
    "w": 300
   },
