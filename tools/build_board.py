@@ -60,7 +60,7 @@ SECTIONS = [
         ("stack", "CAD", [f"{E}/Grundrisse/*"]),
     ]),
     ("Schnitte", [
-        ("open", [f"{E}/Schnitte/*_Schnitt_Skizze*.pdf", f"{E}/Schnitte/TIB_*.pdf"]),  # same look as the Lageplan
+        ("open", [f"{E}/Schnitte/*_Schnitt*_Skizze*.pdf", f"{E}/Schnitte/TIB_*.pdf"]),  # same look as the Lageplan
         ("stack", "Weitere Stile", [f"{E}/Schnitte/*.pdf"]),
         ("stack", O, [f"{E}/Schnitte/{O}/*"]),
         ("stack", "CAD", [f"{E}/Schnitte/*"]),
@@ -183,6 +183,11 @@ def shot(rel):
     return time.strftime("%Y%m%d%H%M%S", time.localtime((LOCAL / rel).stat().st_mtime))
 
 
+def age(rel):
+    """Sort key: newest file first (mtime; stage.py copies with copy2, so it is the source file's date)."""
+    return -(LOCAL / rel).stat().st_mtime, rel
+
+
 def thumb(rel, kind):
     """Thumbnail in the repo; returns (path, width/height)."""
     src = LOCAL / rel
@@ -257,6 +262,8 @@ def main():
                     used.update(rels)
                     if all(KIND.get(Path(r).suffix.lower()) == "image" for r in rels):
                         rels.sort(key=shot)
+                    else:
+                        rels.sort(key=age)
                     stacks.append({"id": f"stack:{title}:{e[1]}", "kind": "stack", "title": e[1],
                                    "items": [item(r) for r in rels]})
                 continue
@@ -278,9 +285,9 @@ def main():
                     if not old:
                         old = {"id": f"stack:{title}:old:{len(stacks)}", "kind": "stack", "title": "Ältere Versionen", "items": []}
                         stacks.append(old)
-                    old["items"] += [item(r) for r in older]
+                    old["items"] = sorted(old["items"] + [item(r) for r in older], key=lambda i: age(i["id"]))
             cards += [item(r) for r in rels]
-        return cards + stacks
+        return sorted(cards, key=lambda i: age(i["id"])) + stacks
 
     sections = [{"title": t, "items": build(t, es)} for t, es in SECTIONS]
 
