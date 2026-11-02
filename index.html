@@ -88,10 +88,11 @@ class View {
     Object.assign(this, { host, world, onChange, onClick, onDrag, min, max, x: 0, y: 0, s: 1, gen: 0 });
     const pts = new Map(); let start = null, moved = 0, drag = null, pinch = null;
     host.addEventListener("pointerdown", e => {
-      if (e.button > 0) return;
+      if (e.button > 1) return;
+      const mid = e.button === 1;  // middle button always pans: never drags an item or clicks
       host.setPointerCapture(e.pointerId);
       pts.set(e.pointerId, { x: e.clientX, y: e.clientY });
-      if (pts.size === 1) { start = { x: e.clientX, y: e.clientY, t: e.target }; moved = 0; drag = onDrag?.(e) || null; }
+      if (pts.size === 1) { start = mid ? null : { x: e.clientX, y: e.clientY, t: e.target }; moved = 0; drag = mid ? null : onDrag?.(e) || null; }
       if (pts.size === 2) { drag = null; const [a, b] = [...pts.values()]; pinch = { d: Math.hypot(a.x - b.x, a.y - b.y) }; }
     });
     host.addEventListener("pointermove", e => {
@@ -111,6 +112,7 @@ class View {
       if (pts.size === 0) { if (drag) drag.end?.(); else if (moved < 6 && start) onClick?.(start.t, e); drag = null; start = null; pinch = null; }
     };
     host.addEventListener("pointerup", up); host.addEventListener("pointercancel", up);
+    host.addEventListener("mousedown", e => { if (e.button === 1) e.preventDefault(); });  // no browser autoscroll
     host.addEventListener("wheel", e => {
       e.preventDefault();
       const r = host.getBoundingClientRect();
