@@ -51,8 +51,8 @@ PLAN = {
     "4_Entwurf/Varianten_Luca": [f"{VAR}/Luca*.jpg"],
     "4_Entwurf/Optionen_1-15": [f"{VAR}/Option*.jpg"],
     "4_Entwurf/Flächenbedarf": [f"{B}/04_Entwurf/Varianten/*.3dm"],
-    # shortcut: the Rhino model itself is left out while it is still being edited; add its final .3dm here when done
-    "5_3D-Modelle/Bestandsmodell": [f"{B}/04_Modelle/Bestandsmodell/*.png", f"{B}/04_Modelle/Bestandsmodell/*Pruefbericht_v3.md"],
+    "5_3D-Modelle/Bestandsmodell": [f"{B}/04_Modelle/Bestandsmodell/*.png", f"{B}/04_Modelle/Bestandsmodell/*Pruefbericht_v3.md",
+                                    f"{B}/04_Modelle/Bestandsmodell/tib_rv_190_tragwerk_final.3dm"],
     "5_3D-Modelle/Bestandsmodell_Uni": [f"{PU}/Modell/TIB_011_detail_final.3dm", f"{PU}/Modell/_shots/*.png"],
     "5_3D-Modelle/Modell-Ansichten_Web": ["D:/Claude_Workspaces/CX-NEA/Rhino-Arch-AI/work/review/tib/publish/**/*"],
     "5_3D-Modelle/Volumen": [f"{PU}/Tib_Volument.3dm"],
