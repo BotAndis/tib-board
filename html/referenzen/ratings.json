@@ -41,7 +41,8 @@
  },
  "british-library": {
   "Luca": {
-   "stars": 2
+   "stars": 2,
+   "note": "Nichts davon funktioniert in der tib"
   }
  }
 }
