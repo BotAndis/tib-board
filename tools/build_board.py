@@ -104,9 +104,10 @@ SECTIONS = [
         ("stack", "Flächenbedarf (Rhino)", [f"{D}/Flächenbedarf/*"]),
         ("stack", O, [f"{D}/Vergleiche/{O}/*", f"{D}/Lagepläne_Varianten/{O}/*"]),
     ]),
-    # empty until the design has plans: the rows line up with the Bestand rows of the same name
-    *[(f"Entwurf · {t}", [("open", [f"{D}/{t}/*"]), ("stack", O, [f"{D}/{t}/{O}/*"])])
-      for t in ("Grundrisse", "Schnitte", "Ansichten", "Lageplan", "Details")],
+    # the rows line up with the Bestand rows of the same name; the exploded Umbau axo lies with the Umbau plans
+    *[(f"Entwurf · {t}", [("open", [f"{D}/{t}/*"] + [f"{D}/Axonometrie/*"] * (t == "Grundrisse")),
+                          ("stack", O, [f"{D}/{t}/{O}/*", *[f"{D}/Axonometrie/{O}/*"] * (t == "Grundrisse")])])
+      for t in ("Erweiterung", "Grundrisse", "Schnitte", "Ansichten", "Lageplan", "Details")],
     ("3D-Modelle", [
         ("open", [f"{M}/Modell-Ansichten_Web/index.html", f"{M}/Bestandsmodell/*.png"]),
         ("stack", "Modell Uni · Ansichten", [f"{M}/Bestandsmodell_Uni/*.png"]),
@@ -135,7 +136,7 @@ LEFT = "Zeitplan"
 # level with the Bestand plans of the same name
 GRID = [
     ("Aufgabenstellung", "Entwurf · Volumenstudien"),
-    ("Referenzen", None),
+    ("Referenzen", "Entwurf · Erweiterung"),
     *[(t, f"Entwurf · {t}") for t in ("Grundrisse", "Schnitte", "Ansichten", "Lageplan", "Details")],
     ("Möblierung + Nutzung", "3D-Druck · Entwurf"),
     ("Möbelbestand", None),
@@ -144,6 +145,17 @@ GRID = [
     ("3D-Modelle", None),
     ("3D-Druck · Bestand", None),
 ]
+
+# current plans lie open and big (4x a normal card): the design's plan PDFs + the newest furniture inventory sheet
+BIG = [f"{D}/*/*.pdf", f"{E}/Möbelbestand/*Inventar_A3*.pdf"]
+# reading order of the design plans (instead of newest first): overview, Rot-Gelb, Nutzung, axo; floors bottom-up
+READ, FLOORS = ("Uebersicht", "RotGelb", "Nutzung", "Axo", "Ausschnitt", "Vorplatz"), ("-EG_", "-1OG_", "-2OG_")
+
+
+def reading(rel):
+    n = Path(rel).name
+    return (next((i for i, t in enumerate(READ) if t in n), len(READ)), next((i for i, t in enumerate(FLOORS) if t in n), 9), n)
+
 
 VER = re.compile(r"_(?:v)?(\d+)$")
 
@@ -293,7 +305,7 @@ def main():
                         stacks.append(old)
                     old["items"] = sorted(old["items"] + [item(r) for r in older], key=lambda i: age(i["id"]))
             cards += [item(r) for r in rels]
-        return sorted(cards, key=lambda i: age(i["id"])) + stacks
+        return sorted(cards, key=lambda i: (reading(i["id"]) if match(i["id"], [f"{D}/*/*.pdf"]) else (), age(i["id"]))) + stacks
 
     sections = [{"title": t, "items": build(t, es)} for t, es in SECTIONS]
 
@@ -335,20 +347,22 @@ def layout(sections):
         y += 250  # room for the 180px section title
         # photo stacks are the content there, so show them bigger; the references tile is a page preview
         h = {"Fotos": ROW_H * 2, "Referenzen": ROW_H * 4, LEFT: ROW_H * 26}.get(s["title"], ROW_H)
-        x = 0
+        x, row = 0, h  # row: height of the current row (a big card makes it taller)
         for it in s["items"]:
-            w = h * it.get("ar", 1.0)  # square unless the item knows its shape
+            ih = ROW_H * 4 if it["kind"] != "stack" and match(it["id"], BIG) else h
+            w = ih * it.get("ar", 1.0)  # square unless the item knows its shape
             it["section"] = s["title"]
             if it["id"] in pos:
                 p = pos[it["id"]]
                 it |= {"x": p["x"], "y": p["y"], "w": p["w"], "moved": True}
             else:
                 if x and x + w > MAX_W:
-                    x, y = 0, y + h + 110
+                    x, y, row = 0, y + row + 110, h
                 it |= {"x": x0 + x, "y": y, "w": round(w)}
                 x += w + GAP
+                row = max(row, ih)
             items.append(it)
-        return y + h + 380
+        return y + row + 380
 
     by = {s["title"]: s for s in sections}
     cols = (0, MAX_W + 4000)  # the wide gap parts Grundlagen (left) from Entwurf (right)
