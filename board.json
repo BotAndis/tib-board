@@ -28,103 +28,85 @@
    "id": "label:Grundrisse",
    "text": "Grundrisse",
    "x": 0,
-   "y": 2760
+   "y": 5380
   },
   {
    "id": "label:Entwurf · Grundrisse",
    "text": "Entwurf · Grundrisse",
    "x": 9200,
-   "y": 2760
+   "y": 5380
   },
   {
    "id": "label:Schnitte",
    "text": "Schnitte",
    "x": 0,
-   "y": 5900
-  },
-  {
-   "id": "label:Entwurf · Schnitte",
-   "text": "Entwurf · Schnitte",
-   "x": 9200,
-   "y": 5900
+   "y": 8520
   },
   {
    "id": "label:Ansichten",
    "text": "Ansichten",
    "x": 0,
-   "y": 6830
-  },
-  {
-   "id": "label:Entwurf · Ansichten",
-   "text": "Entwurf · Ansichten",
-   "x": 9200,
-   "y": 6830
+   "y": 9450
   },
   {
    "id": "label:Lageplan",
    "text": "Lageplan",
    "x": 0,
-   "y": 7760
+   "y": 10380
   },
   {
    "id": "label:Entwurf · Lageplan",
    "text": "Entwurf · Lageplan",
    "x": 9200,
-   "y": 7760
+   "y": 10380
   },
   {
    "id": "label:Details",
    "text": "Details",
    "x": 0,
-   "y": 9590
-  },
-  {
-   "id": "label:Entwurf · Details",
-   "text": "Entwurf · Details",
-   "x": 9200,
-   "y": 9590
+   "y": 12210
   },
   {
    "id": "label:Möblierung + Nutzung",
    "text": "Möblierung + Nutzung",
    "x": 0,
-   "y": 10520
+   "y": 13140
   },
   {
    "id": "label:3D-Druck · Entwurf",
    "text": "3D-Druck · Entwurf",
    "x": 9200,
-   "y": 10520
+   "y": 13140
   },
   {
    "id": "label:Möbelbestand",
    "text": "Möbelbestand",
    "x": 0,
-   "y": 11450
+   "y": 14070
   },
   {
    "id": "label:Raumprogramm",
    "text": "Raumprogramm",
    "x": 0,
-   "y": 13280
+   "y": 15900
   },
   {
    "id": "label:Fotos",
    "text": "Fotos",
    "x": 0,
-   "y": 14210
+   "y": 16830
   },
   {
    "id": "label:3D-Modelle",
    "text": "3D-Modelle",
    "x": 0,
-   "y": 15440
+   "y": 18060
   },
   {
    "id": "label:3D-Druck · Bestand",
    "text": "3D-Druck · Bestand",
    "x": 0,
-   "y": 16370
+   "y": 18990
   },
   {
    "id": "label:Zeitplan",
@@ -4300,9 +4282,120 @@
    "ar": 1.2195,
    "section": "Referenzen",
    "x": 0,
-   "y": 1178,
-   "w": 1463,
-   "moved": true
+   "y": 1180,
+   "w": 1463
+  },
+  {
+   "id": "7_Referenzen/01_REF_Stuttgart_Stadtbibliothek_A3_v1.pdf",
+   "kind": "pdf",
+   "title": "01 REF Stuttgart Stadtbibliothek A3 v1",
+   "ext": "pdf",
+   "size": 2547083,
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/7_Referenzen/01_REF_Stuttgart_Stadtbibliothek_A3_v1.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/7_Referenzen/01_REF_Stuttgart_Stadtbibliothek_A3_v1.pdf&raw=1",
+   "thumb": "thumbs/737bb2a7a5a4bc37.webp",
+   "ar": 1.4139,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/ec712e6e7bd64850b052/",
+   "section": "Referenzen",
+   "x": 1503.4,
+   "y": 1180,
+   "w": 1697
+  },
+  {
+   "id": "7_Referenzen/02_REF_Shanghai_Library-East_A3_v1.pdf",
+   "kind": "pdf",
+   "title": "02 REF Shanghai Library-East A3 v1",
+   "ext": "pdf",
+   "size": 3666454,
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/7_Referenzen/02_REF_Shanghai_Library-East_A3_v1.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/7_Referenzen/02_REF_Shanghai_Library-East_A3_v1.pdf&raw=1",
+   "thumb": "thumbs/7910640983753744.webp",
+   "ar": 1.4139,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/1e9e888fb21c4ee38f70/",
+   "section": "Referenzen",
+   "x": 3240.08,
+   "y": 1180,
+   "w": 1697
+  },
+  {
+   "id": "7_Referenzen/03_REF_Barcelona_Garcia-Marquez_A3_v1.pdf",
+   "kind": "pdf",
+   "title": "03 REF Barcelona Garcia-Marquez A3 v1",
+   "ext": "pdf",
+   "size": 3596050,
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/7_Referenzen/03_REF_Barcelona_Garcia-Marquez_A3_v1.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/7_Referenzen/03_REF_Barcelona_Garcia-Marquez_A3_v1.pdf&raw=1",
+   "thumb": "thumbs/efb954915c1022db.webp",
+   "ar": 1.4139,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/77b836464b294014bb6d/",
+   "section": "Referenzen",
+   "x": 0,
+   "y": 2490,
+   "w": 1697
+  },
+  {
+   "id": "7_Referenzen/04_REF_Cottbus_IKMZ_A3_v1.pdf",
+   "kind": "pdf",
+   "title": "04 REF Cottbus IKMZ A3 v1",
+   "ext": "pdf",
+   "size": 2895015,
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/7_Referenzen/04_REF_Cottbus_IKMZ_A3_v1.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/7_Referenzen/04_REF_Cottbus_IKMZ_A3_v1.pdf&raw=1",
+   "thumb": "thumbs/49fb64172203bd4f.webp",
+   "ar": 1.4139,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/eedf9587193b4c9e945a/",
+   "section": "Referenzen",
+   "x": 1736.6799999999998,
+   "y": 2490,
+   "w": 1697
+  },
+  {
+   "id": "7_Referenzen/05_REF_Essen_Folkwang-Bibliothek_A3_v1.pdf",
+   "kind": "pdf",
+   "title": "05 REF Essen Folkwang-Bibliothek A3 v1",
+   "ext": "pdf",
+   "size": 2879150,
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/7_Referenzen/05_REF_Essen_Folkwang-Bibliothek_A3_v1.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/7_Referenzen/05_REF_Essen_Folkwang-Bibliothek_A3_v1.pdf&raw=1",
+   "thumb": "thumbs/f1148480d043d808.webp",
+   "ar": 1.4139,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/20e1bb5b240f407eb588/",
+   "section": "Referenzen",
+   "x": 3473.3599999999997,
+   "y": 2490,
+   "w": 1697
+  },
+  {
+   "id": "7_Referenzen/06_REF_Budapest_BBU_A3_v1.pdf",
+   "kind": "pdf",
+   "title": "06 REF Budapest BBU A3 v1",
+   "ext": "pdf",
+   "size": 2721516,
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/7_Referenzen/06_REF_Budapest_BBU_A3_v1.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/7_Referenzen/06_REF_Budapest_BBU_A3_v1.pdf&raw=1",
+   "thumb": "thumbs/84b6b060160aa257.webp",
+   "ar": 1.4139,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/512fee4559454216831b/",
+   "section": "Referenzen",
+   "x": 0,
+   "y": 3800,
+   "w": 1697
+  },
+  {
+   "id": "7_Referenzen/07_REF_Hospital-San-Pedro_Arkowall_A3_v1.pdf",
+   "kind": "pdf",
+   "title": "07 REF Hospital-San-Pedro Arkowall A3 v1",
+   "ext": "pdf",
+   "size": 1966329,
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/7_Referenzen/07_REF_Hospital-San-Pedro_Arkowall_A3_v1.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/7_Referenzen/07_REF_Hospital-San-Pedro_Arkowall_A3_v1.pdf&raw=1",
+   "thumb": "thumbs/cefce15fb59dd5e2.webp",
+   "ar": 1.4139,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/7e81f84af20445e4a92a/",
+   "section": "Referenzen",
+   "x": 1736.6799999999998,
+   "y": 3800,
+   "w": 1697
   },
   {
    "id": "4_Entwurf/Erweiterung/TIB_Erweiterung_Option-1_U-Anbau_Nutzung_A3_v1.pdf",
@@ -4333,7 +4426,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/9f9eb7dbe21c41c1a745/",
    "section": "Grundrisse",
    "x": 0,
-   "y": 3010,
+   "y": 5630,
    "w": 424
   },
   {
@@ -4349,7 +4442,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/65e5393427f5438ea820/",
    "section": "Grundrisse",
    "x": 464.16999999999996,
-   "y": 3010,
+   "y": 5630,
    "w": 424
   },
   {
@@ -4365,7 +4458,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/6121a00c632d41198328/",
    "section": "Grundrisse",
    "x": 928.3399999999999,
-   "y": 3010,
+   "y": 5630,
    "w": 424
   },
   {
@@ -4381,7 +4474,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/53534d01dc424e59b175/",
    "section": "Grundrisse",
    "x": 1392.5099999999998,
-   "y": 3010,
+   "y": 5630,
    "w": 424
   },
   {
@@ -4397,7 +4490,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/dd6b6c0a896346e58619/",
    "section": "Grundrisse",
    "x": 1856.6799999999998,
-   "y": 3010,
+   "y": 5630,
    "w": 424
   },
   {
@@ -4413,7 +4506,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/2da7d7cd28a343f2b59f/",
    "section": "Grundrisse",
    "x": 2320.85,
-   "y": 3010,
+   "y": 5630,
    "w": 424
   },
   {
@@ -4496,7 +4589,7 @@
    ],
    "section": "Grundrisse",
    "x": 2785.02,
-   "y": 3010,
+   "y": 5630,
    "w": 300
   },
   {
@@ -4561,7 +4654,7 @@
    ],
    "section": "Grundrisse",
    "x": 3125.02,
-   "y": 3010,
+   "y": 5630,
    "w": 300
   },
   {
@@ -4577,7 +4670,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/2ee9154e924f49aea2e5/",
    "section": "Entwurf · Grundrisse",
    "x": 9200,
-   "y": 3010,
+   "y": 5630,
    "w": 1697
   },
   {
@@ -4593,7 +4686,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/ffc8b64ead964480a7e5/",
    "section": "Entwurf · Grundrisse",
    "x": 10936.68,
-   "y": 3010,
+   "y": 5630,
    "w": 849
   },
   {
@@ -4609,7 +4702,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/fcd9ace3b0cd49898641/",
    "section": "Entwurf · Grundrisse",
    "x": 11825.439999999999,
-   "y": 3010,
+   "y": 5630,
    "w": 849
   },
   {
@@ -4625,7 +4718,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/a07241efa11e4f7fb6c9/",
    "section": "Entwurf · Grundrisse",
    "x": 12714.2,
-   "y": 3010,
+   "y": 5630,
    "w": 849
   },
   {
@@ -4641,7 +4734,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/f22f74a02f7c4597be47/",
    "section": "Entwurf · Grundrisse",
    "x": 9200,
-   "y": 4320,
+   "y": 6940,
    "w": 849
   },
   {
@@ -4657,7 +4750,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/37130411c26f40ff8845/",
    "section": "Entwurf · Grundrisse",
    "x": 10088.76,
-   "y": 4320,
+   "y": 6940,
    "w": 849
   },
   {
@@ -4673,7 +4766,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/f289327780cd45c8883c/",
    "section": "Entwurf · Grundrisse",
    "x": 10977.52,
-   "y": 4320,
+   "y": 6940,
    "w": 849
   },
   {
@@ -4689,7 +4782,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/1c2f03eb06d146518516/",
    "section": "Entwurf · Grundrisse",
    "x": 11866.279999999999,
-   "y": 4320,
+   "y": 6940,
    "w": 849
   },
   {
@@ -4705,7 +4798,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/44406512e4c64601b7e2/",
    "section": "Schnitte",
    "x": 0,
-   "y": 6150,
+   "y": 8770,
    "w": 424
   },
   {
@@ -4721,7 +4814,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/524f5458895f47409c11/",
    "section": "Schnitte",
    "x": 464.16999999999996,
-   "y": 6150,
+   "y": 8770,
    "w": 424
   },
   {
@@ -4737,7 +4830,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/16f517dcb2254a22bbd7/",
    "section": "Schnitte",
    "x": 928.3399999999999,
-   "y": 6150,
+   "y": 8770,
    "w": 424
   },
   {
@@ -4753,7 +4846,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/8b16a32aceac49f1b485/",
    "section": "Schnitte",
    "x": 1392.5099999999998,
-   "y": 6150,
+   "y": 8770,
    "w": 424
   },
   {
@@ -4769,7 +4862,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/70fc96c933fa47188ea5/",
    "section": "Schnitte",
    "x": 1856.6799999999998,
-   "y": 6150,
+   "y": 8770,
    "w": 424
   },
   {
@@ -4785,7 +4878,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/ba376b38f8b540af8440/",
    "section": "Schnitte",
    "x": 2320.85,
-   "y": 6150,
+   "y": 8770,
    "w": 424
   },
   {
@@ -4801,7 +4894,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/b15f88fc64174a9381b3/",
    "section": "Schnitte",
    "x": 2785.02,
-   "y": 6150,
+   "y": 8770,
    "w": 424
   },
   {
@@ -4817,7 +4910,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/d437451840d241b6a7f1/",
    "section": "Schnitte",
    "x": 3249.19,
-   "y": 6150,
+   "y": 8770,
    "w": 424
   },
   {
@@ -4960,7 +5053,7 @@
    ],
    "section": "Schnitte",
    "x": 3713.36,
-   "y": 6150,
+   "y": 8770,
    "w": 300
   },
   {
@@ -5145,7 +5238,7 @@
    ],
    "section": "Schnitte",
    "x": 4053.36,
-   "y": 6150,
+   "y": 8770,
    "w": 300
   },
   {
@@ -5183,7 +5276,7 @@
    ],
    "section": "Schnitte",
    "x": 4393.360000000001,
-   "y": 6150,
+   "y": 8770,
    "w": 300
   },
   {
@@ -5199,7 +5292,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/fb5d639528ba45878bc5/",
    "section": "Ansichten",
    "x": 0,
-   "y": 7080,
+   "y": 9700,
    "w": 424
   },
   {
@@ -5215,7 +5308,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/29b5c86bbe5647098126/",
    "section": "Lageplan",
    "x": 0,
-   "y": 8010,
+   "y": 10630,
    "w": 212
   },
   {
@@ -5286,7 +5379,7 @@
    ],
    "section": "Lageplan",
    "x": 252.19,
-   "y": 8010,
+   "y": 10630,
    "w": 300
   },
   {
@@ -5309,7 +5402,7 @@
    ],
    "section": "Lageplan",
    "x": 592.19,
-   "y": 8010,
+   "y": 10630,
    "w": 300
   },
   {
@@ -5599,7 +5692,7 @@
    ],
    "section": "Lageplan",
    "x": 932.19,
-   "y": 8010,
+   "y": 10630,
    "w": 300
   },
   {
@@ -5619,7 +5712,7 @@
    ],
    "section": "Lageplan",
    "x": 1272.19,
-   "y": 8010,
+   "y": 10630,
    "w": 300
   },
   {
@@ -5635,7 +5728,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/d4b27c5559bd421186cc/",
    "section": "Entwurf · Lageplan",
    "x": 9200,
-   "y": 8010,
+   "y": 10630,
    "w": 1697
   },
   {
@@ -5651,7 +5744,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/9ea97995628e4f41bfee/",
    "section": "Entwurf · Lageplan",
    "x": 10936.68,
-   "y": 8010,
+   "y": 10630,
    "w": 849
   },
   {
@@ -5667,7 +5760,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/d6f9d1b65949445a9a40/",
    "section": "Entwurf · Lageplan",
    "x": 11825.439999999999,
-   "y": 8010,
+   "y": 10630,
    "w": 849
   },
   {
@@ -5683,7 +5776,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/e2246c7d157144eba9db/",
    "section": "Entwurf · Lageplan",
    "x": 12714.2,
-   "y": 8010,
+   "y": 10630,
    "w": 849
   },
   {
@@ -5699,7 +5792,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/b51e884a80df4622a592/",
    "section": "Details",
    "x": 0,
-   "y": 9840,
+   "y": 12460,
    "w": 424
   },
   {
@@ -5715,7 +5808,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/2aff410e5a2549829e94/",
    "section": "Details",
    "x": 464.16999999999996,
-   "y": 9840,
+   "y": 12460,
    "w": 212
   },
   {
@@ -5729,7 +5822,7 @@
    "url": "html/kern335-detailmappe.html",
    "section": "Details",
    "x": 716.63,
-   "y": 9840,
+   "y": 12460,
    "w": 300
   },
   {
@@ -5745,7 +5838,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/775f160cb7f84a848cd4/",
    "section": "Details",
    "x": 1056.63,
-   "y": 9840,
+   "y": 12460,
    "w": 300
   },
   {
@@ -5761,7 +5854,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/82429d1049c2454e841c/",
    "section": "Details",
    "x": 1396.63,
-   "y": 9840,
+   "y": 12460,
    "w": 212
   },
   {
@@ -5777,7 +5870,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/f3a22435b0fe47d38497/",
    "section": "Details",
    "x": 1649.0900000000001,
-   "y": 9840,
+   "y": 12460,
    "w": 150
   },
   {
@@ -5793,7 +5886,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/0ca1624679e646abb174/",
    "section": "Details",
    "x": 1839.0900000000001,
-   "y": 9840,
+   "y": 12460,
    "w": 150
   },
   {
@@ -5809,7 +5902,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/5bb4f0224c9b482abfdd/",
    "section": "Details",
    "x": 2029.0900000000001,
-   "y": 9840,
+   "y": 12460,
    "w": 300
   },
   {
@@ -5825,7 +5918,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/c1f2d30cbd54456dae16/",
    "section": "Details",
    "x": 2369.09,
-   "y": 9840,
+   "y": 12460,
    "w": 212
   },
   {
@@ -5935,7 +6028,7 @@
    ],
    "section": "Details",
    "x": 2621.28,
-   "y": 9840,
+   "y": 12460,
    "w": 300
   },
   {
@@ -6046,7 +6139,7 @@
    ],
    "section": "Details",
    "x": 2961.28,
-   "y": 9840,
+   "y": 12460,
    "w": 300
   },
   {
@@ -6078,7 +6171,7 @@
    ],
    "section": "Details",
    "x": 3301.28,
-   "y": 9840,
+   "y": 12460,
    "w": 300
   },
   {
@@ -6094,7 +6187,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/e93fd1ebc7524efe9a7e/",
    "section": "Möblierung + Nutzung",
    "x": 0,
-   "y": 10770,
+   "y": 13390,
    "w": 424
   },
   {
@@ -6110,7 +6203,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/25f03c28f0cc4d5da6df/",
    "section": "Möblierung + Nutzung",
    "x": 464.16999999999996,
-   "y": 10770,
+   "y": 13390,
    "w": 424
   },
   {
@@ -6126,7 +6219,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/4dd961c156054f7ba9f0/",
    "section": "Möblierung + Nutzung",
    "x": 928.3399999999999,
-   "y": 10770,
+   "y": 13390,
    "w": 424
   },
   {
@@ -6142,7 +6235,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/48ba8a90c0ff4b3abd81/",
    "section": "Möblierung + Nutzung",
    "x": 1392.5099999999998,
-   "y": 10770,
+   "y": 13390,
    "w": 424
   },
   {
@@ -6158,7 +6251,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/16b4b2ec8ebd4f6aa596/",
    "section": "Möblierung + Nutzung",
    "x": 1856.6799999999998,
-   "y": 10770,
+   "y": 13390,
    "w": 424
   },
   {
@@ -6174,7 +6267,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/32c5becf5bd145cc9cb2/",
    "section": "Möblierung + Nutzung",
    "x": 2320.85,
-   "y": 10770,
+   "y": 13390,
    "w": 424
   },
   {
@@ -6230,7 +6323,7 @@
    ],
    "section": "Möblierung + Nutzung",
    "x": 2785.02,
-   "y": 10770,
+   "y": 13390,
    "w": 300
   },
   {
@@ -6243,7 +6336,7 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/6_3D-Druck/Entwurf_M1-500/LIESMICH.txt&raw=1",
    "section": "3D-Druck · Entwurf",
    "x": 9200,
-   "y": 10770,
+   "y": 13390,
    "w": 300
   },
   {
@@ -6257,7 +6350,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/3275404e9b9d45699270/",
    "section": "3D-Druck · Entwurf",
    "x": 9540.0,
-   "y": 10770,
+   "y": 13390,
    "w": 300
   },
   {
@@ -6271,7 +6364,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/dc2e6acac1c1416e98e8/",
    "section": "3D-Druck · Entwurf",
    "x": 9880.0,
-   "y": 10770,
+   "y": 13390,
    "w": 300
   },
   {
@@ -6286,7 +6379,7 @@
    "ar": 0.7,
    "section": "3D-Druck · Entwurf",
    "x": 10220.0,
-   "y": 10770,
+   "y": 13390,
    "w": 210
   },
   {
@@ -6300,7 +6393,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/4647550fb4164b9f8e20/",
    "section": "3D-Druck · Entwurf",
    "x": 10470.0,
-   "y": 10770,
+   "y": 13390,
    "w": 300
   },
   {
@@ -6314,7 +6407,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/d714c7cda96c4886821b/",
    "section": "3D-Druck · Entwurf",
    "x": 10810.0,
-   "y": 10770,
+   "y": 13390,
    "w": 300
   },
   {
@@ -6525,7 +6618,7 @@
    ],
    "section": "3D-Druck · Entwurf",
    "x": 11150.0,
-   "y": 10770,
+   "y": 13390,
    "w": 300
   },
   {
@@ -6576,7 +6669,7 @@
    ],
    "section": "3D-Druck · Entwurf",
    "x": 11490.0,
-   "y": 10770,
+   "y": 13390,
    "w": 300
   },
   {
@@ -6647,7 +6740,7 @@
    ],
    "section": "3D-Druck · Entwurf",
    "x": 11830.0,
-   "y": 10770,
+   "y": 13390,
    "w": 300
   },
   {
@@ -6678,7 +6771,7 @@
    ],
    "section": "3D-Druck · Entwurf",
    "x": 12170.0,
-   "y": 10770,
+   "y": 13390,
    "w": 300
   },
   {
@@ -6909,7 +7002,7 @@
    ],
    "section": "3D-Druck · Entwurf",
    "x": 12510.0,
-   "y": 10770,
+   "y": 13390,
    "w": 300
   },
   {
@@ -6980,7 +7073,7 @@
    ],
    "section": "3D-Druck · Entwurf",
    "x": 12850.0,
-   "y": 10770,
+   "y": 13390,
    "w": 300
   },
   {
@@ -7091,7 +7184,7 @@
    ],
    "section": "3D-Druck · Entwurf",
    "x": 13190.0,
-   "y": 10770,
+   "y": 13390,
    "w": 300
   },
   {
@@ -7107,7 +7200,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/7bbf91ee561742eb804a/",
    "section": "Möbelbestand",
    "x": 0,
-   "y": 11700,
+   "y": 14320,
    "w": 1697
   },
   {
@@ -7123,7 +7216,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/3ebdcf14307b43f28a80/",
    "section": "Möbelbestand",
    "x": 1736.6799999999998,
-   "y": 11700,
+   "y": 14320,
    "w": 424
   },
   {
@@ -7139,7 +7232,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/7b1f59736cf54e46bd44/",
    "section": "Möbelbestand",
    "x": 2200.85,
-   "y": 11700,
+   "y": 14320,
    "w": 424
   },
   {
@@ -7155,7 +7248,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/8cf2c7c5f65246ed9ae0/",
    "section": "Möbelbestand",
    "x": 2665.02,
-   "y": 11700,
+   "y": 14320,
    "w": 424
   },
   {
@@ -7171,7 +7264,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/f5aefd5f790a4de69da9/",
    "section": "Möbelbestand",
    "x": 3129.19,
-   "y": 11700,
+   "y": 14320,
    "w": 424
   },
   {
@@ -7187,7 +7280,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/6f8ea0c273a84c31bd43/",
    "section": "Möbelbestand",
    "x": 3593.36,
-   "y": 11700,
+   "y": 14320,
    "w": 424
   },
   {
@@ -7252,7 +7345,7 @@
    ],
    "section": "Möbelbestand",
    "x": 4057.53,
-   "y": 11700,
+   "y": 14320,
    "w": 300
   },
   {
@@ -7491,7 +7584,7 @@
    ],
    "section": "Möbelbestand",
    "x": 4397.530000000001,
-   "y": 11700,
+   "y": 14320,
    "w": 300
   },
   {
@@ -7505,7 +7598,7 @@
    "url": "html/flaechen-editor.html",
    "section": "Raumprogramm",
    "x": 0,
-   "y": 13530,
+   "y": 16150,
    "w": 300
   },
   {
@@ -7521,7 +7614,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/f5d42ff6dcae416d8483/",
    "section": "Raumprogramm",
    "x": 340.0,
-   "y": 13530,
+   "y": 16150,
    "w": 425
   },
   {
@@ -7537,7 +7630,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/dba8c620fbaa43bf94bc/",
    "section": "Raumprogramm",
    "x": 804.71,
-   "y": 13530,
+   "y": 16150,
    "w": 425
   },
   {
@@ -7553,7 +7646,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/02c389917bad41ba8961/",
    "section": "Raumprogramm",
    "x": 1269.42,
-   "y": 13530,
+   "y": 16150,
    "w": 425
   },
   {
@@ -7569,7 +7662,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/5f6a830fe5c2468a8461/",
    "section": "Raumprogramm",
    "x": 1734.13,
-   "y": 13530,
+   "y": 16150,
    "w": 425
   },
   {
@@ -7585,7 +7678,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/dde1bf11beec432eb53c/",
    "section": "Raumprogramm",
    "x": 2198.84,
-   "y": 13530,
+   "y": 16150,
    "w": 425
   },
   {
@@ -7656,7 +7749,7 @@
    ],
    "section": "Raumprogramm",
    "x": 2663.55,
-   "y": 13530,
+   "y": 16150,
    "w": 300
   },
   {
@@ -7763,7 +7856,7 @@
    ],
    "section": "Raumprogramm",
    "x": 3003.55,
-   "y": 13530,
+   "y": 16150,
    "w": 300
   },
   {
@@ -8126,7 +8219,7 @@
    ],
    "section": "Fotos",
    "x": 0,
-   "y": 14460,
+   "y": 17080,
    "w": 600
   },
   {
@@ -9589,7 +9682,7 @@
    ],
    "section": "Fotos",
    "x": 640.0,
-   "y": 14460,
+   "y": 17080,
    "w": 600
   },
   {
@@ -9820,7 +9913,7 @@
    ],
    "section": "Fotos",
    "x": 1280.0,
-   "y": 14460,
+   "y": 17080,
    "w": 600
   },
   {
@@ -10194,7 +10287,7 @@
    ],
    "section": "Fotos",
    "x": 1920.0,
-   "y": 14460,
+   "y": 17080,
    "w": 600
   },
   {
@@ -10304,7 +10397,7 @@
    ],
    "section": "Fotos",
    "x": 2560.0,
-   "y": 14460,
+   "y": 17080,
    "w": 600
   },
   {
@@ -10359,7 +10452,7 @@
    ],
    "section": "Fotos",
    "x": 3200.0,
-   "y": 14460,
+   "y": 17080,
    "w": 600
   },
   {
@@ -10425,7 +10518,7 @@
    ],
    "section": "Fotos",
    "x": 3840.0,
-   "y": 14460,
+   "y": 17080,
    "w": 600
   },
   {
@@ -10440,7 +10533,7 @@
    "ar": 1.7143,
    "section": "3D-Modelle",
    "x": 0,
-   "y": 15690,
+   "y": 18310,
    "w": 514
   },
   {
@@ -10454,7 +10547,7 @@
    "url": "html/modell-ansichten/index.html",
    "section": "3D-Modelle",
    "x": 554.29,
-   "y": 15690,
+   "y": 18310,
    "w": 300
   },
   {
@@ -10751,7 +10844,7 @@
    ],
    "section": "3D-Modelle",
    "x": 894.29,
-   "y": 15690,
+   "y": 18310,
    "w": 300
   },
   {
@@ -10816,7 +10909,7 @@
    ],
    "section": "3D-Modelle",
    "x": 1234.29,
-   "y": 15690,
+   "y": 18310,
    "w": 300
   },
   {
@@ -10882,7 +10975,7 @@
    ],
    "section": "3D-Modelle",
    "x": 1574.29,
-   "y": 15690,
+   "y": 18310,
    "w": 300
   },
   {
@@ -10895,7 +10988,7 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/6_3D-Druck/Bestand_M1-500/druck%20bestand%20tib%20getrennt.3mf&raw=1",
    "section": "3D-Druck · Bestand",
    "x": 0,
-   "y": 16620,
+   "y": 19240,
    "w": 300
   },
   {
@@ -10909,7 +11002,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/05b34aed64764d94b33a/",
    "section": "3D-Druck · Bestand",
    "x": 340.0,
-   "y": 16620,
+   "y": 19240,
    "w": 300
   },
   {
@@ -10923,7 +11016,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/32be4ce2d8f9463c92dc/",
    "section": "3D-Druck · Bestand",
    "x": 680.0,
-   "y": 16620,
+   "y": 19240,
    "w": 300
   },
   {

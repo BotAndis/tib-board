@@ -39,6 +39,7 @@ HTML = {"5_3D-Modelle/Modell-Ansichten_Web/index.html": "html/modell-ansichten/i
 # "latest": newest version open (name_v3 / name_2 beats name), older ones go into one "Ältere Versionen" stack.
 U, E, F, D, M, P, O = ("1_Bestand_von-der-Uni", "2_Bestand_eigene-Pläne", "3_Bestand_Fotos", "4_Entwurf", "5_3D-Modelle",
                        "6_3D-Druck", "Ältere Versionen")
+R = "7_Referenzen"  # chosen references as A3 sheets, big next to the reference page
 PLATES = sorted(p.name for p in (LOCAL / P / "Entwurf_Platten").iterdir() if p.is_dir())
 SECTIONS = [
     ("Aufgabenstellung", [
@@ -147,7 +148,7 @@ GRID = [
 ]
 
 # current plans lie open and big (4x a normal card): the design's plan PDFs + the newest furniture inventory sheet
-BIG = [f"{D}/*/*.pdf", f"{E}/Möbelbestand/*Inventar_A3*.pdf"]
+BIG = [f"{D}/*/*.pdf", f"{E}/Möbelbestand/*Inventar_A3*.pdf", f"{R}/*.pdf"]
 # reading order of the design plans (instead of newest first): overview, Rot-Gelb, Nutzung, axo; floors bottom-up
 READ, FLOORS = ("Uebersicht", "RotGelb", "Nutzung", "Axo", "Ausschnitt", "Vorplatz"), ("-EG_", "-1OG_", "-2OG_")
 
@@ -305,14 +306,15 @@ def main():
                         stacks.append(old)
                     old["items"] = sorted(old["items"] + [item(r) for r in older], key=lambda i: age(i["id"]))
             cards += [item(r) for r in rels]
-        return sorted(cards, key=lambda i: (reading(i["id"]) if match(i["id"], [f"{D}/*/*.pdf"]) else (), age(i["id"]))) + stacks
+        return sorted(cards, key=lambda i: (reading(i["id"]) if match(i["id"], [f"{D}/*/*.pdf", f"{R}/*.pdf"]) else (), age(i["id"]))) + stacks
 
     sections = [{"title": t, "items": build(t, es)} for t, es in SECTIONS]
 
     # reference page lives only in the repo (built by build_refs.py), not in the Seafile tree
     preview = next(THUMBS.glob("referenzen-*.webp"))  # name carries a content hash, written by build_refs.py
     w, h = Image.open(preview).size
-    sections.append({"title": "Referenzen", "items": [REFS | {"thumb": preview.relative_to(REPO).as_posix(), "ar": round(w / h, 4)}]})
+    sections.append({"title": "Referenzen", "items": [REFS | {"thumb": preview.relative_to(REPO).as_posix(), "ar": round(w / h, 4)}]
+                     + build("Referenzen", [("open", [f"{R}/*.pdf"])])})
     sections.append({"title": LEFT, "items": [dict(ZEITPLAN)]})
 
     left = [r for r in files if r not in used]
