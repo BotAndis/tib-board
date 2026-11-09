@@ -1,6 +1,6 @@
 const $ = id => document.getElementById(id);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-let projects = [], assets = [], filter = 'alle', currentImages = [], currentIndex = 0;
+let projects = [], assets = [], filter = new URLSearchParams(location.search).get('filter') === 'direkt' ? 'direkt' : 'alle', currentImages = [], currentIndex = 0;
 const kindName = {photo:'Projektfoto', section:'Schnitt', plan:'Grundriss', axon:'Axonometrie'};
 const imagesFor = id => assets.filter(image => image.project === id);
 const imageCredit = image => image.credit;
@@ -18,7 +18,7 @@ function render() {
   }).join('');
   $('projects').innerHTML = shown.map(p => {
     const index = projects.findIndex(item => item.id === p.id);
-    return `<article class="project" id="${esc(p.id)}"><header class="project-head"><span class="number" aria-hidden="true">${String(index + 1).padStart(2,'0')}</span><div><h2>${esc(p.title)}</h2><p class="meta">${esc(p.architect)} · ${esc(p.place)} · ${esc(p.year)}</p><span class="type">${esc(p.type)}</span><a class="project-report" href="${esc(p.report.url)}" target="_blank" rel="noopener">Projektbericht · ${esc(p.report.label)} ↗</a><p class="principle">${esc(p.principle)}</p></div></header><div class="gallery">${imagesFor(p.id).map(image => figure(image,p)).join('')}</div><p class="reading"><strong>Im Bild lesen</strong>${esc(p.look)}</p><div class="analysis"><div><h3>So funktioniert es</h3><p>${esc(p.mechanism)}</p></div><div><h3>Was gut funktioniert</h3><ul>${p.strengths.map(text => `<li>${esc(text)}</li>`).join('')}</ul></div><div><h3>Grenzen und Nachteile</h3><ul>${p.limits.map(text => `<li>${esc(text)}</li>`).join('')}</ul></div></div><div class="tib"><h3>Für die TIB</h3><div><p>${esc(p.tib)}</p><p class="assessment">${esc(p.assessment)}</p></div></div><div class="sources">${p.sources.map(source => `<a class="source" href="${esc(source.url)}" target="_blank" rel="noopener">${esc(source.label)} ↗</a>`).join('')}</div></article>`;
+    return `<article class="project" id="${esc(p.id)}"><header class="project-head"><span class="number" aria-hidden="true">${String(index + 1).padStart(2,'0')}</span><div><h2>${esc(p.title)}</h2><p class="meta">${esc(p.architect)} · ${esc(p.place)} · ${esc(p.year)}</p><span class="type">${esc(p.type)}</span><a class="project-report" href="${esc(p.report.url)}" target="_blank" rel="noopener">Projektbericht · ${esc(p.report.label)} ↗</a><p class="principle">${esc(p.principle)}</p></div></header><div class="gallery">${imagesFor(p.id).map(image => figure(image,p)).join('')}</div>${p.mechanism ? `<p class="reading"><strong>Im Bild lesen</strong>${esc(p.look)}</p><div class="analysis"><div><h3>So funktioniert es</h3><p>${esc(p.mechanism)}</p></div><div><h3>Was gut funktioniert</h3><ul>${p.strengths.map(text => `<li>${esc(text)}</li>`).join('')}</ul></div><div><h3>Grenzen und Nachteile</h3><ul>${p.limits.map(text => `<li>${esc(text)}</li>`).join('')}</ul></div></div><div class="tib"><h3>Für die TIB</h3><div><p>${esc(p.tib)}</p><p class="assessment">${esc(p.assessment)}</p></div></div>` : ''}<div class="sources">${p.sources.map(source => `<a class="source" href="${esc(source.url)}" target="_blank" rel="noopener">${esc(source.label)} ↗</a>`).join('')}</div></article>`;
   }).join('');
 }
 
@@ -35,11 +35,14 @@ function showImage() {
   $('lb-next').disabled = currentImages.length < 2;
 }
 
-document.querySelectorAll('[data-filter]').forEach(button => button.addEventListener('click', () => {
-  filter = button.dataset.filter;
-  document.querySelectorAll('[data-filter]').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
-  render();
-}));
+document.querySelectorAll('[data-filter]').forEach(button => {
+  button.setAttribute('aria-pressed', String(button.dataset.filter === filter));
+  button.addEventListener('click', () => {
+    filter = button.dataset.filter;
+    document.querySelectorAll('[data-filter]').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+    render();
+  });
+});
 $('projects').addEventListener('click', event => {
   const button = event.target.closest('[data-file]');
   if (!button) return;

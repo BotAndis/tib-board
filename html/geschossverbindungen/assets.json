@@ -270,5 +270,221 @@
     "source": "https://davidchipperfield.com/projects/museum-folkwang",
     "original": "https://davidchipperfield.com/media/Projects/800-Museum-Folkwang/800-dca-museum-folkwang-ground-floor-plan.jpg",
     "credit": "David Chipperfield Architects"
+  },
+  {
+    "project": "manchester-museum",
+    "file": "img/manchester-museum-anschluss.webp",
+    "kind": "photo",
+    "caption": "Der neue Ausstellungskörper im Hof; seitlich schließen zurückgesetzte Glasfugen an die Bestandsbauten an.",
+    "source": "https://www.ribaj.com/intelligence/south-asian-galleries-manchester-museum-purcell-heritage/",
+    "original": "https://www.ribaj.com/media/b0chjwwn/b332688476dd8a124b473ce81682859c.jpg",
+    "credit": "Richard Kalina; RIBA Journal"
+  },
+  {
+    "project": "manchester-museum",
+    "file": "img/manchester-museum-schnitt-grundriss.webp",
+    "kind": "section",
+    "caption": "Originalschnitt und Grundriss des Hofeinbaus mit den beiden neuen Galerieebenen.",
+    "source": "https://www.ribaj.com/intelligence/south-asian-galleries-manchester-museum-purcell-heritage/",
+    "original": "https://www.ribaj.com/media/m0uduaqm/bc12e5dd34bc334df8132e3bd8b325ab.jpg",
+    "credit": "Purcell; RIBA Journal"
+  },
+  {
+    "project": "whitechapel",
+    "file": "img/whitechapel-durchgang.webp",
+    "kind": "photo",
+    "caption": "Neuer Erdgeschossdurchgang zwischen der Galerie und der ehemaligen Bibliothek.",
+    "source": "https://wwmarchitects.co.uk/projects/whitechapel",
+    "original": "https://wwmarchitects.co.uk/wp-content/uploads/2026/03/2-1-2-3.jpg",
+    "credit": "David Grandorge; Witherford Watson Mann"
+  },
+  {
+    "project": "whitechapel",
+    "file": "img/whitechapel-laengsschnitt.webp",
+    "kind": "section",
+    "caption": "Längsschnitt mit hohen Galerieräumen, mehreren Geschossebenen und neuer Erschließung.",
+    "source": "https://wwmarchitects.co.uk/projects/whitechapel",
+    "original": "https://wwmarchitects.co.uk/wp-content/uploads/2026/03/4-1-2-2.jpg",
+    "credit": "Robbrecht en Daem + Witherford Watson Mann"
+  },
+  {
+    "project": "whitechapel",
+    "file": "img/whitechapel-erdgeschoss.webp",
+    "kind": "plan",
+    "caption": "Erdgeschossgrundriss mit Verbindung der unmittelbar benachbarten Gebäude.",
+    "source": "https://wwmarchitects.co.uk/projects/whitechapel",
+    "original": "https://wwmarchitects.co.uk/wp-content/uploads/2026/03/1-1-3-2.jpg",
+    "credit": "Robbrecht en Daem + Witherford Watson Mann"
+  },
+  {
+    "project": "lenbachhaus",
+    "file": "img/lenbachhaus-atrium.webp",
+    "kind": "photo",
+    "caption": "Die ockerfarbene Außenwand der Villa liegt im neuen hohen Eingangsatrium.",
+    "source": "https://www.archdaily.com/370465/lenbachhaus-museum-foster-partners/518ac9dbb3fc4bd917000036-lenbachhaus-museum-foster-partners-photo",
+    "original": "https://images.adsttc.com/media/images/518a/c9db/b3fc/4bd9/1700/0036/large_jpg/1198_FP477134_indesign.jpg?1368050124",
+    "credit": "Nigel Young / Foster + Partners"
+  },
+  {
+    "project": "lenbachhaus",
+    "file": "img/lenbachhaus-schnitt.webp",
+    "kind": "section",
+    "caption": "Originalschnitt durch den neuen Museumsflügel und den hohen Erschließungsraum.",
+    "source": "https://www.archdaily.com/370465/lenbachhaus-museum-foster-partners/518aca0fb3fc4b693a000038-lenbachhaus-museum-foster-partners-section-c-foster-plus-partners",
+    "original": "https://images.adsttc.com/media/images/518a/ca0f/b3fc/4b69/3a00/0038/large_jpg/Section_01.jpg?1368050184",
+    "credit": "Foster + Partners; ArchDaily"
+  },
+  {
+    "project": "lenbachhaus",
+    "file": "img/lenbachhaus-erdgeschoss.webp",
+    "kind": "plan",
+    "caption": "Erdgeschossgrundriss mit dem unmittelbar an die Villa anschließenden neuen Eingangs- und Ausstellungsbereich.",
+    "source": "https://www.archdaily.com/370465/lenbachhaus-museum-foster-partners/518aca3ab3fc4b693a00003a-lenbachhaus-museum-foster-partners-ground-floor-plan-c-foster-plus-partners",
+    "original": "https://images.adsttc.com/media/images/518a/ca3a/b3fc/4b69/3a00/003a/large_jpg/Ground_Floor_Plan.jpg?1368050217",
+    "credit": "Foster + Partners; ArchDaily"
+  },
+  {
+    "project": "frac",
+    "file": "img/frac-querschnitt.webp",
+    "kind": "section",
+    "caption": "Querschnitt: ungeteilte Halle AP2 links, neue Geschosse und gemeinsame innere Straße rechts.",
+    "source": "https://www.lacatonvassal.com/data/documents/20170516-104125LV_FchA4_Culture_DNK_bd.pdf#page=2",
+    "original": "https://www.lacatonvassal.com/data/documents/20170516-104125LV_FchA4_Culture_DNK_bd.pdf",
+    "credit": "Lacaton & Vassal"
+  },
+  {
+    "project": "frac",
+    "file": "img/frac-erdgeschoss.webp",
+    "kind": "plan",
+    "caption": "Originalgrundriss mit der direkt an die Halle AP2 angebauten neuen Hälfte.",
+    "source": "https://www.lacatonvassal.com/data/documents/20170516-104125LV_FchA4_Culture_DNK_bd.pdf#page=2",
+    "original": "https://www.lacatonvassal.com/data/documents/20170516-104125LV_FchA4_Culture_DNK_bd.pdf",
+    "credit": "Lacaton & Vassal"
+  },
+  {
+    "project": "treptow",
+    "file": "img/treptow-innenraum.webp",
+    "kind": "photo",
+    "caption": "Lufträume und Galerien des neuen Bibliotheksflügels mit Blick auf den historischen Backsteinbau.",
+    "source": "https://chestnutt-niess.de/bibliothek-alte-feuerwache/",
+    "original": "https://chestnutt-niess.de/wp-content/uploads/2022/01/WH1600-2788-90-768x412.jpg",
+    "credit": "Werner Huthmacher / Chestnutt_Niess Architekten"
+  },
+  {
+    "project": "new-museum",
+    "file": "img/new-museum-alt-neu.webp",
+    "kind": "photo",
+    "caption": "SANAA-Bestand und unmittelbar angefügte OMA-Erweiterung.",
+    "source": "https://www.archdaily.com/1039814/new-museum-of-contemporary-art-oma",
+    "original": "https://images.adsttc.com/media/images/69bc/467b/04e2/2c01/88fd/929e/medium_jpg/new-museum-of-contemporary-art-oma_3.jpg?1773946523",
+    "credit": "Jason O’Rear / OMA"
+  },
+  {
+    "project": "new-museum",
+    "file": "img/new-museum-querschnitt.webp",
+    "kind": "section",
+    "caption": "Querschnitt durch Bestand und Erweiterung.",
+    "source": "https://www.archdaily.com/1039814/new-museum-of-contemporary-art-oma",
+    "original": "https://images.adsttc.com/media/images/6a16/d5b1/fd52/9207/909d/2b27/medium_jpg/9-oma-new-museum-transverse-section-26.jpg?1779881423",
+    "credit": "OMA"
+  },
+  {
+    "project": "stedelijk",
+    "file": "img/stedelijk-alt-neu.webp",
+    "kind": "photo",
+    "caption": "Historisches Museum und direkt angeschlossener Neubau.",
+    "source": "https://www.archdaily.com/350843/stedelijk-museum-amsterdam-benthem-crouwel-architects",
+    "original": "https://images.adsttc.com/media/images/5152/74b8/b3fc/4b18/7200/0049/medium_jpg/JHML1211-3444.jpg?1413995495",
+    "credit": "Jannes Linders"
+  },
+  {
+    "project": "stedelijk",
+    "file": "img/stedelijk-querschnitt.webp",
+    "kind": "section",
+    "caption": "Querschnitt durch Altbau, Eingang und neue Ausstellungsebenen.",
+    "source": "https://www.archdaily.com/350843/stedelijk-museum-amsterdam-benthem-crouwel-architects",
+    "original": "https://images.adsttc.com/media/images/5152/7564/b3fc/4bd0/6600/005d/medium_jpg/section2.jpg?1413995550",
+    "credit": "Benthem Crouwel Architects"
+  },
+  {
+    "project": "landesmuseum",
+    "file": "img/landesmuseum-alt-neu.webp",
+    "kind": "photo",
+    "caption": "Betonflügel der Erweiterung und historischer Museumsbau.",
+    "source": "https://www.baunetzwissen.de/beton/objekte/kultur/erweiterung-landesmuseum-zuerich-4722929",
+    "original": "https://www.baunetzwissen.de/imgs/2/0/1/2/9/5/7/02_Ensemble_aus_Alt_und_Neu-d3cb447150829574.jpg",
+    "credit": "Roman Keller, Zürich"
+  },
+  {
+    "project": "landesmuseum",
+    "file": "img/landesmuseum-bestandsanschluss.webp",
+    "kind": "section",
+    "caption": "Originalschnitt am Anschluss der Erweiterung an den Bestand.",
+    "source": "https://www.baunetzwissen.de/beton/objekte/kultur/erweiterung-landesmuseum-zuerich-4722929",
+    "original": "https://www.baunetzwissen.de/imgs/2/0/1/2/9/5/7/34-b16b511fc05093fe.jpg",
+    "credit": "Christ & Gantenbein"
+  },
+  {
+    "project": "newport",
+    "file": "img/newport-alt-neu.webp",
+    "kind": "photo",
+    "caption": "Bestandsgebäude und direkt angefügte Neubauten an der Newport Street.",
+    "source": "https://carusostjohn.com/projects/newport-street-gallery/",
+    "original": "https://carusostjohn.com/media/images/projects/newport-street-gallery/sS2T3EXkVWFz_1200x1200.jpg",
+    "credit": "Hélène Binet / Prudence Cuming Associates · Caruso St John"
+  },
+  {
+    "project": "newport",
+    "file": "img/newport-schnitte.webp",
+    "kind": "section",
+    "caption": "Originalschnitte durch die zusammenhängenden Galeriegebäude.",
+    "source": "https://carusostjohn.com/projects/newport-street-gallery/",
+    "original": "https://carusostjohn.com/media/images/projects/newport-street-gallery/fyw7cc1Egwu0_1200x1200.jpg",
+    "credit": "Caruso St John Architects"
+  },
+  {
+    "project": "whitworth",
+    "file": "img/whitworth-alt-neu.webp",
+    "kind": "photo",
+    "caption": "Erweiterungsbau unmittelbar am historischen Galeriegebäude.",
+    "source": "https://www.archdaily.com/596947/the-redevelopment-of-the-whitworth-muma",
+    "original": "https://images.adsttc.com/media/images/54d8/3624/e58e/ce19/1200/0131/medium_jpg/portada_The_Whitworth_re-development__Architecture_Images__Photography_by_Alan_Williams__8.jpg?1423455768",
+    "credit": "Alan Williams"
+  },
+  {
+    "project": "whitworth",
+    "file": "img/whitworth-promenade.webp",
+    "kind": "photo",
+    "caption": "Neue verglaste Promenade entlang der historischen Außenwand.",
+    "source": "https://www.archdaily.com/596947/the-redevelopment-of-the-whitworth-muma",
+    "original": "https://images.adsttc.com/media/images/54d8/3640/e58e/ce14/7000/013c/medium_jpg/The_Whitworth_re-development__Architecture_Images__Photography_by_Alan_Williams__2.jpg?1423455796",
+    "credit": "Alan Williams"
+  },
+  {
+    "project": "whitworth",
+    "file": "img/whitworth-geschossuebersicht.webp",
+    "kind": "plan",
+    "caption": "Galerieplan mit Erdgeschoss, Untergeschoss, Mezzanin und Obergeschoss.",
+    "source": "https://www.whitworth.manchester.ac.uk/visit/map/",
+    "original": "https://documents.manchester.ac.uk/display.aspx?DocID=79593",
+    "credit": "The Whitworth · University of Manchester"
+  },
+  {
+    "project": "frac",
+    "file": "img/frac-alt-neu.webp",
+    "kind": "photo",
+    "caption": "Halle AP2 links und direkt angebauter FRAC-Neubau rechts.",
+    "source": "https://www.lacatonvassal.com/index.php?idp=61",
+    "original": "https://www.lacatonvassal.com/data/documents/20170516-104125LV_FchA4_Culture_DNK_bd.pdf",
+    "credit": "Lacaton & Vassal · Projektpublikation"
+  },
+  {
+    "project": "treptow",
+    "file": "img/treptow-schnitt-bestand.webp",
+    "kind": "section",
+    "caption": "Schnitt durch Bibliotheksanbau und historische Feuerwache.",
+    "source": "https://chestnutt-niess.de/bibliothek-alte-feuerwache/",
+    "original": "https://chestnutt-niess.de/wp-content/uploads/2022/01/sec-1-768x512.jpg",
+    "credit": "Chestnutt_Niess Architekten"
   }
 ]

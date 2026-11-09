@@ -1,5 +1,310 @@
 [
   {
+    "id": "new-museum",
+    "title": "New Museum · Erweiterung",
+    "architect": "OMA · Shohei Shigematsu und Rem Koolhaas",
+    "place": "New York",
+    "year": "2026",
+    "type": "Bestand + direkt angrenzender Anbau",
+    "tags": [
+      "direkt",
+      "neu",
+      "bestandsanschluss",
+      "grossraum"
+    ],
+    "sources": [
+      {
+        "label": "OMA · Projektbeschreibung",
+        "url": "https://www.oma.com/projects/new-museum"
+      },
+      {
+        "label": "New Museum · Gebäude und Galerieanschlüsse",
+        "url": "https://www.newmuseum.org/about/building/"
+      },
+      {
+        "label": "ArchDaily · Architektentext und Originalzeichnungen",
+        "url": "https://www.archdaily.com/1039814/new-museum-of-contemporary-art-oma"
+      }
+    ],
+    "report": {
+      "label": "BauNetz · Zur Seite gesprungen",
+      "url": "https://www.baunetz.de/meldungen/Meldungen-OMA_erweitern_das_New_Museum_in_New_York_City_10273601.html"
+    },
+    "principle": "Erweiterungsbau unmittelbar neben dem bestehenden SANAA-Museum."
+  },
+  {
+    "id": "stedelijk",
+    "title": "Stedelijk Museum",
+    "architect": "Benthem Crouwel Architects",
+    "place": "Amsterdam",
+    "year": "2012",
+    "type": "Bestand + direkt angebauter Eingangs- und Ausstellungstrakt",
+    "tags": [
+      "direkt",
+      "neu",
+      "bestandsanschluss",
+      "grossraum"
+    ],
+    "sources": [
+      {
+        "label": "Benthem Crouwel · Projekt",
+        "url": "https://www.benthemcrouwel.com/projects/stedelijk-museum"
+      },
+      {
+        "label": "ArchDaily · Architektentext, Wegeführung und Zeichnungen",
+        "url": "https://www.archdaily.com/350843/stedelijk-museum-amsterdam-benthem-crouwel-architects"
+      }
+    ],
+    "report": {
+      "label": "ArchDaily · Stedelijk Museum Amsterdam",
+      "url": "https://www.archdaily.com/350843/stedelijk-museum-amsterdam-benthem-crouwel-architects"
+    },
+    "principle": "Direkt angeschlossener Neubau am historischen Museumsgebäude."
+  },
+  {
+    "id": "landesmuseum",
+    "title": "Landesmuseum Zürich",
+    "architect": "Christ & Gantenbein",
+    "place": "Zürich",
+    "year": "2016",
+    "type": "Bestand + an zwei Flügeln angeschlossene Erweiterung",
+    "tags": [
+      "direkt",
+      "neu",
+      "bestandsanschluss",
+      "grossraum"
+    ],
+    "sources": [
+      {
+        "label": "Schweizerisches Nationalmuseum · Entstehung und direkte Anschlüsse",
+        "url": "https://blog.nationalmuseum.ch/2018/06/der-lange-weg-zur-erweiterung/"
+      },
+      {
+        "label": "ArchDaily · Architektentext",
+        "url": "https://www.archdaily.com/781176/swiss-national-museum-christ-and-gantenbein"
+      },
+      {
+        "label": "BauNetz Wissen · Anschluss-Schnitt und Grundrisse",
+        "url": "https://www.baunetzwissen.de/beton/objekte/kultur/erweiterung-landesmuseum-zuerich-4722929"
+      }
+    ],
+    "report": {
+      "label": "BauNetz Wissen · Erweiterung Landesmuseum Zürich",
+      "url": "https://www.baunetzwissen.de/beton/objekte/kultur/erweiterung-landesmuseum-zuerich-4722929"
+    },
+    "principle": "Erweiterung mit Anschlüssen an zwei Flügel des historischen Museums."
+  },
+  {
+    "id": "newport",
+    "title": "Newport Street Gallery",
+    "architect": "Caruso St John Architects",
+    "place": "London",
+    "year": "2015/16",
+    "type": "Drei Bestandsgebäude + zwei direkt angrenzende Neubauten",
+    "tags": [
+      "direkt",
+      "neu",
+      "bestandsanschluss",
+      "grossraum"
+    ],
+    "sources": [
+      {
+        "label": "Caruso St John · Projekt und Originalzeichnungen",
+        "url": "https://carusostjohn.com/projects/newport-street-gallery/"
+      },
+      {
+        "label": "David Bonnett Associates · Durchgehende Ebenen und Zugänglichkeit",
+        "url": "https://www.davidbonnett.co.uk/project-newport-street"
+      }
+    ],
+    "report": {
+      "label": "Architects’ Journal · Newport Street Gallery",
+      "url": "https://www.architectsjournal.co.uk/buildings/newport-street-gallery-by-caruso-st-john"
+    },
+    "principle": "Drei bestehende Werkstattgebäude und zwei unmittelbar angefügte Neubauten."
+  },
+  {
+    "id": "whitworth",
+    "title": "Whitworth Art Gallery",
+    "architect": "MUMA",
+    "place": "Manchester",
+    "year": "2015",
+    "type": "Bestand + direkt angebaute Flügel und Promenade",
+    "tags": [
+      "direkt",
+      "neu",
+      "bestandsanschluss",
+      "galerie"
+    ],
+    "sources": [
+      {
+        "label": "ArchDaily · Architektentext zu Öffnungen, Promenaden und Niveaus",
+        "url": "https://www.archdaily.com/596947/the-redevelopment-of-the-whitworth-muma"
+      },
+      {
+        "label": "University of Manchester · Wiedereröffnung 2015",
+        "url": "https://www.manchester.ac.uk/about/news/the-university-of-manchesters-whitworth-shortlisted-for-riba-stirling-prize/"
+      },
+      {
+        "label": "Whitworth · Aktueller Grundriss und Geschossübersicht",
+        "url": "https://www.whitworth.manchester.ac.uk/visit/map/"
+      }
+    ],
+    "report": {
+      "label": "ArchDaily · The Redevelopment of the Whitworth",
+      "url": "https://www.archdaily.com/596947/the-redevelopment-of-the-whitworth-muma"
+    },
+    "principle": "Direkt an den Bestand angebaute Galerien und Promenaden."
+  },
+  {
+    "id": "manchester-museum",
+    "title": "Manchester Museum · Hello Future",
+    "architect": "Purcell",
+    "place": "Manchester",
+    "year": "2023",
+    "type": "Bestand + Hofeinbau",
+    "tags": [
+      "direkt",
+      "neu",
+      "bestandsanschluss",
+      "grossraum"
+    ],
+    "sources": [
+      {
+        "label": "Purcell · gebautes Projekt",
+        "url": "https://purcellarchitecture.com/project/manchester-museum/"
+      },
+      {
+        "label": "Purcell im RIBA Journal · Schnitt und Anschlussdetails",
+        "url": "https://www.ribaj.com/intelligence/south-asian-galleries-manchester-museum-purcell-heritage/"
+      }
+    ],
+    "report": {
+      "label": "RIBA Journal",
+      "url": "https://www.ribaj.com/intelligence/south-asian-galleries-manchester-museum-purcell-heritage/"
+    },
+    "principle": "Erweiterung im Hof des historischen Museumskomplexes."
+  },
+  {
+    "id": "whitechapel",
+    "title": "Whitechapel Gallery · Erweiterung",
+    "architect": "Robbrecht en Daem + Witherford Watson Mann",
+    "place": "London",
+    "year": "2009",
+    "type": "Verbindung benachbarter Bestandsgebäude",
+    "tags": [
+      "direkt",
+      "neu",
+      "bestandsanschluss",
+      "kern"
+    ],
+    "sources": [
+      {
+        "label": "Witherford Watson Mann · Projekt, Durchgang und Längsschnitt",
+        "url": "https://wwmarchitects.co.uk/projects/whitechapel"
+      },
+      {
+        "label": "Whitechapel Gallery · Erweiterung in die Nachbarbibliothek",
+        "url": "https://www.whitechapelgallery.org/learn/whitechapel-gallery-archive/"
+      }
+    ],
+    "report": {
+      "label": "ArchDaily",
+      "url": "https://www.archdaily.com/es/02-29185/whitechapel-gallery-witherford-watson-mann-architects-robbrecht-en-daem-architecten"
+    },
+    "principle": "Verbindung der Galerie mit dem unmittelbar benachbarten Bibliotheksgebäude."
+  },
+  {
+    "id": "treptow",
+    "title": "Mittelpunktbibliothek Treptow · Alte Feuerwache",
+    "architect": "Chestnutt_Niess Architekten",
+    "place": "Berlin-Niederschöneweide",
+    "year": "2015",
+    "type": "Bestand + direkt anschließender Bibliotheksflügel",
+    "tags": [
+      "direkt",
+      "neu",
+      "bestandsanschluss",
+      "kern",
+      "galerie"
+    ],
+    "sources": [
+      {
+        "label": "Chestnutt_Niess · Projekt und Originalzeichnungen",
+        "url": "https://chestnutt-niess.de/bibliothek-alte-feuerwache/"
+      },
+      {
+        "label": "Architekt und Bibliothekar · ausführlicher Projektbericht",
+        "url": "https://edoc.hu-berlin.de/server/api/core/bitstreams/1452bc32-4479-4569-bca8-726016aad7b6/content"
+      }
+    ],
+    "report": {
+      "label": "BauNetz",
+      "url": "https://www.baunetz.de/meldungen/Meldungen-Bibliothek_von_Chestnutt_Niess_Architekten_in_Berlin_4435643.html"
+    },
+    "principle": "Historische Feuerwache mit direkt angeschlossenem Bibliotheksanbau."
+  },
+  {
+    "id": "frac",
+    "title": "FRAC Grand Large · Halle AP2",
+    "architect": "Lacaton & Vassal",
+    "place": "Dunkerque",
+    "year": "2013",
+    "type": "Bestandshalle + direkt angebauter Zwilling",
+    "tags": [
+      "direkt",
+      "neu",
+      "bestandsanschluss",
+      "grossraum",
+      "galerie"
+    ],
+    "sources": [
+      {
+        "label": "Lacaton & Vassal · gebautes Projekt",
+        "url": "https://www.lacatonvassal.com/index.php?idp=61"
+      },
+      {
+        "label": "Lacaton & Vassal · Grundriss und Querschnitt",
+        "url": "https://www.lacatonvassal.com/data/documents/20170516-104125LV_FchA4_Culture_DNK_bd.pdf"
+      }
+    ],
+    "report": {
+      "label": "ArchDaily",
+      "url": "https://www.archdaily.cl/cl/02-337075/frac-dunkerque-lacaton-and-vassal"
+    },
+    "principle": "Neuer Baukörper unmittelbar neben der bestehenden Schiffbauhalle AP2."
+  },
+  {
+    "id": "lenbachhaus",
+    "title": "Lenbachhaus · Erweiterung",
+    "architect": "Foster + Partners",
+    "place": "München",
+    "year": "2013",
+    "type": "Historische Villa + direkt angebauter Museumsflügel",
+    "tags": [
+      "direkt",
+      "neu",
+      "bestandsanschluss",
+      "kern",
+      "grossraum"
+    ],
+    "sources": [
+      {
+        "label": "Foster + Partners · Projektbeschreibung und Zeichnungen",
+        "url": "https://www.archdaily.com/370465/lenbachhaus-museum-foster-partners"
+      },
+      {
+        "label": "Lenbachhaus · Villa und unmittelbar angegliederter Neubau",
+        "url": "https://www.lenbachhaus.de/blog/aus-dem-lmu-hauptseminar"
+      }
+    ],
+    "report": {
+      "label": "ArchDaily",
+      "url": "https://www.archdaily.com/370465/lenbachhaus-museum-foster-partners"
+    },
+    "principle": "Direkt angefügter Museumsneubau an der historischen Villa."
+  },
+  {
     "id": "higgins",
     "title": "Higgins Hall",
     "architect": "Steven Holl Architects",
