@@ -247,6 +247,7 @@ def main():
             kind = "file"
         it = {"id": rel, "kind": kind, "title": Path(rel).stem.replace("_", " "), "ext": ext[1:],
               "size": (LOCAL / rel).stat().st_size,
+              "date": time.strftime("%d.%m.%Y", time.localtime((LOCAL / rel).stat().st_mtime)),
               "dl": f"{FOLDER_LINK}files/?p={quote('/' + rel)}&dl=1",
               "raw": f"{FOLDER_LINK}files/?p={quote('/' + rel)}&raw=1"}
         if kind in ("pdf", "image"):
