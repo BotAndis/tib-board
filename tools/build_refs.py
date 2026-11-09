@@ -11,13 +11,17 @@ OUT = Path(__file__).resolve().parent.parent / "html" / "referenzen"
 PLANS = {"eg", "og", "og2", "schnitt"}
 ROLES = ["eg", "og", "og2", "schnitt", "aussen", "innen1", "innen2"]
 # Bestand weitergebaut: the most relevant group for the TIB task
-UMBAU = {"kopenhagen-black-diamond", "leipzig-dnb", "peking-nationalbibliothek", "malmoe-stadtbibliothek",
+UMBAU = {"fribourg-bcu", "kopenhagen-black-diamond", "leipzig-dnb", "peking-nationalbibliothek", "malmoe-stadtbibliothek",
          "zuerich-rechtswiss", "freiburg-ub", "tilburg-lochal", "luzern-ub", "berlin-staatsbibliothek",
          "washington-mlk-umbau", "paris-richelieu", "oxford-weston", "bern-vonroll", "stuttgart-wlb",
          "toronto-story-arts", "budapest-bbu"}
 PREVIEW = ["washington-mlk", "washington-mlk-umbau", "berlin-grimm-zentrum", "freiburg-ub"]  # rows on the board tile
+# Editorial TIB selection: own competition plus related library types and transformations.
+KT = {"fribourg-bcu", "washington-mlk", "washington-mlk-umbau", "eindhoven-metaforum",
+      "stockholm-asplund", "paris-richelieu", "yale-beinecke", "exeter-kahn", "berlin-grimm-zentrum", "latem-office"}
 # one line: how the building is organised (Magazin / Freihand / Lesen / Erschließung)
 NOTES = {
+    "fribourg-bcu": "Wettbewerbsentwurf 2010, 3. Preis, nicht realisiert: Altbau restaurieren, unterirdisch erweitern; ovaler Lesesaal mit großem Oberlicht unter dem Garten.",
     "kopenhagen-black-diamond": "Erweiterung am Altbau: zwei Blöcke, dazwischen ein Atrium-Spalt; Brücken über die Straße zum Bestand.",
     "peking-nationalbibliothek": "Erweiterung: Schatzmagazin im Sockel, darüber offene Lese-Terrassen unter einem schwebenden Dach.",
     "leipzig-dnb": "Anbau an den Altbau: Magazingeschosse im Raster, ein öffentlicher Weg verbindet Alt und Neu.",
@@ -89,9 +93,12 @@ def main(raw):
                             "ar": round(im.width / im.height, 3)}
         keep = {k: meta.get(k) for k in ("slug", "title", "city", "country", "architect", "year", "category", "book_page")}
         old = data.get(slug, {})
-        data[slug] = keep | {"umbau": slug in UMBAU or bool(meta.get("umbau")), "note": NOTES.get(slug) or meta.get("note", ""),
+        data[slug] = keep | {"kt": slug in KT, "umbau": slug in UMBAU or bool(meta.get("umbau")), "note": NOTES.get(slug) or meta.get("note", ""),
                              "link": meta.get("link") or old.get("link"), "relevance": meta.get("relevance") or old.get("relevance"),
                              "images": images}
+    # Also flag existing references, even when this run has no raw folder for them.
+    for slug, project in data.items():
+        project["kt"] = slug in KT
     ordered = sorted(data.values(), key=lambda p: (p["category"], p.get("book_page") or 999, p["slug"]))  # slug keeps MLK original before its Umbau
     data_file.write_text(json.dumps(ordered, ensure_ascii=False, indent=1), encoding="utf-8")
     print(len(ordered), "projects;", sum(len(p["images"]) for p in ordered), "images")
@@ -101,7 +108,11 @@ def main(raw):
 def preview(data):
     """Board tile: a miniature of the page itself (header, column labels, a few full rows)."""
     from PIL import ImageDraw, ImageFont
-    font = lambda size, bold=False: ImageFont.truetype(f"C:/Windows/Fonts/segoeui{'b' if bold else ''}.ttf", size)
+    def font(size, bold=False):
+        try:
+            return ImageFont.truetype(f"C:/Windows/Fonts/segoeui{'b' if bold else ''}.ttf", size)
+        except OSError:
+            return ImageFont.truetype(f"DejaVuSans{'-Bold' if bold else ''}.ttf", size)
     W, M, G = 2000, 60, 16
     cw = (W - 2 * M - 5 * G) // 6
     ch = cw * 3 // 4

@@ -43,7 +43,8 @@
     "src": "https://www.architectmagazine.com/awards/aia-awards/2021-aia-twenty-five-year-award-burton-barr-phoenix-central-library_o · Foto: Bill Timmerman (rechte Hälfte eines Diptychons)",
     "ar": 1.161
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "norwich-millennium",
@@ -84,7 +85,8 @@
     "src": "https://www.hopkins.co.uk/projects/civic-and-culture/the-forum/",
     "ar": 1.274
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "amsterdam-oba",
@@ -130,7 +132,8 @@
     "src": "https://www.archdaily.com/505344/public-library-amsterdam-jo-coenen-and-co-architekten/5370c935c07a806f33000095-public-library-amsterdam-jo-coenen-and-co-architekten-photo · Foto: Arjen Schmitz",
     "ar": 1.5
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "stuttgart-stadtbibliothek",
@@ -176,7 +179,8 @@
     "src": "https://www.archdaily.com/193568/stuttgart-city-library-yi-architects/501718d728ba0d235b000e09-stuttgart-city-library-yi-architects-photo · Foto: Stefan Müller",
     "ar": 0.746
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "birmingham-library",
@@ -227,7 +231,8 @@
     "src": "https://www.archdaily.com/421970/library-of-birmingham-mecanoo/521f4b03e8e44ebd90000003-library-of-birmingham-mecanoo-photo · Foto: Christian Richters",
     "ar": 1.333
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "aarhus-dokk1",
@@ -278,7 +283,8 @@
     "src": "https://www.archdaily.com/644920/dokk1-schmidt-hammer-lassen-architects/5586f915e58ece09c2000207-dokk1-schmidt-hammer-lassen-architects-photo · Foto: Adam Mørk",
     "ar": 1.28
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "austin-central",
@@ -318,7 +324,8 @@
     "ar": 1.333
    }
   },
-  "link": "https://www.lakeflato.com/project/austin-central-library/"
+  "link": "https://www.lakeflato.com/project/austin-central-library/",
+  "kt": false
  },
  {
   "slug": "calgary-central",
@@ -368,7 +375,8 @@
     "ar": 1.5
    }
   },
-  "link": "https://www.baunetz.de/meldungen/Meldungen-Zentralbibliothek_in_Calgary_von_Snohetta_5535024.html"
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Zentralbibliothek_in_Calgary_von_Snohetta_5535024.html",
+  "kt": false
  },
  {
   "slug": "christchurch-turanga",
@@ -418,7 +426,8 @@
     "ar": 1.165
    }
   },
-  "link": "https://www.baunetz.de/meldungen/Meldungen-Bibliothek_in_Christchurch_von_Schmidt_Hammer_Lassen_5519127.html"
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Bibliothek_in_Christchurch_von_Schmidt_Hammer_Lassen_5519127.html",
+  "kt": false
  },
  {
   "slug": "halifax-central",
@@ -468,7 +477,8 @@
     "ar": 1.028
    }
   },
-  "link": "https://www.baunetz.de/meldungen/Meldungen-Bibliothek_von_Schmidt_Hammer_Lassen_in_Kanada_4161183.html"
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Bibliothek_von_Schmidt_Hammer_Lassen_in_Kanada_4161183.html",
+  "kt": false
  },
  {
   "slug": "malmoe-stadtbibliothek",
@@ -509,7 +519,8 @@
     "src": "https://commons.wikimedia.org/wiki/File:Malmo_stadsbibliotek,_Johannes_Jansson.jpg · Foto: Johannes Jansson (CC BY 2.5 DK)",
     "ar": 1.494
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "mechelen-predikheren",
@@ -560,7 +571,8 @@
     "src": "https://www.archdaily.com/944248/city-library-het-predikheren-korteknie-stuhlmacher-architecten-plus-callebaut-architecten-plus-bureau-bouwtechniek · Foto: Luuk Kramer",
     "ar": 1.501
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "mexiko-vasconcelos",
@@ -605,7 +617,8 @@
     "ar": 0.75
    }
   },
-  "link": "https://divisare.com/projects/372371-tomas-casademunt-biblioteca-vasconcelos"
+  "link": "https://divisare.com/projects/372371-tomas-casademunt-biblioteca-vasconcelos",
+  "kt": false
  },
  {
   "slug": "muenster-dioezesanbibliothek",
@@ -641,7 +654,8 @@
     "src": "https://www.maxdudler.de/en/projects/0208_mdb_dioezesanbibliothek/",
     "ar": 1.332
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "oslo-deichman",
@@ -692,7 +706,8 @@
     "src": "https://www.archdaily.com/942813/deichman-library-atelier-oslo-plus-lund-hagem/5efca459b35765a0a60004e8-deichman-library-atelier-oslo-plus-lund-hagem-photo · Foto: Einar Aslaksen",
     "ar": 1.333
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "rotterdam-centrale",
@@ -742,7 +757,8 @@
     "ar": 1.6
    }
   },
-  "link": "https://www.broekbakema.nl/projecten/centrale-bibliotheek/"
+  "link": "https://www.broekbakema.nl/projecten/centrale-bibliotheek/",
+  "kt": false
  },
  {
   "slug": "seattle-central",
@@ -787,7 +803,8 @@
     "ar": 1.259
    }
   },
-  "link": "https://www.baunetzwissen.de/sonnenschutz/objekte/bildung---forschung/zentralbibliothek-in-seattle-usa-72940"
+  "link": "https://www.baunetzwissen.de/sonnenschutz/objekte/bildung---forschung/zentralbibliothek-in-seattle-usa-72940",
+  "kt": false
  },
  {
   "slug": "shanghai-library-east",
@@ -832,7 +849,8 @@
     "ar": 0.75
    }
   },
-  "link": "https://www.baunetz.de/meldungen/Meldungen-Schmidt_Hammer_Lassen_gewinnen_Wettbewerb_in_Shanghai_4936398.html"
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Schmidt_Hammer_Lassen_gewinnen_Wettbewerb_in_Shanghai_4936398.html",
+  "kt": false
  },
  {
   "slug": "stockholm-asplund",
@@ -878,7 +896,8 @@
     "src": "https://commons.wikimedia.org/wiki/File:2019-08-12_Stockholms_stadsbibliotek_35.jpg · Foto: Nemo bis (CC BY-SA 3.0)",
     "ar": 1.333
    }
-  }
+  },
+  "kt": true
  },
  {
   "slug": "tianjin-binhai",
@@ -928,7 +947,8 @@
     "ar": 1.5
    }
   },
-  "link": "https://www.baunetz.de/meldungen/Meldungen-Bibliothek_von_MVRDV_in_China_4772844.html"
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Bibliothek_von_MVRDV_in_China_4772844.html",
+  "kt": false
  },
  {
   "slug": "tilburg-lochal",
@@ -979,7 +999,8 @@
     "src": "https://www.baunetzwissen.de/bauen-im-bestand/objekte/kulturbauten/lochal-in-tilburg-9983681 · Foto: Stijn Bollaert",
     "ar": 1.333
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "turku-stadtbibliothek",
@@ -1030,7 +1051,8 @@
     "src": "https://jkmm.fi/work/turku-library/ · Foto: Michael Perlmutter",
     "ar": 1.417
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "utrecht-neude",
@@ -1076,7 +1098,8 @@
     "src": "https://www.archdaily.com/943774/utrecht-central-library-and-post-office-zecc-architecten-plus-rijnboutt",
     "ar": 1.459
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "washington-mlk",
@@ -1122,7 +1145,8 @@
     "src": "https://commons.wikimedia.org/wiki/File:The_Martin_Luther_King,_Jr._Memorial_Library,_Washington,_D.C_LCCN2012630219.tif · Foto: Carol M. Highsmith",
     "ar": 1.326
    }
-  }
+  },
+  "kt": true
  },
  {
   "slug": "washington-mlk-umbau",
@@ -1173,7 +1197,8 @@
     "src": "https://www.archdaily.com/972337/the-martin-luther-king-jr-memorial-library-mecanoo-plus-otj-architects · Foto: Trent Bell",
     "ar": 1.806
    }
-  }
+  },
+  "kt": true
  },
  {
   "slug": "london-peckham",
@@ -1224,7 +1249,8 @@
     "src": "https://www.archiweb.cz/en/b/peckham-library-and-media-centre",
     "ar": 1.363
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "madrid-usera",
@@ -1275,7 +1301,8 @@
     "src": "https://exhibits.lib.ttu.edu/s/archlib/item/39378 · Foto: TTU Architecture Library",
     "ar": 0.666
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "london-whitechapel",
@@ -1321,7 +1348,8 @@
     "src": "https://www.archiweb.cz/en/b/idea-store-whitechapel · Foto: Pavel Nasadil",
     "ar": 1.333
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "la-miriam-matthews",
@@ -1357,7 +1385,8 @@
     "src": "https://hplusf.com/projects/hyde-park-library/ · Foto: HplusF",
     "ar": 1.329
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "scottsdale-arabian",
@@ -1398,7 +1427,8 @@
     "src": "https://www.archdaily.com/130435/arabian-library-richardbauer · Foto: Bill Timmerman",
     "ar": 1.506
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "viana-siza",
@@ -1444,7 +1474,8 @@
     "src": "https://divisare.com/projects/89852-alvaro-siza-vieira-fernando-guerra-fg-sg-biblioteca-municipal · Foto: Fernando Guerra / FG+SG",
     "ar": 1.499
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "strasbourg-malraux",
@@ -1490,7 +1521,8 @@
     "src": "https://divisare.com/projects/245008-ibos-vitart-andre-malraux-library",
     "ar": 1.333
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "vennesla",
@@ -1536,7 +1568,8 @@
     "src": "https://www.archdaily.com/209340/vennesla-library-and-culture-house-helen-hard · Foto: Emile Ashley",
     "ar": 0.665
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "almada",
@@ -1577,7 +1610,8 @@
     "src": "https://bdt.degruyter.com/entry/BDT_17_041/ (Building Types Online, De Gruyter)",
     "ar": 1.002
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "ceuta",
@@ -1618,7 +1652,8 @@
     "src": "https://www.archdaily.com/393114/public-library-in-ceuta-paredes-pedrosa · Foto: Fernando Alda",
     "ar": 0.892
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "barcelona-garcia-marquez",
@@ -1668,7 +1703,8 @@
     "ar": 1.124
    }
   },
-  "link": "https://divisare.com/projects/496610-suma-arquitectura-jesus-granada-gabriel-garcia-marquez-library"
+  "link": "https://divisare.com/projects/496610-suma-arquitectura-jesus-granada-gabriel-garcia-marquez-library",
+  "kt": false
  },
  {
   "slug": "barcelona-montbau",
@@ -1709,7 +1745,8 @@
     "src": "https://www.archdaily.com/801110/montbau-library-rehabilitation-oliverasboix-arquitectes · Foto: José Hevia",
     "ar": 1.501
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "berlin-bibliothek-alte-feuerwache",
@@ -1750,7 +1787,8 @@
     "src": "https://chestnutt-niess.de/bibliothek-alte-feuerwache/ · Foto: Werner Huthmacher (laut BauNetz)",
     "ar": 1.5
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "berlin-bibliothek-luisenbad",
@@ -1796,7 +1834,8 @@
     "src": "https://chestnutt-niess.de/bibliothek-luisenbad/",
     "ar": 1.248
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "heidenheim-dudler",
@@ -1847,7 +1886,8 @@
     "src": "https://www.archdaily.com/891245/city-library-heidenheim-max-dudler · Foto: Stefan Müller",
     "ar": 1.333
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "kanazawa-umimirai",
@@ -1893,7 +1933,8 @@
     "src": "https://www.archdaily.com/145757/kanazawa-umimirai-library-coelacanth-kh-architects · Foto: Satoshi Asakawa",
     "ar": 1.499
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "latem-office",
@@ -1939,7 +1980,8 @@
     "src": "https://www.baunetz.de/meldungen/Meldungen-Stadtbibliothek_bei_Gent_von_Office_8492243.html",
     "ar": 0.707
    }
-  }
+  },
+  "kt": true
  },
  {
   "slug": "mittweida-stadtbibliothek",
@@ -1990,7 +2032,8 @@
     "src": "https://www.baunetzwissen.de/elektro/objekte/kultur-bildung/stadtbibliothek-in-mittweida-10030424 · Foto: Robert Gomlich",
     "ar": 1.5
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "viipuri-aalto",
@@ -2041,7 +2084,8 @@
     "src": "https://www.archdaily.com/630420/ad-classics-viipuri-library-alvar-aalto · Foto: Flickr user ninara",
     "ar": 1.501
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "vilassar-de-dalt-can-manyer",
@@ -2087,7 +2131,8 @@
     "src": "https://dft.cat/projects/biblioteca-pau-piferrer-de-vilassar-de-dalt/",
     "ar": 1.333
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "barcelona-lleialtat-santsenca",
@@ -2133,7 +2178,8 @@
     "src": "https://www.archdaily.com/es/889533/centro-civico-lleialtat-santsenca-1214-harquitectes · Foto: Adrià Goula",
     "ar": 1.5
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "barcelona-sala-beckett",
@@ -2184,7 +2230,8 @@
     "src": "https://divisare.com/projects/366518-flores-prats-adria-goula-sala-beckett · Foto: Adrià Goula (Angabe Divisare)",
     "ar": 2.0
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "berlin-st-agnes",
@@ -2230,7 +2277,8 @@
     "src": "https://www.baunetzwissen.de/beton/objekte/kultur/st-agnes-kirche-in-berlin-4504165 · Foto: Gute Gestaltung / Ute Zscharnt (Bildnachweis BauNetz Wissen)",
     "ar": 1.501
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "london-goldsmiths-cca",
@@ -2276,7 +2324,8 @@
     "src": "https://divisare.com/projects/396297-assemble-goldsmiths-cca · Foto: Assemble",
     "ar": 1.357
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "paris-palais-de-tokyo",
@@ -2327,7 +2376,8 @@
     "src": "https://www.archdaily.com/248026/palais-de-tokyo-expansion-lacaton-vassal · Foto: 11h45",
     "ar": 0.666
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "kopenhagen-black-diamond",
@@ -2378,7 +2428,8 @@
     "src": "https://www.archdaily.com/913400/the-royal-library-shl/5c8fda2d284dd14c82000320-the-royal-library-shl-photo · Foto: Adam Mørk",
     "ar": 1.501
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "singapur-nationalbibliothek",
@@ -2419,7 +2470,8 @@
     "src": "https://commons.wikimedia.org/wiki/File:The_Courtyard,_NLB_Bldg.JPG · Foto: Terence Ong (CC BY 2.5)",
     "ar": 1.333
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "leon-guanajuato",
@@ -2470,7 +2522,8 @@
     "src": "https://www.gtoviaja.com/biblioteca-central-estatal-“wigberto-jimenez-moreno”/ · Foto: gtoviaja",
     "ar": 1.5
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "peking-nationalbibliothek",
@@ -2516,7 +2569,8 @@
     "src": "https://divisare.com/projects/243010-ksp-engel-national-library-of-china · Foto: Hans Schlupp",
     "ar": 1.504
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "leipzig-dnb",
@@ -2562,7 +2616,8 @@
     "src": "https://www.heinze.de/architekturobjekt/deutsche-nationalbibliothek-in-leipzig-erweiterung/11729273/ · Foto: Maix Mayer",
     "ar": 1.333
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "berlin-staatsbibliothek",
@@ -2608,7 +2663,8 @@
     "src": "https://www.baunetzwissen.de/brandschutz/objekte/kultur-bildung/staatsbibliothek-unter-den-linden-in-berlin-3405249 · Foto: Kati Türschmann",
     "ar": 1.333
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "british-library",
@@ -2648,7 +2704,8 @@
     "ar": 1.501
    }
   },
-  "link": "https://www.baunetz.de/meldungen/Meldungen_Neubau_der_British_Library_in_London_feierlich_eingeweiht_3803.html"
+  "link": "https://www.baunetz.de/meldungen/Meldungen_Neubau_der_British_Library_in_London_feierlich_eingeweiht_3803.html",
+  "kt": false
  },
  {
   "slug": "jerusalem-nli",
@@ -2693,7 +2750,8 @@
     "ar": 1.902
    }
   },
-  "link": "https://www.baunetz.de/meldungen/Meldungen-Nationalbibliothek_von_Herzog_-_de_Meuron_4728837.html"
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Nationalbibliothek_von_Herzog_-_de_Meuron_4728837.html",
+  "kt": false
  },
  {
   "slug": "paris-bnf",
@@ -2734,7 +2792,8 @@
     "src": "https://www.archdaily.com/103592/ad-classics-national-library-of-france-dominique-perrault-2 · Foto: Perrault Architecture",
     "ar": 0.767
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "paris-richelieu",
@@ -2780,7 +2839,8 @@
     "src": "https://commons.wikimedia.org/wiki/File:La_salle_ovale_du_site_Richelieu,_Biblioth%C3%A8que_nationale_de_France,_Paris_2022.jpg · Foto: Jean-Pierre Dalbéra",
     "ar": 1.418
    }
-  }
+  },
+  "kt": true
  },
  {
   "slug": "delft-tu",
@@ -2831,7 +2891,8 @@
     "src": "https://www.archdaily.com/958636/library-delft-university-of-technology-mecanoo · Foto: Greg Holmes",
     "ar": 0.667
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "zuerich-rechtswiss",
@@ -2877,7 +2938,8 @@
     "src": "https://calatrava.com/projects/university-of-zurich-law-faculty-zuerich.html",
     "ar": 1.278
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "berlin-philologische",
@@ -2923,7 +2985,8 @@
     "src": "https://www.archdaily.com/438400/free-university-of-berlin-foster-partners · Foto: Reinhard Görner / Nigel Young",
     "ar": 0.664
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "berlin-grimm-zentrum",
@@ -2969,7 +3032,8 @@
     "src": "https://www.archdaily.com/376900/jacob-and-wilhelm-grimm-centre-max-dudler · Foto: Stefan Müller",
     "ar": 0.741
    }
-  }
+  },
+  "kt": true
  },
  {
   "slug": "peking-tsinghua",
@@ -3015,7 +3079,8 @@
     "src": "https://www.botta.ch/it/SPAZI%20DELLA%20CULTURA?idx=1 · Foto: Enrico Cano",
     "ar": 1.333
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "katowice-ciniba",
@@ -3066,7 +3131,8 @@
     "src": "https://www.archdaily.com/284180/ciniba-hs99 · Foto: Tomasz Zakrzewski",
     "ar": 1.502
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "aberdeen-duncan-rice",
@@ -3116,7 +3182,8 @@
     "ar": 1.336
    }
   },
-  "link": "https://www.baunetz.de/meldungen/Meldungen-Queen_weiht_Bibliothek_in_Aberdeen_ein_2947431.html"
+  "link": "https://www.baunetz.de/meldungen/Meldungen-Queen_weiht_Bibliothek_in_Aberdeen_ein_2947431.html",
+  "kt": false
  },
  {
   "slug": "antwerpen-campus-opera",
@@ -3162,7 +3229,8 @@
     "src": "https://www.archdaily.com/1016401/campus-opera-b-architecten · Foto: Lucid",
     "ar": 0.687
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "basel-universitaetsbibliothek",
@@ -3208,7 +3276,8 @@
     "src": "https://www.baunetzwissen.de/akustik/objekte/bildung/umbau-universitaetsbibliothek-in-basel-7895888 · Foto: Andi Cortellini",
     "ar": 1.501
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "berlin-tu-ub",
@@ -3249,7 +3318,8 @@
     "src": "https://commons.wikimedia.org/wiki/File:Reading_room,_Ground_floor,_VW_Library,_Berlin.jpg · Foto: MB-one",
     "ar": 1.333
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "bern-vonroll",
@@ -3300,7 +3370,8 @@
     "src": "https://commons.wikimedia.org/wiki/File:Bibliothek_vonRoll_der_Universit%C3%A4t_Bern.jpg · Foto: Universität Bern",
     "ar": 1.5
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "budapest-bbu",
@@ -3346,7 +3417,8 @@
     "src": "https://www.baunetz.de/meldungen/Meldungen-Erweiterung_in_Budapest_von_Gereben_Marian_Epiteszek_8628347.html",
     "ar": 1.25
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "canterbury-templeman-library",
@@ -3387,7 +3459,8 @@
     "src": "https://architecturetoday.co.uk/?p=121610 · Foto: Tim Crocker",
     "ar": 1.5
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "cottbus-ikmz",
@@ -3437,7 +3510,8 @@
     "ar": 0.853
    }
   },
-  "link": "https://www.baunetz.de/meldungen/Meldungen_Bibliothek_von_Herzog_de_Meuron_in_Cottbus_eroeffnet_18845.html"
+  "link": "https://www.baunetz.de/meldungen/Meldungen_Bibliothek_von_Herzog_de_Meuron_in_Cottbus_eroeffnet_18845.html",
+  "kt": false
  },
  {
   "slug": "darmstadt-ulb",
@@ -3483,7 +3557,8 @@
     "src": "https://librarybuildings.info/germany/ulb-stadtmitte-universitats-und-landesbibliothek-darmstadt",
     "ar": 1.5
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "dresden-slub",
@@ -3534,7 +3609,8 @@
     "src": "https://www.ortner-ortner.com/en/baukunst/projekte/kultur/slub-dresden · Foto: Stefan Müller",
     "ar": 1.258
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "eindhoven-metaforum",
@@ -3585,7 +3661,8 @@
     "src": "https://www.archdaily.com/288636/metaforum-ector-hoogstad-architecten · Foto: Bart van Overbeeke / Norbert van Onna",
     "ar": 0.747
    }
-  }
+  },
+  "kt": true
  },
  {
   "slug": "espoo-harald-herlin",
@@ -3631,7 +3708,8 @@
     "src": "https://www.archdaily.com/876977/aalto-university-library-harald-herlin-learning-centre-jkmm · Foto: Tuomas Uusheimo",
     "ar": 1.0
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "essen-folkwang-bibliothek",
@@ -3677,7 +3755,8 @@
     "src": "https://www.archdaily.com/320254/folkwang-library-max-dudler · Foto: Stefan Müller",
     "ar": 0.668
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "exeter-kahn",
@@ -3723,7 +3802,8 @@
     "src": "https://commons.wikimedia.org/wiki/File:Exeter_Library_Carrels_02.jpg · Foto: Cysj1024 (CC BY-SA 4.0)",
     "ar": 1.333
    }
-  }
+  },
+  "kt": true
  },
  {
   "slug": "freiburg-ub",
@@ -3769,6 +3849,49 @@
     "src": "https://www.archdaily.com/783418/library-in-freiburg-degelo-architekten-plus-ittenbrechbuhl · Foto: Barbara Bühler",
     "ar": 0.801
    }
+  },
+  "kt": false
+ },
+ {
+  "slug": "fribourg-bcu",
+  "title": "BCU Fribourg – Wettbewerbsentwurf (3. Preis, nicht realisiert)",
+  "city": "Fribourg",
+  "country": "Schweiz",
+  "architect": "Atelier Kempe Thill",
+  "year": 2010,
+  "category": "uni",
+  "book_page": null,
+  "kt": true,
+  "umbau": true,
+  "note": "Wettbewerbsentwurf 2010, 3. Preis, nicht realisiert: Altbau restaurieren, unterirdisch erweitern; ovaler Lesesaal mit großem Oberlicht unter dem Garten.",
+  "link": "https://atelierkempethill.com/projects/0099-university-library/",
+  "relevance": null,
+  "images": {
+   "eg": {
+    "label": "Grundrisse · Wettbewerbsentwurf",
+    "src": "https://atelierkempethill.com/projects/0099-university-library/ · Plan: Atelier Kempe Thill (Büro-Pressebild)",
+    "ar": 1.109
+   },
+   "schnitt": {
+    "label": "Schnitt · Wettbewerbsentwurf",
+    "src": "https://atelierkempethill.com/projects/0099-university-library/ · Plan: Atelier Kempe Thill (Büro-Pressebild)",
+    "ar": 2.92
+   },
+   "aussen": {
+    "label": "Gartenfassade · Visualisierung",
+    "src": "https://atelierkempethill.com/projects/0099-university-library/ · Visualisierung: Atelier Kempe Thill (Büro-Pressebild)",
+    "ar": 1.709
+   },
+   "innen1": {
+    "label": "Lesesaal · Visualisierung",
+    "src": "https://atelierkempethill.com/projects/0099-university-library/ · Visualisierung: Atelier Kempe Thill (Büro-Pressebild)",
+    "ar": 1.869
+   },
+   "innen2": {
+    "label": "Hof · Visualisierung",
+    "src": "https://atelierkempethill.com/projects/0099-university-library/ · Visualisierung: Atelier Kempe Thill (Büro-Pressebild)",
+    "ar": 1.778
+   }
   }
  },
  {
@@ -3810,7 +3933,8 @@
     "src": "https://tour.boekentoren.gent/en/room/underground-depot · Foto: UGent",
     "ar": 1.498
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "hachioji-tama-art-university",
@@ -3851,7 +3975,8 @@
     "src": "https://divisare.com/projects/322210-toyo-ito-associates-rasmus-hjortshoj-coast-tama-art-university-library · Foto: Rasmus Hjortshøj (Coast)",
     "ar": 1.0
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "luzern-ub",
@@ -3897,7 +4022,8 @@
     "src": "https://afasiaarchzine.com/2020/10/lussi-halter-casagrande/ · Foto: Leonardo Finotti",
     "ar": 1.5
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "oxford-weston",
@@ -3943,7 +4069,8 @@
     "src": "https://architecturetoday.co.uk/award-entries/weston-library/ · Foto: Ben Bisek",
     "ar": 1.501
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "paris-sainte-genevieve",
@@ -3989,7 +4116,8 @@
     "src": "https://commons.wikimedia.org/wiki/File:Salle_de_lecture_Labrouste.jpg · Foto: Communication BSG",
     "ar": 1.333
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "stuttgart-wlb",
@@ -4035,7 +4163,8 @@
     "src": "https://www.archdaily.com/996892/wurttemberg-state-library-annex-lro-gmbh-and-co-kg-freie-architekten-bda · Foto: Brigida González",
     "ar": 0.714
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "toronto-story-arts",
@@ -4076,7 +4205,8 @@
     "src": "https://www.baunetz.de/meldungen/Meldungen-Bibliotheksanbau_in_Toronto_von_RDH_Architects_9894559.html · Foto: Tom Arban",
     "ar": 0.66
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "utrecht-ub",
@@ -4122,7 +4252,8 @@
     "src": "https://www.archdaily.com/136377/utrecht-library-wiel-arets-architects · Foto: Jan Bitter / Andrea Giannotti",
     "ar": 0.706
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "wildau-th-bibliothek",
@@ -4173,7 +4304,8 @@
     "src": "https://chestnutt-niess.de/tfh-wildau/",
     "ar": 1.501
    }
-  }
+  },
+  "kt": false
  },
  {
   "slug": "yale-beinecke",
@@ -4223,6 +4355,7 @@
     "ar": 0.998
    }
   },
-  "link": "https://beinecke.library.yale.edu/beinecke/about-us/history-and-architecture"
+  "link": "https://beinecke.library.yale.edu/beinecke/about-us/history-and-architecture",
+  "kt": true
  }
 ]

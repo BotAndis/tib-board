@@ -18,6 +18,10 @@
 - [Referenzen · Bibliotheken](https://botandis.github.io/tib-board/html/referenzen/index.html): 91 Bibliotheken mit Bewertungen in html/referenzen/ratings.json
 - [Board-Inhalt](https://botandis.github.io/tib-board/board.json): alle Kacheln mit Bereich und Download-Link
 
+## Optional
+
+- [Studio Kempe Thill · Büro + Haltung](https://botandis.github.io/tib-board/html/kempe-thill/index.html): Projekte und Haltung des Büros; Hintergrund, für den Entwurf meist nicht nötig
+
 ## Archiv
 
 - [Vorübungen](https://botandis.github.io/tib-board/konzept/archiv/voruebungen.md): Wolpertinger, Volumenstudie; abgeschlossen, für den Entwurf nicht relevant

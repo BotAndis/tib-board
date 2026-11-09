@@ -113,6 +113,12 @@
    "text": "Zeitplan",
    "x": -3352,
    "y": 0
+  },
+  {
+   "id": "label:Studio Kempe Thill",
+   "text": "Studio Kempe Thill",
+   "x": -6066,
+   "y": 0
   }
  ],
  "items": [
@@ -11884,6 +11890,22 @@
    "x": -3352,
    "y": 250,
    "w": 2352
+  },
+  {
+   "id": "html/kempe-thill/index.html",
+   "kind": "html",
+   "title": "Kempe Thill · Büro + Haltung",
+   "ext": "html",
+   "size": 0,
+   "dl": "html/kempe-thill/index.html",
+   "raw": "html/kempe-thill/index.html",
+   "url": "html/kempe-thill/index.html",
+   "thumb": "thumbs/kempe-thill.webp",
+   "ar": 1.4286,
+   "section": "Studio Kempe Thill",
+   "x": -6066,
+   "y": 250,
+   "w": 1714
   }
  ]
 }

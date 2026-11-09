@@ -130,10 +130,14 @@ SECTIONS = [
 REFS = {"id": "html/referenzen/index.html", "kind": "html", "title": "Referenzen · Bibliotheken", "ext": "html",
         "size": 0, "dl": "html/referenzen/index.html", "raw": "html/referenzen/index.html",
         "url": "html/referenzen/index.html"}
+KT = {"id": "html/kempe-thill/index.html", "kind": "html", "title": "Kempe Thill · Büro + Haltung", "ext": "html",
+      "size": 0, "dl": "html/kempe-thill/index.html", "raw": "html/kempe-thill/index.html",
+      "url": "html/kempe-thill/index.html", "thumb": "thumbs/kempe-thill.webp", "ar": 1.4286}
 # dates from the brief, a repo-only page shown live in its card ("live"): one big column left of everything (LEFT)
 ZEITPLAN = {"id": "html/zeitplan.html", "kind": "html", "title": "Zeitplan · Termine", "ext": "html", "size": 0,
             "dl": "html/zeitplan.html", "raw": "html/zeitplan.html", "url": "html/zeitplan.html", "live": True, "ar": 0.3015}
 LEFT = "Zeitplan"
+KT_SEC = "Studio Kempe Thill"  # office background page: its own card left of the Zeitplan, opens only on click (no "live")
 
 # rows of (Grundlagen | Entwurf); a row starts below the taller cell of the row above, so the Entwurf plans sit
 # level with the Bestand plans of the same name
@@ -320,6 +324,7 @@ def main():
     sections.append({"title": "Referenzen", "items": [REFS | {"thumb": preview.relative_to(REPO).as_posix(), "ar": round(w / h, 4)}]
                      + build("Referenzen", [("open", [f"{R}/*.pdf"])])})
     sections.append({"title": LEFT, "items": [dict(ZEITPLAN)]})
+    sections.append({"title": KT_SEC, "items": [dict(KT)]})
 
     left = [r for r in files if r not in used]
     if left:
@@ -352,7 +357,7 @@ def layout(sections):
         labels.append(pos.get(lid) or {"id": lid, "text": texts.get(lid, s["title"]), "x": x0, "y": y})
         y += 250  # room for the 180px section title
         # photo stacks are the content there, so show them bigger; the references tile is a page preview
-        h = {"Fotos": ROW_H * 2, "Referenzen": ROW_H * 4, LEFT: ROW_H * 26}.get(s["title"], ROW_H)
+        h = {"Fotos": ROW_H * 2, "Referenzen": ROW_H * 4, LEFT: ROW_H * 26, KT_SEC: ROW_H * 4}.get(s["title"], ROW_H)
         x, row = 0, h  # row: height of the current row (a big card makes it taller)
         for it in s["items"]:
             ih = ROW_H * 4 if it["kind"] != "stack" and match(it["id"], BIG) else h
@@ -376,11 +381,15 @@ def layout(sections):
     for row in GRID:
         y = max([flow(by[t], x, y) for x, t in zip(cols, row) if t in by] or [y])
     for s in sections:  # anything not in GRID (e.g. "Neu / unsortiert") goes below the left column
-        if s["title"] != LEFT and not any(s["title"] in row for row in GRID):
+        if s["title"] not in (LEFT, KT_SEC) and not any(s["title"] in row for row in GRID):
             y = flow(s, 0, y)
     s = by.get(LEFT)
     if s:  # its single card ends 1000 before the first column, top level with the first row
-        flow(s, -round(ROW_H * 26 * s["items"][0]["ar"] + 1000), 0)
+        x0 = -round(ROW_H * 26 * s["items"][0]["ar"] + 1000)
+        flow(s, x0, 0)
+        k = by.get(KT_SEC)
+        if k:  # the office page sits left of the Zeitplan
+            flow(k, x0 - round(ROW_H * 4 * k["items"][0]["ar"]) - 1000, 0)
     # files dropped onto the board online live in the repo (uploads/), not in the Seafile tree: keep them where they lie
     ids = {i["id"] for i in items}
     items += [i for i in old.get("items", []) if i.get("upload") and i["id"] not in ids]
