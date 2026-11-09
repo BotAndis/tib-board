@@ -23,6 +23,7 @@ html,body{margin:0;height:100%;overflow:hidden;background:var(--bg);color:var(--
 .media canvas.hi{position:absolute;pointer-events:none}
 .media iframe{pointer-events:none}
 .cap{margin-top:8px;font-size:13px;color:var(--mute);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cap a.dl{float:right;margin-left:12px;color:var(--ink);text-decoration:none}
 .far .card:not(.stack) .cap{visibility:hidden}
 .stack .cap{font-size:40px;color:var(--ink);margin-top:12px}
 .tile{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:6px;height:100%;
@@ -256,7 +257,8 @@ function card(item) {
   const ar = item.ar || 1;
   m.style.width = item.w + "px"; m.style.height = item.w / ar + "px";
   c.style.left = item.x + "px"; c.style.top = item.y + "px"; c.style.width = item.w + "px";
-  c.append(m, el("div", "cap", esc(item.title) + (item.kind === "stack" ? ` · ${item.items.length}` : "")));
+  const dl = item.dl ? `<a class="dl" href="${esc(item.dl)}">Download</a>` : "";
+  c.append(m, el("div", "cap", dl + esc(item.title) + (item.kind === "stack" ? ` · ${item.items.length}` : "")));
   c.append(el("div", "rz"));  // resize handle, shown only while unlocked (.edit)
   if (item.kind === "pdf" && item.url) pdfTargets.push({ box: m, page: () => getDoc(item.url).then(d => d.getPage(1)), minPx: 1250 });
   return c;
@@ -274,7 +276,11 @@ const view = new View(host, world, {
     cancelTasks(view);
     sharpen(view, pdfTargets);
   },
-  onClick(t) { const c = t.closest?.(".card"); if (c && !editing) openItem(c.item, siblingsOf(c.item)); },
+  onClick(t) {
+    if (editing) return;
+    const a = t.closest?.("a.dl"); if (a) { location.href = a.href; return; }  // pointer capture on the host swallows the link's own click
+    const c = t.closest?.(".card"); if (c) openItem(c.item, siblingsOf(c.item));
+  },
   onDrag: e => editing ? editDrag(e) : null,
 });
 const X0 = Math.min(0, ...board.items.map(i => i.x), ...board.labels.map(l => l.x));  // the Zeitplan column lies left of 0
