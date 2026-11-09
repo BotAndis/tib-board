@@ -1,6 +1,6 @@
 const $ = id => document.getElementById(id);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-let projects = [], assets = [], filter = new URLSearchParams(location.search).get('filter') === 'direkt' ? 'direkt' : 'alle', currentImages = [], currentIndex = 0;
+let projects = [], assets = [], filter = ['direkt','praxis'].includes(new URLSearchParams(location.search).get('filter')) ? new URLSearchParams(location.search).get('filter') : 'alle', currentImages = [], currentIndex = 0;
 const kindName = {photo:'Projektfoto', section:'Schnitt', plan:'Grundriss', axon:'Axonometrie'};
 const imagesFor = id => assets.filter(image => image.project === id);
 const imageCredit = image => image.credit;

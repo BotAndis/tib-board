@@ -130,7 +130,7 @@ SECTIONS = [
 REFS = {"id": "html/referenzen/index.html", "kind": "html", "title": "Referenzen · Bibliotheken", "ext": "html",
         "size": 0, "dl": "html/referenzen/index.html", "raw": "html/referenzen/index.html",
         "url": "html/referenzen/index.html"}
-GESCHOSSE = {"id": "html/geschossverbindungen/index.html", "kind": "html", "title": "Geschosse verbinden · 20 Referenzen", "ext": "html",
+GESCHOSSE = {"id": "html/geschossverbindungen/index.html", "kind": "html", "title": "Geschosse verbinden · 25 Referenzen", "ext": "html",
             "size": 0, "dl": "html/geschossverbindungen/index.html", "raw": "html/geschossverbindungen/index.html",
             "url": "html/geschossverbindungen/index.html", "thumb": "thumbs/geschossverbindungen.svg", "ar": 1.4142}
 KT = {"id": "html/kempe-thill/index.html", "kind": "html", "title": "Kempe Thill · Büro + Haltung", "ext": "html",

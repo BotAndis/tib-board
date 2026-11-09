@@ -486,5 +486,113 @@
     "source": "https://chestnutt-niess.de/bibliothek-alte-feuerwache/",
     "original": "https://chestnutt-niess.de/wp-content/uploads/2022/01/sec-1-768x512.jpg",
     "credit": "Chestnutt_Niess Architekten"
+  },
+  {
+    "project": "rheine",
+    "file": "img/rheine-eingang.webp",
+    "kind": "photo",
+    "caption": "Neuer Eingang der Nelson-Mandela-Schule.",
+    "source": "https://www.heinze.de/architekturobjekt/nelson-mandela-schule-rheine/12775709/",
+    "original": "https://cdn.heinze.de/m1/09/12775709/images/96/12775796px960x640.jpg",
+    "credit": "Nicky Seidenglanz / Seidenglanz"
+  },
+  {
+    "project": "rheine",
+    "file": "img/rheine-forum-rampe.webp",
+    "kind": "photo",
+    "caption": "Forum mit Rampe, Treppe und Übergang im Obergeschoss.",
+    "source": "https://www.heinze.de/architekturobjekt/nelson-mandela-schule-rheine/12775709/",
+    "original": "https://cdn.heinze.de/m1/09/12775709/images/11/12775811px960x641.jpg",
+    "credit": "Nicky Seidenglanz / Seidenglanz"
+  },
+  {
+    "project": "rheine",
+    "file": "img/rheine-erdgeschoss.webp",
+    "kind": "plan",
+    "caption": "Veröffentlichtes Entwurfsplanblatt: Erdgeschoss mit Forum und Verbindungen zum Bestand.",
+    "source": "https://www.heinze.de/architekturobjekt/zoom/12775828/",
+    "original": "https://cdn.heinze.de/m1/09/12775709/pdf/28/12775828px2384x3370.pdf",
+    "credit": "Borowski & Sasse GmbH"
+  },
+  {
+    "project": "heidelberg",
+    "file": "img/heidelberg-leselandschaft.webp",
+    "kind": "photo",
+    "caption": "Leseplätze im umgebauten Triplex-Gebäude.",
+    "source": "https://www.ub.uni-heidelberg.de/allg/bau/",
+    "original": "https://www.ap88-architektur.de/fileadmin/user_upload/documents/projects/Unibibliothek/Broschuere_Erweiterung_Unibib_klein.pdf#page=13",
+    "credit": "Stefan Baumann · Vermögen und Bau Baden-Württemberg"
+  },
+  {
+    "project": "heidelberg",
+    "file": "img/heidelberg-schnitt.webp",
+    "kind": "section",
+    "caption": "Originalschnitt aus der Projektbroschüre zur Erweiterung der Universitätsbibliothek.",
+    "source": "https://www.ub.uni-heidelberg.de/allg/bau/",
+    "original": "https://www.ap88-architektur.de/fileadmin/user_upload/documents/projects/Unibibliothek/Broschuere_Erweiterung_Unibib_klein.pdf#page=17",
+    "credit": "ap88 architekten partnerschaft"
+  },
+  {
+    "project": "heidelberg",
+    "file": "img/heidelberg-grundrisse.webp",
+    "kind": "plan",
+    "caption": "Grundrisse von Triplex und Altbau aus der Projektbroschüre.",
+    "source": "https://www.ub.uni-heidelberg.de/allg/bau/",
+    "original": "https://www.ap88-architektur.de/fileadmin/user_upload/documents/projects/Unibibliothek/Broschuere_Erweiterung_Unibib_klein.pdf#page=16",
+    "credit": "ap88 architekten partnerschaft"
+  },
+  {
+    "project": "meldorf",
+    "file": "img/meldorf-alt-neu.webp",
+    "kind": "photo",
+    "caption": "Erweiterungsbau zwischen den beiden historischen Schulgebäuden.",
+    "source": "https://www.steinwender-architekten.de/erweiterung-grundschule/",
+    "original": "https://p-qdg9qj.project.space/fileadmin/_processed_/e/3/csm_Meldorf_299_Flat_80d3f4a618.jpg",
+    "credit": "Steinwender Architekten · Projektquelle"
+  },
+  {
+    "project": "meldorf",
+    "file": "img/meldorf-foyer.webp",
+    "kind": "photo",
+    "caption": "Foyer und Treppenraum des neuen Verbindungstrakts.",
+    "source": "https://www.steinwender-architekten.de/erweiterung-grundschule/",
+    "original": "https://p-qdg9qj.project.space/fileadmin/_processed_/4/2/csm_Meldorf_905_Flat_a012ea7cd6.jpg",
+    "credit": "Steinwender Architekten · Projektquelle"
+  },
+  {
+    "project": "oberwil",
+    "file": "img/oberwil-schulhaus.webp",
+    "kind": "photo",
+    "caption": "Wehrlinschulhaus nach dem Umbau; Aufnahme bei der Bundesfeier 2016.",
+    "source": "https://www.altoberwil.ch/sdorflaebe/oberwils-schulhaeuser/wehrlin-schulhaus/",
+    "original": "http://www.altoberwil.ch/wp-content/uploads/2018/02/Bildschirmfoto-2018-02-24-um-10.37.16-1024x768.png",
+    "credit": "Verein AltOberwil · Projektquelle"
+  },
+  {
+    "project": "eggersdorf",
+    "file": "img/eggersdorf-alt-neu.webp",
+    "kind": "photo",
+    "caption": "Erweiterungsbau und historische Schule in Eggersdorf.",
+    "source": "https://www.nussmueller.at/project/ortszentrum-eggersdorf/",
+    "original": "https://www.nussmueller.at/wp-content/uploads/2021/05/P_EDU_BZE_B_aussen01_cOberhofer.jpg",
+    "credit": "Nussmüller Architekten · Projektquelle"
+  },
+  {
+    "project": "eggersdorf",
+    "file": "img/eggersdorf-erdgeschoss.webp",
+    "kind": "plan",
+    "caption": "Veröffentlichter Erdgeschossgrundriss des Bildungszentrums.",
+    "source": "https://www.nussmueller.at/project/ortszentrum-eggersdorf/",
+    "original": "https://www.nussmueller.at/wp-content/uploads/2021/05/AC_Eggersd_GR_EG.jpg",
+    "credit": "Nussmüller Architekten"
+  },
+  {
+    "project": "eggersdorf",
+    "file": "img/eggersdorf-innenraum.webp",
+    "kind": "photo",
+    "caption": "Bewegungs- und Erschließungsbereich im Bildungszentrum.",
+    "source": "https://www.nussmueller.at/project/ortszentrum-eggersdorf/",
+    "original": "https://www.nussmueller.at/wp-content/uploads/2021/05/P_EDU_BZE_B_innen01_cOberhofer.jpg",
+    "credit": "Nussmüller Architekten · Projektquelle"
   }
 ]

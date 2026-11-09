@@ -1,5 +1,145 @@
 [
   {
+    "id": "rheine",
+    "title": "Nelson-Mandela-Schule",
+    "architect": "Borowski & Sasse",
+    "place": "Rheine",
+    "year": "2018",
+    "type": "Bestand + neuer Verbindungstrakt",
+    "tags": [
+      "direkt",
+      "praxis",
+      "bestandsanschluss",
+      "rampe",
+      "kern",
+      "grossraum"
+    ],
+    "principle": "Ein neuer Mittelbau verbindet die versetzten Schulgebäude. Im Erdgeschoss vermitteln Rampe und Treppe; der hohe Verbindungsraum ermöglicht darüber einen Übergang.",
+    "sources": [
+      {
+        "label": "Borowski & Sasse · Projekt und Fotos",
+        "url": "https://www.borowski-sasse.de/referenzen/nelson-mandela-schule-rheine/"
+      },
+      {
+        "label": "Heinze · Projektbericht und Planblätter",
+        "url": "https://www.heinze.de/architekturobjekt/nelson-mandela-schule-rheine/12775709/"
+      }
+    ],
+    "report": {
+      "label": "Heinze",
+      "url": "https://www.heinze.de/architekturobjekt/nelson-mandela-schule-rheine/12775709/"
+    }
+  },
+  {
+    "id": "heidelberg",
+    "title": "Universitätsbibliothek Heidelberg · Triplex",
+    "architect": "ap88 · Universitätsbauamt Heidelberg",
+    "place": "Heidelberg",
+    "year": "2015",
+    "type": "Umbau + Verbindung angrenzender Bestandsgebäude",
+    "tags": [
+      "direkt",
+      "praxis",
+      "bestandsanschluss",
+      "kern"
+    ],
+    "principle": "Historische Bibliothek und angrenzender Triplex-Komplex werden über eine neue zentrale Erschließung verbunden. Die unterschiedlichen Geschossfolgen bleiben erhalten.",
+    "sources": [
+      {
+        "label": "Universitätsbibliothek · Bauprojekt",
+        "url": "https://www.ub.uni-heidelberg.de/allg/bau/"
+      },
+      {
+        "label": "Projektbroschüre · Fotos, Grundrisse und Schnitt",
+        "url": "https://www.ap88-architektur.de/fileadmin/user_upload/documents/projects/Unibibliothek/Broschuere_Erweiterung_Unibib_klein.pdf"
+      }
+    ],
+    "report": {
+      "label": "Universitätsbibliothek Heidelberg",
+      "url": "https://www.ub.uni-heidelberg.de/allg/bau/"
+    }
+  },
+  {
+    "id": "meldorf",
+    "title": "Grundschule Meldorf",
+    "architect": "Steinwender Architekten",
+    "place": "Meldorf",
+    "year": "2015",
+    "type": "Zwei Bestandsgebäude + zweigeschossiger Anbau",
+    "tags": [
+      "direkt",
+      "praxis",
+      "bestandsanschluss",
+      "kern",
+      "grossraum"
+    ],
+    "principle": "Ein zweigeschossiger Neubau verbindet die bestehenden Schulgebäude. Ein Durchladeraufzug im Foyer nimmt die unterschiedlichen Bestandsniveaus auf.",
+    "sources": [
+      {
+        "label": "Steinwender · Projekt und Fotos",
+        "url": "https://www.steinwender-architekten.de/erweiterung-grundschule/"
+      }
+    ],
+    "report": {
+      "label": "Steinwender Architekten",
+      "url": "https://www.steinwender-architekten.de/erweiterung-grundschule/"
+    }
+  },
+  {
+    "id": "oberwil",
+    "title": "Wehrlinschulhaus Oberwil",
+    "architect": "Martin Weis Architekten · Projektleitung Wiebke Lemme",
+    "place": "Oberwil, Schweiz",
+    "year": "2006",
+    "type": "Umbau der Naht zwischen Altbau und bestehendem Anbau",
+    "tags": [
+      "direkt",
+      "praxis",
+      "bestandsanschluss",
+      "kern"
+    ],
+    "principle": "Ein neu eingefügtes Treppenhaus verbindet die unterschiedlichen Geschosshöhen des historischen Schulhauses und seines späteren Anbaus.",
+    "sources": [
+      {
+        "label": "Wiebke Lemme · Projekt und Innenraumfotos",
+        "url": "https://www.wiebkelemme.de/bildung-kultur/wehrlinschulhaus-oberwil/"
+      },
+      {
+        "label": "Verein AltOberwil · Baugeschichte",
+        "url": "https://www.altoberwil.ch/sdorflaebe/oberwils-schulhaeuser/wehrlin-schulhaus/"
+      }
+    ],
+    "report": {
+      "label": "Wiebke Lemme",
+      "url": "https://www.wiebkelemme.de/bildung-kultur/wehrlinschulhaus-oberwil/"
+    }
+  },
+  {
+    "id": "eggersdorf",
+    "title": "Bildungszentrum Eggersdorf",
+    "architect": "Nussmüller Architekten",
+    "place": "Eggersdorf bei Graz",
+    "year": "2023",
+    "type": "Bestand + direkt angeschlossene Erweiterung",
+    "tags": [
+      "direkt",
+      "praxis",
+      "bestandsanschluss",
+      "rampe"
+    ],
+    "principle": "Die Erweiterung verbindet die bestehenden Bildungsgebäude. Eine Rampe nimmt den Höhenversatz im Kindergartenbereich auf; Aula und Aufenthaltsbereiche schließen an die Schule an.",
+    "sources": [
+      {
+        "label": "Nussmüller · Projekt, Bilder und Grundriss",
+        "url": "https://www.nussmueller.at/project/ortszentrum-eggersdorf/"
+      }
+    ],
+    "report": {
+      "label": "Nussmüller Architekten",
+      "url": "https://www.nussmueller.at/project/ortszentrum-eggersdorf/"
+    }
+  },
+  {
     "id": "new-museum",
     "title": "New Museum · Erweiterung",
     "architect": "OMA · Shohei Shigematsu und Rem Koolhaas",
