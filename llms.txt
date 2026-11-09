@@ -16,6 +16,7 @@
 - [Aufgabenstellung (PDF)](https://seafile.cloud.uni-hannover.de/seafhttp/f/e89050c0749642b38df4/)
 - [Zeitplan](https://botandis.github.io/tib-board/html/zeitplan.html)
 - [Referenzen · Bibliotheken](https://botandis.github.io/tib-board/html/referenzen/index.html): 91 Bibliotheken mit Bewertungen in html/referenzen/ratings.json
+- [Geschosse verbinden · Referenzen](https://botandis.github.io/tib-board/html/geschossverbindungen/index.html): zehn gebaute Beispiele mit Projektfotos, Originalzeichnungen, Stärken, Grenzen und TIB-Bezug; Inhalte in html/geschossverbindungen/data.json, Bildquellen in assets.json
 - [Board-Inhalt](https://botandis.github.io/tib-board/board.json): alle Kacheln mit Bereich und Download-Link
 
 ## Optional

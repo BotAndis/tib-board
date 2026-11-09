@@ -2383,6 +2383,23 @@
    "date": "03.11.2026"
   },
   {
+   "id": "html/geschossverbindungen/index.html",
+   "kind": "html",
+   "title": "Geschosse verbinden · Referenzen",
+   "ext": "html",
+   "size": 0,
+   "dl": "html/geschossverbindungen/index.html",
+   "raw": "html/geschossverbindungen/index.html",
+   "url": "html/geschossverbindungen/index.html",
+   "thumb": "thumbs/geschossverbindungen.svg",
+   "ar": 1.4142,
+   "section": "Referenzen",
+   "x": 3473.68,
+   "y": 3800,
+   "w": 1697,
+   "date": "09.11.2026"
+  },
+  {
    "id": "4_Entwurf/Erweiterung/TIB_Erweiterung_Option-1_U-Anbau_Nutzung_A3_v1.pdf",
    "kind": "pdf",
    "title": "TIB Erweiterung Option-1 U-Anbau Nutzung A3 v1",

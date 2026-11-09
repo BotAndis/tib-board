@@ -5,6 +5,7 @@ Arbeitsboard der Bachelorthesis „Die Bibliothek – Vom Archiv zum Kollektivra
 - Board: https://botandis.github.io/tib-board/
 - Stand des Entwurfs: [konzept/stand.md](konzept/stand.md)
 - Projektkontext für KI: [llms.txt](llms.txt)
+- Geschosse verbinden: [bebilderter Referenzvergleich](html/geschossverbindungen/index.html)
 - Vorübungen (abgeschlossen): [konzept/archiv/voruebungen.md](konzept/archiv/voruebungen.md)
 
 Prüfer: Prof. André Kempe, Annette Haas · Bearbeitung: Jan Andis Böhm, Luca Ingui

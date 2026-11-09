@@ -1,0 +1,377 @@
+[
+  {
+    "id": "higgins",
+    "title": "Higgins Hall",
+    "architect": "Steven Holl Architects",
+    "place": "Brooklyn",
+    "year": "2005",
+    "type": "Bestand + Zwischenbau",
+    "tags": [
+      "bestandsanschluss",
+      "rampe"
+    ],
+    "principle": "Ein Zwischenbau vermittelt unterschiedliche Fußbodenhöhen.",
+    "mechanism": "Die Geschossdecken der beiden historischen Flügel liegen auf unterschiedlichen Höhen. Der neue Mittelbau übernimmt die Anschlüsse beider Seiten und vermittelt dazwischen mit internen Rampen. Der Höhenversatz nimmt nach oben zu und erreicht auf der obersten genannten Ebene rund zwei Meter. Die notwendige Verbindung wird zum räumlichen Thema des Neubaus.",
+    "look": "Im Längsschnitt die grauen Bestandsflügel mit den gelben neuen Geschossen vergleichen. Die Anschlussniveaus bleiben unterschiedlich; die Vermittlung liegt im Mittelbau.",
+    "strengths": [
+      "Die vorhandenen Geschosse bleiben weitgehend erhalten; die Anpassung konzentriert sich auf einen klaren Zwischenbereich.",
+      "Tageslicht und Blickbeziehungen machen den Weg zwischen den Flügeln räumlich verständlich."
+    ],
+    "limits": [
+      "Je größer der Versatz, desto länger der Weg und desto mehr Raum beansprucht die Vermittlung.",
+      "Die geneigten Wege beeinflussen auch die nutzbaren Höhen der angrenzenden Räume. Eine schmale Anschlussfuge reicht dafür nicht unbedingt."
+    ],
+    "tib": "Besonders passend, wenn Fußbodenhöhen des Bestands und des Anbaus tatsächlich versetzt bleiben. Die Verbindung braucht dann einen ausreichend breiten Bereich, etwa entlang eines Hofes oder einer gemeinsamen Halle.",
+    "assessment": "Direkter Vergleichsfall für unterschiedliche Fußbodenhöhen im Bestand.",
+    "sources": [
+      {
+        "label": "Steven Holl Architects · Projekt und Zeichnungen",
+        "url": "https://www.stevenholl.com/project/pratt-institute-insertion/"
+      }
+    ],
+    "report": {
+      "label": "ArchDaily",
+      "url": "https://www.archdaily.com/920948/pratt-institute-higgins-hall-insertion-steven-holl-architects"
+    }
+  },
+  {
+    "id": "nantes",
+    "title": "Architekturschule Nantes",
+    "architect": "Lacaton & Vassal",
+    "place": "Nantes",
+    "year": "2009",
+    "type": "Neubau mit Zwischenebenen",
+    "tags": [
+      "rampe",
+      "grossraum"
+    ],
+    "principle": "Große Hauptplattformen und zusätzliche Zwischenebenen.",
+    "mechanism": "Eine großzügige Betonstruktur bildet weit auseinanderliegende Hauptebenen. Eine leichtere Stahlkonstruktion unterteilt deren Höhe dort, wo zusätzliche Geschosse gebraucht werden. Andere Bereiche bleiben hoch und offen. Eine außenliegende Rampe verbindet die Hauptplattformen bis zur Dachterrasse.",
+    "look": "Die durchgehenden Hauptdecken von den zusätzlichen Stahlgeschossen unterscheiden. Die doppelt hohen Bereiche liegen neben den kleinteiliger unterteilten Nutzungen.",
+    "strengths": [
+      "Große und kleine Raumhöhen entstehen innerhalb einer gut lesbaren Grundstruktur.",
+      "Die Geschossdecke muss nicht überall durchlaufen. Die Rampe erschließt zugleich gemeinschaftliche Terrassen."
+    ],
+    "limits": [
+      "Die Großzügigkeit braucht entsprechende Flächen und Volumen.",
+      "Die Außenrampe bedeutet lange, wetterabhängige Wege. Zusätzliche Zwischenebenen benötigen weiterhin eine geeignete Erschließung."
+    ],
+    "tib": "Besonders relevant für die oberen Geschosse: gemeinsame Anschlusshöhen festlegen, dazwischen Teilgeschosse und hohe Räume nach Nutzung und Tageslicht ordnen. Das Beispiel zeigt eine Raumorganisation im Neubau, keinen direkten Alt-Neu-Anschluss.",
+    "assessment": "Stark für unterschiedliche Raumhöhen, Galerien und doppelt hohe Bereiche.",
+    "sources": [
+      {
+        "label": "Lacaton & Vassal · Projekt",
+        "url": "https://www.lacatonvassal.com/index.php?idp=55"
+      }
+    ],
+    "report": {
+      "label": "Bauwelt",
+      "url": "https://www.bauwelt.de/rubriken/bauten/Architekturschule-als-11-Modell-Nantes-Lacaton-Vassal-2155974.html"
+    }
+  },
+  {
+    "id": "kueppersmuehle",
+    "title": "Museum Küppersmühle",
+    "architect": "Herzog & de Meuron",
+    "place": "Duisburg",
+    "year": "2021 · Erweiterung",
+    "type": "Bestand + Anbau",
+    "tags": [
+      "bestandsanschluss",
+      "bruecke",
+      "grossraum"
+    ],
+    "principle": "Ausgewählte gemeinsame Geschosse verbinden sich über Brücken.",
+    "mechanism": "Der Anbau schließt im ersten und zweiten Obergeschoss über Brücken durch die ehemaligen Silos an die bestehenden Ausstellungsgeschosse an. Die neuen Raumhöhen orientieren sich am Bestand. Der oberste Ausstellungssaal besitzt keinen direkten Anschluss an das alte Haus. Die hohen Siloräume bleiben zwischen den Brücken erlebbar.",
+    "look": "Die waagerechten Anschlüsse durch den Silobau verfolgen. Die Brücken verbinden ausgewählte Ebenen; der hohe Zwischenraum bleibt erhalten.",
+    "strengths": [
+      "Kurze, klar erkennbare Wege zwischen Alt und Neu.",
+      "Die Silos erhalten eine neue Funktion als Verbindungs- und Ausstellungsraum. Der hohe Raum wird durch die Brücken räumlich erfahrbar."
+    ],
+    "limits": [
+      "Die Lösung setzt abgestimmte Anschlusshöhen voraus. Eine waagerechte Brücke beseitigt keinen Höhenversatz.",
+      "Zusätzliche Ebenen bleiben teilweise auf die interne Erschließung des Anbaus angewiesen."
+    ],
+    "tib": "Sehr passend, solange sich die Geschosshöhen des Anbaus noch abstimmen lassen. Gemeinsame Übergänge können an einer Halle oder einem Luftraum liegen, während daneben Decken aussetzen und höhere Räume entstehen.",
+    "assessment": "Stark für wenige präzise Anschlüsse und einen großzügigen Zwischenraum.",
+    "sources": [
+      {
+        "label": "Herzog & de Meuron · Erweiterung",
+        "url": "https://www.herzogdemeuron.com/projects/433-mkm-museum-kuppersmuhle-extension/"
+      }
+    ],
+    "report": {
+      "label": "BauNetz",
+      "url": "https://www.baunetz.de/meldungen/Meldungen-Erweiterung_des_Museum_Kueppersmuehle_von_Herzog_-_de_Meuron_7733050.html"
+    }
+  },
+  {
+    "id": "royal-academy",
+    "title": "Royal Academy of Arts",
+    "architect": "David Chipperfield Architects",
+    "place": "London",
+    "year": "2018",
+    "type": "Bestand + Verbindung",
+    "tags": [
+      "bestandsanschluss",
+      "bruecke",
+      "kern"
+    ],
+    "principle": "Ein gemeinsames Gelenk vermittelt Höhe und Richtung.",
+    "mechanism": "Eine neue öffentliche Route verbindet Burlington House mit Burlington Gardens. Ein neuer Brückenbau enthält Treppe und Aufzug und vermittelt den Niveauunterschied und die unterschiedlichen Gebäudeachsen. Die Verbindung gehört zu einer Raumfolge durch Gewölbe, Ausstellungs- und Schulbereiche und erhält einen Bezug zum Garten.",
+    "look": "Den öffentlichen Weg zwischen den beiden Altbauten verfolgen. Im neuen Brückengelenk werden Niveau- und Richtungswechsel zusammengeführt.",
+    "strengths": [
+      "Die vorhandenen Gebäude behalten ihre eigene Ordnung; die Anpassung wird an einem verständlichen Ort gebündelt.",
+      "Der Gartenbezug macht den Zwischenbereich zu einem räumlichen Ziel und erleichtert die Orientierung."
+    ],
+    "limits": [
+      "Der Weg wird durch vertikale Wechsel unterbrochen.",
+      "Der Aufzug ermöglicht Zugänglichkeit, erzeugt aber nicht dieselbe kontinuierliche Bewegung wie eine flache Verbindung."
+    ],
+    "tib": "Eine kompakte Möglichkeit, falls die Verbindung kurz bleiben soll und eine Rampe für den tatsächlichen Höhenversatz zu lang wäre. Ein gemeinsamer Erschließungsbereich kann dann verstreute Ausgleichstreppen vermeiden.",
+    "assessment": "Kompakte Alternative zur langen Rampe.",
+    "sources": [
+      {
+        "label": "David Chipperfield Architects · Masterplan",
+        "url": "https://davidchipperfield.com/projects/royal-academy-of-arts-masterplan"
+      }
+    ],
+    "report": {
+      "label": "ArchDaily",
+      "url": "https://www.archdaily.com/901598/royal-academy-of-arts-masterplan-david-chipperfield-architects"
+    }
+  },
+  {
+    "id": "bluecoat",
+    "title": "Bluecoat Arts Centre",
+    "architect": "biq · Hans van der Heijden",
+    "place": "Liverpool",
+    "year": "2008",
+    "type": "Bestand + Erweiterung",
+    "tags": [
+      "bestandsanschluss",
+      "kern"
+    ],
+    "principle": "Neue Erschließungskerne ordnen viele unterschiedliche Niveaus.",
+    "mechanism": "Der historische Komplex besaß 29 unterschiedliche Fußbodenniveaus. Neue Erschließungskerne führen diese Situation zusammen. Die Erweiterung ergänzt unter anderem Galerien und einen Veranstaltungssaal. Laut der von den Architekten veröffentlichten Projektbeschreibung sind alle Ebenen mit dem Aufzug erreichbar.",
+    "look": "Die Erschließung an der Naht zwischen Bestandsräumen und neuer Galerie suchen. Der zusammenhängende hohe Zwischenbereich hilft, die Ebenen zueinander zu verstehen.",
+    "strengths": [
+      "Viele einzelne Höhenkonflikte werden an wenigen Stellen zusammengeführt.",
+      "Ein gemeinsamer Eingangs- und Aufenthaltsbereich schafft Orientierung im gewachsenen Gebäudekomplex."
+    ],
+    "limits": [
+      "Die Neuordnung erforderte auch Eingriffe in die vorhandene Struktur.",
+      "Technische Erreichbarkeit allein macht eine Raumfolge noch nicht intuitiv. Wege, Sichtbeziehungen und Adressen müssen mitentworfen werden."
+    ],
+    "tib": "Relevant, wenn neben dem Hauptanschluss weitere kleinere Niveauunterschiede bestehen. Ein gut platzierter gemeinsamer Kern kann mehr lösen als viele einzelne Rampen oder Treppen.",
+    "assessment": "Ruhige, konzentrierte Lösung für einen komplexen Bestand.",
+    "sources": [
+      {
+        "label": "Hans van der Heijden · Projekt",
+        "url": "https://hvdha.com/en/the-bluecoat-liverpool/"
+      },
+      {
+        "label": "Projektbeschreibung der Architekten · Zeichnungen",
+        "url": "https://www.archdaily.com/536235/the-bluecoat-hans-van-der-heijden-architect"
+      }
+    ],
+    "report": {
+      "label": "ArchDaily",
+      "url": "https://www.archdaily.com/536235/the-bluecoat-hans-van-der-heijden-architect"
+    }
+  },
+  {
+    "id": "corning",
+    "title": "Corning Museum of Glass",
+    "architect": "Gunnar Birkerts",
+    "place": "Corning, New York",
+    "year": "1980 · Erweiterung",
+    "type": "Bestand + Anbau",
+    "tags": [
+      "bestandsanschluss",
+      "rampe"
+    ],
+    "principle": "Verglaste Rampen verbinden Altbau und Erweiterung.",
+    "mechanism": "Die Erweiterung legt sich um den älteren Museumsbau. Lichtdurchflutete, verglaste Rampen verbinden beide Teile. Das Museum beschreibt seine öffentlichen Geschosse heute als über Rampen oder Aufzüge erreichbar. Die ausgewertete Architekturgeschichte nennt keine genauen Höhenversätze der damaligen Anschlüsse.",
+    "look": "Die Verbindung zwischen dem älteren geradlinigen Gebäude und Birkerts’ geschwungenem Bau verfolgen. Für das Prinzip sind die Übergangswege wichtiger als die spätere Museumserweiterung von 2015.",
+    "strengths": [
+      "Tageslicht und Außenbezug machen die notwendige Wegstrecke zu einer angenehmen Raumfolge.",
+      "Die Verbindung hält unterschiedliche Baukörper zusammen, ohne deren Formen vereinheitlichen zu müssen."
+    ],
+    "limits": [
+      "Lange Verbindungsräume bleiben lange Wege.",
+      "Verglasung verlangt eine sorgfältige Lösung für Wärmeschutz und Blendung. Die veröffentlichten Angaben reichen nicht für eine genaue Bemessung der Anschlussrampen."
+    ],
+    "tib": "Interessant für eine Verbindung entlang der Lichthöfe. Ein geneigter Weg könnte einen gemeinsamen Wandelbereich bilden; Arbeitsplätze und andere Aufenthaltsflächen liegen daneben auf ebenen Flächen.",
+    "assessment": "Referenz für die räumliche Qualität einer Rampenverbindung.",
+    "sources": [
+      {
+        "label": "Corning Museum · Architekturgeschichte",
+        "url": "https://info.cmog.org/architecture"
+      },
+      {
+        "label": "Corning Museum · Zugänglichkeit",
+        "url": "https://visit.cmog.org/plan-your-visit/accessibility"
+      }
+    ],
+    "report": {
+      "label": "Corning Museum",
+      "url": "https://info.cmog.org/architecture"
+    }
+  },
+  {
+    "id": "sesc",
+    "title": "SESC Pompéia · Sportbauten",
+    "architect": "Lina Bo Bardi",
+    "place": "São Paulo",
+    "year": "1986",
+    "type": "Neubauten im Fabrikensemble",
+    "tags": [
+      "bruecke",
+      "grossraum"
+    ],
+    "principle": "Hohe Hallen und niedrigere Nebenraumgeschosse haben unterschiedliche Rhythmen.",
+    "mechanism": "Die Sportbauten ergänzen den umgenutzten Fabrikkomplex. Hohe Sportgeschosse stehen einem kleinteiliger gegliederten Erschließungs- und Umkleideturm gegenüber. Brücken verbinden die Türme auf den für die Hallen benötigten Ebenen. Die markanten Brücken führen zwischen zwei Neubauten, nicht unmittelbar von den alten Fabrikhallen in den Anbau.",
+    "look": "Die großen Hallen mit der engeren Geschossfolge des dienenden Turms vergleichen. Nur die für die Hallen benötigten Ebenen erhalten Brücken.",
+    "strengths": [
+      "Große Hallen behalten ihre Höhe, dienende Nutzungen können enger gestapelt werden.",
+      "Die unterschiedlichen Geschossrhythmen bleiben klar ablesbar. Nicht jede Ebene braucht ein Gegenstück im anderen Baukörper."
+    ],
+    "limits": [
+      "Die Trennung der Baukörper erzeugt zusätzliche Wege und eine Abhängigkeit vom Erschließungsturm.",
+      "Die offenen Brücken sind klimatisch nicht unmittelbar auf Hannover übertragbar."
+    ],
+    "tib": "Gut für hohe Veranstaltungs- oder Gemeinschaftsräume neben niedrigeren Arbeits- und Verwaltungsräumen. Entscheidend sind gemeinsame Anschlusshöhen an ausgewählten Stellen.",
+    "assessment": "Klares Schnittprinzip für unterschiedliche Geschossrhythmen.",
+    "sources": [
+      {
+        "label": "Sesc · Geschichte der Sportbauten",
+        "url": "https://portal.sescsp.org.br/online/artigo/13465_A%2BHISTORIA%2BDO%2BCONJUNTO%2BESPORTIVO%2BDO%2BSESC%2BPOMPEIA"
+      },
+      {
+        "label": "Parsons School of Design · Untersuchung",
+        "url": "https://adht.parsons.edu/historyofdesign/objectives/lina-bo-bardi-and-the-sesc-pompeia-leisure-center-a-case-study-in-adaptive-reuse/"
+      }
+    ],
+    "report": {
+      "label": "ArchEyes",
+      "url": "https://archeyes.com/sesc-pompeia-factory-lina-bo-bardi-architecture-sao-paulo/"
+    }
+  },
+  {
+    "id": "seattle",
+    "title": "Seattle Central Library",
+    "architect": "OMA + LMN",
+    "place": "Seattle",
+    "year": "2004",
+    "type": "Neubau",
+    "tags": [
+      "rampe"
+    ],
+    "principle": "Eine kontinuierliche Buchspirale verbindet mehrere Ebenen.",
+    "mechanism": "Die Books Spiral führt als rollstuhlgängige, ansteigende Route durch die Sachbuchbestände der Ebenen sechs bis neun. Die Verbindung wird Teil der Bibliotheksfläche selbst. Andere Bereiche des Hauses liegen auf eigenen Plattformen und werden durch weitere Erschließungswege verbunden.",
+    "look": "Die Books Spiral innerhalb des Gesamtschnitts suchen. Der ansteigende Weg gehört zu einem bestimmten Bibliotheksbereich und erschließt nicht allein das ganze Haus.",
+    "strengths": [
+      "Zusammenhängende Buchbestände bleiben räumlich verbunden.",
+      "Der Weg erfüllt eine bibliothekarische Aufgabe und erschließt entlang seiner Länge nutzbare Angebote."
+    ],
+    "limits": [
+      "Für gezielte Wege zu entfernten Zielen bleiben schnelle Alternativen notwendig.",
+      "Geneigte Flächen eignen sich nicht für jede Möblierung und jede Arbeitsform gleich gut."
+    ],
+    "tib": "Interessant, wenn ein längerer geneigter Weg zugleich Bücher oder Ausstellungen erschließt. Für den bloßen Übergang zwischen zwei benachbarten Räumen wäre das Prinzip zu aufwendig. Kein direkter Bestand-Anbau-Vergleich.",
+    "assessment": "Programmatisch sinnvoller Rampenraum in einer Bibliothek.",
+    "sources": [
+      {
+        "label": "OMA · Projekt",
+        "url": "https://www.oma.com/projects/seattle-central-library"
+      },
+      {
+        "label": "Seattle Public Library · Books Spiral",
+        "url": "https://blog.spl.org/2024/05/01/20-reasons-to-check-out-the-central-library-at-20-years/"
+      }
+    ],
+    "report": {
+      "label": "ArchDaily",
+      "url": "https://www.archdaily.com/11651/seattle-central-library-oma-lmn"
+    }
+  },
+  {
+    "id": "kunsthal",
+    "title": "Kunsthal Rotterdam",
+    "architect": "OMA",
+    "place": "Rotterdam",
+    "year": "1992",
+    "type": "Neubau",
+    "tags": [
+      "rampe",
+      "grossraum"
+    ],
+    "principle": "Rampen und geneigte Böden bilden eine zusammenhängende Raumfolge.",
+    "mechanism": "Unterschiedliche Ausstellungshallen werden durch Rampen und geneigte Bodenflächen verbunden. Die Bewegung durch das Gebäude bestimmt den Schnitt. Der Betreiber weist darauf hin, dass die Geschosse mit Aufzügen erreichbar sind und die Rampe von Halle sechs für Rollstühle zu steil ist.",
+    "look": "Die öffentliche Passage durch das Gebäude von den internen Ausstellungswegen unterscheiden. Die verschiedenen Rampen haben unterschiedliche Aufgaben und Steigungen.",
+    "strengths": [
+      "Höhenwechsel schaffen unterschiedliche Raumproportionen und Blickbeziehungen.",
+      "Die Erschließung ist ein wesentlicher Teil des Raumerlebnisses und verbindet unterschiedliche Hallentypen."
+    ],
+    "limits": [
+      "Die Rampenarchitektur gewährleistet keine durchgehend gleichwertige Zugänglichkeit.",
+      "Geneigte Räume schränken einzelne Nutzungen ein. Die komplexe Wegeführung muss auch im Alltag verständlich bleiben."
+    ],
+    "tib": "Wertvoll für räumliche Übergänge und Blickbeziehungen. Die Geometrie ist erst dann brauchbar, wenn alltägliche Bibliothekswege bequem bleiben und die barrierefreie Route gleichwertig funktioniert.",
+    "assessment": "Räumlich lehrreich, mit deutlichen Grenzen für die Übertragung.",
+    "sources": [
+      {
+        "label": "OMA · Projekt",
+        "url": "https://www.oma.com/projects/kunsthal"
+      },
+      {
+        "label": "Kunsthal · Zugänglichkeit",
+        "url": "https://prod.kunsthal.nl/nl/plan-je-bezoek/toegankelijkheid/"
+      }
+    ],
+    "report": {
+      "label": "ArchDaily",
+      "url": "https://www.archdaily.com/102825/ad-classics-kunsthal-oma"
+    }
+  },
+  {
+    "id": "folkwang",
+    "title": "Museum Folkwang",
+    "architect": "David Chipperfield Architects",
+    "place": "Essen",
+    "year": "2010 · Eröffnung",
+    "type": "Bestand + Erweiterung",
+    "tags": [
+      "bestandsanschluss",
+      "grossraum"
+    ],
+    "principle": "Eine gemeinsame öffentliche Fußbodenebene vermeidet Höhenkonflikte.",
+    "mechanism": "Die öffentlich zugänglichen Bereiche des Anbaus schließen durchgehend an die bestehenden Ausstellungsflächen an. Unterschiedliche Raumhöhen, Höfe und Baukörper schaffen räumliche Vielfalt, während die gemeinsame öffentliche Fußbodenebene erhalten bleibt.",
+    "look": "Im Grundriss die zusammenhängende öffentliche Ebene und die Abfolge aus Höfen und Räumen verfolgen. Unterschiedliche Raumhöhen erfordern hier keine ständigen Wechsel der Fußbodenhöhe.",
+    "strengths": [
+      "Kurze und verständliche Wege mit weitgehend kontinuierlicher Bewegung.",
+      "Unterschiedliche Raumhöhen lassen sich ohne ständige Niveauwechsel erleben."
+    ],
+    "limits": [
+      "Das Prinzip braucht entsprechende Grundfläche.",
+      "Die weitgehend horizontale Organisation lässt sich nicht unverändert auf eine mehrgeschossige Erweiterung übertragen."
+    ],
+    "tib": "Ein Gegencheck für den Entwurf: Wo können die Fußbodenhöhen direkt zusammenpassen, während Decken, Lufträume oder Galerien die räumliche Vielfalt herstellen?",
+    "assessment": "Hilfreich, um unnötige Höhenversätze früh zu vermeiden.",
+    "sources": [
+      {
+        "label": "David Chipperfield Architects · Projekt",
+        "url": "https://davidchipperfield.com/projects/museum-folkwang"
+      },
+      {
+        "label": "Interview · gemeinsame öffentliche Ebene",
+        "url": "https://davidchipperfield.com/press-cuttings/museum-folkwang"
+      }
+    ],
+    "report": {
+      "label": "BauNetz",
+      "url": "https://www.baunetz.de/meldungen/Meldungen-Folkwang-Erweiterung_von_Chipperfield_in_Essen_fertig_877200.html"
+    }
+  }
+]
