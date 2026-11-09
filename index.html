@@ -4,6 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
 <title>TIB Übersicht</title>
+<meta name="description" content="Arbeitsboard der Bachelorthesis „Die Bibliothek – Vom Archiv zum Kollektivraum“ (Studio Kempe Thill, LUH, WiSe 2026/27). Projektkontext: llms.txt, Stand des Entwurfs: konzept/stand.md">
+<link rel="alternate" type="text/plain" href="llms.txt" title="Projektkontext">
+<link rel="alternate" type="text/markdown" href="konzept/stand.md" title="Stand des Entwurfs">
 <script type="importmap">
 {"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.165.0/build/three.module.js",
  "three/addons/":"https://cdn.jsdelivr.net/npm/three@0.165.0/examples/jsm/"}}
@@ -65,9 +68,14 @@ iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .rz{display:none;position:absolute;right:-7px;bottom:-7px;width:14px;height:14px;background:var(--ink);cursor:nwse-resize}
 .edit .card:hover .rz{display:block}
 @media (max-width:600px){.bar{gap:12px;padding:10px 12px}}
+.kb{position:fixed;left:12px;bottom:10px;z-index:5;color:var(--mute);text-decoration:none;font-size:12px}
+.kb:hover{color:var(--ink)}
+.kb-text{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 </style>
 </head>
 <body>
+<a class="kb" href="https://github.com/BotAndis/tib-board/blob/main/konzept/stand.md" target="_blank" rel="noopener">Stand des Entwurfs</a>
+<p class="kb-text">Bachelorthesis „Die Bibliothek – Vom Archiv zum Kollektivraum“, Studio Kempe Thill, Leibniz Universität Hannover, WiSe 2026/27. Projektkontext: <a href="llms.txt">llms.txt</a>. Stand des Entwurfs: <a href="konzept/stand.md">konzept/stand.md</a>.</p>
 <div class="host" id="board"><div class="world" id="world"></div></div>
 <div id="ov" hidden>
   <div class="bar"><button id="ovback" title="Zurück">←</button><span class="t" id="ovtitle"></span>

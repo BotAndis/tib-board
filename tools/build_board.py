@@ -96,7 +96,8 @@ SECTIONS = [
     ]),
     ("Fotos", [("stack", t.replace("_2026-10-20", " 20.10."), [f"{F}/{t}/*"]) for t in
                ("Fassade", "Innen", "Innenhöfe", "Details", "Historisch", "Luftbilder", "Modellfotos_2026-10-20")]),
-    ("Entwurf · Volumenstudien", [
+    # Vorübung 2, archived: one folded box at the bottom (the design is one design, no variants)
+    ("Entwurf · Volumenstudien", [("box", "Volumenstudie · Vorübung 2", [
         ("open", [f"{D}/Vergleiche/*"]),
         ("stack", "Varianten Andis", [f"{D}/Varianten_Andis/*"]),
         ("stack", "Varianten Luca", [f"{D}/Varianten_Luca/*"]),
@@ -104,7 +105,7 @@ SECTIONS = [
         ("stack", "Lagepläne Varianten", [f"{D}/Lagepläne_Varianten/*"]),
         ("stack", "Flächenbedarf (Rhino)", [f"{D}/Flächenbedarf/*"]),
         ("stack", O, [f"{D}/Vergleiche/{O}/*", f"{D}/Lagepläne_Varianten/{O}/*"]),
-    ]),
+    ])]),
     # the rows line up with the Bestand rows of the same name; the exploded Umbau axo lies with the Umbau plans
     *[(f"Entwurf · {t}", [("open", [f"{D}/{t}/*"] + [f"{D}/Axonometrie/*"] * (t == "Grundrisse")),
                           ("stack", O, [f"{D}/{t}/{O}/*", *[f"{D}/Axonometrie/{O}/*"] * (t == "Grundrisse")])])
@@ -117,12 +118,13 @@ SECTIONS = [
     ]),
     # existing building and design variants are separate prints, never one row
     ("3D-Druck · Bestand", [("open", [f"{P}/Bestand_M1-500/*"])]),
-    ("3D-Druck · Entwurf", [
+    # prints of the Volumenstudie variants 12.2, A3, A2.2 (27.10.), archived with it
+    ("3D-Druck · Entwurf", [("box", "Varianten 12.2 · A3 · A2.2", [
         ("open", [f"{P}/Entwurf_M1-500/*"]),  # complete variants, assembly sheet, LIESMICH
         # one stack per print plate instead of one 70-part pile ("A1_Platte-2" -> "A1 · Platte 2")
         *[("stack", p.replace("_", " · ").replace("-", " "), [f"{P}/Entwurf_Platten/{p}/*"]) for p in PLATES],
         ("stack", O, [f"{P}/Entwurf_M1-500/{O}/*"]),
-    ]),
+    ])]),
 ]
 
 REFS = {"id": "html/referenzen/index.html", "kind": "html", "title": "Referenzen · Bibliotheken", "ext": "html",
@@ -136,15 +138,16 @@ LEFT = "Zeitplan"
 # rows of (Grundlagen | Entwurf); a row starts below the taller cell of the row above, so the Entwurf plans sit
 # level with the Bestand plans of the same name
 GRID = [
-    ("Aufgabenstellung", "Entwurf · Volumenstudien"),
+    ("Aufgabenstellung", None),
     ("Referenzen", "Entwurf · Erweiterung"),
     *[(t, f"Entwurf · {t}") for t in ("Grundrisse", "Schnitte", "Ansichten", "Lageplan", "Details")],
-    ("Möblierung + Nutzung", "3D-Druck · Entwurf"),
+    ("Möblierung + Nutzung", None),
     ("Möbelbestand", None),
     ("Raumprogramm", None),
     ("Fotos", None),
     ("3D-Modelle", None),
-    ("3D-Druck · Bestand", None),
+    ("3D-Druck · Bestand", "Entwurf · Volumenstudien"),  # archive (Vorübung 2) at the bottom
+    (None, "3D-Druck · Entwurf"),
 ]
 
 # current plans lie open and big (4x a normal card): the design's plan PDFs + the newest furniture inventory sheet

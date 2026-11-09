@@ -1,0 +1,23 @@
+# TIB-Board
+
+> Arbeitsboard der Bachelorthesis „Die Bibliothek – Vom Archiv zum Kollektivraum“, Studio Kempe Thill, Leibniz Universität Hannover, WiSe 2026/27: Umbau und Erweiterung der TIB (Technische Informationsbibliothek) am Welfengarten, Hannover. Es gibt genau einen Entwurf; konzept/stand.md beschreibt seinen aktuellen Stand.
+
+- Prüfer: Prof. André Kempe, Annette Haas
+- Betreuung: Simon Beckmann, Christina Cernovsky, Quang Minh Huynh
+- Bearbeitung: Andis, Luca
+- Termine: Zwischenkolloquium 2026-11-17, Pin-up 2026-12-08, Abgabe 2027-01-06, Dokumentation 2027-02-02; Korrektur dienstags 14–17 Uhr
+
+## Entwurf
+
+- [Stand des Entwurfs](https://botandis.github.io/tib-board/konzept/stand.md): Konzept und aktuelle Pläne mit Datum und PDF-Links
+
+## Grundlagen
+
+- [Aufgabenstellung (PDF)](https://seafile.cloud.uni-hannover.de/seafhttp/f/e89050c0749642b38df4/)
+- [Zeitplan](https://botandis.github.io/tib-board/html/zeitplan.html)
+- [Referenzen · Bibliotheken](https://botandis.github.io/tib-board/html/referenzen/index.html): 91 Bibliotheken mit Bewertungen in html/referenzen/ratings.json
+- [Board-Inhalt](https://botandis.github.io/tib-board/board.json): alle Kacheln mit Bereich und Download-Link
+
+## Archiv
+
+- [Vorübungen](https://botandis.github.io/tib-board/konzept/archiv/voruebungen.md): Wolpertinger, Volumenstudie; abgeschlossen, für den Entwurf nicht relevant
