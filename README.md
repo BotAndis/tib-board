@@ -7,4 +7,4 @@ Arbeitsboard der Bachelorthesis „Die Bibliothek – Vom Archiv zum Kollektivra
 - Projektkontext für KI: [llms.txt](llms.txt)
 - Vorübungen (abgeschlossen): [konzept/archiv/voruebungen.md](konzept/archiv/voruebungen.md)
 
-Prüfer: Prof. André Kempe, Annette Haas · Bearbeitung: Andis, Luca
+Prüfer: Prof. André Kempe, Annette Haas · Bearbeitung: Jan Andis Böhm, Luca Ingui
