@@ -70,61 +70,61 @@
    "id": "label:Details",
    "text": "Details",
    "x": 0,
-   "y": 18350
+   "y": 19660
   },
   {
    "id": "label:Entwurf · Details",
    "text": "Entwurf · Details",
    "x": 9200,
-   "y": 18350
+   "y": 19660
   },
   {
    "id": "label:Möblierung + Nutzung",
    "text": "Möblierung + Nutzung",
    "x": 0,
-   "y": 19280
+   "y": 20590
   },
   {
    "id": "label:Möbelbestand",
    "text": "Möbelbestand",
    "x": 0,
-   "y": 20210
+   "y": 21520
   },
   {
    "id": "label:Raumprogramm",
    "text": "Raumprogramm",
    "x": 0,
-   "y": 22040
+   "y": 23350
   },
   {
    "id": "label:Fotos",
    "text": "Fotos",
    "x": 0,
-   "y": 22970
+   "y": 24280
   },
   {
    "id": "label:3D-Modelle",
    "text": "3D-Modelle",
    "x": 0,
-   "y": 24200
+   "y": 25510
   },
   {
    "id": "label:3D-Druck · Bestand",
    "text": "3D-Druck · Bestand",
    "x": 0,
-   "y": 25130
+   "y": 26440
   },
   {
    "id": "label:Entwurf · Volumenstudien",
    "text": "Archiv · Vorübung 2 · Volumenstudie",
    "x": 9200,
-   "y": 25130
+   "y": 26440
   },
   {
    "id": "label:3D-Druck · Entwurf",
    "text": "Archiv · 3D-Druck Volumenstudie",
    "x": 9200,
-   "y": 26060
+   "y": 27370
   },
   {
    "id": "label:Zeitplan",
@@ -4255,6 +4255,23 @@
    "w": 300
   },
   {
+   "id": "4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Ausschnitt-TIB_A3_v1.pdf",
+   "kind": "pdf",
+   "title": "LP 1100 Welfengarten Lageplan-Entwurf Ausschnitt-TIB A3 v1",
+   "ext": "pdf",
+   "size": 937157,
+   "date": "10.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Ausschnitt-TIB_A3_v1.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Ausschnitt-TIB_A3_v1.pdf&raw=1",
+   "thumb": "thumbs/fc8b3532bef350c7.webp",
+   "ar": 1.4139,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/43d806eb73174866b8a6/",
+   "section": "Entwurf · Lageplan",
+   "x": 9200,
+   "y": 16770,
+   "w": 1697
+  },
+  {
    "id": "4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan_Ausschnitt-TIB_A3_v1.pdf",
    "kind": "pdf",
    "title": "LP 1100 Welfengarten Lageplan Ausschnitt-TIB A3 v1",
@@ -4267,7 +4284,7 @@
    "ar": 1.4139,
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/d4b27c5559bd421186cc/",
    "section": "Entwurf · Lageplan",
-   "x": 9200,
+   "x": 10936.68,
    "y": 16770,
    "w": 1697
   },
@@ -4284,7 +4301,7 @@
    "ar": 0.7073,
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/9ea97995628e4f41bfee/",
    "section": "Entwurf · Lageplan",
-   "x": 10936.68,
+   "x": 12673.36,
    "y": 16770,
    "w": 849
   },
@@ -4301,8 +4318,8 @@
    "ar": 0.7073,
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/d6f9d1b65949445a9a40/",
    "section": "Entwurf · Lageplan",
-   "x": 11825.439999999999,
-   "y": 16770,
+   "x": 9200,
+   "y": 18080,
    "w": 849
   },
   {
@@ -4318,9 +4335,43 @@
    "ar": 0.7073,
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/e2246c7d157144eba9db/",
    "section": "Entwurf · Lageplan",
-   "x": 12714.2,
-   "y": 16770,
+   "x": 10088.76,
+   "y": 18080,
    "w": 849
+  },
+  {
+   "id": "4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Skizze_v1.pdf",
+   "kind": "pdf",
+   "title": "LP 1100 Welfengarten Lageplan-Entwurf Skizze v1",
+   "ext": "pdf",
+   "size": 21470985,
+   "date": "10.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Skizze_v1.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Skizze_v1.pdf&raw=1",
+   "thumb": "thumbs/668224e7864de703.webp",
+   "ar": 0.7073,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/0eb5d190435b436facbc/",
+   "section": "Entwurf · Lageplan",
+   "x": 10977.52,
+   "y": 18080,
+   "w": 849
+  },
+  {
+   "id": "4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Zoom-TIB_M1-100_A0_v1.pdf",
+   "kind": "pdf",
+   "title": "LP 1100 Welfengarten Lageplan-Entwurf Zoom-TIB M1-100 A0 v1",
+   "ext": "pdf",
+   "size": 5484793,
+   "date": "10.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Zoom-TIB_M1-100_A0_v1.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Zoom-TIB_M1-100_A0_v1.pdf&raw=1",
+   "thumb": "thumbs/36b3064e598af9b0.webp",
+   "ar": 1.4139,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/4120aa17481948638bde/",
+   "section": "Entwurf · Lageplan",
+   "x": 11866.279999999999,
+   "y": 18080,
+   "w": 1697
   },
   {
    "id": "2_Bestand_eigene-Pläne/Detail_Treppe-Kern335/Gelaenderecke_Kern335_Explosion_ThreeVis_A3_1-5_Blatt.pdf",
@@ -4336,7 +4387,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/b51e884a80df4622a592/",
    "section": "Details",
    "x": 0,
-   "y": 18600,
+   "y": 19910,
    "w": 424
   },
   {
@@ -4353,7 +4404,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/2aff410e5a2549829e94/",
    "section": "Details",
    "x": 464.16999999999996,
-   "y": 18600,
+   "y": 19910,
    "w": 212
   },
   {
@@ -4368,7 +4419,7 @@
    "url": "html/kern335-detailmappe.html",
    "section": "Details",
    "x": 716.63,
-   "y": 18600,
+   "y": 19910,
    "w": 300
   },
   {
@@ -4385,7 +4436,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/775f160cb7f84a848cd4/",
    "section": "Details",
    "x": 1056.63,
-   "y": 18600,
+   "y": 19910,
    "w": 300
   },
   {
@@ -4402,7 +4453,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/82429d1049c2454e841c/",
    "section": "Details",
    "x": 1396.63,
-   "y": 18600,
+   "y": 19910,
    "w": 212
   },
   {
@@ -4419,7 +4470,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/f3a22435b0fe47d38497/",
    "section": "Details",
    "x": 1649.0900000000001,
-   "y": 18600,
+   "y": 19910,
    "w": 150
   },
   {
@@ -4436,7 +4487,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/0ca1624679e646abb174/",
    "section": "Details",
    "x": 1839.0900000000001,
-   "y": 18600,
+   "y": 19910,
    "w": 150
   },
   {
@@ -4453,7 +4504,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/5bb4f0224c9b482abfdd/",
    "section": "Details",
    "x": 2029.0900000000001,
-   "y": 18600,
+   "y": 19910,
    "w": 300
   },
   {
@@ -4470,7 +4521,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/c1f2d30cbd54456dae16/",
    "section": "Details",
    "x": 2369.09,
-   "y": 18600,
+   "y": 19910,
    "w": 212
   },
   {
@@ -4589,7 +4640,7 @@
    ],
    "section": "Details",
    "x": 2621.28,
-   "y": 18600,
+   "y": 19910,
    "w": 300
   },
   {
@@ -4710,7 +4761,7 @@
    ],
    "section": "Details",
    "x": 2961.28,
-   "y": 18600,
+   "y": 19910,
    "w": 300
   },
   {
@@ -4744,7 +4795,7 @@
    ],
    "section": "Details",
    "x": 3301.28,
-   "y": 18600,
+   "y": 19910,
    "w": 300
   },
   {
@@ -4761,7 +4812,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/e93fd1ebc7524efe9a7e/",
    "section": "Möblierung + Nutzung",
    "x": 0,
-   "y": 19530,
+   "y": 20840,
    "w": 424
   },
   {
@@ -4778,7 +4829,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/25f03c28f0cc4d5da6df/",
    "section": "Möblierung + Nutzung",
    "x": 464.16999999999996,
-   "y": 19530,
+   "y": 20840,
    "w": 424
   },
   {
@@ -4795,7 +4846,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/4dd961c156054f7ba9f0/",
    "section": "Möblierung + Nutzung",
    "x": 928.3399999999999,
-   "y": 19530,
+   "y": 20840,
    "w": 424
   },
   {
@@ -4812,7 +4863,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/48ba8a90c0ff4b3abd81/",
    "section": "Möblierung + Nutzung",
    "x": 1392.5099999999998,
-   "y": 19530,
+   "y": 20840,
    "w": 424
   },
   {
@@ -4829,7 +4880,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/16b4b2ec8ebd4f6aa596/",
    "section": "Möblierung + Nutzung",
    "x": 1856.6799999999998,
-   "y": 19530,
+   "y": 20840,
    "w": 424
   },
   {
@@ -4846,7 +4897,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/32c5becf5bd145cc9cb2/",
    "section": "Möblierung + Nutzung",
    "x": 2320.85,
-   "y": 19530,
+   "y": 20840,
    "w": 424
   },
   {
@@ -4907,7 +4958,7 @@
    ],
    "section": "Möblierung + Nutzung",
    "x": 2785.02,
-   "y": 19530,
+   "y": 20840,
    "w": 300
   },
   {
@@ -4924,7 +4975,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/7bbf91ee561742eb804a/",
    "section": "Möbelbestand",
    "x": 0,
-   "y": 20460,
+   "y": 21770,
    "w": 1697
   },
   {
@@ -4941,7 +4992,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/3ebdcf14307b43f28a80/",
    "section": "Möbelbestand",
    "x": 1736.6799999999998,
-   "y": 20460,
+   "y": 21770,
    "w": 424
   },
   {
@@ -4958,7 +5009,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/7b1f59736cf54e46bd44/",
    "section": "Möbelbestand",
    "x": 2200.85,
-   "y": 20460,
+   "y": 21770,
    "w": 424
   },
   {
@@ -4975,7 +5026,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/8cf2c7c5f65246ed9ae0/",
    "section": "Möbelbestand",
    "x": 2665.02,
-   "y": 20460,
+   "y": 21770,
    "w": 424
   },
   {
@@ -4992,7 +5043,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/f5aefd5f790a4de69da9/",
    "section": "Möbelbestand",
    "x": 3129.19,
-   "y": 20460,
+   "y": 21770,
    "w": 424
   },
   {
@@ -5009,7 +5060,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/6f8ea0c273a84c31bd43/",
    "section": "Möbelbestand",
    "x": 3593.36,
-   "y": 20460,
+   "y": 21770,
    "w": 424
   },
   {
@@ -5080,7 +5131,7 @@
    ],
    "section": "Möbelbestand",
    "x": 4057.53,
-   "y": 20460,
+   "y": 21770,
    "w": 300
   },
   {
@@ -5338,7 +5389,7 @@
    ],
    "section": "Möbelbestand",
    "x": 4397.530000000001,
-   "y": 20460,
+   "y": 21770,
    "w": 300
   },
   {
@@ -5353,7 +5404,7 @@
    "url": "html/flaechen-editor.html",
    "section": "Raumprogramm",
    "x": 0,
-   "y": 22290,
+   "y": 23600,
    "w": 300
   },
   {
@@ -5370,7 +5421,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/f5d42ff6dcae416d8483/",
    "section": "Raumprogramm",
    "x": 340.0,
-   "y": 22290,
+   "y": 23600,
    "w": 425
   },
   {
@@ -5387,7 +5438,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/dba8c620fbaa43bf94bc/",
    "section": "Raumprogramm",
    "x": 804.71,
-   "y": 22290,
+   "y": 23600,
    "w": 425
   },
   {
@@ -5404,7 +5455,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/02c389917bad41ba8961/",
    "section": "Raumprogramm",
    "x": 1269.42,
-   "y": 22290,
+   "y": 23600,
    "w": 425
   },
   {
@@ -5421,7 +5472,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/5f6a830fe5c2468a8461/",
    "section": "Raumprogramm",
    "x": 1734.13,
-   "y": 22290,
+   "y": 23600,
    "w": 425
   },
   {
@@ -5438,7 +5489,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/dde1bf11beec432eb53c/",
    "section": "Raumprogramm",
    "x": 2198.84,
-   "y": 22290,
+   "y": 23600,
    "w": 425
   },
   {
@@ -5515,7 +5566,7 @@
    ],
    "section": "Raumprogramm",
    "x": 2663.55,
-   "y": 22290,
+   "y": 23600,
    "w": 300
   },
   {
@@ -5631,7 +5682,7 @@
    ],
    "section": "Raumprogramm",
    "x": 3003.55,
-   "y": 22290,
+   "y": 23600,
    "w": 300
   },
   {
@@ -6026,7 +6077,7 @@
    ],
    "section": "Fotos",
    "x": 0,
-   "y": 23220,
+   "y": 24530,
    "w": 600
   },
   {
@@ -7621,7 +7672,7 @@
    ],
    "section": "Fotos",
    "x": 640.0,
-   "y": 23220,
+   "y": 24530,
    "w": 600
   },
   {
@@ -7872,7 +7923,7 @@
    ],
    "section": "Fotos",
    "x": 1280.0,
-   "y": 23220,
+   "y": 24530,
    "w": 600
   },
   {
@@ -8279,7 +8330,7 @@
    ],
    "section": "Fotos",
    "x": 1920.0,
-   "y": 23220,
+   "y": 24530,
    "w": 600
   },
   {
@@ -8398,7 +8449,7 @@
    ],
    "section": "Fotos",
    "x": 2560.0,
-   "y": 23220,
+   "y": 24530,
    "w": 600
   },
   {
@@ -8457,7 +8508,7 @@
    ],
    "section": "Fotos",
    "x": 3200.0,
-   "y": 23220,
+   "y": 24530,
    "w": 600
   },
   {
@@ -8528,7 +8579,7 @@
    ],
    "section": "Fotos",
    "x": 3840.0,
-   "y": 23220,
+   "y": 24530,
    "w": 600
   },
   {
@@ -8544,7 +8595,7 @@
    "ar": 1.7143,
    "section": "3D-Modelle",
    "x": 0,
-   "y": 24450,
+   "y": 25760,
    "w": 514
   },
   {
@@ -8559,7 +8610,7 @@
    "url": "html/modell-ansichten/index.html",
    "section": "3D-Modelle",
    "x": 554.29,
-   "y": 24450,
+   "y": 25760,
    "w": 300
   },
   {
@@ -8882,7 +8933,7 @@
    ],
    "section": "3D-Modelle",
    "x": 894.29,
-   "y": 24450,
+   "y": 25760,
    "w": 300
   },
   {
@@ -8953,7 +9004,7 @@
    ],
    "section": "3D-Modelle",
    "x": 1234.29,
-   "y": 24450,
+   "y": 25760,
    "w": 300
   },
   {
@@ -9024,7 +9075,7 @@
    ],
    "section": "3D-Modelle",
    "x": 1574.29,
-   "y": 24450,
+   "y": 25760,
    "w": 300
   },
   {
@@ -9038,7 +9089,7 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/6_3D-Druck/Bestand_M1-500/druck%20bestand%20tib%20getrennt.3mf&raw=1",
    "section": "3D-Druck · Bestand",
    "x": 0,
-   "y": 25380,
+   "y": 26690,
    "w": 300
   },
   {
@@ -9053,7 +9104,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/05b34aed64764d94b33a/",
    "section": "3D-Druck · Bestand",
    "x": 340.0,
-   "y": 25380,
+   "y": 26690,
    "w": 300
   },
   {
@@ -9068,7 +9119,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/32be4ce2d8f9463c92dc/",
    "section": "3D-Druck · Bestand",
    "x": 680.0,
-   "y": 25380,
+   "y": 26690,
    "w": 300
   },
   {
@@ -11432,7 +11483,7 @@
    "ar": 2,
    "section": "Entwurf · Volumenstudien",
    "x": 9200,
-   "y": 25380,
+   "y": 26690,
    "w": 600
   },
   {
@@ -12329,7 +12380,7 @@
    "ar": 2,
    "section": "3D-Druck · Entwurf",
    "x": 9200,
-   "y": 26310,
+   "y": 27620,
    "w": 600
   },
   {
