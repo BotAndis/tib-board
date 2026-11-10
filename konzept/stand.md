@@ -9,6 +9,8 @@ Es gibt genau einen Entwurf. Pläne, Axonometrien und Modelle sind Darstellungen
 
 Grundrisse 2.UG–3.OG aus einem 2D-Master, je Geschoss vier Darstellungen. Rot-Gelb: Bestand schwarz, Abriss gelb, Neubau rot. EG = Variante 1, EG Variante 2 als Alternative.
 
+Verbindung Bestand / Anbau (Schnitt Ost, Ostflügel): Beide Häuser behalten ihre Geschosshöhen (Bestand EG ±0,00 / 1.OG +3,91 / 2.OG +7,12; Anbau EG ±0,00 / 1.OG +4,00 / 2.OG +8,00, Arbeitsstand). Der Versatz wird an der Fuge aufgenommen: EG und UGs schwellenlos, 1.OG geneigter Boden 2,1 % im Anbau, 2.OG Stufenanlage über die Breite der Bibliothek (5 × 17,6 / 28) und daneben eine Rampenbrücke im Luftraum (4 × 3,70 m, 5,95 %, Podest +7,56 auf der Fuge). Referenzen: UB Heidelberg Triplex, Kunsthal Rotterdam, Newport Street Gallery.
+
 | Plan | Datum | PDF |
 |---|---|---|
 | Extrusion Anbau, 3D-Modell M 1:500 (STL) | 2026-11-10 | [STL](https://seafile.cloud.uni-hannover.de/seafhttp/f/ac8b83b41b1d47e49e55/) |
@@ -40,6 +42,7 @@ Grundrisse 2.UG–3.OG aus einem 2D-Master, je Geschoss vier Darstellungen. Rot-
 | 3.OG, Nutzung, M 1:300, A3 | 2026-11-10 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/88373266ec7140aebdba/) |
 | 3.OG, Rot-Gelb, M 1:300, A3 | 2026-11-10 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/ee36c5624476402a8958/) |
 | 3.OG, Rot-Gelb + Nutzung, M 1:300, A3 | 2026-11-10 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/0b0e54964c124a409c5c/) |
+| Schnitt Ost, Verbindung Bestand / Anbau, mit Grundrissstreifen 2.OG, M 1:200, A1 quer | 2026-11-10 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/df19a77abff1449f9818/) |
 | Flächenbilanz Nutzungsflächen Ist / Soll, A3 | 2026-11-10 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/26dc2a40a28943c8aa3b/) |
 | Erweiterung Option 1, U-Anbau, Nutzung, A3 | 2026-11-03 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/1ede02208e8a487482eb/) |
 | Lageplan Welfengarten, Ausschnitt TIB, A3 | 2026-11-03 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/d4b27c5559bd421186cc/) |
