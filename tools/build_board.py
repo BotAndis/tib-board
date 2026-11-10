@@ -159,13 +159,14 @@ GRID = [
 
 # current plans lie open and big (4x a normal card): the design's plan PDFs + the newest furniture inventory sheet
 BIG = [f"{D}/*/*.pdf", f"{E}/Möbelbestand/*Inventar_A3*.pdf", f"{R}/*.pdf"]
-# reading order of the design plans (instead of newest first): overview, Rot-Gelb, Nutzung, axo; floors bottom-up
-READ, FLOORS = ("Uebersicht", "RotGelb", "Nutzung", "Axo", "Ausschnitt", "Vorplatz"), ("-EG_", "-1OG_", "-2OG_")
+# reading order of the design plans (instead of newest first): floors bottom-up, per floor Grundriss, Nutzung, Rot-Gelb
+READ = ("Uebersicht", "_Grundriss_", "_Nutzung_", "_RotGelb_", "_RotGelb-Nutzung_", "RotGelb", "Nutzung", "Axo", "Ausschnitt", "Vorplatz")
+FLOORS = ("-2UG_", "-1UG_", "-EG_", "-EG-V2_", "-1OG_", "-2OG_", "-3OG_")
 
 
 def reading(rel):
     n = Path(rel).name
-    return (next((i for i, t in enumerate(READ) if t in n), len(READ)), next((i for i, t in enumerate(FLOORS) if t in n), 9), n)
+    return (next((i for i, t in enumerate(FLOORS) if t in n), 9), next((i for i, t in enumerate(READ) if t in n), len(READ)), n)
 
 
 VER = re.compile(r"_(?:v)?(\d+)$")
