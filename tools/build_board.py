@@ -328,7 +328,8 @@ def main():
     preview = next(THUMBS.glob("referenzen-*.webp"))  # name carries a content hash, written by build_refs.py
     w, h = Image.open(preview).size
     sections.append({"title": "Referenzen", "items": [REFS | {"thumb": preview.relative_to(REPO).as_posix(), "ar": round(w / h, 4)}]
-                     + build("Referenzen", [("open", [f"{R}/*.pdf"])]) + [dict(GESCHOSSE)]})
+                     + build("Referenzen", [("open", [f"{R}/*.pdf"]),
+                                                          ("stack", "Raumpilot · Grundlagen, Lernen, Arbeiten", [f"{R}/Raumpilot/*.pdf"])]) + [dict(GESCHOSSE)]})
     sections.append({"title": LEFT, "items": [dict(ZEITPLAN)]})
     sections.append({"title": KT_SEC, "items": [dict(KT)]})
 
