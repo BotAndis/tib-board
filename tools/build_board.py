@@ -162,6 +162,8 @@ BIG = [f"{D}/*/*.pdf", f"{E}/Möbelbestand/*Inventar_A3*.pdf", f"{R}/*.pdf"]
 # reading order of the design plans (instead of newest first): floors bottom-up, per floor Grundriss, Nutzung, Rot-Gelb
 READ = ("Uebersicht", "_Grundriss_", "_Nutzung_", "_RotGelb_", "_RotGelb-Nutzung_", "RotGelb", "Nutzung", "Axo", "Ausschnitt", "Vorplatz")
 FLOORS = ("-2UG_", "-1UG_", "-EG_", "-EG-V2_", "-1OG_", "-2OG_", "-3OG_")
+FLOOR_SEC = "Entwurf · Grundrisse"
+FLOOR_NAME = {"-2UG_": "UG2", "-1UG_": "UG1", "-EG_": "EG", "-EG-V2_": "EG V2", "-1OG_": "OG1", "-2OG_": "OG2", "-3OG_": "OG3"}
 
 
 def reading(rel):
@@ -363,7 +365,18 @@ def layout(sections):
         # photo stacks are the content there, so show them bigger; the references tile is a page preview
         h = {"Fotos": ROW_H * 2, "Referenzen": ROW_H * 4, LEFT: ROW_H * 26, KT_SEC: ROW_H * 4}.get(s["title"], ROW_H)
         x, row = 0, h  # row: height of the current row (a big card makes it taller)
-        for it in s["items"]:
+        # design floor plans: one row per floor (2UG at the top), a big floor name left of each row
+        fl = (lambda it: next((t for t in FLOORS if t in Path(it["id"]).name), None)) if s["title"] == FLOOR_SEC else (lambda it: None)
+        last = None
+        for it in sorted(s["items"], key=lambda it: fl(it) is None) if s["title"] == FLOOR_SEC else s["items"]:
+            f = fl(it)
+            if f != last and it["id"] not in pos:
+                if x:
+                    x, y, row = 0, y + row + 110, h
+                if f:
+                    fid = f"label:{s['title']}:{f}"
+                    labels.append(pos.get(fid) or {"id": fid, "text": texts.get(fid, FLOOR_NAME[f]), "x": x0 - 1100, "y": y})
+                last = f
             ih = ROW_H * 4 if it["kind"] != "stack" and match(it["id"], BIG) else h
             w = ih * it.get("ar", 1.0)  # square unless the item knows its shape
             it["section"] = s["title"]
