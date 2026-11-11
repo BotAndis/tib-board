@@ -138,7 +138,8 @@
       "landschaft",
       "baeume",
       "stufen-sitzen",
-      "bibliothek"
+      "bibliothek",
+      "gruen"
     ],
     "principle": "Das Dach der Bibliothek ist eine geneigte Rasenfläche, die aus dem Campusrasen aufsteigt. Davor liegt ein gepflasterter Platz mit Sitzstufen, der den Eingang einschneidet.",
     "look": "Auf den Übergang von Rasen zu Platz und die Stufen, auf denen Studierende sitzen.",
@@ -183,7 +184,8 @@
       "landschaft",
       "baeume",
       "wasser",
-      "bibliothek"
+      "bibliothek",
+      "gruen"
     ],
     "principle": "Der Lesesaal liegt unter der Erde; darüber spannt sich zwischen zwei Steinkuben ein Rasenplatz mit Oberlichtern. Der Freiraum ist Dach, Vorplatz und Campusgarten zugleich.",
     "look": "Auf den Rasen mit den Oberlichtfeldern zwischen den Kuben und das Wasserbecken vor der Fassade.",
@@ -312,7 +314,8 @@
       "baeume",
       "parkrand",
       "bestand",
-      "bibliothek"
+      "bibliothek",
+      "gruen"
     ],
     "principle": "Der Neubau steht im Rasen neben Alvar Aaltos Bibliothek und ist unterirdisch mit ihr verbunden. Der offene Grünraum bleibt zwischen Alt und Neu erhalten.",
     "look": "Auf das Verhältnis von Neubau, Aalto-Bestand und offenem Rasen mit Baumreihen im Luftbild.",
@@ -434,7 +437,8 @@
       "landschaft",
       "campus",
       "baeume",
-      "innenhof"
+      "innenhof",
+      "gruen"
     ],
     "principle": "Die Gebäude stehen auf einer kompakten Plattform und rahmen drei große Plätze. Ein Raster aus rotblättrigem Ahorn ordnet die Plätze, landschaftliche Baumgruppen bilden den Übergang zur Umgebung.",
     "look": "Das strenge Baumraster auf dem großen Platz gegenüber den freien Baumgruppen am Rand.",
@@ -514,7 +518,8 @@
       "baeume",
       "parkrand",
       "stufen-sitzen",
-      "wasser"
+      "wasser",
+      "gruen"
     ],
     "principle": "Vor der Hochschule liegt ein Park als Eingangsraum für Quartier und Campus. Ein dichtes Baumband fasst eine leicht abgesenkte Rasenlichtung, ein schlichter Platz verbindet Park und Gebäude.",
     "look": "Das dichte Baumband am Rand, die offene abgesenkte Lichtung und der fast leere Platz vor der Halle.",
@@ -597,7 +602,8 @@
       "campus",
       "baeume",
       "stufen-sitzen",
-      "wasser"
+      "wasser",
+      "gruen"
     ],
     "principle": "Ein großes rechteckiges Rasenfeld im dunklen Plattenbelag bildet die Mitte, um die sich die Hochschulbauten gruppieren. Eine Baumgruppe setzt einen Akzent, an den Stirnseiten liegen Wassertisch und lange Bank.",
     "look": "Das klare Rasenrechteck mit sanfter Modellierung und die wenigen großen Nadelbäume darauf.",
@@ -1013,6 +1019,854 @@
     "report": {
       "label": "Vogt Landschaftsarchitekten",
       "url": "https://vogt-la.com/eth_hoenggerberg"
+    }
+  },
+  {
+    "id": "jku-bibliothek-linz",
+    "title": "Bibliothek und Freianlagen Johannes Kepler Universität",
+    "architect": "Riepl Riepl Architekten (Architektur) · DnD Landschaftsplanung (Landschaft)",
+    "place": "Linz",
+    "year": "2020",
+    "type": "Bibliotheksvorplatz mit Gräserbeeten",
+    "tags": [
+      "vorplatz",
+      "gruen",
+      "bibliothek",
+      "campus",
+      "landschaft",
+      "architektur",
+      "bestand"
+    ],
+    "principle": "Die umgebaute Bibliothek aus den 1980er-Jahren steht am Kopf einer 500 m langen Campuspromenade. Ein heller Platz direkt am Haus wird von tiefen, rechteckig gefassten Gräser- und Staudenbeeten gerahmt, die den Weg zum Eingang führen.",
+    "look": "Auf das Verhältnis von schmaler befestigter Fläche am Haus zu breiten Pflanzbeeten, die bis an die Wege reichen.",
+    "mechanism": "Wege und Platz in hellem Belag, dazwischen niedrig eingefasste Beete mit Gräsern und Stauden in klaren Rechtecken. Die Aufstockung der Bibliothek kragt als Vordach über den Platz und markiert den Eingang. Die Promenade verbindet Bibliothek, Uni-Center, Institute und den Teich mit Altbaumbestand.",
+    "strengths": [
+      "Bestandsbibliothek bekommt eine klare Adresse ohne neuen Baukörper",
+      "Pflanzbeete statt Rasen: robust, wenig Trittschäden, ganzjährig Struktur",
+      "Platz am Haus bleibt für Veranstaltungen nutzbar"
+    ],
+    "limits": [
+      "Beetpflege (Gräser, Stauden) aufwendiger als Rasen",
+      "Kaum Schatten, junge Bäume nur am Rand"
+    ],
+    "tib": "Direktes Vorbild für den TIB-Vorplatz im Westen: schmale Platzkante am Eingang, der ehemalige Parkplatz wird zu gefassten Gräserbeeten mit geraden Wegen zur Tür. Auch der Umgang mit einem 1970er-Bibliotheksbau im Bestand ist vergleichbar.",
+    "assessment": "Direkt übertragbar für den Westvorplatz der TIB.",
+    "sources": [
+      {
+        "label": "DnD Landschaftsplanung · Freianlagen JKU (Landezine)",
+        "url": "https://landezine-award.com/outdoor-facilities-of-johannes-kepler-university-of-linz-at/"
+      },
+      {
+        "label": "JKU · Neue Bibliothek",
+        "url": "https://www.jku.at/en/news-events/news/detail/news/up-and-away-green-light-for-the-jku-somnium-and-the-new-library-1/"
+      }
+    ],
+    "report": {
+      "label": "Landezine",
+      "url": "https://landezine-award.com/outdoor-facilities-of-johannes-kepler-university-of-linz-at/"
+    }
+  },
+  {
+    "id": "the-hive-worcester",
+    "title": "The Hive, Universitäts- und Stadtbibliothek mit Archiv",
+    "architect": "Feilden Clegg Bradley Studios (Architektur) · Grant Associates (Landschaft)",
+    "place": "Worcester",
+    "year": "2012",
+    "type": "Bibliotheksumfeld mit Feuchtwiese und Rasenböschungen",
+    "tags": [
+      "vorplatz",
+      "gruen",
+      "bibliothek",
+      "campus",
+      "landschaft",
+      "architektur",
+      "wasser"
+    ],
+    "principle": "Gemeinsame Bibliothek von Universität und Stadt mit Kreisarchiv. Das Gebäude steht auf einer Plattform zwischen zwei abgesenkten Wiesenmulden; Rampen und Stege führen über die Wiese zum Eingang.",
+    "look": "Auf die abgesenkten Wiesenmulden neben den Wegen und die Rasenböschungen, die den Höhenunterschied zur Straße aufnehmen.",
+    "mechanism": "Rund 2 ha Freianlage: zwei Mulden mit artenreicher Feuchtwiese nehmen Regenwasser und Hochwasser auf, Röhrichtgräben filtern das Wasser. Erhöhte Wege, Rampen und Inseln liegen über der Wiese, Rasenböschungen und Einzelbäume fassen die Ränder. Der Eingang wird über eine flache Rampe erreicht.",
+    "strengths": [
+      "Wiese statt Platz, trotzdem barrierefreier Zugang",
+      "Regenwasser wird sichtbar vor Ort gehalten",
+      "Wenig Pflegeaufwand durch Wiesenschnitt"
+    ],
+    "limits": [
+      "Höhenmodellierung und Stege sind aufwendig",
+      "Wiese im Winter wenig nutzbar"
+    ],
+    "tib": "Für den TIB-Westen: Parkplatz entsiegeln und als flache Wiesenmulde mit Regenwasserrückhalt ausbilden, darüber ein gerader, leicht erhöhter Weg zur Tür. Zum Welfengarten im Süden passt der Übergang über Rasenböschungen.",
+    "assessment": "Gut übertragbar als Prinzip Wiesenmulde plus Weg, in kleinerem Maßstab.",
+    "sources": [
+      {
+        "label": "Grant Associates · The Hive (gooood)",
+        "url": "https://www.gooood.cn/en/hive-w-library-landscape.htm"
+      },
+      {
+        "label": "Grant Associates · Projekt",
+        "url": "https://grant-associates.uk.com/projects/the-hive-worcester-library"
+      }
+    ],
+    "report": {
+      "label": "Dezeen",
+      "url": "https://www.dezeen.com/2012/04/12/the-hive-by-feilden-cleggbradley-studios/"
+    }
+  },
+  {
+    "id": "studenthuset-frescati",
+    "title": "Studenthuset Frescati, Universität Stockholm",
+    "architect": "Erséus Arkitekter (Architektur) · Nivå Landskapsarkitektur (Landschaft)",
+    "place": "Stockholm",
+    "year": "2014",
+    "type": "Eingangshof mit Birkenhain und Staudenbeeten",
+    "tags": [
+      "vorplatz",
+      "gruen",
+      "campus",
+      "landschaft",
+      "architektur",
+      "baeume"
+    ],
+    "principle": "Das Studentenhaus steht am neuen Eingang zum Campus Frescati. Vor dem Gebäude liegt ein Pflanzhof aus Birken und Stauden, durch den geschwungene Wege zum Eingang führen.",
+    "look": "Auf die dichte Birkenpflanzung mit Staudenunterwuchs und die Wege aus großformatigen Platten, die durch die Beete schwingen.",
+    "mechanism": "Junge Birken stehen dicht in großen Staudenflächen, die Wege sind mit Natursteinplatten belegt und mit Bänken besetzt. Eine niedrige dunkle Wand trennt den Hof vom Parkplatz. Ein befestigter Platz mit Sitzring schließt an der Straßenseite an.",
+    "strengths": [
+      "Schnell wirksamer Raum durch dichte Baumpflanzung",
+      "Klare Trennung von Parkplatz und Eingangshof",
+      "Bänke im Grün statt auf offenem Platz"
+    ],
+    "limits": [
+      "Teil der Eingangsfläche bleibt gepflastert",
+      "Geschwungene Wege sind formaler als nötig"
+    ],
+    "tib": "Für den TIB-Westen: ein dichter Hain aus hellen Bäumen mit Staudenflächen zwischen Campusstraße und Eingang, Parkplätze reduziert und mit einer niedrigen Kante abgetrennt. Bänke stehen im Hain.",
+    "assessment": "Direkt übertragbar für den Westvorplatz, Wegeführung gerader ausbilden.",
+    "sources": [
+      {
+        "label": "Nivå Landskapsarkitektur · Studenthuset (Landezine)",
+        "url": "https://landezine-award.com/studenthuset-frescati/"
+      }
+    ],
+    "report": {
+      "label": "Landezine",
+      "url": "https://landezine-award.com/studenthuset-frescati/"
+    }
+  },
+  {
+    "id": "rhs-hilltop-wisley",
+    "title": "RHS Hilltop mit Lindley Library",
+    "architect": "WilkinsonEyre (Architektur) · Christopher Bradley-Hole, Matt Keightley, Ann-Marie Powell (Landschaft)",
+    "place": "Wisley",
+    "year": "2021",
+    "type": "Forschungszentrum und Bibliothek in Gartenfeldern",
+    "tags": [
+      "vorplatz",
+      "gruen",
+      "bibliothek",
+      "landschaft",
+      "architektur",
+      "baeume"
+    ],
+    "principle": "Wissenschaftszentrum der Royal Horticultural Society mit Labors, Herbarium und der Lindley Library. Die Anfahrt endet in Pflanzflächen und Wiesen, die bis an die Fassade reichen; der Eingang liegt unter Bestandskiefern.",
+    "look": "Auf die Staudenpflanzung, die direkt an die Fassade anschließt, und den kurzen Weg unter den Kiefern zur Tür.",
+    "mechanism": "Rund 1,6 ha Gärten umgeben das Gebäude, aufgeteilt in Themengärten mit Staudenfeldern, Wiese, Teich und Rasen. Bestandsbäume wurden gehalten, die Wege sind schmal und hell gekiest. Ein kleiner Eingangshof mit Wasserrinne liegt zwischen den beiden Gebäudeflügeln.",
+    "strengths": [
+      "Bibliothek und Garten bilden eine Einheit",
+      "Erhaltener Baumbestand prägt die Ankunft",
+      "Pflanzung bis an die Fassade statt Platzfläche"
+    ],
+    "limits": [
+      "Gartenschau-Niveau der Pflege, für Campus nicht realistisch",
+      "Kein veröffentlichter Lageplan gefunden"
+    ],
+    "tib": "Für den Parkrand im Süden: Pflanzflächen und Wiese bis an die Fassade der Erweiterung, Zugang unter den großen Bäumen des Welfengartens. Ein kleiner Hof zwischen zwei Flügeln entspricht dem Lichthof zwischen Bestand und U-Anbau.",
+    "assessment": "Als Bild für den Südrand nützlich, im Pflegeaufwand vereinfachen.",
+    "sources": [
+      {
+        "label": "WilkinsonEyre · RHS Hilltop",
+        "url": "https://wilkinsoneyre.com/projects/rhs-hilltop"
+      }
+    ],
+    "report": {
+      "label": "RIBA Journal",
+      "url": "https://ribaj.com/buildings/cultivated-hybrid-wilkinson-eyre-s-home-of-gardening-science"
+    }
+  },
+  {
+    "id": "studierendenhaus-braunschweig",
+    "title": "Studierendenhaus TU Braunschweig",
+    "architect": "Gustav Düsing & Max Hacke (Architektur)",
+    "place": "Braunschweig",
+    "year": "2023",
+    "type": "Lernpavillon auf Rasenfläche unter Altbäumen",
+    "tags": [
+      "gruen",
+      "campus",
+      "architektur",
+      "baeume",
+      "bestand"
+    ],
+    "principle": "Offener Lernpavillon der Universität auf einer bestehenden Rasenfläche zwischen alten Ahornbäumen. Der Baukörper sitzt ebenerdig im Rasen, die Bäume bleiben stehen und rahmen das Haus.",
+    "look": "Auf den ebenerdigen Anschluss zwischen Glasfassade und Rasen und den Abstand zu den Baumstämmen.",
+    "mechanism": "Stahlskelett auf Raster, zweigeschossig, rundum verglast. Der Rasen läuft ohne Sockel bis an die Fassade, Bänke stehen unter den Bäumen. Zur Pockelsstraße liegt eine schmale gepflasterte Fläche mit Fahrradstellplätzen am Eingang.",
+    "strengths": [
+      "Bestandsgrün bleibt unverändert, minimaler Eingriff",
+      "Lernräume blicken direkt in Rasen und Baumkronen",
+      "Kollektiver Lernort, eng an der TIB-Nutzung"
+    ],
+    "limits": [
+      "Eingangsseite selbst ist gepflastert",
+      "Kein eigener Freiraumentwurf, keine Landschaftsarchitekten genannt"
+    ],
+    "tib": "Für den Südrand zum Welfengarten: Erweiterung ebenerdig an den Rasen setzen, ohne Sockel und Terrasse, Bestandsbäume halten. Zeigt auch, wie ein Lern- und Kollektivraum ohne Vorplatz auskommt.",
+    "assessment": "Gut übertragbar für den Parkrand, weniger für den Westvorplatz.",
+    "sources": [
+      {
+        "label": "BauNetz Wissen · Studierendenhaus",
+        "url": "https://www.baunetzwissen.de/drucken/studierendenhaus-in-braunschweig-8615998"
+      },
+      {
+        "label": "TU Braunschweig · Studierendenhaus",
+        "url": "https://www.tu-braunschweig.de/en/student-house"
+      }
+    ],
+    "report": {
+      "label": "Dezeen",
+      "url": "https://www.dezeen.com/2024/03/14/gustav-duesing-max-hacke-demountable-study-pavilion-germany/"
+    }
+  },
+  {
+    "id": "bauhaus-campus-weimar",
+    "title": "Bauhaus-Campus (Van-de-Velde-Campus)",
+    "architect": "Henry van de Velde (Bestand) · capattistaubach urbane landschaften (Landschaft)",
+    "place": "Weimar",
+    "year": "2019",
+    "type": "Campusplatz mit Campuswiese und Baumgruppe vor dem Hochschulgebäude",
+    "tags": [
+      "vorplatz",
+      "gruen",
+      "landschaft",
+      "campus",
+      "baeume",
+      "bestand",
+      "stufen-sitzen"
+    ],
+    "principle": "Ein vormals zerstückelter Hof vor dem Van-de-Velde-Bau wird zu einer großen, leicht vertieften Campuswiese mit gepflasterten Rändern. Die Wiese ist Bühne für Veranstaltungen und Liegefläche im Alltag.",
+    "look": "Auf die einfache Rasenfläche mit Betonkante und die lange Bank, die die Höhe der alten Balustrade aufnimmt.",
+    "mechanism": "Rund 3.500 m²: eine rechteckige Rasenfläche, eingefasst von einer Sitzkante aus Beton mit Relief, umgeben von Natursteinpflaster. Bestehende Großbäume bilden eine 'Baumbühne' mit Lichtprojektionen in den Kronen; ein kleiner Eingangsplatz vermittelt zum Gebäude. Fahrräder werden am Rand gebündelt.",
+    "strengths": [
+      "Ein einziges, klares Rasenfeld statt vieler Restflächen",
+      "Sitzkante als Rand und Bank zugleich",
+      "Bestandsbäume bleiben prägend"
+    ],
+    "limits": [
+      "Rasen leidet bei starker Nutzung und Veranstaltungen",
+      "Viel Pflaster rund um die Wiese"
+    ],
+    "tib": "Direkt auf den Westvorplatz übertragbar: Parkplatz in ein großes Rasenfeld mit umlaufender Sitzkante und gepflastertem Rand vor dem Eingang umbauen.",
+    "assessment": "Direkt übertragbar für einen grünen Campusvorplatz mit einfacher Wiese.",
+    "sources": [
+      {
+        "label": "Landezine Award · Bauhaus Campus, Weimar",
+        "url": "https://landezine-award.com/bauhaus-campus-weimar/"
+      }
+    ],
+    "report": {
+      "label": "Landezine Award",
+      "url": "https://landezine-award.com/bauhaus-campus-weimar/"
+    }
+  },
+  {
+    "id": "museumsentree-velbert",
+    "title": "Museumsentrée Deutsches Schloss- und Beschlägemuseum",
+    "architect": "DTP Landschaftsarchitekten (Landschaft)",
+    "place": "Velbert",
+    "year": "2022",
+    "type": "Museumsvorplatz als Garten mit Rasen, Staudenbeeten und Bestandsplatanen",
+    "tags": [
+      "vorplatz",
+      "gruen",
+      "landschaft",
+      "baeume",
+      "bestand",
+      "umnutzung-parkplatz"
+    ],
+    "principle": "Der Vorplatz vor Villa Hemminghaus und Museumsneubau ist halb Platz, halb Garten. Ein schmaler Steg führt diagonal durch den Garten zum Eingang.",
+    "look": "Auf den leicht schwebenden Stahlsteg über den Wurzeln der alten Platanen und die rechtwinkligen Staudenbeete im Rasen.",
+    "mechanism": "Großkronige Bestandsplatanen bleiben erhalten und rahmen den Raum; dazwischen Rasen mit Plattenwegen und orthogonale, insektenfreundliche Staudenbeete. Der beleuchtete Stahlsteg schont den Wurzelraum und dient als Sitzbank. Ein ehemaliger Parkstreifen wurde zum Staudenbeet, ein Rückhaltebecken nimmt Starkregen auf.",
+    "strengths": [
+      "Bestandsbäume als Raumgerüst",
+      "Weg über Wurzeln ohne Versiegelung",
+      "Parkstreifen wird Beet"
+    ],
+    "limits": [
+      "Kleiner, städtischer Maßstab",
+      "Staudenbeete brauchen Pflege"
+    ],
+    "tib": "Für den Westvorplatz: Stellplätze entsiegeln, Rasen und Stauden zwischen neuen und alten Bäumen, ein direkter Steg oder Plattenweg zum Eingang.",
+    "assessment": "Gut übertragbar für einen grünen Eingangsgarten auf ehemaligen Parkflächen.",
+    "sources": [
+      {
+        "label": "Landezine Award · Museumsentrée Velbert",
+        "url": "https://landezine-award.com/museumsentree-velbert/"
+      }
+    ],
+    "report": {
+      "label": "Landezine Award",
+      "url": "https://landezine-award.com/museumsentree-velbert/"
+    }
+  },
+  {
+    "id": "museum-boeckstiegel-werther",
+    "title": "Museum Peter August Böckstiegel, Freianlagen",
+    "architect": "Planergruppe Oberhausen (Landschaft)",
+    "place": "Werther (Westfalen)",
+    "year": "2018",
+    "type": "Museumsumfeld als Obstwiese mit gemähten Wegen",
+    "tags": [
+      "vorplatz",
+      "gruen",
+      "landschaft",
+      "baeume",
+      "bestand"
+    ],
+    "principle": "Der Museumsneubau steht in einer Obstwiese. Statt eines Platzes führen gemähte Wege und schlichte Betonflächen durch hohe Wiese zum Eingang.",
+    "look": "Auf den Kontrast von hoher Wiese, kurz gemähten Bahnen und dem schmalen hellen Weg zum Gebäude.",
+    "mechanism": "Ein unregelmäßiges Raster aus bestehenden und neuen Obstbäumen; die Wiese wird je nach Nutzung unterschiedlich gemäht, Lichtungen für Veranstaltungen. Wege aus besenstrichgeplättetem Ortbeton und feinem Splitt, flache Ebenen liegen auf dem Hang. Ein 'grünes Klassenzimmer' liegt am Weg.",
+    "strengths": [
+      "Sehr wenig Versiegelung",
+      "Mähkonzept steuert die Nutzung",
+      "Günstig und robust"
+    ],
+    "limits": [
+      "Ländlicher Maßstab, wenig Platzcharakter",
+      "Hohe Wiese ist nicht überall begehbar"
+    ],
+    "tib": "Für den Südrand zum Welfengarten: Wiese mit gemähten Bahnen und einzelnen Bäumen als weicher Übergang vom Gebäude in die Parkwiese.",
+    "assessment": "Übertragbar für den Parkrand, weniger für den Hauptvorplatz.",
+    "sources": [
+      {
+        "label": "Landezine Award · Museum Peter August Böckstiegel",
+        "url": "https://landezine-award.com/museum-peter-august-bockstiegel/"
+      }
+    ],
+    "report": {
+      "label": "Landezine Award",
+      "url": "https://landezine-award.com/museum-peter-august-bockstiegel/"
+    }
+  },
+  {
+    "id": "angela-molitoris-platz-muenchen",
+    "title": "Angela-Molitoris-Platz",
+    "architect": "lohrer.hochrein landschaftsarchitekten mit Großberger Beyhl Partner (Landschaft)",
+    "place": "München",
+    "year": "2024",
+    "type": "Quartiersplatz mit Baumhain aus Zürgelbäumen, Rasen- und Wiesenflächen",
+    "tags": [
+      "vorplatz",
+      "gruen",
+      "landschaft",
+      "baeume",
+      "stufen-sitzen"
+    ],
+    "principle": "Ein Hain aus hochstämmigen Zürgelbäumen (Celtis occidentalis) bestimmt den Platz. Erhöhte Grüninseln mit Rasen und Blühwiese gliedern die Fläche, ihre Kanten sind Sitzbänke.",
+    "look": "Auf die geschwungenen Inseln mit Betonkante und Holzauflage und den freien Raum unter den Kronen.",
+    "mechanism": "Grüninseln mit Rasen zum Liegen und Spielen wechseln mit Blühwiesen; keine Sträucher auf Augenhöhe, damit der Platz übersichtlich bleibt. Die Kanten reichen von einfachen Betonborden bis zu Sitzen mit Holzauflage und Lehne, Licht ist in die Kanten integriert. Fahrradstellplätze in kleinen Gruppen nahe den Eingängen.",
+    "strengths": [
+      "Baumhain mit klimaresistenter Art",
+      "Sitzkanten als einfache Ausstattung",
+      "Übersichtlich durch fehlende Sträucher"
+    ],
+    "limits": [
+      "Noch junge Bäume, Schatten erst in Jahren",
+      "Hoher Pflasteranteil zwischen den Inseln"
+    ],
+    "tib": "Für den Westvorplatz: Baumhain mit erhöhten Rasen- und Wiesenfeldern, deren Kanten Sitzplätze sind; Radstellplätze in kleinen Gruppen am Rand.",
+    "assessment": "Direkt übertragbar als Baumhain-Platz mit Sitzkanten.",
+    "sources": [
+      {
+        "label": "Landezine Award · Munich, Angela-Molitoris-Square",
+        "url": "https://landezine-award.com/munich-angela-molitoris-square/"
+      }
+    ],
+    "report": {
+      "label": "Landezine Award",
+      "url": "https://landezine-award.com/munich-angela-molitoris-square/"
+    }
+  },
+  {
+    "id": "lustgarten-berlin",
+    "title": "Lustgarten",
+    "architect": "Karl Friedrich Schinkel (Altes Museum, Bestand) · Atelier Loidl (Landschaft)",
+    "place": "Berlin",
+    "year": "1999",
+    "type": "Rasenparterre als Vorplatz des Alten Museums",
+    "tags": [
+      "vorplatz",
+      "gruen",
+      "landschaft",
+      "baeume",
+      "bestand",
+      "wasser"
+    ],
+    "principle": "Der 2,4 ha große Platz vor dem Alten Museum ist eine große Rasenfläche nach Schinkels Plan von 1829, neu interpretiert. Die Rasenfelder sind zum Liegen und Sitzen freigegeben.",
+    "look": "Auf die leicht erhöhten Rasenfelder mit Steinkante, die Kreuzwege und die Baumreihen am Rand.",
+    "mechanism": "Vier große Rasenfelder, leicht angehoben und mit Natursteinkante gefasst, getrennt durch Pflasterwege; in der Mitte eine Fontäne. Seitlich Baumreihen mit Bänken auf wassergebundener Decke, zum Kupfergraben eine Baumreihe am Ufer. Der Eingang des Museums liegt frei am Kopf der Achse.",
+    "strengths": [
+      "Großzügige, offene Rasenfläche als Vorplatz eines Kulturbaus",
+      "Sehr robuste, einfache Elemente",
+      "Schattige Baumreihen als Rand"
+    ],
+    "limits": [
+      "Sehr großer, repräsentativer Maßstab",
+      "Rasen stark beansprucht"
+    ],
+    "tib": "Für den Westvorplatz: ein klares Rasenfeld mit Steinkante vor dem Eingang, gerahmt von Baumreihen mit Bänken auf wassergebundener Decke.",
+    "assessment": "Prinzip übertragbar, Maßstab für die TIB deutlich kleiner zu fassen.",
+    "sources": [
+      {
+        "label": "Atelier Loidl · Lustgarten, Berlin",
+        "url": "https://atelier-loidl.de/de/lustgarten,-berlin"
+      },
+      {
+        "label": "berlin.de · Lustgarten",
+        "url": "https://www.berlin.de/en/attractions-and-sights/3560037-3104052-lustgarten.en.html"
+      }
+    ],
+    "report": {
+      "label": "Atelier Loidl",
+      "url": "https://atelier-loidl.de/de/lustgarten,-berlin"
+    }
+  },
+  {
+    "id": "the-green-novartis-basel",
+    "title": "The Green, Novartis Campus",
+    "architect": "Frank O. Gehry (Gebäude) · Vogt Landschaftsarchitekten (Landschaft)",
+    "place": "Basel",
+    "year": "2010",
+    "type": "Campusplatz als Rasenfläche mit Kalksteinrändern und Eschen",
+    "tags": [
+      "vorplatz",
+      "gruen",
+      "landschaft",
+      "campus",
+      "baeume"
+    ],
+    "principle": "Der 6.000 m² große Platz vor dem Gehry-Bau ist halb Platz, halb Park: eine kräuterreiche Rasenmitte, deren helle Kalksteinränder wie Karstgestein in den Rasen greifen. Er ist Eingang für die umliegenden Gebäude und Treffpunkt.",
+    "look": "Auf den Übergang von großen Kalksteinplatten über aufgebrochene Steinkruste zum Rasen.",
+    "mechanism": "Großformatige Kalksteinplatten am Rand, dazwischen eine erodiert wirkende Steinkruste mit Fugen, teils bewachsen; in der Mitte Kräuterrasen. Hohe Eschen stehen am Rand. Wegen eines Auditoriums darunter nur 70 cm Bodenaufbau, deshalb flach und ohne Großbäume in der Mitte.",
+    "strengths": [
+      "Rasen auf geringem Aufbau über Unterbauung",
+      "Fließende Grenze zwischen Belag und Grün",
+      "Klare Sichtbeziehungen"
+    ],
+    "limits": [
+      "Natursteinarbeit aufwendig",
+      "Kaum Schatten in der Mitte"
+    ],
+    "tib": "Für den Westvorplatz, falls dort unterbaut wird: Rasenmitte mit breitem Steinrand, Bäume nur am Rand.",
+    "assessment": "Gut übertragbar als Grünplatz auf flachem Aufbau, das Felsmotiv eher nicht.",
+    "sources": [
+      {
+        "label": "Vogt Landschaftsarchitekten · The Green, Novartis Campus",
+        "url": "https://vogt-la.com/the_green_novartis_campus"
+      }
+    ],
+    "report": {
+      "label": "Vogt Landschaftsarchitekten",
+      "url": "https://vogt-la.com/the_green_novartis_campus"
+    }
+  },
+  {
+    "id": "fuerstenberghaus-muenster",
+    "title": "Platz vor dem Fürstenberghaus",
+    "architect": "Planergruppe Oberhausen (Landschaft)",
+    "place": "Münster",
+    "year": "2017",
+    "type": "Universitätsvorplatz als Plateau mit zwei Bestandsbäumen und Sitzstufen",
+    "tags": [
+      "vorplatz",
+      "gruen",
+      "landschaft",
+      "campus",
+      "baeume",
+      "bestand",
+      "stufen-sitzen"
+    ],
+    "principle": "Der 1.600 m² große Platz der Universität vor dem Fürstenberghaus wird ein leicht erhöhtes Plateau. Zwei große Bestandsbäume stehen in gefassten Pflanzfeldern, umgeben von Sitzstufen und Holzpodesten.",
+    "look": "Auf die Stufen um die Baumfelder, die Holzpodeste unter den Kronen und die Staudenpflanzung.",
+    "mechanism": "Ein über 20 m hoher Urweltmammutbaum (Naturdenkmal) und eine Roteiche bleiben erhalten. Um ihre Pflanzfelder laufen Stufen, die Sitzplätze bieten und wildes Fahrradparken verhindern; Holzpodeste schützen die Wurzeln. Belag aus sandsteinfarbenem Betonstein passend zu Altbau und Museum, Barrierefreiheit zu allen Eingängen bleibt erhalten.",
+    "strengths": [
+      "Bestandsbäume werden Mittelpunkt",
+      "Stufen als Sitz und Fahrradsperre",
+      "Kleiner, gut nutzbarer Universitätsvorplatz"
+    ],
+    "limits": [
+      "Überwiegend gepflastert, Grün nur in den Baumfeldern",
+      "Fahrradparken muss anderswo gelöst werden"
+    ],
+    "tib": "Für den Westvorplatz oder den Lichthof: vorhandene Großbäume in erhöhte Pflanzfelder mit Sitzstufen und Holzpodesten fassen.",
+    "assessment": "Direkt übertragbar für einen Vorplatz um bestehende Großbäume.",
+    "sources": [
+      {
+        "label": "Landezine Award · A Plateau for Fürstenberg",
+        "url": "https://landezine-award.com/?p=14913"
+      }
+    ],
+    "report": {
+      "label": "Landezine Award",
+      "url": "https://landezine-award.com/?p=14913"
+    }
+  },
+  {
+    "id": "joan-maragall-bibliothek",
+    "title": "Biblioteca Sant Gervasi – Joan Maragall",
+    "architect": "BCQ Arquitectura (Baena, Casamor, Taltavull, Peribáñez)",
+    "place": "Barcelona",
+    "year": "2014",
+    "type": "Stadtteilbibliothek unter einem historischen Villengarten",
+    "tags": [
+      "vorplatz",
+      "gruen",
+      "parkrand",
+      "baeume",
+      "bibliothek",
+      "architektur",
+      "bestand"
+    ],
+    "principle": "Die Bibliothek liegt unter dem Garten der Villa Florida; der Garten bleibt öffentlich und wird über Rampe und Treppe von der Straße erreicht. Der Eingang liegt zwischen den Gartenterrassen.",
+    "look": "Auf die begrünten Dachflächen mit den umgepflanzten Bäumen und den Weg von der Straßenecke hinauf in den Garten achten.",
+    "mechanism": "Der Baukörper ist in den Hang unter den Garten geschoben; Lichthöfe schneiden in die Gartenfläche. Die Bestandsbäume wurden auf das Dach umgepflanzt. Ein schmaler befestigter Streifen an der Straße führt über Rampe und Treppe auf die Gartenebene und zum Eingang.",
+    "strengths": [
+      "Garten und Bibliothek teilen dieselbe Fläche",
+      "Eingang über einen kurzen Weg im Grün statt über einen Platz",
+      "Lichthöfe bringen Licht ohne Grünfläche zu verlieren"
+    ],
+    "limits": [
+      "Unterirdisches Bauen teuer und nur bei Neubau sinnvoll",
+      "Dachbegrünung mit Bäumen braucht große Substratstärken"
+    ],
+    "tib": "Für den Südrand: Gartenebene und Lesesäle verzahnen, Lichthöfe in der Rasenfläche statt befestigter Vorzone. Der Weg von der Straße in den Garten als Vorbild für einen kurzen Zugang vom Welfengarten.",
+    "assessment": "Gut übertragbar als Prinzip für den Parkrand, nicht als Bautyp.",
+    "sources": [
+      {
+        "label": "ArchDaily · Joan Maragall Library",
+        "url": "https://www.archdaily.com/526998/joan-maragall-library-bcq-arquitectura"
+      },
+      {
+        "label": "Divisare · Library Joan Maragall",
+        "url": "https://divisare.com/projects/268926-bcq-arquitectura-barcelona-ariel-ramirez-library-joan-maragall"
+      }
+    ],
+    "report": {
+      "label": "ArchDaily",
+      "url": "https://www.archdaily.com/526998/joan-maragall-library-bcq-arquitectura"
+    }
+  },
+  {
+    "id": "fondation-beyeler",
+    "title": "Fondation Beyeler",
+    "architect": "Renzo Piano Building Workshop",
+    "place": "Riehen (Basel)",
+    "year": "1997",
+    "type": "Museum am Rand eines historischen Villenparks",
+    "tags": [
+      "vorplatz",
+      "gruen",
+      "parkrand",
+      "baeume",
+      "architektur",
+      "landschaft",
+      "wasser",
+      "stufen-sitzen"
+    ],
+    "principle": "Das Museum steht als langer Riegel am Rand des Berower Parks; der Zugang führt als schmaler Weg zwischen Mauer, Pflanzung und Wasserbecken zum Eingang. Zur Parkseite enden die Säle direkt an Rasen und Seerosenbecken.",
+    "look": "Auf den schmalen Eingangsweg unter dem Vordach und die Rasenterrassen mit Steinkanten zum Park achten.",
+    "mechanism": "Lange Porphyrmauern führen von der Straße ins Grün, ohne Vorplatz. Rasenstufen mit Steinkanten fangen den Höhenunterschied ab, Becken liegen direkt vor den Glasfassaden. Alte Parkbäume bleiben stehen, das Café liegt auf dem Rasen bei der Villa.",
+    "strengths": [
+      "Eingang als ruhiger Weg statt Platz",
+      "Rasenterrassen als einfache Sitz- und Höhenstufen",
+      "Klare Kante zwischen Haus und Park"
+    ],
+    "limits": [
+      "Kaum Aufenthaltsfläche vor dem Eingang für große Gruppen",
+      "Wasserbecken pflegeintensiv"
+    ],
+    "tib": "Für den Südrand: Rasenterrassen mit Steinkanten als Übergang vom Lesesaal in den Welfengarten. Für den Westen: Zugang als gefasster Weg mit Mauer und Pflanzung statt großer Pflasterfläche.",
+    "assessment": "Direkt übertragbar für die Parkkante im Süden.",
+    "sources": [
+      {
+        "label": "RPBW · Beyeler Foundation Museum",
+        "url": "https://www.rpbw.com/project/beyeler-foundation-museum"
+      },
+      {
+        "label": "ArchEyes · Fondation Beyeler",
+        "url": "https://archeyes.com/fondation-beyeler-renzo-pianos-machine-for-zenithal-light/"
+      }
+    ],
+    "report": {
+      "label": "RPBW",
+      "url": "https://www.rpbw.com/project/beyeler-foundation-museum"
+    }
+  },
+  {
+    "id": "literaturmuseum-marbach",
+    "title": "Literaturmuseum der Moderne",
+    "architect": "David Chipperfield Architects",
+    "place": "Marbach am Neckar",
+    "year": "2006",
+    "type": "Museum an der Hangkante eines historischen Parks",
+    "tags": [
+      "vorplatz",
+      "gruen",
+      "parkrand",
+      "baeume",
+      "architektur",
+      "bestand"
+    ],
+    "principle": "Der Neubau sitzt neben dem Schiller-Nationalmuseum an der Kante der Schillerhöhe; Steinterrassen vermitteln zwischen Park, Hang und Pfeilerhalle. Der Zugang führt aus dem Park über die Terrassen ins Foyer.",
+    "look": "Auf die steinernen Terrassenebenen vor der Pfeilerhalle und die alten Bäume am Rand achten.",
+    "mechanism": "Der Bau ist in den Hang geschnitten; oben bleibt nur ein Pavillon mit Pfeilern sichtbar. Davor liegen Terrassen aus Muschelkalk auf verschiedenen Höhen. Der Park mit Baumbestand reicht bis an die Terrassenränder.",
+    "strengths": [
+      "Ruhige Terrasse als Vorzone im Park",
+      "Neubau ordnet sich dem Bestand unter",
+      "Wenig Material, klare Kanten"
+    ],
+    "limits": [
+      "Große Steinflächen wirken hart und wenig schattig",
+      "Hanglage nicht direkt auf die flache TIB übertragbar"
+    ],
+    "tib": "Für den Südrand: eine flache Steinterrasse als einzige befestigte Fläche zwischen Bau und Welfengarten, Bäume bis an die Kante.",
+    "assessment": "Übertragbar als Prinzip der kleinen Terrasse am Park.",
+    "sources": [
+      {
+        "label": "Dezeen · Museum of Modern Literature",
+        "url": "https://www.dezeen.com/2007/10/10/museum-of-modern-literature-marbach-am-neckar-by-david-chipperfield-architects/"
+      },
+      {
+        "label": "BauNetz Wissen · Literaturmuseum der Moderne",
+        "url": "https://www.baunetzwissen.de/beton/objekte/kultur/literaturmuseum-der-moderne-in-marbach-69794"
+      }
+    ],
+    "report": {
+      "label": "BauNetz Wissen",
+      "url": "https://www.baunetzwissen.de/beton/objekte/kultur/literaturmuseum-der-moderne-in-marbach-69794"
+    }
+  },
+  {
+    "id": "biblioteca-cordoba",
+    "title": "Biblioteca Pública de Córdoba",
+    "architect": "Paredes Pedrosa Arquitectos",
+    "place": "Córdoba",
+    "year": "2020",
+    "type": "Stadtbibliothek am Rand eines historischen Stadtparks",
+    "tags": [
+      "vorplatz",
+      "gruen",
+      "parkrand",
+      "baeume",
+      "bibliothek",
+      "architektur"
+    ],
+    "principle": "Die Bibliothek steht am Rand der Jardines de la Agricultura und folgt mit ihrem Grundriss dem Wegesystem des Parks. Die Bestandsbäume bleiben, Rasen und Bäume reichen bis an die Lesesaalfassade.",
+    "look": "Auf die Bäume vor der Fassade und die Lesebalkone auf Höhe der Baumkronen achten.",
+    "mechanism": "Trapezförmiger Baukörper zwischen Allee und Park, Bestandsbäume erhalten. Zur Straße eine Aluminium-Gitterfassade, zum Park verglaste Lesesäle mit tiefem Balkon. Keine große Platzfläche, der Park bildet die Vorzone.",
+    "strengths": [
+      "Bäume statt Platz als Vorzone",
+      "Lesesaal blickt in die Baumkronen",
+      "Bau ordnet sich dem Parkgrundriss unter"
+    ],
+    "limits": [
+      "Eingang zur Straße weniger mit dem Park verbunden",
+      "Wenig befestigte Aufenthaltsfläche"
+    ],
+    "tib": "Für den Südrand: Lesesäle zur Baumreihe des Welfengartens öffnen, Balkon oder Galerie auf Kronenhöhe. Für den Westen: Allee und Bestandsbäume als Vorzone statt Platz.",
+    "assessment": "Direkt übertragbar für die Südfassade am Park.",
+    "sources": [
+      {
+        "label": "Paredes Pedrosa · Biblioteca Pública de Córdoba",
+        "url": "https://www.paredespedrosa.com/en/works/98-biblioteca-publica-de-cordoba/"
+      },
+      {
+        "label": "Divisare · Córdoba Public Library",
+        "url": "https://divisare.com/projects/462811-paredes-pedrosa-arquitectos-roland-halbe-cordoba-public-library"
+      }
+    ],
+    "report": {
+      "label": "Divisare",
+      "url": "https://divisare.com/projects/462811-paredes-pedrosa-arquitectos-roland-halbe-cordoba-public-library"
+    }
+  },
+  {
+    "id": "museum-voorlinden",
+    "title": "Museum Voorlinden",
+    "architect": "Kraaijvanger (Architektur) · Niek Roozen, Piet Oudolf (Landschaft)",
+    "place": "Wassenaar",
+    "year": "2016",
+    "type": "Museum in einem historischen Landgutpark",
+    "tags": [
+      "vorplatz",
+      "gruen",
+      "parkrand",
+      "baeume",
+      "architektur",
+      "landschaft"
+    ],
+    "principle": "Das eingeschossige Museum steht direkt auf der Parkwiese des Landguts; ein weites Dach bildet den Vorbereich. Der Weg zum Eingang führt durch Park und Wiese, ohne befestigten Vorplatz.",
+    "look": "Auf den Rasen bis an die Glasfassade und den überdachten Streifen als einzige Vorzone achten.",
+    "mechanism": "Sechs parallele Wände tragen ein flaches Dach mit weitem Überstand. Unter dem Dachrand liegt ein schmaler befestigter Streifen, davor sofort Rasen und Bestandsbäume. Gartengestaltung von Piet Oudolf an anderer Stelle im Park.",
+    "strengths": [
+      "Dachüberstand ersetzt den Vorplatz",
+      "Park bleibt ungeteilt",
+      "Einfache, ruhige Kante"
+    ],
+    "limits": [
+      "Ländliche Lage mit viel Raum, wenig Stadtbezug",
+      "Kein Ort für größere Gruppen vor dem Eingang"
+    ],
+    "tib": "Für den Südrand: überdachter Streifen entlang der Fassade als Übergang zum Welfengarten, Rasen direkt dahinter.",
+    "assessment": "Übertragbar für eine ruhige Parkkante, weniger für den Vorplatz im Westen.",
+    "sources": [
+      {
+        "label": "Kraaijvanger · Museum Voorlinden",
+        "url": "https://www.kraaijvanger.nl/en/projects/museum-voorlinden/"
+      },
+      {
+        "label": "Voorlinden · Architektur",
+        "url": "https://www.voorlinden.nl/architecture/?lang=en"
+      }
+    ],
+    "report": {
+      "label": "BauNetz Wissen",
+      "url": "https://www.baunetzwissen.de/drucken/museum-voorlinden-in-wassenaar-4898315"
+    }
+  },
+  {
+    "id": "stadtbibliothek-dornbirn",
+    "title": "Stadtbibliothek Dornbirn",
+    "architect": "Dietrich | Untertrifaller mit Christian Schmoelz (Architektur) · Balliana Schubert (Landschaft)",
+    "place": "Dornbirn",
+    "year": "2019",
+    "type": "Bibliothekspavillon in einer innerstädtischen Parkwiese",
+    "tags": [
+      "vorplatz",
+      "gruen",
+      "parkrand",
+      "baeume",
+      "bibliothek",
+      "architektur",
+      "landschaft"
+    ],
+    "principle": "Die Bibliothek steht als ovaler Pavillon frei im Park; die Gebäudeachse folgt dem früheren Trampelpfad über die Wiese. Die Eingänge liegen an Wegen durch den Rasen, ohne Vorplatz.",
+    "look": "Auf die Wege durch die Wiese bis zu den Eingängen und die Einzelbäume um den Pavillon achten.",
+    "mechanism": "Ovaler Baukörper mit Keramikfassade, zwei gleichwertige Eingänge an den Parkwegen. Der alte Trampelpfad wird zur inneren Achse durch das Atrium. Rasen und neu gepflanzte Bäume reichen bis an die Fassade, befestigt sind nur die Wege.",
+    "strengths": [
+      "Durchwegung des Parks läuft durch das Haus",
+      "Zwei Eingänge von zwei Seiten",
+      "Park bleibt Wiese"
+    ],
+    "limits": [
+      "Kleiner Bau, wenig Fläche für Aufenthalt vor dem Haus",
+      "Ovale Form schwer auf Bestand übertragbar"
+    ],
+    "tib": "Für den Westen und Süden: vorhandene Trampelpfade zwischen Campus und Welfengarten als Achse durch den Lichthof nutzen, zweiter Eingang von der Parkseite.",
+    "assessment": "Direkt übertragbar als Wegeprinzip für zwei Eingänge.",
+    "sources": [
+      {
+        "label": "Dietrich | Untertrifaller · Stadtbibliothek Dornbirn",
+        "url": "https://dtflr.com/projekte/stadtbibliothek-dornbirn/"
+      },
+      {
+        "label": "World-Architects · Bibliothek Dornbirn",
+        "url": "https://world-architects.com/en/projects/view/dornbirn-public-library"
+      }
+    ],
+    "report": {
+      "label": "World-Architects",
+      "url": "https://world-architects.com/en/projects/view/dornbirn-public-library"
+    }
+  },
+  {
+    "id": "ordrupgaard-erweiterung",
+    "title": "Ordrupgaard Erweiterung und Landschaft",
+    "architect": "Snøhetta (Architektur und Landschaft)",
+    "place": "Charlottenlund (Kopenhagen)",
+    "year": "2021",
+    "type": "Unterirdische Museumserweiterung in einem historischen Park",
+    "tags": [
+      "vorplatz",
+      "gruen",
+      "parkrand",
+      "baeume",
+      "architektur",
+      "landschaft",
+      "stufen-sitzen",
+      "bestand"
+    ],
+    "principle": "Die Erweiterung liegt unter dem Park; oben bleiben nur flache Lichtkörper, Wege und Sitzstufen. Der Zugang zum Museum führt durch den Park zum Bestandsbau.",
+    "look": "Auf die niedrigen Lichtkörper im Rasen und die Sitzstufen am Weg achten.",
+    "mechanism": "Ausstellungsräume unter dem Gelände, Oberlichter als Metallkörper mit Sitzkante im Park. Ein neuer Weg mit Stufen führt am Rasenhang entlang zum Altbau. Bestandsbäume und Wiesen bleiben, befestigt ist nur der Weg.",
+    "strengths": [
+      "Park bleibt fast unverändert",
+      "Oberlichter dienen zugleich als Sitzmöbel",
+      "Weg statt Platz"
+    ],
+    "limits": [
+      "Unterirdisches Bauen aufwendig",
+      "Wenig Tageslichtbezug für Nutzer im Untergeschoss"
+    ],
+    "tib": "Für den Lichthof oder den Südrand: Oberlichter als Sitzkörper im Rasen, wenn Flächen unter Gelände ausgebaut werden.",
+    "assessment": "Übertragbar als Detail für Oberlichter und Wegestufen im Park.",
+    "sources": [
+      {
+        "label": "ArchDaily · Ordrupgaard Museum Extension & Landscape",
+        "url": "https://www.archdaily.com/966734/ordrupgaard-museum-extension-and-landscape-snohetta"
+      }
+    ],
+    "report": {
+      "label": "ArchDaily",
+      "url": "https://www.archdaily.com/966734/ordrupgaard-museum-extension-and-landscape-snohetta"
+    }
+  },
+  {
+    "id": "mediathek-pelissanne",
+    "title": "Médiathèque, Park und öffentliche Passage Pélissanne",
+    "architect": "Dominique Coulon & associés (Architektur) · Bruno Kubler (Landschaft)",
+    "place": "Pélissanne",
+    "year": "2020",
+    "type": "Mediathek in einem Altbau mit Garten und Platanen",
+    "tags": [
+      "vorplatz",
+      "gruen",
+      "parkrand",
+      "baeume",
+      "bibliothek",
+      "architektur",
+      "landschaft",
+      "bestand"
+    ],
+    "principle": "Das Maureau-Haus von 1642 wurde zur Mediathek umgebaut und ergänzt; der Garten mit alten Platanen ist öffentlich und wird zum Zugang. Eine Passage verbindet Garten und Altstadt.",
+    "look": "Auf die Platanen vor dem Eingang und die Kieswege im Garten achten.",
+    "mechanism": "Neubau und Altbau umfassen einen Garten mit großen Platanen. Kieswege, Beete und Baumscheiben ersetzen einen Vorplatz. Die Lesebereiche öffnen mit großen Glasflächen zu den Bäumen.",
+    "strengths": [
+      "Alte Bäume als Eingangsraum",
+      "Garten öffentlich und durchquerbar",
+      "Bestand und Neubau teilen einen Freiraum"
+    ],
+    "limits": [
+      "Kleiner Maßstab",
+      "Kiesflächen nicht überall barrierefrei"
+    ],
+    "tib": "Für den Westen: wenige große Bäume und Kieswege als Vorplatz anstelle der Stellplätze. Die Passage als Vorbild für eine Verbindung vom Campus zum Welfengarten.",
+    "assessment": "Gut übertragbar für einen grünen Vorplatz mit Bestandsbäumen.",
+    "sources": [
+      {
+        "label": "ArchDaily · Pélissanne Media Library",
+        "url": "https://www.archdaily.com/950343/pelissanne-media-library-park-and-public-passage-dominique-coulon-and-associes"
+      }
+    ],
+    "report": {
+      "label": "ArchDaily",
+      "url": "https://www.archdaily.com/950343/pelissanne-media-library-park-and-public-passage-dominique-coulon-and-associes"
     }
   }
 ]

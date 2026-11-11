@@ -27,6 +27,15 @@
     "credit": "schmidt hammer lassen architects (ArchDaily)"
   },
   {
+    "project": "dokk1-aarhus",
+    "file": "img/dokk1-aarhus-draufsicht.webp",
+    "kind": "aerial",
+    "caption": "Draufsicht: Dokk1 am Hafen von Aarhus (Norden oben).",
+    "source": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9",
+    "original": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=10.210402,56.151918,10.217943,56.154918&bboxSR=4326&size=1400,1000&format=jpg&f=image",
+    "credit": "Esri, Maxar, Earthstar Geographics"
+  },
+  {
     "project": "oodi-helsinki",
     "file": "img/oodi-helsinki-kansalaistori.webp",
     "kind": "photo",
@@ -52,6 +61,15 @@
     "source": "https://www.archdaily.com/907675/oodi-helsinki-central-library-ala-architects",
     "original": "https://images.adsttc.com/media/images/5c33/9831/08a5/e5ec/d500/00aa/large_jpg/TU-181130-oodi-helsinki-009.jpg?1546885132",
     "credit": "Tuomas Uusheimo / ALA Architects (ArchDaily)"
+  },
+  {
+    "project": "oodi-helsinki",
+    "file": "img/oodi-helsinki-lageplan.webp",
+    "kind": "plan",
+    "caption": "Lageplan: Zentralbibliothek Oodi mit Umgebung.",
+    "source": "https://www.archdaily.com/907675/oodi-helsinki-central-library-ala-architects",
+    "original": "https://images.adsttc.com/media/images/5c1b/f3c0/08a5/e5c8/b900/079c/medium_jpg/Oodi_siteplan_no_text_1-2000.jpg?1545335724",
+    "credit": "ALA Architects (Projektquelle)"
   },
   {
     "project": "deichman-bjorvika",
@@ -144,6 +162,15 @@
     "credit": "Ortner & Ortner Baukunst (Projektseite)"
   },
   {
+    "project": "slub-dresden",
+    "file": "img/slub-dresden-draufsicht.webp",
+    "kind": "aerial",
+    "caption": "Draufsicht: SLUB Dresden mit Rasenhof und Oberlicht (Norden oben).",
+    "source": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9",
+    "original": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=13.734985,51.027492,13.738213,51.028942&bboxSR=4326&size=1400,1000&format=jpg&f=image",
+    "credit": "Esri, Maxar, Earthstar Geographics"
+  },
+  {
     "project": "de-krook-gent",
     "file": "img/de-krook-gent-strasse.webp",
     "kind": "photo",
@@ -171,6 +198,15 @@
     "credit": "Tim Van de Velde / RCR Arquitectes + Coussée & Goris (Divisare)"
   },
   {
+    "project": "de-krook-gent",
+    "file": "img/de-krook-gent-draufsicht.webp",
+    "kind": "aerial",
+    "caption": "Draufsicht: De Krook in Gent am Flussbogen (Norden oben).",
+    "source": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9",
+    "original": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=3.727222,51.048360,3.730452,51.049810&bboxSR=4326&size=1200,857&format=jpg&f=image",
+    "credit": "Esri, Maxar, Earthstar Geographics"
+  },
+  {
     "project": "grimm-zentrum-berlin",
     "file": "img/grimm-zentrum-berlin-ecke.webp",
     "kind": "photo",
@@ -189,6 +225,15 @@
     "credit": "Stefan Müller / Max Dudler (ArchDaily)"
   },
   {
+    "project": "grimm-zentrum-berlin",
+    "file": "img/grimm-zentrum-berlin-draufsicht.webp",
+    "kind": "aerial",
+    "caption": "Draufsicht: Jacob-und-Wilhelm-Grimm-Zentrum mit Vorplatz am Bahnviadukt (Norden oben).",
+    "source": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9",
+    "original": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=13.389361,52.519825,13.392697,52.521276&bboxSR=4326&size=1400,1000&format=jpg&f=image",
+    "credit": "Esri, Maxar, Earthstar Geographics"
+  },
+  {
     "project": "apila-seinajoki",
     "file": "img/apila-seinajoki-luftbild.webp",
     "kind": "photo",
@@ -205,6 +250,15 @@
     "source": "https://www.archdaily.com/360049/city-library-in-seinajoki-jkmm-architects",
     "original": "https://images.adsttc.com/media/images/516c/71d8/b3fc/4bdb/4e00/00ce/large_jpg/Tuomas_Uusheimo_TU-120920-apila-kirjasto-043.jpg?1413934366",
     "credit": "Mika Huisman / Hannu Vallas / JKMM (ArchDaily)"
+  },
+  {
+    "project": "apila-seinajoki",
+    "file": "img/apila-seinajoki-lageplan.webp",
+    "kind": "plan",
+    "caption": "Lageplan: Stadtbibliothek Apila mit Baukörpern der Umgebung.",
+    "source": "https://www.archdaily.com/360049/city-library-in-seinajoki-jkmm-architects",
+    "original": "https://images.adsttc.com/media/images/516c/7625/b3fc/4bdb/4e00/00e1/medium_jpg/SITEPLAN_black.jpg?1492473555",
+    "credit": "JKMM Architects (Projektquelle)"
   },
   {
     "project": "fu-berlin-fabeckstrasse",
@@ -234,6 +288,15 @@
     "credit": "Foto: Hanns Joosten / häfner jiménez betcke jarosch (World-Architects)"
   },
   {
+    "project": "fu-berlin-fabeckstrasse",
+    "file": "img/fu-berlin-fabeckstrasse-draufsicht.webp",
+    "kind": "aerial",
+    "caption": "Draufsicht: Institutsgebäude FU Berlin, Fabeckstraße, mit Freianlagen (Norden oben).",
+    "source": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9",
+    "original": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=13.292378,52.452834,13.295710,52.454284&bboxSR=4326&size=1400,1000&format=jpg&f=image",
+    "credit": "Esri, Maxar, Earthstar Geographics"
+  },
+  {
     "project": "heidenheim-stadtbibliothek",
     "file": "img/heidenheim-stadtbibliothek-platz.webp",
     "kind": "photo",
@@ -259,6 +322,15 @@
     "source": "https://world-architects.com/de/projects/view/stadtische-bibliothek",
     "original": "https://world-architects.com/images/Projects/82/92/89/6ed2eccf70774d41a7d9aaaafec7677f/6ed2eccf70774d41a7d9aaaafec7677f.6e7b65d0.jpg",
     "credit": "Uniola AG (World-Architects)"
+  },
+  {
+    "project": "heidenheim-stadtbibliothek",
+    "file": "img/heidenheim-stadtbibliothek-draufsicht.webp",
+    "kind": "aerial",
+    "caption": "Draufsicht: Stadtbibliothek Heidenheim mit Vorplatz (Norden oben).",
+    "source": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9",
+    "original": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=10.152757,48.676448,10.155832,48.677898&bboxSR=4326&size=1000,714&format=jpg&f=image",
+    "credit": "Esri, Maxar, Earthstar Geographics"
   },
   {
     "project": "fh-bielefeld-campus",
@@ -315,6 +387,15 @@
     "credit": "Foto: Michael Dworschak / Karin Standler Landschaftsarchitektur (World-Architects)"
   },
   {
+    "project": "linz-nordico-vorplatz",
+    "file": "img/linz-nordico-vorplatz-draufsicht.webp",
+    "kind": "aerial",
+    "caption": "Draufsicht: Vorplatz Nordico Stadtmuseum, Linz (Norden oben).",
+    "source": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9",
+    "original": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=14.289936,48.303402,14.292988,48.304852&bboxSR=4326&size=1400,1000&format=jpg&f=image",
+    "credit": "Esri, Maxar, Earthstar Geographics"
+  },
+  {
     "project": "fhnw-muttenz-campuspark",
     "file": "img/fhnw-muttenz-campuspark-vorplatz.webp",
     "kind": "photo",
@@ -340,6 +421,15 @@
     "source": "https://landezine-award.com/?p=15701",
     "original": "https://landezine-award.com/wp-content/uploads/2019/04/FHNW_SVL_10.jpg",
     "credit": "Studio Vulkan Landschaftsarchitektur (Landezine Award)"
+  },
+  {
+    "project": "fhnw-muttenz-campuspark",
+    "file": "img/fhnw-muttenz-campuspark-lageplan.webp",
+    "kind": "plan",
+    "caption": "Lageplan: Campuspark FHNW Muttenz mit Gebäuden und Freiraum.",
+    "source": "https://landezine-award.com/?p=15701",
+    "original": "https://landezine-award.com/wp-content/uploads/2019/04/XX-FHNW_SVL_Plan.jpg",
+    "credit": "Studio Vulkan Landschaftsarchitektur (Projektquelle)"
   },
   {
     "project": "reutlingen-texoversum",
@@ -396,6 +486,15 @@
     "credit": "Foto: HG Esch / Koeber Landschaftsarchitektur (World-Architects)"
   },
   {
+    "project": "heilbronn-bildungscampus",
+    "file": "img/heilbronn-bildungscampus-draufsicht.webp",
+    "kind": "aerial",
+    "caption": "Draufsicht: Bildungscampus Heilbronn mit zentralem Platz (Norden oben).",
+    "source": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9",
+    "original": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=9.214011,49.147896,9.217114,49.149346&bboxSR=4326&size=1000,714&format=jpg&f=image",
+    "credit": "Esri, Maxar, Earthstar Geographics"
+  },
+  {
     "project": "htw-berlin-oberschoeneweide",
     "file": "img/htw-berlin-oberschoeneweide-rasenskulptur.webp",
     "kind": "photo",
@@ -433,20 +532,20 @@
   },
   {
     "project": "dioezesanbibliothek-muenster",
-    "file": "img/dioezesanbibliothek-muenster-plan.webp",
-    "kind": "plan",
-    "caption": "Grundriss: Neubau, Seminar und Verwaltungsbauten umschließen den Hof.",
-    "source": "https://www.maxdudler.de/en/projects/0208_mdb_dioezesanbibliothek/",
-    "original": "https://www.maxdudler.de/media/bibliothek-muenster-dioezese-max-dudler-7.png",
-    "credit": "Max Dudler (Projektquelle)"
-  },
-  {
-    "project": "dioezesanbibliothek-muenster",
     "file": "img/dioezesanbibliothek-muenster-gasse.webp",
     "kind": "photo",
     "caption": "Neubau neben dem Altbau des Seminars an der Straße.",
     "source": "https://www.maxdudler.de/en/projects/0208_mdb_dioezesanbibliothek/",
     "original": "https://www.maxdudler.de/media/bibliothek-muenster-dioezese-max-dudler-2.jpg",
+    "credit": "Max Dudler (Projektquelle)"
+  },
+  {
+    "project": "dioezesanbibliothek-muenster",
+    "file": "img/dioezesanbibliothek-muenster-plan.webp",
+    "kind": "plan",
+    "caption": "Grundriss: Neubau, Seminar und Verwaltungsbauten umschließen den Hof.",
+    "source": "https://www.maxdudler.de/en/projects/0208_mdb_dioezesanbibliothek/",
+    "original": "https://www.maxdudler.de/media/bibliothek-muenster-dioezese-max-dudler-7.png",
     "credit": "Max Dudler (Projektquelle)"
   },
   {
@@ -487,21 +586,21 @@
   },
   {
     "project": "longwall-library-oxford",
-    "file": "img/longwall-library-lageplan.webp",
-    "kind": "plan",
-    "caption": "Lageplan: Bibliothek und Erweiterung am Longwall Quad.",
-    "source": "https://www.archdaily.com/882330/longwall-library-magdalen-college-wright-and-wright-architects",
-    "original": "https://images.adsttc.com/media/images/59f0/757e/b22e/38e2/ab00/00a6/large_jpg/02_Magdalen_College_Library_-_Site_Plan.jpg",
-    "credit": "Wright & Wright (ArchDaily)"
-  },
-  {
-    "project": "longwall-library-oxford",
     "file": "img/longwall-library-ausblick.webp",
     "kind": "photo",
     "caption": "Blick aus dem Untergeschoss durch einen Lichtschacht auf den Hof.",
     "source": "https://www.archdaily.com/882330/longwall-library-magdalen-college-wright-and-wright-architects",
     "original": "https://images.adsttc.com/media/images/59f0/75c1/b22e/38e2/ab00/00a8/large_jpg/05_Magdalen_College_Library_%C2%A9Dennis_Gilbert.jpg",
     "credit": "Dennis Gilbert (ArchDaily)"
+  },
+  {
+    "project": "longwall-library-oxford",
+    "file": "img/longwall-library-lageplan.webp",
+    "kind": "plan",
+    "caption": "Lageplan: Bibliothek und Erweiterung am Longwall Quad.",
+    "source": "https://www.archdaily.com/882330/longwall-library-magdalen-college-wright-and-wright-architects",
+    "original": "https://images.adsttc.com/media/images/59f0/757e/b22e/38e2/ab00/00a6/large_jpg/02_Magdalen_College_Library_-_Site_Plan.jpg",
+    "credit": "Wright & Wright (ArchDaily)"
   },
   {
     "project": "gradel-quadrangles-oxford",
@@ -547,6 +646,15 @@
     "source": "https://www.e-architect.com/oxford/st-johns-college",
     "original": "https://www.e-architect.com/wp-content/uploads/2011/01/st-johns-college-oxford-building-pd1.jpg",
     "credit": "Peter Durant (e-architect)"
+  },
+  {
+    "project": "kendrew-quadrangle-oxford",
+    "file": "img/kendrew-quadrangle-oxford-draufsicht.webp",
+    "kind": "aerial",
+    "caption": "Draufsicht: Kendrew Quadrangle, St John's College, Oxford (Norden oben).",
+    "source": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9",
+    "original": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-1.2610898466826161,51.759024999999994,-1.2578101533173838,51.760475&bboxSR=4326&size=1200,857&format=jpg&f=image",
+    "credit": "Esri, Maxar, Earthstar Geographics"
   },
   {
     "project": "barockgarten-heidelberg",
@@ -619,5 +727,572 @@
     "source": "https://vogt-la.com/eth_hoenggerberg",
     "original": "https://www.vogt-la.com/items/uploads/images/1617545522_znHpOHlCkUbK.jpg",
     "credit": "Vogt Landschaftsarchitekten (Projektquelle)"
+  },
+  {
+    "project": "jku-bibliothek-linz",
+    "file": "img/jku-bibliothek-linz-weg.webp",
+    "kind": "photo",
+    "caption": "Zugang zur Bibliothek: Weg zwischen gefassten Gräserbeeten, dahinter die aufgestockte Bibliothek mit Vordach.",
+    "source": "https://landezine-award.com/outdoor-facilities-of-johannes-kepler-university-of-linz-at/",
+    "original": "https://landezine-award.com/wp-content/uploads/2022/05/DnD_JKU_2021-07_001_c_Johannes_Hloch.jpg",
+    "credit": "Johannes Hloch / DnD Landschaftsplanung (Landezine)"
+  },
+  {
+    "project": "jku-bibliothek-linz",
+    "file": "img/jku-bibliothek-linz-eingang.webp",
+    "kind": "photo",
+    "caption": "Weißer Platz vor dem Eingang: helle Fläche direkt am Haus, davor tiefe Pflanzbeete mit Gräsern.",
+    "source": "https://landezine-award.com/outdoor-facilities-of-johannes-kepler-university-of-linz-at/",
+    "original": "https://landezine-award.com/wp-content/uploads/2022/05/DnD_JKU_2021-07_004_c_Johannes_Hloch.jpg",
+    "credit": "Johannes Hloch / DnD Landschaftsplanung (Landezine)"
+  },
+  {
+    "project": "jku-bibliothek-linz",
+    "file": "img/jku-bibliothek-linz-plan.webp",
+    "kind": "plan",
+    "caption": "Gesamtplan Campus mit Promenade, Bibliothek und Teich.",
+    "source": "https://landezine-award.com/outdoor-facilities-of-johannes-kepler-university-of-linz-at/",
+    "original": "https://landezine-award.com/wp-content/uploads/2022/05/xx-JKU_Plan_220419_c_DND_Landschaftsplanung.jpg",
+    "credit": "DnD Landschaftsplanung (Landezine)"
+  },
+  {
+    "project": "the-hive-worcester",
+    "file": "img/the-hive-worcester-rasen.webp",
+    "kind": "photo",
+    "caption": "Rasenböschung und Weg zum Eingang, Bäume am Rand.",
+    "source": "https://www.gooood.cn/en/hive-w-library-landscape.htm",
+    "original": "https://oss.gooood.cn/uploads/2013/08/_c_iHmLReAgpYFRxqOHnjgZvcF60GcRUgUhzjlykevDYCwmUHKUIPwvl5JT1X7WLGyZu7KBJG0_lwfKsum2M9vEyvPLE7ufLHWO.jpg",
+    "credit": "Grant Associates (gooood)"
+  },
+  {
+    "project": "the-hive-worcester",
+    "file": "img/the-hive-worcester-wiese.webp",
+    "kind": "photo",
+    "caption": "Steg über der abgesenkten Feuchtwiese, die Regenwasser aufnimmt.",
+    "source": "https://www.gooood.cn/en/hive-w-library-landscape.htm",
+    "original": "https://oss.gooood.cn/uploads/2013/08/_c_tc6W2NHxrExpq34kMwgb3Q_4UV8De2B3ETFXAqNedV61_rRBO6aHVIwXiVKERKngF77RLfPP2CdQG_YsV3txbfufWgF2ZE1S.jpg",
+    "credit": "Grant Associates (gooood)"
+  },
+  {
+    "project": "the-hive-worcester",
+    "file": "img/the-hive-worcester-plan.webp",
+    "kind": "plan",
+    "caption": "Lageplan Freianlagen: Gebäude zwischen zwei Wiesenmulden, Rampen und Wege zum Eingang.",
+    "source": "https://www.gooood.cn/en/hive-w-library-landscape.htm",
+    "original": "https://oss.gooood.cn/uploads/2013/08/_c_n2k5eLR4CgsNMJGqu7PNdsmmWuOd9TD3v6Ws34AHIcxAZYtBRUMdPOVb5_ZkIaKvEwSvPEPvTcS8VKlM9KX6DIQEq5qItlXM.jpg",
+    "credit": "Grant Associates (gooood)"
+  },
+  {
+    "project": "studenthuset-frescati",
+    "file": "img/studenthuset-frescati-hain.webp",
+    "kind": "photo",
+    "caption": "Birkenhain mit Staudenbeeten und geschwungenem Weg vor dem Studentenhaus.",
+    "source": "https://landezine-award.com/studenthuset-frescati/",
+    "original": "https://landezine-award.com/wp-content/uploads/2018/04/Studenthuset-Frescati-05-Anders-Thessing.jpg",
+    "credit": "Anders Thessing / Nivå Landskapsarkitektur (Landezine)"
+  },
+  {
+    "project": "studenthuset-frescati",
+    "file": "img/studenthuset-frescati-weg.webp",
+    "kind": "photo",
+    "caption": "Weg durch die Pflanzung, junge Birken und Bank.",
+    "source": "https://landezine-award.com/studenthuset-frescati/",
+    "original": "https://landezine-award.com/wp-content/uploads/2018/04/Studenthuset-Frescati-09-Niva.jpg",
+    "credit": "Nivå Landskapsarkitektur (Landezine)"
+  },
+  {
+    "project": "studenthuset-frescati",
+    "file": "img/studenthuset-frescati-plan.webp",
+    "kind": "plan",
+    "caption": "Illustrationsplan: Studentenhaus, Platz und Pflanzhof mit Umgebung.",
+    "source": "https://landezine-award.com/studenthuset-frescati/",
+    "original": "https://landezine-award.com/wp-content/uploads/2018/04/Studenthuset-Frescati-11-Niva.jpg",
+    "credit": "Nivå Landskapsarkitektur (Landezine)"
+  },
+  {
+    "project": "rhs-hilltop-wisley",
+    "file": "img/rhs-hilltop-wisley-garten.webp",
+    "kind": "photo",
+    "caption": "Staudenpflanzung bis an das Gebäude, Weg zum Eingang.",
+    "source": "https://wilkinsoneyre.com/projects/rhs-hilltop",
+    "original": "https://wilkinsoneyre.com/assets/projects/rhs-hilltop/1087_n321_16-10.jpg",
+    "credit": "WilkinsonEyre"
+  },
+  {
+    "project": "rhs-hilltop-wisley",
+    "file": "img/rhs-hilltop-wisley-luft.webp",
+    "kind": "photo",
+    "caption": "Luftbild: Gebäude zwischen Gartenfeldern, Rasen und Baumbestand.",
+    "source": "https://wilkinsoneyre.com/projects/rhs-hilltop",
+    "original": "https://wilkinsoneyre.com/assets/projects/rhs-hilltop/1087_n350_4-3.jpg",
+    "credit": "WilkinsonEyre"
+  },
+  {
+    "project": "rhs-hilltop-wisley",
+    "file": "img/rhs-hilltop-wisley-eingang.webp",
+    "kind": "photo",
+    "caption": "Ankunft unter Kiefern, Wiese bis an die Fassade.",
+    "source": "https://wilkinsoneyre.com/projects/rhs-hilltop",
+    "original": "https://wilkinsoneyre.com/assets/projects/rhs-hilltop/1087_n354_1-1.jpg",
+    "credit": "WilkinsonEyre"
+  },
+  {
+    "project": "rhs-hilltop-wisley",
+    "file": "img/rhs-hilltop-wisley-draufsicht.webp",
+    "kind": "aerial",
+    "caption": "Draufsicht: RHS Hilltop, RHS Garden Wisley (Norden oben).",
+    "source": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9",
+    "original": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-0.4745238958372967,51.314144999999996,-0.47127610416270327,51.315595&bboxSR=4326&size=1200,857&format=jpg&f=image",
+    "credit": "Esri, Maxar, Earthstar Geographics"
+  },
+  {
+    "project": "studierendenhaus-braunschweig",
+    "file": "img/studierendenhaus-braunschweig-rasen.webp",
+    "kind": "photo",
+    "caption": "Lernpavillon auf der Rasenfläche unter altem Ahorn, Bänke am Rand.",
+    "source": "https://www.dezeen.com/2024/03/14/gustav-duesing-max-hacke-demountable-study-pavilion-germany/",
+    "original": "https://static-2026.dezeen.com/uploads/2024/03/gustav-düsing-max-hacke-demountable-study-pavilion-germany_dezeen_2364_col_21_hero.jpg",
+    "credit": "Dezeen / Gustav Düsing & Max Hacke"
+  },
+  {
+    "project": "studierendenhaus-braunschweig",
+    "file": "img/studierendenhaus-braunschweig-baeume.webp",
+    "kind": "photo",
+    "caption": "Pavillon hinter Baumstämmen und Unterpflanzung.",
+    "source": "https://www.dezeen.com/2024/03/14/gustav-duesing-max-hacke-demountable-study-pavilion-germany/",
+    "original": "https://static-2026.dezeen.com/uploads/2024/03/gustav-düsing-max-hacke-demountable-study-pavilion-germany_dezeen_2364_col_16.jpg",
+    "credit": "Dezeen / Gustav Düsing & Max Hacke"
+  },
+  {
+    "project": "studierendenhaus-braunschweig",
+    "file": "img/studierendenhaus-braunschweig-schnitt.webp",
+    "kind": "section",
+    "caption": "Schnitt: zweigeschossiger Pavillon ebenerdig zwischen Bestandsbäumen.",
+    "source": "https://www.dezeen.com/2024/03/14/gustav-duesing-max-hacke-demountable-study-pavilion-germany/",
+    "original": "https://static-2026.dezeen.com/uploads/2024/03/gustav-düsing-max-hacke-demountable-study-pavilion-germany_dezeen_2364_col_2.jpg",
+    "credit": "Gustav Düsing & Max Hacke (Dezeen)"
+  },
+  {
+    "project": "studierendenhaus-braunschweig",
+    "file": "img/studierendenhaus-braunschweig-draufsicht.webp",
+    "kind": "aerial",
+    "caption": "Draufsicht: Studierendenhaus, TU Braunschweig (Norden oben).",
+    "source": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9",
+    "original": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=10.526518445478562,52.27189,10.529721554521437,52.27329&bboxSR=4326&size=1400,1000&format=jpg&f=image",
+    "credit": "Esri, Maxar, Earthstar Geographics"
+  },
+  {
+    "project": "bauhaus-campus-weimar",
+    "file": "img/bauhaus-campus-weimar-luftbild.webp",
+    "kind": "photo",
+    "caption": "Blick von oben auf die Campuswiese vor dem Van-de-Velde-Bau mit gepflastertem Rand.",
+    "source": "https://landezine-award.com/bauhaus-campus-weimar/",
+    "original": "https://landezine-award.com/wp-content/uploads/2020/04/Bauhaus-Campus_capattistaubach_Thomas-Mueller1.jpg",
+    "credit": "Thomas Müller / capattistaubach (Landezine Award)"
+  },
+  {
+    "project": "bauhaus-campus-weimar",
+    "file": "img/bauhaus-campus-weimar-wiese.webp",
+    "kind": "photo",
+    "caption": "Rasenfeld mit Sitzkante, dahinter Bestandsbäume und Hochschulbau.",
+    "source": "https://landezine-award.com/bauhaus-campus-weimar/",
+    "original": "https://landezine-award.com/wp-content/uploads/2020/04/Bauhaus-Campus_capattistaubach_Hanns-Joosten8.jpg",
+    "credit": "Hanns Joosten / capattistaubach (Landezine Award)"
+  },
+  {
+    "project": "bauhaus-campus-weimar",
+    "file": "img/bauhaus-campus-weimar-lageplan.webp",
+    "kind": "plan",
+    "caption": "Lageplan des Campus mit den Rasenfeldern und Baumstandorten.",
+    "source": "https://landezine-award.com/bauhaus-campus-weimar/",
+    "original": "https://landezine-award.com/wp-content/uploads/2020/04/ZZ-Lageplan_200.jpg",
+    "credit": "capattistaubach (Landezine Award)"
+  },
+  {
+    "project": "museumsentree-velbert",
+    "file": "img/museumsentree-velbert-garten.webp",
+    "kind": "photo",
+    "caption": "Garten vor der Villa Hemminghaus: Platanen, Rasen, Staudenbeete und der diagonale Steg.",
+    "source": "https://landezine-award.com/museumsentree-velbert/",
+    "original": "https://landezine-award.com/wp-content/uploads/2024/05/DTP_Museumsentree_Velbert_NB_006.jpg",
+    "credit": "DTP Landschaftsarchitekten (Landezine Award)"
+  },
+  {
+    "project": "museumsentree-velbert",
+    "file": "img/museumsentree-velbert-eingang.webp",
+    "kind": "photo",
+    "caption": "Rasen mit Staudenbeet und Sitzblock vor dem Eingang des Museumsneubaus.",
+    "source": "https://landezine-award.com/museumsentree-velbert/",
+    "original": "https://landezine-award.com/wp-content/uploads/2024/05/DTP_Museumsentree_Velbert_NB_036.jpg",
+    "credit": "DTP Landschaftsarchitekten (Landezine Award)"
+  },
+  {
+    "project": "museumsentree-velbert",
+    "file": "img/museumsentree-velbert-skizze.webp",
+    "kind": "plan",
+    "caption": "Skizzierter Lageplan des Museumsplatzes mit Garten und Baumbestand.",
+    "source": "https://landezine-award.com/museumsentree-velbert/",
+    "original": "https://landezine-award.com/wp-content/uploads/2024/05/zz-DTP_Museumsplatz-_Skizze.jpeg",
+    "credit": "DTP Landschaftsarchitekten (Landezine Award)"
+  },
+  {
+    "project": "museum-boeckstiegel-werther",
+    "file": "img/museum-boeckstiegel-werther-wiese.webp",
+    "kind": "photo",
+    "caption": "Hohe Wiese mit jungem Obstbaum und Tischen vor dem Museumsbau.",
+    "source": "https://landezine-award.com/museum-peter-august-bockstiegel/",
+    "original": "https://landezine-award.com/wp-content/uploads/2020/03/07_98A5720b-B2500@ClaudiaDreyße.jpg",
+    "credit": "Claudia Dreyße / Planergruppe Oberhausen (Landezine Award)"
+  },
+  {
+    "project": "museum-boeckstiegel-werther",
+    "file": "img/museum-boeckstiegel-werther-weg.webp",
+    "kind": "photo",
+    "caption": "Heller Weg durch die Wiese zum Museumseingang.",
+    "source": "https://landezine-award.com/museum-peter-august-bockstiegel/",
+    "original": "https://landezine-award.com/wp-content/uploads/2020/03/01_98A5701b-B2500@ClaudiaDreyße.jpg",
+    "credit": "Claudia Dreyße / Planergruppe Oberhausen (Landezine Award)"
+  },
+  {
+    "project": "museum-boeckstiegel-werther",
+    "file": "img/museum-boeckstiegel-werther-lageplan.webp",
+    "kind": "plan",
+    "caption": "Lageplan: Obstwiese mit Baumraster, Wegen und Museumsbau.",
+    "source": "https://landezine-award.com/museum-peter-august-bockstiegel/",
+    "original": "https://landezine-award.com/wp-content/uploads/2020/03/XX-Siteplan@Planergruppe-1.jpg",
+    "credit": "Planergruppe Oberhausen (Landezine Award)"
+  },
+  {
+    "project": "angela-molitoris-platz-muenchen",
+    "file": "img/angela-molitoris-platz-muenchen-hain.webp",
+    "kind": "photo",
+    "caption": "Erhöhte Pflanzinsel mit Sitzkante und jungen Bäumen auf dem Platz.",
+    "source": "https://landezine-award.com/munich-angela-molitoris-square/",
+    "original": "https://landezine-award.com/wp-content/uploads/2026/03/Munich_Angela-Molitoris-Platz_©Thorsten_Jochim-1.jpg",
+    "credit": "Thorsten Jochim / lohrer.hochrein (Landezine Award)"
+  },
+  {
+    "project": "angela-molitoris-platz-muenchen",
+    "file": "img/angela-molitoris-platz-muenchen-rasen.webp",
+    "kind": "photo",
+    "caption": "Rasenfläche mit Bodentrampolinen vor den Wohnbauten.",
+    "source": "https://landezine-award.com/munich-angela-molitoris-square/",
+    "original": "https://landezine-award.com/wp-content/uploads/2026/03/Munich_Angela-Molitoris-Platz_©Thorsten_Jochim-10.jpg",
+    "credit": "Thorsten Jochim / lohrer.hochrein (Landezine Award)"
+  },
+  {
+    "project": "angela-molitoris-platz-muenchen",
+    "file": "img/angela-molitoris-platz-muenchen-lageplan.webp",
+    "kind": "plan",
+    "caption": "Lageplan des Platzes mit Baumhain und Grüninseln.",
+    "source": "https://landezine-award.com/munich-angela-molitoris-square/",
+    "original": "https://landezine-award.com/wp-content/uploads/2026/03/73599_Munich_Angela-Molitoris-Square_site-plan_©lohrer-hochrein.jpg",
+    "credit": "lohrer.hochrein (Landezine Award)"
+  },
+  {
+    "project": "lustgarten-berlin",
+    "file": "img/lustgarten-berlin-rasen.webp",
+    "kind": "photo",
+    "caption": "Rasenfläche vor dem Alten Museum, genutzt zum Liegen und Sitzen.",
+    "source": "https://atelier-loidl.de/de/lustgarten,-berlin",
+    "original": "https://atelier-loidl.de/assets/components/phpthumbof/cache/Ma_nner_auf_Wiese.dd70a19afac6348aa707e20e42244daa.jpg",
+    "credit": "Atelier Loidl"
+  },
+  {
+    "project": "lustgarten-berlin",
+    "file": "img/lustgarten-berlin-luftbild.webp",
+    "kind": "photo",
+    "caption": "Luftbild: vier Rasenfelder mit Fontäne vor dem Alten Museum, seitlich Baumreihen.",
+    "source": "https://atelier-loidl.de/de/lustgarten,-berlin",
+    "original": "https://atelier-loidl.de/assets/components/phpthumbof/cache/lustgarten_dia4_Kopie_1.dd70a19afac6348aa707e20e42244daa.jpg",
+    "credit": "Atelier Loidl"
+  },
+  {
+    "project": "lustgarten-berlin",
+    "file": "img/lustgarten-berlin-rasenkante.webp",
+    "kind": "photo",
+    "caption": "Erhöhte Rasenfelder mit Steinkante neben dem Pflasterweg.",
+    "source": "https://atelier-loidl.de/de/lustgarten,-berlin",
+    "original": "https://atelier-loidl.de/assets/components/phpthumbof/cache/Pflaster_Rasen2.dd70a19afac6348aa707e20e42244daa.jpg",
+    "credit": "Atelier Loidl"
+  },
+  {
+    "project": "lustgarten-berlin",
+    "file": "img/lustgarten-berlin-draufsicht.webp",
+    "kind": "aerial",
+    "caption": "Draufsicht: Lustgarten, Berlin (Norden oben).",
+    "source": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9",
+    "original": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=13.398031974398235,52.517875,13.401368025601764,52.519325&bboxSR=4326&size=1400,1000&format=jpg&f=image",
+    "credit": "Esri, Maxar, Earthstar Geographics"
+  },
+  {
+    "project": "the-green-novartis-basel",
+    "file": "img/the-green-novartis-basel-luftbild.webp",
+    "kind": "photo",
+    "caption": "Blick von oben: Rasenmitte mit hellen Kalksteinrändern zwischen den Campusbauten.",
+    "source": "https://vogt-la.com/the_green_novartis_campus",
+    "original": "https://www.vogt-la.com/items/uploads/images/1611052468_eDJ5vvYmSEeC.jpg",
+    "credit": "Vogt Landschaftsarchitekten"
+  },
+  {
+    "project": "the-green-novartis-basel",
+    "file": "img/the-green-novartis-basel-rasen.webp",
+    "kind": "photo",
+    "caption": "Übergang von Kalksteinplatten zum Rasen vor dem Gehry-Bau.",
+    "source": "https://vogt-la.com/the_green_novartis_campus",
+    "original": "https://www.vogt-la.com/items/uploads/images/1611052590_WqW1VmAXPe82.jpg",
+    "credit": "Vogt Landschaftsarchitekten"
+  },
+  {
+    "project": "the-green-novartis-basel",
+    "file": "img/the-green-novartis-basel-plan.webp",
+    "kind": "plan",
+    "caption": "Plan des Platzes mit Rasenflächen, Steinrändern und Gehry-Bau.",
+    "source": "https://vogt-la.com/the_green_novartis_campus",
+    "original": "https://www.vogt-la.com/items/uploads/images/1611052604_NoGPHc0A5JA.jpg",
+    "credit": "Vogt Landschaftsarchitekten"
+  },
+  {
+    "project": "fuerstenberghaus-muenster",
+    "file": "img/fuerstenberghaus-muenster-platz.webp",
+    "kind": "photo",
+    "caption": "Platz vor dem Fürstenberghaus mit Mammutbaum und Roteiche.",
+    "source": "https://landezine-award.com/?p=14913",
+    "original": "https://landezine-award.com/wp-content/uploads/2018/06/001-main-photo-Claudia-Dreysse.jpg",
+    "credit": "Claudia Dreyße / Planergruppe Oberhausen (Landezine Award)"
+  },
+  {
+    "project": "fuerstenberghaus-muenster",
+    "file": "img/fuerstenberghaus-muenster-baumplateau.webp",
+    "kind": "photo",
+    "caption": "Sitzstufen und Holzpodest um das Pflanzfeld der Roteiche.",
+    "source": "https://landezine-award.com/?p=14913",
+    "original": "https://landezine-award.com/wp-content/uploads/2018/06/03-Claudia-Dreysse.jpg",
+    "credit": "Claudia Dreyße / Planergruppe Oberhausen (Landezine Award)"
+  },
+  {
+    "project": "fuerstenberghaus-muenster",
+    "file": "img/fuerstenberghaus-muenster-lageplan.webp",
+    "kind": "plan",
+    "caption": "Lageplan des Platzes mit den zwei Baumfeldern.",
+    "source": "https://landezine-award.com/?p=14913",
+    "original": "https://landezine-award.com/wp-content/uploads/2018/06/00-LP-Planergruppe-Oberhausen.jpg",
+    "credit": "Planergruppe Oberhausen (Landezine Award)"
+  },
+  {
+    "project": "joan-maragall-bibliothek",
+    "file": "img/joan-maragall-bibliothek-luftbild.webp",
+    "kind": "photo",
+    "caption": "Die Bibliothek liegt unter dem Garten der Villa Florida; Dachgarten mit umgepflanzten Bäumen, Rampe und Treppe vom Straßenniveau.",
+    "source": "https://www.archdaily.com/526998/joan-maragall-library-bcq-arquitectura",
+    "original": "https://images.adsttc.com/media/images/53ae/14fd/c07a/806b/4b00/0043/large_jpg/PORTADA.jpg",
+    "credit": "Ariel Ramírez / BCQ Arquitectura (ArchDaily)"
+  },
+  {
+    "project": "joan-maragall-bibliothek",
+    "file": "img/joan-maragall-bibliothek-garten.webp",
+    "kind": "photo",
+    "caption": "Blick über den neuen Garten auf die Villa Florida; die Lichthöfe der Bibliothek schneiden in die Rasenfläche.",
+    "source": "https://www.archdaily.com/526998/joan-maragall-library-bcq-arquitectura",
+    "original": "https://images.adsttc.com/media/images/53ae/1352/c07a/80eb/1c00/0062/large_jpg/jmLib_01_aramirez.jpg",
+    "credit": "Ariel Ramírez (ArchDaily)"
+  },
+  {
+    "project": "joan-maragall-bibliothek",
+    "file": "img/joan-maragall-bibliothek-grundriss.webp",
+    "kind": "plan",
+    "caption": "Grundriss Gartenebene mit Villa, Gartenfläche und Straßenrändern.",
+    "source": "https://www.archdaily.com/526998/joan-maragall-library-bcq-arquitectura",
+    "original": "https://images.adsttc.com/media/images/53ae/16fd/c07a/80eb/1c00/006d/large_jpg/ground_floor.jpg",
+    "credit": "BCQ Arquitectura (ArchDaily)"
+  },
+  {
+    "project": "fondation-beyeler",
+    "file": "img/fondation-beyeler-rasenstufen.webp",
+    "kind": "photo",
+    "caption": "Rasenterrassen mit Steinkanten im Berower Park, unter alten Bäumen.",
+    "source": "https://archeyes.com/fondation-beyeler-renzo-pianos-machine-for-zenithal-light/",
+    "original": "https://archeyes.com/wp-content/uploads/2026/05/terraced-grass-amphitheatre-water-rill-park-fondation-beyeler-renzo-piano-trevor-patt-archeyes.jpg",
+    "credit": "Trevor Patt (ArchEyes)"
+  },
+  {
+    "project": "fondation-beyeler",
+    "file": "img/fondation-beyeler-eingang.webp",
+    "kind": "photo",
+    "caption": "Eingangsweg unter dem Vordach, zwischen Seerosenbecken und Bepflanzung.",
+    "source": "https://archeyes.com/fondation-beyeler-renzo-pianos-machine-for-zenithal-light/",
+    "original": "https://archeyes.com/wp-content/uploads/2026/05/entrance-canopy-porphyry-columns-water-lily-pond-fondation-beyeler-renzo-piano-trevor-patt-archeyes.jpg",
+    "credit": "Trevor Patt (ArchEyes)"
+  },
+  {
+    "project": "fondation-beyeler",
+    "file": "img/fondation-beyeler-lageplan.webp",
+    "kind": "plan",
+    "caption": "Lageplan: Museum als langer Riegel am Rand des Berower Parks, Villa und Baumbestand.",
+    "source": "https://archeyes.com/fondation-beyeler-renzo-pianos-machine-for-zenithal-light/",
+    "original": "https://archeyes.com/wp-content/uploads/2026/05/site-plan-berower-park-villa-fondation-beyeler-renzo-piano-archeyes.jpg",
+    "credit": "Renzo Piano Building Workshop (ArchEyes)"
+  },
+  {
+    "project": "literaturmuseum-marbach",
+    "file": "img/literaturmuseum-marbach-terrasse.webp",
+    "kind": "photo",
+    "caption": "Steinterrasse vor der Pfeilerhalle an der Hangkante der Schillerhöhe.",
+    "source": "https://www.dezeen.com/2007/10/10/museum-of-modern-literature-marbach-am-neckar-by-david-chipperfield-architects/",
+    "original": "http://static-2026.dezeen.com/uploads/2007/10/marbach-cr-image-1.jpg",
+    "credit": "Christian Richters (Dezeen)"
+  },
+  {
+    "project": "literaturmuseum-marbach",
+    "file": "img/literaturmuseum-marbach-baum.webp",
+    "kind": "photo",
+    "caption": "Pfeilerhalle hinter einem alten Baum der Schillerhöhe, davor die Terrassenebene.",
+    "source": "https://www.dezeen.com/2007/10/10/museum-of-modern-literature-marbach-am-neckar-by-david-chipperfield-architects/",
+    "original": "http://static-2026.dezeen.com/uploads/2007/10/marbach-cr-image-6.jpg",
+    "credit": "Christian Richters (Dezeen)"
+  },
+  {
+    "project": "literaturmuseum-marbach",
+    "file": "img/literaturmuseum-marbach-lageplan.webp",
+    "kind": "plan",
+    "caption": "Lageplan mit Schiller-Nationalmuseum, Park und Baumbestand; der Neubau sitzt an der Hangkante.",
+    "source": "https://www.dezeen.com/2007/10/10/museum-of-modern-literature-marbach-am-neckar-by-david-chipperfield-architects/",
+    "original": "http://static-2026.dezeen.com/uploads/2007/10/560_06_d_pg_n2.jpg",
+    "credit": "David Chipperfield Architects (Dezeen)"
+  },
+  {
+    "project": "biblioteca-cordoba",
+    "file": "img/biblioteca-cordoba-baeume.webp",
+    "kind": "photo",
+    "caption": "Die Bibliothek hinter dem Baumbestand der Jardines de la Agricultura.",
+    "source": "https://www.paredespedrosa.com/en/works/98-biblioteca-publica-de-cordoba/",
+    "original": "https://www.paredespedrosa.com/wp-content/uploads/2016/07/paredespedrosa-98-biblioteca-cordobaB5-scaled.jpg",
+    "credit": "Fernando Alda / Roland Halbe (Paredes Pedrosa)"
+  },
+  {
+    "project": "biblioteca-cordoba",
+    "file": "img/biblioteca-cordoba-parkseite.webp",
+    "kind": "photo",
+    "caption": "Parkseite: Rasen und Bäume reichen bis an die verglaste Lesesaalfassade.",
+    "source": "https://www.paredespedrosa.com/en/works/98-biblioteca-publica-de-cordoba/",
+    "original": "https://www.paredespedrosa.com/wp-content/uploads/2016/07/pa-98-biblioteca-cordobaC-scaled.jpg",
+    "credit": "Fernando Alda / Roland Halbe (Paredes Pedrosa)"
+  },
+  {
+    "project": "biblioteca-cordoba",
+    "file": "img/biblioteca-cordoba-lageplan.webp",
+    "kind": "plan",
+    "caption": "Lageplan (Axonometrie von oben): Bibliothek am Rand des Parks, Bestandsbäume, Allee an der Straße.",
+    "source": "https://www.paredespedrosa.com/en/works/98-biblioteca-publica-de-cordoba/",
+    "original": "https://www.paredespedrosa.com/wp-content/uploads/2016/07/paredespedrosa-98-biblioteca-cordoba12-6.jpg",
+    "credit": "Paredes Pedrosa Arquitectos"
+  },
+  {
+    "project": "museum-voorlinden",
+    "file": "img/museum-voorlinden-rasen.webp",
+    "kind": "photo",
+    "caption": "Das flache Museum mit weitem Dach steht direkt auf der Parkwiese, ohne befestigten Vorplatz.",
+    "source": "https://www.voorlinden.nl/architecture/?lang=en",
+    "original": "https://www.voorlinden.nl/wp-content/uploads/museum-zijnaanzicht-voorlinden-1920.jpg",
+    "credit": "Museum Voorlinden"
+  },
+  {
+    "project": "museum-voorlinden",
+    "file": "img/museum-voorlinden-baeume.webp",
+    "kind": "photo",
+    "caption": "Glasfassade unter dem Dachüberstand, Bäume und Rasen bis an die Kante.",
+    "source": "https://www.kraaijvanger.nl/en/projects/museum-voorlinden/",
+    "original": "https://cdn.sanity.io/images/eyepem85/production/e3ab5289c62d41cea585e4198cb57abf7f343a21-3800x2535.jpg?w=2000",
+    "credit": "Kraaijvanger"
+  },
+  {
+    "project": "museum-voorlinden",
+    "file": "img/museum-voorlinden-lageplan.webp",
+    "kind": "plan",
+    "caption": "Lageplan des Landguts Voorlinden mit Museum, Landhaus, Wegen und Wasserflächen.",
+    "source": "https://www.kraaijvanger.nl/en/projects/museum-voorlinden/",
+    "original": "https://cdn.sanity.io/images/eyepem85/production/278531bebed49b2eb4313866a1a67aa665f1afe8-1885x2436.jpg?w=2000",
+    "credit": "Kraaijvanger"
+  },
+  {
+    "project": "stadtbibliothek-dornbirn",
+    "file": "img/stadtbibliothek-dornbirn-weg.webp",
+    "kind": "photo",
+    "caption": "Wege und Rasen führen an den ovalen Pavillon; keine befestigte Vorzone.",
+    "source": "https://www.architonic.com/en/pr/public-library-dornbirn/20172811",
+    "original": "https://media.architonic.com/p-on/20172811/content/public-library-dornbirn_content_9db27281.jpeg",
+    "credit": "Albrecht I. Schnabel / Aldo Amoretti (Architonic)"
+  },
+  {
+    "project": "stadtbibliothek-dornbirn",
+    "file": "img/stadtbibliothek-dornbirn-luftbild.webp",
+    "kind": "photo",
+    "caption": "Der Pavillon im Park, Wiese und Einzelbäume rundherum, Straße und Nachbarbauten am Rand.",
+    "source": "https://educationsnapshots.com/projects/16703/public-library-dornbirn",
+    "original": "https://media.educationsnapshots.com/wp-content/uploads/sites/4/2021/06/public-library-dornbirn-7.jpg",
+    "credit": "Albrecht I. Schnabel / Aldo Amoretti (Education Snapshots)"
+  },
+  {
+    "project": "stadtbibliothek-dornbirn",
+    "file": "img/stadtbibliothek-dornbirn-grundriss.webp",
+    "kind": "plan",
+    "caption": "Grundriss Erdgeschoss mit Wegen und Bäumen des Parks.",
+    "source": "https://dtflr.com/projekte/stadtbibliothek-dornbirn/",
+    "original": "https://dtflr.com/media/pages/projekte/stadtbibliothek-dornbirn/9fae8e5a28-1714591111/1044-stadtbuecherei_e0-x1000-q80.jpg",
+    "credit": "Dietrich | Untertrifaller"
+  },
+  {
+    "project": "ordrupgaard-erweiterung",
+    "file": "img/ordrupgaard-erweiterung-weg.webp",
+    "kind": "photo",
+    "caption": "Neuer Weg im Park mit Lichtkörpern der unterirdischen Erweiterung, dahinter Altbau und Baumkulisse.",
+    "source": "https://www.archdaily.com/966734/ordrupgaard-museum-extension-and-landscape-snohetta",
+    "original": "https://images.adsttc.com/media/images/6115/8741/f91c/8100/2900/02d0/large_jpg/2012185_OS_N24_publication.jpg",
+    "credit": "Laura Stamer (ArchDaily)"
+  },
+  {
+    "project": "ordrupgaard-erweiterung",
+    "file": "img/ordrupgaard-erweiterung-stufen.webp",
+    "kind": "photo",
+    "caption": "Sitzstufen und Lichtkörper an der Grenze zwischen Rasen und Weg.",
+    "source": "https://www.archdaily.com/966734/ordrupgaard-museum-extension-and-landscape-snohetta",
+    "original": "https://images.adsttc.com/media/images/6115/8715/f91c/816f/a100/0234/large_jpg/2012185_OS_N26_publication.jpg",
+    "credit": "Laura Stamer (ArchDaily)"
+  },
+  {
+    "project": "ordrupgaard-erweiterung",
+    "file": "img/ordrupgaard-erweiterung-lageplan.webp",
+    "kind": "plan",
+    "caption": "Lageplan: Altbau, Erweiterungen und Park mit Baumbestand und Wegen.",
+    "source": "https://www.archdaily.com/966734/ordrupgaard-museum-extension-and-landscape-snohetta",
+    "original": "https://images.adsttc.com/media/images/6115/8ad4/f91c/816f/a100/0259/large_jpg/Ordrupgaard_Museum_Siteplan.jpg",
+    "credit": "Snøhetta (ArchDaily)"
+  },
+  {
+    "project": "mediathek-pelissanne",
+    "file": "img/mediathek-pelissanne-garten.webp",
+    "kind": "photo",
+    "caption": "Gartenseite: Platanen, Kieswege und Beete vor Altbau und Neubau.",
+    "source": "https://www.archdaily.com/950343/pelissanne-media-library-park-and-public-passage-dominique-coulon-and-associes",
+    "original": "https://images.adsttc.com/media/images/5f98/818c/63c0/174d/8a00/0499/large_jpg/04_PELISSANNE_©Eugeni_Pons.jpg",
+    "credit": "Eugeni Pons (ArchDaily)"
+  },
+  {
+    "project": "mediathek-pelissanne",
+    "file": "img/mediathek-pelissanne-platanen.webp",
+    "kind": "photo",
+    "caption": "Platanen vor dem Maureau-Haus; der Neubau schließt seitlich an.",
+    "source": "https://www.archdaily.com/950343/pelissanne-media-library-park-and-public-passage-dominique-coulon-and-associes",
+    "original": "https://images.adsttc.com/media/images/5f98/8546/63c0/174d/8a00/04a7/large_jpg/08_PELISSANNE_©Eugeni_Pons.jpg",
+    "credit": "Eugeni Pons (ArchDaily)"
+  },
+  {
+    "project": "mediathek-pelissanne",
+    "file": "img/mediathek-pelissanne-lageplan.webp",
+    "kind": "plan",
+    "caption": "Plan masse: Mediathek am Nordrand des Gartens, öffentliche Passage zur Altstadt.",
+    "source": "https://www.archdaily.com/950343/pelissanne-media-library-park-and-public-passage-dominique-coulon-and-associes",
+    "original": "https://images.adsttc.com/media/images/5f98/8580/63c0/1782/cd00/0674/large_jpg/01_plan-masse.jpg",
+    "credit": "Dominique Coulon & associés (ArchDaily)"
   }
 ]

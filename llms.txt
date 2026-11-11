@@ -17,7 +17,7 @@
 - [Zeitplan](https://botandis.github.io/tib-board/html/zeitplan.html)
 - [Referenzen · Bibliotheken](https://botandis.github.io/tib-board/html/referenzen/index.html): 91 Bibliotheken mit Bewertungen in html/referenzen/ratings.json
 - [Geschosse verbinden · Referenzen](https://botandis.github.io/tib-board/html/geschossverbindungen/index.html): zehn gebaute Beispiele mit Projektfotos, Originalzeichnungen, Stärken, Grenzen und TIB-Bezug; Inhalte in html/geschossverbindungen/data.json, Bildquellen in assets.json
-- [Vorplatz und Hof · Referenzen](https://botandis.github.io/tib-board/html/vorplatz/index.html): 24 gebaute Vorplätze und Innenhöfe von Bibliotheken und Hochschulbauten (Architektur- und Landschaftsarchitekturbüros) mit Projektfotos, Originalplänen, Projektberichten und TIB-Bezug; Inhalte in html/vorplatz/data.json, Bildquellen in assets.json
+- [Vorplatz und Hof · Referenzen](https://botandis.github.io/tib-board/html/vorplatz/index.html): 44 gebaute Vorplätze, grüne Vorplätze, Gebäude am Park und Innenhöfe von Bibliotheken, Hochschul- und Kulturbauten (Architektur- und Landschaftsarchitekturbüros) mit Projektfotos, je einem Lageplan/Grundriss oder einer Draufsicht, Projektberichten und TIB-Bezug; Inhalte in html/vorplatz/data.json, Bildquellen in assets.json
 - [Board-Inhalt](https://botandis.github.io/tib-board/board.json): alle Kacheln mit Bereich und Download-Link
 
 ## Optional

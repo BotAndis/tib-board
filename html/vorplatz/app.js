@@ -1,7 +1,7 @@
 const $ = id => document.getElementById(id);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let projects = [], assets = [], filter = new URLSearchParams(location.search).get('filter') || 'alle', currentImages = [], currentIndex = 0;
-const kindName = {photo:'Projektfoto', section:'Schnitt', plan:'Plan', axon:'Axonometrie'};
+const kindName = {photo:'Projektfoto', section:'Schnitt', plan:'Plan', aerial:'Draufsicht', axon:'Axonometrie'};
 const imagesFor = id => assets.filter(image => image.project === id);
 const imageCredit = image => image.credit;
 
