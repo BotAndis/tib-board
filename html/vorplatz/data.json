@@ -1,0 +1,1018 @@
+[
+  {
+    "id": "dokk1-aarhus",
+    "title": "Dokk1 – Bibliothek und Bürgerzentrum",
+    "architect": "schmidt hammer lassen architects · Arkitekt Kristine Jensens Tegnestue (Landschaft)",
+    "place": "Aarhus",
+    "year": "2015",
+    "type": "Bibliotheksvorplatz mit Freitreppe und Sockelplateau",
+    "tags": [
+      "vorplatz",
+      "architektur",
+      "stufen-sitzen",
+      "wasser",
+      "bibliothek"
+    ],
+    "principle": "Eine breite Freitreppe führt vom Stadtniveau auf das Plateau, auf dem die Bibliothek steht. Die Treppe ist zugleich Weg, Tribüne und Sitzplatz am Wasser.",
+    "look": "Auf die Breite der Treppe und darauf, wie die Stufen als Sitzflächen genutzt werden.",
+    "mechanism": "Die Bibliothek steht auf einem Sockel über einem Parkhaus; der Höhenunterschied wird mit einer flachen, sehr breiten Treppe aus hellem Beton überbrückt. Der auskragende Baukörper bildet über dem Plateau ein Vordach. Bäume gibt es kaum, der Platz ist hart und offen.",
+    "strengths": [
+      "Treppe als Sitzmöbel und Bühne",
+      "klarer Übergang von Stadt zu Eingang",
+      "Vordach durch auskragendes Obergeschoss"
+    ],
+    "limits": [
+      "wenig Schatten und Grün",
+      "Maßstab einer Hafenlage, größer als am Welfengarten"
+    ],
+    "tib": "Ein flacher Sockel mit breiten Sitzstufen könnte den neuen Westplatz zur Eingangsfassade hin anheben und zugleich Sitzrand sein; die Stufen in kleinerem Maßstab auch als Rand zum Lichthof.",
+    "assessment": "Gut übertragbar als Prinzip Sitzstufe und Sockel, im Maßstab deutlich zu reduzieren.",
+    "sources": [
+      {
+        "label": "schmidt hammer lassen · Dokk1 (World-Architects)",
+        "url": "https://world-architects.com/de/projects/view/dokk1"
+      },
+      {
+        "label": "ArchDaily · Dokk1",
+        "url": "https://www.archdaily.com/644920/dokk1-schmidt-hammer-lassen-architects"
+      }
+    ],
+    "report": {
+      "label": "ArchDaily",
+      "url": "https://www.archdaily.com/644920/dokk1-schmidt-hammer-lassen-architects"
+    }
+  },
+  {
+    "id": "oodi-helsinki",
+    "title": "Oodi – Zentralbibliothek Helsinki",
+    "architect": "ALA Architects",
+    "place": "Helsinki",
+    "year": "2018",
+    "type": "Bibliothek mit Vordach zum Bürgerplatz (Kansalaistori)",
+    "tags": [
+      "vorplatz",
+      "architektur",
+      "bibliothek"
+    ],
+    "principle": "Das Erdgeschoss wird unter einem weit auskragenden Holzvordach zum überdeckten Teil des Platzes. Platz, Vordach und Foyer gehen ohne Schwelle ineinander über.",
+    "look": "Auf das Holzvordach, das den Platz vor dem Eingang überdeckt, und den ebenen Belag bis an die Glasfassade.",
+    "mechanism": "Der Platz ist eben und durchgehend gepflastert, ohne Stufen bis zur Glasfront. Das geschwungene Obergeschoss kragt aus und bildet ein witterungsgeschütztes Vorfeld. Wenige Bäume, Leuchtmasten und Sitzsteine strukturieren die freie Fläche.",
+    "strengths": [
+      "Vordach als geschützter Aufenthaltsort",
+      "schwellenloser Übergang Platz–Foyer",
+      "Bibliothek zum Parlament und Platz gerichtet"
+    ],
+    "limits": [
+      "große, wenig gegliederte Platzfläche",
+      "Vordach ist Teil einer aufwendigen Tragstruktur"
+    ],
+    "tib": "Für den neuen Westplatz: ebener Belag bis an die Fassade und ein tiefes Vordach oder Arkade am Eingang, damit der Platz bei Regen genutzt wird.",
+    "assessment": "Übertragbar für das Thema Vordach und schwellenlosen Eingang, die Form selbst nicht.",
+    "sources": [
+      {
+        "label": "ALA Architects · Oodi (ArchDaily)",
+        "url": "https://www.archdaily.com/907675/oodi-helsinki-central-library-ala-architects"
+      },
+      {
+        "label": "Dezeen · Oodi",
+        "url": "https://www.dezeen.com/2019/01/10/helsinki-central-library-oodi-ala-architects/"
+      }
+    ],
+    "report": {
+      "label": "ArchDaily",
+      "url": "https://www.archdaily.com/907675/oodi-helsinki-central-library-ala-architects"
+    }
+  },
+  {
+    "id": "deichman-bjorvika",
+    "title": "Deichman Bjørvika – Hauptbibliothek Oslo",
+    "architect": "Atelier Oslo · Lundhagem",
+    "place": "Oslo",
+    "year": "2020",
+    "type": "Bibliothek mit Eingängen von drei Platzseiten",
+    "tags": [
+      "vorplatz",
+      "architektur",
+      "bibliothek"
+    ],
+    "principle": "Die Bibliothek hat Eingänge an drei Ecken, jeweils zu einem anderen Stadtraum. Das Erdgeschoss ist eine Fortsetzung der umgebenden Plätze.",
+    "look": "Auf die Ecke mit dem auskragenden Obergeschoss als Vordach und auf die Stufen zum Platz vor der Oper.",
+    "mechanism": "Die oberen Geschosse kragen über die Eingangsecken aus und markieren die Zugänge. Der Grundriss des Erdgeschosses zeigt den Belag und die Wege des Umfelds bis in das Foyer. Straßenseitig stehen junge Baumreihen, zur Oper führen breite Sitzstufen.",
+    "strengths": [
+      "mehrere Eingänge für verschiedene Richtungen",
+      "Auskragung als Eingangszeichen",
+      "Grundriss zeigt Platz und Foyer als eine Fläche"
+    ],
+    "limits": [
+      "Freiraum stark von Verkehrsflächen geprägt",
+      "wenig eigener Aufenthaltsraum vor dem Haus"
+    ],
+    "tib": "Für die TIB: Eingänge zum Westplatz und zum Park im Süden anbieten und das Erdgeschoss als Durchgang zwischen beiden lesen; der Belag des Platzes kann im Foyer weiterlaufen.",
+    "assessment": "Übertragbar als Prinzip mehrerer Eingänge und durchlaufender Erdgeschossfläche.",
+    "sources": [
+      {
+        "label": "Atelier Oslo + Lund Hagem · Deichman (ArchDaily)",
+        "url": "https://www.archdaily.com/942813/deichman-library-atelier-oslo-plus-lund-hagem"
+      },
+      {
+        "label": "Dezeen · Deichman Bjørvika",
+        "url": "https://www.dezeen.com/2020/07/02/deichman-bjorvika-library-atelier-oslo-lundhagem/"
+      }
+    ],
+    "report": {
+      "label": "ArchDaily",
+      "url": "https://www.archdaily.com/942813/deichman-library-atelier-oslo-plus-lund-hagem"
+    }
+  },
+  {
+    "id": "tu-delft-bibliothek",
+    "title": "Bibliothek der TU Delft",
+    "architect": "Mecanoo",
+    "place": "Delft",
+    "year": "1997",
+    "type": "Campusbibliothek unter begehbarem Rasendach mit Vorplatz",
+    "tags": [
+      "vorplatz",
+      "architektur",
+      "campus",
+      "landschaft",
+      "baeume",
+      "stufen-sitzen",
+      "bibliothek"
+    ],
+    "principle": "Das Dach der Bibliothek ist eine geneigte Rasenfläche, die aus dem Campusrasen aufsteigt. Davor liegt ein gepflasterter Platz mit Sitzstufen, der den Eingang einschneidet.",
+    "look": "Auf den Übergang von Rasen zu Platz und die Stufen, auf denen Studierende sitzen.",
+    "mechanism": "Der Rasen wird an einer Kante angehoben und bildet das Dach; der Eingang liegt in einem keilförmigen Einschnitt. Der Lageplan zeigt den Vorplatz zwischen Aula, Baumreihen und Wegen. Bestehende Großbäume rahmen die Fläche.",
+    "strengths": [
+      "Campusfläche und Gebäude als eine Landschaft",
+      "Sitzstufen am Eingang",
+      "Bestandsbäume einbezogen"
+    ],
+    "limits": [
+      "Rasendach nur bei Neubau sinnvoll",
+      "Fahrradabstellen nimmt viel Fläche am Platz ein"
+    ],
+    "tib": "Für den Südrand zum Welfengarten: Rasen bis an das Gebäude führen und den Eingang mit Sitzstufen einschneiden; auf dem Westplatz Fahrradstellplätze von Anfang an als Teil des Platzes planen.",
+    "assessment": "Direkt übertragbar für das Verhältnis Bibliothek–Campusrasen und den Umgang mit Fahrrädern.",
+    "sources": [
+      {
+        "label": "Mecanoo · Library Delft University of Technology (ArchDaily)",
+        "url": "https://www.archdaily.com/958636/library-delft-university-of-technology-mecanoo"
+      },
+      {
+        "label": "World-Architects · Library TU Delft",
+        "url": "https://www.world-architects.com/it/projects/view/library-delft-university-of-technology"
+      }
+    ],
+    "report": {
+      "label": "ArchDaily",
+      "url": "https://www.archdaily.com/958636/library-delft-university-of-technology-mecanoo"
+    }
+  },
+  {
+    "id": "slub-dresden",
+    "title": "SLUB – Sächsische Landesbibliothek, Staats- und Universitätsbibliothek",
+    "architect": "Ortner & Ortner Baukunst",
+    "place": "Dresden",
+    "year": "2002",
+    "type": "Campusbibliothek mit Rasenplatz über dem Lesesaal",
+    "tags": [
+      "vorplatz",
+      "architektur",
+      "campus",
+      "landschaft",
+      "baeume",
+      "wasser",
+      "bibliothek"
+    ],
+    "principle": "Der Lesesaal liegt unter der Erde; darüber spannt sich zwischen zwei Steinkuben ein Rasenplatz mit Oberlichtern. Der Freiraum ist Dach, Vorplatz und Campusgarten zugleich.",
+    "look": "Auf den Rasen mit den Oberlichtfeldern zwischen den Kuben und das Wasserbecken vor der Fassade.",
+    "mechanism": "Zwei Kuben aus Travertin rahmen eine große Grünfläche, die von Wegen und Oberlichtern gegliedert wird. Vor einem Kubus liegt ein flaches Wasserbecken. Baumreihen am Rand schließen den Raum zum Campus.",
+    "strengths": [
+      "ruhige, große Geste mit einfachen Mitteln",
+      "Bibliothek unter dem Platz, Freiraum bleibt offen",
+      "Baumreihen fassen den Raum"
+    ],
+    "limits": [
+      "Rasen auf Dach braucht Aufbau und Pflege",
+      "wenig Sitzmöglichkeiten am Rand"
+    ],
+    "tib": "Für den Lichthof oder den Westplatz: ein Rasen- oder Platzfeld mit Oberlichtern über einem Untergeschoss; für den Westplatz die Fassung mit Baumreihen bis zur Straße.",
+    "assessment": "Gut übertragbar für die Verbindung von Freiraum und darunterliegenden Lesebereichen.",
+    "sources": [
+      {
+        "label": "Ortner & Ortner · SLUB Dresden",
+        "url": "https://ortner-ortner.com/en/baukunst/projekte/kultur/slub-dresden"
+      },
+      {
+        "label": "World-Architects · SLUB",
+        "url": "https://world-architects.com/en/oando-baukunst/project/slub"
+      }
+    ],
+    "report": {
+      "label": "World-Architects",
+      "url": "https://world-architects.com/en/oando-baukunst/project/slub"
+    }
+  },
+  {
+    "id": "de-krook-gent",
+    "title": "De Krook – Stadtbibliothek Gent",
+    "architect": "RCR Arquitectes · Coussée & Goris architecten",
+    "place": "Gent",
+    "year": "2017",
+    "type": "Bibliothek mit Platz zur Straße und Uferpromenade",
+    "tags": [
+      "vorplatz",
+      "architektur",
+      "wasser",
+      "bibliothek"
+    ],
+    "principle": "Die Bibliothek steht frei auf einem Platz zwischen Straße und Schelde. Der Platz reicht von der Straßenkreuzung bis an die Fassade und läuft als Promenade am Ufer weiter.",
+    "look": "Auf den ebenen Platz zwischen Straße und Eingang und die Uferkante mit Holzdeck.",
+    "mechanism": "Ein einheitlicher Belag verbindet Straßenrand und Eingangsfront ohne Stufen. Die gestapelten Geschosse kragen aus und überdecken den Eingang. Am Wasser liegt eine Promenade mit Geländer und Sitzkante.",
+    "strengths": [
+      "Platz von der Straße bis zur Fassade",
+      "Eingang durch Auskragung geschützt",
+      "Uferweg als zweite Adresse"
+    ],
+    "limits": [
+      "kaum Bäume",
+      "Platz bei Nacht und Regen leer"
+    ],
+    "tib": "Für den Westplatz: ein durchgehender Belag von der Campusstraße bis an die Fassade, ohne Trennung durch Bordsteine; das Prinzip der Uferpromenade lässt sich auf den Parkrand im Süden übertragen.",
+    "assessment": "Übertragbar für einen ebenen Platz von Straße bis Eingang.",
+    "sources": [
+      {
+        "label": "Divisare · De Krook City Library Ghent",
+        "url": "https://divisare.com/projects/381645-rcr-arquitectes-coussee-goris-architecten-tim-van-de-velde-de-krook-city-library-ghent"
+      },
+      {
+        "label": "Metalocus · De Krook Library",
+        "url": "https://www.metalocus.es/en/news/de-krook-library-rcr-coussee-goris"
+      }
+    ],
+    "report": {
+      "label": "Divisare",
+      "url": "https://divisare.com/projects/381645-rcr-arquitectes-coussee-goris-architecten-tim-van-de-velde-de-krook-city-library-ghent"
+    }
+  },
+  {
+    "id": "grimm-zentrum-berlin",
+    "title": "Jacob-und-Wilhelm-Grimm-Zentrum",
+    "architect": "Max Dudler",
+    "place": "Berlin",
+    "year": "2009",
+    "type": "Universitätsbibliothek mit Vorplatz und Baumreihe",
+    "tags": [
+      "vorplatz",
+      "architektur",
+      "baeume",
+      "campus",
+      "bibliothek"
+    ],
+    "principle": "Die Universitätsbibliothek steht an einer Straßenecke und lässt vor dem Eingang einen schmalen, steinernen Platz frei. Eine Baumreihe trennt den Platz vom Straßenraum.",
+    "look": "Auf die Baumreihe vor der Fassade und den einheitlichen Steinbelag bis an den Sockel.",
+    "mechanism": "Der Belag reicht ohne Absatz von der Straße bis an die Fassade. Junge Bäume in einer Reihe gliedern die Fläche und geben Maßstab. Der Eingang liegt in der ruhigen Steinfassade ohne Vordach.",
+    "strengths": [
+      "ruhige, einfache Mittel",
+      "Baumreihe als Raumkante",
+      "Maßstab eines Campusbaus in der Stadt"
+    ],
+    "limits": [
+      "wenig Aufenthaltsqualität, eher Durchgang",
+      "kein Witterungsschutz am Eingang"
+    ],
+    "tib": "Für den Westplatz: einheitlicher Steinbelag bis an die Fassade und eine Baumreihe entlang der Campusstraße als Kante.",
+    "assessment": "Direkt übertragbar als einfache Grundordnung Belag plus Baumreihe.",
+    "sources": [
+      {
+        "label": "Max Dudler · Jacob-und-Wilhelm-Grimm-Zentrum",
+        "url": "https://www.maxdudler.de/en/projects/jacob-und-wilhelm-grimm-zentrum/?cid=6"
+      },
+      {
+        "label": "BauNetz Wissen · Grimm-Zentrum Berlin",
+        "url": "https://www.baunetzwissen.de/sonnenschutz/objekte/bildung---forschung/jacob-und-wilhelm-grimm-zentrum-berlin-880824"
+      }
+    ],
+    "report": {
+      "label": "ArchDaily",
+      "url": "https://www.archdaily.com/376900/jacob-and-wilhelm-grimm-centre-max-dudler"
+    }
+  },
+  {
+    "id": "apila-seinajoki",
+    "title": "Apila – Stadtbibliothek Seinäjoki",
+    "architect": "JKMM Architects",
+    "place": "Seinäjoki",
+    "year": "2012",
+    "type": "Bibliotheksneubau neben Bestandsbibliothek im Rasen",
+    "tags": [
+      "architektur",
+      "landschaft",
+      "baeume",
+      "parkrand",
+      "bestand",
+      "bibliothek"
+    ],
+    "principle": "Der Neubau steht im Rasen neben Alvar Aaltos Bibliothek und ist unterirdisch mit ihr verbunden. Der offene Grünraum bleibt zwischen Alt und Neu erhalten.",
+    "look": "Auf das Verhältnis von Neubau, Aalto-Bestand und offenem Rasen mit Baumreihen im Luftbild.",
+    "mechanism": "Der Neubau ist niedrig gehalten und mit Kupfer bekleidet; seine große Glasfront öffnet sich zum Rasen. Alt- und Neubau teilen sich die Grünfläche, die Verbindung liegt unter der Erde. Bestehende Bäume und Wegeachsen des Aalto-Zentrums bleiben.",
+    "strengths": [
+      "Bestand und Neubau um einen gemeinsamen Grünraum",
+      "Glasfront öffnet den Lesesaal zum Rasen",
+      "Bäume und Achsen bleiben"
+    ],
+    "limits": [
+      "kein gefasster Vorplatz",
+      "Situation offener als der dichte TIB-Standort"
+    ],
+    "tib": "Für den Südrand: Leseräume mit großer Glasfront zum Welfengarten öffnen und den Rasen bis an das Gebäude führen; die Verbindung Alt–Neu kann wie hier unter einem freien Hof liegen.",
+    "assessment": "Gut übertragbar für den Parkrand und das Nebeneinander von Bestand und Erweiterung.",
+    "sources": [
+      {
+        "label": "JKMM · City Library in Seinäjoki (ArchDaily)",
+        "url": "https://www.archdaily.com/360049/city-library-in-seinajoki-jkmm-architects"
+      },
+      {
+        "label": "Divisare · The new city library of Seinäjoki",
+        "url": "https://divisare.com/projects/229324-jkmm-architects-tuomas-uusheimo-the-new-city-library-of-seinajoki"
+      }
+    ],
+    "report": {
+      "label": "ArchDaily",
+      "url": "https://www.archdaily.com/360049/city-library-in-seinajoki-jkmm-architects"
+    }
+  },
+  {
+    "id": "fu-berlin-fabeckstrasse",
+    "title": "Eingangsbereich Institutsgebäude FU Berlin",
+    "architect": "Freie Universität Berlin (Bestandsbau) · häfner jiménez betcke jarosch landschaftsarchitektur",
+    "place": "Berlin-Dahlem",
+    "year": "2023",
+    "type": "Instituts-Vorplatz mit Bestandsbäumen, Treppe und Rampe",
+    "tags": [
+      "vorplatz",
+      "landschaft",
+      "campus",
+      "baeume",
+      "bestand",
+      "stufen-sitzen"
+    ],
+    "principle": "Der Vorplatz eines 1960er-Institutsbaus wird neu geordnet, ohne seine alten Proportionen und die prägenden Bäume aufzugeben. Treppe, geneigte Flächen und Sitzkanten machen den Eingang barrierefrei und zum Aufenthaltsort.",
+    "look": "Wie Betonkanten Beete, Wege und Stufen klar fassen und die Altbäume freigestellt bleiben.",
+    "mechanism": "Geneigte Pflasterflächen erschließen das Gebäude barrierefrei, daneben liegt eine breite Treppe. Eine lange Sitzkante nimmt den Höhenunterschied zum Vorgarten auf, Eichenbänke stehen im Baumschatten um eine Skulptur von 1963. Regenwasser läuft in Pflanzflächen und eine Rigole, der Platz überbaut einen Keller.",
+    "strengths": [
+      "Bestandsbäume und Wurzelbereiche bleiben erhalten",
+      "Barrierefreiheit über geneigte Flächen statt Rampen",
+      "Kleines Budget, robuste Materialien"
+    ],
+    "limits": [
+      "Kleiner Maßstab (ca. 1.200 m²)",
+      "Kaum Platz für Veranstaltungen"
+    ],
+    "tib": "Passt auf den Westvorplatz: Höhenausgleich zum Eingang über geneigte Flächen und eine lange Sitzkante, Bäume am Rand freistellen. Am Parkrand im Süden zeigt es, wie man um Altbäume herum baut.",
+    "assessment": "Direkt übertragbar für den Übergang Platz-Eingang und den Umgang mit Bestandsbäumen.",
+    "sources": [
+      {
+        "label": "World-Architects · häfner jiménez betcke jarosch",
+        "url": "https://world-architects.com/de/projects/view/eingangsbereich-institutsgebaude-fu-berlin"
+      }
+    ],
+    "report": {
+      "label": "World-Architects",
+      "url": "https://world-architects.com/de/projects/view/eingangsbereich-institutsgebaude-fu-berlin"
+    }
+  },
+  {
+    "id": "heidenheim-stadtbibliothek",
+    "title": "Freianlagen Stadtbibliothek Heidenheim",
+    "architect": "Max Dudler Architekten · Uniola AG (Landschaft)",
+    "place": "Heidenheim an der Brenz",
+    "year": "2017",
+    "type": "Bibliotheksvorplatz mit Birkenfeldern",
+    "tags": [
+      "vorplatz",
+      "landschaft",
+      "bibliothek",
+      "baeume",
+      "stufen-sitzen"
+    ],
+    "principle": "Ein heller Belag zieht sich wie ein Tablett von den Straßen bis an die Fassade und stellt die Bibliothek als Insel in die Stadt. Der lineare Platz wird nach den Vor- und Rücksprüngen des Baus in Platzteile und Pflanzfelder gegliedert.",
+    "look": "Ein durchgehender Belag bis zur Fassade, dazu Birken und Gräser in dunklem Schotter als Kontrast.",
+    "mechanism": "Pflanzfelder mit Birken, trockenresistenten Stauden und Gräsern liegen in dunklem Schotter, Sitzmauern und eine überlange Holzbank fassen sie. Zwischen den Feldern liegen Caféterrasse, Fahrradständer und Eingangsplatz. Die Farben der Pflanzen sind auf die Fassade abgestimmt.",
+    "strengths": [
+      "Ein Belag bindet Straße, Platz und Gebäude zusammen",
+      "Bänke an den Pflanzkanten statt Einzelmöbel",
+      "Kompakt und gut unterhaltbar"
+    ],
+    "limits": [
+      "Birken spenden wenig Schatten",
+      "Schmale, lineare Fläche (1.600 m²)"
+    ],
+    "tib": "Für den Westvorplatz: ein durchgehender heller Belag von der Campusstraße bis an die Fassade, gegliedert durch wenige Pflanzfelder mit Sitzkanten. Gut als Muster für einen ruhigen Bibliotheksvorplatz ohne Möblierungsvielfalt.",
+    "assessment": "Direkt übertragbar als Prinzip für einen Bibliotheksvorplatz von Straße bis Fassade.",
+    "sources": [
+      {
+        "label": "World-Architects · Uniola AG",
+        "url": "https://world-architects.com/de/projects/view/stadtische-bibliothek"
+      }
+    ],
+    "report": {
+      "label": "World-Architects",
+      "url": "https://world-architects.com/de/projects/view/stadtische-bibliothek"
+    }
+  },
+  {
+    "id": "fh-bielefeld-campus",
+    "title": "Campus Fachhochschule Bielefeld",
+    "architect": "Auer Weber Assoziierte · Rainer Schmidt Landschaftsarchitekten",
+    "place": "Bielefeld",
+    "year": "2015",
+    "type": "Campusplätze mit Baumraster und Innenhöfen",
+    "tags": [
+      "vorplatz",
+      "landschaft",
+      "campus",
+      "baeume",
+      "innenhof"
+    ],
+    "principle": "Die Gebäude stehen auf einer kompakten Plattform und rahmen drei große Plätze. Ein Raster aus rotblättrigem Ahorn ordnet die Plätze, landschaftliche Baumgruppen bilden den Übergang zur Umgebung.",
+    "look": "Das strenge Baumraster auf dem großen Platz gegenüber den freien Baumgruppen am Rand.",
+    "mechanism": "Große Plätze mit dunklem Plattenbelag, Bankreihen und Ahorn im Raster liegen vor den Haupteingängen. Baumcluster umschließen intensiver genutzte Bereiche wie die Mensa-Terrasse. Innenhöfe mit Holzdecks und Gräserbeeten sind durch Pflanzflächen von den Arbeitsräumen getrennt.",
+    "strengths": [
+      "Ein großer Platz trägt Veranstaltungen und Alltag",
+      "Klare Abstufung Platz - Hof - Landschaft",
+      "Lageplan zeigt das System gut"
+    ],
+    "limits": [
+      "Viel versiegelte Fläche",
+      "Neubaucampus auf freiem Feld, Maßstab größer als TIB"
+    ],
+    "tib": "Für den Westvorplatz: Baumraster als Ordnung über die ganze Fläche, offene Mitte für Veranstaltungen. Die Höfe mit Holzdeck und Gräsern sind ein Muster für den Lichthof.",
+    "assessment": "Übertragbar im Prinzip (Raster, Platzfolge, Höfe), im Maßstab zu reduzieren.",
+    "sources": [
+      {
+        "label": "World-Architects · Rainer Schmidt Landschaftsarchitekten",
+        "url": "https://world-architects.com/de/projects/view/campus-der-fachhochschule-bielefeld"
+      }
+    ],
+    "report": {
+      "label": "World-Architects",
+      "url": "https://world-architects.com/de/projects/view/campus-der-fachhochschule-bielefeld"
+    }
+  },
+  {
+    "id": "linz-nordico-vorplatz",
+    "title": "Vorplatz Nordico Stadtmuseum",
+    "architect": "Nordico Stadtmuseum (Bestand) · Karin Standler Landschaftsarchitektur",
+    "place": "Linz",
+    "year": "2022",
+    "type": "Museumsvorplatz mit Schirmplatanen und Pflanzinseln",
+    "tags": [
+      "vorplatz",
+      "landschaft",
+      "baeume",
+      "bestand",
+      "stufen-sitzen"
+    ],
+    "principle": "Ein stark versiegelter Vorplatz vor einem Kulturbau wird mit Bäumen und Pflanzinseln gekühlt, bleibt aber für Veranstaltungen und Gastgarten nutzbar. Der Platz reicht von der Straße bis an die Museumsfassade.",
+    "look": "Lockere Gruppe junger Schirmplatanen mit geschwungener Sitzskulptur, dazu der alte Blauglockenbaum als Mittelpunkt.",
+    "mechanism": "14 Schirmplatanen, Amberbäume und Magnolien ergänzen einen großen Bestandsbaum, an der Straße steht eine Gleditschienreihe. Pflanzinseln mit Schotter-Mulch liegen nur dort, wo Wege und Nutzung es zulassen. Eine Hainbuchenhecke fasst den Platz, Kleinsteinpflaster bleibt als Grundfläche.",
+    "strengths": [
+      "Schatten und Kühlung ohne Verlust der Nutzfläche",
+      "Bestandsbaum als Identität",
+      "Einfache, günstige Mittel"
+    ],
+    "limits": [
+      "Platanen brauchen Jahre bis zum Kronenschluss",
+      "Stadtplatz, kein Campuskontext"
+    ],
+    "tib": "Für den Westvorplatz: eine lockere Gruppe kleinkroniger Dachbäume mit langer Sitzskulptur, Pflanzinseln nur abseits der Hauptwege. Am Südrand zeigt es, wie ein großer Altbaum zum Bezugspunkt des Platzes wird.",
+    "assessment": "Direkt übertragbar für Baumhain und Sitzskulptur auf dem Vorplatz.",
+    "sources": [
+      {
+        "label": "World-Architects · Karin Standler Landschaftsarchitektur",
+        "url": "https://world-architects.com/de/projects/view/platzgestaltung-nordico-stadtmuseum"
+      }
+    ],
+    "report": {
+      "label": "World-Architects",
+      "url": "https://world-architects.com/de/projects/view/platzgestaltung-nordico-stadtmuseum"
+    }
+  },
+  {
+    "id": "fhnw-muttenz-campuspark",
+    "title": "Campuspark FHNW Muttenz",
+    "architect": "pool Architekten · Studio Vulkan Landschaftsarchitektur",
+    "place": "Muttenz",
+    "year": "2018",
+    "type": "Campuspark mit Baumband, Lichtung und Vorplatz",
+    "tags": [
+      "vorplatz",
+      "landschaft",
+      "campus",
+      "baeume",
+      "parkrand",
+      "stufen-sitzen",
+      "wasser"
+    ],
+    "principle": "Vor der Hochschule liegt ein Park als Eingangsraum für Quartier und Campus. Ein dichtes Baumband fasst eine leicht abgesenkte Rasenlichtung, ein schlichter Platz verbindet Park und Gebäude.",
+    "look": "Das dichte Baumband am Rand, die offene abgesenkte Lichtung und der fast leere Platz vor der Halle.",
+    "mechanism": "Bäume stehen am Rand eng und lösen sich nach innen auf. Im Baumband auf Kies und Asphalt liegen Holzdecks, Brunnen, Spielplatz und Velodächer, die Lichtung bleibt frei. Zwischen Baumband und Lichtung liegen geneigte Wiesen zum Sitzen, der Platz vor dem Eingang hat nur Sitzpodeste.",
+    "strengths": [
+      "Klare Rollen: Rand belebt, Mitte frei",
+      "Absenkung schafft Ruhe ohne Mauern",
+      "Platz und Park als zwei Teile eines Eingangs"
+    ],
+    "limits": [
+      "Braucht viel Fläche",
+      "Junge Bäume, Wirkung erst mit der Zeit"
+    ],
+    "tib": "Für den Südrand zum Welfengarten: Nutzungen in einen Baumsaum legen und die Rasenfläche frei lassen. Für den Westvorplatz: ein reduzierter Platz direkt vor dem Eingang als Gelenk zwischen Gebäude und Grün.",
+    "assessment": "Gut übertragbar für den Parkrand im Süden und die Trennung Platz/Park.",
+    "sources": [
+      {
+        "label": "Landezine Award · Studio Vulkan",
+        "url": "https://landezine-award.com/?p=15701"
+      },
+      {
+        "label": "World-Architects · Studio Vulkan",
+        "url": "https://www.catalan-architects.com/en/studio-vulkan-landschaftsarchitektur-zurich/project/fhnw-campus-muttenz-1"
+      }
+    ],
+    "report": {
+      "label": "Landezine Award",
+      "url": "https://landezine-award.com/?p=15701"
+    }
+  },
+  {
+    "id": "reutlingen-texoversum",
+    "title": "Vorplatz Texoversum Hochschule Reutlingen",
+    "architect": "Allmann Sattler Wappner · Glück Landschaftsarchitektur",
+    "place": "Reutlingen",
+    "year": "2023",
+    "type": "Hochschul-Vorplatz mit Landschaftsabdrücken und Steinbänken",
+    "tags": [
+      "vorplatz",
+      "landschaft",
+      "campus",
+      "baeume",
+      "stufen-sitzen"
+    ],
+    "principle": "Rechteckige Felder aus Kalksplitt mit Stauden und Bäumen sind in den Vorplatz eingelegt und verweisen auf die nahe Alb. Steinbänke verbinden den Vorplatz mit dem übrigen Campus.",
+    "look": "Rechteckige helle Splittfelder, Rasenfugenpflaster und schwere Travertinbänke.",
+    "mechanism": "Weißer Jura-Kalksplitt und Bänke aus Gauinger Travertin stammen aus der Region. Großflächiges Rasenfugenpflaster hält den Versiegelungsgrad niedrig. Hochstämme und mehrstämmige Bäume bilden Schatten, Stauden und Gräser liegen in den Feldern.",
+    "strengths": [
+      "Regionales, einfaches Material",
+      "Versickerung über die ganze Fläche",
+      "Lageplan zeigt die Feldordnung"
+    ],
+    "limits": [
+      "Bäume noch jung, wenig Raumwirkung",
+      "Kleinere Anlage vor einem Einzelbau"
+    ],
+    "tib": "Für den Westvorplatz: rechteckige Pflanz- und Splittfelder, in den Platz eingelegt, dazwischen Rasenfugenpflaster zur Versickerung, Sitzsteine als Ränder. Regionales Material (z. B. Wesersandstein) wäre die TIB-Entsprechung.",
+    "assessment": "Übertragbar als Belags- und Feldsystem für einen entsiegelten Vorplatz.",
+    "sources": [
+      {
+        "label": "World-Architects · Glück Landschaftsarchitektur",
+        "url": "https://world-architects.com/de/projects/view/texoversum"
+      }
+    ],
+    "report": {
+      "label": "World-Architects",
+      "url": "https://world-architects.com/de/projects/view/texoversum"
+    }
+  },
+  {
+    "id": "heilbronn-bildungscampus",
+    "title": "Bildungscampus Heilbronn",
+    "architect": "Glück + Partner · Koeber Landschaftsarchitektur",
+    "place": "Heilbronn",
+    "year": "2011",
+    "type": "Campusmitte mit Rasenfläche und Zederngruppe",
+    "tags": [
+      "vorplatz",
+      "landschaft",
+      "campus",
+      "baeume",
+      "stufen-sitzen",
+      "wasser"
+    ],
+    "principle": "Ein großes rechteckiges Rasenfeld im dunklen Plattenbelag bildet die Mitte, um die sich die Hochschulbauten gruppieren. Eine Baumgruppe setzt einen Akzent, an den Stirnseiten liegen Wassertisch und lange Bank.",
+    "look": "Das klare Rasenrechteck mit sanfter Modellierung und die wenigen großen Nadelbäume darauf.",
+    "mechanism": "Der Rasen liegt als einfache Form im Belag und nimmt die Linien der Architektur auf, im Inneren ist er sanft modelliert. Himalaya-Zedern und ein Lederhülsenbaum stehen als Gruppe. Wege und Eingänge liegen am Rand im Plattenbelag.",
+    "strengths": [
+      "Sehr einfache, ruhige Form",
+      "Wenige große Bäume statt vieler kleiner",
+      "Rasen als Aufenthaltsfläche für Studierende"
+    ],
+    "limits": [
+      "Rasen ist stark nutzungsabhängig",
+      "Wenig Schatten auf den Belagsflächen"
+    ],
+    "tib": "Für den Westvorplatz oder den Übergang zum Welfengarten: ein großes, einfach gefasstes Rasenfeld mit Sitzkante und einer kleinen Gruppe großer Bäume. Für den Lichthof als Prinzip: ein Feld, ein Baum, eine Bank.",
+    "assessment": "Übertragbar als einfache Grundfigur für eine Campusmitte.",
+    "sources": [
+      {
+        "label": "World-Architects · Koeber Landschaftsarchitektur",
+        "url": "https://world-architects.com/de/projects/view/bildungscampus"
+      }
+    ],
+    "report": {
+      "label": "World-Architects",
+      "url": "https://world-architects.com/de/projects/view/bildungscampus"
+    }
+  },
+  {
+    "id": "htw-berlin-oberschoeneweide",
+    "title": "Freianlagen HTW Berlin Campus Wilhelminenhof",
+    "architect": "Nalbach + Nalbach · Lützow 7",
+    "place": "Berlin-Oberschöneweide",
+    "year": "2009",
+    "type": "Campushöfe im Industriebestand, Stellplätze zu Platzflächen",
+    "tags": [
+      "vorplatz",
+      "landschaft",
+      "campus",
+      "bestand",
+      "umnutzung-parkplatz",
+      "stufen-sitzen",
+      "innenhof"
+    ],
+    "principle": "Auf einem ehemaligen Industrieareal werden Stellplatzflächen aufgehoben, Flächen entsiegelt und zu Aufenthaltsplätzen und Grünflächen umgebaut. Ein zusammenhängender Campus entsteht bis zur Spree.",
+    "look": "Die geneigte Rasenskulptur im Hof, der lange Betontisch und der warme gelbe Betonstein vor den Ziegelfassaden.",
+    "mechanism": "Ein gelber Betonsteinbelag kontrastiert mit dem Grau der Umgebung und hält die Höfe zusammen. Rasenskulptur, langer Betontisch, Sitzwürfel und ein Strandbereich an der Spree sind die wenigen Elemente. Junge Bäume stehen locker im Belag.",
+    "strengths": [
+      "Zeigt den Umbau von Stellplätzen zu Plätzen",
+      "Wenige, große Elemente",
+      "Arbeitet mit dem Bestand"
+    ],
+    "limits": [
+      "Bäume klein, wenig Schatten",
+      "Belag sehr dominant"
+    ],
+    "tib": "Für den Westvorplatz: die gesamte frühere Parkfläche als ein Platz mit einem Belag, einem langen Tisch und einer Rasenfigur als Aufenthaltsangebot. Die Rasenskulptur ist auch für den Lichthof denkbar.",
+    "assessment": "Übertragbar für einen Vorplatz mit wenigen großen Elementen auf früherer Verkehrsfläche.",
+    "sources": [
+      {
+        "label": "Divisare · Lützow 7",
+        "url": "https://divisare.com/projects/201135-lutzow-7-htw-hochschule-fur-technik-und-wirtschaft-berlin-oberschoneweide"
+      }
+    ],
+    "report": {
+      "label": "Divisare",
+      "url": "https://divisare.com/projects/201135-lutzow-7-htw-hochschule-fur-technik-und-wirtschaft-berlin-oberschoneweide"
+    }
+  },
+  {
+    "id": "dioezesanbibliothek-muenster",
+    "title": "Diözesanbibliothek Münster",
+    "architect": "Max Dudler (Architektur)",
+    "place": "Münster",
+    "year": "2005",
+    "type": "Bibliotheksneubau mit Rasenhof zwischen Priesterseminar und Überwasserkirche",
+    "tags": [
+      "innenhof",
+      "lichthof",
+      "architektur",
+      "bibliothek",
+      "bestand"
+    ],
+    "principle": "Neubau und zwei Verwaltungsbauten schließen mit dem bestehenden Priesterseminar und der Überwasserkirche einen Hof. Der Hof ist eine ruhige Rasenfläche mit einem einzelnen Baum, gefasst von gleichförmigen Fassaden.",
+    "look": "Wie die strenge Lochfassade des Neubaus und die Backstein-/Sandsteinfassaden des Bestands denselben Hof begrenzen.",
+    "mechanism": "Der lange Bibliotheksriegel bildet eine Hofseite, Seminar und Kirche die anderen. Der Hof ist fast nur Rasen mit einem solitären Baum, die Ränder sind schmale Plattenbänder entlang der Fassaden. Ein offener Gang im Erdgeschoss des Neubaus wirkt als Kreuzgang zum Hof.",
+    "strengths": [
+      "Ein einziges Material im Neubau, Hof bleibt ruhig",
+      "Hof entsteht aus dem Zusammenspiel von Alt und Neu",
+      "Kreuzgang als Rand zum Sitzen und Gehen"
+    ],
+    "limits": [
+      "Hof wird kaum aktiv genutzt, eher Blickraum",
+      "Wenig Schatten und Aufenthaltsmöbel"
+    ],
+    "tib": "Für den Lichthof zwischen TIB-Altbau und U-Erweiterung: ein Material für die neuen Hofwände, ein gedeckter Umgang im Erdgeschoss und eine reduzierte Hoffläche mit einem großen Baum.",
+    "assessment": "Direkt übertragbar als Haltung für die Hofwände und den Umgang im TIB-Lichthof.",
+    "sources": [
+      {
+        "label": "Max Dudler · Diözesanbibliothek",
+        "url": "https://www.maxdudler.de/en/projects/0208_mdb_dioezesanbibliothek/"
+      },
+      {
+        "label": "Max Dudler · Architekturpreis NRW 2007",
+        "url": "https://www.maxdudler.de/en/awards/2007_architekturpreis-nrw_muenster_dioezesanbibliothek/"
+      }
+    ],
+    "report": {
+      "label": "Max Dudler · Projektseite",
+      "url": "https://www.maxdudler.de/en/projects/0208_mdb_dioezesanbibliothek/"
+    }
+  },
+  {
+    "id": "st-johns-library-oxford",
+    "title": "Library and Study Centre, St John's College",
+    "architect": "Wright & Wright (Architektur)",
+    "place": "Oxford",
+    "year": "2019",
+    "type": "Bibliothekserweiterung am Rand eines Gartenhofs mit Wasserbecken",
+    "tags": [
+      "innenhof",
+      "architektur",
+      "bibliothek",
+      "bestand",
+      "baeume",
+      "wasser",
+      "campus"
+    ],
+    "principle": "Die neue Bibliothek legt sich als niedriger Steinbau an den Rand des President's Garden und schließt ihn zum Hof. Lesesäle blicken durch hohe Fenster auf Rasen, alte Bäume und ein flaches Wasserbecken.",
+    "look": "Die niedrige Höhe des Neubaus gegenüber dem Altbau und das schmale Wasserbecken direkt vor der Fassade.",
+    "mechanism": "Ein- bis zweigeschossiger Baukörper aus hellem Kalkstein mit Relief an der Gartenwand, hohe Fenster und Oberlichter. Vor der Westfassade liegt ein flaches Becken, dahinter Kies und Rasen. Bestandsbäume bleiben stehen, der Garten wird für Veranstaltungen und als Rückzugsort genutzt.",
+    "strengths": [
+      "Niedriger Neubau lässt Bestand und Bäume dominieren",
+      "Wasserbecken als Abstand zwischen Lesesaal und Garten",
+      "Garten zugleich privat und für Veranstaltungen nutzbar"
+    ],
+    "limits": [
+      "Garten deutlich größer als ein typischer Lichthof",
+      "Zugang zum Garten eingeschränkt"
+    ],
+    "tib": "Für den TIB-Lichthof: Lesebereiche im Erdgeschoss mit raumhohen Fenstern zum Hof und ein flaches Becken oder Kiesband als Abstand vor der Fassade. Für den Parkrand im Süden: niedriger Bau vor großen Bestandsbäumen.",
+    "assessment": "Gut übertragbar für die Kante zwischen Lesesaal und Hof.",
+    "sources": [
+      {
+        "label": "Wright & Wright · St John's College Library and Study Centre",
+        "url": "https://www.wrightandwright.co.uk/projects/st-johns-college-library-and-study-centre"
+      },
+      {
+        "label": "St John's College · About the building",
+        "url": "https://www.sjc.ox.ac.uk/discover/about-college/new-library-and-study-centre/about-building"
+      },
+      {
+        "label": "RIBA South Award 2021",
+        "url": "https://www.architecture.com/awards-and-competitions-landing-page/awards/riba-regional-awards/riba-south-award-winners/2021/library-and-study-centre-st-johns-college-st-giles"
+      }
+    ],
+    "report": {
+      "label": "Dezeen",
+      "url": "https://www.dezeen.com/2023/10/04/wright-and-wright-st-johns-college-oxford/"
+    }
+  },
+  {
+    "id": "longwall-library-oxford",
+    "title": "Longwall Library, Magdalen College",
+    "architect": "Wright & Wright (Architektur)",
+    "place": "Oxford",
+    "year": "2017",
+    "type": "Umbau und Erweiterung einer Bibliothek am Longwall Quad",
+    "tags": [
+      "innenhof",
+      "architektur",
+      "bibliothek",
+      "bestand",
+      "stufen-sitzen"
+    ],
+    "principle": "Eine Schulbibliothek aus dem 19. Jahrhundert wird zur College-Bibliothek, eine L-förmige Erweiterung liegt im Untergeschoss unter dem Hofrand. Der Hof wird zum Rasenraum mit breiten Sitzstufen.",
+    "look": "Die Erweiterung, die als niedriger Sockel unter dem Rasen verschwindet, und die Lichtschächte entlang der Hofkante.",
+    "mechanism": "Der Hof bleibt eine einheitliche Rasenfläche, die Erweiterung liegt halb versenkt an seinem Rand. Breite Stufen dienen als Sitzplätze, große Fenster im Untergeschoss blicken auf abgesenkte Pflanzflächen. Der Bestand behält die Hofseiten, der Neubau tritt nur als Sockel auf.",
+    "strengths": [
+      "Zusätzliche Fläche ohne neue Baumasse im Hof",
+      "Sitzstufen machen den Rasen nutzbar",
+      "Bestand bleibt Hauptbild"
+    ],
+    "limits": [
+      "Untergeschossräume brauchen Lichtschächte",
+      "Keine großen Bäume im Hof"
+    ],
+    "tib": "Für den TIB-Lichthof: Leseräume im Untergeschoss unter dem Hofrand mit Lichtschächten, darüber Rasen und Sitzstufen. Für den Westen: versenkte Nutzung unter dem heutigen Parkplatz.",
+    "assessment": "Direkt übertragbar, wenn der Lichthof auch Untergeschossflächen belichten soll.",
+    "sources": [
+      {
+        "label": "ArchDaily · Longwall Library",
+        "url": "https://www.archdaily.com/882330/longwall-library-magdalen-college-wright-and-wright-architects"
+      },
+      {
+        "label": "Wallpaper · Magdalen College library",
+        "url": "https://www.wallpaper.com/architecture/Wright-and-Wright-rework-Oxfords-Magdalen-College-library"
+      },
+      {
+        "label": "Wright & Wright · Magdalen College",
+        "url": "https://wrightandwright.co.uk/projects/magdalen-college-oxford"
+      }
+    ],
+    "report": {
+      "label": "ArchDaily",
+      "url": "https://www.archdaily.com/882330/longwall-library-magdalen-college-wright-and-wright-architects"
+    }
+  },
+  {
+    "id": "gradel-quadrangles-oxford",
+    "title": "Gradel Quadrangles, New College",
+    "architect": "David Kohn Architects (Architektur) · Todd Longstaffe-Gowan (Landschaft)",
+    "place": "Oxford",
+    "year": "2024",
+    "type": "Drei dreiseitige Gartenhöfe einer College-Erweiterung",
+    "tags": [
+      "innenhof",
+      "architektur",
+      "landschaft",
+      "baeume",
+      "campus",
+      "bestand"
+    ],
+    "principle": "Ein gekrümmter Neubau bildet mit den Nachbarbauten drei dreiseitig gefasste Höfe. Die Höfe sind betretbare Gärten mit Rasen, Stauden und Bäumen, nicht repräsentative Rasenflächen.",
+    "look": "Die nach einer Seite offenen Höfe und wie die geschwungene Fassade den Hof als Raum fasst.",
+    "mechanism": "Der Hauptbau umschließt den Main Quad auf drei Seiten, die vierte Seite öffnet sich zu Bestand und Gärten. Fassaden aus Kalkstein und rotem Sandstein, Wege aus Kies und Platten, Rasen, Staudenbeete und junge Bäume. Eingang über ein Torhaus von der Straße.",
+    "strengths": [
+      "Höfe ausdrücklich zum Sitzen und Begehen gedacht",
+      "Dreiseitige Fassung verbindet neue und alte Bauten",
+      "Pflanzung schafft verschiedene Bereiche im Hof"
+    ],
+    "limits": [
+      "Geschwungene Steinarchitektur aufwendig",
+      "Höfe vor allem für Bewohner"
+    ],
+    "tib": "Für den TIB-Lichthof: Hof als begehbarer Garten mit Wegen, Stauden und einzelnen Bäumen statt Repräsentationsrasen. Die offene vierte Hofseite ist ein Vorbild für eine Öffnung der U-Erweiterung zum Welfengarten.",
+    "assessment": "Gut übertragbar für Nutzung und Pflanzung des Hofs, nicht für die Architektursprache.",
+    "sources": [
+      {
+        "label": "Todd Longstaffe-Gowan · Gradel Quadrangles",
+        "url": "https://www.tlg-landscape.co.uk/projects/private/gradel-quadrangles-new-college-oxford/"
+      },
+      {
+        "label": "New College · Eröffnung",
+        "url": "https://www.new.ox.ac.uk/node/3028"
+      },
+      {
+        "label": "Wallpaper · Gradel Quadrangles",
+        "url": "https://wallpaper.com/architecture/the-gradel-quadrangles-david-kohn-oxford-uk"
+      }
+    ],
+    "report": {
+      "label": "Dezeen",
+      "url": "https://www.dezeen.com/2025/03/20/gradel-quadrangles-new-college-oxford-david-kohn-architects/"
+    }
+  },
+  {
+    "id": "kendrew-quadrangle-oxford",
+    "title": "Kendrew Quadrangle, St John's College",
+    "architect": "MJP Architects (Architektur)",
+    "place": "Oxford",
+    "year": "2010",
+    "type": "Neuer Hof um eine alte Buche zwischen Bestandshäusern",
+    "tags": [
+      "innenhof",
+      "architektur",
+      "baeume",
+      "bestand",
+      "campus"
+    ],
+    "principle": "Der Neubau legt sich hinter erhaltene Stadthäuser und bildet einen nach Süden offenen Hof um eine große Bestandsbuche. Der Baum bestimmt Lage und Größe des Hofs.",
+    "look": "Die Bestandsbuche in der Hofmitte und die Glasbrücke, die unter ihrer Krone über den Hof führt.",
+    "mechanism": "Viergeschossiger Bau mit Holzläden und Glas umfasst den Hof auf drei Seiten. Der Hof ist Rasen unter der Buchenkrone, eine verglaste Brücke mit Treppe verbindet die Flügel. Zur Straße bleiben die alten Häuser und Mauern stehen, der Zugang erfolgt durch ein Tor.",
+    "strengths": [
+      "Bestandsbaum als Mitte des Hofs",
+      "Alte Straßenfront bleibt erhalten",
+      "Hof mit Café, Archiv und Juristischer Bibliothek im Erdgeschoss"
+    ],
+    "limits": [
+      "Baumschutz begrenzt Bauen im Hof",
+      "Brücke verstellt einen Teil des Hofs"
+    ],
+    "tib": "Für den Südrand der TIB: Neubau und Hof um bestehende große Bäume planen. Für den Lichthof: ein einzelner großer Baum als Mitte, die Erdgeschossnutzungen orientieren sich zu ihm.",
+    "assessment": "Direkt übertragbar für den Umgang mit großen Bestandsbäumen am Welfengarten.",
+    "sources": [
+      {
+        "label": "St John's College · 21st century buildings",
+        "url": "https://www.sjc.ox.ac.uk/discover/about-college/college-buildings/21st-century/"
+      },
+      {
+        "label": "New Oxford Architecture · Kendrew Quad",
+        "url": "https://newoxfordarchitecture.com/2016/10/03/st-johns-college-kendrew-quad/"
+      }
+    ],
+    "report": {
+      "label": "e-architect",
+      "url": "https://www.e-architect.com/oxford/st-johns-college"
+    }
+  },
+  {
+    "id": "barockgarten-heidelberg",
+    "title": "Barockgarten Altstadtcampus",
+    "architect": "Glück Landschaftsarchitektur (Landschaft)",
+    "place": "Heidelberg",
+    "year": "2017",
+    "type": "Universitätshof als Lern- und Aufenthaltsgarten im Jesuitenkolleg",
+    "tags": [
+      "innenhof",
+      "lichthof",
+      "landschaft",
+      "campus",
+      "bestand",
+      "baeume"
+    ],
+    "principle": "Der Garten im Hof des ehemaligen Jesuitenkollegs wird zum Lernort der Universität. Zwei Pergolen mit Tischen und Bänken ergänzen das barocke Parterre.",
+    "look": "Die schlanken Stahlpergolen mit Arbeitstischen am Rand des Parterres und der Baum mit Rundbank am Eingang.",
+    "mechanism": "Ein umlaufender wassergebundener Weg löst den Garten von der Mauer. Pergolen im Norden und Süden fassen das Parterre aus Rasen und Eibenhecken, der Brunnen bleibt Mitte. Am Eingangsplatz aus Grauwacke steht eine mehrstämmige Esche mit Rundbank, an der Sandsteinmauer Muschelkalkbänke mit kleinen Tischen.",
+    "strengths": [
+      "Einfache Elemente machen den Hof zum Arbeitsplatz",
+      "Bestand und Geometrie bleiben ablesbar",
+      "Tische und Schattendach für Studierende"
+    ],
+    "limits": [
+      "Strenge Geometrie lässt wenig freie Nutzung",
+      "Nur ein Zugang"
+    ],
+    "tib": "Für den TIB-Lichthof: leichte Pergolen mit Tischen als Leseplätze im Freien, ein umlaufender Weg und ein einzelner Hofbaum mit Rundbank am Eingang.",
+    "assessment": "Direkt übertragbar für die Möblierung des TIB-Lichthofs.",
+    "sources": [
+      {
+        "label": "Landezine · Baroque Garden Heidelberg",
+        "url": "https://landezine.com/baroque-garden-heidelberg-gluck-landschaftsarchitektur/"
+      }
+    ],
+    "report": {
+      "label": "Landezine",
+      "url": "https://landezine.com/baroque-garden-heidelberg-gluck-landschaftsarchitektur/"
+    }
+  },
+  {
+    "id": "bibliothek-brixen",
+    "title": "Stadtbibliothek Brixen",
+    "architect": "Carlana Mezzalira Pentimalli (Architektur)",
+    "place": "Brixen",
+    "year": "2022",
+    "type": "Bibliotheksneubau zwischen Bestandsbauten mit öffentlichem Lesegarten",
+    "tags": [
+      "innenhof",
+      "architektur",
+      "bibliothek",
+      "bestand",
+      "baeume",
+      "stufen-sitzen"
+    ],
+    "principle": "Ein Neubau verbindet zwei Bestandsbauten zu einer Bibliothek. Der frühere Bischofsgarten wird zum öffentlichen Lesegarten, Holzpodeste führen vom Glasfoyer in den Garten.",
+    "look": "Die Holzpodeste vor dem verglasten Erdgeschoss und wie der helle Neubau zwischen die Altbauten greift.",
+    "mechanism": "Der Neubau sitzt zwischen ehemaligem Finanzamt und ehemaligem Gericht. Vor dem Foyer liegen eine Kiesfläche mit Stühlen und Rasen mit niedrigen Holzpodesten, einzelne Bäume stehen am Rand. Kontrollierte Zugänge erlauben, den Garten getrennt von der Bibliothek zu öffnen.",
+    "strengths": [
+      "Erdgeschoss und Garten gehen ineinander über",
+      "Podeste als einfache Sitzplätze",
+      "Garten getrennt nutzbar für Veranstaltungen"
+    ],
+    "limits": [
+      "Garten nicht allseitig umbaut",
+      "Neubaufigur eigenwillig"
+    ],
+    "tib": "Für den TIB-Lichthof: Holzpodeste vor dem verglasten Erdgeschoss als Leseplätze, Kies und Rasen statt Pflaster. Getrennte Zugänge, damit der Hof auch außerhalb der Öffnungszeiten genutzt werden kann.",
+    "assessment": "Gut übertragbar für die Verbindung von Foyer und Hof.",
+    "sources": [
+      {
+        "label": "Divisare · Brixen Public Library",
+        "url": "https://divisare.com/projects/474348"
+      }
+    ],
+    "report": {
+      "label": "Divisare",
+      "url": "https://divisare.com/projects/474348"
+    }
+  },
+  {
+    "id": "eth-hoenggerberg-hoefe",
+    "title": "Innenhöfe ETH Hönggerberg",
+    "architect": "Mario Campi (Architektur) · Vogt Landschaftsarchitekten (Landschaft)",
+    "place": "Zürich",
+    "year": "2005",
+    "type": "Vier gleich große Höfe zwischen Institutsflügeln",
+    "tags": [
+      "innenhof",
+      "lichthof",
+      "landschaft",
+      "campus",
+      "baeume",
+      "wasser"
+    ],
+    "principle": "Zwischen fünf Gebäudeteilen eines Institutsbaus liegen vier gleich große Höfe. Jeder Hof bekommt eine eigene Pflanzung, die in einer anderen Jahreszeit wirkt.",
+    "look": "Die Hofreihe im Plan und den dichten Baumbestand über Kies im Foto.",
+    "mechanism": "Auf der Achse jedes Hofs liegt ein rechteckiges Pflanzfeld mit gleich hohen Bäumen. Hof 1: Sumpfdotterblumen in Stahlinseln im Becken, Hof 2: Seerosen, Hof 3: Ahornhain, Hof 4: Bambus. Insgesamt rund 3.400 m².",
+    "strengths": [
+      "Gleiche Höfe werden durch Pflanzung unterscheidbar",
+      "Pflanzung von innen über alle Jahreszeiten sichtbar",
+      "Einfaches, wiederholbares System"
+    ],
+    "limits": [
+      "Höfe vor allem Blickräume, wenig Aufenthalt",
+      "Wasserbecken brauchen Pflege"
+    ],
+    "tib": "Für den TIB-Lichthof: eine dichte, einheitliche Baumpflanzung über Kies, die aus den Lesesälen als Bild wirkt. Wenn der Hof auch begehbar sein soll, nur ein Teil als Hain und ein Teil als Aufenthaltsfläche.",
+    "assessment": "Übertragbar als Pflanzprinzip für einen Lichthof, den man vor allem von innen sieht.",
+    "sources": [
+      {
+        "label": "Vogt · ETH Hönggerberg",
+        "url": "https://vogt-la.com/eth_hoenggerberg"
+      }
+    ],
+    "report": {
+      "label": "Vogt Landschaftsarchitekten",
+      "url": "https://vogt-la.com/eth_hoenggerberg"
+    }
+  }
+]

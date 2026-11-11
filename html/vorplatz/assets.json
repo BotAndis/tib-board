@@ -1,0 +1,623 @@
+[
+  {
+    "project": "dokk1-aarhus",
+    "file": "img/dokk1-aarhus-treppe.webp",
+    "kind": "photo",
+    "caption": "Freitreppe vom Stadtniveau auf das Plateau, unter dem auskragenden Obergeschoss.",
+    "source": "https://www.archdaily.com/644920/dokk1-schmidt-hammer-lassen-architects",
+    "original": "https://images.adsttc.com/media/images/5588/01d2/e58e/ce09/c200/02a8/large_jpg/Dokk1_temp_143_L.jpg?1434976713",
+    "credit": "Adam Mørk / schmidt hammer lassen (ArchDaily)"
+  },
+  {
+    "project": "dokk1-aarhus",
+    "file": "img/dokk1-aarhus-stufen.webp",
+    "kind": "photo",
+    "caption": "Breite Treppe mit Sitzstufen entlang der Glasfassade.",
+    "source": "https://www.archdaily.com/644920/dokk1-schmidt-hammer-lassen-architects",
+    "original": "https://images.adsttc.com/media/images/5588/01c3/e58e/ce09/c200/02a7/large_jpg/Dokk1_temp_146_L.jpg?1434976701",
+    "credit": "Adam Mørk / schmidt hammer lassen (ArchDaily)"
+  },
+  {
+    "project": "dokk1-aarhus",
+    "file": "img/dokk1-aarhus-schnitt.webp",
+    "kind": "section",
+    "caption": "Längsschnitt: Bibliothek auf dem Sockel, Höhenversatz zur Stadt.",
+    "source": "https://www.archdaily.com/644920/dokk1-schmidt-hammer-lassen-architects",
+    "original": "https://images.adsttc.com/media/images/5586/fa00/e58e/ce17/3700/020f/large_jpg/section.jpg?1434909179",
+    "credit": "schmidt hammer lassen architects (ArchDaily)"
+  },
+  {
+    "project": "oodi-helsinki",
+    "file": "img/oodi-helsinki-kansalaistori.webp",
+    "kind": "photo",
+    "caption": "Bibliothek vom Bürgerplatz Kansalaistori, ebene Platzfläche bis an die Glasfront.",
+    "source": "https://www.archdaily.com/907675/oodi-helsinki-central-library-ala-architects",
+    "original": "https://images.adsttc.com/media/images/5c33/a208/08a5/e5ec/d500/00b9/large_jpg/TU-181227-ala-oodi-015.jpg?1546887611",
+    "credit": "Tuomas Uusheimo / ALA Architects (ArchDaily)"
+  },
+  {
+    "project": "oodi-helsinki",
+    "file": "img/oodi-helsinki-vordach.webp",
+    "kind": "photo",
+    "caption": "Holzvordach über dem Platz vor dem Eingang, Blick zum Parlament.",
+    "source": "https://www.archdaily.com/907675/oodi-helsinki-central-library-ala-architects",
+    "original": "https://images.adsttc.com/media/images/5c33/a2ee/08a5/e5ec/d500/00bb/large_jpg/TU-181227-ala-oodi-022.jpg?1546887791",
+    "credit": "Tuomas Uusheimo / ALA Architects (ArchDaily)"
+  },
+  {
+    "project": "oodi-helsinki",
+    "file": "img/oodi-helsinki-luftbild.webp",
+    "kind": "photo",
+    "caption": "Luftbild: Bibliothek am Rand des noch unfertigen Platzes.",
+    "source": "https://www.archdaily.com/907675/oodi-helsinki-central-library-ala-architects",
+    "original": "https://images.adsttc.com/media/images/5c33/9831/08a5/e5ec/d500/00aa/large_jpg/TU-181130-oodi-helsinki-009.jpg?1546885132",
+    "credit": "Tuomas Uusheimo / ALA Architects (ArchDaily)"
+  },
+  {
+    "project": "deichman-bjorvika",
+    "file": "img/deichman-bjorvika-vorplatz.webp",
+    "kind": "photo",
+    "caption": "Eingangsecke mit auskragendem Obergeschoss, Sitzstufen zum Platz vor der Oper.",
+    "source": "https://www.archdaily.com/942813/deichman-library-atelier-oslo-plus-lund-hagem",
+    "original": "https://images.adsttc.com/media/images/5efc/a4f3/b357/65a0/a600/04ec/large_jpg/3_Deichman_Bjorvika_LundHagem_and_Atelier_Oslo_architects-photocredit_Einar_Aslaksen_web.jpg?1593615590",
+    "credit": "Einar Aslaksen / Atelier Oslo + Lundhagem (ArchDaily)"
+  },
+  {
+    "project": "deichman-bjorvika",
+    "file": "img/deichman-bjorvika-strasse.webp",
+    "kind": "photo",
+    "caption": "Straßenseite mit junger Baumreihe und Eingangsecke.",
+    "source": "https://www.archdaily.com/942813/deichman-library-atelier-oslo-plus-lund-hagem",
+    "original": "https://images.adsttc.com/media/images/5efc/a4e3/b357/65a0/a600/04eb/large_jpg/2_Deichman_Bjorvika_LundHagem_and_Atelier_Oslo_architects-photocredit_Einar_Aslaksen_web.jpg?1593615575",
+    "credit": "Einar Aslaksen / Atelier Oslo + Lundhagem (ArchDaily)"
+  },
+  {
+    "project": "deichman-bjorvika",
+    "file": "img/deichman-bjorvika-grundriss.webp",
+    "kind": "plan",
+    "caption": "Grundriss Erdgeschoss mit umgebendem Platz und Wegen.",
+    "source": "https://www.archdaily.com/942813/deichman-library-atelier-oslo-plus-lund-hagem",
+    "original": "https://images.adsttc.com/media/images/5efc/a8f7/b357/65a0/a600/04f8/large_jpg/Deichman_plan_ground_floor_scale_1_250.jpg?1593616618",
+    "credit": "Atelier Oslo + Lundhagem (ArchDaily)"
+  },
+  {
+    "project": "tu-delft-bibliothek",
+    "file": "img/tu-delft-bibliothek-rasendach.webp",
+    "kind": "photo",
+    "caption": "Vorplatz mit Sitzstufen vor dem Eingangseinschnitt im Rasendach.",
+    "source": "https://www.archdaily.com/958636/library-delft-university-of-technology-mecanoo",
+    "original": "https://images.adsttc.com/media/images/6050/c0c4/f91c/81a5/e900/0067/large_jpg/Ossip_Architectuurfotografie_1.jpg?1615904745",
+    "credit": "Ossip Architectuurfotografie / Greg Holmes (ArchDaily)"
+  },
+  {
+    "project": "tu-delft-bibliothek",
+    "file": "img/tu-delft-bibliothek-campus.webp",
+    "kind": "photo",
+    "caption": "Rasendach als Teil des Campusrasens, gerahmt von Bestandsbäumen.",
+    "source": "https://www.archdaily.com/958636/library-delft-university-of-technology-mecanoo",
+    "original": "https://images.adsttc.com/media/images/6050/c30a/f91c/81a5/e900/006f/large_jpg/Ossip_Architectuurfotografie_2.jpg?1615905416",
+    "credit": "Ossip Architectuurfotografie / Greg Holmes (ArchDaily)"
+  },
+  {
+    "project": "tu-delft-bibliothek",
+    "file": "img/tu-delft-bibliothek-lageplan.webp",
+    "kind": "plan",
+    "caption": "Lageplan: Bibliothek, Aula, Baumreihen und Wege des Campus.",
+    "source": "https://www.archdaily.com/958636/library-delft-university-of-technology-mecanoo",
+    "original": "https://images.adsttc.com/media/images/6050/c334/f91c/81a5/e900/0071/large_jpg/Situation.jpg?1615905581",
+    "credit": "Mecanoo (ArchDaily)"
+  },
+  {
+    "project": "tu-delft-bibliothek",
+    "file": "img/tu-delft-bibliothek-schnitt.webp",
+    "kind": "section",
+    "caption": "Schnitte: geneigtes Rasendach und Eingangsniveau.",
+    "source": "https://www.archdaily.com/958636/library-delft-university-of-technology-mecanoo",
+    "original": "https://images.adsttc.com/media/images/6050/c33b/f91c/8187/aa00/005a/large_jpg/Section_Aula_and_Library.jpg?1615905588",
+    "credit": "Mecanoo (ArchDaily)"
+  },
+  {
+    "project": "slub-dresden",
+    "file": "img/slub-dresden-rasen.webp",
+    "kind": "photo",
+    "caption": "Rasenplatz mit Oberlichtern über dem Lesesaal zwischen den beiden Kuben.",
+    "source": "https://ortner-ortner.com/en/baukunst/projekte/kultur/slub-dresden",
+    "original": "https://ortner-ortner.com/thumbs/baukunst/projekte/kultur/slub-dresden/slub_3-1900x1323-q70.jpg",
+    "credit": "Ortner & Ortner Baukunst (Projektseite)"
+  },
+  {
+    "project": "slub-dresden",
+    "file": "img/slub-dresden-wasser.webp",
+    "kind": "photo",
+    "caption": "Kubus mit flachem Wasserbecken davor, Bäume am Rand.",
+    "source": "https://ortner-ortner.com/en/baukunst/projekte/kultur/slub-dresden",
+    "original": "https://ortner-ortner.com/thumbs/baukunst/projekte/kultur/slub-dresden/slub_1-1900x1262-q70.jpg",
+    "credit": "Ortner & Ortner Baukunst (Projektseite)"
+  },
+  {
+    "project": "slub-dresden",
+    "file": "img/slub-dresden-kuben.webp",
+    "kind": "photo",
+    "caption": "Die beiden Travertinkuben am Rand der Grünfläche.",
+    "source": "https://ortner-ortner.com/en/baukunst/projekte/kultur/slub-dresden",
+    "original": "https://ortner-ortner.com/thumbs/baukunst/projekte/kultur/slub-dresden/slub_4-1900x1444-q70.jpg",
+    "credit": "Ortner & Ortner Baukunst (Projektseite)"
+  },
+  {
+    "project": "de-krook-gent",
+    "file": "img/de-krook-gent-strasse.webp",
+    "kind": "photo",
+    "caption": "Platz zwischen Straßenkreuzung und Bibliothek, durchgehender Belag.",
+    "source": "https://divisare.com/projects/381645-rcr-arquitectes-coussee-goris-architecten-tim-van-de-velde-de-krook-city-library-ghent",
+    "original": "https://images.divisare.com//images/c_limit,f_auto,h_2000,q_auto,w_3000/v1520947982/xk2pmkpfitfumerexvuu/rcr-arquitectes-coussee-goris-architecten-tim-van-de-velde-de-krook-city-library-ghent.jpg",
+    "credit": "Tim Van de Velde / RCR Arquitectes + Coussée & Goris (Divisare)"
+  },
+  {
+    "project": "de-krook-gent",
+    "file": "img/de-krook-gent-platz.webp",
+    "kind": "photo",
+    "caption": "Ebener Platz vor der Eingangsseite am Abend.",
+    "source": "https://divisare.com/projects/381645-rcr-arquitectes-coussee-goris-architecten-tim-van-de-velde-de-krook-city-library-ghent",
+    "original": "https://images.divisare.com//images/c_limit,f_auto,h_2000,q_auto,w_3000/v1520947980/ihfq5haqznoiupxgwjhc/rcr-arquitectes-coussee-goris-architecten-tim-van-de-velde-de-krook-city-library-ghent.jpg",
+    "credit": "Tim Van de Velde / RCR Arquitectes + Coussée & Goris (Divisare)"
+  },
+  {
+    "project": "de-krook-gent",
+    "file": "img/de-krook-gent-ufer.webp",
+    "kind": "photo",
+    "caption": "Uferkante an der Schelde mit Promenade vor der Bibliothek.",
+    "source": "https://divisare.com/projects/381645-rcr-arquitectes-coussee-goris-architecten-tim-van-de-velde-de-krook-city-library-ghent",
+    "original": "https://images.divisare.com//images/c_limit,f_auto,h_2000,q_auto,w_3000/v1520947972/joyhmpvchzdpadqwiany/rcr-arquitectes-coussee-goris-architecten-tim-van-de-velde-de-krook-city-library-ghent.jpg",
+    "credit": "Tim Van de Velde / RCR Arquitectes + Coussée & Goris (Divisare)"
+  },
+  {
+    "project": "grimm-zentrum-berlin",
+    "file": "img/grimm-zentrum-berlin-ecke.webp",
+    "kind": "photo",
+    "caption": "Straßenecke mit Steinbelag bis an den Sockel und Baumreihe.",
+    "source": "https://www.archdaily.com/376900/jacob-and-wilhelm-grimm-centre-max-dudler",
+    "original": "https://images.adsttc.com/media/images/519e/349e/b3fc/4b4c/1c00/000f/large_jpg/00_Titelfoto_XXX%C2%A9Stefan_M%C3%BCller.jpg?1369322650",
+    "credit": "Stefan Müller / Max Dudler (ArchDaily)"
+  },
+  {
+    "project": "grimm-zentrum-berlin",
+    "file": "img/grimm-zentrum-berlin-baumreihe.webp",
+    "kind": "photo",
+    "caption": "Baumreihe vor der Eingangsfassade.",
+    "source": "https://www.archdaily.com/376900/jacob-and-wilhelm-grimm-centre-max-dudler",
+    "original": "https://images.adsttc.com/media/images/519e/349e/b3fc/4b62/1500/000f/large_jpg/01_Eingangsfassade_und_Vorplatz%C2%A9Stefan_M%C3%BCller.jpg?1369322650",
+    "credit": "Stefan Müller / Max Dudler (ArchDaily)"
+  },
+  {
+    "project": "apila-seinajoki",
+    "file": "img/apila-seinajoki-luftbild.webp",
+    "kind": "photo",
+    "caption": "Luftbild des Aalto-Zentrums: kupferbekleideter Neubau oben links im Rasen neben der fächerförmigen Aalto-Bibliothek, vorne Aaltos Kirche mit gestuftem Rasenhof.",
+    "source": "https://www.archdaily.com/360049/city-library-in-seinajoki-jkmm-architects",
+    "original": "https://images.adsttc.com/media/images/516c/721b/b3fc/4bc7/f900/00cf/large_jpg/Hannu_Vallas_12683_21_A4_rajaus_AM.jpg?1413934449",
+    "credit": "Mika Huisman / Hannu Vallas / JKMM (ArchDaily)"
+  },
+  {
+    "project": "apila-seinajoki",
+    "file": "img/apila-seinajoki-rasen.webp",
+    "kind": "photo",
+    "caption": "Glasfront des Lesesaals zum Rasen, daneben der Bestand.",
+    "source": "https://www.archdaily.com/360049/city-library-in-seinajoki-jkmm-architects",
+    "original": "https://images.adsttc.com/media/images/516c/71d8/b3fc/4bdb/4e00/00ce/large_jpg/Tuomas_Uusheimo_TU-120920-apila-kirjasto-043.jpg?1413934366",
+    "credit": "Mika Huisman / Hannu Vallas / JKMM (ArchDaily)"
+  },
+  {
+    "project": "fu-berlin-fabeckstrasse",
+    "file": "img/fu-berlin-fabeckstrasse-treppe.webp",
+    "kind": "photo",
+    "caption": "Breite Treppenanlage und gefasstes Staudenbeet vor dem Eingang, im Hintergrund das Institutsgebäude.",
+    "source": "https://world-architects.com/de/projects/view/eingangsbereich-institutsgebaude-fu-berlin",
+    "original": "https://world-architects.com/images/Projects/64/47/98/cdf0e63c1ebf48eba29753db1ad8c757/cdf0e63c1ebf48eba29753db1ad8c757.6e7b65d0.jpg",
+    "credit": "Foto: Hanns Joosten / häfner jiménez betcke jarosch (World-Architects)"
+  },
+  {
+    "project": "fu-berlin-fabeckstrasse",
+    "file": "img/fu-berlin-fabeckstrasse-eingang.webp",
+    "kind": "photo",
+    "caption": "Erhaltener Altbaum mit Eichenbank, dahinter die freie Platzfläche bis zum Eingang.",
+    "source": "https://world-architects.com/de/projects/view/eingangsbereich-institutsgebaude-fu-berlin",
+    "original": "https://world-architects.com/images/Projects/48/57/55/01e8e301eb294d818c050884618bd205/01e8e301eb294d818c050884618bd205.6e7b65d0.jpg",
+    "credit": "Foto: Hanns Joosten / häfner jiménez betcke jarosch (World-Architects)"
+  },
+  {
+    "project": "fu-berlin-fabeckstrasse",
+    "file": "img/fu-berlin-fabeckstrasse-skulptur.webp",
+    "kind": "photo",
+    "caption": "Pflanzfläche mit Betonkante, Skulptur \"Scientia\" und Sitzbereich unter den Bestandsbäumen.",
+    "source": "https://world-architects.com/de/projects/view/eingangsbereich-institutsgebaude-fu-berlin",
+    "original": "https://world-architects.com/images/Projects/66/50/17/14fd124f70c741ae84ebb268d8bbc9d2/14fd124f70c741ae84ebb268d8bbc9d2.6e7b65d0.jpg",
+    "credit": "Foto: Hanns Joosten / häfner jiménez betcke jarosch (World-Architects)"
+  },
+  {
+    "project": "heidenheim-stadtbibliothek",
+    "file": "img/heidenheim-stadtbibliothek-platz.webp",
+    "kind": "photo",
+    "caption": "Heller Belag läuft bis an die Fassade, davor Pflanzfeld mit Birken, Gräsern und Stauden auf dunklem Schotter.",
+    "source": "https://world-architects.com/de/projects/view/stadtische-bibliothek",
+    "original": "https://world-architects.com/images/Projects/78/71/22/090925509b094ac896cdc413bfb0cd66/090925509b094ac896cdc413bfb0cd66.6e7b65d0.jpg",
+    "credit": "Uniola AG (World-Architects)"
+  },
+  {
+    "project": "heidenheim-stadtbibliothek",
+    "file": "img/heidenheim-stadtbibliothek-sitzbank.webp",
+    "kind": "photo",
+    "caption": "Lange Holzbank an der Pflanzkante vor dem Bibliothekseingang.",
+    "source": "https://world-architects.com/de/projects/view/stadtische-bibliothek",
+    "original": "https://world-architects.com/images/Projects/94/57/42/4164e69611bf4d678513c88a9ca0bd8b/4164e69611bf4d678513c88a9ca0bd8b.6e7b65d0.jpg",
+    "credit": "Uniola AG (World-Architects)"
+  },
+  {
+    "project": "heidenheim-stadtbibliothek",
+    "file": "img/heidenheim-stadtbibliothek-raender.webp",
+    "kind": "photo",
+    "caption": "Linearer Platz entlang der Fassade mit Fahrradbügeln, Sitzmauer und Birken.",
+    "source": "https://world-architects.com/de/projects/view/stadtische-bibliothek",
+    "original": "https://world-architects.com/images/Projects/82/92/89/6ed2eccf70774d41a7d9aaaafec7677f/6ed2eccf70774d41a7d9aaaafec7677f.6e7b65d0.jpg",
+    "credit": "Uniola AG (World-Architects)"
+  },
+  {
+    "project": "fh-bielefeld-campus",
+    "file": "img/fh-bielefeld-campus-platz.webp",
+    "kind": "photo",
+    "caption": "Großer Campusplatz vor dem Hauptgebäude mit Bänken, Baumraster und Studierenden bei einer Veranstaltung.",
+    "source": "https://world-architects.com/de/projects/view/campus-der-fachhochschule-bielefeld",
+    "original": "https://world-architects.com/images/Projects/03/77/16/34624fe90d5b48d5b093c194d9f75181/34624fe90d5b48d5b093c194d9f75181.6e7b65d0.jpg",
+    "credit": "Foto: RSLA (World-Architects)"
+  },
+  {
+    "project": "fh-bielefeld-campus",
+    "file": "img/fh-bielefeld-campus-ahorn.webp",
+    "kind": "photo",
+    "caption": "Rotblättrige Ahornbäume im Raster am Rand des Campus, Übergang zur Wiese.",
+    "source": "https://world-architects.com/de/projects/view/campus-der-fachhochschule-bielefeld",
+    "original": "https://world-architects.com/images/Projects/85/26/06/85c9075b014d49109b487631ad638862/85c9075b014d49109b487631ad638862.6e7b65d0.JPG",
+    "credit": "Foto: RSLA (World-Architects)"
+  },
+  {
+    "project": "fh-bielefeld-campus",
+    "file": "img/fh-bielefeld-campus-lageplan.webp",
+    "kind": "plan",
+    "caption": "Lageplan: drei Plätze zwischen den Gebäudekämmen, Baumraster auf der Plattform, Baumgruppen in der Landschaft.",
+    "source": "https://world-architects.com/de/projects/view/campus-der-fachhochschule-bielefeld",
+    "original": "https://world-architects.com/images/Projects/15/17/70/04f529ac8f774dc18912af5b39a357ad/04f529ac8f774dc18912af5b39a357ad.6e7b65d0.jpg",
+    "credit": "Zeichnung: RSLA (World-Architects)"
+  },
+  {
+    "project": "linz-nordico-vorplatz",
+    "file": "img/linz-nordico-vorplatz-luftbild.webp",
+    "kind": "photo",
+    "caption": "Luftbild: Platz von der Straße bis zur Museumsfassade, Pflanzinseln, Schirmplatanen und Bestandsbaum.",
+    "source": "https://world-architects.com/de/projects/view/platzgestaltung-nordico-stadtmuseum",
+    "original": "https://world-architects.com/images/Projects/65/31/67/4a4bd77273d24f2a89e7d23275eedec0/4a4bd77273d24f2a89e7d23275eedec0.6e7b65d0.jpg",
+    "credit": "Foto: Bernhard Stadlbauer / Karin Standler Landschaftsarchitektur (World-Architects)"
+  },
+  {
+    "project": "linz-nordico-vorplatz",
+    "file": "img/linz-nordico-vorplatz-strasse.webp",
+    "kind": "photo",
+    "caption": "Blick von der Dametzstraße: Staudeninseln an der Straßenkante, dahinter der Platz vor dem Museum.",
+    "source": "https://world-architects.com/de/projects/view/platzgestaltung-nordico-stadtmuseum",
+    "original": "https://world-architects.com/images/Projects/37/78/38/927bf9c367774e8ea272a35789e1c990/927bf9c367774e8ea272a35789e1c990.6e7b65d0.jpg",
+    "credit": "Foto: Gregor Graf / Karin Standler Landschaftsarchitektur (World-Architects)"
+  },
+  {
+    "project": "linz-nordico-vorplatz",
+    "file": "img/linz-nordico-vorplatz-sitzskulptur.webp",
+    "kind": "photo",
+    "caption": "Geschwungene Sitzskulptur aus Beton zwischen jungen Schirmplatanen auf Kleinsteinpflaster.",
+    "source": "https://world-architects.com/de/projects/view/platzgestaltung-nordico-stadtmuseum",
+    "original": "https://world-architects.com/images/Projects/72/89/04/45c868399d404e6d9a7b9982a7868509/45c868399d404e6d9a7b9982a7868509.6e7b65d0.jpg",
+    "credit": "Foto: Michael Dworschak / Karin Standler Landschaftsarchitektur (World-Architects)"
+  },
+  {
+    "project": "fhnw-muttenz-campuspark",
+    "file": "img/fhnw-muttenz-campuspark-vorplatz.webp",
+    "kind": "photo",
+    "caption": "Offener Platz zwischen Park und Hochschulgebäude, Eingang in die Halle.",
+    "source": "https://landezine-award.com/?p=15701",
+    "original": "https://landezine-award.com/wp-content/uploads/2019/04/FHNW_SVL_07.jpg",
+    "credit": "Studio Vulkan Landschaftsarchitektur (Landezine Award)"
+  },
+  {
+    "project": "fhnw-muttenz-campuspark",
+    "file": "img/fhnw-muttenz-campuspark-lichtung.webp",
+    "kind": "photo",
+    "caption": "Leicht abgesenkte Rasenlichtung, eingefasst von einem dichten Baumband.",
+    "source": "https://landezine-award.com/?p=15701",
+    "original": "https://landezine-award.com/wp-content/uploads/2019/04/FHNW_SVL_05.jpg",
+    "credit": "Studio Vulkan Landschaftsarchitektur (Landezine Award)"
+  },
+  {
+    "project": "fhnw-muttenz-campuspark",
+    "file": "img/fhnw-muttenz-campuspark-holzdeck.webp",
+    "kind": "photo",
+    "caption": "Holzdeck im Baumband am Rand der Lichtung als Sitz- und Liegefläche.",
+    "source": "https://landezine-award.com/?p=15701",
+    "original": "https://landezine-award.com/wp-content/uploads/2019/04/FHNW_SVL_10.jpg",
+    "credit": "Studio Vulkan Landschaftsarchitektur (Landezine Award)"
+  },
+  {
+    "project": "reutlingen-texoversum",
+    "file": "img/reutlingen-texoversum-vorplatz.webp",
+    "kind": "photo",
+    "caption": "Vorplatz mit Kalksplittfeldern, Travertinbank, Rasenfugenpflaster und mehrstämmigen Bäumen.",
+    "source": "https://world-architects.com/de/projects/view/texoversum",
+    "original": "https://world-architects.com/images/Projects/20/24/62/736ba90703d94a208393b9cfe622b001/736ba90703d94a208393b9cfe622b001.6e7b65d0.jpg",
+    "credit": "Foto: Glück Landschaftsarchitektur (World-Architects)"
+  },
+  {
+    "project": "reutlingen-texoversum",
+    "file": "img/reutlingen-texoversum-steinbank.webp",
+    "kind": "photo",
+    "caption": "Steinbank aus Gauinger Travertin und blühender Baum vor der Fassade.",
+    "source": "https://world-architects.com/de/projects/view/texoversum",
+    "original": "https://world-architects.com/images/Projects/93/96/27/214dc0a544de473f91313a432b509ee9/214dc0a544de473f91313a432b509ee9.6e7b65d0.jpg",
+    "credit": "Foto: Glück Landschaftsarchitektur (World-Architects)"
+  },
+  {
+    "project": "reutlingen-texoversum",
+    "file": "img/reutlingen-texoversum-lageplan.webp",
+    "kind": "plan",
+    "caption": "Freianlagenplan: rechteckige Landschaftsabdrücke im Vorplatz und Baumgruppen um das Gebäude.",
+    "source": "https://world-architects.com/de/projects/view/texoversum",
+    "original": "https://world-architects.com/images/Projects/57/96/69/f9e4ad7a8747445bbd1f71f61eed7c1e/f9e4ad7a8747445bbd1f71f61eed7c1e.6e7b65d0.png",
+    "credit": "Zeichnung: Glück Landschaftsarchitektur (World-Architects)"
+  },
+  {
+    "project": "heilbronn-bildungscampus",
+    "file": "img/heilbronn-bildungscampus-campus-green.webp",
+    "kind": "photo",
+    "caption": "Sitzkante am \"Campus Green\" mit Zedergruppe zwischen den Hochschulbauten.",
+    "source": "https://world-architects.com/de/projects/view/bildungscampus",
+    "original": "https://world-architects.com/images/Projects/17/53/90/1964faf1ec2445c99b0fffbe49277e68/1964faf1ec2445c99b0fffbe49277e68.6e7b65d0.jpg",
+    "credit": "Foto: HG Esch / Koeber Landschaftsarchitektur (World-Architects)"
+  },
+  {
+    "project": "heilbronn-bildungscampus",
+    "file": "img/heilbronn-bildungscampus-eingang.webp",
+    "kind": "photo",
+    "caption": "Plattenbelag führt am modellierten Rasen entlang zum Eingang.",
+    "source": "https://world-architects.com/de/projects/view/bildungscampus",
+    "original": "https://world-architects.com/images/Projects/55/59/74/413787df8be24f95b207bf46aa4161b9/413787df8be24f95b207bf46aa4161b9.6e7b65d0.jpg",
+    "credit": "Foto: HG Esch / Koeber Landschaftsarchitektur (World-Architects)"
+  },
+  {
+    "project": "heilbronn-bildungscampus",
+    "file": "img/heilbronn-bildungscampus-rasen.webp",
+    "kind": "photo",
+    "caption": "Sanft modellierte Rasenfläche als ruhige Mitte vor den Gebäuden.",
+    "source": "https://world-architects.com/de/projects/view/bildungscampus",
+    "original": "https://world-architects.com/images/Projects/15/12/02/333a633347944c27a38480ce15056200/333a633347944c27a38480ce15056200.6e7b65d0.jpg",
+    "credit": "Foto: HG Esch / Koeber Landschaftsarchitektur (World-Architects)"
+  },
+  {
+    "project": "htw-berlin-oberschoeneweide",
+    "file": "img/htw-berlin-oberschoeneweide-rasenskulptur.webp",
+    "kind": "photo",
+    "caption": "Geneigte Rasenskulptur im Hof der Industriebauten, gefasst von gelbem Betonsteinbelag.",
+    "source": "https://divisare.com/projects/201135-lutzow-7-htw-hochschule-fur-technik-und-wirtschaft-berlin-oberschoneweide",
+    "original": "https://images.divisare.com/images/c_limit,f_auto,q_auto,w_1400/v1/project_images/3241757/L7_HTW_1/lutzow-7-htw-hochschule-fur-technik-und-wirtschaft-berlin-oberschoneweide.jpg",
+    "credit": "Lützow 7 (Divisare)"
+  },
+  {
+    "project": "htw-berlin-oberschoeneweide",
+    "file": "img/htw-berlin-oberschoeneweide-betontisch.webp",
+    "kind": "photo",
+    "caption": "Langer Betontisch mit Hockern auf der ehemaligen Stellplatzfläche.",
+    "source": "https://divisare.com/projects/201135-lutzow-7-htw-hochschule-fur-technik-und-wirtschaft-berlin-oberschoneweide",
+    "original": "https://images.divisare.com/images/c_limit,f_auto,q_auto,w_1400/v1/project_images/3241778/L7_HTW_4/lutzow-7-htw-hochschule-fur-technik-und-wirtschaft-berlin-oberschoneweide.jpg",
+    "credit": "Lützow 7 (Divisare)"
+  },
+  {
+    "project": "htw-berlin-oberschoeneweide",
+    "file": "img/htw-berlin-oberschoeneweide-lageplan.webp",
+    "kind": "plan",
+    "caption": "Lageplan der Freianlagen zwischen den Bestandsbauten bis zur Spree.",
+    "source": "https://divisare.com/projects/201135-lutzow-7-htw-hochschule-fur-technik-und-wirtschaft-berlin-oberschoneweide",
+    "original": "https://images.divisare.com/images/c_limit,f_auto,q_auto,w_1400/v1/project_images/3241814/L7_HTW_siteplan/lutzow-7-htw-hochschule-fur-technik-und-wirtschaft-berlin-oberschoneweide.jpg",
+    "credit": "Lützow 7 (Divisare)"
+  },
+  {
+    "project": "dioezesanbibliothek-muenster",
+    "file": "img/dioezesanbibliothek-muenster-hof.webp",
+    "kind": "photo",
+    "caption": "Rasenhof zwischen Bibliotheksneubau, Priesterseminar und Überwasserkirche, mit einzelnem Baum.",
+    "source": "https://www.maxdudler.de/en/projects/0208_mdb_dioezesanbibliothek/",
+    "original": "https://www.maxdudler.de/media/bibliothek-muenster-dioezese-max-dudler-4.jpg",
+    "credit": "Max Dudler (Projektquelle)"
+  },
+  {
+    "project": "dioezesanbibliothek-muenster",
+    "file": "img/dioezesanbibliothek-muenster-plan.webp",
+    "kind": "plan",
+    "caption": "Grundriss: Neubau, Seminar und Verwaltungsbauten umschließen den Hof.",
+    "source": "https://www.maxdudler.de/en/projects/0208_mdb_dioezesanbibliothek/",
+    "original": "https://www.maxdudler.de/media/bibliothek-muenster-dioezese-max-dudler-7.png",
+    "credit": "Max Dudler (Projektquelle)"
+  },
+  {
+    "project": "dioezesanbibliothek-muenster",
+    "file": "img/dioezesanbibliothek-muenster-gasse.webp",
+    "kind": "photo",
+    "caption": "Neubau neben dem Altbau des Seminars an der Straße.",
+    "source": "https://www.maxdudler.de/en/projects/0208_mdb_dioezesanbibliothek/",
+    "original": "https://www.maxdudler.de/media/bibliothek-muenster-dioezese-max-dudler-2.jpg",
+    "credit": "Max Dudler (Projektquelle)"
+  },
+  {
+    "project": "st-johns-library-oxford",
+    "file": "img/st-johns-library-garden.webp",
+    "kind": "photo",
+    "caption": "Der niedrige Bibliotheksbau am Rand des President's Garden, davor Rasen und Bestandsbaum.",
+    "source": "https://www.wrightandwright.co.uk/projects/st-johns-college-library-and-study-centre",
+    "original": "https://cdn.wrightandwright.co.uk/uploads/images/_1200x630_crop_center-center_none/St-Johns-Oxford_Headline_View-from-Presidents-Garden.jpg?v=1708505631",
+    "credit": "Hufton + Crow / Wright & Wright (Projektquelle)"
+  },
+  {
+    "project": "st-johns-library-oxford",
+    "file": "img/st-johns-library-pool.webp",
+    "kind": "photo",
+    "caption": "Flaches Wasserbecken vor der Westfassade, dahinter Garten und Altbau.",
+    "source": "https://www.wrightandwright.co.uk/projects/st-johns-college-library-and-study-centre",
+    "original": "https://cdn.wrightandwright.co.uk/uploads/images/_full_width_xl/16761/Photos-SJCO-03.webp?v=1708510199",
+    "credit": "Hufton + Crow / Wright & Wright (Projektquelle)"
+  },
+  {
+    "project": "st-johns-library-oxford",
+    "file": "img/st-johns-library-skizze.webp",
+    "kind": "plan",
+    "caption": "Entwurfsskizze im Grundriss: langer Baukörper am Gartenrand mit Bäumen.",
+    "source": "https://www.wrightandwright.co.uk/projects/st-johns-college-library-and-study-centre",
+    "original": "https://cdn.wrightandwright.co.uk/uploads/images/_full_width_xl/10941/St-Johns-Oxford_Drawings_1.webp?v=1708510203",
+    "credit": "Wright & Wright (Projektquelle)"
+  },
+  {
+    "project": "longwall-library-oxford",
+    "file": "img/longwall-library-quad.webp",
+    "kind": "photo",
+    "caption": "Longwall Quad: Rasenfläche vor der Bibliothek, die Erweiterung liegt als niedriger Sockel am Hofrand.",
+    "source": "https://www.archdaily.com/882330/longwall-library-magdalen-college-wright-and-wright-architects",
+    "original": "https://images.adsttc.com/media/images/59f0/753a/b22e/38e2/ab00/00a5/large_jpg/01_Magdalen_College_Library_%C2%A9_Dennis_Gilbert.jpg",
+    "credit": "Dennis Gilbert (ArchDaily)"
+  },
+  {
+    "project": "longwall-library-oxford",
+    "file": "img/longwall-library-lageplan.webp",
+    "kind": "plan",
+    "caption": "Lageplan: Bibliothek und Erweiterung am Longwall Quad.",
+    "source": "https://www.archdaily.com/882330/longwall-library-magdalen-college-wright-and-wright-architects",
+    "original": "https://images.adsttc.com/media/images/59f0/757e/b22e/38e2/ab00/00a6/large_jpg/02_Magdalen_College_Library_-_Site_Plan.jpg",
+    "credit": "Wright & Wright (ArchDaily)"
+  },
+  {
+    "project": "longwall-library-oxford",
+    "file": "img/longwall-library-ausblick.webp",
+    "kind": "photo",
+    "caption": "Blick aus dem Untergeschoss durch einen Lichtschacht auf den Hof.",
+    "source": "https://www.archdaily.com/882330/longwall-library-magdalen-college-wright-and-wright-architects",
+    "original": "https://images.adsttc.com/media/images/59f0/75c1/b22e/38e2/ab00/00a8/large_jpg/05_Magdalen_College_Library_%C2%A9Dennis_Gilbert.jpg",
+    "credit": "Dennis Gilbert (ArchDaily)"
+  },
+  {
+    "project": "gradel-quadrangles-oxford",
+    "file": "img/gradel-quadrangles-hof.webp",
+    "kind": "photo",
+    "caption": "Main Quad: dreiseitig gefasster Rasenhof mit jungem Baum.",
+    "source": "https://www.dezeen.com/2025/03/20/gradel-quadrangles-new-college-oxford-david-kohn-architects/",
+    "original": "https://static-2026.dezeen.com/uploads/2025/03/hero-gradel-quadrangles-new-college-oxford-david-kohn-architects_dezeen_2364_col_21.jpg",
+    "credit": "Will Pryce (Dezeen)"
+  },
+  {
+    "project": "gradel-quadrangles-oxford",
+    "file": "img/gradel-quadrangles-luftbild.webp",
+    "kind": "photo",
+    "caption": "Luftbild: gekrümmter Neubau mit Höfen zwischen den Bestandshäusern.",
+    "source": "https://www.dezeen.com/2025/03/20/gradel-quadrangles-new-college-oxford-david-kohn-architects/",
+    "original": "https://static-2026.dezeen.com/uploads/2025/03/hero-gradel-quadrangles-new-college-oxford-david-kohn-architects_dezeen_2364_col_9.jpg",
+    "credit": "Will Pryce (Dezeen)"
+  },
+  {
+    "project": "gradel-quadrangles-oxford",
+    "file": "img/gradel-quadrangles-lageplan.webp",
+    "kind": "plan",
+    "caption": "Freiraumplan: Höfe, Gärten und Wege zwischen Neubau und Bestand.",
+    "source": "https://www.tlg-landscape.co.uk/projects/private/gradel-quadrangles-new-college-oxford/",
+    "original": "https://www.tlg-landscape.co.uk/image/1/1000/500//uploads/project-images/new-college;-image-ready-for-w-6524159d138a4.jpg",
+    "credit": "Todd Longstaffe-Gowan (Projektquelle)"
+  },
+  {
+    "project": "kendrew-quadrangle-oxford",
+    "file": "img/kendrew-quadrangle-buche.webp",
+    "kind": "photo",
+    "caption": "Hof um die Bestandsbuche, dahinter die Glasbrücke zwischen den Flügeln.",
+    "source": "https://www.e-architect.com/oxford/st-johns-college",
+    "original": "https://www.e-architect.com/wp-content/uploads/2011/01/st-johns-college-oxford-building-pd2.jpg",
+    "credit": "Peter Durant (e-architect)"
+  },
+  {
+    "project": "kendrew-quadrangle-oxford",
+    "file": "img/kendrew-quadrangle-strasse.webp",
+    "kind": "photo",
+    "caption": "Straßenseite: erhaltene Häuser und Mauer, der Neubau liegt dahinter.",
+    "source": "https://www.e-architect.com/oxford/st-johns-college",
+    "original": "https://www.e-architect.com/wp-content/uploads/2011/01/st-johns-college-oxford-building-pd1.jpg",
+    "credit": "Peter Durant (e-architect)"
+  },
+  {
+    "project": "barockgarten-heidelberg",
+    "file": "img/barockgarten-heidelberg-parterre.webp",
+    "kind": "photo",
+    "caption": "Parterre mit Rasen und Hecken im Hof des Jesuitenkollegs, umlaufender Kiesweg.",
+    "source": "https://landezine.com/baroque-garden-heidelberg-gluck-landschaftsarchitektur/",
+    "original": "https://landezine.com/wp-content/uploads/2021/03/heidelberg_barockgarten_1.jpg",
+    "credit": "Glück Landschaftsarchitektur (Landezine)"
+  },
+  {
+    "project": "barockgarten-heidelberg",
+    "file": "img/barockgarten-heidelberg-pergola.webp",
+    "kind": "photo",
+    "caption": "Pergola mit Tischen und Bänken als Arbeitsplatz am Gartenrand.",
+    "source": "https://landezine.com/baroque-garden-heidelberg-gluck-landschaftsarchitektur/",
+    "original": "https://landezine.com/wp-content/uploads/2021/03/heidelberg_barockgarten_5.jpg",
+    "credit": "Glück Landschaftsarchitektur (Landezine)"
+  },
+  {
+    "project": "barockgarten-heidelberg",
+    "file": "img/barockgarten-heidelberg-lageplan.webp",
+    "kind": "plan",
+    "caption": "Lageplan: Parterre, Pergolen und Eingangsplatz mit Hofbaum.",
+    "source": "https://landezine.com/baroque-garden-heidelberg-gluck-landschaftsarchitektur/",
+    "original": "https://landezine.com/wp-content/uploads/2021/03/heidelberg_barockgarten_lageplan.jpg",
+    "credit": "Glück Landschaftsarchitektur (Landezine)"
+  },
+  {
+    "project": "bibliothek-brixen",
+    "file": "img/bibliothek-brixen-garten.webp",
+    "kind": "photo",
+    "caption": "Lesegarten mit Holzpodesten, Kiesfläche und Stühlen vor dem verglasten Foyer.",
+    "source": "https://divisare.com/projects/474348",
+    "original": "https://images.divisare.com//images/c_limit,f_auto,h_2000,q_auto,w_3000/v1675432950/hhgr5hiikzchedfl12k2/carlana-mezzalira-pentimalli-marco-cappelletti-studio-brixen-public-library.jpg",
+    "credit": "Marco Cappelletti Studio (Divisare)"
+  },
+  {
+    "project": "bibliothek-brixen",
+    "file": "img/bibliothek-brixen-neubau.webp",
+    "kind": "photo",
+    "caption": "Neubau mit großem Fenster zum Garten, davor Rasen und Baum.",
+    "source": "https://divisare.com/projects/474348",
+    "original": "https://images.divisare.com//images/c_limit,f_auto,h_2000,q_auto,w_3000/v1675432951/nxuombkplzpw2dczcplj/carlana-mezzalira-pentimalli-marco-cappelletti-studio-brixen-public-library.jpg",
+    "credit": "Marco Cappelletti Studio (Divisare)"
+  },
+  {
+    "project": "bibliothek-brixen",
+    "file": "img/bibliothek-brixen-grundriss.webp",
+    "kind": "plan",
+    "caption": "Erdgeschoss: Neubau zwischen den Bestandsbauten, rechts der Garten.",
+    "source": "https://divisare.com/projects/474348",
+    "original": "https://images.divisare.com//images/c_limit,f_auto,h_2000,q_auto,w_3000/v1675771098/rqvh9tlajvo7tj2v6s2m/carlana-mezzalira-pentimalli-marco-cappelletti-studio-brixen-public-library.jpg",
+    "credit": "Carlana Mezzalira Pentimalli (Divisare)"
+  },
+  {
+    "project": "eth-hoenggerberg-hoefe",
+    "file": "img/eth-hoenggerberg-hof.webp",
+    "kind": "photo",
+    "caption": "Baumhain über Kies und Flusssteinen in einem der Höfe.",
+    "source": "https://vogt-la.com/eth_hoenggerberg",
+    "original": "https://www.vogt-la.com/items/uploads/images/1645786805_uldUNbasCfP.jpg",
+    "credit": "Vogt Landschaftsarchitekten (Projektquelle)"
+  },
+  {
+    "project": "eth-hoenggerberg-hoefe",
+    "file": "img/eth-hoenggerberg-plan.webp",
+    "kind": "plan",
+    "caption": "Plan: vier gleich große Höfe zwischen fünf Gebäudeflügeln, jeder mit eigener Pflanzung.",
+    "source": "https://vogt-la.com/eth_hoenggerberg",
+    "original": "https://www.vogt-la.com/items/uploads/images/1617545522_znHpOHlCkUbK.jpg",
+    "credit": "Vogt Landschaftsarchitekten (Projektquelle)"
+  }
+]

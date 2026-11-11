@@ -6,6 +6,7 @@ Arbeitsboard der Bachelorthesis „Die Bibliothek – Vom Archiv zum Kollektivra
 - Stand des Entwurfs: [konzept/stand.md](konzept/stand.md)
 - Projektkontext für KI: [llms.txt](llms.txt)
 - Geschosse verbinden: [bebilderter Referenzvergleich](html/geschossverbindungen/index.html)
+- Vorplatz und Hof: [Referenzen Vorplätze und Innenhöfe](html/vorplatz/index.html)
 - Vorübungen (abgeschlossen): [konzept/archiv/voruebungen.md](konzept/archiv/voruebungen.md)
 
 Prüfer: Prof. André Kempe, Annette Haas · Bearbeitung: Jan Andis Böhm, Luca Ingui

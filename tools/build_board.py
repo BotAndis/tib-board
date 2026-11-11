@@ -133,6 +133,7 @@ REFS = {"id": "html/referenzen/index.html", "kind": "html", "title": "Referenzen
 GESCHOSSE = {"id": "html/geschossverbindungen/index.html", "kind": "html", "title": "Geschosse verbinden · 25 Referenzen", "ext": "html",
             "size": 0, "dl": "html/geschossverbindungen/index.html", "raw": "html/geschossverbindungen/index.html",
             "url": "html/geschossverbindungen/index.html", "thumb": "thumbs/geschossverbindungen.svg", "ar": 1.4142}
+VORPLATZ = {"id": "html/vorplatz/index.html", "kind": "html", "title": "Vorplatz und Hof · 24 Referenzen", "ext": "html", "size": 0, "dl": "html/vorplatz/index.html", "raw": "html/vorplatz/index.html", "url": "html/vorplatz/index.html", "thumb": "thumbs/vorplatz.svg", "ar": 1.4142}
 KT = {"id": "html/kempe-thill/index.html", "kind": "html", "title": "Kempe Thill · Büro + Haltung", "ext": "html",
       "size": 0, "dl": "html/kempe-thill/index.html", "raw": "html/kempe-thill/index.html",
       "url": "html/kempe-thill/index.html", "thumb": "thumbs/kempe-thill.webp", "ar": 1.4286}
@@ -329,7 +330,7 @@ def main():
     w, h = Image.open(preview).size
     sections.append({"title": "Referenzen", "items": [REFS | {"thumb": preview.relative_to(REPO).as_posix(), "ar": round(w / h, 4)}]
                      + build("Referenzen", [("open", [f"{R}/*.pdf"]),
-                                                          ("stack", "Raumpilot · Grundlagen, Wohnen, Lernen, Arbeiten", [f"{R}/Raumpilot/*.pdf"])]) + [dict(GESCHOSSE)]})
+                                                          ("stack", "Raumpilot · Grundlagen, Wohnen, Lernen, Arbeiten", [f"{R}/Raumpilot/*.pdf"])]) + [dict(GESCHOSSE), dict(VORPLATZ)]})
     sections.append({"title": LEFT, "items": [dict(ZEITPLAN)]})
     sections.append({"title": KT_SEC, "items": [dict(KT)]})
 
