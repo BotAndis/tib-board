@@ -329,7 +329,7 @@ def main():
     w, h = Image.open(preview).size
     sections.append({"title": "Referenzen", "items": [REFS | {"thumb": preview.relative_to(REPO).as_posix(), "ar": round(w / h, 4)}]
                      + build("Referenzen", [("open", [f"{R}/*.pdf"]),
-                                                          ("stack", "Raumpilot · Grundlagen, Lernen, Arbeiten", [f"{R}/Raumpilot/*.pdf"])]) + [dict(GESCHOSSE)]})
+                                                          ("stack", "Raumpilot · Grundlagen, Wohnen, Lernen, Arbeiten", [f"{R}/Raumpilot/*.pdf"])]) + [dict(GESCHOSSE)]})
     sections.append({"title": LEFT, "items": [dict(ZEITPLAN)]})
     sections.append({"title": KT_SEC, "items": [dict(KT)]})
 

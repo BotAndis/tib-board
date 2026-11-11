@@ -2463,10 +2463,23 @@
    "w": 1697
   },
   {
-   "id": "stack:Referenzen:Raumpilot · Grundlagen, Lernen, Arbeiten",
+   "id": "stack:Referenzen:Raumpilot · Grundlagen, Wohnen, Lernen, Arbeiten",
    "kind": "stack",
-   "title": "Raumpilot · Grundlagen, Lernen, Arbeiten",
+   "title": "Raumpilot · Grundlagen, Wohnen, Lernen, Arbeiten",
    "items": [
+    {
+     "id": "7_Referenzen/Raumpilot/Raumpilot-Wohnen.pdf",
+     "kind": "pdf",
+     "title": "Raumpilot-Wohnen",
+     "ext": "pdf",
+     "size": 2282889,
+     "date": "11.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/7_Referenzen/Raumpilot/Raumpilot-Wohnen.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/7_Referenzen/Raumpilot/Raumpilot-Wohnen.pdf&raw=1",
+     "thumb": "thumbs/9daa621a3f70c326.webp",
+     "ar": 1.0,
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/c2fc0e1fd1644c149115/"
+    },
     {
      "id": "7_Referenzen/Raumpilot/Raumpilot-Arbeiten.pdf",
      "kind": "pdf",
