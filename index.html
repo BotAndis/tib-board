@@ -67,8 +67,9 @@ iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 #add{bottom:142px}
 .edit .card{cursor:move}
 .edit .label{cursor:move}
-.rz{display:none;position:absolute;right:-7px;bottom:-7px;width:14px;height:14px;background:var(--ink);cursor:nwse-resize}
-.edit .card:hover .rz{display:block}
+.rz{display:none;position:absolute;right:0;top:var(--h);width:calc(16px * var(--k, 1));height:calc(16px * var(--k, 1));transform:translate(50%,-50%);
+  background:#fff;border:calc(2px * var(--k, 1)) solid #2a6cff;border-radius:50%;cursor:nwse-resize;z-index:1}
+.edit .card:hover .rz,.edit .card.sel .rz{display:block}
 @media (max-width:600px){.bar{gap:12px;padding:10px 12px}}
 .kb{position:fixed;left:12px;bottom:10px;z-index:5;color:var(--mute);text-decoration:none;font-size:12px}
 .kb:hover{color:var(--ink)}
@@ -266,7 +267,7 @@ function card(item) {
   const c = el("div", "card " + item.kind); c.item = item;
   const m = media(item);
   const ar = item.ar || 1;
-  m.style.width = item.w + "px"; m.style.height = item.w / ar + "px";
+  m.style.width = item.w + "px"; m.style.height = item.w / ar + "px"; c.style.setProperty("--h", item.w / ar + "px");
   c.style.left = item.x + "px"; c.style.top = item.y + "px"; c.style.width = item.w + "px";
   c.append(m, el("div", "cap", dlLink(item) + esc(item.title) + (item.kind === "stack" ? ` · ${item.items.length}` : "")));
   c.append(el("div", "rz"));  // resize handle, shown only while unlocked (.edit)
@@ -282,6 +283,7 @@ for (const it of board.items) world.append(it.el = card(it));
 
 const view = new View(host, world, {
   onChange() {
+    world.style.setProperty("--k", 1 / view.s);  // handles keep their screen size at any zoom
     host.classList.toggle("far", view.s < .55);
     cancelTasks(view);
     sharpen(view, pdfTargets);
@@ -569,7 +571,7 @@ function undo() {
   else {
     Object.assign(o, u.before); const e = o.el; e.style.left = o.x + "px"; e.style.top = o.y + "px";
     if (e.lab) e.textContent = o.text;
-    else { const m = e.querySelector(".media"); e.style.width = m.style.width = o.w + "px"; m.style.height = o.w / (o.ar || 1) + "px"; }
+    else { const m = e.querySelector(".media"); e.style.width = m.style.width = o.w + "px"; m.style.height = o.w / (o.ar || 1) + "px"; e.style.setProperty("--h", m.style.height); }
   }
   touch(o.id); save();
 }
@@ -590,7 +592,7 @@ function editDrag(e) {
     const it = c.item, m = c.querySelector(".media"), ar = it.ar || 1;
     return { move(dx, dy) {
       before ??= { x: it.x, y: it.y, w: it.w, moved: it.moved }; touch(it.id);
-      if (rz) { it.w = Math.max(60, it.w + dx); c.style.width = m.style.width = it.w + "px"; m.style.height = it.w / ar + "px"; }
+      if (rz) { it.w = Math.max(60, it.w + dx); c.style.width = m.style.width = it.w + "px"; m.style.height = it.w / ar + "px"; c.style.setProperty("--h", m.style.height); }
       else { it.x += dx; it.y += dy; c.style.left = it.x + "px"; c.style.top = it.y + "px"; }
     }, end() {
       if (!before) return select(c, e);  // not moved: a click
