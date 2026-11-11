@@ -12414,6 +12414,23 @@
    "x": -6066,
    "y": 250,
    "w": 1714
+  },
+  {
+   "id": "uploads/grafik.png",
+   "kind": "image",
+   "title": "grafik",
+   "ext": "png",
+   "size": 355923,
+   "dl": "uploads/grafik.png",
+   "raw": "uploads/grafik.png",
+   "url": "uploads/grafik.png",
+   "x": 2559,
+   "y": 4970,
+   "w": 356,
+   "moved": true,
+   "upload": true,
+   "ar": 1.1862,
+   "thumb": "uploads/thumbs/grafik.png.webp"
   }
  ]
 }
