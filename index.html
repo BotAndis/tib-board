@@ -60,9 +60,10 @@ iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .center a{color:var(--ink)}
 .msg{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);color:var(--mute)}
 /* edit mode */
-#save,#undo,#lock{position:fixed;right:16px;bottom:16px;z-index:5;padding:8px 14px;border:1px solid var(--ink);background:#fff;font:inherit;cursor:pointer}
+#save,#undo,#lock,#add{position:fixed;right:16px;bottom:16px;z-index:5;padding:8px 14px;border:1px solid var(--ink);background:#fff;font:inherit;cursor:pointer}
 #save{bottom:58px}
 #undo{bottom:100px}
+#add{bottom:142px}
 .edit .card{cursor:move}
 .edit .label{cursor:move}
 .rz{display:none;position:absolute;right:-7px;bottom:-7px;width:14px;height:14px;background:var(--ink);cursor:nwse-resize}
@@ -602,7 +603,7 @@ function editDrag(e) {
     editing = !editing;
     document.body.classList.toggle("edit", editing);
     lock.innerHTML = editing ? OPEN : LOCKED; lock.title = editing ? "Sperren" : "Zum Bearbeiten entsperren";
-    btn.hidden = !editing; undoBtn.hidden = !editing || !undos.length;
+    btn.hidden = add.hidden = !editing; undoBtn.hidden = !editing || !undos.length;
   };
   document.body.append(lock, btn, undoBtn);
   undoBtn.onclick = undo;
@@ -626,18 +627,33 @@ function editDrag(e) {
     Object.assign(el("a"), { href: URL.createObjectURL(new Blob([json], { type: "application/json" })), download: "board.json" }).click();
   };
   host.addEventListener("dragover", e => e.preventDefault());
-  host.addEventListener("drop", async e => {
-    e.preventDefault();
-    const files = [...e.dataTransfer.files], r = host.getBoundingClientRect();  // the list empties once the event is over
-    if (!editing) return;
+  // files from a drop, Strg+V or the + button: side by side from x, y (board coordinates)
+  async function place(files, x, y) {
+    if (!files.length) return;
     if (!REPO) { btn.textContent = "Hochladen geht nur online"; return; }
-    let x = (e.clientX - r.left - view.x) / view.s;
-    const y = (e.clientY - r.top - view.y) / view.s;
     for (const [i, f] of files.entries()) {
       btn.textContent = `Lädt hoch … ${i + 1}/${files.length}`;
       try { x += await upload(f, x, y) + 40; } catch (err) { btn.textContent = `Fehler: ${err.message}`; return; }
     }
+  }
+  const at = (cx, cy) => { const r = host.getBoundingClientRect(); return [(cx - r.left - view.x) / view.s, (cy - r.top - view.y) / view.s]; };
+  const mid = () => { const r = host.getBoundingClientRect(); return at(r.left + r.width / 2, r.top + r.height / 2); };
+  host.addEventListener("drop", e => {
+    e.preventDefault();
+    if (editing) place([...e.dataTransfer.files], ...at(e.clientX, e.clientY));  // the list empties once the event is over
   });
+  addEventListener("paste", e => {
+    if (!editing || e.target.isContentEditable) return;
+    // a pasted screenshot has no real name: give it a dated one
+    const files = [...e.clipboardData.files].map(f => /^image\.\w+$/.test(f.name)
+      ? new File([f], `Einfuegen_${new Date().toISOString().slice(0, 19).replace(/\D/g, "")}.${f.type.split("/")[1]}`, { type: f.type }) : f);
+    if (files.length) { e.preventDefault(); place(files, ...mid()); }
+  });
+  const pick = Object.assign(el("input"), { type: "file", multiple: true, hidden: true });
+  const add = el("button", "", "+"); add.id = "add"; add.title = "Datei hochladen (oder hineinziehen / Strg+V)"; add.hidden = true;
+  add.onclick = () => pick.click();
+  pick.onchange = () => { place([...pick.files], ...mid()); pick.value = ""; };
+  document.body.append(add, pick);
   addEventListener("beforeunload", e => { if (REPO && (dirty.size || saving)) e.preventDefault(); });
 }
 </script>
