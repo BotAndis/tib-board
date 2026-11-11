@@ -1,4 +1,14 @@
 {
+ "walls": [
+  {
+   "id": "wall:Hängeplan",
+   "title": "Hängeplan",
+   "x": 16000,
+   "y": 250,
+   "w": 10000,
+   "h": 3000
+  }
+ ],
  "labels": [
   {
    "id": "label:Aufgabenstellung",

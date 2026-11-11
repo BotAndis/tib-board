@@ -39,6 +39,11 @@ html,body{margin:0;height:100%;overflow:hidden;background:var(--bg);color:var(--
 .count{position:absolute;right:8px;bottom:8px;background:rgba(255,255,255,.92);border-radius:10px;padding:2px 8px;font-size:12px}
 .card.sel .media{outline:3px solid #2a6cff;outline-offset:2px}
 .label{position:absolute;font-size:180px;line-height:1;font-weight:600;letter-spacing:-.025em;white-space:nowrap;user-select:none}
+/* Hängeplan wall: 1 board px = 1 mm, a tick every metre along the floor */
+.wall{position:absolute;background:#f3f2ee repeating-linear-gradient(90deg,#b9b6ae 0 6px,transparent 6px 1000px) 0 100%/100% 60px no-repeat;outline:2px solid #d9d7d1}
+.wall .wt{left:0;top:-250px}
+.wt small{font-size:80px;font-weight:400;letter-spacing:0;color:var(--mute);margin-left:40px}
+.guide{position:absolute;background:#e5332a;pointer-events:none;z-index:3}
 /* overlay */
 #ov{position:fixed;inset:0;background:var(--bg);display:flex;flex-direction:column;z-index:10;overflow:hidden}
 #ov[hidden]{display:none}
@@ -116,7 +121,7 @@ class View {
         const [a, b] = [...pts.values()], d = Math.hypot(a.x - b.x, a.y - b.y), r = host.getBoundingClientRect();
         this.x += dx / 2; this.y += dy / 2;
         this.zoomAt((a.x + b.x) / 2 - r.left, (a.y + b.y) / 2 - r.top, d / pinch.d); pinch.d = d;
-      } else if (drag) drag.move(dx / this.s, dy / this.s);
+      } else if (drag) drag.move(dx / this.s, dy / this.s, e);
       else { host.classList.add("panning"); this.x += dx; this.y += dy; this.apply(); }
     });
     const up = e => {
@@ -278,8 +283,18 @@ function card(item) {
 function label(l) {
   const e = el("div", "label", esc(l.text)); e.style.left = l.x + "px"; e.style.top = l.y + "px"; e.lab = l; return l.el = e;
 }
+const m2 = mm => (mm / 1000).toLocaleString("de-DE", { minimumFractionDigits: 2 });
+function wallEl(w) {
+  const e = el("div", "wall"); e.wl = w;
+  Object.assign(e.style, { left: w.x + "px", top: w.y + "px", width: w.w + "px", height: w.h + "px" });
+  e.append(el("div", "label wt", `${esc(w.title)}<small>${m2(w.w)} × ${m2(w.h)} m</small>`));
+  return w.el = e;
+}
+board.walls ??= [];
+for (const w of board.walls) world.append(wallEl(w));
 for (const l of board.labels) world.append(label(l));
 for (const it of board.items) world.append(it.el = card(it));
+const gX = el("div", "guide"), gY = el("div", "guide"); gX.hidden = gY.hidden = true; world.append(gX, gY);
 
 const view = new View(host, world, {
   onChange() {
@@ -435,6 +450,10 @@ function sync(mine, theirs, make) {
   return out;
 }
 function apply(nb) {
+  const nw = nb.walls || [];
+  if (!board.walls.some(w => dirty.has(w.id)) && JSON.stringify(nw) !== JSON.stringify(board.walls.map(strip))) {
+    board.walls.forEach(w => w.el.remove()); board.walls = nw; nw.forEach(w => world.prepend(wallEl(w)));
+  }
   board.labels = sync(board.labels, nb.labels, label);
   board.items = sync(board.items, nb.items.filter(i => !gone.has(i.id)), n => {
     const c = n.el = card(n);
@@ -493,8 +512,9 @@ async function push() {
       const m = ids.has(o.id) && mine.get(o.id);
       if (m) for (const k of ["x", "y", "w", "text", "moved"]) if (k in m) o[k] = m[k];
     }
-    for (const id of ids.keys()) if (mine.get(id)?.upload && !nb.items.some(i => i.id === id)) nb.items.push(strip(mine.get(id)));
+    for (const id of ids.keys()) if ((mine.get(id)?.upload || mine.get(id)?.hp) && !nb.items.some(i => i.id === id)) nb.items.push(strip(mine.get(id)));
     nb.items = nb.items.filter(i => !gone.has(i.id));
+    if (board.walls.some(w => ids.has(w.id))) nb.walls = board.walls.map(strip);
     const r = await gh("contents/board.json", { method: "PUT", body: JSON.stringify({ message: "Board-Layout", sha,
       content: b64(new TextEncoder().encode(JSON.stringify(nb, null, 1))) }) });
     if (r.ok) {
@@ -528,10 +548,10 @@ async function putNew(path, blob) {  // never replaces a file in the repo: a tak
   throw new Error("kein freier Name für " + path);
 }
 async function thumbOf(file, kind) {  // same sizes as build_board.py: PDFs 1100 px, images 720 px on the long side
-  let c;
+  let c, pt;  // pt: page width in points, for the paper size on the wall
   if (kind === "pdf") {
     const doc = await (await pdfjs()).getDocument({ data: new Uint8Array(await file.arrayBuffer()), isEvalSupported: false }).promise;
-    const page = await doc.getPage(1), v1 = page.getViewport({ scale: 1 });
+    const page = await doc.getPage(1), v1 = page.getViewport({ scale: 1 }); pt = v1.width;
     const vp = page.getViewport({ scale: 1100 / Math.max(v1.width, v1.height) });
     c = Object.assign(el("canvas"), { width: Math.round(vp.width), height: Math.round(vp.height) });
     await page.render({ canvasContext: c.getContext("2d"), viewport: vp, background: "#fff" }).promise;
@@ -541,11 +561,12 @@ async function thumbOf(file, kind) {  // same sizes as build_board.py: PDFs 1100
     c = Object.assign(el("canvas"), { width: Math.round(b.width * z), height: Math.round(b.height * z) });
     const g = c.getContext("2d"); g.fillStyle = "#fff"; g.fillRect(0, 0, c.width, c.height); g.drawImage(b, 0, 0, c.width, c.height);
   } else return null;
-  return { blob: await new Promise(r => c.toBlob(r, "image/webp", .82)), ar: +(c.width / c.height).toFixed(4) };
+  return { blob: await new Promise(r => c.toBlob(r, "image/webp", .82)), ar: +(c.width / c.height).toFixed(4), pt };
 }
 const KIND = { pdf: "pdf", jpg: "image", jpeg: "image", png: "image", webp: "image", stl: "model", glb: "model" };  // .3mf: download card, as in build_board.py
 // file -> uploads/ in the repo (+ thumbnail) and a card where it was dropped; returns the card width
-async function upload(file, x, y) {
+// old: the card it replaces (right click): same place and height, on the wall at paper size
+async function upload(file, x, y, old) {
   if (file.size > 50e6) throw new Error(`${file.name} ist größer als 50 MB`);
   const ext = file.name.includes(".") ? file.name.split(".").pop().toLowerCase() : "", kind = KIND[ext] || "file";
   const t = await thumbOf(file, kind).catch(() => null);  // unreadable file: card without preview
@@ -554,6 +575,11 @@ async function upload(file, x, y) {
   const it = { id: path, kind, title: file.name.replace(/\.[^.]+$/, "").replace(/_/g, " "), ext, size: file.size,
     dl: path, raw: path, url: path, x: Math.round(x), y: Math.round(y), w: 300, moved: true, upload: true };
   if (t) Object.assign(it, { ar: t.ar, w: Math.round(300 * t.ar), thumb: URL.createObjectURL(t.blob) });
+  if (old) {
+    it.w = Math.round(old.hp && t?.pt ? t.pt * 25.4 / 72 : old.w / (old.ar || 1) * (it.ar || 1));
+    if (old.hp) Object.assign(it, { hp: true, section: "Hängeplan" });
+    gone.add(old.id); old.el.remove(); board.items.splice(board.items.indexOf(old), 1); touch(old.id); remember(old.id, null, old);
+  }
   touch(it.id); board.items.push(it); world.append(it.el = card(it)); remember(it.id);
   if (t) it.thumb = thumb;  // the card keeps showing the local copy until Pages has the repo one
   if (kind === "model") io.observe(it.el.querySelector(".media"));
@@ -563,15 +589,20 @@ async function upload(file, x, y) {
 
 // Strg+Z: one entry per move / resize / rename / upload, by id, so a newer copy from a live update still matches
 const undos = [], undoBtn = el("button", "", "↶"); undoBtn.id = "undo"; undoBtn.title = "Rückgängig (Strg+Z)"; undoBtn.hidden = true;
-function remember(id, before) { undos.push({ id, before }); undoBtn.hidden = false; }  // no before: an upload
+// no before: an upload / a sheet hung on the wall; removed: a sheet taken off the wall
+function remember(id, before, removed) { undos.push({ id, before, removed }); undoBtn.hidden = false; }
+function setBox(it) {
+  const c = it.el, m = c.querySelector(".media");
+  c.style.left = it.x + "px"; c.style.top = it.y + "px"; c.style.width = m.style.width = it.w + "px"; m.style.height = it.w / (it.ar || 1) + "px"; c.style.setProperty("--h", m.style.height);
+}
 function undo() {
   const u = undos.pop(); undoBtn.hidden = !undos.length;
+  if (u?.removed) { gone.delete(u.id); board.items.push(u.removed); world.append(u.removed.el = card(u.removed)); touch(u.id); save(); return; }
   const o = u && [...board.items, ...board.labels].find(i => i.id === u.id); if (!o) return;
   if (!u.before) { gone.add(o.id); o.el.remove(); board.items.splice(board.items.indexOf(o), 1); }
   else {
-    Object.assign(o, u.before); const e = o.el; e.style.left = o.x + "px"; e.style.top = o.y + "px";
-    if (e.lab) e.textContent = o.text;
-    else { const m = e.querySelector(".media"); e.style.width = m.style.width = o.w + "px"; m.style.height = o.w / (o.ar || 1) + "px"; e.style.setProperty("--h", m.style.height); }
+    Object.assign(o, u.before);
+    if (o.el.lab) { o.el.textContent = o.text; o.el.style.left = o.x + "px"; o.el.style.top = o.y + "px"; } else setBox(o);
   }
   touch(o.id); save();
 }
@@ -585,18 +616,76 @@ function select(t, e) {
   if (sel.has(c.item)) { sel.delete(c.item); c.classList.remove("sel"); } else { sel.add(c.item); c.classList.add("sel"); }
 }
 
+/* ---------- Hängeplan: the wall is in mm, sheets hang at paper size and snap to each other ---------- */
+const EYE = 1550, GAP = 100;  // sheet centres at eye height above the floor; gap between sheets until the wall has its own rhythm
+const wallAt = (x, y) => board.walls.find(w => x > w.x && x < w.x + w.w && y > w.y && y < w.y + w.h);
+const wallOf = i => wallAt(i.x + i.w / 2, i.y + i.w / (i.ar || 1) / 2);
+function hang(src) {  // a copy for the wall: the original stays in its section
+  const { el: _, x, y, section, ...rest } = src, ar = src.ar || 1;
+  const it = { ...rest, id: `hp:${Date.now().toString(36)}:${src.id}`, hp: true, moved: true, section: "Hängeplan",
+    x: 0, y: 0, w: Math.round(ar >= 1 ? 594 : 594 * ar) };  // no paper size known: A2 long side
+  board.items.push(it); world.insertBefore(it.el = card(it), gX);
+  if (it.kind === "pdf" && it.url) getDoc(it.url).then(d => d.getPage(1)).then(p => {
+    if (!board.items.includes(it)) return;
+    it.w = Math.round(p.getViewport({ scale: 1 }).width * 25.4 / 72); setBox(it); touch(it.id); save();
+  }).catch(err => console.warn("pdf", err));
+  return it;
+}
+function guides(w, x, y) {
+  const px = 3 / view.s; gX.hidden = x == null; gY.hidden = y == null;
+  if (x != null) Object.assign(gX.style, { left: x - px / 2 + "px", top: w.y + "px", width: px + "px", height: w.h + "px" });
+  if (y != null) Object.assign(gY.style, { left: w.x + "px", top: y - px / 2 + "px", width: w.w + "px", height: px + "px" });
+}
+function snap(it, w) {  // edges, centres and the gaps already used on this wall; within 12 screen px
+  const H = it.w / (it.ar || 1), t = 12 / view.s;
+  const os = board.items.filter(o => o !== it && o.kind !== "stack" && wallOf(o) === w).map(o => ({ x: o.x, y: o.y, w: o.w, h: o.w / (o.ar || 1) }));
+  const gx = [GAP], gy = [GAP];
+  for (const p of os) for (const q of os) {
+    if (p.y < q.y + q.h && q.y < p.y + p.h && q.x > p.x + p.w) gx.push(q.x - p.x - p.w);
+    if (p.x < q.x + q.w && q.x < p.x + p.w && q.y > p.y + p.h) gy.push(q.y - p.y - p.h);
+  }
+  const cx = [[w.x + w.w / 2, .5]], cy = [[w.y + w.h - EYE, .5]];  // [where, which part of the sheet: 0 start, .5 centre, 1 end]
+  for (const o of os) {
+    cx.push([o.x, 0], [o.x + o.w, 1], [o.x + o.w / 2, .5], [o.x, 1], [o.x + o.w, 0]);
+    cy.push([o.y, 0], [o.y + o.h, 1], [o.y + o.h / 2, .5], [o.y, 1], [o.y + o.h, 0]);
+    if (o.y < it.y + H && it.y < o.y + o.h) for (const g of gx) cx.push([o.x + o.w + g, 0], [o.x - g, 1]);  // same row
+    if (o.x < it.x + it.w && it.x < o.x + o.w) for (const g of gy) cy.push([o.y + o.h + g, 0], [o.y - g, 1]);  // same column
+  }
+  const best = (c, p, s) => c.reduce((b, [v, k]) => { const d = Math.abs(v - p - k * s); return d < b.d ? { d, to: v - k * s, line: v } : b; }, { d: t });
+  const bx = best(cx, it.x, it.w), by = best(cy, it.y, H);
+  if (bx.to != null) it.x = bx.to;
+  if (by.to != null) it.y = by.to;
+  guides(w, bx.line, by.line);
+}
+
 function editDrag(e) {
-  const rz = e.target.closest(".rz"), c = e.target.closest(".card"), lab = e.target.closest(".label");
+  const rz = e.target.closest(".rz"), c = e.target.closest(".card"), lab = e.target.closest(".label:not(.wt)");
   let before;  // set on the first move, so a plain click changes nothing
   if (c) {
-    const it = c.item, m = c.querySelector(".media"), ar = it.ar || 1;
-    return { move(dx, dy) {
+    let it = c.item, rx = it.x, ry = it.y, hung = false;  // rx/ry: where the pointer put it, before snapping
+    return { move(dx, dy, ev) {
       before ??= { x: it.x, y: it.y, w: it.w, moved: it.moved }; touch(it.id);
-      if (rz) { it.w = Math.max(60, it.w + dx); c.style.width = m.style.width = it.w + "px"; m.style.height = it.w / ar + "px"; c.style.setProperty("--h", m.style.height); }
-      else { it.x += dx; it.y += dy; c.style.left = it.x + "px"; c.style.top = it.y + "px"; }
+      if (rz) { it.w = Math.max(60, it.w + dx); setBox(it); return; }
+      rx += dx; ry += dy;
+      const h = it.w / (it.ar || 1), w = wallAt(rx + it.w / 2, ry + h / 2);
+      if (w && !it.hp && !hung && it.kind !== "stack") {
+        const cx = rx + it.w / 2, cy = ry + h / 2;
+        Object.assign(it, before); setBox(it);
+        it = hang(it); rx = cx - it.w / 2; ry = cy - it.w / (it.ar || 1) / 2; hung = true; touch(it.id);
+      }
+      it.x = rx; it.y = ry;
+      if (w && !ev?.altKey) snap(it, w); else guides();  // Alt: place freely
+      setBox(it);
     }, end() {
+      guides();
       if (!before) return select(c, e);  // not moved: a click
-      it.x = Math.round(it.x); it.y = Math.round(it.y); it.w = Math.round(it.w); it.moved = true; remember(it.id, before); save();
+      it.x = Math.round(it.x); it.y = Math.round(it.y); it.w = Math.round(it.w);
+      if (hung) remember(it.id);
+      else if (it.hp && !rz && !wallOf(it)) {  // dragged off the wall: the copy goes
+        gone.add(it.id); it.el.remove(); board.items.splice(board.items.indexOf(it), 1);
+        remember(it.id, null, Object.assign(it, before));
+      } else { it.moved = true; remember(it.id, before); }
+      save();
     } };
   }
   if (lab && !lab.isContentEditable) {
@@ -624,6 +713,13 @@ function editDrag(e) {
     if (editing && (e.ctrlKey || e.metaKey) && !e.shiftKey && e.key.toLowerCase() === "z" && !e.target.isContentEditable) { e.preventDefault(); undo(); }
   });
   world.addEventListener("dblclick", e => {
+    const wt = editing && e.target.closest(".wt");
+    if (wt) {  // wall size in metres
+      const w = wt.parentNode.wl, s = prompt("Wand in m (Breite × Höhe):", `${m2(w.w)} × ${m2(w.h)}`);
+      const [a, b] = (s || "").replace(/,/g, ".").match(/\d+(\.\d+)?/g) || [];
+      if (+a > 0 && +b > 0) { w.w = Math.round(a * 1000); w.h = Math.round(b * 1000); w.el.replaceWith(wallEl(w)); touch(w.id); save(); }
+      return;
+    }
     const lab = editing && e.target.closest(".label"); if (!lab) return;
     const before = { text: lab.lab.text };
     touch(lab.lab.id); lab.contentEditable = "true"; lab.focus();
@@ -636,9 +732,21 @@ function editDrag(e) {
   btn.onclick = () => {
     if (REPO) return save(true);
     // local: hand the file over
-    const json = JSON.stringify({ labels: board.labels.map(strip), items: board.items.map(strip) }, null, 1);
+    const json = JSON.stringify({ walls: board.walls.map(strip), labels: board.labels.map(strip), items: board.items.map(strip) }, null, 1);
     Object.assign(el("a"), { href: URL.createObjectURL(new Blob([json], { type: "application/json" })), download: "board.json" }).click();
   };
+  world.addEventListener("contextmenu", e => {  // right click on a card: replace it with another file
+    const c = editing && e.target.closest(".card"); if (!c || c.item.kind === "stack") return;
+    e.preventDefault();
+    if (!REPO) { btn.textContent = "Ersetzen geht nur online"; return; }
+    const inp = Object.assign(el("input"), { type: "file" }), old = c.item;
+    inp.onchange = async () => {
+      if (!inp.files[0]) return;
+      btn.textContent = "Ersetzt …";
+      try { await upload(inp.files[0], old.x, old.y, old); } catch (err) { btn.textContent = `Fehler: ${err.message}`; }
+    };
+    inp.click();
+  });
   host.addEventListener("dragover", e => e.preventDefault());
   // files from a drop, Strg+V or the + button: side by side from x, y (board coordinates)
   async function place(files, x, y) {

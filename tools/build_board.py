@@ -394,10 +394,10 @@ def layout(sections):
         k = by.get(KT_SEC)
         if k:  # the office page sits left of the Zeitplan
             flow(k, x0 - round(ROW_H * 4 * k["items"][0]["ar"]) - 1000, 0)
-    # files dropped onto the board online live in the repo (uploads/), not in the Seafile tree: keep them where they lie
+    # files dropped onto the board online (uploads/) and sheets hung on the Hängeplan wall (hp) stay where they lie
     ids = {i["id"] for i in items}
-    items += [i for i in old.get("items", []) if i.get("upload") and i["id"] not in ids]
-    board.write_text(json.dumps({"labels": labels, "items": items}, ensure_ascii=False, indent=1), encoding="utf-8")
+    items += [i for i in old.get("items", []) if (i.get("upload") or i.get("hp")) and i["id"] not in ids]
+    board.write_text(json.dumps({"walls": old.get("walls", []), "labels": labels, "items": items}, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
 def relayout():
@@ -406,7 +406,7 @@ def relayout():
     labs = sorted(old["labels"], key=lambda l: l["y"])
     groups = {l["text"]: [] for l in labs}
     names = {l["text"]: l["id"][len("label:"):] for l in labs}
-    for it in sorted((i for i in old["items"] if not i.get("upload")), key=lambda i: (i["y"], i["x"])):  # layout() keeps uploads
+    for it in sorted((i for i in old["items"] if not (i.get("upload") or i.get("hp"))), key=lambda i: (i["y"], i["x"])):  # layout() keeps uploads + wall sheets
         # boards written before the "section" field: plain vertical bands under each label
         sec = it.get("section") or names[[l for l in labs if l["y"] <= it["y"]][-1]["text"]]
         groups.setdefault(sec, []).append(it)
