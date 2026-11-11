@@ -37,6 +37,7 @@ html,body{margin:0;height:100%;overflow:hidden;background:var(--bg);color:var(--
   color:var(--mute);font-size:12px;text-transform:uppercase}
 .mosaic img{width:100%;height:100%;object-fit:contain;background:#fff}
 .count{position:absolute;right:8px;bottom:8px;background:rgba(255,255,255,.92);border-radius:10px;padding:2px 8px;font-size:12px}
+.card.sel .media{outline:3px solid #2a6cff;outline-offset:2px}
 .label{position:absolute;font-size:180px;line-height:1;font-weight:600;letter-spacing:-.025em;white-space:nowrap;user-select:none}
 /* overlay */
 #ov{position:fixed;inset:0;background:var(--bg);display:flex;flex-direction:column;z-index:10;overflow:hidden}
@@ -285,8 +286,8 @@ const view = new View(host, world, {
     cancelTasks(view);
     sharpen(view, pdfTargets);
   },
-  onClick(t) {
-    if (editing) return;
+  onClick(t, e) {
+    if (editing) return select(t, e);
     const a = t.closest?.("a.dl"); if (a) { location.href = a.href; return; }  // pointer capture on the host swallows the link's own click
     const c = t.closest?.(".card"); if (c) openItem(c.item, siblingsOf(c.item));
   },
@@ -573,6 +574,15 @@ function undo() {
   touch(o.id); save();
 }
 
+// selection for Strg+C: click picks one card, Shift+click adds or removes, a click on empty board clears
+const sel = new Set();
+function select(t, e) {
+  const c = t.closest?.(".card");
+  if (!e?.shiftKey) { for (const s of sel) s.el.classList.remove("sel"); sel.clear(); }
+  if (!c) return;
+  if (sel.has(c.item)) { sel.delete(c.item); c.classList.remove("sel"); } else { sel.add(c.item); c.classList.add("sel"); }
+}
+
 function editDrag(e) {
   const rz = e.target.closest(".rz"), c = e.target.closest(".card"), lab = e.target.closest(".label");
   let before;  // set on the first move, so a plain click changes nothing
@@ -583,7 +593,7 @@ function editDrag(e) {
       if (rz) { it.w = Math.max(60, it.w + dx); c.style.width = m.style.width = it.w + "px"; m.style.height = it.w / ar + "px"; }
       else { it.x += dx; it.y += dy; c.style.left = it.x + "px"; c.style.top = it.y + "px"; }
     }, end() {
-      if (!before) return;
+      if (!before) return select(c, e);  // not moved: a click
       it.x = Math.round(it.x); it.y = Math.round(it.y); it.w = Math.round(it.w); it.moved = true; remember(it.id, before); save();
     } };
   }
@@ -604,6 +614,7 @@ function editDrag(e) {
     document.body.classList.toggle("edit", editing);
     lock.innerHTML = editing ? OPEN : LOCKED; lock.title = editing ? "Sperren" : "Zum Bearbeiten entsperren";
     btn.hidden = add.hidden = !editing; undoBtn.hidden = !editing || !undos.length;
+    if (!editing) select({});
   };
   document.body.append(lock, btn, undoBtn);
   undoBtn.onclick = undo;
@@ -647,8 +658,32 @@ function editDrag(e) {
     // a pasted screenshot has no real name: give it a dated one
     const files = [...e.clipboardData.files].map(f => /^image\.\w+$/.test(f.name)
       ? new File([f], `Einfuegen_${new Date().toISOString().slice(0, 19).replace(/\D/g, "")}.${f.type.split("/")[1]}`, { type: f.type }) : f);
-    if (files.length) { e.preventDefault(); place(files, ...mid()); }
+    if (files.length) { e.preventDefault(); place(files, ...mid()); return; }
+    const text = e.clipboardData.getData("text/plain");
+    if (text.startsWith(CLIP)) { e.preventDefault(); paste(JSON.parse(text.slice(CLIP.length))); }
   });
+  // Strg+C puts the selected cards on the system clipboard as a marker + their data, so pasting works in another tab too
+  const CLIP = "tib-board:";
+  addEventListener("copy", e => {
+    if (!editing || !sel.size || e.target.isContentEditable) return;
+    e.preventDefault();
+    e.clipboardData.setData("text/plain", CLIP + JSON.stringify([...sel].map(strip)));
+  });
+  // copies point at the same files (nothing uploaded again) and sit together in the middle of the view
+  function paste(items) {
+    const x0 = Math.min(...items.map(i => i.x)), y0 = Math.min(...items.map(i => i.y));
+    const w = Math.max(...items.map(i => i.x + i.w)) - x0, h = Math.max(...items.map(i => i.y + i.w / (i.ar || 1))) - y0;
+    const [mx, my] = mid(), stamp = Date.now().toString(36);
+    select({});
+    items.forEach((o, n) => {
+      const it = { ...o, id: o.id.replace(/[^/]*$/, `kopie-${stamp}${n}/$&`), moved: true, upload: true,
+        x: Math.round(mx - w / 2 + o.x - x0), y: Math.round(my - h / 2 + o.y - y0) };
+      touch(it.id); board.items.push(it); world.append(it.el = card(it)); remember(it.id);
+      if (it.kind === "model" && it.url) io.observe(it.el.querySelector(".media"));
+      select(it.el, { shiftKey: true });
+    });
+    save(true);
+  }
   const pick = Object.assign(el("input"), { type: "file", multiple: true, hidden: true });
   const add = el("button", "", "+"); add.id = "add"; add.title = "Datei hochladen (oder hineinziehen / Strg+V)"; add.hidden = true;
   add.onclick = () => pick.click();
