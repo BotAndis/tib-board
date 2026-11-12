@@ -67,6 +67,7 @@ iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .msg{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);color:var(--mute)}
 /* pen: draw on a plan in the overlay */
 #ovpen.on{color:#e5332a}
+#ovaxes.off{color:var(--mute);text-decoration:line-through}
 .host.drawing{cursor:crosshair}
 .marks{position:absolute;left:0;top:0;width:1px;height:1px;overflow:visible;pointer-events:none;z-index:1}
 .pen{flex:none;display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;padding:8px 16px;border-bottom:1px solid var(--line);background:var(--bg)}
@@ -110,6 +111,7 @@ iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 <div class="host" id="board"><div class="world" id="world"></div></div>
 <div id="ov" hidden>
   <div class="bar"><button id="ovback" title="Zurück">←</button><span class="t" id="ovtitle"></span>
+    <button id="ovaxes" title="Achsraster ein / aus" hidden>Achsen</button>
     <button id="ovpen" title="Zeichnen" hidden>✎ Zeichnen</button>
     <a id="ovdl" target="_blank" rel="noopener">Download</a><button id="ovclose" title="Schließen">✕</button></div>
   <div class="pen" id="pen" hidden>
@@ -228,7 +230,7 @@ async function sharpen(view, targets) {
       const c = el("canvas", "hi"); c.width = Math.round((x1 - x0) * dpr); c.height = Math.round((y1 - y0) * dpr);
       Object.assign(c.style, { left: (x0 - r.left) / r.width * 100 + "%", top: (y0 - r.top) / r.height * 100 + "%",
         width: (x1 - x0) / r.width * 100 + "%", height: (y1 - y0) / r.height * 100 + "%" });
-      const task = page.render({ canvasContext: c.getContext("2d"), viewport: vp, background: "#fff",
+      const task = page.render({ canvasContext: c.getContext("2d"), viewport: vp, background: "#fff", optionalContentConfigPromise: t.oc,
         transform: [1, 0, 0, 1, -(x0 - r.left) * dpr, -(y0 - r.top) * dpr] });
       view.tasks = (view.tasks || []).concat(task);
       await task.promise;
@@ -403,8 +405,9 @@ addEventListener("keydown", e => {
   }
 });
 
+let axesOn = true;  // Achsraster in the fullscreen PDF view, kept while browsing plans
 function show() {
-  dispose?.(); dispose = null; body.innerHTML = ""; ov.hidden = false; penCtx = null; penShow();
+  dispose?.(); dispose = null; body.innerHTML = ""; ov.hidden = false; $("#ovaxes").hidden = true; penCtx = null; penShow();
   const { item } = levels.at(-1);
   const name = item.kind === "stack" ? item.title : item.id.split("/").pop();
   $("#ovtitle").textContent = [name, item.date, item.size && mb(item.size)].filter(Boolean).join("  ·  ");
@@ -425,13 +428,20 @@ async function showPdf(item) {
   const targets = [], pages = [];
   dispose = () => cancelTasks(v);
   try {
-    const doc = await getDoc(item.url); let y = 0, maxW = 0;
+    const doc = await getDoc(item.url), oc = await doc.getOptionalContentConfig(), ocp = Promise.resolve(oc); let y = 0, maxW = 0;
+    // plan exports carry the grid as PDF layer "Achsraster" (export.py); the bar button hides it here only
+    const grid = Object.entries(oc.getGroups() || {}).find(([, g]) => g.name === "Achsraster")?.[0];
+    if (grid) {
+      const sync = () => { oc.setVisibility(grid, axesOn); $("#ovaxes").classList.toggle("off", !axesOn); };
+      sync(); $("#ovaxes").hidden = false;
+      $("#ovaxes").onclick = () => { axesOn = !axesOn; sync(); v.gen++; cancelTasks(v); sharpen(v, targets); };
+    }
     for (let n = 1; n <= doc.numPages; n++) {
       const page = await doc.getPage(n), vp = page.getViewport({ scale: 1 });
       const p = el("div", "page"); Object.assign(p.style, { left: 0, top: y + "px", width: vp.width + "px", height: vp.height + "px" });
       if (n === 1 && item.thumb) p.append(Object.assign(el("img"), { src: item.thumb, alt: "" }));
-      w.append(p); targets.push({ box: p, page: () => Promise.resolve(page), minPx: 0 });
-      pages.push({ y, h: vp.height, art: () => pageArt(page) });
+      w.append(p); targets.push({ box: p, page: () => Promise.resolve(page), minPx: 0, oc: ocp });
+      pages.push({ y, h: vp.height, art: () => pageArt(page, ocp) });
       y += vp.height + 24; maxW = Math.max(maxW, vp.width);
     }
     note.remove();
@@ -621,10 +631,10 @@ function penShow() {
   penCtx?.v.host.classList.toggle("drawing", on); penCtx?.v.host.classList.toggle("sel", pen.tool === "sel");
 }
 function penUndo() { const P = penCtx, s = P.undo.pop(); if (!s) return; Object.assign(P, JSON.parse(s)); P.sel.clear(); keepPen(); penDraw(); layersUI(); scaleUI(); }
-async function pageArt(page) {
+async function pageArt(page, oc) {
   const v1 = page.getViewport({ scale: 1 }), k = Math.min(4, Math.sqrt(CAP / (v1.width * v1.height))), vp = page.getViewport({ scale: k });
   const c = Object.assign(el("canvas"), { width: Math.floor(vp.width), height: Math.floor(vp.height) });
-  await page.render({ canvasContext: c.getContext("2d"), viewport: vp, background: "#fff" }).promise;
+  await page.render({ canvasContext: c.getContext("2d"), viewport: vp, background: "#fff", optionalContentConfigPromise: oc }).promise;
   return [c, k];
 }
 async function penSave() {
