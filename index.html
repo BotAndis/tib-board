@@ -65,6 +65,19 @@ iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .center{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;color:var(--mute)}
 .center a{color:var(--ink)}
 .msg{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);color:var(--mute)}
+/* pen: draw on a plan in the overlay */
+#ovpen.on{color:#e5332a}
+.host.drawing{cursor:crosshair}
+.marks{position:absolute;left:0;top:0;width:1px;height:1px;overflow:visible;pointer-events:none;z-index:1}
+.pen{flex:none;display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;padding:8px 16px;border-bottom:1px solid var(--line);background:var(--bg)}
+.pen[hidden]{display:none}
+.pen button{background:none;border:1px solid transparent;font:inherit;color:var(--ink);cursor:pointer;padding:3px 8px}
+.pen button.on{border-color:var(--ink)}
+.pen .sw{width:22px;height:22px;padding:0;background:var(--c);border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 1px var(--line)}
+.pen .sw.on{border-color:#fff;box-shadow:0 0 0 2px var(--ink)}
+.pen .sep{width:1px;height:20px;background:var(--line)}
+.pen input[type=color]{width:26px;height:24px;padding:0;border:0;background:none;cursor:pointer}
+.pen label{display:flex;align-items:center;gap:6px;color:var(--mute)}
 /* edit mode */
 #save,#undo,#lock,#add{position:fixed;right:16px;bottom:16px;z-index:5;padding:8px 14px;border:1px solid var(--ink);background:#fff;font:inherit;cursor:pointer}
 #save{bottom:58px}
@@ -87,7 +100,25 @@ iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 <div class="host" id="board"><div class="world" id="world"></div></div>
 <div id="ov" hidden>
   <div class="bar"><button id="ovback" title="Zurück">←</button><span class="t" id="ovtitle"></span>
+    <button id="ovpen" title="Zeichnen" hidden>✎ Zeichnen</button>
     <a id="ovdl" target="_blank" rel="noopener">Download</a><button id="ovclose" title="Schließen">✕</button></div>
+  <div class="pen" id="pen" hidden>
+    <button data-tool="pen" class="on" title="Stift (Shift: gerade Linie)">Stift</button>
+    <button data-tool="rect" title="Rechteck (Shift: Quadrat)">Rechteck</button>
+    <span class="sep"></span>
+    <button class="sw on" data-c="#e5332a" style="--c:#e5332a" title="Rot"></button>
+    <button class="sw" data-c="#2a6cff" style="--c:#2a6cff" title="Blau"></button>
+    <button class="sw" data-c="#1a9e4b" style="--c:#1a9e4b" title="Grün"></button>
+    <button class="sw" data-c="#ffc400" style="--c:#ffc400" title="Gelb"></button>
+    <button class="sw" data-c="#1a1a1a" style="--c:#1a1a1a" title="Schwarz"></button>
+    <input type="color" id="pencolor" value="#e5332a" title="Eigene Farbe">
+    <span class="sep"></span>
+    <button data-w="1">1 px</button><button data-w="3" class="on">3 px</button><button data-w="5">5 px</button><button data-w="10">10 px</button>
+    <span class="sep"></span>
+    <label title="Füllung des Rechtecks">Füllung <input type="range" id="penfill" min="0" max="100" step="5" value="0"><span id="penfillv">0 %</span></label>
+    <span class="sep"></span>
+    <button id="penundo" title="Rückgängig (Strg+Z)">↶</button><button id="penclear">Leeren</button><button id="pensave">Als PNG speichern</button>
+  </div>
   <div id="ovbody"></div>
 </div>
 <script type="module">
@@ -336,11 +367,12 @@ function openItem(item, list) {
   levels.push({ item, list }); show();
 }
 function back() { levels.pop(); levels.length ? show() : close(); }
-function close() { levels.length = 0; dispose?.(); dispose = null; body.innerHTML = ""; ov.hidden = true; }
+function close() { levels.length = 0; dispose?.(); dispose = null; body.innerHTML = ""; ov.hidden = true; pen.on = false; penCtx = null; penShow(); }
 $("#ovclose").onclick = close; $("#ovback").onclick = back;
 addEventListener("keydown", e => {
   if (ov.hidden) return;
   if (e.key === "Escape") back();
+  if (pen.on && penCtx && (e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "z") { e.preventDefault(); penUndo(); return; }
   const top = levels.at(-1);
   if ((e.key === "ArrowRight" || e.key === "ArrowLeft") && top?.list && top.item.kind !== "stack") {
     const L = top.list.filter(i => i.kind !== "file"), i = L.indexOf(top.item);
@@ -350,7 +382,7 @@ addEventListener("keydown", e => {
 });
 
 function show() {
-  dispose?.(); dispose = null; body.innerHTML = ""; ov.hidden = false;
+  dispose?.(); dispose = null; body.innerHTML = ""; ov.hidden = false; penCtx = null; penShow();
   const { item } = levels.at(-1);
   const name = item.kind === "stack" ? item.title : item.id.split("/").pop();
   $("#ovtitle").textContent = [name, item.date, item.size && mb(item.size)].filter(Boolean).join("  ·  ");
@@ -367,8 +399,8 @@ function zoomHost() {
 async function showPdf(item) {
   if (!item.url) { body.append(el("div", "center", `Noch nicht verlinkt. <a href="${esc(item.dl)}">Download</a>`)); return; }
   const [h, w] = zoomHost(), note = el("div", "msg", "Lädt …"); body.append(note);
-  const v = new View(h, w, { onChange: () => { cancelTasks(v); sharpen(v, targets); } });
-  const targets = [];
+  const v = new View(h, w, { onChange: () => { cancelTasks(v); sharpen(v, targets); }, onDrag: penDrag });
+  const targets = [], pages = [];
   dispose = () => cancelTasks(v);
   try {
     const doc = await getDoc(item.url); let y = 0, maxW = 0;
@@ -377,10 +409,12 @@ async function showPdf(item) {
       const p = el("div", "page"); Object.assign(p.style, { left: 0, top: y + "px", width: vp.width + "px", height: vp.height + "px" });
       if (n === 1 && item.thumb) p.append(Object.assign(el("img"), { src: item.thumb, alt: "" }));
       w.append(p); targets.push({ box: p, page: () => Promise.resolve(page), minPx: 0 });
+      pages.push({ y, h: vp.height, art: () => pageArt(page) });
       y += vp.height + 24; maxW = Math.max(maxW, vp.width);
     }
     note.remove();
     v.fit(maxW, targets[0].box.offsetHeight, 24);
+    penSetup(item, v, w, pages);
   } catch (err) { note.textContent = "PDF konnte nicht geladen werden."; console.warn(err); }
 }
 
@@ -389,8 +423,110 @@ function showImage(item) {
   const W = 2000, H = W / (item.ar || 1);
   Object.assign(img.style, { width: W + "px", height: H + "px", display: "block" });
   const full = new Image(); full.onload = () => { img.src = full.src; }; full.src = item.raw;
-  w.append(img); const v = new View(h, w); v.fit(W, H, 16);
+  w.append(img); const v = new View(h, w, { onDrag: penDrag }); v.fit(W, H, 16);
+  penSetup(item, v, w, [{ y: 0, h: H, art: async () => {
+    const im = new Image(); im.src = item.raw; await im.decode();
+    const k = Math.min(im.naturalWidth / W, Math.sqrt(CAP / (W * H)));
+    const c = Object.assign(el("canvas"), { width: Math.round(W * k), height: Math.round(H * k) });
+    c.getContext("2d").drawImage(im, 0, 0, c.width, c.height); return [c, k];
+  } }]);
 }
+
+/* ---------- pen: draw on a plan or image in the overlay, save a PNG copy ---------- */
+const CAP = 16e6;  // canvas pixels iOS Safari still renders
+const pen = { on: false, tool: "pen", c: "#e5332a", w: 3, f: 0 };
+let penCtx = null;  // { item, v, svg, pages: [{y, h, art}], list: marks in world units }
+const loadMarks = id => { try { return JSON.parse(localStorage.getItem("pen:" + id)) || []; } catch { return []; } };
+const keepMarks = () => { try { const { item, list } = penCtx; list.length ? localStorage.setItem("pen:" + item.id, JSON.stringify(list)) : localStorage.removeItem("pen:" + item.id); } catch {} };
+const svgOf = m => {
+  const s = `stroke="${m.c}" stroke-width="${m.w}"`;
+  if (m.t === "rect") { const [[a, b], [c, d]] = m.p; return `<rect x="${Math.min(a, c)}" y="${Math.min(b, d)}" width="${Math.abs(c - a)}" height="${Math.abs(d - b)}" fill="${m.c}" fill-opacity="${m.f}" ${s}/>`; }
+  return `<path d="M${m.p.join("L")}" fill="none" stroke-linecap="round" stroke-linejoin="round" ${s}/>`;
+};
+function paint(g, m) {
+  Object.assign(g, { strokeStyle: m.c, fillStyle: m.c, lineWidth: m.w, lineCap: "round", lineJoin: m.t === "rect" ? "miter" : "round" });
+  if (m.t === "rect") {
+    const [[a, b], [c, d]] = m.p, r = [Math.min(a, c), Math.min(b, d), Math.abs(c - a), Math.abs(d - b)];
+    g.globalAlpha = m.f; g.fillRect(...r); g.globalAlpha = 1; g.strokeRect(...r);
+  } else { g.beginPath(); m.p.forEach(([x, y], i) => i ? g.lineTo(x, y) : g.moveTo(x, y)); g.stroke(); }
+}
+const penDraw = extra => { penCtx.svg.innerHTML = penCtx.list.concat(extra || []).map(svgOf).join(""); };
+// Shift: straight line, pulled onto 0/45/90° when within 5°
+function snap45([x0, y0], [x, y]) {
+  const a = Math.atan2(y - y0, x - x0), s = Math.round(a / (Math.PI / 4)) * Math.PI / 4, d = Math.hypot(x - x0, y - y0);
+  return Math.abs(a - s) < 0.09 ? [x0 + d * Math.cos(s), y0 + d * Math.sin(s)] : [x, y];
+}
+const square = ([x0, y0], [x, y]) => { const d = Math.max(Math.abs(x - x0), Math.abs(y - y0)); return [x0 + Math.sign(x - x0 || 1) * d, y0 + Math.sign(y - y0 || 1) * d]; };
+function penDrag(e) {  // View hands the left-button drag here while the pen is on; middle button and wheel still pan/zoom
+  if (!pen.on || !penCtx) return null;
+  const { v, list } = penCtx, r = v.host.getBoundingClientRect();
+  const at = ev => [(ev.clientX - r.left - v.x) / v.s, (ev.clientY - r.top - v.y) / v.s];
+  const p0 = at(e), free = [p0];
+  const m = { t: pen.tool, c: pen.c, w: pen.w / v.s, f: pen.tool === "rect" ? pen.f : 0, p: [p0, [p0[0] + 0.01, p0[1]]] };
+  penDraw(m);
+  return {
+    move: (_, __, ev) => {
+      const q = at(ev);
+      if (m.t === "rect") m.p = [p0, ev.shiftKey ? square(p0, q) : q];
+      else if (ev.shiftKey) m.p = [p0, snap45(p0, q)];
+      else { free.push(q); m.p = free; }
+      penDraw(m);
+    },
+    end: () => {
+      const [[a, b], [c, d]] = m.p;
+      if (m.t !== "rect" || Math.abs((c - a) * (d - b)) * v.s * v.s > 9) { list.push(m); keepMarks(); }
+      penDraw();
+    }
+  };
+}
+function penSetup(item, v, w, pages) {
+  if (levels.at(-1)?.item !== item) return;  // the user already moved on while the PDF loaded
+  const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg"); svg.classList.add("marks"); w.append(svg);
+  penCtx = { item, v, svg, pages, list: loadMarks(item.id) }; penDraw(); penShow();
+}
+function penShow() {
+  const on = pen.on && !!penCtx;
+  $("#ovpen").hidden = !penCtx; $("#ovpen").classList.toggle("on", on); $("#pen").hidden = !on;
+  penCtx?.v.host.classList.toggle("drawing", on);
+}
+function penUndo() { penCtx.list.pop(); keepMarks(); penDraw(); }
+async function pageArt(page) {
+  const v1 = page.getViewport({ scale: 1 }), k = Math.min(4, Math.sqrt(CAP / (v1.width * v1.height))), vp = page.getViewport({ scale: k });
+  const c = Object.assign(el("canvas"), { width: Math.floor(vp.width), height: Math.floor(vp.height) });
+  await page.render({ canvasContext: c.getContext("2d"), viewport: vp, background: "#fff" }).promise;
+  return [c, k];
+}
+async function penSave() {
+  const { item, list, pages } = penCtx, base = item.id.split("/").pop().replace(/\.[^.]+$/, "");
+  const hit = pages.filter(p => list.some(m => m.p[0][1] >= p.y - 24 && m.p[0][1] < p.y + p.h));
+  if (!hit.length) { alert("Noch nichts gezeichnet."); return; }
+  const b = $("#pensave"); b.textContent = "Speichert …";
+  try {
+    for (const p of hit) {
+      const [c, k] = await p.art(), g = c.getContext("2d");
+      g.setTransform(k, 0, 0, k, 0, -p.y * k); list.forEach(m => paint(g, m));
+      const blob = await new Promise(r => c.toBlob(r, "image/png"));
+      const n = pages.length > 1 ? `_S${pages.indexOf(p) + 1}` : "";
+      const a = Object.assign(el("a"), { href: URL.createObjectURL(blob), download: `${base}_Skizze${n}.png` }); a.click();
+      setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+    }
+  } catch (err) { alert("Speichern fehlgeschlagen."); console.warn(err); }
+  b.textContent = "Als PNG speichern";
+}
+$("#ovpen").onclick = () => { pen.on = !pen.on; penShow(); };
+$("#pen").onclick = e => {
+  const b = e.target.closest("button"); if (!b) return;
+  for (const k of ["tool", "c", "w"]) if (k in b.dataset) {
+    pen[k] = k === "w" ? +b.dataset.w : b.dataset[k];
+    $("#pen").querySelectorAll(`[data-${k}]`).forEach(x => x.classList.toggle("on", x === b));
+    if (k === "c") $("#pencolor").value = pen.c;
+  }
+};
+$("#pencolor").oninput = e => { pen.c = e.target.value; $("#pen").querySelectorAll("[data-c]").forEach(x => x.classList.remove("on")); };
+$("#penfill").oninput = e => { pen.f = e.target.value / 100; $("#penfillv").textContent = e.target.value + " %"; };
+$("#penundo").onclick = penUndo;
+$("#penclear").onclick = () => { if (penCtx.list.length && confirm("Alle Striche auf diesem Plan löschen?")) { penCtx.list.length = 0; keepMarks(); penDraw(); } };
+$("#pensave").onclick = penSave;
 
 async function showModel(item) {
   const note = el("div", "msg", "3D-Modell lädt …"); body.append(note);
@@ -710,7 +846,7 @@ function editDrag(e) {
   document.body.append(lock, btn, undoBtn);
   undoBtn.onclick = undo;
   addEventListener("keydown", e => {
-    if (editing && (e.ctrlKey || e.metaKey) && !e.shiftKey && e.key.toLowerCase() === "z" && !e.target.isContentEditable) { e.preventDefault(); undo(); }
+    if (editing && ov.hidden && (e.ctrlKey || e.metaKey) && !e.shiftKey && e.key.toLowerCase() === "z" && !e.target.isContentEditable) { e.preventDefault(); undo(); }
   });
   world.addEventListener("dblclick", e => {
     const wt = editing && e.target.closest(".wt");
