@@ -70,7 +70,7 @@ iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .host.drawing{cursor:crosshair}
 .marks{position:absolute;left:0;top:0;width:1px;height:1px;overflow:visible;pointer-events:none;z-index:1}
 .pen{flex:none;display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;padding:8px 16px;border-bottom:1px solid var(--line);background:var(--bg)}
-.pen[hidden]{display:none}
+.pen[hidden],.pen [hidden]{display:none}
 .pen button{background:none;border:1px solid transparent;font:inherit;color:var(--ink);cursor:pointer;padding:3px 8px}
 .pen button.on{border-color:var(--ink)}
 .pen .sw{width:22px;height:22px;padding:0;background:var(--c);border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 1px var(--line)}
@@ -116,6 +116,7 @@ iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
     <button data-tool="sel" title="Auswahl: Klick, Shift+Klick oder Rahmen ziehen; ziehen verschiebt, Entf löscht">Auswahl</button>
     <button data-tool="pen" class="on" title="Stift (Shift: gerade Linie)">Stift</button>
     <button data-tool="rect" title="Rechteck (Shift: Quadrat)">Rechteck</button>
+    <button data-tool="ruler" title="Messen: Strecke ziehen (Shift: gerade 0/45/90°)">Messen</button>
     <span class="sep"></span>
     <button class="sw on" data-c="#e5332a" style="--c:#e5332a" title="Rot"></button>
     <button class="sw" data-c="#2a6cff" style="--c:#2a6cff" title="Blau"></button>
@@ -127,6 +128,9 @@ iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
     <button data-w="1">1 px</button><button data-w="3" class="on">3 px</button><button data-w="5">5 px</button><button data-w="10">10 px</button>
     <span class="sep"></span>
     <label title="Füllung des Rechtecks">Füllung <input type="range" id="penfill" min="0" max="100" step="5" value="0"><span id="penfillv">0 %</span></label>
+    <span class="sep"></span>
+    <label id="penscalebox" title="Maßstab des PDFs; Kalibrieren rechnet ihn aus einer gemessenen Strecke">Maßstab 1:<input type="number" id="penscale" min="1" step="1" style="width:70px"></label>
+    <button id="pencal" title="Ausgewählte Messstrecke auf ein bekanntes Maß setzen">Kalibrieren</button>
     <span class="sep"></span>
     <button id="penundo" title="Rückgängig (Strg+Z)">↶</button><button id="pendel" title="Auswahl löschen (Entf)">Löschen</button><button id="pensave">Als PNG speichern</button>
   </div>
@@ -383,7 +387,7 @@ function close() { levels.length = 0; dispose?.(); dispose = null; body.innerHTM
 $("#ovclose").onclick = close; $("#ovback").onclick = back;
 addEventListener("keydown", e => {
   if (ov.hidden) return;
-  if (pen.on && penCtx) {
+  if (pen.on && penCtx && !e.target.matches?.("input[type=number]")) {  // Backspace in the scale field must not delete marks
     const k = e.key.toLowerCase(), mod = e.ctrlKey || e.metaKey, P = penCtx;
     if (mod && k === "z") { e.preventDefault(); penUndo(); return; }
     if (mod && k === "a") { e.preventDefault(); shown().forEach(m => P.sel.add(m)); penDraw(); layersUI(); return; }
@@ -456,14 +460,29 @@ const pen = { on: false, tool: "pen", c: "#e5332a", w: 3, f: 0 };
 // penCtx: { item, v, svg, pages: [{y, h, art}], layers: [{id, name, on}] bottom to top, list: marks {t, c, w, f, p, l: layer id}
 //          in world units, active: layer id, sel: Set of marks, undo: JSON snapshots }
 let penCtx = null;
-function loadPen(id) {
-  let d; try { d = JSON.parse(localStorage.getItem("pen:" + id)); } catch {}
+const PT = 0.0254 / 72;  // metres of paper per PDF point (= 1 world unit of a PDF page)
+function loadPen(item) {
+  let d; try { d = JSON.parse(localStorage.getItem("pen:" + item.id)); } catch {}
   if (Array.isArray(d)) d = { list: d };  // the first version stored only the marks
   const layers = d?.layers || [{ id: 1, name: "Ebene 1", on: true }];
-  return { layers, list: (d?.list || []).map(m => ({ l: layers[0].id, ...m })), active: d?.active ?? layers.at(-1).id };
+  const named = item.kind === "pdf" && `${item.id} ${item.title || ""}`.match(/M\s?1\s?[-:]\s?(\d{1,4})\b/i);  // "…_M1-200_…", "M 1:300"
+  return { layers, list: (d?.list || []).map(m => ({ l: layers[0].id, ...m })), active: d?.active ?? layers.at(-1).id,
+    mpu: d?.mpu ?? (named ? +named[1] * PT : null) };  // mpu: real metres per world unit
 }
-const keepPen = () => { try { const { item, layers, list, active } = penCtx; localStorage.setItem("pen:" + item.id, JSON.stringify({ layers, list, active })); } catch {} };
-function snapshot() { const P = penCtx; P.undo.push(JSON.stringify({ layers: P.layers, list: P.list, active: P.active })); if (P.undo.length > 100) P.undo.shift(); }
+const keepPen = () => { try { const { item, layers, list, active, mpu } = penCtx; localStorage.setItem("pen:" + item.id, JSON.stringify({ layers, list, active, mpu })); } catch {} };
+function snapshot() { const P = penCtx; P.undo.push(JSON.stringify({ layers: P.layers, list: P.list, active: P.active, mpu: P.mpu })); if (P.undo.length > 100) P.undo.shift(); }
+const fmtLen = d => penCtx.mpu ? (d * penCtx.mpu).toFixed(2).replace(".", ",") + " m" : "Maßstab?";
+function ruler(m) {  // dimension line: 45° ticks at both ends, length along the line, text kept upright
+  const [[x0, y0], [x1, y1]] = m.p, d = Math.hypot(x1 - x0, y1 - y0) || 1e-9, ux = (x1 - x0) / d, uy = (y1 - y0) / d, k = m.fs * 0.45 * Math.SQRT1_2;
+  const tx = (ux - uy) * k, ty = (ux + uy) * k;  // the line direction turned by 45°
+  let a = Math.atan2(uy, ux) * 180 / Math.PI; if (a > 90 || a < -90) a += 180;
+  return { ticks: [[x0 - tx, y0 - ty, x0 + tx, y0 + ty], [x1 - tx, y1 - ty, x1 + tx, y1 + ty]], mx: (x0 + x1) / 2, my: (y0 + y1) / 2, a, text: fmtLen(d) };
+}
+function scaleUI() {
+  const P = penCtx; if (!P) return;
+  $("#penscalebox").hidden = P.item.kind !== "pdf";  // an image has no paper size: calibrate only
+  $("#penscale").value = P.mpu ? Math.round(P.mpu / PT) : "";
+}
 const shown = () => penCtx.layers.filter(L => L.on).flatMap(L => penCtx.list.filter(m => m.l === L.id));  // visible marks, bottom to top
 const bbox = m => { const xs = m.p.map(p => p[0]), ys = m.p.map(p => p[1]), h = m.w / 2; return [Math.min(...xs) - h, Math.min(...ys) - h, Math.max(...xs) + h, Math.max(...ys) + h]; };
 const segDist = ([ax, ay], [bx, by], [x, y]) => {
@@ -483,12 +502,23 @@ function inBox(m, [[a, b], [c, d]]) {  // touched by the selection frame
 }
 const svgOf = m => {
   const s = `stroke="${m.c}" stroke-width="${m.w}"`;
+  if (m.t === "ruler") {
+    const r = ruler(m), [[a, b], [c, d]] = m.p, tk = r.ticks.map(([p, q, u, v]) => `M${p},${q}L${u},${v}`).join("");
+    return `<path d="M${a},${b}L${c},${d}${tk}" fill="none" stroke-linecap="round" ${s}/>` +
+      `<text transform="translate(${r.mx},${r.my}) rotate(${r.a})" y="${-m.fs * 0.5}" text-anchor="middle" font-size="${m.fs}" font-family="Helvetica,Arial,sans-serif" fill="${m.c}" stroke="#fff" stroke-width="${m.fs * 0.25}" stroke-linejoin="round" paint-order="stroke">${r.text}</text>`;
+  }
   if (m.t === "rect") { const [[a, b], [c, d]] = m.p; return `<rect x="${Math.min(a, c)}" y="${Math.min(b, d)}" width="${Math.abs(c - a)}" height="${Math.abs(d - b)}" fill="${m.c}" fill-opacity="${m.f}" ${s}/>`; }
   return `<path d="M${m.p.join("L")}" fill="none" stroke-linecap="round" stroke-linejoin="round" ${s}/>`;
 };
 function paint(g, m) {
   Object.assign(g, { strokeStyle: m.c, fillStyle: m.c, lineWidth: m.w, lineCap: "round", lineJoin: m.t === "rect" ? "miter" : "round" });
-  if (m.t === "rect") {
+  if (m.t === "ruler") {
+    const r = ruler(m); g.beginPath(); g.moveTo(...m.p[0]); g.lineTo(...m.p[1]);
+    r.ticks.forEach(([p, q, u, v]) => { g.moveTo(p, q); g.lineTo(u, v); }); g.stroke();
+    g.save(); g.translate(r.mx, r.my); g.rotate(r.a * Math.PI / 180);
+    Object.assign(g, { font: `${m.fs}px Helvetica, Arial, sans-serif`, textAlign: "center", lineWidth: m.fs * 0.25, strokeStyle: "#fff" });
+    g.strokeText(r.text, 0, -m.fs * 0.5); g.fillText(r.text, 0, -m.fs * 0.5); g.restore();
+  } else if (m.t === "rect") {
     const [[a, b], [c, d]] = m.p, r = [Math.min(a, c), Math.min(b, d), Math.abs(c - a), Math.abs(d - b)];
     g.globalAlpha = m.f; g.fillRect(...r); g.globalAlpha = 1; g.strokeRect(...r);
   } else { g.beginPath(); m.p.forEach(([x, y], i) => i ? g.lineTo(x, y) : g.moveTo(x, y)); g.stroke(); }
@@ -562,18 +592,20 @@ function penDrag(e) {  // View hands the left-button drag here while the pen is 
   if (!L.on) L.on = true;  // never draw onto a hidden layer
   P.sel.clear(); layersUI();
   const m = { t: pen.tool, c: pen.c, w: pen.w / v.s, f: pen.tool === "rect" ? pen.f : 0, p: [p0, [p0[0] + 0.01, p0[1]]], l: P.active };
+  if (m.t === "ruler") m.fs = 14 / v.s;  // label size: 14 px at the zoom it was drawn at
   penDraw(m);
   return {
     move: (_, __, ev) => {
       const q = at(ev);
       if (m.t === "rect") m.p = [p0, ev.shiftKey ? square(p0, q) : q];
-      else if (ev.shiftKey) m.p = [p0, snap45(p0, q)];
+      else if (m.t === "ruler" || ev.shiftKey) m.p = [p0, ev.shiftKey ? snap45(p0, q) : q];
       else { free.push(q); m.p = free; }
       penDraw(m);
     },
     end: () => {
       const [[a, b], [c, d]] = m.p;
-      if (m.t !== "rect" || Math.abs((c - a) * (d - b)) * v.s * v.s > 9) { snapshot(); P.list.push(m); P.sel = new Set([m]); keepPen(); layersUI(); }  // stays selected: fill / colour / width still change it
+      const keep = m.t === "rect" ? Math.abs((c - a) * (d - b)) * v.s * v.s > 9 : m.t === "ruler" ? Math.hypot(c - a, d - b) * v.s > 3 : true;
+      if (keep) { snapshot(); P.list.push(m); P.sel = new Set([m]); keepPen(); layersUI(); }  // stays selected: fill / colour / width still change it
       penDraw();
     }
   };
@@ -581,14 +613,14 @@ function penDrag(e) {  // View hands the left-button drag here while the pen is 
 function penSetup(item, v, w, pages) {
   if (levels.at(-1)?.item !== item) return;  // the user already moved on while the PDF loaded
   const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg"); svg.classList.add("marks"); w.append(svg);
-  penCtx = { item, v, svg, pages, ...loadPen(item.id), sel: new Set(), undo: [] }; penDraw(); layersUI(); penShow();
+  penCtx = { item, v, svg, pages, ...loadPen(item), sel: new Set(), undo: [] }; penDraw(); layersUI(); scaleUI(); penShow();
 }
 function penShow() {
   const on = pen.on && !!penCtx;
   $("#ovpen").hidden = !penCtx; $("#ovpen").classList.toggle("on", on); $("#pen").hidden = $("#penlayers").hidden = !on;
   penCtx?.v.host.classList.toggle("drawing", on); penCtx?.v.host.classList.toggle("sel", pen.tool === "sel");
 }
-function penUndo() { const P = penCtx, s = P.undo.pop(); if (!s) return; Object.assign(P, JSON.parse(s)); P.sel.clear(); keepPen(); penDraw(); layersUI(); }
+function penUndo() { const P = penCtx, s = P.undo.pop(); if (!s) return; Object.assign(P, JSON.parse(s)); P.sel.clear(); keepPen(); penDraw(); layersUI(); scaleUI(); }
 async function pageArt(page) {
   const v1 = page.getViewport({ scale: 1 }), k = Math.min(4, Math.sqrt(CAP / (v1.width * v1.height))), vp = page.getViewport({ scale: k });
   const c = Object.assign(el("canvas"), { width: Math.floor(vp.width), height: Math.floor(vp.height) });
@@ -633,6 +665,18 @@ $("#penfill").oninput = e => {
   rects.forEach(m => { m.f = pen.f; }); penDraw();
 };
 $("#penfill").onchange = () => { if (fillSnap) keepPen(); fillSnap = false; };
+$("#penscale").onchange = e => {
+  const P = penCtx, n = parseFloat(e.target.value); if (!P) return;
+  snapshot(); P.mpu = n > 0 ? n * PT : null; keepPen(); penDraw();
+};
+$("#pencal").onclick = () => {
+  const P = penCtx, m = P && [...P.sel].find(x => x.t === "ruler");
+  if (!m) { alert("Erst mit „Messen“ eine Strecke über ein bekanntes Maß ziehen (sie bleibt ausgewählt), dann Kalibrieren."); return; }
+  const d = Math.hypot(m.p[1][0] - m.p[0][0], m.p[1][1] - m.p[0][1]);
+  const L = parseFloat((prompt("Wie lang ist diese Strecke in Wirklichkeit (m)?", P.mpu ? (d * P.mpu).toFixed(2).replace(".", ",") : "") || "").replace(",", "."));
+  if (!(L > 0)) return;
+  snapshot(); P.mpu = L / d; keepPen(); scaleUI(); penDraw();
+};
 $("#penundo").onclick = penUndo;
 $("#pendel").onclick = penDelete;
 $("#pensave").onclick = penSave;
