@@ -78,6 +78,16 @@ iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .pen .sep{width:1px;height:20px;background:var(--line)}
 .pen input[type=color]{width:26px;height:24px;padding:0;border:0;background:none;cursor:pointer}
 .pen label{display:flex;align-items:center;gap:6px;color:var(--mute)}
+.host.drawing.sel{cursor:default}
+.layers{position:absolute;right:16px;bottom:16px;z-index:3;background:#fff;border:1px solid var(--line);box-shadow:0 2px 12px rgba(0,0,0,.08);min-width:240px;max-height:50vh;overflow:auto;padding:6px 0}
+.layers[hidden]{display:none}
+.layers .hd{display:flex;justify-content:space-between;align-items:center;padding:2px 10px 6px;color:var(--mute)}
+.layers .lr{display:flex;align-items:center;gap:6px;padding:3px 10px}
+.layers .lr.on{background:var(--tile)}
+.layers .lr span{flex:1;min-width:0;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;user-select:none}
+.layers small{color:var(--mute)}
+.layers button{background:none;border:0;font:inherit;color:var(--ink);cursor:pointer;padding:2px 4px}
+.layers button:hover{color:var(--mute)}
 /* edit mode */
 #save,#undo,#lock,#add{position:fixed;right:16px;bottom:16px;z-index:5;padding:8px 14px;border:1px solid var(--ink);background:#fff;font:inherit;cursor:pointer}
 #save{bottom:58px}
@@ -103,6 +113,7 @@ iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
     <button id="ovpen" title="Zeichnen" hidden>✎ Zeichnen</button>
     <a id="ovdl" target="_blank" rel="noopener">Download</a><button id="ovclose" title="Schließen">✕</button></div>
   <div class="pen" id="pen" hidden>
+    <button data-tool="sel" title="Auswahl: Klick, Shift+Klick oder Rahmen ziehen; ziehen verschiebt, Entf löscht">Auswahl</button>
     <button data-tool="pen" class="on" title="Stift (Shift: gerade Linie)">Stift</button>
     <button data-tool="rect" title="Rechteck (Shift: Quadrat)">Rechteck</button>
     <span class="sep"></span>
@@ -117,9 +128,10 @@ iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
     <span class="sep"></span>
     <label title="Füllung des Rechtecks">Füllung <input type="range" id="penfill" min="0" max="100" step="5" value="0"><span id="penfillv">0 %</span></label>
     <span class="sep"></span>
-    <button id="penundo" title="Rückgängig (Strg+Z)">↶</button><button id="penclear">Leeren</button><button id="pensave">Als PNG speichern</button>
+    <button id="penundo" title="Rückgängig (Strg+Z)">↶</button><button id="pendel" title="Auswahl löschen (Entf)">Löschen</button><button id="pensave">Als PNG speichern</button>
   </div>
   <div id="ovbody"></div>
+  <div class="layers" id="penlayers" hidden></div>
 </div>
 <script type="module">
 const PDFJS = "https://cdn.jsdelivr.net/npm/pdfjs-dist@4.4.168/build/pdf.min.mjs";
@@ -371,8 +383,14 @@ function close() { levels.length = 0; dispose?.(); dispose = null; body.innerHTM
 $("#ovclose").onclick = close; $("#ovback").onclick = back;
 addEventListener("keydown", e => {
   if (ov.hidden) return;
+  if (pen.on && penCtx) {
+    const k = e.key.toLowerCase(), mod = e.ctrlKey || e.metaKey, P = penCtx;
+    if (mod && k === "z") { e.preventDefault(); penUndo(); return; }
+    if (mod && k === "a") { e.preventDefault(); shown().forEach(m => P.sel.add(m)); penDraw(); layersUI(); return; }
+    if ((k === "delete" || k === "backspace") && P.sel.size) { e.preventDefault(); penDelete(); return; }
+    if (k === "escape" && P.sel.size) { P.sel.clear(); penDraw(); layersUI(); return; }
+  }
   if (e.key === "Escape") back();
-  if (pen.on && penCtx && (e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "z") { e.preventDefault(); penUndo(); return; }
   const top = levels.at(-1);
   if ((e.key === "ArrowRight" || e.key === "ArrowLeft") && top?.list && top.item.kind !== "stack") {
     const L = top.list.filter(i => i.kind !== "file"), i = L.indexOf(top.item);
@@ -435,9 +453,34 @@ function showImage(item) {
 /* ---------- pen: draw on a plan or image in the overlay, save a PNG copy ---------- */
 const CAP = 16e6;  // canvas pixels iOS Safari still renders
 const pen = { on: false, tool: "pen", c: "#e5332a", w: 3, f: 0 };
-let penCtx = null;  // { item, v, svg, pages: [{y, h, art}], list: marks in world units }
-const loadMarks = id => { try { return JSON.parse(localStorage.getItem("pen:" + id)) || []; } catch { return []; } };
-const keepMarks = () => { try { const { item, list } = penCtx; list.length ? localStorage.setItem("pen:" + item.id, JSON.stringify(list)) : localStorage.removeItem("pen:" + item.id); } catch {} };
+// penCtx: { item, v, svg, pages: [{y, h, art}], layers: [{id, name, on}] bottom to top, list: marks {t, c, w, f, p, l: layer id}
+//          in world units, active: layer id, sel: Set of marks, undo: JSON snapshots }
+let penCtx = null;
+function loadPen(id) {
+  let d; try { d = JSON.parse(localStorage.getItem("pen:" + id)); } catch {}
+  if (Array.isArray(d)) d = { list: d };  // the first version stored only the marks
+  const layers = d?.layers || [{ id: 1, name: "Ebene 1", on: true }];
+  return { layers, list: (d?.list || []).map(m => ({ l: layers[0].id, ...m })), active: d?.active ?? layers.at(-1).id };
+}
+const keepPen = () => { try { const { item, layers, list, active } = penCtx; localStorage.setItem("pen:" + item.id, JSON.stringify({ layers, list, active })); } catch {} };
+function snapshot() { const P = penCtx; P.undo.push(JSON.stringify({ layers: P.layers, list: P.list, active: P.active })); if (P.undo.length > 100) P.undo.shift(); }
+const shown = () => penCtx.layers.filter(L => L.on).flatMap(L => penCtx.list.filter(m => m.l === L.id));  // visible marks, bottom to top
+const bbox = m => { const xs = m.p.map(p => p[0]), ys = m.p.map(p => p[1]), h = m.w / 2; return [Math.min(...xs) - h, Math.min(...ys) - h, Math.max(...xs) + h, Math.max(...ys) + h]; };
+const segDist = ([ax, ay], [bx, by], [x, y]) => {
+  const dx = bx - ax, dy = by - ay, L = dx * dx + dy * dy, u = L ? Math.max(0, Math.min(1, ((x - ax) * dx + (y - ay) * dy) / L)) : 0;
+  return Math.hypot(ax + u * dx - x, ay + u * dy - y);
+};
+function hits(m, q, t) {  // t: click tolerance in world units
+  if (m.t !== "rect") return m.p.some((a, i) => i && segDist(m.p[i - 1], a, q) < m.w / 2 + t);
+  const [x0, y0, x1, y1] = bbox(m), [x, y] = q, e = m.w + t;
+  if (x < x0 - t || x > x1 + t || y < y0 - t || y > y1 + t) return false;
+  return m.f > 0 || !(x > x0 + e && x < x1 - e && y > y0 + e && y < y1 - e);  // unfilled: only near the outline
+}
+function inBox(m, [[a, b], [c, d]]) {  // touched by the selection frame
+  const x0 = Math.min(a, c), x1 = Math.max(a, c), y0 = Math.min(b, d), y1 = Math.max(b, d);
+  if (m.t === "rect") { const [p, q, r, s] = bbox(m); return p < x1 && r > x0 && q < y1 && s > y0; }
+  return m.p.some(([x, y]) => x >= x0 && x <= x1 && y >= y0 && y <= y1);
+}
 const svgOf = m => {
   const s = `stroke="${m.c}" stroke-width="${m.w}"`;
   if (m.t === "rect") { const [[a, b], [c, d]] = m.p; return `<rect x="${Math.min(a, c)}" y="${Math.min(b, d)}" width="${Math.abs(c - a)}" height="${Math.abs(d - b)}" fill="${m.c}" fill-opacity="${m.f}" ${s}/>`; }
@@ -450,7 +493,31 @@ function paint(g, m) {
     g.globalAlpha = m.f; g.fillRect(...r); g.globalAlpha = 1; g.strokeRect(...r);
   } else { g.beginPath(); m.p.forEach(([x, y], i) => i ? g.lineTo(x, y) : g.moveTo(x, y)); g.stroke(); }
 }
-const penDraw = extra => { penCtx.svg.innerHTML = penCtx.list.concat(extra || []).map(svgOf).join(""); };
+function penDraw(extra, box) {
+  const P = penCtx, ui = `fill="none" stroke="#2a6cff" stroke-width="1.5" vector-effect="non-scaling-stroke"`, pad = 4 / P.v.s;
+  let h = shown().concat(extra || []).map(svgOf).join("");
+  for (const m of P.sel) { const [a, b, c, d] = bbox(m); h += `<rect x="${a - pad}" y="${b - pad}" width="${c - a + 2 * pad}" height="${d - b + 2 * pad}" stroke-dasharray="5 4" ${ui}/>`; }
+  if (box) { const [[a, b], [c, d]] = box; h += `<rect x="${Math.min(a, c)}" y="${Math.min(b, d)}" width="${Math.abs(c - a)}" height="${Math.abs(d - b)}" ${ui.replace('fill="none"', 'fill="#2a6cff" fill-opacity=".08"')}/>`; }
+  P.svg.innerHTML = h;
+}
+function layersUI() {
+  const P = penCtx; if (!P) return;
+  $("#penlayers").innerHTML = `<div class="hd">Ebenen<button data-a="new">+ Neue Ebene</button></div>` + P.layers.slice().reverse().map(L =>
+    `<div class="lr${L.id === P.active ? " on" : ""}" data-id="${L.id}"><input type="checkbox" data-a="eye" title="Ein-/Ausblenden"${L.on ? " checked" : ""}>` +
+    `<span data-a="act" title="Klick: hier zeichnen · Doppelklick: umbenennen">${esc(L.name)} <small>${P.list.filter(m => m.l === L.id).length}</small></span>` +
+    (P.sel.size ? `<button data-a="move" title="Auswahl auf diese Ebene legen">hierher</button>` : "") +
+    `<button data-a="up" title="Nach oben">↑</button><button data-a="down" title="Nach unten">↓</button><button data-a="del" title="Ebene löschen">✕</button></div>`).join("");
+}
+function restyle(patch) {  // a colour / width / fill picked while marks are selected applies to them
+  const P = penCtx; if (!P?.sel.size) return;
+  snapshot();
+  for (const m of P.sel) {
+    if ("c" in patch) m.c = patch.c;
+    if ("w" in patch) m.w = patch.w / P.v.s;
+  }
+  keepPen(); penDraw();
+}
+function penDelete() { const P = penCtx; if (!P.sel.size) return; snapshot(); P.list = P.list.filter(m => !P.sel.has(m)); P.sel.clear(); keepPen(); penDraw(); layersUI(); }
 // Shift: straight line, pulled onto 0/45/90° when within 5°
 function snap45([x0, y0], [x, y]) {
   const a = Math.atan2(y - y0, x - x0), s = Math.round(a / (Math.PI / 4)) * Math.PI / 4, d = Math.hypot(x - x0, y - y0);
@@ -459,10 +526,42 @@ function snap45([x0, y0], [x, y]) {
 const square = ([x0, y0], [x, y]) => { const d = Math.max(Math.abs(x - x0), Math.abs(y - y0)); return [x0 + Math.sign(x - x0 || 1) * d, y0 + Math.sign(y - y0 || 1) * d]; };
 function penDrag(e) {  // View hands the left-button drag here while the pen is on; middle button and wheel still pan/zoom
   if (!pen.on || !penCtx) return null;
-  const { v, list } = penCtx, r = v.host.getBoundingClientRect();
+  const P = penCtx, { v } = P, r = v.host.getBoundingClientRect();
   const at = ev => [(ev.clientX - r.left - v.x) / v.s, (ev.clientY - r.top - v.y) / v.s];
   const p0 = at(e), free = [p0];
-  const m = { t: pen.tool, c: pen.c, w: pen.w / v.s, f: pen.tool === "rect" ? pen.f : 0, p: [p0, [p0[0] + 0.01, p0[1]]] };
+  if (pen.tool === "sel") {
+    const hit = shown().reverse().find(m => hits(m, p0, 6 / v.s));
+    if (hit) {  // click picks, Shift+click adds or removes; dragging a selected mark moves the whole selection
+      if (e.shiftKey) P.sel.has(hit) ? P.sel.delete(hit) : P.sel.add(hit);
+      else if (!P.sel.has(hit)) { P.sel.clear(); P.sel.add(hit); }
+      penDraw(); layersUI();
+      let moved = false;
+      return {
+        move: (dx, dy) => {
+          if (!P.sel.has(hit)) return;
+          if (!moved) { snapshot(); moved = true; }
+          for (const m of P.sel) m.p = m.p.map(([x, y]) => [x + dx, y + dy]);
+          penDraw();
+        },
+        end: () => { if (moved) keepPen(); }
+      };
+    }
+    if (!e.shiftKey) P.sel.clear();
+    const before = new Set(P.sel);
+    penDraw(); layersUI();
+    return {
+      move: (_, __, ev) => {
+        const box = [p0, at(ev)];
+        P.sel = new Set([...before, ...shown().filter(m => inBox(m, box))]);
+        penDraw(null, box);
+      },
+      end: () => { penDraw(); layersUI(); }
+    };
+  }
+  const L = P.layers.find(x => x.id === P.active);
+  if (!L.on) L.on = true;  // never draw onto a hidden layer
+  P.sel.clear(); layersUI();
+  const m = { t: pen.tool, c: pen.c, w: pen.w / v.s, f: pen.tool === "rect" ? pen.f : 0, p: [p0, [p0[0] + 0.01, p0[1]]], l: P.active };
   penDraw(m);
   return {
     move: (_, __, ev) => {
@@ -474,7 +573,7 @@ function penDrag(e) {  // View hands the left-button drag here while the pen is 
     },
     end: () => {
       const [[a, b], [c, d]] = m.p;
-      if (m.t !== "rect" || Math.abs((c - a) * (d - b)) * v.s * v.s > 9) { list.push(m); keepMarks(); }
+      if (m.t !== "rect" || Math.abs((c - a) * (d - b)) * v.s * v.s > 9) { snapshot(); P.list.push(m); P.sel = new Set([m]); keepPen(); layersUI(); }  // stays selected: fill / colour / width still change it
       penDraw();
     }
   };
@@ -482,14 +581,14 @@ function penDrag(e) {  // View hands the left-button drag here while the pen is 
 function penSetup(item, v, w, pages) {
   if (levels.at(-1)?.item !== item) return;  // the user already moved on while the PDF loaded
   const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg"); svg.classList.add("marks"); w.append(svg);
-  penCtx = { item, v, svg, pages, list: loadMarks(item.id) }; penDraw(); penShow();
+  penCtx = { item, v, svg, pages, ...loadPen(item.id), sel: new Set(), undo: [] }; penDraw(); layersUI(); penShow();
 }
 function penShow() {
   const on = pen.on && !!penCtx;
-  $("#ovpen").hidden = !penCtx; $("#ovpen").classList.toggle("on", on); $("#pen").hidden = !on;
-  penCtx?.v.host.classList.toggle("drawing", on);
+  $("#ovpen").hidden = !penCtx; $("#ovpen").classList.toggle("on", on); $("#pen").hidden = $("#penlayers").hidden = !on;
+  penCtx?.v.host.classList.toggle("drawing", on); penCtx?.v.host.classList.toggle("sel", pen.tool === "sel");
 }
-function penUndo() { penCtx.list.pop(); keepMarks(); penDraw(); }
+function penUndo() { const P = penCtx, s = P.undo.pop(); if (!s) return; Object.assign(P, JSON.parse(s)); P.sel.clear(); keepPen(); penDraw(); layersUI(); }
 async function pageArt(page) {
   const v1 = page.getViewport({ scale: 1 }), k = Math.min(4, Math.sqrt(CAP / (v1.width * v1.height))), vp = page.getViewport({ scale: k });
   const c = Object.assign(el("canvas"), { width: Math.floor(vp.width), height: Math.floor(vp.height) });
@@ -497,7 +596,7 @@ async function pageArt(page) {
   return [c, k];
 }
 async function penSave() {
-  const { item, list, pages } = penCtx, base = item.id.split("/").pop().replace(/\.[^.]+$/, "");
+  const { item, pages } = penCtx, list = shown(), base = item.id.split("/").pop().replace(/\.[^.]+$/, "");  // only visible layers
   const hit = pages.filter(p => list.some(m => m.p[0][1] >= p.y - 24 && m.p[0][1] < p.y + p.h));
   if (!hit.length) { alert("Noch nichts gezeichnet."); return; }
   const b = $("#pensave"); b.textContent = "Speichert …";
@@ -520,13 +619,50 @@ $("#pen").onclick = e => {
     pen[k] = k === "w" ? +b.dataset.w : b.dataset[k];
     $("#pen").querySelectorAll(`[data-${k}]`).forEach(x => x.classList.toggle("on", x === b));
     if (k === "c") $("#pencolor").value = pen.c;
+    if (k === "tool") { if (pen.tool !== "sel" && penCtx) { penCtx.sel.clear(); penDraw(); layersUI(); } penShow(); }
+    else restyle({ [k]: pen[k] });
   }
 };
 $("#pencolor").oninput = e => { pen.c = e.target.value; $("#pen").querySelectorAll("[data-c]").forEach(x => x.classList.remove("on")); };
-$("#penfill").oninput = e => { pen.f = e.target.value / 100; $("#penfillv").textContent = e.target.value + " %"; };
+$("#pencolor").onchange = () => restyle({ c: pen.c });
+let fillSnap = false;  // one undo step per slider drag
+$("#penfill").oninput = e => {
+  pen.f = e.target.value / 100; $("#penfillv").textContent = e.target.value + " %";
+  const P = penCtx, rects = [...(P?.sel || [])].filter(m => m.t === "rect"); if (!rects.length) return;
+  if (!fillSnap) { snapshot(); fillSnap = true; }
+  rects.forEach(m => { m.f = pen.f; }); penDraw();
+};
+$("#penfill").onchange = () => { if (fillSnap) keepPen(); fillSnap = false; };
 $("#penundo").onclick = penUndo;
-$("#penclear").onclick = () => { if (penCtx.list.length && confirm("Alle Striche auf diesem Plan löschen?")) { penCtx.list.length = 0; keepMarks(); penDraw(); } };
+$("#pendel").onclick = penDelete;
 $("#pensave").onclick = penSave;
+$("#penlayers").onclick = e => {
+  const a = e.target.closest("[data-a]")?.dataset.a, P = penCtx; if (!a || !P) return;
+  const id = +e.target.closest("[data-id]")?.dataset.id, L = P.layers.find(x => x.id === id), i = P.layers.indexOf(L);
+  if (a === "act") {  // no re-render, so a double click still lands on the same name
+    P.active = id; $("#penlayers").querySelectorAll(".lr").forEach(r => r.classList.toggle("on", +r.dataset.id === id)); keepPen(); return;
+  }
+  if (a === "new") { snapshot(); const n = Math.max(0, ...P.layers.map(x => x.id)) + 1; P.layers.push({ id: n, name: "Ebene " + n, on: true }); P.active = n; }
+  else if (a === "eye") { snapshot(); L.on = !L.on; if (!L.on) P.sel.forEach(m => m.l === id && P.sel.delete(m)); }
+  else if (a === "up" || a === "down") {
+    const j = i + (a === "up" ? 1 : -1); if (j < 0 || j >= P.layers.length) return;
+    snapshot(); [P.layers[i], P.layers[j]] = [P.layers[j], P.layers[i]];
+  }
+  else if (a === "move") { snapshot(); P.sel.forEach(m => { m.l = id; }); P.active = id; L.on = true; }
+  else if (a === "del") {
+    if (P.layers.length < 2) { alert("Die letzte Ebene bleibt."); return; }
+    const n = P.list.filter(m => m.l === id).length;
+    if (n && !confirm(`Ebene „${L.name}“ mit ${n} Strichen löschen?`)) return;
+    snapshot(); P.layers.splice(i, 1); P.list = P.list.filter(m => m.l !== id); P.sel.forEach(m => m.l === id && P.sel.delete(m));
+    if (P.active === id) P.active = P.layers.at(-1).id;
+  }
+  keepPen(); penDraw(); layersUI();
+};
+$("#penlayers").ondblclick = e => {
+  const s = e.target.closest('[data-a="act"]'), P = penCtx; if (!s || !P) return;
+  const L = P.layers.find(x => x.id === +s.closest("[data-id]").dataset.id), name = prompt("Name der Ebene:", L.name)?.trim();
+  if (name && name !== L.name) { snapshot(); L.name = name; keepPen(); layersUI(); }
+};
 
 async function showModel(item) {
   const note = el("div", "msg", "3D-Modell lädt …"); body.append(note);
