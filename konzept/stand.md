@@ -46,9 +46,11 @@ Verbindung Bestand / Anbau (Schnitt Ost, Ostflügel): Beide Häuser behalten ihr
 | Lageplan-Entwurf, Ausschnitt Umgebung quer, M 1:1500, A3 | 2026-11-13 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/9263e6f58cdd442db454/) |
 | Lageplan-Entwurf, Ausschnitt Umgebung, M 1:1500, A3 | 2026-11-13 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/a4ae3922a97a41c3a467/) |
 | Lageplan Welfengarten, Ausschnitt TIB, A3 | 2026-11-03 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/d4b27c5559bd421186cc/) |
-| Vorplatz Option 1, Platz bis Weg, M 1:2500 | 2026-11-03 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/9ea97995628e4f41bfee/) |
-| Vorplatz Option 2, Bestandsbäume, M 1:2500 | 2026-11-03 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/d6f9d1b65949445a9a40/) |
-| Vorplatz Option 3, organisch, M 1:2500 | 2026-11-03 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/e2246c7d157144eba9db/) |
+| Freiraum Vorplatz + Innenhof, Analyse, M 1:1000 | 2026-11-13 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/e008e11e6e91400fb64b/) |
+| Freiraum Option 1, Baumreihen, Lageplan M 1:500 + Innenhof M 1:200 | 2026-11-13 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/87b626e693f046829ce5/) |
+| Freiraum Option 2, Inseln, Lageplan M 1:500 + Innenhof M 1:200 | 2026-11-13 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/179e20e875ef4553afce/) |
+| Freiraum Option 3, Rasenfelder, Lageplan M 1:500 + Innenhof M 1:200 | 2026-11-13 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/bad5023ab5e045d09d6f/) |
+| Freiraum, Vergleich der drei Optionen, M 1:1000 | 2026-11-13 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/b229be8de9244bfabd7a/) |
 | Lageplan-Entwurf Welfengarten, Skizze | 2026-11-13 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/c34d1c663b9a4deaa8f3/) |
 | Lageplan-Entwurf, Zoom TIB, M 1:100, A0 | 2026-11-13 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/3b477d7b4d65463b9c59/) |
 
@@ -56,7 +58,7 @@ Verbindung Bestand / Anbau (Schnitt Ost, Ostflügel): Beide Häuser behalten ihr
 
 Umbau EG–2.OG, Planstand 2026-11-03 (eine Sammel-PDF auf dem Board unter Entwurf · Grundrisse, Ältere Versionen).
 
-Überholt, auf dem Board im jeweiligen Abschnitt unter Ältere Versionen: Erweiterung Option 1 U-Anbau (2026-11-03), Extrusion Anbau STL (2026-11-10), Schnitt Ost Verbindung v2 (2026-11-10), Lageplan-Entwurf v1 (2026-11-10).
+Überholt, auf dem Board im jeweiligen Abschnitt unter Ältere Versionen: Erweiterung Option 1 U-Anbau (2026-11-03), Extrusion Anbau STL (2026-11-10), Schnitt Ost Verbindung v2 (2026-11-10), Lageplan-Entwurf v1 (2026-11-10), Vorplatz Optionen 1–3, M 1:2500 (2026-11-03).
 
 ## Abgeschlossen
 
