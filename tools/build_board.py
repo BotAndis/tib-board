@@ -185,7 +185,8 @@ def version(rel):
 
 def dxf_pairs(files):
     """DXFs are never tiles: each one hangs on the PDFs of its folder with the same version whose name is the DXF's
-    name or starts with it (Lageplan-Entwurf_v2.dxf -> Lageplan-Entwurf_Skizze_v2.pdf). '_ohneBaeume' is its own entry."""
+    name or starts with it (Lageplan-Entwurf_v2.dxf -> Lageplan-Entwurf_Skizze_v2.pdf), or one DXF per page whose name
+    starts with the PDF's (Option-4_Zeilen_S1-Lageplan_M1-500_v1.dxf -> Option-4_Zeilen_v1.pdf). '_ohneBaeume' is its own entry."""
     dxfs = [f for f in files if f.lower().endswith(".dxf")]
     pairs, used = {}, set()
     for p in files:
@@ -196,12 +197,20 @@ def dxf_pairs(files):
         for d in dxfs:
             db, dv = version(d)
             base = db.replace("_ohneBaeume", "")
-            if Path(d).parent == Path(p).parent and dv == pv and (pb == base or pb.startswith(base + "_")):
-                pairs.setdefault(p, []).append({"label": "DXF ohne Bäume" if "_ohneBaeume" in db else "DXF", "name": Path(d).name,
-                                                "dl": f"{FOLDER_LINK}files/?p={quote('/' + d)}&dl=1"})
-                used.add(d)
+            if Path(d).parent != Path(p).parent or dv != pv:
+                continue
+            if pb == base or pb.startswith(base + "_"):
+                label = "DXF ohne Bäume" if "_ohneBaeume" in db else "DXF"
+            elif base.startswith(pb + "_"):  # one DXF per PDF page: <pdf>_S1-Lageplan_M1-500_vN.dxf
+                rest = base[len(pb) + 1:]
+                label = "DXF " + re.sub(r"M1-(\d+)", r"M 1:\1", re.sub(r"^S\d+-", "", rest)).replace("_", " ")
+            else:
+                continue
+            pairs.setdefault(p, []).append({"label": label, "name": Path(d).name,
+                                            "dl": f"{FOLDER_LINK}files/?p={quote('/' + d)}&dl=1"})
+            used.add(d)
     for p in pairs:
-        pairs[p].sort(key=lambda x: x["label"])
+        pairs[p].sort(key=lambda x: x["name"])  # page order S1, S2, S3; plain DXF before _ohneBaeume
     return pairs, [d for d in dxfs if d not in used]
 
 
@@ -271,7 +280,8 @@ def main():
     dxf, lone = dxf_pairs(files)
     if lone:
         print("DXF without a matching PDF (kept as download tile):", *lone, sep="\n  ")
-    files = [f for f in files if not f.lower().endswith(".dxf") or f in lone]
+    # unpaired DXFs stay download tiles, except superseded ones in "Ältere Versionen" (they stay on Seafile)
+    files = [f for f in files if not f.lower().endswith(".dxf") or (f in lone and "Ältere Versionen/" not in f)]
     THUMBS.mkdir(exist_ok=True)
     repo = sf._repo(LIB)
     cache = Path(__file__).with_name("links.json")  # path -> share token, so re-runs never create duplicates
