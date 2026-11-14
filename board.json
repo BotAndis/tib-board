@@ -116,61 +116,61 @@
    "id": "label:Details",
    "text": "Details",
    "x": 0,
-   "y": 25310
+   "y": 26620
   },
   {
    "id": "label:Entwurf · Details",
    "text": "Entwurf · Details",
    "x": 9200,
-   "y": 25310
+   "y": 26620
   },
   {
    "id": "label:Möblierung + Nutzung",
    "text": "Möblierung + Nutzung",
    "x": 0,
-   "y": 26240
+   "y": 27550
   },
   {
    "id": "label:Möbelbestand",
    "text": "Möbelbestand",
    "x": 0,
-   "y": 27170
+   "y": 28480
   },
   {
    "id": "label:Raumprogramm",
    "text": "Raumprogramm",
    "x": 0,
-   "y": 29000
+   "y": 30310
   },
   {
    "id": "label:Fotos",
    "text": "Fotos",
    "x": 0,
-   "y": 29930
+   "y": 31240
   },
   {
    "id": "label:3D-Modelle",
    "text": "3D-Modelle",
    "x": 0,
-   "y": 31160
+   "y": 32470
   },
   {
    "id": "label:3D-Druck · Bestand",
    "text": "3D-Druck · Bestand",
    "x": 0,
-   "y": 32090
+   "y": 33400
   },
   {
    "id": "label:Entwurf · Volumenstudien",
    "text": "Archiv · Vorübung 2 · Volumenstudie",
    "x": 9200,
-   "y": 32090
+   "y": 33400
   },
   {
    "id": "label:3D-Druck · Entwurf",
    "text": "Archiv · 3D-Druck Volumenstudie",
    "x": 9200,
-   "y": 33020
+   "y": 34330
   },
   {
    "id": "label:Zeitplan",
@@ -8941,71 +8941,122 @@
    "w": 1697
   },
   {
-   "id": "4_Entwurf/Lageplan/TIB_Freiraum_Option-1_Baumreihen_v1.pdf",
+   "id": "4_Entwurf/Lageplan/TIB_Freiraum_Option-1_Baumreihen_v2.pdf",
    "kind": "pdf",
-   "title": "TIB Freiraum Option-1 Baumreihen v1",
+   "title": "TIB Freiraum Option-1 Baumreihen v2",
    "ext": "pdf",
-   "size": 1126007,
+   "size": 692248,
    "date": "13.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Option-1_Baumreihen_v1.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Option-1_Baumreihen_v1.pdf&raw=1",
-   "thumb": "thumbs/7f1f82387692deac.webp",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Option-1_Baumreihen_v2.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Option-1_Baumreihen_v2.pdf&raw=1",
+   "thumb": "thumbs/698598a63ef626ed.webp",
    "ar": 1.4139,
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/87b626e693f046829ce5/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/a7447a9081804d858a3b/",
    "section": "Entwurf · Lageplan",
    "x": 10936.68,
    "y": 22420,
    "w": 1697
   },
   {
-   "id": "4_Entwurf/Lageplan/TIB_Freiraum_Option-2_Inseln_v1.pdf",
+   "id": "4_Entwurf/Lageplan/TIB_Freiraum_Option-2_Inseln_v2.pdf",
    "kind": "pdf",
-   "title": "TIB Freiraum Option-2 Inseln v1",
+   "title": "TIB Freiraum Option-2 Inseln v2",
    "ext": "pdf",
-   "size": 1123542,
+   "size": 559011,
    "date": "13.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Option-2_Inseln_v1.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Option-2_Inseln_v1.pdf&raw=1",
-   "thumb": "thumbs/98bd00a1f709af42.webp",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Option-2_Inseln_v2.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Option-2_Inseln_v2.pdf&raw=1",
+   "thumb": "thumbs/f5e0f3b138ae5511.webp",
    "ar": 1.4139,
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/179e20e875ef4553afce/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/eefce5fe947e4563bb44/",
    "section": "Entwurf · Lageplan",
    "x": 12673.36,
    "y": 22420,
    "w": 1697
   },
   {
-   "id": "4_Entwurf/Lageplan/TIB_Freiraum_Option-3_Rasenfelder_v1.pdf",
+   "id": "4_Entwurf/Lageplan/TIB_Freiraum_Option-3_Rasenfelder_v2.pdf",
    "kind": "pdf",
-   "title": "TIB Freiraum Option-3 Rasenfelder v1",
+   "title": "TIB Freiraum Option-3 Rasenfelder v2",
    "ext": "pdf",
-   "size": 1112063,
+   "size": 464546,
    "date": "13.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Option-3_Rasenfelder_v1.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Option-3_Rasenfelder_v1.pdf&raw=1",
-   "thumb": "thumbs/7bcd6341f884cc27.webp",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Option-3_Rasenfelder_v2.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Option-3_Rasenfelder_v2.pdf&raw=1",
+   "thumb": "thumbs/23980bb3faee9a88.webp",
    "ar": 1.4139,
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/bad5023ab5e045d09d6f/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/3ccacaa9293c4c22b91b/",
    "section": "Entwurf · Lageplan",
    "x": 9200,
    "y": 23730,
    "w": 1697
   },
   {
-   "id": "4_Entwurf/Lageplan/TIB_Freiraum_Vergleich_M1-1000_v1.pdf",
+   "id": "4_Entwurf/Lageplan/TIB_Freiraum_Option-4_Zeilen_v1.pdf",
    "kind": "pdf",
-   "title": "TIB Freiraum Vergleich M1-1000 v1",
+   "title": "TIB Freiraum Option-4 Zeilen v1",
    "ext": "pdf",
-   "size": 105236,
+   "size": 581211,
    "date": "13.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Vergleich_M1-1000_v1.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Vergleich_M1-1000_v1.pdf&raw=1",
-   "thumb": "thumbs/5b79459fb436a750.webp",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Option-4_Zeilen_v1.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Option-4_Zeilen_v1.pdf&raw=1",
+   "thumb": "thumbs/b7d3bb990f553713.webp",
    "ar": 1.4139,
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/b229be8de9244bfabd7a/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/10df3c2926814b0cbf46/",
    "section": "Entwurf · Lageplan",
    "x": 10936.68,
    "y": 23730,
+   "w": 1697
+  },
+  {
+   "id": "4_Entwurf/Lageplan/TIB_Freiraum_Option-5_Ufer_v1.pdf",
+   "kind": "pdf",
+   "title": "TIB Freiraum Option-5 Ufer v1",
+   "ext": "pdf",
+   "size": 619902,
+   "date": "13.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Option-5_Ufer_v1.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Option-5_Ufer_v1.pdf&raw=1",
+   "thumb": "thumbs/738ee3b7e5522feb.webp",
+   "ar": 1.4139,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/9f0155995e7e4ceca890/",
+   "section": "Entwurf · Lageplan",
+   "x": 12673.36,
+   "y": 23730,
+   "w": 1697
+  },
+  {
+   "id": "4_Entwurf/Lageplan/TIB_Freiraum_Option-6_Hain_v1.pdf",
+   "kind": "pdf",
+   "title": "TIB Freiraum Option-6 Hain v1",
+   "ext": "pdf",
+   "size": 529836,
+   "date": "13.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Option-6_Hain_v1.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Option-6_Hain_v1.pdf&raw=1",
+   "thumb": "thumbs/203a3c9a5b613522.webp",
+   "ar": 1.4139,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/a2450c6cab8347858cbb/",
+   "section": "Entwurf · Lageplan",
+   "x": 9200,
+   "y": 25040,
+   "w": 1697
+  },
+  {
+   "id": "4_Entwurf/Lageplan/TIB_Freiraum_Vergleich_M1-1000_v2.pdf",
+   "kind": "pdf",
+   "title": "TIB Freiraum Vergleich M1-1000 v2",
+   "ext": "pdf",
+   "size": 497555,
+   "date": "13.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Vergleich_M1-1000_v2.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Vergleich_M1-1000_v2.pdf&raw=1",
+   "thumb": "thumbs/2530d94f6abd5838.webp",
+   "ar": 1.4139,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/8862c6530ec9459b92c8/",
+   "section": "Entwurf · Lageplan",
+   "x": 10936.68,
+   "y": 25040,
    "w": 1697
   },
   {
@@ -9013,6 +9064,58 @@
    "kind": "stack",
    "title": "Ältere Versionen",
    "items": [
+    {
+     "id": "4_Entwurf/Lageplan/Ältere Versionen/TIB_Freiraum_Vergleich_M1-1000_v1.pdf",
+     "kind": "pdf",
+     "title": "TIB Freiraum Vergleich M1-1000 v1",
+     "ext": "pdf",
+     "size": 105236,
+     "date": "13.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/%C3%84ltere%20Versionen/TIB_Freiraum_Vergleich_M1-1000_v1.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/%C3%84ltere%20Versionen/TIB_Freiraum_Vergleich_M1-1000_v1.pdf&raw=1",
+     "thumb": "thumbs/2c78d6b8da860fe9.webp",
+     "ar": 1.4139,
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/710801bcc1cb4ae0a532/"
+    },
+    {
+     "id": "4_Entwurf/Lageplan/Ältere Versionen/TIB_Freiraum_Option-3_Rasenfelder_v1.pdf",
+     "kind": "pdf",
+     "title": "TIB Freiraum Option-3 Rasenfelder v1",
+     "ext": "pdf",
+     "size": 1112063,
+     "date": "13.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/%C3%84ltere%20Versionen/TIB_Freiraum_Option-3_Rasenfelder_v1.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/%C3%84ltere%20Versionen/TIB_Freiraum_Option-3_Rasenfelder_v1.pdf&raw=1",
+     "thumb": "thumbs/f7c55c12cd3c05c5.webp",
+     "ar": 1.4139,
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/3d281e522c0343579020/"
+    },
+    {
+     "id": "4_Entwurf/Lageplan/Ältere Versionen/TIB_Freiraum_Option-2_Inseln_v1.pdf",
+     "kind": "pdf",
+     "title": "TIB Freiraum Option-2 Inseln v1",
+     "ext": "pdf",
+     "size": 1123542,
+     "date": "13.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/%C3%84ltere%20Versionen/TIB_Freiraum_Option-2_Inseln_v1.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/%C3%84ltere%20Versionen/TIB_Freiraum_Option-2_Inseln_v1.pdf&raw=1",
+     "thumb": "thumbs/6f6763d7b79dc199.webp",
+     "ar": 1.4139,
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/58999424b1264703b900/"
+    },
+    {
+     "id": "4_Entwurf/Lageplan/Ältere Versionen/TIB_Freiraum_Option-1_Baumreihen_v1.pdf",
+     "kind": "pdf",
+     "title": "TIB Freiraum Option-1 Baumreihen v1",
+     "ext": "pdf",
+     "size": 1126007,
+     "date": "13.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/%C3%84ltere%20Versionen/TIB_Freiraum_Option-1_Baumreihen_v1.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/%C3%84ltere%20Versionen/TIB_Freiraum_Option-1_Baumreihen_v1.pdf&raw=1",
+     "thumb": "thumbs/b3947c00bb27f8a2.webp",
+     "ar": 1.4139,
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/c33a71e3bdeb4888bdef/"
+    },
     {
      "id": "4_Entwurf/Lageplan/Ältere Versionen/LP_1100_Welfengarten_Lageplan-Entwurf_Zoom-TIB_M1-100_A0_v1.pdf",
      "kind": "pdf",
@@ -9094,7 +9197,7 @@
    ],
    "section": "Entwurf · Lageplan",
    "x": 12673.36,
-   "y": 23730,
+   "y": 25040,
    "w": 300
   },
   {
@@ -9111,7 +9214,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/b51e884a80df4622a592/",
    "section": "Details",
    "x": 0,
-   "y": 25560,
+   "y": 26870,
    "w": 424
   },
   {
@@ -9128,7 +9231,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/2aff410e5a2549829e94/",
    "section": "Details",
    "x": 464.16999999999996,
-   "y": 25560,
+   "y": 26870,
    "w": 212
   },
   {
@@ -9143,7 +9246,7 @@
    "url": "html/kern335-detailmappe.html",
    "section": "Details",
    "x": 716.63,
-   "y": 25560,
+   "y": 26870,
    "w": 300
   },
   {
@@ -9160,7 +9263,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/775f160cb7f84a848cd4/",
    "section": "Details",
    "x": 1056.63,
-   "y": 25560,
+   "y": 26870,
    "w": 300
   },
   {
@@ -9177,7 +9280,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/82429d1049c2454e841c/",
    "section": "Details",
    "x": 1396.63,
-   "y": 25560,
+   "y": 26870,
    "w": 212
   },
   {
@@ -9194,7 +9297,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/f3a22435b0fe47d38497/",
    "section": "Details",
    "x": 1649.0900000000001,
-   "y": 25560,
+   "y": 26870,
    "w": 150
   },
   {
@@ -9211,7 +9314,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/0ca1624679e646abb174/",
    "section": "Details",
    "x": 1839.0900000000001,
-   "y": 25560,
+   "y": 26870,
    "w": 150
   },
   {
@@ -9228,7 +9331,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/5bb4f0224c9b482abfdd/",
    "section": "Details",
    "x": 2029.0900000000001,
-   "y": 25560,
+   "y": 26870,
    "w": 300
   },
   {
@@ -9245,7 +9348,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/c1f2d30cbd54456dae16/",
    "section": "Details",
    "x": 2369.09,
-   "y": 25560,
+   "y": 26870,
    "w": 212
   },
   {
@@ -9364,7 +9467,7 @@
    ],
    "section": "Details",
    "x": 2621.28,
-   "y": 25560,
+   "y": 26870,
    "w": 300
   },
   {
@@ -9485,7 +9588,7 @@
    ],
    "section": "Details",
    "x": 2961.28,
-   "y": 25560,
+   "y": 26870,
    "w": 300
   },
   {
@@ -9519,7 +9622,7 @@
    ],
    "section": "Details",
    "x": 3301.28,
-   "y": 25560,
+   "y": 26870,
    "w": 300
   },
   {
@@ -9536,7 +9639,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/e93fd1ebc7524efe9a7e/",
    "section": "Möblierung + Nutzung",
    "x": 0,
-   "y": 26490,
+   "y": 27800,
    "w": 424
   },
   {
@@ -9553,7 +9656,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/25f03c28f0cc4d5da6df/",
    "section": "Möblierung + Nutzung",
    "x": 464.16999999999996,
-   "y": 26490,
+   "y": 27800,
    "w": 424
   },
   {
@@ -9570,7 +9673,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/4dd961c156054f7ba9f0/",
    "section": "Möblierung + Nutzung",
    "x": 928.3399999999999,
-   "y": 26490,
+   "y": 27800,
    "w": 424
   },
   {
@@ -9587,7 +9690,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/48ba8a90c0ff4b3abd81/",
    "section": "Möblierung + Nutzung",
    "x": 1392.5099999999998,
-   "y": 26490,
+   "y": 27800,
    "w": 424
   },
   {
@@ -9604,7 +9707,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/16b4b2ec8ebd4f6aa596/",
    "section": "Möblierung + Nutzung",
    "x": 1856.6799999999998,
-   "y": 26490,
+   "y": 27800,
    "w": 424
   },
   {
@@ -9621,7 +9724,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/32c5becf5bd145cc9cb2/",
    "section": "Möblierung + Nutzung",
    "x": 2320.85,
-   "y": 26490,
+   "y": 27800,
    "w": 424
   },
   {
@@ -9682,7 +9785,7 @@
    ],
    "section": "Möblierung + Nutzung",
    "x": 2785.02,
-   "y": 26490,
+   "y": 27800,
    "w": 300
   },
   {
@@ -9699,7 +9802,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/7bbf91ee561742eb804a/",
    "section": "Möbelbestand",
    "x": 0,
-   "y": 27420,
+   "y": 28730,
    "w": 1697
   },
   {
@@ -9716,7 +9819,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/3ebdcf14307b43f28a80/",
    "section": "Möbelbestand",
    "x": 1736.6799999999998,
-   "y": 27420,
+   "y": 28730,
    "w": 424
   },
   {
@@ -9733,7 +9836,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/7b1f59736cf54e46bd44/",
    "section": "Möbelbestand",
    "x": 2200.85,
-   "y": 27420,
+   "y": 28730,
    "w": 424
   },
   {
@@ -9750,7 +9853,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/8cf2c7c5f65246ed9ae0/",
    "section": "Möbelbestand",
    "x": 2665.02,
-   "y": 27420,
+   "y": 28730,
    "w": 424
   },
   {
@@ -9767,7 +9870,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/f5aefd5f790a4de69da9/",
    "section": "Möbelbestand",
    "x": 3129.19,
-   "y": 27420,
+   "y": 28730,
    "w": 424
   },
   {
@@ -9784,7 +9887,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/6f8ea0c273a84c31bd43/",
    "section": "Möbelbestand",
    "x": 3593.36,
-   "y": 27420,
+   "y": 28730,
    "w": 424
   },
   {
@@ -9855,7 +9958,7 @@
    ],
    "section": "Möbelbestand",
    "x": 4057.53,
-   "y": 27420,
+   "y": 28730,
    "w": 300
   },
   {
@@ -10113,7 +10216,7 @@
    ],
    "section": "Möbelbestand",
    "x": 4397.530000000001,
-   "y": 27420,
+   "y": 28730,
    "w": 300
   },
   {
@@ -10128,7 +10231,7 @@
    "url": "html/flaechen-editor.html",
    "section": "Raumprogramm",
    "x": 0,
-   "y": 29250,
+   "y": 30560,
    "w": 300
   },
   {
@@ -10145,7 +10248,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/f5d42ff6dcae416d8483/",
    "section": "Raumprogramm",
    "x": 340.0,
-   "y": 29250,
+   "y": 30560,
    "w": 425
   },
   {
@@ -10162,7 +10265,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/dba8c620fbaa43bf94bc/",
    "section": "Raumprogramm",
    "x": 804.71,
-   "y": 29250,
+   "y": 30560,
    "w": 425
   },
   {
@@ -10179,7 +10282,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/02c389917bad41ba8961/",
    "section": "Raumprogramm",
    "x": 1269.42,
-   "y": 29250,
+   "y": 30560,
    "w": 425
   },
   {
@@ -10196,7 +10299,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/5f6a830fe5c2468a8461/",
    "section": "Raumprogramm",
    "x": 1734.13,
-   "y": 29250,
+   "y": 30560,
    "w": 425
   },
   {
@@ -10213,7 +10316,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/dde1bf11beec432eb53c/",
    "section": "Raumprogramm",
    "x": 2198.84,
-   "y": 29250,
+   "y": 30560,
    "w": 425
   },
   {
@@ -10290,7 +10393,7 @@
    ],
    "section": "Raumprogramm",
    "x": 2663.55,
-   "y": 29250,
+   "y": 30560,
    "w": 300
   },
   {
@@ -10406,7 +10509,7 @@
    ],
    "section": "Raumprogramm",
    "x": 3003.55,
-   "y": 29250,
+   "y": 30560,
    "w": 300
   },
   {
@@ -10801,7 +10904,7 @@
    ],
    "section": "Fotos",
    "x": 0,
-   "y": 30180,
+   "y": 31490,
    "w": 600
   },
   {
@@ -12396,7 +12499,7 @@
    ],
    "section": "Fotos",
    "x": 640.0,
-   "y": 30180,
+   "y": 31490,
    "w": 600
   },
   {
@@ -12647,7 +12750,7 @@
    ],
    "section": "Fotos",
    "x": 1280.0,
-   "y": 30180,
+   "y": 31490,
    "w": 600
   },
   {
@@ -13054,7 +13157,7 @@
    ],
    "section": "Fotos",
    "x": 1920.0,
-   "y": 30180,
+   "y": 31490,
    "w": 600
   },
   {
@@ -13173,7 +13276,7 @@
    ],
    "section": "Fotos",
    "x": 2560.0,
-   "y": 30180,
+   "y": 31490,
    "w": 600
   },
   {
@@ -13232,7 +13335,7 @@
    ],
    "section": "Fotos",
    "x": 3200.0,
-   "y": 30180,
+   "y": 31490,
    "w": 600
   },
   {
@@ -13303,7 +13406,7 @@
    ],
    "section": "Fotos",
    "x": 3840.0,
-   "y": 30180,
+   "y": 31490,
    "w": 600
   },
   {
@@ -13319,7 +13422,7 @@
    "ar": 1.7143,
    "section": "3D-Modelle",
    "x": 0,
-   "y": 31410,
+   "y": 32720,
    "w": 514
   },
   {
@@ -13334,7 +13437,7 @@
    "url": "html/modell-ansichten/index.html",
    "section": "3D-Modelle",
    "x": 554.29,
-   "y": 31410,
+   "y": 32720,
    "w": 300
   },
   {
@@ -13657,7 +13760,7 @@
    ],
    "section": "3D-Modelle",
    "x": 894.29,
-   "y": 31410,
+   "y": 32720,
    "w": 300
   },
   {
@@ -13728,7 +13831,7 @@
    ],
    "section": "3D-Modelle",
    "x": 1234.29,
-   "y": 31410,
+   "y": 32720,
    "w": 300
   },
   {
@@ -13799,7 +13902,7 @@
    ],
    "section": "3D-Modelle",
    "x": 1574.29,
-   "y": 31410,
+   "y": 32720,
    "w": 300
   },
   {
@@ -13813,7 +13916,7 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/6_3D-Druck/Bestand_M1-500/druck%20bestand%20tib%20getrennt.3mf&raw=1",
    "section": "3D-Druck · Bestand",
    "x": 0,
-   "y": 32340,
+   "y": 33650,
    "w": 300
   },
   {
@@ -13828,7 +13931,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/05b34aed64764d94b33a/",
    "section": "3D-Druck · Bestand",
    "x": 340.0,
-   "y": 32340,
+   "y": 33650,
    "w": 300
   },
   {
@@ -13843,7 +13946,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/32be4ce2d8f9463c92dc/",
    "section": "3D-Druck · Bestand",
    "x": 680.0,
-   "y": 32340,
+   "y": 33650,
    "w": 300
   },
   {
@@ -16207,7 +16310,7 @@
    "ar": 2,
    "section": "Entwurf · Volumenstudien",
    "x": 9200,
-   "y": 32340,
+   "y": 33650,
    "w": 600
   },
   {
@@ -17104,7 +17207,7 @@
    "ar": 2,
    "section": "3D-Druck · Entwurf",
    "x": 9200,
-   "y": 33270,
+   "y": 34580,
    "w": 600
   },
   {
