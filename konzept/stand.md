@@ -43,9 +43,10 @@ Verbindung Bestand / Anbau (Schnitt Ost, Ostflügel): Beide Häuser behalten ihr
 | Axonometrie Südwest, A1 | 2026-11-14 | [PNG](https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SW_A1_v3.png&raw=1) |
 | Axonometrie Geschosse, A1 | 2026-11-14 | [PNG](https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-Geschosse_A1_v3.png&raw=1) |
 | Flächenbilanz Nutzungsflächen Ist / Soll, A3 | 2026-11-14 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/ece17b3e63a546308834/) |
-| Schnitt Ost, Verbindung Bestand / Anbau, zwei Tafeln, M 1:200 | 2026-11-14 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/cfe3f71f92c24f14abe0/) |
-| Schnitte West + Mitte, M 1:200 | 2026-11-14 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/f839919917b94989b92e/) |
-| Schnitte West + Mitte, schematisch, M 1:200 | 2026-11-14 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/5e2947819fd94ad698fe/) |
+| Schnitt Ost, Verbindung Bestand / Anbau, zwei Tafeln, M 1:200 | 2026-11-14 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/5753a1caf0c04bd9a2ee/) |
+| Schnitte West + Mitte, M 1:200 | 2026-11-14 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/0a790a2cfa7b46db8997/) |
+| Schnitte West + Mitte, schematisch, M 1:200 | 2026-11-14 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/3ec536feb2f44e5c85de/) |
+| Oberlicht Atrium, Glaskuppel: Tragwerk und Kuppelrand, M 1:100 / 1:10, A1 | 2026-11-14 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/bd648a1cc7ef4c859430/) |
 | Lageplan-Entwurf, Ausschnitt TIB, A3 | 2026-11-13 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/e2849fcf88c245eb9b7b/) |
 | Lageplan-Entwurf, Ausschnitt Umgebung quer, M 1:1500, A3 | 2026-11-13 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/9263e6f58cdd442db454/) |
 | Lageplan-Entwurf, Ausschnitt Umgebung, M 1:1500, A3 | 2026-11-13 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/a4ae3922a97a41c3a467/) |
