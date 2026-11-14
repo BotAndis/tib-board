@@ -43,9 +43,9 @@ Verbindung Bestand / Anbau (Schnitt Ost, Ostflügel): Beide Häuser behalten ihr
 | Axonometrie Südwest, A1 | 2026-11-14 | [PNG](https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SW_A1_v3.png&raw=1) |
 | Axonometrie Geschosse, A1 | 2026-11-14 | [PNG](https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-Geschosse_A1_v3.png&raw=1) |
 | Flächenbilanz Nutzungsflächen Ist / Soll, A3 | 2026-11-14 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/ece17b3e63a546308834/) |
-| Schnitt Ost, Verbindung Bestand / Anbau, zwei Tafeln, M 1:200 | 2026-11-14 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/5fcfe5b765154e26b231/) |
-| Schnitte West + Mitte, M 1:200 | 2026-11-14 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/5892306d2b1a4468990e/) |
-| Schnitte West + Mitte, schematisch, M 1:200 | 2026-11-14 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/ac7b20b1230442db8c6e/) |
+| Schnitt Ost, Verbindung Bestand / Anbau, zwei Tafeln, M 1:200 | 2026-11-14 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/df5737a28aff48849869/) |
+| Schnitte West + Mitte, M 1:200 | 2026-11-14 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/7e02ba093cfa42559330/) |
+| Schnitte West + Mitte, schematisch, M 1:200 | 2026-11-14 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/b208b5fda07c4c6ab66f/) |
 | Oberlicht Atrium, Glaskuppel: Tragwerk und Kuppelrand, M 1:100 / 1:10, A1 | 2026-11-14 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/bd648a1cc7ef4c859430/) |
 | Lageplan-Entwurf, Ausschnitt TIB, A3 | 2026-11-13 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/e2849fcf88c245eb9b7b/) |
 | Lageplan-Entwurf, Ausschnitt Umgebung quer, M 1:1500, A3 | 2026-11-13 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/9263e6f58cdd442db454/) |
