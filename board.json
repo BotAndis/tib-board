@@ -155,22 +155,28 @@
    "y": 32470
   },
   {
+   "id": "label:Vorlagen · Archicad",
+   "text": "Vorlagen · Archicad",
+   "x": 0,
+   "y": 33400
+  },
+  {
    "id": "label:3D-Druck · Bestand",
    "text": "3D-Druck · Bestand",
    "x": 0,
-   "y": 33400
+   "y": 34330
   },
   {
    "id": "label:Entwurf · Volumenstudien",
    "text": "Archiv · Vorübung 2 · Volumenstudie",
    "x": 9200,
-   "y": 33400
+   "y": 34330
   },
   {
    "id": "label:3D-Druck · Entwurf",
    "text": "Archiv · 3D-Druck Volumenstudie",
    "x": 9200,
-   "y": 34330
+   "y": 35260
   },
   {
    "id": "label:Zeitplan",
@@ -13906,6 +13912,34 @@
    "w": 300
   },
   {
+   "id": "8_Vorlagen/Archicad/CX-NEA DXF.xml",
+   "kind": "file",
+   "title": "CX-NEA DXF",
+   "ext": "xml",
+   "size": 35326,
+   "date": "14.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/8_Vorlagen/Archicad/CX-NEA%20DXF.xml&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/8_Vorlagen/Archicad/CX-NEA%20DXF.xml&raw=1",
+   "section": "Vorlagen · Archicad",
+   "x": 0,
+   "y": 33650,
+   "w": 300
+  },
+  {
+   "id": "8_Vorlagen/Archicad/CX_NEA.tpl",
+   "kind": "file",
+   "title": "CX NEA",
+   "ext": "tpl",
+   "size": 13323536,
+   "date": "14.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/8_Vorlagen/Archicad/CX_NEA.tpl&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/8_Vorlagen/Archicad/CX_NEA.tpl&raw=1",
+   "section": "Vorlagen · Archicad",
+   "x": 340.0,
+   "y": 33650,
+   "w": 300
+  },
+  {
    "id": "6_3D-Druck/Bestand_M1-500/druck bestand tib getrennt.3mf",
    "kind": "file",
    "title": "druck bestand tib getrennt",
@@ -13916,7 +13950,7 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/6_3D-Druck/Bestand_M1-500/druck%20bestand%20tib%20getrennt.3mf&raw=1",
    "section": "3D-Druck · Bestand",
    "x": 0,
-   "y": 33650,
+   "y": 34580,
    "w": 300
   },
   {
@@ -13931,7 +13965,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/05b34aed64764d94b33a/",
    "section": "3D-Druck · Bestand",
    "x": 340.0,
-   "y": 33650,
+   "y": 34580,
    "w": 300
   },
   {
@@ -13946,7 +13980,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/32be4ce2d8f9463c92dc/",
    "section": "3D-Druck · Bestand",
    "x": 680.0,
-   "y": 33650,
+   "y": 34580,
    "w": 300
   },
   {
@@ -16310,7 +16344,7 @@
    "ar": 2,
    "section": "Entwurf · Volumenstudien",
    "x": 9200,
-   "y": 33650,
+   "y": 34580,
    "w": 600
   },
   {
@@ -17207,7 +17241,7 @@
    "ar": 2,
    "section": "3D-Druck · Entwurf",
    "x": 9200,
-   "y": 34580,
+   "y": 35510,
    "w": 600
   },
   {

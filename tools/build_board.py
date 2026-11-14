@@ -125,6 +125,7 @@ SECTIONS = [
         *[("stack", p.replace("_", " · ").replace("-", " "), [f"{P}/Entwurf_Platten/{p}/*"]) for p in PLATES],
         ("stack", O, [f"{P}/Entwurf_M1-500/{O}/*"]),
     ])]),
+    ("Vorlagen · Archicad", [("open", ["8_Vorlagen/Archicad/*"])]),
 ]
 
 REFS = {"id": "html/referenzen/index.html", "kind": "html", "title": "Referenzen · Bibliotheken", "ext": "html",
@@ -154,6 +155,7 @@ GRID = [
     ("Raumprogramm", None),
     ("Fotos", None),
     ("3D-Modelle", None),
+    ("Vorlagen · Archicad", None),
     ("3D-Druck · Bestand", "Entwurf · Volumenstudien"),  # archive (Vorübung 2) at the bottom
     (None, "3D-Druck · Entwurf"),
 ]
