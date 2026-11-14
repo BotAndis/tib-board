@@ -183,6 +183,28 @@ def version(rel):
     return (VER.sub("", stem), int(m.group(1)) if m else 1)
 
 
+def dxf_pairs(files):
+    """DXFs are never tiles: each one hangs on the PDFs of its folder with the same version whose name is the DXF's
+    name or starts with it (Lageplan-Entwurf_v2.dxf -> Lageplan-Entwurf_Skizze_v2.pdf). '_ohneBaeume' is its own entry."""
+    dxfs = [f for f in files if f.lower().endswith(".dxf")]
+    pairs, used = {}, set()
+    for p in files:
+        if not p.lower().endswith(".pdf"):
+            continue
+        pb, pv = version(p)
+        pb = pb.replace("_ohneBaeume", "")
+        for d in dxfs:
+            db, dv = version(d)
+            base = db.replace("_ohneBaeume", "")
+            if Path(d).parent == Path(p).parent and dv == pv and (pb == base or pb.startswith(base + "_")):
+                pairs.setdefault(p, []).append({"label": "DXF ohne Bäume" if "_ohneBaeume" in db else "DXF", "name": Path(d).name,
+                                                "dl": f"{FOLDER_LINK}files/?p={quote('/' + d)}&dl=1"})
+                used.add(d)
+    for p in pairs:
+        pairs[p].sort(key=lambda x: x["label"])
+    return pairs, [d for d in dxfs if d not in used]
+
+
 def match(rel, globs):
     # fnmatch '*' also crosses '/', so a plain '*' segment would swallow subfolders: compare segment counts
     for g in globs:
@@ -246,6 +268,10 @@ def main():
     files = sorted(p.relative_to(LOCAL).as_posix() for p in LOCAL.rglob("*") if p.is_file()
                    and "Modell-Ansichten_Web/" not in p.relative_to(LOCAL).as_posix()
                    or p.relative_to(LOCAL).as_posix() in HTML)
+    dxf, lone = dxf_pairs(files)
+    if lone:
+        print("DXF without a matching PDF (kept as download tile):", *lone, sep="\n  ")
+    files = [f for f in files if not f.lower().endswith(".dxf") or f in lone]
     THUMBS.mkdir(exist_ok=True)
     repo = sf._repo(LIB)
     cache = Path(__file__).with_name("links.json")  # path -> share token, so re-runs never create duplicates
@@ -265,6 +291,8 @@ def main():
               "raw": f"{FOLDER_LINK}files/?p={quote('/' + rel)}&raw=1"}
         if kind in ("pdf", "image"):
             it["thumb"], it["ar"] = thumb(rel, kind)
+        if rel in dxf:
+            it["dxf"] = dxf[rel]
         if kind in ("pdf", "model"):
             path = f"{REMOTE}/{rel}"
             if path not in remote:

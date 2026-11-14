@@ -51,6 +51,12 @@ html,body{margin:0;height:100%;overflow:hidden;background:var(--bg);color:var(--
 .bar .t{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:14px}
 .bar a,.bar button{color:var(--ink);text-decoration:none;background:none;border:0;font:inherit;cursor:pointer;padding:4px 0}
 .bar a:hover,.bar button:hover{color:var(--mute)}
+.dlw{position:relative}
+#dlmenu{position:absolute;right:0;top:100%;margin-top:8px;background:var(--bg);border:1px solid var(--line);display:flex;flex-direction:column;min-width:170px;z-index:3}
+#dlmenu[hidden]{display:none}
+#dlmenu a,#dlmenu span{padding:9px 14px;white-space:nowrap}
+#dlmenu span{color:var(--mute);cursor:default}
+#dlmenu a:hover{background:var(--line)}
 #ovbody{position:relative;flex:1;min-height:0;overflow:hidden}
 #ovbody>.host{position:absolute}
 .page{position:absolute;background:#fff;box-shadow:0 0 0 1px var(--line)}
@@ -113,7 +119,7 @@ iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
   <div class="bar"><button id="ovback" title="Zurück">←</button><span class="t" id="ovtitle"></span>
     <button id="ovaxes" title="Achsraster ein / aus" hidden>Achsen</button>
     <button id="ovpen" title="Zeichnen" hidden>✎ Zeichnen</button>
-    <a id="ovdl" target="_blank" rel="noopener">Download</a><button id="ovclose" title="Schließen">✕</button></div>
+    <span class="dlw"><a id="ovdl" target="_blank" rel="noopener">Download</a><span id="dlmenu" hidden></span></span><button id="ovclose" title="Schließen">✕</button></div>
   <div class="pen" id="pen" hidden>
     <button data-tool="sel" title="Auswahl: Klick, Shift+Klick oder Rahmen ziehen; ziehen verschiebt, Entf löscht">Auswahl</button>
     <button data-tool="pen" class="on" title="Stift (Shift: gerade Linie)">Stift</button>
@@ -388,6 +394,7 @@ function openItem(item, list) {
 function back() { levels.pop(); levels.length ? show() : close(); }
 function close() { levels.length = 0; dispose?.(); dispose = null; body.innerHTML = ""; ov.hidden = true; pen.on = false; penCtx = null; penShow(); }
 $("#ovclose").onclick = close; $("#ovback").onclick = back;
+addEventListener("click", e => { if (!e.target.closest?.(".dlw")) $("#dlmenu").hidden = true; });
 addEventListener("keydown", e => {
   if (ov.hidden) return;
   if (pen.on && penCtx && !e.target.matches?.("input[type=number]")) {  // Backspace in the scale field must not delete marks
@@ -415,7 +422,14 @@ function show() {
   $("#ovtitle").textContent = [name, item.date, item.size && mb(item.size)].filter(Boolean).join("  ·  ");
   ov.scrollTop = 0; body.scrollTop = 0;  // the bar must never scroll out of view
   $("#ovback").style.visibility = levels.length > 1 ? "visible" : "hidden";
-  const dl = $("#ovdl"); dl.hidden = !item.dl; if (item.dl) dl.href = item.dl;
+  const dl = $("#ovdl"), menu = $("#dlmenu"); dl.hidden = !item.dl; if (item.dl) dl.href = item.dl; menu.hidden = true;
+  // PDFs: Download opens a menu PDF / DXF (the DXF files are attached to the PDF by build_board.py, never own tiles)
+  if (item.kind === "pdf" && item.dl) {
+    menu.innerHTML = `<a href="${esc(item.dl)}">PDF herunterladen</a>` + ((item.dxf || []).length
+      ? item.dxf.map(d => `<a href="${esc(d.dl)}">${esc(d.label)} herunterladen</a>`).join("")
+      : `<span>DXF nicht vorhanden</span>`);
+    dl.onclick = e => { e.preventDefault(); menu.hidden = !menu.hidden; };
+  } else dl.onclick = null;
   ({ pdf: showPdf, image: showImage, model: showModel, html: showHtml, stack: showStack })[item.kind]?.(item);
 }
 

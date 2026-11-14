@@ -2592,6 +2592,13 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Grundrisse/TIB_1102_Grundriss_UG2_M1-200.pdf&raw=1",
    "thumb": "thumbs/5a886dfd9116d953.webp",
    "ar": 1.4139,
+   "dxf": [
+    {
+     "label": "DXF",
+     "name": "TIB_1102_Grundriss_UG2_M1-200.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Grundrisse/TIB_1102_Grundriss_UG2_M1-200.dxf&dl=1"
+    }
+   ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/9f9eb7dbe21c41c1a745/",
    "section": "Grundrisse",
    "x": 0,
@@ -2609,6 +2616,13 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Grundrisse/TIB_1102_Grundriss_UG1_M1-200.pdf&raw=1",
    "thumb": "thumbs/2ddcff65a425ff0a.webp",
    "ar": 1.4139,
+   "dxf": [
+    {
+     "label": "DXF",
+     "name": "TIB_1102_Grundriss_UG1_M1-200.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Grundrisse/TIB_1102_Grundriss_UG1_M1-200.dxf&dl=1"
+    }
+   ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/65e5393427f5438ea820/",
    "section": "Grundrisse",
    "x": 464.16999999999996,
@@ -2626,6 +2640,13 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Grundrisse/TIB_1102_Grundriss_OG2_M1-200.pdf&raw=1",
    "thumb": "thumbs/3818b4a84e55e3a6.webp",
    "ar": 1.4139,
+   "dxf": [
+    {
+     "label": "DXF",
+     "name": "TIB_1102_Grundriss_OG2_M1-200.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Grundrisse/TIB_1102_Grundriss_OG2_M1-200.dxf&dl=1"
+    }
+   ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/6121a00c632d41198328/",
    "section": "Grundrisse",
    "x": 928.3399999999999,
@@ -2643,6 +2664,13 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Grundrisse/TIB_1102_Grundriss_OG1_M1-200.pdf&raw=1",
    "thumb": "thumbs/1d7bbece72ce6fee.webp",
    "ar": 1.4139,
+   "dxf": [
+    {
+     "label": "DXF",
+     "name": "TIB_1102_Grundriss_OG1_M1-200.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Grundrisse/TIB_1102_Grundriss_OG1_M1-200.dxf&dl=1"
+    }
+   ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/53534d01dc424e59b175/",
    "section": "Grundrisse",
    "x": 1392.5099999999998,
@@ -2660,6 +2688,13 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Grundrisse/TIB_1102_Grundriss_EG_M1-200.pdf&raw=1",
    "thumb": "thumbs/dd091e3785fdd274.webp",
    "ar": 1.4139,
+   "dxf": [
+    {
+     "label": "DXF",
+     "name": "TIB_1102_Grundriss_EG_M1-200.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Grundrisse/TIB_1102_Grundriss_EG_M1-200.dxf&dl=1"
+    }
+   ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/dd6b6c0a896346e58619/",
    "section": "Grundrisse",
    "x": 1856.6799999999998,
@@ -2677,6 +2712,13 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Grundrisse/TIB_1102_Grundriss_Dach_M1-200.pdf&raw=1",
    "thumb": "thumbs/fa5f40a51c4b8f4e.webp",
    "ar": 1.4139,
+   "dxf": [
+    {
+     "label": "DXF",
+     "name": "TIB_1102_Grundriss_Dach_M1-200.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Grundrisse/TIB_1102_Grundriss_Dach_M1-200.dxf&dl=1"
+    }
+   ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/2da7d7cd28a343f2b59f/",
    "section": "Grundrisse",
    "x": 2320.85,
@@ -2769,77 +2811,6 @@
    ],
    "section": "Grundrisse",
    "x": 2785.02,
-   "y": 6940,
-   "w": 300
-  },
-  {
-   "id": "stack:Grundrisse:CAD",
-   "kind": "stack",
-   "title": "CAD",
-   "items": [
-    {
-     "id": "2_Bestand_eigene-Pläne/Grundrisse/TIB_1102_Grundriss_UG2_M1-200.dxf",
-     "kind": "file",
-     "title": "TIB 1102 Grundriss UG2 M1-200",
-     "ext": "dxf",
-     "size": 307775,
-     "date": "26.10.2026",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Grundrisse/TIB_1102_Grundriss_UG2_M1-200.dxf&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Grundrisse/TIB_1102_Grundriss_UG2_M1-200.dxf&raw=1"
-    },
-    {
-     "id": "2_Bestand_eigene-Pläne/Grundrisse/TIB_1102_Grundriss_UG1_M1-200.dxf",
-     "kind": "file",
-     "title": "TIB 1102 Grundriss UG1 M1-200",
-     "ext": "dxf",
-     "size": 626056,
-     "date": "26.10.2026",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Grundrisse/TIB_1102_Grundriss_UG1_M1-200.dxf&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Grundrisse/TIB_1102_Grundriss_UG1_M1-200.dxf&raw=1"
-    },
-    {
-     "id": "2_Bestand_eigene-Pläne/Grundrisse/TIB_1102_Grundriss_OG2_M1-200.dxf",
-     "kind": "file",
-     "title": "TIB 1102 Grundriss OG2 M1-200",
-     "ext": "dxf",
-     "size": 620714,
-     "date": "26.10.2026",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Grundrisse/TIB_1102_Grundriss_OG2_M1-200.dxf&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Grundrisse/TIB_1102_Grundriss_OG2_M1-200.dxf&raw=1"
-    },
-    {
-     "id": "2_Bestand_eigene-Pläne/Grundrisse/TIB_1102_Grundriss_OG1_M1-200.dxf",
-     "kind": "file",
-     "title": "TIB 1102 Grundriss OG1 M1-200",
-     "ext": "dxf",
-     "size": 595912,
-     "date": "26.10.2026",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Grundrisse/TIB_1102_Grundriss_OG1_M1-200.dxf&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Grundrisse/TIB_1102_Grundriss_OG1_M1-200.dxf&raw=1"
-    },
-    {
-     "id": "2_Bestand_eigene-Pläne/Grundrisse/TIB_1102_Grundriss_EG_M1-200.dxf",
-     "kind": "file",
-     "title": "TIB 1102 Grundriss EG M1-200",
-     "ext": "dxf",
-     "size": 1752543,
-     "date": "26.10.2026",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Grundrisse/TIB_1102_Grundriss_EG_M1-200.dxf&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Grundrisse/TIB_1102_Grundriss_EG_M1-200.dxf&raw=1"
-    },
-    {
-     "id": "2_Bestand_eigene-Pläne/Grundrisse/TIB_1102_Grundriss_Dach_M1-200.dxf",
-     "kind": "file",
-     "title": "TIB 1102 Grundriss Dach M1-200",
-     "ext": "dxf",
-     "size": 247620,
-     "date": "26.10.2026",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Grundrisse/TIB_1102_Grundriss_Dach_M1-200.dxf&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Grundrisse/TIB_1102_Grundriss_Dach_M1-200.dxf&raw=1"
-    }
-   ],
-   "section": "Grundrisse",
-   "x": 3125.02,
    "y": 6940,
    "w": 300
   },
@@ -7685,6 +7656,13 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/LP_1100_Welfengarten_Schnitt-B_Skizze_v2.pdf&raw=1",
    "thumb": "thumbs/fa4afa30b2d98595.webp",
    "ar": 1.4139,
+   "dxf": [
+    {
+     "label": "DXF",
+     "name": "LP_1100_Welfengarten_Schnitt-B_v2.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/LP_1100_Welfengarten_Schnitt-B_v2.dxf&dl=1"
+    }
+   ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/44406512e4c64601b7e2/",
    "section": "Schnitte",
    "x": 0,
@@ -7702,6 +7680,13 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/LP_1100_Welfengarten_Schnitt_Skizze_v5.pdf&raw=1",
    "thumb": "thumbs/93a7c85db6c3ec67.webp",
    "ar": 1.4139,
+   "dxf": [
+    {
+     "label": "DXF",
+     "name": "LP_1100_Welfengarten_Schnitt_v5.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/LP_1100_Welfengarten_Schnitt_v5.dxf&dl=1"
+    }
+   ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/524f5458895f47409c11/",
    "section": "Schnitte",
    "x": 464.16999999999996,
@@ -7826,6 +7811,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/LP_1100_Welfengarten_Schnitt-B_Detail_v2.pdf&raw=1",
      "thumb": "thumbs/716d2b2bcbc1d7ca.webp",
      "ar": 1.4139,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Schnitt-B_v2.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/LP_1100_Welfengarten_Schnitt-B_v2.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/f0ed5534cb564db3af28/"
     },
     {
@@ -7839,6 +7831,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/LP_1100_Welfengarten_Schnitt-B_Grau_v2.pdf&raw=1",
      "thumb": "thumbs/9d66972189c58d23.webp",
      "ar": 1.4139,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Schnitt-B_v2.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/LP_1100_Welfengarten_Schnitt-B_v2.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/646b76e2d02143f29dc7/"
     },
     {
@@ -7852,6 +7851,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/LP_1100_Welfengarten_Schnitt-B_Schraffur_v2.pdf&raw=1",
      "thumb": "thumbs/3684bb195670b15f.webp",
      "ar": 1.4139,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Schnitt-B_v2.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/LP_1100_Welfengarten_Schnitt-B_v2.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/12b960a3398f455eb559/"
     },
     {
@@ -7865,6 +7871,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/LP_1100_Welfengarten_Schnitt-B_Farbe_v2.pdf&raw=1",
      "thumb": "thumbs/80db51df6cf693a4.webp",
      "ar": 1.4139,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Schnitt-B_v2.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/LP_1100_Welfengarten_Schnitt-B_v2.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/b97e4197e91a46268fd1/"
     },
     {
@@ -7878,6 +7891,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/LP_1100_Welfengarten_Schnitt-B_Linie_v2.pdf&raw=1",
      "thumb": "thumbs/1e084a12ec349565.webp",
      "ar": 1.4139,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Schnitt-B_v2.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/LP_1100_Welfengarten_Schnitt-B_v2.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/3f449f27f93d44e8b8eb/"
     },
     {
@@ -7891,6 +7911,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/LP_1100_Welfengarten_Schnitt_Detail_v5.pdf&raw=1",
      "thumb": "thumbs/55101439b78b7476.webp",
      "ar": 1.4139,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Schnitt_v5.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/LP_1100_Welfengarten_Schnitt_v5.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/d69dba20167843cb8015/"
     },
     {
@@ -7904,6 +7931,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/LP_1100_Welfengarten_Schnitt_Schraffur_v5.pdf&raw=1",
      "thumb": "thumbs/c076f18b77ea20c8.webp",
      "ar": 1.4139,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Schnitt_v5.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/LP_1100_Welfengarten_Schnitt_v5.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/098301e4e8504f5fa4ee/"
     },
     {
@@ -7917,6 +7951,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/LP_1100_Welfengarten_Schnitt_Grau_v5.pdf&raw=1",
      "thumb": "thumbs/03502668946db08d.webp",
      "ar": 1.4139,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Schnitt_v5.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/LP_1100_Welfengarten_Schnitt_v5.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/08dd1ba52b3e4a8fa827/"
     },
     {
@@ -7930,6 +7971,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/LP_1100_Welfengarten_Schnitt_Farbe_v5.pdf&raw=1",
      "thumb": "thumbs/c9ba09db55387f72.webp",
      "ar": 1.4139,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Schnitt_v5.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/LP_1100_Welfengarten_Schnitt_v5.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/79326535b8174f609cc0/"
     },
     {
@@ -7943,6 +7991,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/LP_1100_Welfengarten_Schnitt_Linie_v5.pdf&raw=1",
      "thumb": "thumbs/72713a83fed94dac.webp",
      "ar": 1.4139,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Schnitt_v5.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/LP_1100_Welfengarten_Schnitt_v5.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/f48c1ed8eab045dd8bea/"
     },
     {
@@ -7956,6 +8011,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/hannover-welfengarten_section_A.pdf&raw=1",
      "thumb": "thumbs/16dfbe675260e2f6.webp",
      "ar": 4.955,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "hannover-welfengarten_section_A.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/hannover-welfengarten_section_A.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/878bb421035847f09d33/"
     }
    ],
@@ -7970,16 +8032,6 @@
    "title": "Ältere Versionen",
    "items": [
     {
-     "id": "2_Bestand_eigene-Pläne/Schnitte/Ältere Versionen/LP_1100_Welfengarten_Schnitt-B_v1.dxf",
-     "kind": "file",
-     "title": "LP 1100 Welfengarten Schnitt-B v1",
-     "ext": "dxf",
-     "size": 3574318,
-     "date": "01.11.2026",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Schnitt-B_v1.dxf&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Schnitt-B_v1.dxf&raw=1"
-    },
-    {
      "id": "2_Bestand_eigene-Pläne/Schnitte/Ältere Versionen/LP_1100_Welfengarten_Schnitt-B_Skizze_v1.pdf",
      "kind": "pdf",
      "title": "LP 1100 Welfengarten Schnitt-B Skizze v1",
@@ -7990,6 +8042,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Schnitt-B_Skizze_v1.pdf&raw=1",
      "thumb": "thumbs/d7ef0df9012b65df.webp",
      "ar": 1.4139,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Schnitt-B_v1.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Schnitt-B_v1.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/75b6998c094245e4be5d/"
     },
     {
@@ -8003,6 +8062,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Schnitt-B_Detail_v1.pdf&raw=1",
      "thumb": "thumbs/1a04e24a1ff51f25.webp",
      "ar": 1.4139,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Schnitt-B_v1.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Schnitt-B_v1.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/08662e6a6a0c43cea34d/"
     },
     {
@@ -8016,6 +8082,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Schnitt-B_Schraffur_v1.pdf&raw=1",
      "thumb": "thumbs/25c1ca2d60dbe550.webp",
      "ar": 1.4139,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Schnitt-B_v1.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Schnitt-B_v1.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/65e98af89e4f47d881c6/"
     },
     {
@@ -8029,6 +8102,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Schnitt-B_Grau_v1.pdf&raw=1",
      "thumb": "thumbs/ff84245b9035d4e7.webp",
      "ar": 1.4139,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Schnitt-B_v1.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Schnitt-B_v1.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/5d0e6cc49b544cc3880a/"
     },
     {
@@ -8042,6 +8122,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Schnitt-B_Farbe_v1.pdf&raw=1",
      "thumb": "thumbs/b1b5348f65820c11.webp",
      "ar": 1.4139,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Schnitt-B_v1.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Schnitt-B_v1.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/036bc45d42154ca38ddc/"
     },
     {
@@ -8055,6 +8142,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Schnitt-B_Linie_v1.pdf&raw=1",
      "thumb": "thumbs/2f5e34a448677e42.webp",
      "ar": 1.4139,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Schnitt-B_v1.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Schnitt-B_v1.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/a647e1e8f3884e6dbec7/"
     },
     {
@@ -8071,16 +8165,6 @@
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/869b3fb82839419b8e19/"
     },
     {
-     "id": "2_Bestand_eigene-Pläne/Schnitte/Ältere Versionen/LP_1100_Welfengarten_Schnitt.dxf",
-     "kind": "file",
-     "title": "LP 1100 Welfengarten Schnitt",
-     "ext": "dxf",
-     "size": 689449,
-     "date": "26.10.2026",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Schnitt.dxf&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Schnitt.dxf&raw=1"
-    },
-    {
      "id": "2_Bestand_eigene-Pläne/Schnitte/Ältere Versionen/LP_1100_Welfengarten_Schnitt_Skizze.pdf",
      "kind": "pdf",
      "title": "LP 1100 Welfengarten Schnitt Skizze",
@@ -8091,6 +8175,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Schnitt_Skizze.pdf&raw=1",
      "thumb": "thumbs/6733f042f328f18d.webp",
      "ar": 1.4139,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Schnitt.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Schnitt.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/eec9b01741314d4c8d22/"
     },
     {
@@ -8104,6 +8195,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Schnitt_Detail.pdf&raw=1",
      "thumb": "thumbs/989f88fccd87ba3d.webp",
      "ar": 1.4139,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Schnitt.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Schnitt.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/22675106996444c5868d/"
     },
     {
@@ -8117,6 +8215,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Schnitt_Grau.pdf&raw=1",
      "thumb": "thumbs/82ff4080c1743f85.webp",
      "ar": 1.4139,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Schnitt.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Schnitt.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/ccc0821b908f4c409dfb/"
     },
     {
@@ -8130,6 +8235,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Schnitt_Schraffur.pdf&raw=1",
      "thumb": "thumbs/3b159e4f35f0b772.webp",
      "ar": 1.4139,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Schnitt.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Schnitt.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/1ee90dddec494a24a5a6/"
     },
     {
@@ -8143,6 +8255,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Schnitt_Farbe.pdf&raw=1",
      "thumb": "thumbs/7aff9e344fb292e6.webp",
      "ar": 1.4139,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Schnitt.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Schnitt.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/2248eb3ca3b4431a9aa3/"
     },
     {
@@ -8156,52 +8275,18 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Schnitt_Linie.pdf&raw=1",
      "thumb": "thumbs/4dd3686a6116858a.webp",
      "ar": 1.4139,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Schnitt.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Schnitt.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/566d4f5a252f45f88d06/"
     }
    ],
    "section": "Schnitte",
    "x": 4053.36,
-   "y": 16630,
-   "w": 300
-  },
-  {
-   "id": "stack:Schnitte:CAD",
-   "kind": "stack",
-   "title": "CAD",
-   "items": [
-    {
-     "id": "2_Bestand_eigene-Pläne/Schnitte/LP_1100_Welfengarten_Schnitt-B_v2.dxf",
-     "kind": "file",
-     "title": "LP 1100 Welfengarten Schnitt-B v2",
-     "ext": "dxf",
-     "size": 117661902,
-     "date": "01.11.2026",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/LP_1100_Welfengarten_Schnitt-B_v2.dxf&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/LP_1100_Welfengarten_Schnitt-B_v2.dxf&raw=1"
-    },
-    {
-     "id": "2_Bestand_eigene-Pläne/Schnitte/LP_1100_Welfengarten_Schnitt_v5.dxf",
-     "kind": "file",
-     "title": "LP 1100 Welfengarten Schnitt v5",
-     "ext": "dxf",
-     "size": 35821938,
-     "date": "01.11.2026",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/LP_1100_Welfengarten_Schnitt_v5.dxf&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/LP_1100_Welfengarten_Schnitt_v5.dxf&raw=1"
-    },
-    {
-     "id": "2_Bestand_eigene-Pläne/Schnitte/hannover-welfengarten_section_A.dxf",
-     "kind": "file",
-     "title": "hannover-welfengarten section A",
-     "ext": "dxf",
-     "size": 1045632,
-     "date": "25.10.2026",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/hannover-welfengarten_section_A.dxf&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Schnitte/hannover-welfengarten_section_A.dxf&raw=1"
-    }
-   ],
-   "section": "Schnitte",
-   "x": 4393.360000000001,
    "y": 16630,
    "w": 300
   },
@@ -8386,6 +8471,13 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/LP_1100_Welfengarten_Lageplan_Skizze_v4.pdf&raw=1",
    "thumb": "thumbs/52188fcd9ffad9e6.webp",
    "ar": 0.7073,
+   "dxf": [
+    {
+     "label": "DXF",
+     "name": "LP_1100_Welfengarten_Lageplan_v4.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/LP_1100_Welfengarten_Lageplan_v4.dxf&dl=1"
+    }
+   ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/29b5c86bbe5647098126/",
    "section": "Lageplan",
    "x": 0,
@@ -8408,6 +8500,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/LP_1100_Welfengarten_Lageplan_Detail_v4.pdf&raw=1",
      "thumb": "thumbs/ce560329dda7657f.webp",
      "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Lageplan_v4.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/LP_1100_Welfengarten_Lageplan_v4.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/d68881112d924ae8bdd8/"
     },
     {
@@ -8421,6 +8520,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/LP_1100_Welfengarten_Lageplan_Schraffur_v4.pdf&raw=1",
      "thumb": "thumbs/6f18781d3bfca880.webp",
      "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Lageplan_v4.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/LP_1100_Welfengarten_Lageplan_v4.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/455dcaa0f87045d4903d/"
     },
     {
@@ -8434,6 +8540,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/LP_1100_Welfengarten_Lageplan_Grau_v4.pdf&raw=1",
      "thumb": "thumbs/aaab6e3a4d380bfc.webp",
      "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Lageplan_v4.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/LP_1100_Welfengarten_Lageplan_v4.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/b60d5149af5b43e095d3/"
     },
     {
@@ -8447,6 +8560,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/LP_1100_Welfengarten_Lageplan_Farbe_v4.pdf&raw=1",
      "thumb": "thumbs/3688808309ead197.webp",
      "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Lageplan_v4.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/LP_1100_Welfengarten_Lageplan_v4.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/a724a38073d64da6b280/"
     },
     {
@@ -8460,6 +8580,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/LP_1100_Welfengarten_Lageplan_Linie_v4.pdf&raw=1",
      "thumb": "thumbs/551e6725e0fae363.webp",
      "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Lageplan_v4.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/LP_1100_Welfengarten_Lageplan_v4.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/5f630fc115cf4ce1b07e/"
     }
    ],
@@ -8498,16 +8625,6 @@
    "title": "Ältere Versionen",
    "items": [
     {
-     "id": "2_Bestand_eigene-Pläne/Lageplan/Ältere Versionen/LP_1100_Welfengarten_Lageplan_v3.dxf",
-     "kind": "file",
-     "title": "LP 1100 Welfengarten Lageplan v3",
-     "ext": "dxf",
-     "size": 25987708,
-     "date": "27.10.2026",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_v3.dxf&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_v3.dxf&raw=1"
-    },
-    {
      "id": "2_Bestand_eigene-Pläne/Lageplan/Ältere Versionen/LP_1100_Welfengarten_Lageplan_Skizze_v3.pdf",
      "kind": "pdf",
      "title": "LP 1100 Welfengarten Lageplan Skizze v3",
@@ -8518,6 +8635,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_Skizze_v3.pdf&raw=1",
      "thumb": "thumbs/a4827e2be18c7632.webp",
      "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Lageplan_v3.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_v3.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/e620f1f7ced74bdfaf40/"
     },
     {
@@ -8531,6 +8655,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_Detail_v3.pdf&raw=1",
      "thumb": "thumbs/42e4d425b39208f0.webp",
      "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Lageplan_v3.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_v3.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/de9d6661060a4fcba15a/"
     },
     {
@@ -8544,6 +8675,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_Schraffur_v3.pdf&raw=1",
      "thumb": "thumbs/24b4c1997e1a21b4.webp",
      "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Lageplan_v3.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_v3.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/91a375bbd1a344e5942b/"
     },
     {
@@ -8557,6 +8695,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_Grau_v3.pdf&raw=1",
      "thumb": "thumbs/fee2bd4fe648064f.webp",
      "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Lageplan_v3.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_v3.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/2a3542024a7949f89f16/"
     },
     {
@@ -8570,6 +8715,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_Farbe_v3.pdf&raw=1",
      "thumb": "thumbs/6c439f7e8a2ee892.webp",
      "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Lageplan_v3.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_v3.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/78f22d1d6d8f409f9ac3/"
     },
     {
@@ -8583,17 +8735,14 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_Linie_v3.pdf&raw=1",
      "thumb": "thumbs/1fb2114f90931bb8.webp",
      "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Lageplan_v3.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_v3.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/57337a9a16a2464c8efb/"
-    },
-    {
-     "id": "2_Bestand_eigene-Pläne/Lageplan/Ältere Versionen/LP_1100_Welfengarten_Lageplan_v2.dxf",
-     "kind": "file",
-     "title": "LP 1100 Welfengarten Lageplan v2",
-     "ext": "dxf",
-     "size": 25984675,
-     "date": "27.10.2026",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_v2.dxf&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_v2.dxf&raw=1"
     },
     {
      "id": "2_Bestand_eigene-Pläne/Lageplan/Ältere Versionen/LP_1100_Welfengarten_alle_Plaene_v2.pdf",
@@ -8619,6 +8768,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_Skizze_v2.pdf&raw=1",
      "thumb": "thumbs/c198731119dc36be.webp",
      "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Lageplan_v2.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_v2.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/a21d3282513841d98f40/"
     },
     {
@@ -8632,6 +8788,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_Detail_v2.pdf&raw=1",
      "thumb": "thumbs/c391043ec90fcb35.webp",
      "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Lageplan_v2.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_v2.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/93adfa6a2a5c4e9d9b76/"
     },
     {
@@ -8645,6 +8808,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_Schraffur_v2.pdf&raw=1",
      "thumb": "thumbs/421cf28a5a752253.webp",
      "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Lageplan_v2.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_v2.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/25fa7de9f016482d93a2/"
     },
     {
@@ -8658,6 +8828,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_Grau_v2.pdf&raw=1",
      "thumb": "thumbs/16bb1b1deedde9d2.webp",
      "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Lageplan_v2.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_v2.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/9a84e32a0f444d02833b/"
     },
     {
@@ -8671,6 +8848,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_Farbe_v2.pdf&raw=1",
      "thumb": "thumbs/5ace57649e5cf88a.webp",
      "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Lageplan_v2.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_v2.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/b604ead3c7cc4b8cb0eb/"
     },
     {
@@ -8684,6 +8868,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_Linie_v2.pdf&raw=1",
      "thumb": "thumbs/7737b12ab9aff49f.webp",
      "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Lageplan_v2.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_v2.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/eb9137b7611e417d84e8/"
     },
     {
@@ -8700,16 +8891,6 @@
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/08f4b9c1fbb94a23ab07/"
     },
     {
-     "id": "2_Bestand_eigene-Pläne/Lageplan/Ältere Versionen/LP_1100_Welfengarten_Lageplan.dxf",
-     "kind": "file",
-     "title": "LP 1100 Welfengarten Lageplan",
-     "ext": "dxf",
-     "size": 25959648,
-     "date": "26.10.2026",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan.dxf&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan.dxf&raw=1"
-    },
-    {
      "id": "2_Bestand_eigene-Pläne/Lageplan/Ältere Versionen/LP_1100_Welfengarten_Lageplan_Skizze.pdf",
      "kind": "pdf",
      "title": "LP 1100 Welfengarten Lageplan Skizze",
@@ -8720,6 +8901,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_Skizze.pdf&raw=1",
      "thumb": "thumbs/c4f6c7edb032f1ec.webp",
      "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Lageplan.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/7e0ab73f088043cdaf87/"
     },
     {
@@ -8733,6 +8921,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_Detail.pdf&raw=1",
      "thumb": "thumbs/b416ad0063278825.webp",
      "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Lageplan.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/99f9f21cfb9144c7a89c/"
     },
     {
@@ -8746,6 +8941,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_Grau.pdf&raw=1",
      "thumb": "thumbs/02e07cc11ea7c982.webp",
      "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Lageplan.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/43167cecd6874db0b33d/"
     },
     {
@@ -8759,6 +8961,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_Schraffur.pdf&raw=1",
      "thumb": "thumbs/914a801b0abf67b1.webp",
      "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Lageplan.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/fcb7d82859044196b038/"
     },
     {
@@ -8772,6 +8981,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_Farbe.pdf&raw=1",
      "thumb": "thumbs/dcb6cbe794a88c39.webp",
      "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Lageplan.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/1f3204129696415b9743/"
     },
     {
@@ -8785,6 +9001,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan_Linie.pdf&raw=1",
      "thumb": "thumbs/617dfe9ce1f42e48.webp",
      "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF",
+       "name": "LP_1100_Welfengarten_Lageplan.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/d9f06291b31442aa9071/"
     },
     {
@@ -8807,27 +9030,6 @@
    "w": 300
   },
   {
-   "id": "stack:Lageplan:CAD",
-   "kind": "stack",
-   "title": "CAD",
-   "items": [
-    {
-     "id": "2_Bestand_eigene-Pläne/Lageplan/LP_1100_Welfengarten_Lageplan_v4.dxf",
-     "kind": "file",
-     "title": "LP 1100 Welfengarten Lageplan v4",
-     "ext": "dxf",
-     "size": 117733561,
-     "date": "01.11.2026",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/LP_1100_Welfengarten_Lageplan_v4.dxf&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Lageplan/LP_1100_Welfengarten_Lageplan_v4.dxf&raw=1"
-    }
-   ],
-   "section": "Lageplan",
-   "x": 1272.19,
-   "y": 19800,
-   "w": 300
-  },
-  {
    "id": "4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Ausschnitt-TIB_A3_v2.pdf",
    "kind": "pdf",
    "title": "LP 1100 Welfengarten Lageplan-Entwurf Ausschnitt-TIB A3 v2",
@@ -8838,6 +9040,18 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Ausschnitt-TIB_A3_v2.pdf&raw=1",
    "thumb": "thumbs/be6844cd38f71ba9.webp",
    "ar": 1.4139,
+   "dxf": [
+    {
+     "label": "DXF",
+     "name": "LP_1100_Welfengarten_Lageplan-Entwurf_v2.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_v2.dxf&dl=1"
+    },
+    {
+     "label": "DXF ohne Bäume",
+     "name": "LP_1100_Welfengarten_Lageplan-Entwurf_ohneBaeume_v2.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_ohneBaeume_v2.dxf&dl=1"
+    }
+   ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/e2849fcf88c245eb9b7b/",
    "section": "Entwurf · Lageplan",
    "x": 9200,
@@ -8855,6 +9069,18 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Ausschnitt-Umgebung-quer_M1-1500_A3_v2.pdf&raw=1",
    "thumb": "thumbs/7dde1e7ded65bb95.webp",
    "ar": 1.4139,
+   "dxf": [
+    {
+     "label": "DXF",
+     "name": "LP_1100_Welfengarten_Lageplan-Entwurf_v2.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_v2.dxf&dl=1"
+    },
+    {
+     "label": "DXF ohne Bäume",
+     "name": "LP_1100_Welfengarten_Lageplan-Entwurf_ohneBaeume_v2.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_ohneBaeume_v2.dxf&dl=1"
+    }
+   ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/9263e6f58cdd442db454/",
    "section": "Entwurf · Lageplan",
    "x": 10936.68,
@@ -8872,6 +9098,18 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Ausschnitt-Umgebung_M1-1500_A3_v2.pdf&raw=1",
    "thumb": "thumbs/083d9d3627ed941f.webp",
    "ar": 0.7073,
+   "dxf": [
+    {
+     "label": "DXF",
+     "name": "LP_1100_Welfengarten_Lageplan-Entwurf_v2.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_v2.dxf&dl=1"
+    },
+    {
+     "label": "DXF ohne Bäume",
+     "name": "LP_1100_Welfengarten_Lageplan-Entwurf_ohneBaeume_v2.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_ohneBaeume_v2.dxf&dl=1"
+    }
+   ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/a4ae3922a97a41c3a467/",
    "section": "Entwurf · Lageplan",
    "x": 12673.36,
@@ -8906,6 +9144,18 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Skizze_v2.pdf&raw=1",
    "thumb": "thumbs/786246037289d19b.webp",
    "ar": 0.7073,
+   "dxf": [
+    {
+     "label": "DXF",
+     "name": "LP_1100_Welfengarten_Lageplan-Entwurf_v2.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_v2.dxf&dl=1"
+    },
+    {
+     "label": "DXF ohne Bäume",
+     "name": "LP_1100_Welfengarten_Lageplan-Entwurf_ohneBaeume_v2.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_ohneBaeume_v2.dxf&dl=1"
+    }
+   ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/c34d1c663b9a4deaa8f3/",
    "section": "Entwurf · Lageplan",
    "x": 10936.68,
@@ -8923,6 +9173,18 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Zoom-TIB_M1-100_A0_v2.pdf&raw=1",
    "thumb": "thumbs/cf90261db6d8ee8f.webp",
    "ar": 1.4139,
+   "dxf": [
+    {
+     "label": "DXF",
+     "name": "LP_1100_Welfengarten_Lageplan-Entwurf_v2.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_v2.dxf&dl=1"
+    },
+    {
+     "label": "DXF ohne Bäume",
+     "name": "LP_1100_Welfengarten_Lageplan-Entwurf_ohneBaeume_v2.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_ohneBaeume_v2.dxf&dl=1"
+    }
+   ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/3b477d7b4d65463b9c59/",
    "section": "Entwurf · Lageplan",
    "x": 11825.439999999999,
@@ -8957,6 +9219,13 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Option-1_Baumreihen_v2.pdf&raw=1",
    "thumb": "thumbs/698598a63ef626ed.webp",
    "ar": 1.4139,
+   "dxf": [
+    {
+     "label": "DXF",
+     "name": "TIB_Freiraum_Option-1_Baumreihen_v2.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Option-1_Baumreihen_v2.dxf&dl=1"
+    }
+   ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/a7447a9081804d858a3b/",
    "section": "Entwurf · Lageplan",
    "x": 10936.68,
@@ -8974,6 +9243,13 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Option-2_Inseln_v2.pdf&raw=1",
    "thumb": "thumbs/f5e0f3b138ae5511.webp",
    "ar": 1.4139,
+   "dxf": [
+    {
+     "label": "DXF",
+     "name": "TIB_Freiraum_Option-2_Inseln_v2.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Option-2_Inseln_v2.dxf&dl=1"
+    }
+   ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/eefce5fe947e4563bb44/",
    "section": "Entwurf · Lageplan",
    "x": 12673.36,
@@ -8991,6 +9267,13 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Option-3_Rasenfelder_v2.pdf&raw=1",
    "thumb": "thumbs/23980bb3faee9a88.webp",
    "ar": 1.4139,
+   "dxf": [
+    {
+     "label": "DXF",
+     "name": "TIB_Freiraum_Option-3_Rasenfelder_v2.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Option-3_Rasenfelder_v2.dxf&dl=1"
+    }
+   ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/3ccacaa9293c4c22b91b/",
    "section": "Entwurf · Lageplan",
    "x": 9200,
@@ -9008,6 +9291,13 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Option-4_Zeilen_v1.pdf&raw=1",
    "thumb": "thumbs/b7d3bb990f553713.webp",
    "ar": 1.4139,
+   "dxf": [
+    {
+     "label": "DXF",
+     "name": "TIB_Freiraum_Option-4_Zeilen_v1.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Option-4_Zeilen_v1.dxf&dl=1"
+    }
+   ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/10df3c2926814b0cbf46/",
    "section": "Entwurf · Lageplan",
    "x": 10936.68,
@@ -9025,6 +9315,13 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Option-5_Ufer_v1.pdf&raw=1",
    "thumb": "thumbs/738ee3b7e5522feb.webp",
    "ar": 1.4139,
+   "dxf": [
+    {
+     "label": "DXF",
+     "name": "TIB_Freiraum_Option-5_Ufer_v1.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Option-5_Ufer_v1.dxf&dl=1"
+    }
+   ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/9f0155995e7e4ceca890/",
    "section": "Entwurf · Lageplan",
    "x": 12673.36,
@@ -9042,6 +9339,13 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Option-6_Hain_v1.pdf&raw=1",
    "thumb": "thumbs/203a3c9a5b613522.webp",
    "ar": 1.4139,
+   "dxf": [
+    {
+     "label": "DXF",
+     "name": "TIB_Freiraum_Option-6_Hain_v1.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/TIB_Freiraum_Option-6_Hain_v1.dxf&dl=1"
+    }
+   ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/a2450c6cab8347858cbb/",
    "section": "Entwurf · Lageplan",
    "x": 9200,
@@ -9217,6 +9521,13 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Detail_Treppe-Kern335/Gelaenderecke_Kern335_Explosion_ThreeVis_A3_1-5_Blatt.pdf&raw=1",
    "thumb": "thumbs/8cb3daa897cd7e25.webp",
    "ar": 1.4139,
+   "dxf": [
+    {
+     "label": "DXF",
+     "name": "Gelaenderecke_Kern335_Explosion_ThreeVis_A3_1-5_Blatt.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Detail_Treppe-Kern335/Gelaenderecke_Kern335_Explosion_ThreeVis_A3_1-5_Blatt.dxf&dl=1"
+    }
+   ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/b51e884a80df4622a592/",
    "section": "Details",
    "x": 0,
@@ -9283,6 +9594,13 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Detail_Treppe-Kern335/Treppe_Kern335_Explosion_ThreeVis_A2_1-25_Blatt.pdf&raw=1",
    "thumb": "thumbs/8a50ff30ade54d73.webp",
    "ar": 0.7082,
+   "dxf": [
+    {
+     "label": "DXF",
+     "name": "Treppe_Kern335_Explosion_ThreeVis_A2_1-25_Blatt.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Detail_Treppe-Kern335/Treppe_Kern335_Explosion_ThreeVis_A2_1-25_Blatt.dxf&dl=1"
+    }
+   ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/82429d1049c2454e841c/",
    "section": "Details",
    "x": 1396.63,
@@ -9351,6 +9669,13 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Detail_Treppe-Kern335/Treppe_Kern335_Explosion_ThreeVis_A3_1-25.pdf&raw=1",
    "thumb": "thumbs/9691b45ddf8745ee.webp",
    "ar": 0.7073,
+   "dxf": [
+    {
+     "label": "DXF",
+     "name": "Treppe_Kern335_Explosion_ThreeVis_A3_1-25.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Detail_Treppe-Kern335/Treppe_Kern335_Explosion_ThreeVis_A3_1-25.dxf&dl=1"
+    }
+   ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/c1f2d30cbd54456dae16/",
    "section": "Details",
    "x": 2369.09,
@@ -9494,16 +9819,6 @@
      "ar": 1.4145
     },
     {
-     "id": "2_Bestand_eigene-Pläne/Detail_Treppe-Kern335/Gelaenderecke_Kern335_Explosion_ThreeVis_A3_1-5_Blatt.dxf",
-     "kind": "file",
-     "title": "Gelaenderecke Kern335 Explosion ThreeVis A3 1-5 Blatt",
-     "ext": "dxf",
-     "size": 143638,
-     "date": "25.10.2026",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Detail_Treppe-Kern335/Gelaenderecke_Kern335_Explosion_ThreeVis_A3_1-5_Blatt.dxf&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Detail_Treppe-Kern335/Gelaenderecke_Kern335_Explosion_ThreeVis_A3_1-5_Blatt.dxf&raw=1"
-    },
-    {
      "id": "2_Bestand_eigene-Pläne/Detail_Dach-Innenhof/TIB_Detail2_M1-25_Schnitt_plot.svg",
      "kind": "file",
      "title": "TIB Detail2 M1-25 Schnitt plot",
@@ -9524,26 +9839,6 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Detail_Treppe-Kern335/Treppe_Kern335_Explosion_ThreeVis_A2_1-25_Blatt.png&raw=1",
      "thumb": "thumbs/d02fd352e661dcc5.webp",
      "ar": 0.7069
-    },
-    {
-     "id": "2_Bestand_eigene-Pläne/Detail_Treppe-Kern335/Treppe_Kern335_Explosion_ThreeVis_A2_1-25_Blatt.dxf",
-     "kind": "file",
-     "title": "Treppe Kern335 Explosion ThreeVis A2 1-25 Blatt",
-     "ext": "dxf",
-     "size": 242624,
-     "date": "25.10.2026",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Detail_Treppe-Kern335/Treppe_Kern335_Explosion_ThreeVis_A2_1-25_Blatt.dxf&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Detail_Treppe-Kern335/Treppe_Kern335_Explosion_ThreeVis_A2_1-25_Blatt.dxf&raw=1"
-    },
-    {
-     "id": "2_Bestand_eigene-Pläne/Detail_Treppe-Kern335/Treppe_Kern335_Explosion_ThreeVis_A3_1-25.dxf",
-     "kind": "file",
-     "title": "Treppe Kern335 Explosion ThreeVis A3 1-25",
-     "ext": "dxf",
-     "size": 233849,
-     "date": "25.10.2026",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Detail_Treppe-Kern335/Treppe_Kern335_Explosion_ThreeVis_A3_1-25.dxf&dl=1",
-     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Detail_Treppe-Kern335/Treppe_Kern335_Explosion_ThreeVis_A3_1-25.dxf&raw=1"
     },
     {
      "id": "2_Bestand_eigene-Pläne/Detail_Treppe-Kern335/Treppe_Kern335_Explosion_ThreeVis_A3_1-25.png",
