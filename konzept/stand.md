@@ -71,8 +71,8 @@ Verbindung Bestand / Anbau (Schnitt Ost, Ostflügel): Beide Häuser behalten ihr
 | Layout: Bestand Nutzung und Flächenbedarf, A3 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/6e65f2b3cd7746cfa4f4/) |
 | Layout: Axonometrie Südwest, A2 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/9c95854ce8c14e06b069/) |
 | Layout: Axonometrie Südwest, A3 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/de31800c83584a97b0a7/) |
-| Layout: Lageplan, M 1:500, A3 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/e7a768c19994493ca86a/) |
-| Layout: Lageplan, M 1:1000, A3 hoch | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/be4f2fc94016454d8db3/) |
+| Layout: Lageplan, M 1:500, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/d61a63f2882b44ba9736/) |
+| Layout: Lageplan gesamt, M 1:2500, A3 hoch | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/ee33ad1ce0c34d34b274/) |
 | Layout: Referenzen 1/2, A3 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/ad24e37dbad34ee5a1a3/) |
 | Layout: Referenzen 2/2, A3 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/ba0864ccc82047dea523/) |
 | Layout: Einzelblätter, jeder Plan ein Blatt, M 1:200, DIN (Sammel-PDF) | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/7319e0e057b148e687d6/) |
