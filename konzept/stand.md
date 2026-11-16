@@ -59,6 +59,18 @@ Verbindung Bestand / Anbau (Schnitt Ost, Ostflügel): Beide Häuser behalten ihr
 | Freiraum Option 2, Inseln, Lageplan M 1:500 + Innenhof M 1:200 | 2026-11-13 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/179e20e875ef4553afce/) |
 | Freiraum Option 3, Rasenfelder, Lageplan M 1:500 + Innenhof M 1:200 | 2026-11-13 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/bad5023ab5e045d09d6f/) |
 | Freiraum, Vergleich der drei Optionen, M 1:1000 | 2026-11-13 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/b229be8de9244bfabd7a/) |
+| Layout: Grundrisse, Schnitte, Ansichten, M 1:200, Übergröße | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/c4afb538f4c0423b8770/) |
+| Layout: Grundrisse, Schnitte, Ansichten, M 1:200, A0 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/f8c1d6a5eff544e081f1/) |
+| Layout: Grundrisse, Schnitte, Ansichten, M 1:200, A1 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/35bf7b4ef5bb45899378/) |
+| Layout: Umbau Rot-Gelb, M 1:200, A2 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/7e8a91f3e76549c49852/) |
+| Layout: Nutzung, M 1:200, A2 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/a05204bbf4104fba9b1a/) |
+| Layout: Bestand Nutzung und Flächenbedarf, A2 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/e0a0a6b0e9624a278bd0/) |
+| Layout: Axonometrie Südwest, A2 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/9c95854ce8c14e06b069/) |
+| Layout: Axonometrie Südwest, A3 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/de31800c83584a97b0a7/) |
+| Layout: Axonometrie Umbau explodiert, A3 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/2fc180a95f394ce9a7f8/) |
+| Layout: Lageplan, M 1:500, A3 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/e7a768c19994493ca86a/) |
+| Layout: Lageplan, M 1:1000, A3 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/7e885e411c47486f8d6f/) |
+| Layout: Referenzen, 2 × A3 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/33305ae0cae646a8a9b1/) |
 
 ## Archiv
 

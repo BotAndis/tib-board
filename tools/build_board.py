@@ -106,6 +106,8 @@ SECTIONS = [
         ("stack", "Flächenbedarf (Rhino)", [f"{D}/Flächenbedarf/*"]),
         ("stack", O, [f"{D}/Vergleiche/{O}/*", f"{D}/Lagepläne_Varianten/{O}/*"]),
     ])]),
+    # presentation sheets (Planlayout), top right next to the brief
+    ("Entwurf · Layout", [("open", [f"{D}/Layout/*.pdf"]), ("stack", O, [f"{D}/Layout/{O}/*"])]),
     # the rows line up with the Bestand rows of the same name; the exploded Umbau axo lies with the Umbau plans
     *[(f"Entwurf · {t}", [("open", [f"{D}/{t}/*"] + [f"{D}/Axonometrie/*"] * (t == "Grundrisse")),
                           ("stack", O, [f"{D}/{t}/{O}/*", *[f"{D}/Axonometrie/{O}/*"] * (t == "Grundrisse")])])
@@ -147,7 +149,7 @@ KT_SEC = "Studio Kempe Thill"  # office background page: its own card left of th
 # rows of (Grundlagen | Entwurf); a row starts below the taller cell of the row above, so the Entwurf plans sit
 # level with the Bestand plans of the same name
 GRID = [
-    ("Aufgabenstellung", None),
+    ("Aufgabenstellung", "Entwurf · Layout"),
     ("Referenzen", "Entwurf · Erweiterung"),
     *[(t, f"Entwurf · {t}") for t in ("Grundrisse", "Schnitte", "Ansichten", "Lageplan", "Details")],
     ("Möblierung + Nutzung", None),
