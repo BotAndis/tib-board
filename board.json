@@ -55,6 +55,22 @@
    "y": 24250,
    "w": 10000,
    "h": 3000
+  },
+  {
+   "id": "wall:Hängeplan · Einfach · Einzelblätter DIN",
+   "title": "Hängeplan · Einfach · Einzelblätter DIN",
+   "x": 16000,
+   "y": 28250,
+   "w": 10000,
+   "h": 3000
+  },
+  {
+   "id": "wall:Hängeplan · Einfach · A0",
+   "title": "Hängeplan · Einfach · A0",
+   "x": 16000,
+   "y": 32250,
+   "w": 10000,
+   "h": 3000
   }
  ],
  "labels": [
@@ -22479,7 +22495,7 @@
    "y": 1720
   },
   {
-   "id": "hp:1a1e6a5d590:4_Entwurf/Layout/TIB_08_Lageplan-gesamt_M1-2500_A3-hoch_v3.pdf",
+   "id": "hp:1a1e6ad6a87:4_Entwurf/Layout/TIB_08_Lageplan-gesamt_M1-2500_A3-hoch_v3.pdf",
    "kind": "pdf",
    "title": "TIB 08 Lageplan-gesamt M1-2500 A3-hoch v3",
    "ext": "pdf",
@@ -22498,7 +22514,7 @@
    "y": 4664
   },
   {
-   "id": "hp:1a1e6a5d591:4_Entwurf/Layout/TIB_07_Lageplan_M1-500_A3_v2.pdf",
+   "id": "hp:1a1e6ad6a88:4_Entwurf/Layout/TIB_07_Lageplan_M1-500_A3_v2.pdf",
    "kind": "pdf",
    "title": "TIB 07 Lageplan M1-500 A3 v2",
    "ext": "pdf",
@@ -22517,7 +22533,7 @@
    "y": 4664
   },
   {
-   "id": "hp:1a1e6a5d592:4_Entwurf/Layout/TIB_04_Bestand-Nutzung+Bedarf_A3_v2.pdf",
+   "id": "hp:1a1e6ad6a89:4_Entwurf/Layout/TIB_04_Bestand-Nutzung+Bedarf_A3_v2.pdf",
    "kind": "pdf",
    "title": "TIB 04 Bestand-Nutzung+Bedarf A3 v2",
    "ext": "pdf",
@@ -22536,7 +22552,7 @@
    "y": 4664
   },
   {
-   "id": "hp:1a1e6a5d593:4_Entwurf/Layout/TIB_01_Grundrisse-Schnitte-Ansichten_Uebergroesse_M1-200_v3.pdf",
+   "id": "hp:1a1e6ad6a8a:4_Entwurf/Layout/TIB_01_Grundrisse-Schnitte-Ansichten_Uebergroesse_M1-200_v3.pdf",
    "kind": "pdf",
    "title": "TIB 01 Grundrisse-Schnitte-Ansichten Uebergroesse M1-200 v3",
    "ext": "pdf",
@@ -22555,7 +22571,7 @@
    "y": 4664
   },
   {
-   "id": "hp:1a1e6a5d594:4_Entwurf/Layout/TIB_02_Umbau_RotGelb_M1-200_A2_v3.pdf",
+   "id": "hp:1a1e6ad6a8b:4_Entwurf/Layout/TIB_02_Umbau_RotGelb_M1-200_A2_v3.pdf",
    "kind": "pdf",
    "title": "TIB 02 Umbau RotGelb M1-200 A2 v3",
    "ext": "pdf",
@@ -22574,7 +22590,7 @@
    "y": 6142
   },
   {
-   "id": "hp:1a1e6a5d595:4_Entwurf/Layout/TIB_03_Nutzung_M1-200_A2_v3.pdf",
+   "id": "hp:1a1e6ad6a8c:4_Entwurf/Layout/TIB_03_Nutzung_M1-200_A2_v3.pdf",
    "kind": "pdf",
    "title": "TIB 03 Nutzung M1-200 A2 v3",
    "ext": "pdf",
@@ -22593,7 +22609,7 @@
    "y": 6142
   },
   {
-   "id": "hp:1a1e6a5d596:4_Entwurf/Layout/TIB_05_Axo-SW_A2_v1.pdf",
+   "id": "hp:1a1e6ad6a8d:4_Entwurf/Layout/TIB_05_Axo-SW_A2_v1.pdf",
    "kind": "pdf",
    "title": "TIB 05 Axo-SW A2 v1",
    "ext": "pdf",
@@ -22612,7 +22628,7 @@
    "y": 6142
   },
   {
-   "id": "hp:1a1e6a5d597:4_Entwurf/Layout/TIB_09_Referenzen-1_A3_v3.pdf",
+   "id": "hp:1a1e6ad6a8e:4_Entwurf/Layout/TIB_09_Referenzen-1_A3_v3.pdf",
    "kind": "pdf",
    "title": "TIB 09 Referenzen-1 A3 v3",
    "ext": "pdf",
@@ -22631,7 +22647,7 @@
    "y": 6142
   },
   {
-   "id": "hp:1a1e6a5d598:4_Entwurf/Layout/TIB_09_Referenzen-2_A3_v3.pdf",
+   "id": "hp:1a1e6ad6a8f:4_Entwurf/Layout/TIB_09_Referenzen-2_A3_v3.pdf",
    "kind": "pdf",
    "title": "TIB 09 Referenzen-2 A3 v3",
    "ext": "pdf",
@@ -22650,7 +22666,7 @@
    "y": 6142
   },
   {
-   "id": "hp:1a1e6a5d599:4_Entwurf/Layout/TIB_08_Lageplan-gesamt_M1-2500_A3-hoch_v3.pdf",
+   "id": "hp:1a1e6ad6a90:4_Entwurf/Layout/TIB_08_Lageplan-gesamt_M1-2500_A3-hoch_v3.pdf",
    "kind": "pdf",
    "title": "TIB 08 Lageplan-gesamt M1-2500 A3-hoch v3",
    "ext": "pdf",
@@ -22669,7 +22685,7 @@
    "y": 8932
   },
   {
-   "id": "hp:1a1e6a5d59a:4_Entwurf/Layout/TIB_07_Lageplan_M1-500_A3_v2.pdf",
+   "id": "hp:1a1e6ad6a91:4_Entwurf/Layout/TIB_07_Lageplan_M1-500_A3_v2.pdf",
    "kind": "pdf",
    "title": "TIB 07 Lageplan M1-500 A3 v2",
    "ext": "pdf",
@@ -22688,7 +22704,7 @@
    "y": 8932
   },
   {
-   "id": "hp:1a1e6a5d59b:4_Entwurf/Layout/TIB_04_Bestand-Nutzung+Bedarf_A3_v2.pdf",
+   "id": "hp:1a1e6ad6a92:4_Entwurf/Layout/TIB_04_Bestand-Nutzung+Bedarf_A3_v2.pdf",
    "kind": "pdf",
    "title": "TIB 04 Bestand-Nutzung+Bedarf A3 v2",
    "ext": "pdf",
@@ -22707,7 +22723,7 @@
    "y": 8932
   },
   {
-   "id": "hp:1a1e6a5d59c:4_Entwurf/Layout/TIB_01_Grundrisse-Schnitte-Ansichten_A0_M1-200_v3.pdf",
+   "id": "hp:1a1e6ad6a93:4_Entwurf/Layout/TIB_01_Grundrisse-Schnitte-Ansichten_A0_M1-200_v3.pdf",
    "kind": "pdf",
    "title": "TIB 01 Grundrisse-Schnitte-Ansichten A0 M1-200 v3",
    "ext": "pdf",
@@ -22726,7 +22742,7 @@
    "y": 8932
   },
   {
-   "id": "hp:1a1e6a5d59d:4_Entwurf/Layout/TIB_02_Umbau_RotGelb_M1-200_A2_v3.pdf",
+   "id": "hp:1a1e6ad6a94:4_Entwurf/Layout/TIB_02_Umbau_RotGelb_M1-200_A2_v3.pdf",
    "kind": "pdf",
    "title": "TIB 02 Umbau RotGelb M1-200 A2 v3",
    "ext": "pdf",
@@ -22745,7 +22761,7 @@
    "y": 9874
   },
   {
-   "id": "hp:1a1e6a5d59e:4_Entwurf/Layout/TIB_03_Nutzung_M1-200_A2_v3.pdf",
+   "id": "hp:1a1e6ad6a95:4_Entwurf/Layout/TIB_03_Nutzung_M1-200_A2_v3.pdf",
    "kind": "pdf",
    "title": "TIB 03 Nutzung M1-200 A2 v3",
    "ext": "pdf",
@@ -22764,7 +22780,7 @@
    "y": 9874
   },
   {
-   "id": "hp:1a1e6a5d59f:4_Entwurf/Layout/TIB_05_Axo-SW_A2_v1.pdf",
+   "id": "hp:1a1e6ad6a96:4_Entwurf/Layout/TIB_05_Axo-SW_A2_v1.pdf",
    "kind": "pdf",
    "title": "TIB 05 Axo-SW A2 v1",
    "ext": "pdf",
@@ -22783,7 +22799,7 @@
    "y": 9874
   },
   {
-   "id": "hp:1a1e6a5d5a0:4_Entwurf/Layout/TIB_09_Referenzen-1_A3_v3.pdf",
+   "id": "hp:1a1e6ad6a97:4_Entwurf/Layout/TIB_09_Referenzen-1_A3_v3.pdf",
    "kind": "pdf",
    "title": "TIB 09 Referenzen-1 A3 v3",
    "ext": "pdf",
@@ -22802,7 +22818,7 @@
    "y": 9874
   },
   {
-   "id": "hp:1a1e6a5d5a1:4_Entwurf/Layout/TIB_09_Referenzen-2_A3_v3.pdf",
+   "id": "hp:1a1e6ad6a98:4_Entwurf/Layout/TIB_09_Referenzen-2_A3_v3.pdf",
    "kind": "pdf",
    "title": "TIB 09 Referenzen-2 A3 v3",
    "ext": "pdf",
@@ -22821,7 +22837,7 @@
    "y": 9874
   },
   {
-   "id": "hp:1a1e6a5d5a2:4_Entwurf/Layout/TIB_08_Lageplan-gesamt_M1-2500_A3-hoch_v3.pdf",
+   "id": "hp:1a1e6ad6a99:4_Entwurf/Layout/TIB_08_Lageplan-gesamt_M1-2500_A3-hoch_v3.pdf",
    "kind": "pdf",
    "title": "TIB 08 Lageplan-gesamt M1-2500 A3-hoch v3",
    "ext": "pdf",
@@ -22840,7 +22856,7 @@
    "y": 13056
   },
   {
-   "id": "hp:1a1e6a5d5a3:4_Entwurf/Layout/TIB_07_Lageplan_M1-500_A3_v2.pdf",
+   "id": "hp:1a1e6ad6a9a:4_Entwurf/Layout/TIB_07_Lageplan_M1-500_A3_v2.pdf",
    "kind": "pdf",
    "title": "TIB 07 Lageplan M1-500 A3 v2",
    "ext": "pdf",
@@ -22859,7 +22875,7 @@
    "y": 13056
   },
   {
-   "id": "hp:1a1e6a5d5a4:4_Entwurf/Layout/TIB_04_Bestand-Nutzung+Bedarf_A3_v2.pdf",
+   "id": "hp:1a1e6ad6a9b:4_Entwurf/Layout/TIB_04_Bestand-Nutzung+Bedarf_A3_v2.pdf",
    "kind": "pdf",
    "title": "TIB 04 Bestand-Nutzung+Bedarf A3 v2",
    "ext": "pdf",
@@ -22878,7 +22894,7 @@
    "y": 13056
   },
   {
-   "id": "hp:1a1e6a5d5a5:4_Entwurf/Layout/TIB_01_Grundrisse-Schnitte-Ansichten_A1_M1-200_v3.pdf",
+   "id": "hp:1a1e6ad6a9c:4_Entwurf/Layout/TIB_01_Grundrisse-Schnitte-Ansichten_A1_M1-200_v3.pdf",
    "kind": "pdf",
    "title": "TIB 01 Grundrisse-Schnitte-Ansichten A1 M1-200 v3",
    "ext": "pdf",
@@ -22897,7 +22913,7 @@
    "y": 13056
   },
   {
-   "id": "hp:1a1e6a5d5a6:4_Entwurf/Layout/TIB_02_Umbau_RotGelb_M1-200_A2_v3.pdf",
+   "id": "hp:1a1e6ad6a9d:4_Entwurf/Layout/TIB_02_Umbau_RotGelb_M1-200_A2_v3.pdf",
    "kind": "pdf",
    "title": "TIB 02 Umbau RotGelb M1-200 A2 v3",
    "ext": "pdf",
@@ -22916,7 +22932,7 @@
    "y": 13750
   },
   {
-   "id": "hp:1a1e6a5d5a7:4_Entwurf/Layout/TIB_03_Nutzung_M1-200_A2_v3.pdf",
+   "id": "hp:1a1e6ad6a9e:4_Entwurf/Layout/TIB_03_Nutzung_M1-200_A2_v3.pdf",
    "kind": "pdf",
    "title": "TIB 03 Nutzung M1-200 A2 v3",
    "ext": "pdf",
@@ -22935,7 +22951,7 @@
    "y": 13750
   },
   {
-   "id": "hp:1a1e6a5d5a8:4_Entwurf/Layout/TIB_05_Axo-SW_A2_v1.pdf",
+   "id": "hp:1a1e6ad6a9f:4_Entwurf/Layout/TIB_05_Axo-SW_A2_v1.pdf",
    "kind": "pdf",
    "title": "TIB 05 Axo-SW A2 v1",
    "ext": "pdf",
@@ -22954,7 +22970,7 @@
    "y": 13750
   },
   {
-   "id": "hp:1a1e6a5d5a9:4_Entwurf/Layout/TIB_09_Referenzen-1_A3_v3.pdf",
+   "id": "hp:1a1e6ad6aa0:4_Entwurf/Layout/TIB_09_Referenzen-1_A3_v3.pdf",
    "kind": "pdf",
    "title": "TIB 09 Referenzen-1 A3 v3",
    "ext": "pdf",
@@ -22973,7 +22989,7 @@
    "y": 13750
   },
   {
-   "id": "hp:1a1e6a5d5aa:4_Entwurf/Layout/TIB_09_Referenzen-2_A3_v3.pdf",
+   "id": "hp:1a1e6ad6aa1:4_Entwurf/Layout/TIB_09_Referenzen-2_A3_v3.pdf",
    "kind": "pdf",
    "title": "TIB 09 Referenzen-2 A3 v3",
    "ext": "pdf",
@@ -22992,7 +23008,7 @@
    "y": 13750
   },
   {
-   "id": "hp:1a1e6a5d5ab:4_Entwurf/Layout/TIB_08_Lageplan-gesamt_M1-2500_A3-hoch_v3.pdf",
+   "id": "hp:1a1e6ad6aa2:4_Entwurf/Layout/TIB_08_Lageplan-gesamt_M1-2500_A3-hoch_v3.pdf",
    "kind": "pdf",
    "title": "TIB 08 Lageplan-gesamt M1-2500 A3-hoch v3",
    "ext": "pdf",
@@ -23007,11 +23023,11 @@
    "hp": true,
    "moved": true,
    "section": "Hängeplan",
-   "x": 19042,
-   "y": 16932
+   "x": 19687,
+   "y": 16462
   },
   {
-   "id": "hp:1a1e6a5d5ac:4_Entwurf/Layout/TIB_07_Lageplan_M1-500_A3_v2.pdf",
+   "id": "hp:1a1e6ad6aa3:4_Entwurf/Layout/TIB_07_Lageplan_M1-500_A3_v2.pdf",
    "kind": "pdf",
    "title": "TIB 07 Lageplan M1-500 A3 v2",
    "ext": "pdf",
@@ -23026,11 +23042,11 @@
    "hp": true,
    "moved": true,
    "section": "Hängeplan",
-   "x": 19440,
-   "y": 16932
+   "x": 20084,
+   "y": 16462
   },
   {
-   "id": "hp:1a1e6a5d5ad:4_Entwurf/Layout/TIB_04_Bestand-Nutzung+Bedarf_A3_v2.pdf",
+   "id": "hp:1a1e6ad6aa4:4_Entwurf/Layout/TIB_04_Bestand-Nutzung+Bedarf_A3_v2.pdf",
    "kind": "pdf",
    "title": "TIB 04 Bestand-Nutzung+Bedarf A3 v2",
    "ext": "pdf",
@@ -23045,11 +23061,11 @@
    "hp": true,
    "moved": true,
    "section": "Hängeplan",
-   "x": 19960,
-   "y": 16932
+   "x": 20604,
+   "y": 16462
   },
   {
-   "id": "hp:1a1e6a5d5ae:4_Entwurf/Layout/TIB_11_Grundrisse-EG-2OG_M1-200_A0_v2.pdf",
+   "id": "hp:1a1e6ad6aa5:4_Entwurf/Layout/TIB_11_Grundrisse-EG-2OG_M1-200_A0_v2.pdf",
    "kind": "pdf",
    "title": "TIB 11 Grundrisse-EG-2OG M1-200 A0 v2",
    "ext": "pdf",
@@ -23064,11 +23080,11 @@
    "hp": true,
    "moved": true,
    "section": "Hängeplan",
-   "x": 20480,
-   "y": 16932
+   "x": 21124,
+   "y": 16462
   },
   {
-   "id": "hp:1a1e6a5d5af:4_Entwurf/Layout/TIB_12_Grundrisse-3OG-UG_M1-200_A0_v2.pdf",
+   "id": "hp:1a1e6ad6aa6:4_Entwurf/Layout/TIB_12_Grundrisse-3OG-UG_M1-200_A0_v2.pdf",
    "kind": "pdf",
    "title": "TIB 12 Grundrisse-3OG-UG M1-200 A0 v2",
    "ext": "pdf",
@@ -23083,11 +23099,11 @@
    "hp": true,
    "moved": true,
    "section": "Hängeplan",
-   "x": 21768,
-   "y": 16932
+   "x": 19464,
+   "y": 17403
   },
   {
-   "id": "hp:1a1e6a5d5b0:4_Entwurf/Layout/TIB_13_Schnitte_M1-200_A1_v1.pdf",
+   "id": "hp:1a1e6ad6aa7:4_Entwurf/Layout/TIB_13_Schnitte_M1-200_A1_v1.pdf",
    "kind": "pdf",
    "title": "TIB 13 Schnitte M1-200 A1 v1",
    "ext": "pdf",
@@ -23102,11 +23118,11 @@
    "hp": true,
    "moved": true,
    "section": "Hängeplan",
-   "x": 18722,
-   "y": 17874
+   "x": 20754,
+   "y": 17403
   },
   {
-   "id": "hp:1a1e6a5d5b1:4_Entwurf/Layout/TIB_14_Ansichten_M1-200_A1_v1.pdf",
+   "id": "hp:1a1e6ad6aa8:4_Entwurf/Layout/TIB_14_Ansichten_M1-200_A1_v1.pdf",
    "kind": "pdf",
    "title": "TIB 14 Ansichten M1-200 A1 v1",
    "ext": "pdf",
@@ -23121,11 +23137,11 @@
    "hp": true,
    "moved": true,
    "section": "Hängeplan",
-   "x": 19663,
-   "y": 17874
+   "x": 21694,
+   "y": 17403
   },
   {
-   "id": "hp:1a1e6a5d5b2:4_Entwurf/Layout/TIB_02_Umbau_RotGelb_M1-200_A2_v3.pdf",
+   "id": "hp:1a1e6ad6aa9:4_Entwurf/Layout/TIB_02_Umbau_RotGelb_M1-200_A2_v3.pdf",
    "kind": "pdf",
    "title": "TIB 02 Umbau RotGelb M1-200 A2 v3",
    "ext": "pdf",
@@ -23140,11 +23156,11 @@
    "hp": true,
    "moved": true,
    "section": "Hängeplan",
-   "x": 20604,
-   "y": 17874
+   "x": 19663,
+   "y": 18344
   },
   {
-   "id": "hp:1a1e6a5d5b3:4_Entwurf/Layout/TIB_03_Nutzung_M1-200_A2_v3.pdf",
+   "id": "hp:1a1e6ad6aaa:4_Entwurf/Layout/TIB_03_Nutzung_M1-200_A2_v3.pdf",
    "kind": "pdf",
    "title": "TIB 03 Nutzung M1-200 A2 v3",
    "ext": "pdf",
@@ -23159,11 +23175,11 @@
    "hp": true,
    "moved": true,
    "section": "Hängeplan",
-   "x": 21124,
-   "y": 17874
+   "x": 20183,
+   "y": 18344
   },
   {
-   "id": "hp:1a1e6a5d5b4:4_Entwurf/Layout/TIB_05_Axo-SW_A2_v1.pdf",
+   "id": "hp:1a1e6ad6aab:4_Entwurf/Layout/TIB_05_Axo-SW_A2_v1.pdf",
    "kind": "pdf",
    "title": "TIB 05 Axo-SW A2 v1",
    "ext": "pdf",
@@ -23178,11 +23194,11 @@
    "hp": true,
    "moved": true,
    "section": "Hängeplan",
-   "x": 21644,
-   "y": 17874
+   "x": 20703,
+   "y": 18344
   },
   {
-   "id": "hp:1a1e6a5d5b5:4_Entwurf/Layout/TIB_09_Referenzen-1_A3_v3.pdf",
+   "id": "hp:1a1e6ad6aac:4_Entwurf/Layout/TIB_09_Referenzen-1_A3_v3.pdf",
    "kind": "pdf",
    "title": "TIB 09 Referenzen-1 A3 v3",
    "ext": "pdf",
@@ -23197,11 +23213,11 @@
    "hp": true,
    "moved": true,
    "section": "Hängeplan",
-   "x": 22338,
-   "y": 17874
+   "x": 21397,
+   "y": 18344
   },
   {
-   "id": "hp:1a1e6a5d5b6:4_Entwurf/Layout/TIB_09_Referenzen-2_A3_v3.pdf",
+   "id": "hp:1a1e6ad6aad:4_Entwurf/Layout/TIB_09_Referenzen-2_A3_v3.pdf",
    "kind": "pdf",
    "title": "TIB 09 Referenzen-2 A3 v3",
    "ext": "pdf",
@@ -23216,11 +23232,11 @@
    "hp": true,
    "moved": true,
    "section": "Hängeplan",
-   "x": 22858,
-   "y": 17874
+   "x": 21917,
+   "y": 18344
   },
   {
-   "id": "hp:1a1e6a5d5b7:4_Entwurf/Layout/TIB_08_Lageplan-gesamt_M1-2500_A3-hoch_v3.pdf",
+   "id": "hp:1a1e6ad6aae:4_Entwurf/Layout/TIB_08_Lageplan-gesamt_M1-2500_A3-hoch_v3.pdf",
    "kind": "pdf",
    "title": "TIB 08 Lageplan-gesamt M1-2500 A3-hoch v3",
    "ext": "pdf",
@@ -23239,7 +23255,7 @@
    "y": 20462
   },
   {
-   "id": "hp:1a1e6a5d5b8:4_Entwurf/Layout/TIB_07_Lageplan_M1-500_A3_v2.pdf",
+   "id": "hp:1a1e6ad6aaf:4_Entwurf/Layout/TIB_07_Lageplan_M1-500_A3_v2.pdf",
    "kind": "pdf",
    "title": "TIB 07 Lageplan M1-500 A3 v2",
    "ext": "pdf",
@@ -23258,7 +23274,7 @@
    "y": 20462
   },
   {
-   "id": "hp:1a1e6a5d5b9:4_Entwurf/Layout/TIB_04_Bestand-Nutzung+Bedarf_A3_v2.pdf",
+   "id": "hp:1a1e6ad6ab0:4_Entwurf/Layout/TIB_04_Bestand-Nutzung+Bedarf_A3_v2.pdf",
    "kind": "pdf",
    "title": "TIB 04 Bestand-Nutzung+Bedarf A3 v2",
    "ext": "pdf",
@@ -23277,7 +23293,7 @@
    "y": 20462
   },
   {
-   "id": "hp:1a1e6a5d5ba:4_Entwurf/Layout/Einzelblätter_DIN/TIB_20_Grundriss-EG_M1-200_A1-hoch_v1.pdf",
+   "id": "hp:1a1e6ad6ab1:4_Entwurf/Layout/Einzelblätter_DIN/TIB_20_Grundriss-EG_M1-200_A1-hoch_v1.pdf",
    "kind": "pdf",
    "title": "TIB 20 Grundriss-EG M1-200 A1-hoch v1",
    "ext": "pdf",
@@ -23296,7 +23312,7 @@
    "y": 20462
   },
   {
-   "id": "hp:1a1e6a5d5bb:4_Entwurf/Layout/Einzelblätter_DIN/TIB_21_Grundriss-1OG_M1-200_A1-hoch_v1.pdf",
+   "id": "hp:1a1e6ad6ab2:4_Entwurf/Layout/Einzelblätter_DIN/TIB_21_Grundriss-1OG_M1-200_A1-hoch_v1.pdf",
    "kind": "pdf",
    "title": "TIB 21 Grundriss-1OG M1-200 A1-hoch v1",
    "ext": "pdf",
@@ -23315,7 +23331,7 @@
    "y": 20462
   },
   {
-   "id": "hp:1a1e6a5d5bc:4_Entwurf/Layout/Einzelblätter_DIN/TIB_22_Grundriss-2OG_M1-200_A1-hoch_v1.pdf",
+   "id": "hp:1a1e6ad6ab3:4_Entwurf/Layout/Einzelblätter_DIN/TIB_22_Grundriss-2OG_M1-200_A1-hoch_v1.pdf",
    "kind": "pdf",
    "title": "TIB 22 Grundriss-2OG M1-200 A1-hoch v1",
    "ext": "pdf",
@@ -23334,7 +23350,7 @@
    "y": 20462
   },
   {
-   "id": "hp:1a1e6a5d5bd:4_Entwurf/Layout/Einzelblätter_DIN/TIB_23_Grundriss-3OG_M1-200_A1-hoch_v1.pdf",
+   "id": "hp:1a1e6ad6ab4:4_Entwurf/Layout/Einzelblätter_DIN/TIB_23_Grundriss-3OG_M1-200_A1-hoch_v1.pdf",
    "kind": "pdf",
    "title": "TIB 23 Grundriss-3OG M1-200 A1-hoch v1",
    "ext": "pdf",
@@ -23353,7 +23369,7 @@
    "y": 20462
   },
   {
-   "id": "hp:1a1e6a5d5be:4_Entwurf/Layout/Einzelblätter_DIN/TIB_24_Grundriss-1UG_M1-200_A1-hoch_v1.pdf",
+   "id": "hp:1a1e6ad6ab5:4_Entwurf/Layout/Einzelblätter_DIN/TIB_24_Grundriss-1UG_M1-200_A1-hoch_v1.pdf",
    "kind": "pdf",
    "title": "TIB 24 Grundriss-1UG M1-200 A1-hoch v1",
    "ext": "pdf",
@@ -23372,7 +23388,7 @@
    "y": 21403
   },
   {
-   "id": "hp:1a1e6a5d5bf:4_Entwurf/Layout/Einzelblätter_DIN/TIB_25_Grundriss-2UG_M1-200_A1-hoch_v1.pdf",
+   "id": "hp:1a1e6ad6ab6:4_Entwurf/Layout/Einzelblätter_DIN/TIB_25_Grundriss-2UG_M1-200_A1-hoch_v1.pdf",
    "kind": "pdf",
    "title": "TIB 25 Grundriss-2UG M1-200 A1-hoch v1",
    "ext": "pdf",
@@ -23391,7 +23407,7 @@
    "y": 21403
   },
   {
-   "id": "hp:1a1e6a5d5c0:4_Entwurf/Layout/Einzelblätter_DIN/TIB_26_Schnitt-West_M1-200_A1_v1.pdf",
+   "id": "hp:1a1e6ad6ab7:4_Entwurf/Layout/Einzelblätter_DIN/TIB_26_Schnitt-West_M1-200_A1_v1.pdf",
    "kind": "pdf",
    "title": "TIB 26 Schnitt-West M1-200 A1 v1",
    "ext": "pdf",
@@ -23410,7 +23426,7 @@
    "y": 21403
   },
   {
-   "id": "hp:1a1e6a5d5c1:4_Entwurf/Layout/Einzelblätter_DIN/TIB_27_Schnitt-Mitte_M1-200_A1_v1.pdf",
+   "id": "hp:1a1e6ad6ab8:4_Entwurf/Layout/Einzelblätter_DIN/TIB_27_Schnitt-Mitte_M1-200_A1_v1.pdf",
    "kind": "pdf",
    "title": "TIB 27 Schnitt-Mitte M1-200 A1 v1",
    "ext": "pdf",
@@ -23429,7 +23445,7 @@
    "y": 21403
   },
   {
-   "id": "hp:1a1e6a5d5c2:4_Entwurf/Layout/Einzelblätter_DIN/TIB_28_Ansicht-Nord_M1-200_A1_v1.pdf",
+   "id": "hp:1a1e6ad6ab9:4_Entwurf/Layout/Einzelblätter_DIN/TIB_28_Ansicht-Nord_M1-200_A1_v1.pdf",
    "kind": "pdf",
    "title": "TIB 28 Ansicht-Nord M1-200 A1 v1",
    "ext": "pdf",
@@ -23448,7 +23464,7 @@
    "y": 21403
   },
   {
-   "id": "hp:1a1e6a5d5c3:4_Entwurf/Layout/Einzelblätter_DIN/TIB_29_Ansicht-Ost_M1-200_A2_v1.pdf",
+   "id": "hp:1a1e6ad6aba:4_Entwurf/Layout/Einzelblätter_DIN/TIB_29_Ansicht-Ost_M1-200_A2_v1.pdf",
    "kind": "pdf",
    "title": "TIB 29 Ansicht-Ost M1-200 A2 v1",
    "ext": "pdf",
@@ -23467,7 +23483,7 @@
    "y": 21403
   },
   {
-   "id": "hp:1a1e6a5d5c4:4_Entwurf/Layout/Einzelblätter_DIN/TIB_30_Ansicht-Sued_M1-200_A1_v1.pdf",
+   "id": "hp:1a1e6ad6abb:4_Entwurf/Layout/Einzelblätter_DIN/TIB_30_Ansicht-Sued_M1-200_A1_v1.pdf",
    "kind": "pdf",
    "title": "TIB 30 Ansicht-Sued M1-200 A1 v1",
    "ext": "pdf",
@@ -23486,7 +23502,7 @@
    "y": 22344
   },
   {
-   "id": "hp:1a1e6a5d5c5:4_Entwurf/Layout/Einzelblätter_DIN/TIB_31_Ansicht-West_M1-200_A2_v1.pdf",
+   "id": "hp:1a1e6ad6abc:4_Entwurf/Layout/Einzelblätter_DIN/TIB_31_Ansicht-West_M1-200_A2_v1.pdf",
    "kind": "pdf",
    "title": "TIB 31 Ansicht-West M1-200 A2 v1",
    "ext": "pdf",
@@ -23505,7 +23521,7 @@
    "y": 22344
   },
   {
-   "id": "hp:1a1e6a5d5c6:4_Entwurf/Layout/TIB_02_Umbau_RotGelb_M1-200_A2_v3.pdf",
+   "id": "hp:1a1e6ad6abd:4_Entwurf/Layout/TIB_02_Umbau_RotGelb_M1-200_A2_v3.pdf",
    "kind": "pdf",
    "title": "TIB 02 Umbau RotGelb M1-200 A2 v3",
    "ext": "pdf",
@@ -23524,7 +23540,7 @@
    "y": 22344
   },
   {
-   "id": "hp:1a1e6a5d5c7:4_Entwurf/Layout/TIB_03_Nutzung_M1-200_A2_v3.pdf",
+   "id": "hp:1a1e6ad6abe:4_Entwurf/Layout/TIB_03_Nutzung_M1-200_A2_v3.pdf",
    "kind": "pdf",
    "title": "TIB 03 Nutzung M1-200 A2 v3",
    "ext": "pdf",
@@ -23543,7 +23559,7 @@
    "y": 22344
   },
   {
-   "id": "hp:1a1e6a5d5c8:4_Entwurf/Layout/TIB_05_Axo-SW_A2_v1.pdf",
+   "id": "hp:1a1e6ad6abf:4_Entwurf/Layout/TIB_05_Axo-SW_A2_v1.pdf",
    "kind": "pdf",
    "title": "TIB 05 Axo-SW A2 v1",
    "ext": "pdf",
@@ -23562,7 +23578,7 @@
    "y": 22344
   },
   {
-   "id": "hp:1a1e6a5d5c9:4_Entwurf/Layout/TIB_09_Referenzen-1_A3_v3.pdf",
+   "id": "hp:1a1e6ad6ac0:4_Entwurf/Layout/TIB_09_Referenzen-1_A3_v3.pdf",
    "kind": "pdf",
    "title": "TIB 09 Referenzen-1 A3 v3",
    "ext": "pdf",
@@ -23581,7 +23597,7 @@
    "y": 22344
   },
   {
-   "id": "hp:1a1e6a5d5ca:4_Entwurf/Layout/TIB_09_Referenzen-2_A3_v3.pdf",
+   "id": "hp:1a1e6ad6ac1:4_Entwurf/Layout/TIB_09_Referenzen-2_A3_v3.pdf",
    "kind": "pdf",
    "title": "TIB 09 Referenzen-2 A3 v3",
    "ext": "pdf",
@@ -23600,7 +23616,7 @@
    "y": 22344
   },
   {
-   "id": "hp:1a1e6a5d5cb:4_Entwurf/Layout/TIB_08_Lageplan-gesamt_M1-2500_A3-hoch_v3.pdf",
+   "id": "hp:1a1e6ad6ac2:4_Entwurf/Layout/TIB_08_Lageplan-gesamt_M1-2500_A3-hoch_v3.pdf",
    "kind": "pdf",
    "title": "TIB 08 Lageplan-gesamt M1-2500 A3-hoch v3",
    "ext": "pdf",
@@ -23619,7 +23635,7 @@
    "y": 24625
   },
   {
-   "id": "hp:1a1e6a5d5cc:4_Entwurf/Layout/TIB_07_Lageplan_M1-500_A3_v2.pdf",
+   "id": "hp:1a1e6ad6ac3:4_Entwurf/Layout/TIB_07_Lageplan_M1-500_A3_v2.pdf",
    "kind": "pdf",
    "title": "TIB 07 Lageplan M1-500 A3 v2",
    "ext": "pdf",
@@ -23638,7 +23654,7 @@
    "y": 24625
   },
   {
-   "id": "hp:1a1e6a5d5cd:4_Entwurf/Layout/TIB_04_Bestand-Nutzung+Bedarf_A3_v2.pdf",
+   "id": "hp:1a1e6ad6ac4:4_Entwurf/Layout/TIB_04_Bestand-Nutzung+Bedarf_A3_v2.pdf",
    "kind": "pdf",
    "title": "TIB 04 Bestand-Nutzung+Bedarf A3 v2",
    "ext": "pdf",
@@ -23657,7 +23673,7 @@
    "y": 24625
   },
   {
-   "id": "hp:1a1e6a5d5ce:4_Entwurf/Layout/Einzelblätter_Übergröße/TIB_20_Grundriss-EG_M1-200_Uebergroesse_v1.pdf",
+   "id": "hp:1a1e6ad6ac5:4_Entwurf/Layout/Einzelblätter_Übergröße/TIB_20_Grundriss-EG_M1-200_Uebergroesse_v1.pdf",
    "kind": "pdf",
    "title": "TIB 20 Grundriss-EG M1-200 Uebergroesse v1",
    "ext": "pdf",
@@ -23676,7 +23692,7 @@
    "y": 24625
   },
   {
-   "id": "hp:1a1e6a5d5cf:4_Entwurf/Layout/Einzelblätter_Übergröße/TIB_21_Grundriss-1OG_M1-200_Uebergroesse_v1.pdf",
+   "id": "hp:1a1e6ad6ac6:4_Entwurf/Layout/Einzelblätter_Übergröße/TIB_21_Grundriss-1OG_M1-200_Uebergroesse_v1.pdf",
    "kind": "pdf",
    "title": "TIB 21 Grundriss-1OG M1-200 Uebergroesse v1",
    "ext": "pdf",
@@ -23695,7 +23711,7 @@
    "y": 24625
   },
   {
-   "id": "hp:1a1e6a5d5d0:4_Entwurf/Layout/Einzelblätter_Übergröße/TIB_22_Grundriss-2OG_M1-200_Uebergroesse_v1.pdf",
+   "id": "hp:1a1e6ad6ac7:4_Entwurf/Layout/Einzelblätter_Übergröße/TIB_22_Grundriss-2OG_M1-200_Uebergroesse_v1.pdf",
    "kind": "pdf",
    "title": "TIB 22 Grundriss-2OG M1-200 Uebergroesse v1",
    "ext": "pdf",
@@ -23714,7 +23730,7 @@
    "y": 24625
   },
   {
-   "id": "hp:1a1e6a5d5d1:4_Entwurf/Layout/Einzelblätter_Übergröße/TIB_23_Grundriss-3OG_M1-200_Uebergroesse_v1.pdf",
+   "id": "hp:1a1e6ad6ac8:4_Entwurf/Layout/Einzelblätter_Übergröße/TIB_23_Grundriss-3OG_M1-200_Uebergroesse_v1.pdf",
    "kind": "pdf",
    "title": "TIB 23 Grundriss-3OG M1-200 Uebergroesse v1",
    "ext": "pdf",
@@ -23733,7 +23749,7 @@
    "y": 24625
   },
   {
-   "id": "hp:1a1e6a5d5d2:4_Entwurf/Layout/Einzelblätter_Übergröße/TIB_24_Grundriss-1UG_M1-200_Uebergroesse_v1.pdf",
+   "id": "hp:1a1e6ad6ac9:4_Entwurf/Layout/Einzelblätter_Übergröße/TIB_24_Grundriss-1UG_M1-200_Uebergroesse_v1.pdf",
    "kind": "pdf",
    "title": "TIB 24 Grundriss-1UG M1-200 Uebergroesse v1",
    "ext": "pdf",
@@ -23752,7 +23768,7 @@
    "y": 24625
   },
   {
-   "id": "hp:1a1e6a5d5d3:4_Entwurf/Layout/Einzelblätter_Übergröße/TIB_25_Grundriss-2UG_M1-200_Uebergroesse_v1.pdf",
+   "id": "hp:1a1e6ad6aca:4_Entwurf/Layout/Einzelblätter_Übergröße/TIB_25_Grundriss-2UG_M1-200_Uebergroesse_v1.pdf",
    "kind": "pdf",
    "title": "TIB 25 Grundriss-2UG M1-200 Uebergroesse v1",
    "ext": "pdf",
@@ -23771,7 +23787,7 @@
    "y": 25403
   },
   {
-   "id": "hp:1a1e6a5d5d4:4_Entwurf/Layout/Einzelblätter_Übergröße/TIB_26_Schnitt-West_M1-200_Uebergroesse_v1.pdf",
+   "id": "hp:1a1e6ad6acb:4_Entwurf/Layout/Einzelblätter_Übergröße/TIB_26_Schnitt-West_M1-200_Uebergroesse_v1.pdf",
    "kind": "pdf",
    "title": "TIB 26 Schnitt-West M1-200 Uebergroesse v1",
    "ext": "pdf",
@@ -23790,7 +23806,7 @@
    "y": 25403
   },
   {
-   "id": "hp:1a1e6a5d5d5:4_Entwurf/Layout/Einzelblätter_Übergröße/TIB_27_Schnitt-Mitte_M1-200_Uebergroesse_v1.pdf",
+   "id": "hp:1a1e6ad6acc:4_Entwurf/Layout/Einzelblätter_Übergröße/TIB_27_Schnitt-Mitte_M1-200_Uebergroesse_v1.pdf",
    "kind": "pdf",
    "title": "TIB 27 Schnitt-Mitte M1-200 Uebergroesse v1",
    "ext": "pdf",
@@ -23809,7 +23825,7 @@
    "y": 25403
   },
   {
-   "id": "hp:1a1e6a5d5d6:4_Entwurf/Layout/Einzelblätter_Übergröße/TIB_28_Ansicht-Nord_M1-200_Uebergroesse_v1.pdf",
+   "id": "hp:1a1e6ad6acd:4_Entwurf/Layout/Einzelblätter_Übergröße/TIB_28_Ansicht-Nord_M1-200_Uebergroesse_v1.pdf",
    "kind": "pdf",
    "title": "TIB 28 Ansicht-Nord M1-200 Uebergroesse v1",
    "ext": "pdf",
@@ -23828,7 +23844,7 @@
    "y": 25403
   },
   {
-   "id": "hp:1a1e6a5d5d7:4_Entwurf/Layout/Einzelblätter_Übergröße/TIB_29_Ansicht-Ost_M1-200_Uebergroesse_v1.pdf",
+   "id": "hp:1a1e6ad6ace:4_Entwurf/Layout/Einzelblätter_Übergröße/TIB_29_Ansicht-Ost_M1-200_Uebergroesse_v1.pdf",
    "kind": "pdf",
    "title": "TIB 29 Ansicht-Ost M1-200 Uebergroesse v1",
    "ext": "pdf",
@@ -23847,7 +23863,7 @@
    "y": 25403
   },
   {
-   "id": "hp:1a1e6a5d5d8:4_Entwurf/Layout/Einzelblätter_Übergröße/TIB_30_Ansicht-Sued_M1-200_Uebergroesse_v1.pdf",
+   "id": "hp:1a1e6ad6acf:4_Entwurf/Layout/Einzelblätter_Übergröße/TIB_30_Ansicht-Sued_M1-200_Uebergroesse_v1.pdf",
    "kind": "pdf",
    "title": "TIB 30 Ansicht-Sued M1-200 Uebergroesse v1",
    "ext": "pdf",
@@ -23866,7 +23882,7 @@
    "y": 26181
   },
   {
-   "id": "hp:1a1e6a5d5d9:4_Entwurf/Layout/Einzelblätter_Übergröße/TIB_31_Ansicht-West_M1-200_Uebergroesse_v1.pdf",
+   "id": "hp:1a1e6ad6ad0:4_Entwurf/Layout/Einzelblätter_Übergröße/TIB_31_Ansicht-West_M1-200_Uebergroesse_v1.pdf",
    "kind": "pdf",
    "title": "TIB 31 Ansicht-West M1-200 Uebergroesse v1",
    "ext": "pdf",
@@ -23885,7 +23901,7 @@
    "y": 26181
   },
   {
-   "id": "hp:1a1e6a5d5da:4_Entwurf/Layout/TIB_02_Umbau_RotGelb_M1-200_A2_v3.pdf",
+   "id": "hp:1a1e6ad6ad1:4_Entwurf/Layout/TIB_02_Umbau_RotGelb_M1-200_A2_v3.pdf",
    "kind": "pdf",
    "title": "TIB 02 Umbau RotGelb M1-200 A2 v3",
    "ext": "pdf",
@@ -23904,7 +23920,7 @@
    "y": 26181
   },
   {
-   "id": "hp:1a1e6a5d5db:4_Entwurf/Layout/TIB_03_Nutzung_M1-200_A2_v3.pdf",
+   "id": "hp:1a1e6ad6ad2:4_Entwurf/Layout/TIB_03_Nutzung_M1-200_A2_v3.pdf",
    "kind": "pdf",
    "title": "TIB 03 Nutzung M1-200 A2 v3",
    "ext": "pdf",
@@ -23923,7 +23939,7 @@
    "y": 26181
   },
   {
-   "id": "hp:1a1e6a5d5dc:4_Entwurf/Layout/TIB_05_Axo-SW_A2_v1.pdf",
+   "id": "hp:1a1e6ad6ad3:4_Entwurf/Layout/TIB_05_Axo-SW_A2_v1.pdf",
    "kind": "pdf",
    "title": "TIB 05 Axo-SW A2 v1",
    "ext": "pdf",
@@ -23942,7 +23958,7 @@
    "y": 26181
   },
   {
-   "id": "hp:1a1e6a5d5dd:4_Entwurf/Layout/TIB_09_Referenzen-1_A3_v3.pdf",
+   "id": "hp:1a1e6ad6ad4:4_Entwurf/Layout/TIB_09_Referenzen-1_A3_v3.pdf",
    "kind": "pdf",
    "title": "TIB 09 Referenzen-1 A3 v3",
    "ext": "pdf",
@@ -23961,7 +23977,7 @@
    "y": 26181
   },
   {
-   "id": "hp:1a1e6a5d5de:4_Entwurf/Layout/TIB_09_Referenzen-2_A3_v3.pdf",
+   "id": "hp:1a1e6ad6ad5:4_Entwurf/Layout/TIB_09_Referenzen-2_A3_v3.pdf",
    "kind": "pdf",
    "title": "TIB 09 Referenzen-2 A3 v3",
    "ext": "pdf",
@@ -23978,6 +23994,367 @@
    "section": "Hängeplan",
    "x": 22754,
    "y": 26181
+  },
+  {
+   "id": "hp:1a1e6ad6ad6:4_Entwurf/Layout/TIB_07_Lageplan_M1-500_A3_v2.pdf",
+   "kind": "pdf",
+   "title": "TIB 07 Lageplan M1-500 A3 v2",
+   "ext": "pdf",
+   "size": 3124759,
+   "date": "17.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/TIB_07_Lageplan_M1-500_A3_v2.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/TIB_07_Lageplan_M1-500_A3_v2.pdf&raw=1",
+   "thumb": "thumbs/60cc614ab43a033f.webp",
+   "ar": 1.4139,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/d61a63f2882b44ba9736/",
+   "w": 420,
+   "hp": true,
+   "moved": true,
+   "section": "Hängeplan",
+   "x": 19055,
+   "y": 28462
+  },
+  {
+   "id": "hp:1a1e6ad6ad7:4_Entwurf/Layout/Einzelblätter_DIN/TIB_20_Grundriss-EG_M1-200_A1-hoch_v1.pdf",
+   "kind": "pdf",
+   "title": "TIB 20 Grundriss-EG M1-200 A1-hoch v1",
+   "ext": "pdf",
+   "size": 1973729,
+   "date": "17.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/Einzelbl%C3%A4tter_DIN/TIB_20_Grundriss-EG_M1-200_A1-hoch_v1.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/Einzelbl%C3%A4tter_DIN/TIB_20_Grundriss-EG_M1-200_A1-hoch_v1.pdf&raw=1",
+   "thumb": "thumbs/ef77d65daa04b8a8.webp",
+   "ar": 0.7064,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/a4f19833d5a54f4b9668/",
+   "hp": true,
+   "moved": true,
+   "section": "Hängeplan",
+   "w": 594,
+   "x": 19575,
+   "y": 28462
+  },
+  {
+   "id": "hp:1a1e6ad6ad8:4_Entwurf/Layout/Einzelblätter_DIN/TIB_21_Grundriss-1OG_M1-200_A1-hoch_v1.pdf",
+   "kind": "pdf",
+   "title": "TIB 21 Grundriss-1OG M1-200 A1-hoch v1",
+   "ext": "pdf",
+   "size": 1985042,
+   "date": "17.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/Einzelbl%C3%A4tter_DIN/TIB_21_Grundriss-1OG_M1-200_A1-hoch_v1.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/Einzelbl%C3%A4tter_DIN/TIB_21_Grundriss-1OG_M1-200_A1-hoch_v1.pdf&raw=1",
+   "thumb": "thumbs/b80ac69ee1b8354a.webp",
+   "ar": 0.7064,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/294cc0aad3744531b6a5/",
+   "hp": true,
+   "moved": true,
+   "section": "Hängeplan",
+   "w": 594,
+   "x": 20269,
+   "y": 28462
+  },
+  {
+   "id": "hp:1a1e6ad6ad9:4_Entwurf/Layout/Einzelblätter_DIN/TIB_22_Grundriss-2OG_M1-200_A1-hoch_v1.pdf",
+   "kind": "pdf",
+   "title": "TIB 22 Grundriss-2OG M1-200 A1-hoch v1",
+   "ext": "pdf",
+   "size": 2122397,
+   "date": "17.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/Einzelbl%C3%A4tter_DIN/TIB_22_Grundriss-2OG_M1-200_A1-hoch_v1.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/Einzelbl%C3%A4tter_DIN/TIB_22_Grundriss-2OG_M1-200_A1-hoch_v1.pdf&raw=1",
+   "thumb": "thumbs/dc55721e47dddcd8.webp",
+   "ar": 0.7064,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/6f3d1ba1d3b24f10b0d0/",
+   "hp": true,
+   "moved": true,
+   "section": "Hängeplan",
+   "w": 594,
+   "x": 20963,
+   "y": 28462
+  },
+  {
+   "id": "hp:1a1e6ad6ada:4_Entwurf/Layout/Einzelblätter_DIN/TIB_23_Grundriss-3OG_M1-200_A1-hoch_v1.pdf",
+   "kind": "pdf",
+   "title": "TIB 23 Grundriss-3OG M1-200 A1-hoch v1",
+   "ext": "pdf",
+   "size": 1853642,
+   "date": "17.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/Einzelbl%C3%A4tter_DIN/TIB_23_Grundriss-3OG_M1-200_A1-hoch_v1.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/Einzelbl%C3%A4tter_DIN/TIB_23_Grundriss-3OG_M1-200_A1-hoch_v1.pdf&raw=1",
+   "thumb": "thumbs/36cfcf3719aee19b.webp",
+   "ar": 0.7064,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/3035a2aa7c6a4a23ab24/",
+   "hp": true,
+   "moved": true,
+   "section": "Hängeplan",
+   "w": 594,
+   "x": 21657,
+   "y": 28462
+  },
+  {
+   "id": "hp:1a1e6ad6adb:4_Entwurf/Layout/Einzelblätter_DIN/TIB_24_Grundriss-1UG_M1-200_A1-hoch_v1.pdf",
+   "kind": "pdf",
+   "title": "TIB 24 Grundriss-1UG M1-200 A1-hoch v1",
+   "ext": "pdf",
+   "size": 1936135,
+   "date": "17.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/Einzelbl%C3%A4tter_DIN/TIB_24_Grundriss-1UG_M1-200_A1-hoch_v1.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/Einzelbl%C3%A4tter_DIN/TIB_24_Grundriss-1UG_M1-200_A1-hoch_v1.pdf&raw=1",
+   "thumb": "thumbs/da084696a6e0b4b7.webp",
+   "ar": 0.7064,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/736c3e28aec54cca9734/",
+   "hp": true,
+   "moved": true,
+   "section": "Hängeplan",
+   "w": 594,
+   "x": 22351,
+   "y": 28462
+  },
+  {
+   "id": "hp:1a1e6ad6adc:4_Entwurf/Layout/Einzelblätter_DIN/TIB_25_Grundriss-2UG_M1-200_A1-hoch_v1.pdf",
+   "kind": "pdf",
+   "title": "TIB 25 Grundriss-2UG M1-200 A1-hoch v1",
+   "ext": "pdf",
+   "size": 1782449,
+   "date": "17.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/Einzelbl%C3%A4tter_DIN/TIB_25_Grundriss-2UG_M1-200_A1-hoch_v1.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/Einzelbl%C3%A4tter_DIN/TIB_25_Grundriss-2UG_M1-200_A1-hoch_v1.pdf&raw=1",
+   "thumb": "thumbs/f9ac8db69abeb39c.webp",
+   "ar": 0.7064,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/da3958cf76ff42de8f4e/",
+   "hp": true,
+   "moved": true,
+   "section": "Hängeplan",
+   "w": 594,
+   "x": 19292,
+   "y": 29403
+  },
+  {
+   "id": "hp:1a1e6ad6add:4_Entwurf/Layout/Einzelblätter_DIN/TIB_26_Schnitt-West_M1-200_A1_v1.pdf",
+   "kind": "pdf",
+   "title": "TIB 26 Schnitt-West M1-200 A1 v1",
+   "ext": "pdf",
+   "size": 4091410,
+   "date": "17.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/Einzelbl%C3%A4tter_DIN/TIB_26_Schnitt-West_M1-200_A1_v1.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/Einzelbl%C3%A4tter_DIN/TIB_26_Schnitt-West_M1-200_A1_v1.pdf&raw=1",
+   "thumb": "thumbs/409b049a606b2afe.webp",
+   "ar": 1.4157,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/3822be94bd304dd59196/",
+   "hp": true,
+   "moved": true,
+   "section": "Hängeplan",
+   "w": 841,
+   "x": 19986,
+   "y": 29403
+  },
+  {
+   "id": "hp:1a1e6ad6ade:4_Entwurf/Layout/Einzelblätter_DIN/TIB_27_Schnitt-Mitte_M1-200_A1_v1.pdf",
+   "kind": "pdf",
+   "title": "TIB 27 Schnitt-Mitte M1-200 A1 v1",
+   "ext": "pdf",
+   "size": 4091406,
+   "date": "17.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/Einzelbl%C3%A4tter_DIN/TIB_27_Schnitt-Mitte_M1-200_A1_v1.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/Einzelbl%C3%A4tter_DIN/TIB_27_Schnitt-Mitte_M1-200_A1_v1.pdf&raw=1",
+   "thumb": "thumbs/8dee8f6a5562c355.webp",
+   "ar": 1.4157,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/b86d8af9073044c38c19/",
+   "hp": true,
+   "moved": true,
+   "section": "Hängeplan",
+   "w": 841,
+   "x": 20926,
+   "y": 29403
+  },
+  {
+   "id": "hp:1a1e6ad6adf:4_Entwurf/Layout/Einzelblätter_DIN/TIB_28_Ansicht-Nord_M1-200_A1_v1.pdf",
+   "kind": "pdf",
+   "title": "TIB 28 Ansicht-Nord M1-200 A1 v1",
+   "ext": "pdf",
+   "size": 5236783,
+   "date": "17.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/Einzelbl%C3%A4tter_DIN/TIB_28_Ansicht-Nord_M1-200_A1_v1.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/Einzelbl%C3%A4tter_DIN/TIB_28_Ansicht-Nord_M1-200_A1_v1.pdf&raw=1",
+   "thumb": "thumbs/f39d074312f9225a.webp",
+   "ar": 1.4157,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/2a250dfe8c2541b89c30/",
+   "hp": true,
+   "moved": true,
+   "section": "Hängeplan",
+   "w": 841,
+   "x": 21868,
+   "y": 29403
+  },
+  {
+   "id": "hp:1a1e6ad6ae0:4_Entwurf/Layout/Einzelblätter_DIN/TIB_29_Ansicht-Ost_M1-200_A2_v1.pdf",
+   "kind": "pdf",
+   "title": "TIB 29 Ansicht-Ost M1-200 A2 v1",
+   "ext": "pdf",
+   "size": 5236776,
+   "date": "17.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/Einzelbl%C3%A4tter_DIN/TIB_29_Ansicht-Ost_M1-200_A2_v1.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/Einzelbl%C3%A4tter_DIN/TIB_29_Ansicht-Ost_M1-200_A2_v1.pdf&raw=1",
+   "thumb": "thumbs/e5d6175da67ee78f.webp",
+   "ar": 1.4139,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/bed2cfb18f8a4b648666/",
+   "hp": true,
+   "moved": true,
+   "section": "Hängeplan",
+   "w": 594,
+   "x": 19366,
+   "y": 30344
+  },
+  {
+   "id": "hp:1a1e6ad6ae1:4_Entwurf/Layout/Einzelblätter_DIN/TIB_30_Ansicht-Sued_M1-200_A1_v1.pdf",
+   "kind": "pdf",
+   "title": "TIB 30 Ansicht-Sued M1-200 A1 v1",
+   "ext": "pdf",
+   "size": 5236781,
+   "date": "17.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/Einzelbl%C3%A4tter_DIN/TIB_30_Ansicht-Sued_M1-200_A1_v1.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/Einzelbl%C3%A4tter_DIN/TIB_30_Ansicht-Sued_M1-200_A1_v1.pdf&raw=1",
+   "thumb": "thumbs/2d6ef60bfdcd869a.webp",
+   "ar": 1.4157,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/d4b2a357428c4747bd2e/",
+   "hp": true,
+   "moved": true,
+   "section": "Hängeplan",
+   "w": 841,
+   "x": 20060,
+   "y": 30344
+  },
+  {
+   "id": "hp:1a1e6ad6ae2:4_Entwurf/Layout/Einzelblätter_DIN/TIB_31_Ansicht-West_M1-200_A2_v1.pdf",
+   "kind": "pdf",
+   "title": "TIB 31 Ansicht-West M1-200 A2 v1",
+   "ext": "pdf",
+   "size": 5236782,
+   "date": "17.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/Einzelbl%C3%A4tter_DIN/TIB_31_Ansicht-West_M1-200_A2_v1.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/Einzelbl%C3%A4tter_DIN/TIB_31_Ansicht-West_M1-200_A2_v1.pdf&raw=1",
+   "thumb": "thumbs/bc290c37afa0469b.webp",
+   "ar": 1.4139,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/cd7a1606ffbd42439335/",
+   "hp": true,
+   "moved": true,
+   "section": "Hängeplan",
+   "w": 594,
+   "x": 21000,
+   "y": 30344
+  },
+  {
+   "id": "hp:1a1e6ad6ae3:4_Entwurf/Layout/TIB_02_Umbau_RotGelb_M1-200_A2_v3.pdf",
+   "kind": "pdf",
+   "title": "TIB 02 Umbau RotGelb M1-200 A2 v3",
+   "ext": "pdf",
+   "size": 6070120,
+   "date": "16.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/TIB_02_Umbau_RotGelb_M1-200_A2_v3.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/TIB_02_Umbau_RotGelb_M1-200_A2_v3.pdf&raw=1",
+   "thumb": "thumbs/bae6fec1e8b55293.webp",
+   "ar": 0.7073,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/b54aa128125048479ff2/",
+   "w": 420,
+   "hp": true,
+   "moved": true,
+   "section": "Hängeplan",
+   "x": 21694,
+   "y": 30344
+  },
+  {
+   "id": "hp:1a1e6ad6ae4:4_Entwurf/Layout/TIB_03_Nutzung_M1-200_A2_v3.pdf",
+   "kind": "pdf",
+   "title": "TIB 03 Nutzung M1-200 A2 v3",
+   "ext": "pdf",
+   "size": 6003469,
+   "date": "16.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/TIB_03_Nutzung_M1-200_A2_v3.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/TIB_03_Nutzung_M1-200_A2_v3.pdf&raw=1",
+   "thumb": "thumbs/264ed3470dd32fcc.webp",
+   "ar": 0.7073,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/6c20f11611dc4afeaabb/",
+   "w": 420,
+   "hp": true,
+   "moved": true,
+   "section": "Hängeplan",
+   "x": 22214,
+   "y": 30344
+  },
+  {
+   "id": "hp:1a1e6ad6ae5:4_Entwurf/Layout/TIB_07_Lageplan_M1-500_A3_v2.pdf",
+   "kind": "pdf",
+   "title": "TIB 07 Lageplan M1-500 A3 v2",
+   "ext": "pdf",
+   "size": 3124759,
+   "date": "17.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/TIB_07_Lageplan_M1-500_A3_v2.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/TIB_07_Lageplan_M1-500_A3_v2.pdf&raw=1",
+   "thumb": "thumbs/60cc614ab43a033f.webp",
+   "ar": 1.4139,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/d61a63f2882b44ba9736/",
+   "w": 420,
+   "hp": true,
+   "moved": true,
+   "section": "Hängeplan",
+   "x": 20146,
+   "y": 32932
+  },
+  {
+   "id": "hp:1a1e6ad6ae6:4_Entwurf/Layout/TIB_01_Grundrisse-Schnitte-Ansichten_A0_M1-200_v3.pdf",
+   "kind": "pdf",
+   "title": "TIB 01 Grundrisse-Schnitte-Ansichten A0 M1-200 v3",
+   "ext": "pdf",
+   "size": 12958067,
+   "date": "16.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/TIB_01_Grundrisse-Schnitte-Ansichten_A0_M1-200_v3.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/TIB_01_Grundrisse-Schnitte-Ansichten_A0_M1-200_v3.pdf&raw=1",
+   "thumb": "thumbs/b4cc794001c167d5.webp",
+   "ar": 1.4121,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/630905fc860144f3bf71/",
+   "w": 1189,
+   "hp": true,
+   "moved": true,
+   "section": "Hängeplan",
+   "x": 20666,
+   "y": 32932
+  },
+  {
+   "id": "hp:1a1e6ad6ae7:4_Entwurf/Layout/TIB_02_Umbau_RotGelb_M1-200_A2_v3.pdf",
+   "kind": "pdf",
+   "title": "TIB 02 Umbau RotGelb M1-200 A2 v3",
+   "ext": "pdf",
+   "size": 6070120,
+   "date": "16.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/TIB_02_Umbau_RotGelb_M1-200_A2_v3.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/TIB_02_Umbau_RotGelb_M1-200_A2_v3.pdf&raw=1",
+   "thumb": "thumbs/bae6fec1e8b55293.webp",
+   "ar": 0.7073,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/b54aa128125048479ff2/",
+   "w": 420,
+   "hp": true,
+   "moved": true,
+   "section": "Hängeplan",
+   "x": 20530,
+   "y": 33874
+  },
+  {
+   "id": "hp:1a1e6ad6ae8:4_Entwurf/Layout/TIB_03_Nutzung_M1-200_A2_v3.pdf",
+   "kind": "pdf",
+   "title": "TIB 03 Nutzung M1-200 A2 v3",
+   "ext": "pdf",
+   "size": 6003469,
+   "date": "16.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/TIB_03_Nutzung_M1-200_A2_v3.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/TIB_03_Nutzung_M1-200_A2_v3.pdf&raw=1",
+   "thumb": "thumbs/264ed3470dd32fcc.webp",
+   "ar": 0.7073,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/6c20f11611dc4afeaabb/",
+   "w": 420,
+   "hp": true,
+   "moved": true,
+   "section": "Hängeplan",
+   "x": 21050,
+   "y": 33874
   }
  ]
 }
