@@ -75,6 +75,8 @@ Verbindung Bestand / Anbau (Schnitt Ost, Ostflügel): Beide Häuser behalten ihr
 | Layout: Lageplan, M 1:1000, A3 hoch | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/be4f2fc94016454d8db3/) |
 | Layout: Referenzen 1/2, A3 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/ad24e37dbad34ee5a1a3/) |
 | Layout: Referenzen 2/2, A3 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/ba0864ccc82047dea523/) |
+| Layout: Einzelblätter, jeder Plan ein Blatt, M 1:200, DIN (Sammel-PDF) | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/7319e0e057b148e687d6/) |
+| Layout: Einzelblätter, jeder Plan ein Blatt, M 1:200, Übergröße (Sammel-PDF) | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/5b3d006ad0eb4620a94f/) |
 
 ## Archiv
 
