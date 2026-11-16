@@ -1,4 +1,4 @@
-# Entwurf · Stand 2026-11-12
+# Entwurf · Stand 2026-11-16
 
 Bachelorthesis „Die Bibliothek – Vom Archiv zum Kollektivraum“, Studio Kempe Thill, Leibniz Universität Hannover, WiSe 2026/27.
 Umbau und Erweiterung der TIB (Technische Informationsbibliothek, Gebäude 1102) am Welfengarten / Welfenschloss, Hannover.
@@ -46,18 +46,19 @@ Verbindung Bestand / Anbau (Schnitt Ost, Ostflügel): Beide Häuser behalten ihr
 | Schnitt Ost, Verbindung Bestand / Anbau, zwei Tafeln, M 1:200 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/75ea4ca14b274ef28212/) |
 | Schnitte West + Mitte, M 1:200 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/2e5b2bf35e4843299d56/) |
 | Schnitte West + Mitte, schematisch, M 1:200 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/6ecafa7af9654e5cac2f/) |
+| Ansichten Nord / Ost / Süd / West, M 1:200 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/8370c61cb2994742a29b/) |
+| Schnitt Ost, zwei Tafeln, mit Umgebung, M 1:200 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/c3e69cda8ac4487f98d2/) |
+| Schnitte West + Mitte, mit Umgebung, M 1:200 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/3666294370a240839bc2/) |
 | Oberlicht Atrium, Glaskuppel: Tragwerk und Kuppelrand, M 1:100 / 1:10, A1 | 2026-11-14 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/bd648a1cc7ef4c859430/) |
-| Lageplan-Entwurf, Ausschnitt TIB, A3 | 2026-11-13 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/e2849fcf88c245eb9b7b/) |
-| Lageplan-Entwurf, Ausschnitt Umgebung quer, M 1:1500, A3 | 2026-11-13 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/9263e6f58cdd442db454/) |
-| Lageplan-Entwurf, Ausschnitt Umgebung, M 1:1500, A3 | 2026-11-13 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/a4ae3922a97a41c3a467/) |
+| Lageplan-Entwurf, Ausschnitt TIB, A3 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/4b47ac67ab1544719906/) |
+| Lageplan-Entwurf, Vorplatz, M 1:500, A3 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/180646e4333b46b8a50c/) |
+| Lageplan-Entwurf Welfengarten, Skizze | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/9f4113e756a445a494d0/) |
 | Lageplan Welfengarten, Ausschnitt TIB, A3 | 2026-11-03 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/d4b27c5559bd421186cc/) |
 | Freiraum Vorplatz + Innenhof, Analyse, M 1:1000 | 2026-11-13 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/e008e11e6e91400fb64b/) |
 | Freiraum Option 1, Baumreihen, Lageplan M 1:500 + Innenhof M 1:200 | 2026-11-13 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/87b626e693f046829ce5/) |
 | Freiraum Option 2, Inseln, Lageplan M 1:500 + Innenhof M 1:200 | 2026-11-13 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/179e20e875ef4553afce/) |
 | Freiraum Option 3, Rasenfelder, Lageplan M 1:500 + Innenhof M 1:200 | 2026-11-13 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/bad5023ab5e045d09d6f/) |
 | Freiraum, Vergleich der drei Optionen, M 1:1000 | 2026-11-13 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/b229be8de9244bfabd7a/) |
-| Lageplan-Entwurf Welfengarten, Skizze | 2026-11-13 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/c34d1c663b9a4deaa8f3/) |
-| Lageplan-Entwurf, Zoom TIB, M 1:100, A0 | 2026-11-13 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/3b477d7b4d65463b9c59/) |
 
 ## Archiv
 
