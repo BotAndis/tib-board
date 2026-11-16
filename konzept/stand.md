@@ -62,14 +62,18 @@ Verbindung Bestand / Anbau (Schnitt Ost, Ostflügel): Beide Häuser behalten ihr
 | Layout: Grundrisse, Schnitte, Ansichten, M 1:200, Übergröße | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/c4afb538f4c0423b8770/) |
 | Layout: Grundrisse, Schnitte, Ansichten, M 1:200, A0 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/f8c1d6a5eff544e081f1/) |
 | Layout: Grundrisse, Schnitte, Ansichten, M 1:200, A1 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/35bf7b4ef5bb45899378/) |
+| Layout: Grundrisse 2.UG, 1.UG, EG, M 1:200, A0 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/6e56668e5ee54ddc824f/) |
+| Layout: Grundrisse 1.OG, 2.OG, 3.OG, M 1:200, A0 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/b9b20c97b7d14d449a17/) |
+| Layout: Schnitte, M 1:200, A1 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/730ed1595aa34d3fbbd9/) |
+| Layout: Ansichten, M 1:200, A1 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/94df441d51714ad9ad41/) |
 | Layout: Umbau Rot-Gelb, M 1:200, A2 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/7e8a91f3e76549c49852/) |
 | Layout: Nutzung, M 1:200, A2 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/a05204bbf4104fba9b1a/) |
-| Layout: Bestand Nutzung und Flächenbedarf, A2 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/e0a0a6b0e9624a278bd0/) |
+| Layout: Bestand Nutzung und Flächenbedarf, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/6e65f2b3cd7746cfa4f4/) |
 | Layout: Axonometrie Südwest, A2 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/9c95854ce8c14e06b069/) |
 | Layout: Axonometrie Südwest, A3 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/de31800c83584a97b0a7/) |
 | Layout: Axonometrie Umbau explodiert, A3 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/2fc180a95f394ce9a7f8/) |
 | Layout: Lageplan, M 1:500, A3 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/e7a768c19994493ca86a/) |
-| Layout: Lageplan, M 1:1000, A3 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/7e885e411c47486f8d6f/) |
+| Layout: Lageplan, M 1:1000, A3 hoch | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/be4f2fc94016454d8db3/) |
 | Layout: Referenzen, 2 × A3 | 2026-11-16 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/33305ae0cae646a8a9b1/) |
 
 ## Archiv
