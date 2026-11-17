@@ -73,6 +73,7 @@ Verbindung Bestand / Anbau (Schnitt Ost, Ostflügel): Beide Häuser behalten ihr
 | Layout: Schnitte mittig, M 1:200, A1 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/c744ab80acdd48ca9a37/) |
 | Layout: Schnitte, x-gleich mit Ansicht Nord, M 1:200, A1 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/fbd3008f366a42db8802/) |
 | Layout: Ansichten, M 1:200, A1 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/94df441d51714ad9ad41/) |
+| Layout: Schnitt Ost, M 1:200, Sondermaß 860 x 751 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/c673512e54224ebbaa1e/) |
 | Layout: Umbau Rot-Gelb, M 1:200, A2 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/b54aa128125048479ff2/) |
 | Layout: Umbau Rot-Gelb mit Schnitten, M 1:200, Übergröße 420 x 771 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/a71cb4f7a93c48aca74b/) |
 | Layout: Nutzung, M 1:200, A2 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/6c20f11611dc4afeaabb/) |
