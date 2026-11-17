@@ -24789,25 +24789,6 @@
    "y": 12928
   },
   {
-   "id": "hp:1a1e6ea0d46:4_Entwurf/Layout/TIB_08_Lageplan-gesamt_M1-2500_A3-hoch_v3.pdf",
-   "kind": "pdf",
-   "title": "TIB 08 Lageplan-gesamt M1-2500 A3-hoch v3",
-   "ext": "pdf",
-   "size": 22392414,
-   "date": "17.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/TIB_08_Lageplan-gesamt_M1-2500_A3-hoch_v3.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/TIB_08_Lageplan-gesamt_M1-2500_A3-hoch_v3.pdf&raw=1",
-   "thumb": "thumbs/f71972e352dec8a3.webp",
-   "ar": 0.7073,
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/ee33ad1ce0c34d34b274/",
-   "w": 297,
-   "hp": true,
-   "moved": true,
-   "section": "Hängeplan",
-   "x": 26828.04727791107,
-   "y": 14504.924779517289
-  },
-  {
    "id": "hp:1a1e6ea0d47:4_Entwurf/Layout/TIB_07_Lageplan_M1-500_A3_v2.pdf",
    "kind": "pdf",
    "title": "TIB 07 Lageplan M1-500 A3 v2",
@@ -24824,7 +24805,7 @@
    "moved": true,
    "section": "Hängeplan",
    "x": 27200,
-   "y": 14890
+   "y": 14450
   },
   {
    "id": "hp:1a1e6ea0d48:4_Entwurf/Layout/TIB_04_Bestand-Nutzung+Bedarf_A3_v2.pdf",
