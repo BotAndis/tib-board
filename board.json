@@ -14087,26 +14087,40 @@
    "w": 300
   },
   {
-   "id": "4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Ausschnitt-TIB_A3_v9.pdf",
-   "kind": "pdf",
-   "title": "LP 1100 Welfengarten Lageplan-Entwurf Ausschnitt-TIB A3 v9",
-   "ext": "pdf",
-   "size": 920035,
+   "id": "4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_v9.dxf",
+   "kind": "file",
+   "title": "LP 1100 Welfengarten Lageplan-Entwurf v9",
+   "ext": "dxf",
+   "size": 21289460,
    "date": "16.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Ausschnitt-TIB_A3_v9.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Ausschnitt-TIB_A3_v9.pdf&raw=1",
-   "thumb": "thumbs/ebe09d5304629a59.webp",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_v9.dxf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_v9.dxf&raw=1",
+   "section": "Entwurf · Lageplan",
+   "x": 9200,
+   "y": 29460,
+   "w": 300
+  },
+  {
+   "id": "4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Ausschnitt-TIB_A3_v11.pdf",
+   "kind": "pdf",
+   "title": "LP 1100 Welfengarten Lageplan-Entwurf Ausschnitt-TIB A3 v11",
+   "ext": "pdf",
+   "size": 919458,
+   "date": "17.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Ausschnitt-TIB_A3_v11.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Ausschnitt-TIB_A3_v11.pdf&raw=1",
+   "thumb": "thumbs/621a8ebfd645b408.webp",
    "ar": 1.4139,
    "dxf": [
     {
      "label": "DXF",
-     "name": "LP_1100_Welfengarten_Lageplan-Entwurf_v9.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_v9.dxf&dl=1"
+     "name": "LP_1100_Welfengarten_Lageplan-Entwurf_v11.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_v11.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/4b47ac67ab1544719906/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/9809102509d24a7a8c3e/",
    "section": "Entwurf · Lageplan",
-   "x": 9200,
+   "x": 9540.0,
    "y": 29460,
    "w": 1697
   },
@@ -14123,55 +14137,55 @@
    "ar": 1.4139,
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/d4b27c5559bd421186cc/",
    "section": "Entwurf · Lageplan",
-   "x": 10936.68,
+   "x": 11276.68,
    "y": 29460,
    "w": 1697
   },
   {
-   "id": "4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Vorplatz_M1-500_A3_v9.pdf",
+   "id": "4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Vorplatz_M1-500_A3_v11.pdf",
    "kind": "pdf",
-   "title": "LP 1100 Welfengarten Lageplan-Entwurf Vorplatz M1-500 A3 v9",
+   "title": "LP 1100 Welfengarten Lageplan-Entwurf Vorplatz M1-500 A3 v11",
    "ext": "pdf",
-   "size": 1988824,
-   "date": "16.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Vorplatz_M1-500_A3_v9.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Vorplatz_M1-500_A3_v9.pdf&raw=1",
-   "thumb": "thumbs/10ca1f1e77518615.webp",
+   "size": 1987490,
+   "date": "17.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Vorplatz_M1-500_A3_v11.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Vorplatz_M1-500_A3_v11.pdf&raw=1",
+   "thumb": "thumbs/35c3ea3ef3aff09f.webp",
    "ar": 1.4139,
    "dxf": [
     {
      "label": "DXF",
-     "name": "LP_1100_Welfengarten_Lageplan-Entwurf_v9.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_v9.dxf&dl=1"
+     "name": "LP_1100_Welfengarten_Lageplan-Entwurf_v11.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_v11.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/180646e4333b46b8a50c/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/0ce97c44e9f649fd8af8/",
    "section": "Entwurf · Lageplan",
-   "x": 12673.36,
-   "y": 29460,
+   "x": 9200,
+   "y": 30770,
    "w": 1697
   },
   {
-   "id": "4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Skizze_v9.pdf",
+   "id": "4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Skizze_v11.pdf",
    "kind": "pdf",
-   "title": "LP 1100 Welfengarten Lageplan-Entwurf Skizze v9",
+   "title": "LP 1100 Welfengarten Lageplan-Entwurf Skizze v11",
    "ext": "pdf",
-   "size": 21253321,
-   "date": "16.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Skizze_v9.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Skizze_v9.pdf&raw=1",
-   "thumb": "thumbs/1809be59155e634a.webp",
+   "size": 21253921,
+   "date": "17.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Skizze_v11.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_Skizze_v11.pdf&raw=1",
+   "thumb": "thumbs/5aecdf472da48691.webp",
    "ar": 0.7073,
    "dxf": [
     {
      "label": "DXF",
-     "name": "LP_1100_Welfengarten_Lageplan-Entwurf_v9.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_v9.dxf&dl=1"
+     "name": "LP_1100_Welfengarten_Lageplan-Entwurf_v11.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_v11.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/9f4113e756a445a494d0/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/8c6449cf78ca4a75a6a7/",
    "section": "Entwurf · Lageplan",
-   "x": 9200,
+   "x": 10936.68,
    "y": 30770,
    "w": 849
   },
@@ -14188,7 +14202,7 @@
    "ar": 1.4139,
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/e008e11e6e91400fb64b/",
    "section": "Entwurf · Lageplan",
-   "x": 10088.76,
+   "x": 11825.439999999999,
    "y": 30770,
    "w": 1697
   },
@@ -14222,8 +14236,8 @@
    ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/a7447a9081804d858a3b/",
    "section": "Entwurf · Lageplan",
-   "x": 11825.439999999999,
-   "y": 30770,
+   "x": 9200,
+   "y": 32080,
    "w": 1697
   },
   {
@@ -14256,7 +14270,7 @@
    ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/eefce5fe947e4563bb44/",
    "section": "Entwurf · Lageplan",
-   "x": 9200,
+   "x": 10936.68,
    "y": 32080,
    "w": 1697
   },
@@ -14290,7 +14304,7 @@
    ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/3ccacaa9293c4c22b91b/",
    "section": "Entwurf · Lageplan",
-   "x": 10936.68,
+   "x": 12673.36,
    "y": 32080,
    "w": 1697
   },
@@ -14324,8 +14338,8 @@
    ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/10df3c2926814b0cbf46/",
    "section": "Entwurf · Lageplan",
-   "x": 12673.36,
-   "y": 32080,
+   "x": 9200,
+   "y": 33390,
    "w": 1697
   },
   {
@@ -14358,7 +14372,7 @@
    ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/9f0155995e7e4ceca890/",
    "section": "Entwurf · Lageplan",
-   "x": 9200,
+   "x": 10936.68,
    "y": 33390,
    "w": 1697
   },
@@ -14392,7 +14406,7 @@
    ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/a2450c6cab8347858cbb/",
    "section": "Entwurf · Lageplan",
-   "x": 10936.68,
+   "x": 12673.36,
    "y": 33390,
    "w": 1697
   },
@@ -14426,8 +14440,8 @@
    ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/a1dd57d056c64e8bb735/",
    "section": "Entwurf · Lageplan",
-   "x": 12673.36,
-   "y": 33390,
+   "x": 9200,
+   "y": 34700,
    "w": 1697
   },
   {
@@ -14443,7 +14457,7 @@
    "ar": 1.4139,
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/8862c6530ec9459b92c8/",
    "section": "Entwurf · Lageplan",
-   "x": 9200,
+   "x": 10936.68,
    "y": 34700,
    "w": 1697
   },
@@ -14452,6 +14466,45 @@
    "kind": "stack",
    "title": "Ältere Versionen",
    "items": [
+    {
+     "id": "4_Entwurf/Lageplan/Ältere Versionen/LP_1100_Welfengarten_Lageplan-Entwurf_Vorplatz_M1-500_A3_v9.pdf",
+     "kind": "pdf",
+     "title": "LP 1100 Welfengarten Lageplan-Entwurf Vorplatz M1-500 A3 v9",
+     "ext": "pdf",
+     "size": 1988824,
+     "date": "16.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan-Entwurf_Vorplatz_M1-500_A3_v9.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan-Entwurf_Vorplatz_M1-500_A3_v9.pdf&raw=1",
+     "thumb": "thumbs/3ffee1e1f8601c8b.webp",
+     "ar": 1.4139,
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/127174311dbc4e0a9c8e/"
+    },
+    {
+     "id": "4_Entwurf/Lageplan/Ältere Versionen/LP_1100_Welfengarten_Lageplan-Entwurf_Ausschnitt-TIB_A3_v9.pdf",
+     "kind": "pdf",
+     "title": "LP 1100 Welfengarten Lageplan-Entwurf Ausschnitt-TIB A3 v9",
+     "ext": "pdf",
+     "size": 920035,
+     "date": "16.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan-Entwurf_Ausschnitt-TIB_A3_v9.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan-Entwurf_Ausschnitt-TIB_A3_v9.pdf&raw=1",
+     "thumb": "thumbs/e43eef7e5dd7c009.webp",
+     "ar": 1.4139,
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/86e86a9a86aa4f14a5b3/"
+    },
+    {
+     "id": "4_Entwurf/Lageplan/Ältere Versionen/LP_1100_Welfengarten_Lageplan-Entwurf_Skizze_v9.pdf",
+     "kind": "pdf",
+     "title": "LP 1100 Welfengarten Lageplan-Entwurf Skizze v9",
+     "ext": "pdf",
+     "size": 21253321,
+     "date": "16.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan-Entwurf_Skizze_v9.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/%C3%84ltere%20Versionen/LP_1100_Welfengarten_Lageplan-Entwurf_Skizze_v9.pdf&raw=1",
+     "thumb": "thumbs/80d8a895b75a981d.webp",
+     "ar": 0.7073,
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/55843f9bc647472681c2/"
+    },
     {
      "id": "4_Entwurf/Lageplan/Ältere Versionen/TIB_Freiraum_Vergleich_M1-1000_v1.pdf",
      "kind": "pdf",
@@ -14734,7 +14787,7 @@
     }
    ],
    "section": "Entwurf · Lageplan",
-   "x": 10936.68,
+   "x": 12673.36,
    "y": 34700,
    "w": 300
   },
