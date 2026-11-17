@@ -90,7 +90,7 @@ Verbindung Bestand / Anbau (Schnitt Ost, Ostflügel): Beide Häuser behalten ihr
 | Layout: Bestand Nutzung und Flächenbedarf, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/6e65f2b3cd7746cfa4f4/) |
 | Layout: Axonometrie Südwest, A2 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/3009b75268a941c89669/) |
 | Layout: Axonometrie Südwest, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/5e81b6c7496b454f802a/) |
-| Layout: Lageplan, M 1:500, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/0b48d38d6de2400d8996/) |
+| Layout: Lageplan, M 1:500, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/f6f555825a774520a9c0/) |
 | Layout: Lageplan gesamt, M 1:2500, A3 hoch | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/ee33ad1ce0c34d34b274/) |
 | Layout: Referenzen 1/2, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/3061efa3896e4f0aa40a/) |
 | Layout: Referenzen 2/2, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/a4c7a0568f7c4cb39e11/) |
