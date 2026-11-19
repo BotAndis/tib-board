@@ -5,44 +5,46 @@ Umbau und Erweiterung der TIB (Technische Informationsbibliothek, Gebäude 1102)
 
 Es gibt genau einen Entwurf. Pläne, Axonometrien und Modelle sind Darstellungen dieses Entwurfs zum angegebenen Datum.
 
-## Aktuelle Pläne (Planstand 2026-11-17)
+## Aktuelle Pläne (Planstand 2026-11-19)
 
 Grundrisse 2.UG–3.OG aus einem 2D-Master, je Geschoss fünf Darstellungen. Rot-Gelb(-Schwarz): Bestand schwarz, Abriss gelb, Neubau rot. Rot-Schwarz: Bestand schwarz, Neubau rot, ohne Abriss. Ein EG (die frühere EG-Variante 2 ist verworfen).
+
+Nach dem Zwischenkolloquium (Grundrisse 2026-11-19): Seitenwände des Atriums (x 14,0 / 36,4) im EG–2.OG als Glaswand; Treppen- und WC-Kasten südwestlich am Rundgang (EG–2.OG) abgebrochen; Aufbau 3.OG auf dem Anbau entfällt, Treppenkerne des Anbaus enden im 2.OG. Schnitte, Ansichten und Axonometrien zeigen noch den Stand 2026-11-17.
 
 Verbindung Bestand / Anbau (Schnitt Ost, Ostflügel): Beide Häuser behalten ihre Geschosshöhen (Bestand EG ±0,00 / 1.OG +3,91 / 2.OG +7,12; Anbau EG ±0,00 / 1.OG +4,00 / 2.OG +8,00, Arbeitsstand). Der Versatz wird an der Fuge aufgenommen: EG und UGs schwellenlos, 1.OG geneigter Boden 2,1 % im Anbau, 2.OG Stufenanlage über die Breite der Bibliothek (5 × 17,6 / 28) und daneben eine Rampenbrücke im Luftraum (4 × 3,70 m, 5,95 %, Podest +7,56 auf der Fuge). Referenzen: UB Heidelberg Triplex, Kunsthal Rotterdam, Newport Street Gallery.
 
 | Plan | Datum | PDF |
 |---|---|---|
-| 2.UG, Grundriss, M 1:300, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/2c2cdab6538e4558bf92/) |
-| 2.UG, Nutzung, M 1:300, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/7b9b10bff1824b09b9bc/) |
-| 2.UG, Rot-Gelb, M 1:300, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/e6d1be3d01a248349283/) |
-| 2.UG, Rot-Gelb + Nutzung, M 1:300, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/84a6e9371a974184af5e/) |
-| 2.UG, Rot-Schwarz, M 1:300, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/794feb59e6ab4bcb9e9f/) |
-| 1.UG, Grundriss, M 1:300, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/f6e05a6ea8d941f2ab42/) |
-| 1.UG, Nutzung, M 1:300, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/7674e6dc7f6c461694ba/) |
-| 1.UG, Rot-Gelb, M 1:300, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/2c2c646b4c404d4da182/) |
-| 1.UG, Rot-Gelb + Nutzung, M 1:300, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/2001c21c6f0c462681c5/) |
-| 1.UG, Rot-Schwarz, M 1:300, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/5b1c523886b241c6a444/) |
-| EG, Grundriss, M 1:300, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/feaffebe0b6d4c8a8139/) |
-| EG, Nutzung, M 1:300, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/39aabb857dfd44da882b/) |
-| EG, Rot-Gelb, M 1:300, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/38b43203a3b046e981f5/) |
-| EG, Rot-Gelb + Nutzung, M 1:300, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/c58c27c16729445ab13d/) |
-| EG, Rot-Schwarz, M 1:300, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/5f675e9c8f4e4504b827/) |
-| 1.OG, Grundriss, M 1:300, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/29b696c4f1db4fe49a7b/) |
-| 1.OG, Nutzung, M 1:300, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/16cb8ce7ff974cf08d2d/) |
-| 1.OG, Rot-Gelb, M 1:300, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/4ebb241bfb63482c8663/) |
-| 1.OG, Rot-Gelb + Nutzung, M 1:300, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/646eeb5cee3f46a2849f/) |
-| 1.OG, Rot-Schwarz, M 1:300, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/c579f032344444299314/) |
-| 2.OG, Grundriss, M 1:300, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/291a06259b404bc590ff/) |
-| 2.OG, Nutzung, M 1:300, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/7027c57d43fb4343ab44/) |
-| 2.OG, Rot-Gelb, M 1:300, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/1e27cffc80234142a0cb/) |
-| 2.OG, Rot-Gelb + Nutzung, M 1:300, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/56d74a1000814cfab2df/) |
-| 2.OG, Rot-Schwarz, M 1:300, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/7cb1cab0be8a4eb2a6f0/) |
-| 3.OG, Grundriss, M 1:300, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/24f67409cdde49e8b9af/) |
-| 3.OG, Nutzung, M 1:300, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/7e77bd6a93bc4710becf/) |
-| 3.OG, Rot-Gelb, M 1:300, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/5ae7bb46cbf1461fa6aa/) |
-| 3.OG, Rot-Gelb + Nutzung, M 1:300, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/158061422ceb444b92cb/) |
-| 3.OG, Rot-Schwarz, M 1:300, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/bf442676609f435ab599/) |
+| 2.UG, Grundriss, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/fb2222cd558148f69ee9/) |
+| 2.UG, Nutzung, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/7c792838c48d40018fa5/) |
+| 2.UG, Rot-Gelb, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/603c476877db4c338791/) |
+| 2.UG, Rot-Gelb + Nutzung, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/ef795d205a9340a9b414/) |
+| 2.UG, Rot-Schwarz, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/08d9cf4064fd46148c17/) |
+| 1.UG, Grundriss, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/c1b3762c65b444398ac7/) |
+| 1.UG, Nutzung, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/a1c6c607e3d048bd8103/) |
+| 1.UG, Rot-Gelb, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/e5def9579e114781a5ad/) |
+| 1.UG, Rot-Gelb + Nutzung, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/74e062f395454c3bbcb9/) |
+| 1.UG, Rot-Schwarz, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/7a526db3f0ee44259762/) |
+| EG, Grundriss, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/99d3b85c7795491fb504/) |
+| EG, Nutzung, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/8e8876ccb41f45ec98b7/) |
+| EG, Rot-Gelb, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/2ceb448a5f1044628e81/) |
+| EG, Rot-Gelb + Nutzung, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/e4ba1fee009f4047a6e7/) |
+| EG, Rot-Schwarz, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/7d025ae3186b45a796f3/) |
+| 1.OG, Grundriss, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/bbfaf68b89174b0e8461/) |
+| 1.OG, Nutzung, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/d1a6f2b1918040cf9252/) |
+| 1.OG, Rot-Gelb, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/097cf4fbf41b4aefbf8c/) |
+| 1.OG, Rot-Gelb + Nutzung, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/ea500106e4354ff18438/) |
+| 1.OG, Rot-Schwarz, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/658abea4b2d74f60a9df/) |
+| 2.OG, Grundriss, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/d053d91809d442d3be5e/) |
+| 2.OG, Nutzung, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/bf00373628474addaf58/) |
+| 2.OG, Rot-Gelb, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/87ebb6323b934438b52c/) |
+| 2.OG, Rot-Gelb + Nutzung, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/5a64e4fb6cff4662b45f/) |
+| 2.OG, Rot-Schwarz, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/47a1c6118e864c40b446/) |
+| 3.OG, Grundriss, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/6282ee90bddf493dab82/) |
+| 3.OG, Nutzung, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/79f19c5cffa24bb7961c/) |
+| 3.OG, Rot-Gelb, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/8ca78172b08b4278b75b/) |
+| 3.OG, Rot-Gelb + Nutzung, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/dba1743915c64c77a4cc/) |
+| 3.OG, Rot-Schwarz, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/442fd35c669448f6bf61/) |
 | Axonometrie Umbau, explodiert | 2026-11-14 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/68b97c384be74f94b932/) |
 | Axonometrie Südost, A1 | 2026-11-17 | [PNG](https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SO_A1_v15.png&raw=1) |
 | Axonometrie Südost, Neubau, A1 | 2026-11-17 | [PNG](https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SO-Neubau_A1_v15.png&raw=1) |
@@ -50,7 +52,7 @@ Verbindung Bestand / Anbau (Schnitt Ost, Ostflügel): Beide Häuser behalten ihr
 | Axonometrie Südwest, Rot-Schwarz, A1 | 2026-11-17 | [PNG](https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SW-RotSchwarz_A1_v15.png&raw=1) |
 | Axonometrie Südwest, Rot-Gelb-Schwarz, A1 | 2026-11-17 | [PNG](https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SW-RotGelb_A1_v15.png&raw=1) |
 | Axonometrie Geschosse, A1 | 2026-11-17 | [PNG](https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-Geschosse_A1_v15.png&raw=1) |
-| Flächenbilanz Nutzungsflächen Ist / Soll, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/7c935963b62a4d6da1bc/) |
+| Flächenbilanz Nutzungsflächen Ist / Soll, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/c319492964c64c26abfe/) |
 | Schnitt Ost, Verbindung Bestand / Anbau, zwei Tafeln, M 1:200 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/e45935cab3b442f58e53/) |
 | Schnitte West + Mitte, M 1:200 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/c2c397ada4b0400184cb/) |
 | Schnitte West + Mitte, schematisch, M 1:200 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/25c1e4b72ee74aaeaecd/) |
