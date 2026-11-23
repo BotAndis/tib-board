@@ -207,7 +207,7 @@ def dxf_pairs(files):
         for d, _, rest in exact or [a for a in ac if pb.startswith(a[1] + "_")]:
             page = re.match(r"-S(\d+)", rest)
             scale = re.search(r"M1-(\d+)", rest)
-            label = "DXF für Archicad" + (f" S{page.group(1)}" if page else "") + (f" M 1:{scale.group(1)}" if scale and (page or not exact) else "")
+            label = "DXF für Archicad" + (f" S{page.group(1)}" if page else "") + (f" M 1:{scale.group(1)}" if scale else "")
             pairs.setdefault(p, []).append({"label": label, "name": Path(d).name,
                                             "dl": f"{FOLDER_LINK}files/?p={quote('/' + d)}&dl=1"})
             used.add(d)
