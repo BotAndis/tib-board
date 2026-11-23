@@ -191,7 +191,8 @@ def version(rel):
 def dxf_pairs(files):
     """DXFs are never tiles: each one hangs on the PDFs of its folder with the same version whose name is the DXF's
     name or starts with it (Lageplan-Entwurf_v2.dxf -> Lageplan-Entwurf_Skizze_v2.pdf), or one DXF per page whose name
-    starts with the PDF's (Option-4_Zeilen_S1-Lageplan_M1-500_v1.dxf -> Option-4_Zeilen_v1.pdf). '_ohneBaeume' is its own entry."""
+    starts with the PDF's (Option-4_Zeilen_S1-Lageplan_M1-500_v1.dxf -> Option-4_Zeilen_v1.pdf). '_ohneBaeume' is its own entry.
+    <plan>_Archicad..._vN.dxf ("DXF für Archicad", from TIB-Umbauplan acpdf.py) hangs on <plan>_vN.pdf, else on every <plan>_*_vN.pdf."""
     dxfs = [f for f in files if f.lower().endswith(".dxf")]
     pairs, used = {}, set()
     for p in files:
@@ -199,7 +200,18 @@ def dxf_pairs(files):
             continue
         pb, pv = version(p)
         pb = pb.replace("_ohneBaeume", "")
-        for d in dxfs:
+        # Archicad import DXFs (acpdf.py): <plan>_Archicad[-S<n>]_..._vN.dxf; a same-name twin wins over a prefix match
+        ac = [(d, *version(d)[0].split("_Archicad", 1)) for d in dxfs if "_Archicad" in Path(d).stem
+              and Path(d).parent == Path(p).parent and version(d)[1] == pv]
+        exact = [a for a in ac if a[1] == pb]
+        for d, _, rest in exact or [a for a in ac if pb.startswith(a[1] + "_")]:
+            page = re.match(r"-S(\d+)", rest)
+            scale = re.search(r"M1-(\d+)", rest)
+            label = "DXF für Archicad" + (f" S{page.group(1)}" if page else "") + (f" M 1:{scale.group(1)}" if scale and (page or not exact) else "")
+            pairs.setdefault(p, []).append({"label": label, "name": Path(d).name,
+                                            "dl": f"{FOLDER_LINK}files/?p={quote('/' + d)}&dl=1"})
+            used.add(d)
+        for d in (d for d in dxfs if "_Archicad" not in Path(d).stem):
             db, dv = version(d)
             base = db.replace("_ohneBaeume", "")
             if Path(d).parent != Path(p).parent or dv != pv:
