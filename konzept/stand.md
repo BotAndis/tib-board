@@ -45,6 +45,10 @@ Verbindung Bestand / Anbau (Schnitt Ost, Ostflügel): Beide Häuser behalten ihr
 | 3.OG, Rot-Gelb, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/c31ac6c197dd4e6a81c6/) |
 | 3.OG, Rot-Gelb + Nutzung, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/8a88a966040f4dfa828f/) |
 | 3.OG, Rot-Schwarz, M 1:300, A3 | 2026-11-19 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/c5fddcf3a9854a71ab6f/) |
+| EG, Staffage, M 1:200 (PDF + DXF für Archicad) | 2026-11-23 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/3143b761c3204336bbe9/) · [DXF](https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_EG_Staffage_Archicad_M1-200_v7.dxf&dl=1) |
+| 1.OG, Staffage, M 1:200 (PDF + DXF für Archicad) | 2026-11-23 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/1083bfe74eb34be6936b/) · [DXF](https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_1OG_Staffage_Archicad_M1-200_v13.dxf&dl=1) |
+| 2.OG, Staffage, M 1:200 (PDF + DXF für Archicad) | 2026-11-23 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/7bd150b7058e42848912/) · [DXF](https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_2OG_Staffage_Archicad_M1-200_v1.dxf&dl=1) |
+| 3.OG, Staffage, M 1:200 (PDF + DXF für Archicad) | 2026-11-23 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/2041f9db500d4385923c/) · [DXF](https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_3OG_Staffage_Archicad_M1-200_v1.dxf&dl=1) |
 | Axonometrie Umbau, explodiert | 2026-11-14 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/68b97c384be74f94b932/) |
 | Axonometrie Südost, A1 | 2026-11-17 | [PNG](https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SO_A1_v15.png&raw=1) |
 | Axonometrie Südost, Neubau, A1 | 2026-11-17 | [PNG](https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SO-Neubau_A1_v15.png&raw=1) |
