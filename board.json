@@ -214,103 +214,103 @@
    "id": "label:Schnitte",
    "text": "Schnitte",
    "x": 0,
-   "y": 32100
+   "y": 33000
   },
   {
    "id": "label:Entwurf · Schnitte",
    "text": "Entwurf · Schnitte",
    "x": 9200,
-   "y": 32100
+   "y": 33000
   },
   {
    "id": "label:Ansichten",
    "text": "Ansichten",
    "x": 0,
-   "y": 36550
+   "y": 37450
   },
   {
    "id": "label:Entwurf · Ansichten",
    "text": "Entwurf · Ansichten",
    "x": 9200,
-   "y": 36550
+   "y": 37450
   },
   {
    "id": "label:Lageplan",
    "text": "Lageplan",
    "x": 0,
-   "y": 38380
+   "y": 39280
   },
   {
    "id": "label:Entwurf · Lageplan",
    "text": "Entwurf · Lageplan",
    "x": 9200,
-   "y": 38380
+   "y": 39280
   },
   {
    "id": "label:Details",
    "text": "Details",
    "x": 0,
-   "y": 45450
+   "y": 46350
   },
   {
    "id": "label:Entwurf · Details",
    "text": "Entwurf · Details",
    "x": 9200,
-   "y": 45450
+   "y": 46350
   },
   {
    "id": "label:Möblierung + Nutzung",
    "text": "Möblierung + Nutzung",
    "x": 0,
-   "y": 47280
+   "y": 48180
   },
   {
    "id": "label:Möbelbestand",
    "text": "Möbelbestand",
    "x": 0,
-   "y": 48210
+   "y": 49110
   },
   {
    "id": "label:Raumprogramm",
    "text": "Raumprogramm",
    "x": 0,
-   "y": 50040
+   "y": 50940
   },
   {
    "id": "label:Fotos",
    "text": "Fotos",
    "x": 0,
-   "y": 50970
+   "y": 51870
   },
   {
    "id": "label:3D-Modelle",
    "text": "3D-Modelle",
    "x": 0,
-   "y": 52200
+   "y": 53100
   },
   {
    "id": "label:Vorlagen · Archicad",
    "text": "Vorlagen · Archicad",
    "x": 0,
-   "y": 53130
+   "y": 54030
   },
   {
    "id": "label:3D-Druck · Bestand",
    "text": "3D-Druck · Bestand",
    "x": 0,
-   "y": 54060
+   "y": 54960
   },
   {
    "id": "label:Entwurf · Volumenstudien",
    "text": "Archiv · Vorübung 2 · Volumenstudie",
    "x": 9200,
-   "y": 54060
+   "y": 54960
   },
   {
    "id": "label:3D-Druck · Entwurf",
    "text": "Archiv · 3D-Druck Volumenstudie",
    "x": 9200,
-   "y": 54990
+   "y": 55890
   },
   {
    "id": "label:Zeitplan",
@@ -5402,15 +5402,15 @@
    "w": 848
   },
   {
-   "id": "4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SW-RotSchwarz_A1_v17.png",
+   "id": "4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SW-RotSchwarz_A1_v18.png",
    "kind": "image",
-   "title": "TIB Entwurf Axo-SW-RotSchwarz A1 v17",
+   "title": "TIB Entwurf Axo-SW-RotSchwarz A1 v18",
    "ext": "png",
-   "size": 7698272,
+   "size": 7189516,
    "date": "24.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SW-RotSchwarz_A1_v17.png&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SW-RotSchwarz_A1_v17.png&raw=1",
-   "thumb": "thumbs/f35f4940a49a14ca.webp",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SW-RotSchwarz_A1_v18.png&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SW-RotSchwarz_A1_v18.png&raw=1",
+   "thumb": "thumbs/1126579101a1a1bb.webp",
    "ar": 1.4145,
    "section": "Entwurf · Grundrisse",
    "x": 9200,
@@ -5418,15 +5418,15 @@
    "w": 424
   },
   {
-   "id": "4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SW-RotGelb_A1_v16.png",
+   "id": "4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SW-RotGelb_A1_v17.png",
    "kind": "image",
-   "title": "TIB Entwurf Axo-SW-RotGelb A1 v16",
+   "title": "TIB Entwurf Axo-SW-RotGelb A1 v17",
    "ext": "png",
-   "size": 4267453,
+   "size": 4251351,
    "date": "24.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SW-RotGelb_A1_v16.png&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SW-RotGelb_A1_v16.png&raw=1",
-   "thumb": "thumbs/5d45cda05afc6ff9.webp",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SW-RotGelb_A1_v17.png&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SW-RotGelb_A1_v17.png&raw=1",
+   "thumb": "thumbs/67059d05975ba954.webp",
    "ar": 1.4145,
    "section": "Entwurf · Grundrisse",
    "x": 9664.35,
@@ -5434,15 +5434,15 @@
    "w": 424
   },
   {
-   "id": "4_Entwurf/Axonometrie/TIB_Entwurf_Axo-Geschosse_A1_v16.png",
+   "id": "4_Entwurf/Axonometrie/TIB_Entwurf_Axo-Geschosse_A1_v17.png",
    "kind": "image",
-   "title": "TIB Entwurf Axo-Geschosse A1 v16",
+   "title": "TIB Entwurf Axo-Geschosse A1 v17",
    "ext": "png",
-   "size": 2150903,
+   "size": 2110579,
    "date": "24.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-Geschosse_A1_v16.png&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-Geschosse_A1_v16.png&raw=1",
-   "thumb": "thumbs/2552579e19d4dbed.webp",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-Geschosse_A1_v17.png&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-Geschosse_A1_v17.png&raw=1",
+   "thumb": "thumbs/8bfef5aa9ae0d5da.webp",
    "ar": 0.7069,
    "section": "Entwurf · Grundrisse",
    "x": 10128.7,
@@ -5450,15 +5450,15 @@
    "w": 212
   },
   {
-   "id": "4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SO-Neubau_A1_v16.png",
+   "id": "4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SO-Neubau_A1_v17.png",
    "kind": "image",
-   "title": "TIB Entwurf Axo-SO-Neubau A1 v16",
+   "title": "TIB Entwurf Axo-SO-Neubau A1 v17",
    "ext": "png",
-   "size": 4442327,
+   "size": 4401878,
    "date": "24.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SO-Neubau_A1_v16.png&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SO-Neubau_A1_v16.png&raw=1",
-   "thumb": "thumbs/e86c716121d518aa.webp",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SO-Neubau_A1_v17.png&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SO-Neubau_A1_v17.png&raw=1",
+   "thumb": "thumbs/28f6d587ae9ccadd.webp",
    "ar": 1.4145,
    "section": "Entwurf · Grundrisse",
    "x": 10380.77,
@@ -5466,15 +5466,15 @@
    "w": 424
   },
   {
-   "id": "4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SW_A1_v16.png",
+   "id": "4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SW_A1_v17.png",
    "kind": "image",
-   "title": "TIB Entwurf Axo-SW A1 v16",
+   "title": "TIB Entwurf Axo-SW A1 v17",
    "ext": "png",
-   "size": 3678311,
+   "size": 3626745,
    "date": "24.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SW_A1_v16.png&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SW_A1_v16.png&raw=1",
-   "thumb": "thumbs/50a7bcef20724158.webp",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SW_A1_v17.png&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SW_A1_v17.png&raw=1",
+   "thumb": "thumbs/96e2a53b1d5c647a.webp",
    "ar": 1.4145,
    "section": "Entwurf · Grundrisse",
    "x": 10845.119999999999,
@@ -5482,15 +5482,15 @@
    "w": 424
   },
   {
-   "id": "4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SO_A1_v16.png",
+   "id": "4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SO_A1_v17.png",
    "kind": "image",
-   "title": "TIB Entwurf Axo-SO A1 v16",
+   "title": "TIB Entwurf Axo-SO A1 v17",
    "ext": "png",
-   "size": 3860611,
+   "size": 3814922,
    "date": "24.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SO_A1_v16.png&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SO_A1_v16.png&raw=1",
-   "thumb": "thumbs/71d5b7daefdbae03.webp",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SO_A1_v17.png&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SO_A1_v17.png&raw=1",
+   "thumb": "thumbs/132a6597844b18fd.webp",
    "ar": 1.4145,
    "section": "Entwurf · Grundrisse",
    "x": 11309.47,
@@ -5498,19 +5498,36 @@
    "w": 424
   },
   {
-   "id": "4_Entwurf/Axonometrie/TIB_Umbau_Axo-explodiert_v11.pdf",
+   "id": "4_Entwurf/Grundrisse/TIB_Entwurf_A3-Set_Grundrisse-Staffage-RotSchwarz_Schnitt_Ansichten_Axo_A3_v3.pdf",
    "kind": "pdf",
-   "title": "TIB Umbau Axo-explodiert v11",
+   "title": "TIB Entwurf A3-Set Grundrisse-Staffage-RotSchwarz Schnitt Ansichten Axo A3 v3",
    "ext": "pdf",
-   "size": 3156273,
+   "size": 33672713,
    "date": "24.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Umbau_Axo-explodiert_v11.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Umbau_Axo-explodiert_v11.pdf&raw=1",
-   "thumb": "thumbs/08f037e33a60599c.webp",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf_A3-Set_Grundrisse-Staffage-RotSchwarz_Schnitt_Ansichten_Axo_A3_v3.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf_A3-Set_Grundrisse-Staffage-RotSchwarz_Schnitt_Ansichten_Axo_A3_v3.pdf&raw=1",
+   "thumb": "thumbs/107707ac17b12ec9.webp",
    "ar": 0.7073,
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/d8aae44a9067465cbf98/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/3ff851dfc0fb412db6c7/",
    "section": "Entwurf · Grundrisse",
    "x": 11773.82,
+   "y": 30110,
+   "w": 849
+  },
+  {
+   "id": "4_Entwurf/Axonometrie/TIB_Umbau_Axo-explodiert_v12.pdf",
+   "kind": "pdf",
+   "title": "TIB Umbau Axo-explodiert v12",
+   "ext": "pdf",
+   "size": 3604232,
+   "date": "24.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Umbau_Axo-explodiert_v12.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Umbau_Axo-explodiert_v12.pdf&raw=1",
+   "thumb": "thumbs/4ae808b2a03cc990.webp",
+   "ar": 0.7073,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/3333027f6263453daae6/",
+   "section": "Entwurf · Grundrisse",
+   "x": 12662.58,
    "y": 30110,
    "w": 849
   },
@@ -5534,8 +5551,8 @@
    ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/5a184500b4584a2893e2/",
    "section": "Entwurf · Grundrisse",
-   "x": 12662.58,
-   "y": 30110,
+   "x": 9200,
+   "y": 31420,
    "w": 1697
   },
   {
@@ -5543,6 +5560,117 @@
    "kind": "stack",
    "title": "Ältere Versionen",
    "items": [
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf_A3-Set_Grundrisse-Staffage-RotSchwarz_Schnitt_Ansichten_Axo_A3_v2.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf A3-Set Grundrisse-Staffage-RotSchwarz Schnitt Ansichten Axo A3 v2",
+     "ext": "pdf",
+     "size": 33672027,
+     "date": "24.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf_A3-Set_Grundrisse-Staffage-RotSchwarz_Schnitt_Ansichten_Axo_A3_v2.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf_A3-Set_Grundrisse-Staffage-RotSchwarz_Schnitt_Ansichten_Axo_A3_v2.pdf&raw=1",
+     "thumb": "thumbs/fed3c441e39617df.webp",
+     "ar": 0.7073,
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/838be0e71a1c4b2495cc/"
+    },
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf_A3-Set_Grundrisse-Staffage-RotSchwarz_Axo_A3_v1.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf A3-Set Grundrisse-Staffage-RotSchwarz Axo A3 v1",
+     "ext": "pdf",
+     "size": 29994726,
+     "date": "24.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf_A3-Set_Grundrisse-Staffage-RotSchwarz_Axo_A3_v1.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf_A3-Set_Grundrisse-Staffage-RotSchwarz_Axo_A3_v1.pdf&raw=1",
+     "thumb": "thumbs/9a8629b574ac34dc.webp",
+     "ar": 0.7073,
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/10b7ddc6d1f74928bbf2/"
+    },
+    {
+     "id": "4_Entwurf/Axonometrie/Ältere Versionen/TIB_Entwurf_Axo-SW-RotSchwarz_A1_v17.png",
+     "kind": "image",
+     "title": "TIB Entwurf Axo-SW-RotSchwarz A1 v17",
+     "ext": "png",
+     "size": 7698272,
+     "date": "24.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/%C3%84ltere%20Versionen/TIB_Entwurf_Axo-SW-RotSchwarz_A1_v17.png&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/%C3%84ltere%20Versionen/TIB_Entwurf_Axo-SW-RotSchwarz_A1_v17.png&raw=1",
+     "thumb": "thumbs/f3c1f87ce22fbe5b.webp",
+     "ar": 1.4145
+    },
+    {
+     "id": "4_Entwurf/Axonometrie/Ältere Versionen/TIB_Entwurf_Axo-SW-RotGelb_A1_v16.png",
+     "kind": "image",
+     "title": "TIB Entwurf Axo-SW-RotGelb A1 v16",
+     "ext": "png",
+     "size": 4267453,
+     "date": "24.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/%C3%84ltere%20Versionen/TIB_Entwurf_Axo-SW-RotGelb_A1_v16.png&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/%C3%84ltere%20Versionen/TIB_Entwurf_Axo-SW-RotGelb_A1_v16.png&raw=1",
+     "thumb": "thumbs/0c22d9b2fc683807.webp",
+     "ar": 1.4145
+    },
+    {
+     "id": "4_Entwurf/Axonometrie/Ältere Versionen/TIB_Entwurf_Axo-Geschosse_A1_v16.png",
+     "kind": "image",
+     "title": "TIB Entwurf Axo-Geschosse A1 v16",
+     "ext": "png",
+     "size": 2150903,
+     "date": "24.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/%C3%84ltere%20Versionen/TIB_Entwurf_Axo-Geschosse_A1_v16.png&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/%C3%84ltere%20Versionen/TIB_Entwurf_Axo-Geschosse_A1_v16.png&raw=1",
+     "thumb": "thumbs/a502599e424224da.webp",
+     "ar": 0.7069
+    },
+    {
+     "id": "4_Entwurf/Axonometrie/Ältere Versionen/TIB_Entwurf_Axo-SO-Neubau_A1_v16.png",
+     "kind": "image",
+     "title": "TIB Entwurf Axo-SO-Neubau A1 v16",
+     "ext": "png",
+     "size": 4442327,
+     "date": "24.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/%C3%84ltere%20Versionen/TIB_Entwurf_Axo-SO-Neubau_A1_v16.png&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/%C3%84ltere%20Versionen/TIB_Entwurf_Axo-SO-Neubau_A1_v16.png&raw=1",
+     "thumb": "thumbs/f6169d44fe0e2aa3.webp",
+     "ar": 1.4145
+    },
+    {
+     "id": "4_Entwurf/Axonometrie/Ältere Versionen/TIB_Entwurf_Axo-SW_A1_v16.png",
+     "kind": "image",
+     "title": "TIB Entwurf Axo-SW A1 v16",
+     "ext": "png",
+     "size": 3678311,
+     "date": "24.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/%C3%84ltere%20Versionen/TIB_Entwurf_Axo-SW_A1_v16.png&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/%C3%84ltere%20Versionen/TIB_Entwurf_Axo-SW_A1_v16.png&raw=1",
+     "thumb": "thumbs/6079590786709fac.webp",
+     "ar": 1.4145
+    },
+    {
+     "id": "4_Entwurf/Axonometrie/Ältere Versionen/TIB_Entwurf_Axo-SO_A1_v16.png",
+     "kind": "image",
+     "title": "TIB Entwurf Axo-SO A1 v16",
+     "ext": "png",
+     "size": 3860611,
+     "date": "24.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/%C3%84ltere%20Versionen/TIB_Entwurf_Axo-SO_A1_v16.png&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/%C3%84ltere%20Versionen/TIB_Entwurf_Axo-SO_A1_v16.png&raw=1",
+     "thumb": "thumbs/ca6b2d5f52de109d.webp",
+     "ar": 1.4145
+    },
+    {
+     "id": "4_Entwurf/Axonometrie/Ältere Versionen/TIB_Umbau_Axo-explodiert_v11.pdf",
+     "kind": "pdf",
+     "title": "TIB Umbau Axo-explodiert v11",
+     "ext": "pdf",
+     "size": 3156273,
+     "date": "24.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/%C3%84ltere%20Versionen/TIB_Umbau_Axo-explodiert_v11.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/%C3%84ltere%20Versionen/TIB_Umbau_Axo-explodiert_v11.pdf&raw=1",
+     "thumb": "thumbs/9069c2efd3214087.webp",
+     "ar": 0.7073,
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/e4a6396d7a494783b5cf/"
+    },
     {
      "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_3OG_Staffage_M1-200_v2.pdf",
      "kind": "pdf",
@@ -16293,7 +16421,7 @@
     }
    ],
    "section": "Entwurf · Grundrisse",
-   "x": 9200,
+   "x": 10936.68,
    "y": 31420,
    "w": 300
   },
@@ -16318,7 +16446,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/44406512e4c64601b7e2/",
    "section": "Schnitte",
    "x": 0,
-   "y": 32350,
+   "y": 33250,
    "w": 424
   },
   {
@@ -16342,7 +16470,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/524f5458895f47409c11/",
    "section": "Schnitte",
    "x": 464.16999999999996,
-   "y": 32350,
+   "y": 33250,
    "w": 424
   },
   {
@@ -16359,7 +16487,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/16f517dcb2254a22bbd7/",
    "section": "Schnitte",
    "x": 928.3399999999999,
-   "y": 32350,
+   "y": 33250,
    "w": 424
   },
   {
@@ -16376,7 +16504,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/8b16a32aceac49f1b485/",
    "section": "Schnitte",
    "x": 1392.5099999999998,
-   "y": 32350,
+   "y": 33250,
    "w": 424
   },
   {
@@ -16393,7 +16521,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/70fc96c933fa47188ea5/",
    "section": "Schnitte",
    "x": 1856.6799999999998,
-   "y": 32350,
+   "y": 33250,
    "w": 424
   },
   {
@@ -16410,7 +16538,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/ba376b38f8b540af8440/",
    "section": "Schnitte",
    "x": 2320.85,
-   "y": 32350,
+   "y": 33250,
    "w": 424
   },
   {
@@ -16427,7 +16555,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/b15f88fc64174a9381b3/",
    "section": "Schnitte",
    "x": 2785.02,
-   "y": 32350,
+   "y": 33250,
    "w": 424
   },
   {
@@ -16444,7 +16572,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/d437451840d241b6a7f1/",
    "section": "Schnitte",
    "x": 3249.19,
-   "y": 32350,
+   "y": 33250,
    "w": 424
   },
   {
@@ -16675,7 +16803,7 @@
    ],
    "section": "Schnitte",
    "x": 3713.36,
-   "y": 32350,
+   "y": 33250,
    "w": 300
   },
   {
@@ -16939,180 +17067,180 @@
    ],
    "section": "Schnitte",
    "x": 4053.36,
-   "y": 32350,
+   "y": 33250,
    "w": 300
   },
   {
-   "id": "4_Entwurf/Schnitte/TIB_Schnitt_West+Mitte_M1-200_RotGelbSchwarz_v42.pdf",
+   "id": "4_Entwurf/Schnitte/TIB_Schnitt_West+Mitte_M1-200_RotGelbSchwarz_v43.pdf",
    "kind": "pdf",
-   "title": "TIB Schnitt West+Mitte M1-200 RotGelbSchwarz v42",
+   "title": "TIB Schnitt West+Mitte M1-200 RotGelbSchwarz v43",
    "ext": "pdf",
-   "size": 224018,
-   "date": "17.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt_West%2BMitte_M1-200_RotGelbSchwarz_v42.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt_West%2BMitte_M1-200_RotGelbSchwarz_v42.pdf&raw=1",
-   "thumb": "thumbs/a952afd3694f7256.webp",
+   "size": 211998,
+   "date": "24.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt_West%2BMitte_M1-200_RotGelbSchwarz_v43.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt_West%2BMitte_M1-200_RotGelbSchwarz_v43.pdf&raw=1",
+   "thumb": "thumbs/143048a09c4013ce.webp",
    "ar": 1.4157,
    "dxf": [
     {
      "label": "DXF für Archicad",
-     "name": "TIB_Schnitt_West+Mitte_M1-200_RotGelbSchwarz_Archicad_v42.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt_West%2BMitte_M1-200_RotGelbSchwarz_Archicad_v42.dxf&dl=1"
+     "name": "TIB_Schnitt_West+Mitte_M1-200_RotGelbSchwarz_Archicad_v43.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt_West%2BMitte_M1-200_RotGelbSchwarz_Archicad_v43.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/da13a01f78404ef1b607/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/b34f309e01704f6ba88f/",
    "section": "Entwurf · Schnitte",
    "x": 9200,
-   "y": 32350,
+   "y": 33250,
    "w": 1699
   },
   {
-   "id": "4_Entwurf/Schnitte/TIB_Schnitt_West+Mitte_M1-200_Umgebung_RotSchwarz_v42b.pdf",
+   "id": "4_Entwurf/Schnitte/TIB_Schnitt_West+Mitte_M1-200_Umgebung_RotSchwarz_v43b.pdf",
    "kind": "pdf",
-   "title": "TIB Schnitt West+Mitte M1-200 Umgebung RotSchwarz v42b",
+   "title": "TIB Schnitt West+Mitte M1-200 Umgebung RotSchwarz v43b",
    "ext": "pdf",
-   "size": 2946098,
-   "date": "17.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt_West%2BMitte_M1-200_Umgebung_RotSchwarz_v42b.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt_West%2BMitte_M1-200_Umgebung_RotSchwarz_v42b.pdf&raw=1",
-   "thumb": "thumbs/3f93f2ec77d6cba3.webp",
+   "size": 2934114,
+   "date": "24.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt_West%2BMitte_M1-200_Umgebung_RotSchwarz_v43b.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt_West%2BMitte_M1-200_Umgebung_RotSchwarz_v43b.pdf&raw=1",
+   "thumb": "thumbs/5afb7d75a052850e.webp",
    "ar": 1.4157,
    "dxf": [
     {
      "label": "DXF für Archicad",
-     "name": "TIB_Schnitt_West+Mitte_M1-200_Umgebung_Archicad_v42b.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt_West%2BMitte_M1-200_Umgebung_Archicad_v42b.dxf&dl=1"
+     "name": "TIB_Schnitt_West+Mitte_M1-200_Umgebung_Archicad_v43b.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt_West%2BMitte_M1-200_Umgebung_Archicad_v43b.dxf&dl=1"
     },
     {
      "label": "DXF für Archicad",
-     "name": "TIB_Schnitt_West+Mitte_M1-200_Umgebung_RotSchwarz_Archicad_v42b.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt_West%2BMitte_M1-200_Umgebung_RotSchwarz_Archicad_v42b.dxf&dl=1"
+     "name": "TIB_Schnitt_West+Mitte_M1-200_Umgebung_RotSchwarz_Archicad_v43b.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt_West%2BMitte_M1-200_Umgebung_RotSchwarz_Archicad_v43b.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/6dc1e9c273324c64bfbc/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/7220fe17fcdb4ca4b40b/",
    "section": "Entwurf · Schnitte",
    "x": 10938.84,
-   "y": 32350,
+   "y": 33250,
    "w": 1699
   },
   {
-   "id": "4_Entwurf/Schnitte/TIB_Schnitt-Ost_Zweitafel_M1-200_Umgebung_v42b.pdf",
+   "id": "4_Entwurf/Schnitte/TIB_Schnitt-Ost_Zweitafel_M1-200_Umgebung_v44b.pdf",
    "kind": "pdf",
-   "title": "TIB Schnitt-Ost Zweitafel M1-200 Umgebung v42b",
+   "title": "TIB Schnitt-Ost Zweitafel M1-200 Umgebung v44b",
    "ext": "pdf",
-   "size": 920839,
-   "date": "17.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt-Ost_Zweitafel_M1-200_Umgebung_v42b.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt-Ost_Zweitafel_M1-200_Umgebung_v42b.pdf&raw=1",
-   "thumb": "thumbs/15ba3bbee3a7a33d.webp",
+   "size": 915912,
+   "date": "24.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt-Ost_Zweitafel_M1-200_Umgebung_v44b.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt-Ost_Zweitafel_M1-200_Umgebung_v44b.pdf&raw=1",
+   "thumb": "thumbs/be97403ff1155219.webp",
    "ar": 1.4157,
    "dxf": [
     {
      "label": "DXF für Archicad",
-     "name": "TIB_Schnitt-Ost_Zweitafel_M1-200_Umgebung_Archicad_v42b.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt-Ost_Zweitafel_M1-200_Umgebung_Archicad_v42b.dxf&dl=1"
+     "name": "TIB_Schnitt-Ost_Zweitafel_M1-200_Umgebung_Archicad_v44b.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt-Ost_Zweitafel_M1-200_Umgebung_Archicad_v44b.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/b6a4e9f7a0fd4e4ab405/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/e84524cf6f704ffabd34/",
    "section": "Entwurf · Schnitte",
    "x": 12677.68,
-   "y": 32350,
+   "y": 33250,
    "w": 1699
   },
   {
-   "id": "4_Entwurf/Schnitte/TIB_Schnitt-Ost_Zweitafel_M1-200_v42.pdf",
+   "id": "4_Entwurf/Schnitte/TIB_Schnitt-Ost_Zweitafel_M1-200_v44.pdf",
    "kind": "pdf",
-   "title": "TIB Schnitt-Ost Zweitafel M1-200 v42",
+   "title": "TIB Schnitt-Ost Zweitafel M1-200 v44",
    "ext": "pdf",
-   "size": 144398,
-   "date": "17.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt-Ost_Zweitafel_M1-200_v42.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt-Ost_Zweitafel_M1-200_v42.pdf&raw=1",
-   "thumb": "thumbs/0b5af1ca8182e2a1.webp",
+   "size": 139131,
+   "date": "24.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt-Ost_Zweitafel_M1-200_v44.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt-Ost_Zweitafel_M1-200_v44.pdf&raw=1",
+   "thumb": "thumbs/d1f1c1db62b895bb.webp",
    "ar": 1.4157,
    "dxf": [
     {
      "label": "DXF für Archicad",
-     "name": "TIB_Schnitt-Ost_Zweitafel_M1-200_Archicad_v42.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt-Ost_Zweitafel_M1-200_Archicad_v42.dxf&dl=1"
+     "name": "TIB_Schnitt-Ost_Zweitafel_M1-200_Archicad_v44.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt-Ost_Zweitafel_M1-200_Archicad_v44.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/e45935cab3b442f58e53/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/5984e0ed02c74122abd9/",
    "section": "Entwurf · Schnitte",
    "x": 9200,
-   "y": 33660,
+   "y": 34560,
    "w": 1699
   },
   {
-   "id": "4_Entwurf/Schnitte/TIB_Schnitt_West+Mitte_M1-200_Umgebung_v42b.pdf",
+   "id": "4_Entwurf/Schnitte/TIB_Schnitt_West+Mitte_M1-200_Umgebung_v43b.pdf",
    "kind": "pdf",
-   "title": "TIB Schnitt West+Mitte M1-200 Umgebung v42b",
+   "title": "TIB Schnitt West+Mitte M1-200 Umgebung v43b",
    "ext": "pdf",
-   "size": 2946308,
-   "date": "17.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt_West%2BMitte_M1-200_Umgebung_v42b.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt_West%2BMitte_M1-200_Umgebung_v42b.pdf&raw=1",
-   "thumb": "thumbs/397db94070b2fd8f.webp",
+   "size": 2934100,
+   "date": "24.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt_West%2BMitte_M1-200_Umgebung_v43b.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt_West%2BMitte_M1-200_Umgebung_v43b.pdf&raw=1",
+   "thumb": "thumbs/d0a60715f37d793d.webp",
    "ar": 1.4157,
    "dxf": [
     {
      "label": "DXF für Archicad",
-     "name": "TIB_Schnitt_West+Mitte_M1-200_Umgebung_Archicad_v42b.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt_West%2BMitte_M1-200_Umgebung_Archicad_v42b.dxf&dl=1"
+     "name": "TIB_Schnitt_West+Mitte_M1-200_Umgebung_Archicad_v43b.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt_West%2BMitte_M1-200_Umgebung_Archicad_v43b.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/f2a2a7d37cc44f16bc64/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/a623a4f9a1914e15bb2f/",
    "section": "Entwurf · Schnitte",
    "x": 10938.84,
-   "y": 33660,
+   "y": 34560,
    "w": 1699
   },
   {
-   "id": "4_Entwurf/Schnitte/TIB_Schnitt_West+Mitte_M1-200_v42.pdf",
+   "id": "4_Entwurf/Schnitte/TIB_Schnitt_West+Mitte_M1-200_v43.pdf",
    "kind": "pdf",
-   "title": "TIB Schnitt West+Mitte M1-200 v42",
+   "title": "TIB Schnitt West+Mitte M1-200 v43",
    "ext": "pdf",
-   "size": 219494,
-   "date": "17.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt_West%2BMitte_M1-200_v42.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt_West%2BMitte_M1-200_v42.pdf&raw=1",
-   "thumb": "thumbs/46382c64c6b295b2.webp",
+   "size": 207067,
+   "date": "24.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt_West%2BMitte_M1-200_v43.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt_West%2BMitte_M1-200_v43.pdf&raw=1",
+   "thumb": "thumbs/7862c42071c5426a.webp",
    "ar": 1.4157,
    "dxf": [
     {
      "label": "DXF für Archicad",
-     "name": "TIB_Schnitt_West+Mitte_M1-200_Archicad_v42.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt_West%2BMitte_M1-200_Archicad_v42.dxf&dl=1"
+     "name": "TIB_Schnitt_West+Mitte_M1-200_Archicad_v43.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt_West%2BMitte_M1-200_Archicad_v43.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/c2c397ada4b0400184cb/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/90bf55f36edd43419f60/",
    "section": "Entwurf · Schnitte",
    "x": 12677.68,
-   "y": 33660,
+   "y": 34560,
    "w": 1699
   },
   {
-   "id": "4_Entwurf/Schnitte/TIB_Schnitt_West+Mitte_schematisch_M1-200_v42.pdf",
+   "id": "4_Entwurf/Schnitte/TIB_Schnitt_West+Mitte_schematisch_M1-200_v43.pdf",
    "kind": "pdf",
-   "title": "TIB Schnitt West+Mitte schematisch M1-200 v42",
+   "title": "TIB Schnitt West+Mitte schematisch M1-200 v43",
    "ext": "pdf",
-   "size": 46443,
-   "date": "17.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt_West%2BMitte_schematisch_M1-200_v42.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt_West%2BMitte_schematisch_M1-200_v42.pdf&raw=1",
-   "thumb": "thumbs/4d111469c4fab4cf.webp",
+   "size": 45779,
+   "date": "24.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt_West%2BMitte_schematisch_M1-200_v43.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt_West%2BMitte_schematisch_M1-200_v43.pdf&raw=1",
+   "thumb": "thumbs/58fd792591d9d236.webp",
    "ar": 1.4157,
    "dxf": [
     {
      "label": "DXF für Archicad",
-     "name": "TIB_Schnitt_West+Mitte_schematisch_M1-200_Archicad_v42.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt_West%2BMitte_schematisch_M1-200_Archicad_v42.dxf&dl=1"
+     "name": "TIB_Schnitt_West+Mitte_schematisch_M1-200_Archicad_v43.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/TIB_Schnitt_West%2BMitte_schematisch_M1-200_Archicad_v43.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/25c1e4b72ee74aaeaecd/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/7c4681a0ab0a428a9b6e/",
    "section": "Entwurf · Schnitte",
    "x": 9200,
-   "y": 34970,
+   "y": 35870,
    "w": 1699
   },
   {
@@ -17120,6 +17248,201 @@
    "kind": "stack",
    "title": "Ältere Versionen",
    "items": [
+    {
+     "id": "4_Entwurf/Schnitte/Ältere Versionen/TIB_Schnitt-Ost_Zweitafel_M1-200_Umgebung_v43b.pdf",
+     "kind": "pdf",
+     "title": "TIB Schnitt-Ost Zweitafel M1-200 Umgebung v43b",
+     "ext": "pdf",
+     "size": 915499,
+     "date": "24.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt-Ost_Zweitafel_M1-200_Umgebung_v43b.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt-Ost_Zweitafel_M1-200_Umgebung_v43b.pdf&raw=1",
+     "thumb": "thumbs/679b135944c74363.webp",
+     "ar": 1.4157,
+     "dxf": [
+      {
+       "label": "DXF für Archicad",
+       "name": "TIB_Schnitt-Ost_Zweitafel_M1-200_Umgebung_Archicad_v42b.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt-Ost_Zweitafel_M1-200_Umgebung_Archicad_v42b.dxf&dl=1"
+      },
+      {
+       "label": "DXF für Archicad",
+       "name": "TIB_Schnitt-Ost_Zweitafel_M1-200_Umgebung_Archicad_v43b.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt-Ost_Zweitafel_M1-200_Umgebung_Archicad_v43b.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/969d0d284a07487caf65/"
+    },
+    {
+     "id": "4_Entwurf/Schnitte/Ältere Versionen/TIB_Schnitt-Ost_Zweitafel_M1-200_v43.pdf",
+     "kind": "pdf",
+     "title": "TIB Schnitt-Ost Zweitafel M1-200 v43",
+     "ext": "pdf",
+     "size": 138762,
+     "date": "24.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt-Ost_Zweitafel_M1-200_v43.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt-Ost_Zweitafel_M1-200_v43.pdf&raw=1",
+     "thumb": "thumbs/375719d8f7e45796.webp",
+     "ar": 1.4157,
+     "dxf": [
+      {
+       "label": "DXF für Archicad",
+       "name": "TIB_Schnitt-Ost_Zweitafel_M1-200_Archicad_v43.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt-Ost_Zweitafel_M1-200_Archicad_v43.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/a2e15b3dab04433289f0/"
+    },
+    {
+     "id": "4_Entwurf/Schnitte/Ältere Versionen/TIB_Schnitt_West+Mitte_M1-200_RotGelbSchwarz_v42.pdf",
+     "kind": "pdf",
+     "title": "TIB Schnitt West+Mitte M1-200 RotGelbSchwarz v42",
+     "ext": "pdf",
+     "size": 224018,
+     "date": "17.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt_West%2BMitte_M1-200_RotGelbSchwarz_v42.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt_West%2BMitte_M1-200_RotGelbSchwarz_v42.pdf&raw=1",
+     "thumb": "thumbs/a638e5b1b32e3eec.webp",
+     "ar": 1.4157,
+     "dxf": [
+      {
+       "label": "DXF für Archicad",
+       "name": "TIB_Schnitt_West+Mitte_M1-200_RotGelbSchwarz_Archicad_v42.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt_West%2BMitte_M1-200_RotGelbSchwarz_Archicad_v42.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/31960f80a81e43c6a68b/"
+    },
+    {
+     "id": "4_Entwurf/Schnitte/Ältere Versionen/TIB_Schnitt_West+Mitte_M1-200_Umgebung_RotSchwarz_v42b.pdf",
+     "kind": "pdf",
+     "title": "TIB Schnitt West+Mitte M1-200 Umgebung RotSchwarz v42b",
+     "ext": "pdf",
+     "size": 2946098,
+     "date": "17.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt_West%2BMitte_M1-200_Umgebung_RotSchwarz_v42b.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt_West%2BMitte_M1-200_Umgebung_RotSchwarz_v42b.pdf&raw=1",
+     "thumb": "thumbs/d3697b3eee5720aa.webp",
+     "ar": 1.4157,
+     "dxf": [
+      {
+       "label": "DXF für Archicad",
+       "name": "TIB_Schnitt_West+Mitte_M1-200_Umgebung_Archicad_v42b.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt_West%2BMitte_M1-200_Umgebung_Archicad_v42b.dxf&dl=1"
+      },
+      {
+       "label": "DXF für Archicad",
+       "name": "TIB_Schnitt_West+Mitte_M1-200_Umgebung_RotSchwarz_Archicad_v42b.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt_West%2BMitte_M1-200_Umgebung_RotSchwarz_Archicad_v42b.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/ae87593fa5c7458a8d7e/"
+    },
+    {
+     "id": "4_Entwurf/Schnitte/Ältere Versionen/TIB_Schnitt_West+Mitte_schematisch_M1-200_v42.pdf",
+     "kind": "pdf",
+     "title": "TIB Schnitt West+Mitte schematisch M1-200 v42",
+     "ext": "pdf",
+     "size": 46443,
+     "date": "17.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt_West%2BMitte_schematisch_M1-200_v42.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt_West%2BMitte_schematisch_M1-200_v42.pdf&raw=1",
+     "thumb": "thumbs/b190b11c6c76fb30.webp",
+     "ar": 1.4157,
+     "dxf": [
+      {
+       "label": "DXF für Archicad",
+       "name": "TIB_Schnitt_West+Mitte_schematisch_M1-200_Archicad_v42.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt_West%2BMitte_schematisch_M1-200_Archicad_v42.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/3a81dec7afc34eacae05/"
+    },
+    {
+     "id": "4_Entwurf/Schnitte/Ältere Versionen/TIB_Schnitt_West+Mitte_M1-200_v42.pdf",
+     "kind": "pdf",
+     "title": "TIB Schnitt West+Mitte M1-200 v42",
+     "ext": "pdf",
+     "size": 219494,
+     "date": "17.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt_West%2BMitte_M1-200_v42.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt_West%2BMitte_M1-200_v42.pdf&raw=1",
+     "thumb": "thumbs/ce2c471e60f5b4ac.webp",
+     "ar": 1.4157,
+     "dxf": [
+      {
+       "label": "DXF für Archicad",
+       "name": "TIB_Schnitt_West+Mitte_M1-200_Archicad_v42.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt_West%2BMitte_M1-200_Archicad_v42.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/19566836d6f649649ab3/"
+    },
+    {
+     "id": "4_Entwurf/Schnitte/Ältere Versionen/TIB_Schnitt_West+Mitte_M1-200_Umgebung_v42b.pdf",
+     "kind": "pdf",
+     "title": "TIB Schnitt West+Mitte M1-200 Umgebung v42b",
+     "ext": "pdf",
+     "size": 2946308,
+     "date": "17.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt_West%2BMitte_M1-200_Umgebung_v42b.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt_West%2BMitte_M1-200_Umgebung_v42b.pdf&raw=1",
+     "thumb": "thumbs/9120b91ab8579448.webp",
+     "ar": 1.4157,
+     "dxf": [
+      {
+       "label": "DXF für Archicad",
+       "name": "TIB_Schnitt_West+Mitte_M1-200_Umgebung_Archicad_v42b.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt_West%2BMitte_M1-200_Umgebung_Archicad_v42b.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/2e0f145176d04ddfbfde/"
+    },
+    {
+     "id": "4_Entwurf/Schnitte/Ältere Versionen/TIB_Schnitt-Ost_Zweitafel_M1-200_v42.pdf",
+     "kind": "pdf",
+     "title": "TIB Schnitt-Ost Zweitafel M1-200 v42",
+     "ext": "pdf",
+     "size": 144398,
+     "date": "17.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt-Ost_Zweitafel_M1-200_v42.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt-Ost_Zweitafel_M1-200_v42.pdf&raw=1",
+     "thumb": "thumbs/0dc76331500fd196.webp",
+     "ar": 1.4157,
+     "dxf": [
+      {
+       "label": "DXF für Archicad",
+       "name": "TIB_Schnitt-Ost_Zweitafel_M1-200_Archicad_v42.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt-Ost_Zweitafel_M1-200_Archicad_v42.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/1d8bdc0fa34a4a42afbf/"
+    },
+    {
+     "id": "4_Entwurf/Schnitte/Ältere Versionen/TIB_Schnitt-Ost_Zweitafel_M1-200_Umgebung_v42b.pdf",
+     "kind": "pdf",
+     "title": "TIB Schnitt-Ost Zweitafel M1-200 Umgebung v42b",
+     "ext": "pdf",
+     "size": 920839,
+     "date": "17.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt-Ost_Zweitafel_M1-200_Umgebung_v42b.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt-Ost_Zweitafel_M1-200_Umgebung_v42b.pdf&raw=1",
+     "thumb": "thumbs/ffc8019599edad14.webp",
+     "ar": 1.4157,
+     "dxf": [
+      {
+       "label": "DXF für Archicad",
+       "name": "TIB_Schnitt-Ost_Zweitafel_M1-200_Umgebung_Archicad_v42b.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt-Ost_Zweitafel_M1-200_Umgebung_Archicad_v42b.dxf&dl=1"
+      },
+      {
+       "label": "DXF für Archicad",
+       "name": "TIB_Schnitt-Ost_Zweitafel_M1-200_Umgebung_Archicad_v43b.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt-Ost_Zweitafel_M1-200_Umgebung_Archicad_v43b.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/2d0e82d3607840a8b187/"
+    },
     {
      "id": "4_Entwurf/Schnitte/Ältere Versionen/TIB_Schnitt_West+Mitte_M1-200_Umgebung_v41b.pdf",
      "kind": "pdf",
@@ -17131,6 +17454,13 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt_West%2BMitte_M1-200_Umgebung_v41b.pdf&raw=1",
      "thumb": "thumbs/deb55f4b4e25647d.webp",
      "ar": 1.4157,
+     "dxf": [
+      {
+       "label": "DXF für Archicad",
+       "name": "TIB_Schnitt_West+Mitte_M1-200_Umgebung_Archicad_v42b.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt_West%2BMitte_M1-200_Umgebung_Archicad_v42b.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/0b4fc061688344c98195/"
     },
     {
@@ -17144,6 +17474,18 @@
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt-Ost_Zweitafel_M1-200_Umgebung_v41b.pdf&raw=1",
      "thumb": "thumbs/1b50b94f6fa3aeff.webp",
      "ar": 1.4157,
+     "dxf": [
+      {
+       "label": "DXF für Archicad",
+       "name": "TIB_Schnitt-Ost_Zweitafel_M1-200_Umgebung_Archicad_v42b.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt-Ost_Zweitafel_M1-200_Umgebung_Archicad_v42b.dxf&dl=1"
+      },
+      {
+       "label": "DXF für Archicad",
+       "name": "TIB_Schnitt-Ost_Zweitafel_M1-200_Umgebung_Archicad_v43b.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Schnitte/%C3%84ltere%20Versionen/TIB_Schnitt-Ost_Zweitafel_M1-200_Umgebung_Archicad_v43b.dxf&dl=1"
+      }
+     ],
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/ab1b1a1a92904acc9396/"
     },
     {
@@ -18098,7 +18440,7 @@
    ],
    "section": "Entwurf · Schnitte",
    "x": 10938.84,
-   "y": 34970,
+   "y": 35870,
    "w": 300
   },
   {
@@ -18115,56 +18457,107 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/fb5d639528ba45878bc5/",
    "section": "Ansichten",
    "x": 0,
-   "y": 36800,
+   "y": 37700,
    "w": 424
   },
   {
-   "id": "4_Entwurf/Ansichten/TIB_Ansichten_M1-200_Baeume-transparent_RotSchwarz_v16.pdf",
+   "id": "4_Entwurf/Ansichten/TIB_Ansichten_M1-200_Baeume-transparent_RotSchwarz_v17.pdf",
    "kind": "pdf",
-   "title": "TIB Ansichten M1-200 Baeume-transparent RotSchwarz v16",
+   "title": "TIB Ansichten M1-200 Baeume-transparent RotSchwarz v17",
    "ext": "pdf",
-   "size": 4093758,
-   "date": "17.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Ansichten/TIB_Ansichten_M1-200_Baeume-transparent_RotSchwarz_v16.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Ansichten/TIB_Ansichten_M1-200_Baeume-transparent_RotSchwarz_v16.pdf&raw=1",
-   "thumb": "thumbs/fd0a4626def8c843.webp",
+   "size": 4072842,
+   "date": "24.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Ansichten/TIB_Ansichten_M1-200_Baeume-transparent_RotSchwarz_v17.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Ansichten/TIB_Ansichten_M1-200_Baeume-transparent_RotSchwarz_v17.pdf&raw=1",
+   "thumb": "thumbs/9699d9d0a4385dbd.webp",
    "ar": 1.4157,
    "dxf": [
     {
      "label": "DXF für Archicad",
-     "name": "TIB_Ansichten_M1-200_Baeume-transparent_RotSchwarz_Archicad_v16.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Ansichten/TIB_Ansichten_M1-200_Baeume-transparent_RotSchwarz_Archicad_v16.dxf&dl=1"
+     "name": "TIB_Ansichten_M1-200_Baeume-transparent_RotSchwarz_Archicad_v17.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Ansichten/TIB_Ansichten_M1-200_Baeume-transparent_RotSchwarz_Archicad_v17.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/cbe88cab26194a90835f/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/36c618d0e0ba44729afc/",
    "section": "Entwurf · Ansichten",
    "x": 9200,
-   "y": 36800,
+   "y": 37700,
    "w": 1699
   },
   {
-   "id": "4_Entwurf/Ansichten/TIB_Ansichten_M1-200_Baeume-transparent_v16.pdf",
+   "id": "4_Entwurf/Ansichten/TIB_Ansichten_M1-200_Baeume-transparent_v17.pdf",
    "kind": "pdf",
-   "title": "TIB Ansichten M1-200 Baeume-transparent v16",
+   "title": "TIB Ansichten M1-200 Baeume-transparent v17",
    "ext": "pdf",
-   "size": 4091894,
-   "date": "16.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Ansichten/TIB_Ansichten_M1-200_Baeume-transparent_v16.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Ansichten/TIB_Ansichten_M1-200_Baeume-transparent_v16.pdf&raw=1",
-   "thumb": "thumbs/c3cebb165d6ea0fc.webp",
+   "size": 4071024,
+   "date": "24.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Ansichten/TIB_Ansichten_M1-200_Baeume-transparent_v17.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Ansichten/TIB_Ansichten_M1-200_Baeume-transparent_v17.pdf&raw=1",
+   "thumb": "thumbs/dfa70f2a19e36c68.webp",
    "ar": 1.4157,
    "dxf": [
     {
      "label": "DXF für Archicad",
-     "name": "TIB_Ansichten_M1-200_Baeume-transparent_Archicad_v16.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Ansichten/TIB_Ansichten_M1-200_Baeume-transparent_Archicad_v16.dxf&dl=1"
+     "name": "TIB_Ansichten_M1-200_Baeume-transparent_Archicad_v17.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Ansichten/TIB_Ansichten_M1-200_Baeume-transparent_Archicad_v17.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/8370c61cb2994742a29b/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/ead38b1bc28c4af89036/",
    "section": "Entwurf · Ansichten",
    "x": 10938.84,
-   "y": 36800,
+   "y": 37700,
    "w": 1699
+  },
+  {
+   "id": "stack:Entwurf · Ansichten:Ältere Versionen",
+   "kind": "stack",
+   "title": "Ältere Versionen",
+   "items": [
+    {
+     "id": "4_Entwurf/Ansichten/Ältere Versionen/TIB_Ansichten_M1-200_Baeume-transparent_RotSchwarz_v16.pdf",
+     "kind": "pdf",
+     "title": "TIB Ansichten M1-200 Baeume-transparent RotSchwarz v16",
+     "ext": "pdf",
+     "size": 4093758,
+     "date": "17.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Ansichten/%C3%84ltere%20Versionen/TIB_Ansichten_M1-200_Baeume-transparent_RotSchwarz_v16.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Ansichten/%C3%84ltere%20Versionen/TIB_Ansichten_M1-200_Baeume-transparent_RotSchwarz_v16.pdf&raw=1",
+     "thumb": "thumbs/ae8c9855566e9b97.webp",
+     "ar": 1.4157,
+     "dxf": [
+      {
+       "label": "DXF für Archicad",
+       "name": "TIB_Ansichten_M1-200_Baeume-transparent_RotSchwarz_Archicad_v16.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Ansichten/%C3%84ltere%20Versionen/TIB_Ansichten_M1-200_Baeume-transparent_RotSchwarz_Archicad_v16.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/426a98309d94492cbd83/"
+    },
+    {
+     "id": "4_Entwurf/Ansichten/Ältere Versionen/TIB_Ansichten_M1-200_Baeume-transparent_v16.pdf",
+     "kind": "pdf",
+     "title": "TIB Ansichten M1-200 Baeume-transparent v16",
+     "ext": "pdf",
+     "size": 4091894,
+     "date": "16.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Ansichten/%C3%84ltere%20Versionen/TIB_Ansichten_M1-200_Baeume-transparent_v16.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Ansichten/%C3%84ltere%20Versionen/TIB_Ansichten_M1-200_Baeume-transparent_v16.pdf&raw=1",
+     "thumb": "thumbs/9f62f71056086601.webp",
+     "ar": 1.4157,
+     "dxf": [
+      {
+       "label": "DXF für Archicad",
+       "name": "TIB_Ansichten_M1-200_Baeume-transparent_Archicad_v16.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Ansichten/%C3%84ltere%20Versionen/TIB_Ansichten_M1-200_Baeume-transparent_Archicad_v16.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/f72668115cbb48068c57/"
+    }
+   ],
+   "section": "Entwurf · Ansichten",
+   "x": 12677.68,
+   "y": 37700,
+   "w": 300
   },
   {
    "id": "2_Bestand_eigene-Pläne/Lageplan/LP_1100_Welfengarten_Lageplan_Skizze_v4.pdf",
@@ -18187,7 +18580,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/29b5c86bbe5647098126/",
    "section": "Lageplan",
    "x": 0,
-   "y": 38630,
+   "y": 39530,
    "w": 212
   },
   {
@@ -18298,7 +18691,7 @@
    ],
    "section": "Lageplan",
    "x": 252.19,
-   "y": 38630,
+   "y": 39530,
    "w": 300
   },
   {
@@ -18322,7 +18715,7 @@
    ],
    "section": "Lageplan",
    "x": 592.19,
-   "y": 38630,
+   "y": 39530,
    "w": 300
   },
   {
@@ -18732,7 +19125,7 @@
    ],
    "section": "Lageplan",
    "x": 932.19,
-   "y": 38630,
+   "y": 39530,
    "w": 300
   },
   {
@@ -18746,7 +19139,7 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_v11.dxf&raw=1",
    "section": "Entwurf · Lageplan",
    "x": 9200,
-   "y": 38630,
+   "y": 39530,
    "w": 300
   },
   {
@@ -18760,7 +19153,7 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_v9.dxf&raw=1",
    "section": "Entwurf · Lageplan",
    "x": 9540.0,
-   "y": 38630,
+   "y": 39530,
    "w": 300
   },
   {
@@ -18789,7 +19182,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/fb9bbf19209f48c7a0c1/",
    "section": "Entwurf · Lageplan",
    "x": 9880.0,
-   "y": 38630,
+   "y": 39530,
    "w": 1697
   },
   {
@@ -18806,7 +19199,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/d4b27c5559bd421186cc/",
    "section": "Entwurf · Lageplan",
    "x": 11616.68,
-   "y": 38630,
+   "y": 39530,
    "w": 1697
   },
   {
@@ -18835,7 +19228,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/a65988ae4ea64c688cb2/",
    "section": "Entwurf · Lageplan",
    "x": 9200,
-   "y": 39940,
+   "y": 40840,
    "w": 1697
   },
   {
@@ -18864,7 +19257,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/fe0627f9a1b14d1baedf/",
    "section": "Entwurf · Lageplan",
    "x": 10936.68,
-   "y": 39940,
+   "y": 40840,
    "w": 849
   },
   {
@@ -18888,7 +19281,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/e008e11e6e91400fb64b/",
    "section": "Entwurf · Lageplan",
    "x": 11825.439999999999,
-   "y": 39940,
+   "y": 40840,
    "w": 1697
   },
   {
@@ -18937,7 +19330,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/a7447a9081804d858a3b/",
    "section": "Entwurf · Lageplan",
    "x": 9200,
-   "y": 41250,
+   "y": 42150,
    "w": 1697
   },
   {
@@ -18986,7 +19379,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/eefce5fe947e4563bb44/",
    "section": "Entwurf · Lageplan",
    "x": 10936.68,
-   "y": 41250,
+   "y": 42150,
    "w": 1697
   },
   {
@@ -19035,7 +19428,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/3ccacaa9293c4c22b91b/",
    "section": "Entwurf · Lageplan",
    "x": 12673.36,
-   "y": 41250,
+   "y": 42150,
    "w": 1697
   },
   {
@@ -19084,7 +19477,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/10df3c2926814b0cbf46/",
    "section": "Entwurf · Lageplan",
    "x": 9200,
-   "y": 42560,
+   "y": 43460,
    "w": 1697
   },
   {
@@ -19133,7 +19526,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/9f0155995e7e4ceca890/",
    "section": "Entwurf · Lageplan",
    "x": 10936.68,
-   "y": 42560,
+   "y": 43460,
    "w": 1697
   },
   {
@@ -19182,7 +19575,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/a2450c6cab8347858cbb/",
    "section": "Entwurf · Lageplan",
    "x": 12673.36,
-   "y": 42560,
+   "y": 43460,
    "w": 1697
   },
   {
@@ -19231,7 +19624,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/a1dd57d056c64e8bb735/",
    "section": "Entwurf · Lageplan",
    "x": 9200,
-   "y": 43870,
+   "y": 44770,
    "w": 1697
   },
   {
@@ -19255,7 +19648,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/8862c6530ec9459b92c8/",
    "section": "Entwurf · Lageplan",
    "x": 10936.68,
-   "y": 43870,
+   "y": 44770,
    "w": 1697
   },
   {
@@ -19624,7 +20017,7 @@
    ],
    "section": "Entwurf · Lageplan",
    "x": 12673.36,
-   "y": 43870,
+   "y": 44770,
    "w": 300
   },
   {
@@ -19648,7 +20041,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/b51e884a80df4622a592/",
    "section": "Details",
    "x": 0,
-   "y": 45700,
+   "y": 46600,
    "w": 424
   },
   {
@@ -19665,7 +20058,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/2aff410e5a2549829e94/",
    "section": "Details",
    "x": 464.16999999999996,
-   "y": 45700,
+   "y": 46600,
    "w": 212
   },
   {
@@ -19680,7 +20073,7 @@
    "url": "html/kern335-detailmappe.html",
    "section": "Details",
    "x": 716.63,
-   "y": 45700,
+   "y": 46600,
    "w": 300
   },
   {
@@ -19697,7 +20090,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/775f160cb7f84a848cd4/",
    "section": "Details",
    "x": 1056.63,
-   "y": 45700,
+   "y": 46600,
    "w": 300
   },
   {
@@ -19721,7 +20114,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/82429d1049c2454e841c/",
    "section": "Details",
    "x": 1396.63,
-   "y": 45700,
+   "y": 46600,
    "w": 212
   },
   {
@@ -19738,7 +20131,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/f3a22435b0fe47d38497/",
    "section": "Details",
    "x": 1649.0900000000001,
-   "y": 45700,
+   "y": 46600,
    "w": 150
   },
   {
@@ -19755,7 +20148,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/0ca1624679e646abb174/",
    "section": "Details",
    "x": 1839.0900000000001,
-   "y": 45700,
+   "y": 46600,
    "w": 150
   },
   {
@@ -19772,7 +20165,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/5bb4f0224c9b482abfdd/",
    "section": "Details",
    "x": 2029.0900000000001,
-   "y": 45700,
+   "y": 46600,
    "w": 300
   },
   {
@@ -19796,7 +20189,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/c1f2d30cbd54456dae16/",
    "section": "Details",
    "x": 2369.09,
-   "y": 45700,
+   "y": 46600,
    "w": 212
   },
   {
@@ -19915,7 +20308,7 @@
    ],
    "section": "Details",
    "x": 2621.28,
-   "y": 45700,
+   "y": 46600,
    "w": 300
   },
   {
@@ -20006,7 +20399,7 @@
    ],
    "section": "Details",
    "x": 2961.28,
-   "y": 45700,
+   "y": 46600,
    "w": 300
   },
   {
@@ -20040,7 +20433,7 @@
    ],
    "section": "Details",
    "x": 3301.28,
-   "y": 45700,
+   "y": 46600,
    "w": 300
   },
   {
@@ -20064,7 +20457,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/bd648a1cc7ef4c859430/",
    "section": "Entwurf · Details",
    "x": 9200,
-   "y": 45700,
+   "y": 46600,
    "w": 848
   },
   {
@@ -20081,7 +20474,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/e93fd1ebc7524efe9a7e/",
    "section": "Möblierung + Nutzung",
    "x": 0,
-   "y": 47530,
+   "y": 48430,
    "w": 424
   },
   {
@@ -20105,7 +20498,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/25f03c28f0cc4d5da6df/",
    "section": "Möblierung + Nutzung",
    "x": 464.16999999999996,
-   "y": 47530,
+   "y": 48430,
    "w": 424
   },
   {
@@ -20129,7 +20522,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/4dd961c156054f7ba9f0/",
    "section": "Möblierung + Nutzung",
    "x": 928.3399999999999,
-   "y": 47530,
+   "y": 48430,
    "w": 424
   },
   {
@@ -20153,7 +20546,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/48ba8a90c0ff4b3abd81/",
    "section": "Möblierung + Nutzung",
    "x": 1392.5099999999998,
-   "y": 47530,
+   "y": 48430,
    "w": 424
   },
   {
@@ -20177,7 +20570,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/16b4b2ec8ebd4f6aa596/",
    "section": "Möblierung + Nutzung",
    "x": 1856.6799999999998,
-   "y": 47530,
+   "y": 48430,
    "w": 424
   },
   {
@@ -20201,7 +20594,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/32c5becf5bd145cc9cb2/",
    "section": "Möblierung + Nutzung",
    "x": 2320.85,
-   "y": 47530,
+   "y": 48430,
    "w": 424
   },
   {
@@ -20218,7 +20611,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/7bbf91ee561742eb804a/",
    "section": "Möbelbestand",
    "x": 0,
-   "y": 48460,
+   "y": 49360,
    "w": 1697
   },
   {
@@ -20235,7 +20628,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/3ebdcf14307b43f28a80/",
    "section": "Möbelbestand",
    "x": 1736.6799999999998,
-   "y": 48460,
+   "y": 49360,
    "w": 424
   },
   {
@@ -20252,7 +20645,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/7b1f59736cf54e46bd44/",
    "section": "Möbelbestand",
    "x": 2200.85,
-   "y": 48460,
+   "y": 49360,
    "w": 424
   },
   {
@@ -20269,7 +20662,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/8cf2c7c5f65246ed9ae0/",
    "section": "Möbelbestand",
    "x": 2665.02,
-   "y": 48460,
+   "y": 49360,
    "w": 424
   },
   {
@@ -20286,7 +20679,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/f5aefd5f790a4de69da9/",
    "section": "Möbelbestand",
    "x": 3129.19,
-   "y": 48460,
+   "y": 49360,
    "w": 424
   },
   {
@@ -20303,7 +20696,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/6f8ea0c273a84c31bd43/",
    "section": "Möbelbestand",
    "x": 3593.36,
-   "y": 48460,
+   "y": 49360,
    "w": 424
   },
   {
@@ -20374,7 +20767,7 @@
    ],
    "section": "Möbelbestand",
    "x": 4057.53,
-   "y": 48460,
+   "y": 49360,
    "w": 300
   },
   {
@@ -20632,7 +21025,7 @@
    ],
    "section": "Möbelbestand",
    "x": 4397.530000000001,
-   "y": 48460,
+   "y": 49360,
    "w": 300
   },
   {
@@ -20647,7 +21040,7 @@
    "url": "html/flaechen-editor.html",
    "section": "Raumprogramm",
    "x": 0,
-   "y": 50290,
+   "y": 51190,
    "w": 300
   },
   {
@@ -20671,7 +21064,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/f5d42ff6dcae416d8483/",
    "section": "Raumprogramm",
    "x": 340.0,
-   "y": 50290,
+   "y": 51190,
    "w": 425
   },
   {
@@ -20695,7 +21088,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/dba8c620fbaa43bf94bc/",
    "section": "Raumprogramm",
    "x": 804.71,
-   "y": 50290,
+   "y": 51190,
    "w": 425
   },
   {
@@ -20712,7 +21105,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/02c389917bad41ba8961/",
    "section": "Raumprogramm",
    "x": 1269.42,
-   "y": 50290,
+   "y": 51190,
    "w": 425
   },
   {
@@ -20729,7 +21122,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/5f6a830fe5c2468a8461/",
    "section": "Raumprogramm",
    "x": 1734.13,
-   "y": 50290,
+   "y": 51190,
    "w": 425
   },
   {
@@ -20746,7 +21139,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/dde1bf11beec432eb53c/",
    "section": "Raumprogramm",
    "x": 2198.84,
-   "y": 50290,
+   "y": 51190,
    "w": 425
   },
   {
@@ -20803,7 +21196,7 @@
    ],
    "section": "Raumprogramm",
    "x": 2663.55,
-   "y": 50290,
+   "y": 51190,
    "w": 300
   },
   {
@@ -20913,7 +21306,7 @@
    ],
    "section": "Raumprogramm",
    "x": 3003.55,
-   "y": 50290,
+   "y": 51190,
    "w": 300
   },
   {
@@ -21308,7 +21701,7 @@
    ],
    "section": "Fotos",
    "x": 0,
-   "y": 51220,
+   "y": 52120,
    "w": 600
   },
   {
@@ -22903,7 +23296,7 @@
    ],
    "section": "Fotos",
    "x": 640.0,
-   "y": 51220,
+   "y": 52120,
    "w": 600
   },
   {
@@ -23154,7 +23547,7 @@
    ],
    "section": "Fotos",
    "x": 1280.0,
-   "y": 51220,
+   "y": 52120,
    "w": 600
   },
   {
@@ -23561,7 +23954,7 @@
    ],
    "section": "Fotos",
    "x": 1920.0,
-   "y": 51220,
+   "y": 52120,
    "w": 600
   },
   {
@@ -23680,7 +24073,7 @@
    ],
    "section": "Fotos",
    "x": 2560.0,
-   "y": 51220,
+   "y": 52120,
    "w": 600
   },
   {
@@ -23739,7 +24132,7 @@
    ],
    "section": "Fotos",
    "x": 3200.0,
-   "y": 51220,
+   "y": 52120,
    "w": 600
   },
   {
@@ -23810,7 +24203,7 @@
    ],
    "section": "Fotos",
    "x": 3840.0,
-   "y": 51220,
+   "y": 52120,
    "w": 600
   },
   {
@@ -23826,7 +24219,7 @@
    "ar": 1.7143,
    "section": "3D-Modelle",
    "x": 0,
-   "y": 52450,
+   "y": 53350,
    "w": 514
   },
   {
@@ -23841,7 +24234,7 @@
    "url": "html/modell-ansichten/index.html",
    "section": "3D-Modelle",
    "x": 554.29,
-   "y": 52450,
+   "y": 53350,
    "w": 300
   },
   {
@@ -24164,7 +24557,7 @@
    ],
    "section": "3D-Modelle",
    "x": 894.29,
-   "y": 52450,
+   "y": 53350,
    "w": 300
   },
   {
@@ -24235,7 +24628,7 @@
    ],
    "section": "3D-Modelle",
    "x": 1234.29,
-   "y": 52450,
+   "y": 53350,
    "w": 300
   },
   {
@@ -24306,7 +24699,7 @@
    ],
    "section": "3D-Modelle",
    "x": 1574.29,
-   "y": 52450,
+   "y": 53350,
    "w": 300
   },
   {
@@ -24320,7 +24713,7 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/8_Vorlagen/Archicad/CX-NEA.tpl&raw=1",
    "section": "Vorlagen · Archicad",
    "x": 0,
-   "y": 53380,
+   "y": 54280,
    "w": 300
   },
   {
@@ -24334,7 +24727,7 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/8_Vorlagen/Archicad/CX-NEA%20DXF.xml&raw=1",
    "section": "Vorlagen · Archicad",
    "x": 340.0,
-   "y": 53380,
+   "y": 54280,
    "w": 300
   },
   {
@@ -24348,7 +24741,7 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/8_Vorlagen/Archicad/CX_NEA.tpl&raw=1",
    "section": "Vorlagen · Archicad",
    "x": 680.0,
-   "y": 53380,
+   "y": 54280,
    "w": 300
   },
   {
@@ -24362,7 +24755,7 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/6_3D-Druck/Bestand_M1-500/druck%20bestand%20tib%20getrennt.3mf&raw=1",
    "section": "3D-Druck · Bestand",
    "x": 0,
-   "y": 54310,
+   "y": 55210,
    "w": 300
   },
   {
@@ -24377,7 +24770,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/05b34aed64764d94b33a/",
    "section": "3D-Druck · Bestand",
    "x": 340.0,
-   "y": 54310,
+   "y": 55210,
    "w": 300
   },
   {
@@ -24392,7 +24785,7 @@
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/32be4ce2d8f9463c92dc/",
    "section": "3D-Druck · Bestand",
    "x": 680.0,
-   "y": 54310,
+   "y": 55210,
    "w": 300
   },
   {
@@ -26868,7 +27261,7 @@
    "ar": 2,
    "section": "Entwurf · Volumenstudien",
    "x": 9200,
-   "y": 54310,
+   "y": 55210,
    "w": 600
   },
   {
@@ -27765,7 +28158,7 @@
    "ar": 2,
    "section": "3D-Druck · Entwurf",
    "x": 9200,
-   "y": 55240,
+   "y": 56140,
    "w": 600
   },
   {
