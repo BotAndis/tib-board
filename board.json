@@ -34324,6 +34324,25 @@
    "x": 13538.08,
    "y": 4180,
    "w": 554
+  },
+  {
+   "id": "hp:1a20dedf7f5:4_Entwurf/Layout/TIB_06_Axo-explodiert_A2_v1.pdf",
+   "kind": "pdf",
+   "title": "TIB 06 Axo-explodiert A2 v1",
+   "ext": "pdf",
+   "size": 8470582,
+   "date": "24.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/TIB_06_Axo-explodiert_A2_v1.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/TIB_06_Axo-explodiert_A2_v1.pdf&raw=1",
+   "thumb": "thumbs/345de3a7c3884122.webp",
+   "ar": 0.7073,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/a946b88909a04a30907d/",
+   "w": 420,
+   "hp": true,
+   "moved": true,
+   "section": "Hängeplan",
+   "x": 30150,
+   "y": -1829
   }
  ]
 }
