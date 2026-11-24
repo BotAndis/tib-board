@@ -31794,27 +31794,8 @@
    "hp": true,
    "moved": true,
    "section": "Hängeplan",
-   "x": 31015,
-   "y": -1866
-  },
-  {
-   "id": "hp:1a20e028fd7:4_Entwurf/Layout/TIB_10_Perspektive-2_A3_v1.pdf",
-   "kind": "pdf",
-   "title": "TIB 10 Perspektive-2 A3 v1",
-   "ext": "pdf",
-   "size": 529,
-   "date": "17.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/TIB_10_Perspektive-2_A3_v1.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/TIB_10_Perspektive-2_A3_v1.pdf&raw=1",
-   "thumb": "thumbs/76bd903331c49112.webp",
-   "ar": 1.4139,
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/a4c5271b55e64fb79e36/",
-   "w": 420,
-   "hp": true,
-   "moved": true,
-   "section": "Hängeplan",
-   "x": 31470,
-   "y": -1865
+   "x": 31030,
+   "y": -2182
   },
   {
    "id": "hp:1a20e028fd8:4_Entwurf/Layout/TIB_10_Perspektive-3_A3_v1.pdf",
