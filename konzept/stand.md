@@ -85,32 +85,32 @@ Verbindung Bestand / Anbau (Schnitt Ost, Ostflügel): Beide Häuser behalten ihr
 | Freiraum Option 2, Inseln, Lageplan M 1:500 + Innenhof M 1:200 | 2026-11-13 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/179e20e875ef4553afce/) |
 | Freiraum Option 3, Rasenfelder, Lageplan M 1:500 + Innenhof M 1:200 | 2026-11-13 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/bad5023ab5e045d09d6f/) |
 | Freiraum, Vergleich der drei Optionen, M 1:1000 | 2026-11-13 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/b229be8de9244bfabd7a/) |
-| Layout: Grundrisse, Schnitte, Ansichten, M 1:200, Übergröße | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/8072701e17bd4cb481e9/) |
-| Layout: Grundrisse, Schnitte, Ansichten, M 1:200, A0 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/630905fc860144f3bf71/) |
-| Layout: Grundrisse, Schnitte, Ansichten, M 1:200, A1 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/7b69113016c74706b66a/) |
-| Layout: Grundrisse EG, 1.OG, 2.OG, M 1:200, A0 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/6567f9b3d56542029f0e/) |
-| Layout: Grundrisse 3.OG, 1.UG, 2.UG, M 1:200, A0 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/7c8a2fa762094b1e949a/) |
-| Layout: Schnitte mittig, M 1:200, A1 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/c744ab80acdd48ca9a37/) |
-| Layout: Schnitte, x-gleich mit Ansicht Nord, M 1:200, A1 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/fbd3008f366a42db8802/) |
-| Layout: Ansichten, M 1:200, A1 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/94df441d51714ad9ad41/) |
-| Layout: Final: Grundrisse EG, 1.OG, 2.OG, Rot-Schwarz, M 1:200, A0 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/97a6f0d11bb647e2ac5f/) |
-| Layout: Final: Grundrisse 3.OG, 1.UG, 2.UG, Rot-Schwarz, M 1:200, A0 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/28294cd236d3453189fa/) |
-| Layout: Final: Schnitte, Rot-Schwarz, M 1:200, A1 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/2e575bec7b644e7ba640/) |
-| Layout: Final: Ansichten, Rot-Schwarz, M 1:200, A1 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/b2fa466323144f9d9834/) |
-| Layout: Final: Axonometrie Südwest, Rot-Schwarz, Sondermaß 841 x 474 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/128e9f534dba4d87805b/) |
-| Layout: Schnitt Ost, M 1:200, Sondermaß 860 x 751 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/c673512e54224ebbaa1e/) |
-| Layout: Umbau Rot-Gelb-Schwarz, M 1:200, A2 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/b39fed45711c4f5ba288/) |
-| Layout: Umbau Rot-Gelb-Schwarz mit Schnitten, M 1:200, Übergröße 420 x 771 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/a14b6b6fd32f461c8c40/) |
-| Layout: Nutzung, M 1:200, A2 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/9b62e2cfefc54cd6b855/) |
+| Layout: Grundrisse, Schnitte, Ansichten, M 1:200, Übergröße | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/915c0be2acfe4372ab00/) |
+| Layout: Grundrisse, Schnitte, Ansichten, M 1:200, A0 | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/8a7f4f455ae2497c9e88/) |
+| Layout: Grundrisse, Schnitte, Ansichten, M 1:200, A1 | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/3c1a3eef21b040ac9328/) |
+| Layout: Grundrisse EG, 1.OG, 2.OG, M 1:200, A0 | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/2781323cdf8245b8be2b/) |
+| Layout: Grundrisse 3.OG, 1.UG, 2.UG, M 1:200, A0 | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/514e8805a01142fb9a28/) |
+| Layout: Schnitte mittig, M 1:200, A1 | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/82cf2032c70e44d2b37f/) |
+| Layout: Schnitte, x-gleich mit Ansicht Nord, M 1:200, A1 | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/81705ac7c9c942eaa7b9/) |
+| Layout: Ansichten, M 1:200, A1 | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/0a82cb86125142b69287/) |
+| Layout: Final: Grundrisse EG, 1.OG, 2.OG, Rot-Schwarz, M 1:200, A0 | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/a318dda85fa64c44baa7/) |
+| Layout: Final: Grundrisse 3.OG, 1.UG, 2.UG, Rot-Schwarz, M 1:200, A0 | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/45fa85a58c9d42b997dd/) |
+| Layout: Final: Schnitte, Rot-Schwarz, M 1:200, A1 | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/d320d368bcc44f7e9b9b/) |
+| Layout: Final: Ansichten, Rot-Schwarz, M 1:200, A1 | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/360846b07a144204b26a/) |
+| Layout: Final: Axonometrie Südwest, Rot-Schwarz, Sondermaß 841 x 474 | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/e1b4f1971c1a4126a53f/) |
+| Layout: Schnitt Ost, M 1:200, Sondermaß 860 x 751 | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/9f3c69f3d9ea49958b4c/) |
+| Layout: Umbau Rot-Gelb-Schwarz, M 1:200, A2 | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/2016378b26d9463ea4fe/) |
+| Layout: Umbau Rot-Gelb-Schwarz mit Schnitten, M 1:200, Übergröße 420 x 771 | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/580d6f5f8e3641a28e42/) |
+| Layout: Nutzung, M 1:200, A2 | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/5fac219ec6f64044a03e/) |
 | Layout: Bestand Nutzung und Flächenbedarf, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/6e65f2b3cd7746cfa4f4/) |
-| Layout: Axonometrie Südwest, A2 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/3009b75268a941c89669/) |
-| Layout: Axonometrie Südwest, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/5e81b6c7496b454f802a/) |
+| Layout: Axonometrie Südwest, A2 | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/9c6d4ea107e8451ba00d/) |
+| Layout: Axonometrie Südwest, A3 | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/1cbf3786b35c43778765/) |
 | Layout: Lageplan, M 1:500, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/f6f555825a774520a9c0/) |
 | Layout: Lageplan gesamt, M 1:2500, A3 hoch | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/ee33ad1ce0c34d34b274/) |
 | Layout: Referenzen 1/2, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/3061efa3896e4f0aa40a/) |
 | Layout: Referenzen 2/2, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/a4c7a0568f7c4cb39e11/) |
-| Layout: Einzelblätter, jeder Plan ein Blatt, M 1:200, DIN (Sammel-PDF) | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/7319e0e057b148e687d6/) |
-| Layout: Einzelblätter, jeder Plan ein Blatt, M 1:200, Übergröße (Sammel-PDF) | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/5b3d006ad0eb4620a94f/) |
+| Layout: Einzelblätter, jeder Plan ein Blatt, M 1:200, DIN (Sammel-PDF) | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/4bf49222c6be4d67ab8b/) |
+| Layout: Einzelblätter, jeder Plan ein Blatt, M 1:200, Übergröße (Sammel-PDF) | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/9a7f1d4dba0b48a089a0/) |
 
 ## Archiv
 
