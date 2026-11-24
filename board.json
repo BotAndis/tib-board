@@ -4098,7 +4098,7 @@
      "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/7_Referenzen/Raumpilot/Raumpilot-Wohnen.pdf&dl=1",
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/7_Referenzen/Raumpilot/Raumpilot-Wohnen.pdf&raw=1",
      "thumb": "thumbs/9daa621a3f70c326.webp",
-     "ar": 1.0,
+     "ar": 1,
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/c2fc0e1fd1644c149115/"
     },
     {
@@ -4111,7 +4111,7 @@
      "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/7_Referenzen/Raumpilot/Raumpilot-Arbeiten.pdf&dl=1",
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/7_Referenzen/Raumpilot/Raumpilot-Arbeiten.pdf&raw=1",
      "thumb": "thumbs/b1c6287d9932b7bb.webp",
-     "ar": 1.0,
+     "ar": 1,
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/e6a599e6bb1743b08516/"
     },
     {
@@ -4124,7 +4124,7 @@
      "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/7_Referenzen/Raumpilot/Raumpilot-Lernen.pdf&dl=1",
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/7_Referenzen/Raumpilot/Raumpilot-Lernen.pdf&raw=1",
      "thumb": "thumbs/d53cfe886663d62c.webp",
-     "ar": 1.0,
+     "ar": 1,
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/46ac9cd6664f49cd8faa/"
     },
     {
@@ -4137,7 +4137,7 @@
      "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/7_Referenzen/Raumpilot/Raumpilot-Grundlagen.pdf&dl=1",
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/7_Referenzen/Raumpilot/Raumpilot-Grundlagen.pdf&raw=1",
      "thumb": "thumbs/286588ca5c0a1d22.webp",
-     "ar": 1.0,
+     "ar": 1,
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/0e546be7f10b4b089827/"
     }
    ],
@@ -19483,7 +19483,7 @@
    "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_v9.dxf&dl=1",
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Lageplan/LP_1100_Welfengarten_Lageplan-Entwurf_v9.dxf&raw=1",
    "section": "Entwurf · Lageplan",
-   "x": 9540.0,
+   "x": 9540,
    "y": 39530,
    "w": 300
   },
@@ -19512,7 +19512,7 @@
    ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/fb9bbf19209f48c7a0c1/",
    "section": "Entwurf · Lageplan",
-   "x": 9880.0,
+   "x": 9880,
    "y": 39530,
    "w": 1697
   },
@@ -20417,7 +20417,7 @@
    "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Detail_Dach-Innenhof/TIB_Detail2_M1-25_Schnitt%2BGrundriss_v3.pdf&dl=1",
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Detail_Dach-Innenhof/TIB_Detail2_M1-25_Schnitt%2BGrundriss_v3.pdf&raw=1",
    "thumb": "thumbs/28db6cba056d847c.webp",
-   "ar": 1.0,
+   "ar": 1,
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/775f160cb7f84a848cd4/",
    "section": "Details",
    "x": 1056.63,
@@ -20492,7 +20492,7 @@
    "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Detail_Dach-Innenhof/TIB_Detail2_M1-50_Schnitt%2BGrundriss_v6.pdf&dl=1",
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/2_Bestand_eigene-Pl%C3%A4ne/Detail_Dach-Innenhof/TIB_Detail2_M1-50_Schnitt%2BGrundriss_v6.pdf&raw=1",
    "thumb": "thumbs/58d9bf7a9f0c2fc1.webp",
-   "ar": 1.0,
+   "ar": 1,
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/5bb4f0224c9b482abfdd/",
    "section": "Details",
    "x": 2029.0900000000001,
@@ -21394,7 +21394,7 @@
    ],
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/f5d42ff6dcae416d8483/",
    "section": "Raumprogramm",
-   "x": 340.0,
+   "x": 340,
    "y": 51190,
    "w": 425
   },
@@ -21727,7 +21727,7 @@
      "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/3_Bestand_Fotos/Fassade/w7_11.jpg&dl=1",
      "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/3_Bestand_Fotos/Fassade/w7_11.jpg&raw=1",
      "thumb": "thumbs/c9e1d994cd8df1f6.webp",
-     "ar": 2.0
+     "ar": 2
     },
     {
      "id": "3_Bestand_Fotos/Fassade/g25_00.png",
@@ -23626,7 +23626,7 @@
     }
    ],
    "section": "Fotos",
-   "x": 640.0,
+   "x": 640,
    "y": 52120,
    "w": 600
   },
@@ -23877,7 +23877,7 @@
     }
    ],
    "section": "Fotos",
-   "x": 1280.0,
+   "x": 1280,
    "y": 52120,
    "w": 600
   },
@@ -24284,7 +24284,7 @@
     }
    ],
    "section": "Fotos",
-   "x": 1920.0,
+   "x": 1920,
    "y": 52120,
    "w": 600
   },
@@ -24403,7 +24403,7 @@
     }
    ],
    "section": "Fotos",
-   "x": 2560.0,
+   "x": 2560,
    "y": 52120,
    "w": 600
   },
@@ -24462,7 +24462,7 @@
     }
    ],
    "section": "Fotos",
-   "x": 3200.0,
+   "x": 3200,
    "y": 52120,
    "w": 600
   },
@@ -24533,7 +24533,7 @@
     }
    ],
    "section": "Fotos",
-   "x": 3840.0,
+   "x": 3840,
    "y": 52120,
    "w": 600
   },
@@ -25057,7 +25057,7 @@
    "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/8_Vorlagen/Archicad/CX-NEA%20DXF.xml&dl=1",
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/8_Vorlagen/Archicad/CX-NEA%20DXF.xml&raw=1",
    "section": "Vorlagen · Archicad",
-   "x": 340.0,
+   "x": 340,
    "y": 54280,
    "w": 300
   },
@@ -25071,7 +25071,7 @@
    "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/8_Vorlagen/Archicad/CX_NEA.tpl&dl=1",
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/8_Vorlagen/Archicad/CX_NEA.tpl&raw=1",
    "section": "Vorlagen · Archicad",
-   "x": 680.0,
+   "x": 680,
    "y": 54280,
    "w": 300
   },
@@ -25100,7 +25100,7 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/6_3D-Druck/Bestand_M1-500/druck%20bestand%20tib%20getrennt.stl&raw=1",
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/05b34aed64764d94b33a/",
    "section": "3D-Druck · Bestand",
-   "x": 340.0,
+   "x": 340,
    "y": 55210,
    "w": 300
   },
@@ -25115,7 +25115,7 @@
    "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/6_3D-Druck/Bestand_M1-500/TIB_Druck_1zu500_mm.stl&raw=1",
    "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/32be4ce2d8f9463c92dc/",
    "section": "3D-Druck · Bestand",
-   "x": 680.0,
+   "x": 680,
    "y": 55210,
    "w": 300
   },
@@ -30799,8 +30799,8 @@
    "hp": true,
    "moved": true,
    "section": "Hängeplan",
-   "x": 28849,
-   "y": -1272
+   "x": 30150,
+   "y": -1271
   },
   {
    "id": "hp:1a1e88a83c1:4_Entwurf/Layout/TIB_02_Umbau_RotGelbSchwarz+Schnitte_M1-200_Uebergroesse-420x771_v5.pdf",
