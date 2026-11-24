@@ -57,7 +57,7 @@ Verbindung Bestand / Anbau (Schnitt Ost, Ostflügel): Beide Häuser behalten ihr
 | 2.OG, Staffage, Rot-Schwarz, M 1:200 | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/2e3267497eda49a4b0f9/) |
 | 3.OG, Staffage, M 1:200 (PDF + DXF für Archicad) | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/8614e15bdfe941ac8f18/) · [DXF](https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_3OG_Staffage_Archicad_M1-200_v3.dxf&dl=1) |
 | 3.OG, Staffage, Rot-Schwarz, M 1:200 | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/2091904bd9cc42f0bacd/) |
-| A3-Set: Grundrisse 2.UG–3.OG Rot-Schwarz mit Staffage (M 1:300), Schnitt Ost, Ansichten (M 1:400), Axonometrien | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/2a68faa3e92f49388ec0/) |
+| A3-Set: Grundrisse 2.UG–3.OG Rot-Schwarz mit Staffage (M 1:300), Schnitt Ost, Ansichten (M 1:400), Axonometrien | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/5bb8b64ce1b34d008a9b/) |
 | Axonometrie Umbau, explodiert | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/3333027f6263453daae6/) |
 | Axonometrie Südost, A1 | 2026-11-24 | [PNG](https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SO_A1_v19.png&raw=1) |
 | Axonometrie Südost, Neubau, A1 | 2026-11-24 | [PNG](https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SO-Neubau_A1_v19.png&raw=1) |
