@@ -31649,17 +31649,17 @@
    "y": -2183
   },
   {
-   "id": "hp:1a20dedf7f5:4_Entwurf/Layout/TIB_06_Axo-explodiert_A2_v1.pdf",
+   "id": "hp:1a20dfd6e35:4_Entwurf/Layout/TIB_06_Axo-explodiert_Sondermass-420x911_v1.pdf",
    "kind": "pdf",
-   "title": "TIB 06 Axo-explodiert A2 v1",
+   "title": "TIB 06 Axo-explodiert Sondermass-420x911 v1",
    "ext": "pdf",
-   "size": 8470582,
+   "size": 8470579,
    "date": "24.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/TIB_06_Axo-explodiert_A2_v1.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/TIB_06_Axo-explodiert_A2_v1.pdf&raw=1",
-   "thumb": "thumbs/345de3a7c3884122.webp",
-   "ar": 0.7073,
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/a946b88909a04a30907d/",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/TIB_06_Axo-explodiert_Sondermass-420x911_v1.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/TIB_06_Axo-explodiert_Sondermass-420x911_v1.pdf&raw=1",
+   "thumb": "thumbs/39edc74a221ea035.webp",
+   "ar": 0.4618,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/132d23d790db44bd9ee8/",
    "w": 420,
    "hp": true,
    "moved": true,
@@ -34307,6 +34307,23 @@
    "section": "Hängeplan",
    "x": 21570,
    "y": 33874
+  },
+  {
+   "id": "4_Entwurf/Layout/TIB_06_Axo-explodiert_Sondermass-420x911_v1.pdf",
+   "kind": "pdf",
+   "title": "TIB 06 Axo-explodiert Sondermass-420x911 v1",
+   "ext": "pdf",
+   "size": 8470579,
+   "date": "24.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/TIB_06_Axo-explodiert_Sondermass-420x911_v1.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/TIB_06_Axo-explodiert_Sondermass-420x911_v1.pdf&raw=1",
+   "thumb": "thumbs/39edc74a221ea035.webp",
+   "ar": 0.4618,
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/132d23d790db44bd9ee8/",
+   "section": "Entwurf · Layout",
+   "x": 13538.08,
+   "y": 4180,
+   "w": 554
   }
  ]
 }
