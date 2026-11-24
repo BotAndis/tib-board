@@ -168,14 +168,20 @@ GRID = [
 # current plans lie open and big (4x a normal card): the design's plan PDFs + the newest furniture inventory sheet
 BIG = [f"{D}/*/*.pdf", f"{E}/Möbelbestand/*Inventar_A3*.pdf", f"{R}/*.pdf"]
 # reading order of the design plans (instead of newest first): floors bottom-up, per floor Grundriss, Nutzung, Rot-Gelb
-READ = ("Uebersicht", "_Grundriss_", "_Nutzung_", "_RotGelb_", "_RotGelb-Nutzung_", "RotGelb", "Nutzung", "Axo", "Ausschnitt", "Vorplatz")
+READ = ("Uebersicht", "_Grundriss_", "_Nutzung_", "_RotGelb_", "_RotGelb-Nutzung_", "RotGelb", "Nutzung", "Axo", "Ausschnitt", "Vorplatz",
+        "_RotSchwarz_", "_Staffage_")
 FLOORS = ("-2UG_", "-1UG_", "-EG_", "-EG-V2_", "-1OG_", "-2OG_", "-3OG_")
 FLOOR_SEC = "Entwurf · Grundrisse"
 FLOOR_NAME = {"-2UG_": "UG2", "-1UG_": "UG1", "-EG_": "EG", "-EG-V2_": "EG V2", "-1OG_": "OG1", "-2OG_": "OG2", "-3OG_": "OG3"}
 
 
+def fname(n):
+    """staffage plans (TIB_<G>_Staffage_...) read like the plan set (TIB_Entwurf-<G>_...): same floor row, last in it"""
+    return n.replace("TIB_", "TIB_-", 1) if "_Staffage_" in n else n
+
+
 def reading(rel):
-    n = Path(rel).name
+    n = fname(Path(rel).name)
     return (next((i for i, t in enumerate(FLOORS) if t in n), 9), next((i for i, t in enumerate(READ) if t in n), len(READ)), n)
 
 
@@ -425,7 +431,7 @@ def layout(sections):
         h = {"Fotos": ROW_H * 2, "Referenzen": ROW_H * 4, LEFT: ROW_H * 26, KT_SEC: ROW_H * 4}.get(s["title"], ROW_H)
         x, row = 0, h  # row: height of the current row (a big card makes it taller)
         # design floor plans: one row per floor (2UG at the top), a big floor name left of each row
-        fl = (lambda it: next((t for t in FLOORS if t in Path(it["id"]).name), None)) if s["title"] == FLOOR_SEC else (lambda it: None)
+        fl = (lambda it: next((t for t in FLOORS if t in fname(Path(it["id"]).name)), None)) if s["title"] == FLOOR_SEC else (lambda it: None)
         last = None
         for it in sorted(s["items"], key=lambda it: fl(it) is None) if s["title"] == FLOOR_SEC else s["items"]:
             f = fl(it)
@@ -443,7 +449,7 @@ def layout(sections):
                 p = pos[it["id"]]
                 it |= {"x": p["x"], "y": p["y"], "w": p["w"], "moved": True}
             else:
-                if x and x + w > MAX_W:
+                if x and x + w > MAX_W and not f:          # a floor row stays one row (plan set + staffage)
                     x, y, row = 0, y + row + 110, h
                 it |= {"x": x0 + x, "y": y, "w": round(w)}
                 x += w + GAP
@@ -483,6 +489,8 @@ def relayout():
         sec = it.get("section") or names[[l for l in labs if l["y"] <= it["y"]][-1]["text"]]
         groups.setdefault(sec, []).append(it)
     groups = {names.get(k, k): v for k, v in groups.items()}
+    if FLOOR_SEC in groups:                                       # plan rows in reading order (staffage last)
+        groups[FLOOR_SEC].sort(key=lambda i: reading(i["id"]))
     order = [t for t, _ in SECTIONS] + ["Referenzen"]
     order += [t for t in groups if t not in order]
     layout([{"title": t, "items": groups[t]} for t in order if groups.get(t)])
