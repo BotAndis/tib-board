@@ -169,7 +169,7 @@ GRID = [
 BIG = [f"{D}/*/*.pdf", f"{E}/Möbelbestand/*Inventar_A3*.pdf", f"{R}/*.pdf"]
 # reading order of the design plans (instead of newest first): floors bottom-up, per floor Grundriss, Nutzung, Rot-Gelb
 READ = ("Uebersicht", "_Grundriss_", "_Nutzung_", "_RotGelb_", "_RotGelb-Nutzung_", "RotGelb", "Nutzung", "Axo", "Ausschnitt", "Vorplatz",
-        "_RotSchwarz_", "_Staffage_")
+        "_RotSchwarz_", "_Staffage_", "_Staffage-RotSchwarz_")
 FLOORS = ("-2UG_", "-1UG_", "-EG_", "-EG-V2_", "-1OG_", "-2OG_", "-3OG_")
 FLOOR_SEC = "Entwurf · Grundrisse"
 FLOOR_NAME = {"-2UG_": "UG2", "-1UG_": "UG1", "-EG_": "EG", "-EG-V2_": "EG V2", "-1OG_": "OG1", "-2OG_": "OG2", "-3OG_": "OG3"}
@@ -177,7 +177,7 @@ FLOOR_NAME = {"-2UG_": "UG2", "-1UG_": "UG1", "-EG_": "EG", "-EG-V2_": "EG V2", 
 
 def fname(n):
     """staffage plans (TIB_<G>_Staffage_...) read like the plan set (TIB_Entwurf-<G>_...): same floor row, last in it"""
-    return n.replace("TIB_", "TIB_-", 1) if "_Staffage_" in n else n
+    return n.replace("TIB_", "TIB_-", 1) if "_Staffage" in n else n
 
 
 def reading(rel):

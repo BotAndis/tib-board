@@ -46,11 +46,17 @@ Verbindung Bestand / Anbau (Schnitt Ost, Ostflügel): Beide Häuser behalten ihr
 | 3.OG, Rot-Gelb + Nutzung, M 1:300, A3 | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/a743f928cd41489a868d/) |
 | 3.OG, Rot-Schwarz, M 1:300, A3 | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/acf30b432b1a41ee9c81/) |
 | 2.UG, Staffage, M 1:200 (PDF + DXF für Archicad) | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/60d72655beca4775b578/) · [DXF](https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_2UG_Staffage_Archicad_M1-200_v2.dxf&dl=1) |
+| 2.UG, Staffage, Rot-Schwarz, M 1:200 | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/4c7e692a824347ec9462/) |
 | 1.UG, Staffage, M 1:200 (PDF + DXF für Archicad) | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/05da949ecff941e69731/) · [DXF](https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_1UG_Staffage_Archicad_M1-200_v2.dxf&dl=1) |
+| 1.UG, Staffage, Rot-Schwarz, M 1:200 | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/7e492d17bed74eacb880/) |
 | EG, Staffage, M 1:200 (PDF + DXF für Archicad) | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/aea74fa406d94b9e982b/) · [DXF](https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_EG_Staffage_Archicad_M1-200_v9.dxf&dl=1) |
+| EG, Staffage, Rot-Schwarz, M 1:200 | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/c408937274bd4c1c9a39/) |
 | 1.OG, Staffage, M 1:200 (PDF + DXF für Archicad) | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/a295e17ca0984f7ab2e6/) · [DXF](https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_1OG_Staffage_Archicad_M1-200_v15.dxf&dl=1) |
+| 1.OG, Staffage, Rot-Schwarz, M 1:200 | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/c2977e852a0c476285a2/) |
 | 2.OG, Staffage, M 1:200 (PDF + DXF für Archicad) | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/e2943f35b79340f38854/) · [DXF](https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_2OG_Staffage_Archicad_M1-200_v3.dxf&dl=1) |
+| 2.OG, Staffage, Rot-Schwarz, M 1:200 | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/2e3267497eda49a4b0f9/) |
 | 3.OG, Staffage, M 1:200 (PDF + DXF für Archicad) | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/8614e15bdfe941ac8f18/) · [DXF](https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_3OG_Staffage_Archicad_M1-200_v3.dxf&dl=1) |
+| 3.OG, Staffage, Rot-Schwarz, M 1:200 | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/2091904bd9cc42f0bacd/) |
 | Axonometrie Umbau, explodiert | 2026-11-24 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/d8aae44a9067465cbf98/) |
 | Axonometrie Südost, A1 | 2026-11-24 | [PNG](https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SO_A1_v16.png&raw=1) |
 | Axonometrie Südost, Neubau, A1 | 2026-11-24 | [PNG](https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Axonometrie/TIB_Entwurf_Axo-SO-Neubau_A1_v16.png&raw=1) |
