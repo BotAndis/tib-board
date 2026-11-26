@@ -101,7 +101,7 @@ Verbindung Bestand / Anbau (Schnitt Ost, Ostflügel): Beide Häuser behalten ihr
 | Layout: Schnitt Ost, M 1:200, Sondermaß 860 x 751 | 2026-11-26 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/70176ef7b4a5476681f5/) |
 | Layout: Umbau Rot-Gelb-Schwarz, M 1:200, A2 | 2026-11-26 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/17a15efc411f4c5f9315/) |
 | Layout: Umbau Rot-Gelb-Schwarz mit Schnitten, M 1:200, Übergröße 420 x 771 | 2026-11-26 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/8e1433bf639049729b27/) |
-| Layout: Nutzung, M 1:200, A2 | 2026-11-26 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/654d341d004d4de79c51/) |
+| Layout: Nutzung, M 1:200, A2 | 2026-11-26 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/6aa9b82968254849bf27/) |
 | Layout: Bestand Nutzung und Flächenbedarf, A3 | 2026-11-17 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/6e65f2b3cd7746cfa4f4/) |
 | Layout: Axonometrie Südwest, A2 | 2026-11-26 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/cc8fb23886dd412caf5f/) |
 | Layout: Axonometrie Südwest, A3 | 2026-11-26 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/9d86bb36542240a8bce9/) |

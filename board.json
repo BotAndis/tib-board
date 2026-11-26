@@ -2519,17 +2519,17 @@
    "w": 1695
   },
   {
-   "id": "4_Entwurf/Layout/TIB_03_Nutzung_M1-200_A2_v10.pdf",
+   "id": "4_Entwurf/Layout/TIB_03_Nutzung_M1-200_A2_v11.pdf",
    "kind": "pdf",
-   "title": "TIB 03 Nutzung M1-200 A2 v10",
+   "title": "TIB 03 Nutzung M1-200 A2 v11",
    "ext": "pdf",
-   "size": 6044596,
+   "size": 6036053,
    "date": "26.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/TIB_03_Nutzung_M1-200_A2_v10.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/TIB_03_Nutzung_M1-200_A2_v10.pdf&raw=1",
-   "thumb": "thumbs/f9d65d2985df3c45.webp",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/TIB_03_Nutzung_M1-200_A2_v11.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/TIB_03_Nutzung_M1-200_A2_v11.pdf&raw=1",
+   "thumb": "thumbs/3fc95bf037404ea6.webp",
    "ar": 0.7073,
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/654d341d004d4de79c51/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/6aa9b82968254849bf27/",
    "section": "Entwurf · Layout",
    "x": 9200,
    "y": 1560,
@@ -3778,6 +3778,19 @@
      "thumb": "thumbs/84fb8de61a085369.webp",
      "ar": 1.4157,
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/deab08cbbe09477284ca/"
+    },
+    {
+     "id": "4_Entwurf/Layout/Ältere Versionen/TIB_03_Nutzung_M1-200_A2_v10.pdf",
+     "kind": "pdf",
+     "title": "TIB 03 Nutzung M1-200 A2 v10",
+     "ext": "pdf",
+     "size": 6044596,
+     "date": "26.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/%C3%84ltere%20Versionen/TIB_03_Nutzung_M1-200_A2_v10.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Layout/%C3%84ltere%20Versionen/TIB_03_Nutzung_M1-200_A2_v10.pdf&raw=1",
+     "thumb": "thumbs/d8430b694d07f02f.webp",
+     "ar": 0.7073,
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/59d56fe8ade54d7e8490/"
     },
     {
      "id": "4_Entwurf/Layout/Ältere Versionen/TIB_02_Umbau_RotGelbSchwarz+Schnitte_M1-200_Uebergroesse-420x771_v10.pdf",
@@ -6470,120 +6483,120 @@
    "w": 300
   },
   {
-   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-2UG_Grundriss_M1-300_A3_v76.pdf",
+   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-2UG_Grundriss_M1-300_A3_v77.pdf",
    "kind": "pdf",
-   "title": "TIB Entwurf-2UG Grundriss M1-300 A3 v76",
+   "title": "TIB Entwurf-2UG Grundriss M1-300 A3 v77",
    "ext": "pdf",
    "size": 683054,
-   "date": "25.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2UG_Grundriss_M1-300_A3_v76.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2UG_Grundriss_M1-300_A3_v76.pdf&raw=1",
-   "thumb": "thumbs/1560ae4438d09b7a.webp",
+   "date": "26.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2UG_Grundriss_M1-300_A3_v77.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2UG_Grundriss_M1-300_A3_v77.pdf&raw=1",
+   "thumb": "thumbs/9e934495abb914de.webp",
    "ar": 0.7073,
    "dxf": [
     {
      "label": "DXF für Archicad M 1:200",
-     "name": "TIB_Entwurf-2UG_Archicad_M1-200_v76.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2UG_Archicad_M1-200_v76.dxf&dl=1"
+     "name": "TIB_Entwurf-2UG_Archicad_M1-200_v77.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2UG_Archicad_M1-200_v77.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/cec7bb8a65244a3dbc58/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/c7c3550393d24df08c46/",
    "section": "Entwurf · Grundrisse",
    "x": 9200,
    "y": 30110,
    "w": 849
   },
   {
-   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-2UG_Nutzung_M1-300_A3_v76.pdf",
+   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-2UG_Nutzung_M1-300_A3_v77.pdf",
    "kind": "pdf",
-   "title": "TIB Entwurf-2UG Nutzung M1-300 A3 v76",
+   "title": "TIB Entwurf-2UG Nutzung M1-300 A3 v77",
    "ext": "pdf",
    "size": 688298,
-   "date": "25.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2UG_Nutzung_M1-300_A3_v76.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2UG_Nutzung_M1-300_A3_v76.pdf&raw=1",
-   "thumb": "thumbs/41a6c1a09e92cfb2.webp",
+   "date": "26.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2UG_Nutzung_M1-300_A3_v77.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2UG_Nutzung_M1-300_A3_v77.pdf&raw=1",
+   "thumb": "thumbs/a6ddd0b3f25b9060.webp",
    "ar": 0.7073,
    "dxf": [
     {
      "label": "DXF für Archicad M 1:200",
-     "name": "TIB_Entwurf-2UG_Archicad_M1-200_v76.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2UG_Archicad_M1-200_v76.dxf&dl=1"
+     "name": "TIB_Entwurf-2UG_Archicad_M1-200_v77.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2UG_Archicad_M1-200_v77.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/9c21d5fa977c43bea7fb/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/058e8cdc3eb24aa5b7f8/",
    "section": "Entwurf · Grundrisse",
    "x": 10088.76,
    "y": 30110,
    "w": 849
   },
   {
-   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-2UG_RotGelb_M1-300_A3_v76.pdf",
+   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-2UG_RotGelb_M1-300_A3_v77.pdf",
    "kind": "pdf",
-   "title": "TIB Entwurf-2UG RotGelb M1-300 A3 v76",
+   "title": "TIB Entwurf-2UG RotGelb M1-300 A3 v77",
    "ext": "pdf",
    "size": 683728,
-   "date": "25.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2UG_RotGelb_M1-300_A3_v76.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2UG_RotGelb_M1-300_A3_v76.pdf&raw=1",
-   "thumb": "thumbs/0f3f5293a4d422c3.webp",
+   "date": "26.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2UG_RotGelb_M1-300_A3_v77.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2UG_RotGelb_M1-300_A3_v77.pdf&raw=1",
+   "thumb": "thumbs/6b8c1483401565ef.webp",
    "ar": 0.7073,
    "dxf": [
     {
      "label": "DXF für Archicad M 1:200",
-     "name": "TIB_Entwurf-2UG_Archicad_M1-200_v76.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2UG_Archicad_M1-200_v76.dxf&dl=1"
+     "name": "TIB_Entwurf-2UG_Archicad_M1-200_v77.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2UG_Archicad_M1-200_v77.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/aa7595346bba423baffb/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/f79449527e4343b4bd4d/",
    "section": "Entwurf · Grundrisse",
    "x": 10977.52,
    "y": 30110,
    "w": 849
   },
   {
-   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-2UG_RotGelb-Nutzung_M1-300_A3_v76.pdf",
+   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-2UG_RotGelb-Nutzung_M1-300_A3_v77.pdf",
    "kind": "pdf",
-   "title": "TIB Entwurf-2UG RotGelb-Nutzung M1-300 A3 v76",
+   "title": "TIB Entwurf-2UG RotGelb-Nutzung M1-300 A3 v77",
    "ext": "pdf",
    "size": 688968,
-   "date": "25.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2UG_RotGelb-Nutzung_M1-300_A3_v76.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2UG_RotGelb-Nutzung_M1-300_A3_v76.pdf&raw=1",
-   "thumb": "thumbs/697a6322f08b8112.webp",
+   "date": "26.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2UG_RotGelb-Nutzung_M1-300_A3_v77.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2UG_RotGelb-Nutzung_M1-300_A3_v77.pdf&raw=1",
+   "thumb": "thumbs/af1612fd8327309f.webp",
    "ar": 0.7073,
    "dxf": [
     {
      "label": "DXF für Archicad M 1:200",
-     "name": "TIB_Entwurf-2UG_Archicad_M1-200_v76.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2UG_Archicad_M1-200_v76.dxf&dl=1"
+     "name": "TIB_Entwurf-2UG_Archicad_M1-200_v77.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2UG_Archicad_M1-200_v77.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/ccbca209cb534956a2c9/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/50cdeb41e35840618858/",
    "section": "Entwurf · Grundrisse",
    "x": 11866.279999999999,
    "y": 30110,
    "w": 849
   },
   {
-   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-2UG_RotSchwarz_M1-300_A3_v76.pdf",
+   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-2UG_RotSchwarz_M1-300_A3_v77.pdf",
    "kind": "pdf",
-   "title": "TIB Entwurf-2UG RotSchwarz M1-300 A3 v76",
+   "title": "TIB Entwurf-2UG RotSchwarz M1-300 A3 v77",
    "ext": "pdf",
    "size": 683096,
-   "date": "25.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2UG_RotSchwarz_M1-300_A3_v76.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2UG_RotSchwarz_M1-300_A3_v76.pdf&raw=1",
-   "thumb": "thumbs/f62efa85bdcc7fca.webp",
+   "date": "26.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2UG_RotSchwarz_M1-300_A3_v77.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2UG_RotSchwarz_M1-300_A3_v77.pdf&raw=1",
+   "thumb": "thumbs/a80cfdfcce5f80eb.webp",
    "ar": 0.7073,
    "dxf": [
     {
      "label": "DXF für Archicad M 1:200",
-     "name": "TIB_Entwurf-2UG_Archicad_M1-200_v76.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2UG_Archicad_M1-200_v76.dxf&dl=1"
+     "name": "TIB_Entwurf-2UG_Archicad_M1-200_v77.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2UG_Archicad_M1-200_v77.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/84545d0c2d234202bcae/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/c81b844a3bff4e90b0a5/",
    "section": "Entwurf · Grundrisse",
    "x": 12755.04,
    "y": 30110,
@@ -6631,120 +6644,120 @@
    "w": 848
   },
   {
-   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-1UG_Grundriss_M1-300_A3_v76.pdf",
+   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-1UG_Grundriss_M1-300_A3_v77.pdf",
    "kind": "pdf",
-   "title": "TIB Entwurf-1UG Grundriss M1-300 A3 v76",
+   "title": "TIB Entwurf-1UG Grundriss M1-300 A3 v77",
    "ext": "pdf",
    "size": 858505,
-   "date": "25.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1UG_Grundriss_M1-300_A3_v76.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1UG_Grundriss_M1-300_A3_v76.pdf&raw=1",
-   "thumb": "thumbs/147931bf206016d9.webp",
+   "date": "26.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1UG_Grundriss_M1-300_A3_v77.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1UG_Grundriss_M1-300_A3_v77.pdf&raw=1",
+   "thumb": "thumbs/4c321f35176825ae.webp",
    "ar": 0.7073,
    "dxf": [
     {
      "label": "DXF für Archicad M 1:200",
-     "name": "TIB_Entwurf-1UG_Archicad_M1-200_v76.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1UG_Archicad_M1-200_v76.dxf&dl=1"
+     "name": "TIB_Entwurf-1UG_Archicad_M1-200_v77.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1UG_Archicad_M1-200_v77.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/c91389c9b3c2422187a5/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/d588eed0437540718061/",
    "section": "Entwurf · Grundrisse",
    "x": 9200,
    "y": 31420,
    "w": 849
   },
   {
-   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-1UG_Nutzung_M1-300_A3_v76.pdf",
+   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-1UG_Nutzung_M1-300_A3_v77.pdf",
    "kind": "pdf",
-   "title": "TIB Entwurf-1UG Nutzung M1-300 A3 v76",
+   "title": "TIB Entwurf-1UG Nutzung M1-300 A3 v77",
    "ext": "pdf",
-   "size": 876423,
-   "date": "25.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1UG_Nutzung_M1-300_A3_v76.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1UG_Nutzung_M1-300_A3_v76.pdf&raw=1",
-   "thumb": "thumbs/8764ff0a8d5d0a4a.webp",
+   "size": 876448,
+   "date": "26.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1UG_Nutzung_M1-300_A3_v77.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1UG_Nutzung_M1-300_A3_v77.pdf&raw=1",
+   "thumb": "thumbs/78d316f8f3595bf8.webp",
    "ar": 0.7073,
    "dxf": [
     {
      "label": "DXF für Archicad M 1:200",
-     "name": "TIB_Entwurf-1UG_Archicad_M1-200_v76.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1UG_Archicad_M1-200_v76.dxf&dl=1"
+     "name": "TIB_Entwurf-1UG_Archicad_M1-200_v77.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1UG_Archicad_M1-200_v77.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/e2d3153c66c64b06b416/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/f5b148c50f2049828847/",
    "section": "Entwurf · Grundrisse",
    "x": 10088.76,
    "y": 31420,
    "w": 849
   },
   {
-   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-1UG_RotGelb_M1-300_A3_v76.pdf",
+   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-1UG_RotGelb_M1-300_A3_v77.pdf",
    "kind": "pdf",
-   "title": "TIB Entwurf-1UG RotGelb M1-300 A3 v76",
+   "title": "TIB Entwurf-1UG RotGelb M1-300 A3 v77",
    "ext": "pdf",
    "size": 865243,
-   "date": "25.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1UG_RotGelb_M1-300_A3_v76.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1UG_RotGelb_M1-300_A3_v76.pdf&raw=1",
-   "thumb": "thumbs/0fc658c26b741a3a.webp",
+   "date": "26.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1UG_RotGelb_M1-300_A3_v77.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1UG_RotGelb_M1-300_A3_v77.pdf&raw=1",
+   "thumb": "thumbs/17e0be1118c5b957.webp",
    "ar": 0.7073,
    "dxf": [
     {
      "label": "DXF für Archicad M 1:200",
-     "name": "TIB_Entwurf-1UG_Archicad_M1-200_v76.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1UG_Archicad_M1-200_v76.dxf&dl=1"
+     "name": "TIB_Entwurf-1UG_Archicad_M1-200_v77.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1UG_Archicad_M1-200_v77.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/0b34018f0cfd4412b6c5/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/170947e11f914c0cbe8f/",
    "section": "Entwurf · Grundrisse",
    "x": 10977.52,
    "y": 31420,
    "w": 849
   },
   {
-   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-1UG_RotGelb-Nutzung_M1-300_A3_v76.pdf",
+   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-1UG_RotGelb-Nutzung_M1-300_A3_v77.pdf",
    "kind": "pdf",
-   "title": "TIB Entwurf-1UG RotGelb-Nutzung M1-300 A3 v76",
+   "title": "TIB Entwurf-1UG RotGelb-Nutzung M1-300 A3 v77",
    "ext": "pdf",
-   "size": 883686,
-   "date": "25.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1UG_RotGelb-Nutzung_M1-300_A3_v76.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1UG_RotGelb-Nutzung_M1-300_A3_v76.pdf&raw=1",
-   "thumb": "thumbs/2b747399d6aafd37.webp",
+   "size": 883766,
+   "date": "26.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1UG_RotGelb-Nutzung_M1-300_A3_v77.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1UG_RotGelb-Nutzung_M1-300_A3_v77.pdf&raw=1",
+   "thumb": "thumbs/17ab85faf3fa06a3.webp",
    "ar": 0.7073,
    "dxf": [
     {
      "label": "DXF für Archicad M 1:200",
-     "name": "TIB_Entwurf-1UG_Archicad_M1-200_v76.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1UG_Archicad_M1-200_v76.dxf&dl=1"
+     "name": "TIB_Entwurf-1UG_Archicad_M1-200_v77.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1UG_Archicad_M1-200_v77.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/6f94403e253040c68187/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/fcaeeae8a68b4b118009/",
    "section": "Entwurf · Grundrisse",
    "x": 11866.279999999999,
    "y": 31420,
    "w": 849
   },
   {
-   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-1UG_RotSchwarz_M1-300_A3_v76.pdf",
+   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-1UG_RotSchwarz_M1-300_A3_v77.pdf",
    "kind": "pdf",
-   "title": "TIB Entwurf-1UG RotSchwarz M1-300 A3 v76",
+   "title": "TIB Entwurf-1UG RotSchwarz M1-300 A3 v77",
    "ext": "pdf",
    "size": 858858,
-   "date": "25.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1UG_RotSchwarz_M1-300_A3_v76.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1UG_RotSchwarz_M1-300_A3_v76.pdf&raw=1",
-   "thumb": "thumbs/bedf60e2ac519b5d.webp",
+   "date": "26.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1UG_RotSchwarz_M1-300_A3_v77.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1UG_RotSchwarz_M1-300_A3_v77.pdf&raw=1",
+   "thumb": "thumbs/59a664d9cf868ab3.webp",
    "ar": 0.7073,
    "dxf": [
     {
      "label": "DXF für Archicad M 1:200",
-     "name": "TIB_Entwurf-1UG_Archicad_M1-200_v76.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1UG_Archicad_M1-200_v76.dxf&dl=1"
+     "name": "TIB_Entwurf-1UG_Archicad_M1-200_v77.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1UG_Archicad_M1-200_v77.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/b5a302acb42d4b2dade1/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/24a898cc85bc4b92bde1/",
    "section": "Entwurf · Grundrisse",
    "x": 12755.04,
    "y": 31420,
@@ -6792,120 +6805,120 @@
    "w": 848
   },
   {
-   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-EG_Grundriss_M1-300_A3_v76.pdf",
+   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-EG_Grundriss_M1-300_A3_v77.pdf",
    "kind": "pdf",
-   "title": "TIB Entwurf-EG Grundriss M1-300 A3 v76",
+   "title": "TIB Entwurf-EG Grundriss M1-300 A3 v77",
    "ext": "pdf",
    "size": 886098,
-   "date": "25.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-EG_Grundriss_M1-300_A3_v76.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-EG_Grundriss_M1-300_A3_v76.pdf&raw=1",
-   "thumb": "thumbs/ee4555cdd543a00f.webp",
+   "date": "26.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-EG_Grundriss_M1-300_A3_v77.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-EG_Grundriss_M1-300_A3_v77.pdf&raw=1",
+   "thumb": "thumbs/f4097023e641f68f.webp",
    "ar": 0.7073,
    "dxf": [
     {
      "label": "DXF für Archicad M 1:200",
-     "name": "TIB_Entwurf-EG_Archicad_M1-200_v76.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-EG_Archicad_M1-200_v76.dxf&dl=1"
+     "name": "TIB_Entwurf-EG_Archicad_M1-200_v77.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-EG_Archicad_M1-200_v77.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/e7d370916a9145739bc0/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/b9adcf7c10644d4da8e7/",
    "section": "Entwurf · Grundrisse",
    "x": 9200,
    "y": 32730,
    "w": 849
   },
   {
-   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-EG_Nutzung_M1-300_A3_v76.pdf",
+   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-EG_Nutzung_M1-300_A3_v77.pdf",
    "kind": "pdf",
-   "title": "TIB Entwurf-EG Nutzung M1-300 A3 v76",
+   "title": "TIB Entwurf-EG Nutzung M1-300 A3 v77",
    "ext": "pdf",
-   "size": 902501,
-   "date": "25.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-EG_Nutzung_M1-300_A3_v76.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-EG_Nutzung_M1-300_A3_v76.pdf&raw=1",
-   "thumb": "thumbs/55110ce917bdbcbd.webp",
+   "size": 898614,
+   "date": "26.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-EG_Nutzung_M1-300_A3_v77.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-EG_Nutzung_M1-300_A3_v77.pdf&raw=1",
+   "thumb": "thumbs/6bf7550364323ea0.webp",
    "ar": 0.7073,
    "dxf": [
     {
      "label": "DXF für Archicad M 1:200",
-     "name": "TIB_Entwurf-EG_Archicad_M1-200_v76.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-EG_Archicad_M1-200_v76.dxf&dl=1"
+     "name": "TIB_Entwurf-EG_Archicad_M1-200_v77.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-EG_Archicad_M1-200_v77.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/83a818efcac340c9877f/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/e18f8753906f4ca6b501/",
    "section": "Entwurf · Grundrisse",
    "x": 10088.76,
    "y": 32730,
    "w": 849
   },
   {
-   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-EG_RotGelb_M1-300_A3_v76.pdf",
+   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-EG_RotGelb_M1-300_A3_v77.pdf",
    "kind": "pdf",
-   "title": "TIB Entwurf-EG RotGelb M1-300 A3 v76",
+   "title": "TIB Entwurf-EG RotGelb M1-300 A3 v77",
    "ext": "pdf",
    "size": 985081,
-   "date": "25.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-EG_RotGelb_M1-300_A3_v76.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-EG_RotGelb_M1-300_A3_v76.pdf&raw=1",
-   "thumb": "thumbs/66f576bead596bec.webp",
+   "date": "26.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-EG_RotGelb_M1-300_A3_v77.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-EG_RotGelb_M1-300_A3_v77.pdf&raw=1",
+   "thumb": "thumbs/e4ed68c3b7719ad7.webp",
    "ar": 0.7073,
    "dxf": [
     {
      "label": "DXF für Archicad M 1:200",
-     "name": "TIB_Entwurf-EG_Archicad_M1-200_v76.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-EG_Archicad_M1-200_v76.dxf&dl=1"
+     "name": "TIB_Entwurf-EG_Archicad_M1-200_v77.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-EG_Archicad_M1-200_v77.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/655f454992914ebd810a/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/6b4da8d784274d318f7a/",
    "section": "Entwurf · Grundrisse",
    "x": 10977.52,
    "y": 32730,
    "w": 849
   },
   {
-   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-EG_RotGelb-Nutzung_M1-300_A3_v76.pdf",
+   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-EG_RotGelb-Nutzung_M1-300_A3_v77.pdf",
    "kind": "pdf",
-   "title": "TIB Entwurf-EG RotGelb-Nutzung M1-300 A3 v76",
+   "title": "TIB Entwurf-EG RotGelb-Nutzung M1-300 A3 v77",
    "ext": "pdf",
-   "size": 1001418,
-   "date": "25.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-EG_RotGelb-Nutzung_M1-300_A3_v76.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-EG_RotGelb-Nutzung_M1-300_A3_v76.pdf&raw=1",
-   "thumb": "thumbs/b4782f130b1ac6d2.webp",
+   "size": 997287,
+   "date": "26.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-EG_RotGelb-Nutzung_M1-300_A3_v77.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-EG_RotGelb-Nutzung_M1-300_A3_v77.pdf&raw=1",
+   "thumb": "thumbs/8c3d2a1cd6ec39f4.webp",
    "ar": 0.7073,
    "dxf": [
     {
      "label": "DXF für Archicad M 1:200",
-     "name": "TIB_Entwurf-EG_Archicad_M1-200_v76.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-EG_Archicad_M1-200_v76.dxf&dl=1"
+     "name": "TIB_Entwurf-EG_Archicad_M1-200_v77.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-EG_Archicad_M1-200_v77.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/3d3dd8f518a047d398af/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/2954d19cb8fa460abc30/",
    "section": "Entwurf · Grundrisse",
    "x": 11866.279999999999,
    "y": 32730,
    "w": 849
   },
   {
-   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-EG_RotSchwarz_M1-300_A3_v76.pdf",
+   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-EG_RotSchwarz_M1-300_A3_v77.pdf",
    "kind": "pdf",
-   "title": "TIB Entwurf-EG RotSchwarz M1-300 A3 v76",
+   "title": "TIB Entwurf-EG RotSchwarz M1-300 A3 v77",
    "ext": "pdf",
    "size": 886665,
-   "date": "25.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-EG_RotSchwarz_M1-300_A3_v76.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-EG_RotSchwarz_M1-300_A3_v76.pdf&raw=1",
-   "thumb": "thumbs/f7e90dec56b9da65.webp",
+   "date": "26.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-EG_RotSchwarz_M1-300_A3_v77.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-EG_RotSchwarz_M1-300_A3_v77.pdf&raw=1",
+   "thumb": "thumbs/1fa6aa6d4452ee5f.webp",
    "ar": 0.7073,
    "dxf": [
     {
      "label": "DXF für Archicad M 1:200",
-     "name": "TIB_Entwurf-EG_Archicad_M1-200_v76.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-EG_Archicad_M1-200_v76.dxf&dl=1"
+     "name": "TIB_Entwurf-EG_Archicad_M1-200_v77.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-EG_Archicad_M1-200_v77.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/e8d41ef776c048eba720/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/e4069816591a46188a9d/",
    "section": "Entwurf · Grundrisse",
    "x": 12755.04,
    "y": 32730,
@@ -6953,120 +6966,120 @@
    "w": 848
   },
   {
-   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-1OG_Grundriss_M1-300_A3_v76.pdf",
+   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-1OG_Grundriss_M1-300_A3_v77.pdf",
    "kind": "pdf",
-   "title": "TIB Entwurf-1OG Grundriss M1-300 A3 v76",
+   "title": "TIB Entwurf-1OG Grundriss M1-300 A3 v77",
    "ext": "pdf",
    "size": 840334,
-   "date": "25.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1OG_Grundriss_M1-300_A3_v76.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1OG_Grundriss_M1-300_A3_v76.pdf&raw=1",
-   "thumb": "thumbs/82a8dc1ce24674c2.webp",
+   "date": "26.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1OG_Grundriss_M1-300_A3_v77.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1OG_Grundriss_M1-300_A3_v77.pdf&raw=1",
+   "thumb": "thumbs/42119071afedd1d8.webp",
    "ar": 0.7073,
    "dxf": [
     {
      "label": "DXF für Archicad M 1:200",
-     "name": "TIB_Entwurf-1OG_Archicad_M1-200_v76.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1OG_Archicad_M1-200_v76.dxf&dl=1"
+     "name": "TIB_Entwurf-1OG_Archicad_M1-200_v77.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1OG_Archicad_M1-200_v77.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/0e078343597c442d9fb5/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/d52dba13a5f74e78b058/",
    "section": "Entwurf · Grundrisse",
    "x": 9200,
    "y": 34040,
    "w": 849
   },
   {
-   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-1OG_Nutzung_M1-300_A3_v76.pdf",
+   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-1OG_Nutzung_M1-300_A3_v77.pdf",
    "kind": "pdf",
-   "title": "TIB Entwurf-1OG Nutzung M1-300 A3 v76",
+   "title": "TIB Entwurf-1OG Nutzung M1-300 A3 v77",
    "ext": "pdf",
-   "size": 855556,
-   "date": "25.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1OG_Nutzung_M1-300_A3_v76.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1OG_Nutzung_M1-300_A3_v76.pdf&raw=1",
-   "thumb": "thumbs/b4596355fed57263.webp",
+   "size": 852143,
+   "date": "26.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1OG_Nutzung_M1-300_A3_v77.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1OG_Nutzung_M1-300_A3_v77.pdf&raw=1",
+   "thumb": "thumbs/db5188b71908f1de.webp",
    "ar": 0.7073,
    "dxf": [
     {
      "label": "DXF für Archicad M 1:200",
-     "name": "TIB_Entwurf-1OG_Archicad_M1-200_v76.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1OG_Archicad_M1-200_v76.dxf&dl=1"
+     "name": "TIB_Entwurf-1OG_Archicad_M1-200_v77.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1OG_Archicad_M1-200_v77.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/c0213b197ae843dabf4d/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/b632c50b596b470a83e1/",
    "section": "Entwurf · Grundrisse",
    "x": 10088.76,
    "y": 34040,
    "w": 849
   },
   {
-   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-1OG_RotGelb_M1-300_A3_v76.pdf",
+   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-1OG_RotGelb_M1-300_A3_v77.pdf",
    "kind": "pdf",
-   "title": "TIB Entwurf-1OG RotGelb M1-300 A3 v76",
+   "title": "TIB Entwurf-1OG RotGelb M1-300 A3 v77",
    "ext": "pdf",
    "size": 868434,
-   "date": "25.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1OG_RotGelb_M1-300_A3_v76.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1OG_RotGelb_M1-300_A3_v76.pdf&raw=1",
-   "thumb": "thumbs/4187820b59634839.webp",
+   "date": "26.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1OG_RotGelb_M1-300_A3_v77.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1OG_RotGelb_M1-300_A3_v77.pdf&raw=1",
+   "thumb": "thumbs/ece611f71de2c263.webp",
    "ar": 0.7073,
    "dxf": [
     {
      "label": "DXF für Archicad M 1:200",
-     "name": "TIB_Entwurf-1OG_Archicad_M1-200_v76.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1OG_Archicad_M1-200_v76.dxf&dl=1"
+     "name": "TIB_Entwurf-1OG_Archicad_M1-200_v77.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1OG_Archicad_M1-200_v77.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/f8f306dcddce4602b650/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/6a9742dcebff48a4ad68/",
    "section": "Entwurf · Grundrisse",
    "x": 10977.52,
    "y": 34040,
    "w": 849
   },
   {
-   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-1OG_RotGelb-Nutzung_M1-300_A3_v76.pdf",
+   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-1OG_RotGelb-Nutzung_M1-300_A3_v77.pdf",
    "kind": "pdf",
-   "title": "TIB Entwurf-1OG RotGelb-Nutzung M1-300 A3 v76",
+   "title": "TIB Entwurf-1OG RotGelb-Nutzung M1-300 A3 v77",
    "ext": "pdf",
-   "size": 884273,
-   "date": "25.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1OG_RotGelb-Nutzung_M1-300_A3_v76.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1OG_RotGelb-Nutzung_M1-300_A3_v76.pdf&raw=1",
-   "thumb": "thumbs/e557dee9a6386b61.webp",
+   "size": 880760,
+   "date": "26.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1OG_RotGelb-Nutzung_M1-300_A3_v77.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1OG_RotGelb-Nutzung_M1-300_A3_v77.pdf&raw=1",
+   "thumb": "thumbs/09c59f8a219126e2.webp",
    "ar": 0.7073,
    "dxf": [
     {
      "label": "DXF für Archicad M 1:200",
-     "name": "TIB_Entwurf-1OG_Archicad_M1-200_v76.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1OG_Archicad_M1-200_v76.dxf&dl=1"
+     "name": "TIB_Entwurf-1OG_Archicad_M1-200_v77.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1OG_Archicad_M1-200_v77.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/db2c5d88f9664e2f88dd/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/560cdd0a6eb0479a9b29/",
    "section": "Entwurf · Grundrisse",
    "x": 11866.279999999999,
    "y": 34040,
    "w": 849
   },
   {
-   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-1OG_RotSchwarz_M1-300_A3_v76.pdf",
+   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-1OG_RotSchwarz_M1-300_A3_v77.pdf",
    "kind": "pdf",
-   "title": "TIB Entwurf-1OG RotSchwarz M1-300 A3 v76",
+   "title": "TIB Entwurf-1OG RotSchwarz M1-300 A3 v77",
    "ext": "pdf",
    "size": 841036,
-   "date": "25.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1OG_RotSchwarz_M1-300_A3_v76.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1OG_RotSchwarz_M1-300_A3_v76.pdf&raw=1",
-   "thumb": "thumbs/0d905638d63b5ff4.webp",
+   "date": "26.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1OG_RotSchwarz_M1-300_A3_v77.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1OG_RotSchwarz_M1-300_A3_v77.pdf&raw=1",
+   "thumb": "thumbs/028bae2c69506f67.webp",
    "ar": 0.7073,
    "dxf": [
     {
      "label": "DXF für Archicad M 1:200",
-     "name": "TIB_Entwurf-1OG_Archicad_M1-200_v76.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1OG_Archicad_M1-200_v76.dxf&dl=1"
+     "name": "TIB_Entwurf-1OG_Archicad_M1-200_v77.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-1OG_Archicad_M1-200_v77.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/8231a63ebfca4053b0ff/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/372339db55d6454397a3/",
    "section": "Entwurf · Grundrisse",
    "x": 12755.04,
    "y": 34040,
@@ -7114,120 +7127,120 @@
    "w": 848
   },
   {
-   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-2OG_Grundriss_M1-300_A3_v76.pdf",
+   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-2OG_Grundriss_M1-300_A3_v77.pdf",
    "kind": "pdf",
-   "title": "TIB Entwurf-2OG Grundriss M1-300 A3 v76",
+   "title": "TIB Entwurf-2OG Grundriss M1-300 A3 v77",
    "ext": "pdf",
-   "size": 974240,
-   "date": "25.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2OG_Grundriss_M1-300_A3_v76.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2OG_Grundriss_M1-300_A3_v76.pdf&raw=1",
-   "thumb": "thumbs/d8426c1d3a6312a6.webp",
+   "size": 974105,
+   "date": "26.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2OG_Grundriss_M1-300_A3_v77.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2OG_Grundriss_M1-300_A3_v77.pdf&raw=1",
+   "thumb": "thumbs/ca653f010b0cd165.webp",
    "ar": 0.7073,
    "dxf": [
     {
      "label": "DXF für Archicad M 1:200",
-     "name": "TIB_Entwurf-2OG_Archicad_M1-200_v76.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2OG_Archicad_M1-200_v76.dxf&dl=1"
+     "name": "TIB_Entwurf-2OG_Archicad_M1-200_v77.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2OG_Archicad_M1-200_v77.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/2dcc3e024673448895f2/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/a49c02d628e0476fbaa3/",
    "section": "Entwurf · Grundrisse",
    "x": 9200,
    "y": 35350,
    "w": 849
   },
   {
-   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-2OG_Nutzung_M1-300_A3_v76.pdf",
+   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-2OG_Nutzung_M1-300_A3_v77.pdf",
    "kind": "pdf",
-   "title": "TIB Entwurf-2OG Nutzung M1-300 A3 v76",
+   "title": "TIB Entwurf-2OG Nutzung M1-300 A3 v77",
    "ext": "pdf",
-   "size": 1003516,
-   "date": "25.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2OG_Nutzung_M1-300_A3_v76.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2OG_Nutzung_M1-300_A3_v76.pdf&raw=1",
-   "thumb": "thumbs/6ed35648c79685af.webp",
+   "size": 1003381,
+   "date": "26.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2OG_Nutzung_M1-300_A3_v77.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2OG_Nutzung_M1-300_A3_v77.pdf&raw=1",
+   "thumb": "thumbs/61f640599fff2ae8.webp",
    "ar": 0.7073,
    "dxf": [
     {
      "label": "DXF für Archicad M 1:200",
-     "name": "TIB_Entwurf-2OG_Archicad_M1-200_v76.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2OG_Archicad_M1-200_v76.dxf&dl=1"
+     "name": "TIB_Entwurf-2OG_Archicad_M1-200_v77.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2OG_Archicad_M1-200_v77.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/a5d490fc59994dc7a149/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/4bcd77d2379545f7896f/",
    "section": "Entwurf · Grundrisse",
    "x": 10088.76,
    "y": 35350,
    "w": 849
   },
   {
-   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-2OG_RotGelb_M1-300_A3_v76.pdf",
+   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-2OG_RotGelb_M1-300_A3_v77.pdf",
    "kind": "pdf",
-   "title": "TIB Entwurf-2OG RotGelb M1-300 A3 v76",
+   "title": "TIB Entwurf-2OG RotGelb M1-300 A3 v77",
    "ext": "pdf",
-   "size": 993330,
-   "date": "25.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2OG_RotGelb_M1-300_A3_v76.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2OG_RotGelb_M1-300_A3_v76.pdf&raw=1",
-   "thumb": "thumbs/184ddf928f7e5869.webp",
+   "size": 993189,
+   "date": "26.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2OG_RotGelb_M1-300_A3_v77.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2OG_RotGelb_M1-300_A3_v77.pdf&raw=1",
+   "thumb": "thumbs/582c2e97c664cbad.webp",
    "ar": 0.7073,
    "dxf": [
     {
      "label": "DXF für Archicad M 1:200",
-     "name": "TIB_Entwurf-2OG_Archicad_M1-200_v76.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2OG_Archicad_M1-200_v76.dxf&dl=1"
+     "name": "TIB_Entwurf-2OG_Archicad_M1-200_v77.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2OG_Archicad_M1-200_v77.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/bfda3145332744aead92/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/fa1557d1ba0d4e2ba9e2/",
    "section": "Entwurf · Grundrisse",
    "x": 10977.52,
    "y": 35350,
    "w": 849
   },
   {
-   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-2OG_RotGelb-Nutzung_M1-300_A3_v76.pdf",
+   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-2OG_RotGelb-Nutzung_M1-300_A3_v77.pdf",
    "kind": "pdf",
-   "title": "TIB Entwurf-2OG RotGelb-Nutzung M1-300 A3 v76",
+   "title": "TIB Entwurf-2OG RotGelb-Nutzung M1-300 A3 v77",
    "ext": "pdf",
-   "size": 1022880,
-   "date": "25.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2OG_RotGelb-Nutzung_M1-300_A3_v76.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2OG_RotGelb-Nutzung_M1-300_A3_v76.pdf&raw=1",
-   "thumb": "thumbs/3ce8caff131cc70b.webp",
+   "size": 1022817,
+   "date": "26.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2OG_RotGelb-Nutzung_M1-300_A3_v77.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2OG_RotGelb-Nutzung_M1-300_A3_v77.pdf&raw=1",
+   "thumb": "thumbs/9b3dad2ff3391105.webp",
    "ar": 0.7073,
    "dxf": [
     {
      "label": "DXF für Archicad M 1:200",
-     "name": "TIB_Entwurf-2OG_Archicad_M1-200_v76.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2OG_Archicad_M1-200_v76.dxf&dl=1"
+     "name": "TIB_Entwurf-2OG_Archicad_M1-200_v77.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2OG_Archicad_M1-200_v77.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/2cb9466105594827995e/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/8b4deb124a3047a38a1a/",
    "section": "Entwurf · Grundrisse",
    "x": 11866.279999999999,
    "y": 35350,
    "w": 849
   },
   {
-   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-2OG_RotSchwarz_M1-300_A3_v76.pdf",
+   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-2OG_RotSchwarz_M1-300_A3_v77.pdf",
    "kind": "pdf",
-   "title": "TIB Entwurf-2OG RotSchwarz M1-300 A3 v76",
+   "title": "TIB Entwurf-2OG RotSchwarz M1-300 A3 v77",
    "ext": "pdf",
-   "size": 975450,
-   "date": "25.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2OG_RotSchwarz_M1-300_A3_v76.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2OG_RotSchwarz_M1-300_A3_v76.pdf&raw=1",
-   "thumb": "thumbs/32dcd3e9b6760ba4.webp",
+   "size": 975318,
+   "date": "26.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2OG_RotSchwarz_M1-300_A3_v77.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2OG_RotSchwarz_M1-300_A3_v77.pdf&raw=1",
+   "thumb": "thumbs/18276567c768dedb.webp",
    "ar": 0.7073,
    "dxf": [
     {
      "label": "DXF für Archicad M 1:200",
-     "name": "TIB_Entwurf-2OG_Archicad_M1-200_v76.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2OG_Archicad_M1-200_v76.dxf&dl=1"
+     "name": "TIB_Entwurf-2OG_Archicad_M1-200_v77.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-2OG_Archicad_M1-200_v77.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/ab172d28f45e4f009e3d/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/d333d762e18f49efbca3/",
    "section": "Entwurf · Grundrisse",
    "x": 12755.04,
    "y": 35350,
@@ -7275,120 +7288,120 @@
    "w": 848
   },
   {
-   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-3OG_Grundriss_M1-300_A3_v76.pdf",
+   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-3OG_Grundriss_M1-300_A3_v77.pdf",
    "kind": "pdf",
-   "title": "TIB Entwurf-3OG Grundriss M1-300 A3 v76",
+   "title": "TIB Entwurf-3OG Grundriss M1-300 A3 v77",
    "ext": "pdf",
    "size": 700199,
-   "date": "25.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-3OG_Grundriss_M1-300_A3_v76.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-3OG_Grundriss_M1-300_A3_v76.pdf&raw=1",
-   "thumb": "thumbs/2cff09fcbf323211.webp",
+   "date": "26.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-3OG_Grundriss_M1-300_A3_v77.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-3OG_Grundriss_M1-300_A3_v77.pdf&raw=1",
+   "thumb": "thumbs/1a4675b5152162cd.webp",
    "ar": 0.7073,
    "dxf": [
     {
      "label": "DXF für Archicad M 1:200",
-     "name": "TIB_Entwurf-3OG_Archicad_M1-200_v76.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-3OG_Archicad_M1-200_v76.dxf&dl=1"
+     "name": "TIB_Entwurf-3OG_Archicad_M1-200_v77.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-3OG_Archicad_M1-200_v77.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/607d777692cc4c20a597/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/210588b756fa461a8f5a/",
    "section": "Entwurf · Grundrisse",
    "x": 9200,
    "y": 36660,
    "w": 849
   },
   {
-   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-3OG_Nutzung_M1-300_A3_v76.pdf",
+   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-3OG_Nutzung_M1-300_A3_v77.pdf",
    "kind": "pdf",
-   "title": "TIB Entwurf-3OG Nutzung M1-300 A3 v76",
+   "title": "TIB Entwurf-3OG Nutzung M1-300 A3 v77",
    "ext": "pdf",
-   "size": 703857,
-   "date": "25.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-3OG_Nutzung_M1-300_A3_v76.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-3OG_Nutzung_M1-300_A3_v76.pdf&raw=1",
-   "thumb": "thumbs/e80f7bb024c42781.webp",
+   "size": 703858,
+   "date": "26.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-3OG_Nutzung_M1-300_A3_v77.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-3OG_Nutzung_M1-300_A3_v77.pdf&raw=1",
+   "thumb": "thumbs/9be815a83ba2625e.webp",
    "ar": 0.7073,
    "dxf": [
     {
      "label": "DXF für Archicad M 1:200",
-     "name": "TIB_Entwurf-3OG_Archicad_M1-200_v76.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-3OG_Archicad_M1-200_v76.dxf&dl=1"
+     "name": "TIB_Entwurf-3OG_Archicad_M1-200_v77.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-3OG_Archicad_M1-200_v77.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/50b523a73239498196c7/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/4579d3a89e1d440e8cff/",
    "section": "Entwurf · Grundrisse",
    "x": 10088.76,
    "y": 36660,
    "w": 849
   },
   {
-   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-3OG_RotGelb_M1-300_A3_v76.pdf",
+   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-3OG_RotGelb_M1-300_A3_v77.pdf",
    "kind": "pdf",
-   "title": "TIB Entwurf-3OG RotGelb M1-300 A3 v76",
+   "title": "TIB Entwurf-3OG RotGelb M1-300 A3 v77",
    "ext": "pdf",
    "size": 701633,
-   "date": "25.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-3OG_RotGelb_M1-300_A3_v76.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-3OG_RotGelb_M1-300_A3_v76.pdf&raw=1",
-   "thumb": "thumbs/e2b9714fedd53dff.webp",
+   "date": "26.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-3OG_RotGelb_M1-300_A3_v77.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-3OG_RotGelb_M1-300_A3_v77.pdf&raw=1",
+   "thumb": "thumbs/ecc5d2b95c20e893.webp",
    "ar": 0.7073,
    "dxf": [
     {
      "label": "DXF für Archicad M 1:200",
-     "name": "TIB_Entwurf-3OG_Archicad_M1-200_v76.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-3OG_Archicad_M1-200_v76.dxf&dl=1"
+     "name": "TIB_Entwurf-3OG_Archicad_M1-200_v77.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-3OG_Archicad_M1-200_v77.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/f7324bb407474b2cb016/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/9abd48ba83594ee1ba7d/",
    "section": "Entwurf · Grundrisse",
    "x": 10977.52,
    "y": 36660,
    "w": 849
   },
   {
-   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-3OG_RotGelb-Nutzung_M1-300_A3_v76.pdf",
+   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-3OG_RotGelb-Nutzung_M1-300_A3_v77.pdf",
    "kind": "pdf",
-   "title": "TIB Entwurf-3OG RotGelb-Nutzung M1-300 A3 v76",
+   "title": "TIB Entwurf-3OG RotGelb-Nutzung M1-300 A3 v77",
    "ext": "pdf",
-   "size": 705425,
-   "date": "25.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-3OG_RotGelb-Nutzung_M1-300_A3_v76.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-3OG_RotGelb-Nutzung_M1-300_A3_v76.pdf&raw=1",
-   "thumb": "thumbs/7389939a37abff41.webp",
+   "size": 705403,
+   "date": "26.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-3OG_RotGelb-Nutzung_M1-300_A3_v77.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-3OG_RotGelb-Nutzung_M1-300_A3_v77.pdf&raw=1",
+   "thumb": "thumbs/f3faa8d59ff51a08.webp",
    "ar": 0.7073,
    "dxf": [
     {
      "label": "DXF für Archicad M 1:200",
-     "name": "TIB_Entwurf-3OG_Archicad_M1-200_v76.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-3OG_Archicad_M1-200_v76.dxf&dl=1"
+     "name": "TIB_Entwurf-3OG_Archicad_M1-200_v77.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-3OG_Archicad_M1-200_v77.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/664aa163ae184d5fa98f/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/a34e8664b49342a28d22/",
    "section": "Entwurf · Grundrisse",
    "x": 11866.279999999999,
    "y": 36660,
    "w": 849
   },
   {
-   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-3OG_RotSchwarz_M1-300_A3_v76.pdf",
+   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-3OG_RotSchwarz_M1-300_A3_v77.pdf",
    "kind": "pdf",
-   "title": "TIB Entwurf-3OG RotSchwarz M1-300 A3 v76",
+   "title": "TIB Entwurf-3OG RotSchwarz M1-300 A3 v77",
    "ext": "pdf",
    "size": 701633,
-   "date": "25.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-3OG_RotSchwarz_M1-300_A3_v76.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-3OG_RotSchwarz_M1-300_A3_v76.pdf&raw=1",
-   "thumb": "thumbs/38b0a40d83062514.webp",
+   "date": "26.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-3OG_RotSchwarz_M1-300_A3_v77.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-3OG_RotSchwarz_M1-300_A3_v77.pdf&raw=1",
+   "thumb": "thumbs/f884072b17589a50.webp",
    "ar": 0.7073,
    "dxf": [
     {
      "label": "DXF für Archicad M 1:200",
-     "name": "TIB_Entwurf-3OG_Archicad_M1-200_v76.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-3OG_Archicad_M1-200_v76.dxf&dl=1"
+     "name": "TIB_Entwurf-3OG_Archicad_M1-200_v77.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-3OG_Archicad_M1-200_v77.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/615d39179c39446ea713/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/ea2d6a5bd15a49418512/",
    "section": "Entwurf · Grundrisse",
    "x": 12755.04,
    "y": 36660,
@@ -7566,24 +7579,24 @@
    "w": 849
   },
   {
-   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-Flaechenbilanz_A3_v76.pdf",
+   "id": "4_Entwurf/Grundrisse/TIB_Entwurf-Flaechenbilanz_A3_v77.pdf",
    "kind": "pdf",
-   "title": "TIB Entwurf-Flaechenbilanz A3 v76",
+   "title": "TIB Entwurf-Flaechenbilanz A3 v77",
    "ext": "pdf",
    "size": 1147369,
-   "date": "25.11.2026",
-   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-Flaechenbilanz_A3_v76.pdf&dl=1",
-   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-Flaechenbilanz_A3_v76.pdf&raw=1",
-   "thumb": "thumbs/4845dbc71df6ada3.webp",
+   "date": "26.11.2026",
+   "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-Flaechenbilanz_A3_v77.pdf&dl=1",
+   "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-Flaechenbilanz_A3_v77.pdf&raw=1",
+   "thumb": "thumbs/d46797f1211d987c.webp",
    "ar": 1.4139,
    "dxf": [
     {
      "label": "DXF für Archicad M 1:200",
-     "name": "TIB_Entwurf-Flaechenbilanz_Archicad_M1-200_v76.dxf",
-     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-Flaechenbilanz_Archicad_M1-200_v76.dxf&dl=1"
+     "name": "TIB_Entwurf-Flaechenbilanz_Archicad_M1-200_v77.dxf",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_Entwurf-Flaechenbilanz_Archicad_M1-200_v77.dxf&dl=1"
     }
    ],
-   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/113576f3b7ed4c87ac62/",
+   "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/7cd6af5e276b4dd0b72a/",
    "section": "Entwurf · Grundrisse",
    "x": 9200,
    "y": 39280,
@@ -7632,6 +7645,626 @@
      "thumb": "thumbs/fb7c7bbbbc8418cb.webp",
      "ar": 0.7073,
      "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/63fff494e03a4a99855e/"
+    },
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf-Flaechenbilanz_A3_v76.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf-Flaechenbilanz A3 v76",
+     "ext": "pdf",
+     "size": 1147369,
+     "date": "25.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-Flaechenbilanz_A3_v76.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-Flaechenbilanz_A3_v76.pdf&raw=1",
+     "thumb": "thumbs/f233d4aaa089f020.webp",
+     "ar": 1.4139,
+     "dxf": [
+      {
+       "label": "DXF für Archicad M 1:200",
+       "name": "TIB_Entwurf-Flaechenbilanz_Archicad_M1-200_v76.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-Flaechenbilanz_Archicad_M1-200_v76.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/70a40a5e561d4094b3fc/"
+    },
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf-3OG_RotSchwarz_M1-300_A3_v76.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf-3OG RotSchwarz M1-300 A3 v76",
+     "ext": "pdf",
+     "size": 701633,
+     "date": "25.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-3OG_RotSchwarz_M1-300_A3_v76.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-3OG_RotSchwarz_M1-300_A3_v76.pdf&raw=1",
+     "thumb": "thumbs/044674ebe386d5da.webp",
+     "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF für Archicad M 1:200",
+       "name": "TIB_Entwurf-3OG_Archicad_M1-200_v76.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-3OG_Archicad_M1-200_v76.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/3c38c7dd54334f6a8093/"
+    },
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf-3OG_RotGelb-Nutzung_M1-300_A3_v76.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf-3OG RotGelb-Nutzung M1-300 A3 v76",
+     "ext": "pdf",
+     "size": 705425,
+     "date": "25.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-3OG_RotGelb-Nutzung_M1-300_A3_v76.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-3OG_RotGelb-Nutzung_M1-300_A3_v76.pdf&raw=1",
+     "thumb": "thumbs/2b9593f090d9cfc4.webp",
+     "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF für Archicad M 1:200",
+       "name": "TIB_Entwurf-3OG_Archicad_M1-200_v76.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-3OG_Archicad_M1-200_v76.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/5cb367aeb1fa45ec97e1/"
+    },
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf-3OG_RotGelb_M1-300_A3_v76.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf-3OG RotGelb M1-300 A3 v76",
+     "ext": "pdf",
+     "size": 701633,
+     "date": "25.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-3OG_RotGelb_M1-300_A3_v76.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-3OG_RotGelb_M1-300_A3_v76.pdf&raw=1",
+     "thumb": "thumbs/26e933cfd870bfd5.webp",
+     "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF für Archicad M 1:200",
+       "name": "TIB_Entwurf-3OG_Archicad_M1-200_v76.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-3OG_Archicad_M1-200_v76.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/31bcbe2035784e2ebc4f/"
+    },
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf-3OG_Nutzung_M1-300_A3_v76.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf-3OG Nutzung M1-300 A3 v76",
+     "ext": "pdf",
+     "size": 703857,
+     "date": "25.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-3OG_Nutzung_M1-300_A3_v76.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-3OG_Nutzung_M1-300_A3_v76.pdf&raw=1",
+     "thumb": "thumbs/31124cd8dbe08898.webp",
+     "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF für Archicad M 1:200",
+       "name": "TIB_Entwurf-3OG_Archicad_M1-200_v76.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-3OG_Archicad_M1-200_v76.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/8ba7f046be2043ca8fe9/"
+    },
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf-3OG_Grundriss_M1-300_A3_v76.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf-3OG Grundriss M1-300 A3 v76",
+     "ext": "pdf",
+     "size": 700199,
+     "date": "25.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-3OG_Grundriss_M1-300_A3_v76.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-3OG_Grundriss_M1-300_A3_v76.pdf&raw=1",
+     "thumb": "thumbs/8421057a6f93c864.webp",
+     "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF für Archicad M 1:200",
+       "name": "TIB_Entwurf-3OG_Archicad_M1-200_v76.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-3OG_Archicad_M1-200_v76.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/b85d99f9db594ca7815f/"
+    },
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf-2OG_RotSchwarz_M1-300_A3_v76.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf-2OG RotSchwarz M1-300 A3 v76",
+     "ext": "pdf",
+     "size": 975450,
+     "date": "25.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-2OG_RotSchwarz_M1-300_A3_v76.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-2OG_RotSchwarz_M1-300_A3_v76.pdf&raw=1",
+     "thumb": "thumbs/77d3676a3605e27a.webp",
+     "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF für Archicad M 1:200",
+       "name": "TIB_Entwurf-2OG_Archicad_M1-200_v76.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-2OG_Archicad_M1-200_v76.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/2eaa0dfceadd47dda160/"
+    },
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf-2OG_RotGelb-Nutzung_M1-300_A3_v76.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf-2OG RotGelb-Nutzung M1-300 A3 v76",
+     "ext": "pdf",
+     "size": 1022880,
+     "date": "25.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-2OG_RotGelb-Nutzung_M1-300_A3_v76.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-2OG_RotGelb-Nutzung_M1-300_A3_v76.pdf&raw=1",
+     "thumb": "thumbs/e7b1f651b6cc3353.webp",
+     "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF für Archicad M 1:200",
+       "name": "TIB_Entwurf-2OG_Archicad_M1-200_v76.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-2OG_Archicad_M1-200_v76.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/65d9129dd6c1427298e7/"
+    },
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf-2OG_RotGelb_M1-300_A3_v76.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf-2OG RotGelb M1-300 A3 v76",
+     "ext": "pdf",
+     "size": 993330,
+     "date": "25.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-2OG_RotGelb_M1-300_A3_v76.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-2OG_RotGelb_M1-300_A3_v76.pdf&raw=1",
+     "thumb": "thumbs/0ed45688d2129ff2.webp",
+     "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF für Archicad M 1:200",
+       "name": "TIB_Entwurf-2OG_Archicad_M1-200_v76.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-2OG_Archicad_M1-200_v76.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/701f9a69656e41029826/"
+    },
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf-2OG_Nutzung_M1-300_A3_v76.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf-2OG Nutzung M1-300 A3 v76",
+     "ext": "pdf",
+     "size": 1003516,
+     "date": "25.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-2OG_Nutzung_M1-300_A3_v76.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-2OG_Nutzung_M1-300_A3_v76.pdf&raw=1",
+     "thumb": "thumbs/a9cc398f9310e0e8.webp",
+     "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF für Archicad M 1:200",
+       "name": "TIB_Entwurf-2OG_Archicad_M1-200_v76.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-2OG_Archicad_M1-200_v76.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/3effdbc14e9346619e4c/"
+    },
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf-2OG_Grundriss_M1-300_A3_v76.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf-2OG Grundriss M1-300 A3 v76",
+     "ext": "pdf",
+     "size": 974240,
+     "date": "25.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-2OG_Grundriss_M1-300_A3_v76.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-2OG_Grundriss_M1-300_A3_v76.pdf&raw=1",
+     "thumb": "thumbs/d1a20bb6cd7abff8.webp",
+     "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF für Archicad M 1:200",
+       "name": "TIB_Entwurf-2OG_Archicad_M1-200_v76.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-2OG_Archicad_M1-200_v76.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/ba9d5e04fbb74d87a52a/"
+    },
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf-1OG_RotSchwarz_M1-300_A3_v76.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf-1OG RotSchwarz M1-300 A3 v76",
+     "ext": "pdf",
+     "size": 841036,
+     "date": "25.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-1OG_RotSchwarz_M1-300_A3_v76.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-1OG_RotSchwarz_M1-300_A3_v76.pdf&raw=1",
+     "thumb": "thumbs/fa18032692215e58.webp",
+     "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF für Archicad M 1:200",
+       "name": "TIB_Entwurf-1OG_Archicad_M1-200_v76.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-1OG_Archicad_M1-200_v76.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/0a7fa695a6dc41c3ac58/"
+    },
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf-1OG_RotGelb-Nutzung_M1-300_A3_v76.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf-1OG RotGelb-Nutzung M1-300 A3 v76",
+     "ext": "pdf",
+     "size": 884273,
+     "date": "25.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-1OG_RotGelb-Nutzung_M1-300_A3_v76.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-1OG_RotGelb-Nutzung_M1-300_A3_v76.pdf&raw=1",
+     "thumb": "thumbs/b2a75c07e4d722de.webp",
+     "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF für Archicad M 1:200",
+       "name": "TIB_Entwurf-1OG_Archicad_M1-200_v76.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-1OG_Archicad_M1-200_v76.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/fec3fe25e6574bf992ad/"
+    },
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf-1OG_RotGelb_M1-300_A3_v76.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf-1OG RotGelb M1-300 A3 v76",
+     "ext": "pdf",
+     "size": 868434,
+     "date": "25.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-1OG_RotGelb_M1-300_A3_v76.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-1OG_RotGelb_M1-300_A3_v76.pdf&raw=1",
+     "thumb": "thumbs/bc520ebaf185c0f9.webp",
+     "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF für Archicad M 1:200",
+       "name": "TIB_Entwurf-1OG_Archicad_M1-200_v76.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-1OG_Archicad_M1-200_v76.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/7b9cfea9cbfd4df88052/"
+    },
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf-1OG_Nutzung_M1-300_A3_v76.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf-1OG Nutzung M1-300 A3 v76",
+     "ext": "pdf",
+     "size": 855556,
+     "date": "25.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-1OG_Nutzung_M1-300_A3_v76.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-1OG_Nutzung_M1-300_A3_v76.pdf&raw=1",
+     "thumb": "thumbs/464c1e682c2255b0.webp",
+     "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF für Archicad M 1:200",
+       "name": "TIB_Entwurf-1OG_Archicad_M1-200_v76.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-1OG_Archicad_M1-200_v76.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/200592b3acdc4480a76b/"
+    },
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf-1OG_Grundriss_M1-300_A3_v76.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf-1OG Grundriss M1-300 A3 v76",
+     "ext": "pdf",
+     "size": 840334,
+     "date": "25.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-1OG_Grundriss_M1-300_A3_v76.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-1OG_Grundriss_M1-300_A3_v76.pdf&raw=1",
+     "thumb": "thumbs/0c71dbdb51060b1d.webp",
+     "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF für Archicad M 1:200",
+       "name": "TIB_Entwurf-1OG_Archicad_M1-200_v76.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-1OG_Archicad_M1-200_v76.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/295617194be649158d92/"
+    },
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf-EG_RotSchwarz_M1-300_A3_v76.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf-EG RotSchwarz M1-300 A3 v76",
+     "ext": "pdf",
+     "size": 886665,
+     "date": "25.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-EG_RotSchwarz_M1-300_A3_v76.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-EG_RotSchwarz_M1-300_A3_v76.pdf&raw=1",
+     "thumb": "thumbs/069cab8b05059c60.webp",
+     "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF für Archicad M 1:200",
+       "name": "TIB_Entwurf-EG_Archicad_M1-200_v76.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-EG_Archicad_M1-200_v76.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/b54f6267891844eebb1f/"
+    },
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf-EG_RotGelb-Nutzung_M1-300_A3_v76.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf-EG RotGelb-Nutzung M1-300 A3 v76",
+     "ext": "pdf",
+     "size": 1001418,
+     "date": "25.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-EG_RotGelb-Nutzung_M1-300_A3_v76.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-EG_RotGelb-Nutzung_M1-300_A3_v76.pdf&raw=1",
+     "thumb": "thumbs/765f159be8b01b60.webp",
+     "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF für Archicad M 1:200",
+       "name": "TIB_Entwurf-EG_Archicad_M1-200_v76.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-EG_Archicad_M1-200_v76.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/f2d20236ada242fc82cd/"
+    },
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf-EG_RotGelb_M1-300_A3_v76.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf-EG RotGelb M1-300 A3 v76",
+     "ext": "pdf",
+     "size": 985081,
+     "date": "25.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-EG_RotGelb_M1-300_A3_v76.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-EG_RotGelb_M1-300_A3_v76.pdf&raw=1",
+     "thumb": "thumbs/7464f916808b4c6a.webp",
+     "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF für Archicad M 1:200",
+       "name": "TIB_Entwurf-EG_Archicad_M1-200_v76.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-EG_Archicad_M1-200_v76.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/120e89b7322344d38f56/"
+    },
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf-EG_Nutzung_M1-300_A3_v76.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf-EG Nutzung M1-300 A3 v76",
+     "ext": "pdf",
+     "size": 902501,
+     "date": "25.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-EG_Nutzung_M1-300_A3_v76.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-EG_Nutzung_M1-300_A3_v76.pdf&raw=1",
+     "thumb": "thumbs/1685cdfcecb1c5a6.webp",
+     "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF für Archicad M 1:200",
+       "name": "TIB_Entwurf-EG_Archicad_M1-200_v76.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-EG_Archicad_M1-200_v76.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/6000a4167ce040dcb45c/"
+    },
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf-EG_Grundriss_M1-300_A3_v76.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf-EG Grundriss M1-300 A3 v76",
+     "ext": "pdf",
+     "size": 886098,
+     "date": "25.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-EG_Grundriss_M1-300_A3_v76.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-EG_Grundriss_M1-300_A3_v76.pdf&raw=1",
+     "thumb": "thumbs/40211e29d3dbf351.webp",
+     "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF für Archicad M 1:200",
+       "name": "TIB_Entwurf-EG_Archicad_M1-200_v76.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-EG_Archicad_M1-200_v76.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/e7699ba641a04df388de/"
+    },
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf-1UG_RotSchwarz_M1-300_A3_v76.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf-1UG RotSchwarz M1-300 A3 v76",
+     "ext": "pdf",
+     "size": 858858,
+     "date": "25.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-1UG_RotSchwarz_M1-300_A3_v76.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-1UG_RotSchwarz_M1-300_A3_v76.pdf&raw=1",
+     "thumb": "thumbs/c3d05fb140358387.webp",
+     "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF für Archicad M 1:200",
+       "name": "TIB_Entwurf-1UG_Archicad_M1-200_v76.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-1UG_Archicad_M1-200_v76.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/051155cf916f450893ea/"
+    },
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf-1UG_RotGelb-Nutzung_M1-300_A3_v76.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf-1UG RotGelb-Nutzung M1-300 A3 v76",
+     "ext": "pdf",
+     "size": 883686,
+     "date": "25.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-1UG_RotGelb-Nutzung_M1-300_A3_v76.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-1UG_RotGelb-Nutzung_M1-300_A3_v76.pdf&raw=1",
+     "thumb": "thumbs/3e11bdef56f52a51.webp",
+     "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF für Archicad M 1:200",
+       "name": "TIB_Entwurf-1UG_Archicad_M1-200_v76.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-1UG_Archicad_M1-200_v76.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/6a6dc7cd866642ba9d81/"
+    },
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf-1UG_RotGelb_M1-300_A3_v76.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf-1UG RotGelb M1-300 A3 v76",
+     "ext": "pdf",
+     "size": 865243,
+     "date": "25.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-1UG_RotGelb_M1-300_A3_v76.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-1UG_RotGelb_M1-300_A3_v76.pdf&raw=1",
+     "thumb": "thumbs/43521b649c75fd5d.webp",
+     "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF für Archicad M 1:200",
+       "name": "TIB_Entwurf-1UG_Archicad_M1-200_v76.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-1UG_Archicad_M1-200_v76.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/64f0e3d9e28e456d94fe/"
+    },
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf-1UG_Nutzung_M1-300_A3_v76.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf-1UG Nutzung M1-300 A3 v76",
+     "ext": "pdf",
+     "size": 876423,
+     "date": "25.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-1UG_Nutzung_M1-300_A3_v76.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-1UG_Nutzung_M1-300_A3_v76.pdf&raw=1",
+     "thumb": "thumbs/cdeb70292c270813.webp",
+     "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF für Archicad M 1:200",
+       "name": "TIB_Entwurf-1UG_Archicad_M1-200_v76.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-1UG_Archicad_M1-200_v76.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/315afecbecf24106aa25/"
+    },
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf-1UG_Grundriss_M1-300_A3_v76.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf-1UG Grundriss M1-300 A3 v76",
+     "ext": "pdf",
+     "size": 858505,
+     "date": "25.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-1UG_Grundriss_M1-300_A3_v76.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-1UG_Grundriss_M1-300_A3_v76.pdf&raw=1",
+     "thumb": "thumbs/a3df426982d7c481.webp",
+     "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF für Archicad M 1:200",
+       "name": "TIB_Entwurf-1UG_Archicad_M1-200_v76.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-1UG_Archicad_M1-200_v76.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/cd7ef3b8ff9c464c8bc5/"
+    },
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf-2UG_RotSchwarz_M1-300_A3_v76.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf-2UG RotSchwarz M1-300 A3 v76",
+     "ext": "pdf",
+     "size": 683096,
+     "date": "25.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-2UG_RotSchwarz_M1-300_A3_v76.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-2UG_RotSchwarz_M1-300_A3_v76.pdf&raw=1",
+     "thumb": "thumbs/c64e2136c5dc360b.webp",
+     "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF für Archicad M 1:200",
+       "name": "TIB_Entwurf-2UG_Archicad_M1-200_v76.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-2UG_Archicad_M1-200_v76.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/e9ff6cdd7fd8458b941f/"
+    },
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf-2UG_RotGelb-Nutzung_M1-300_A3_v76.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf-2UG RotGelb-Nutzung M1-300 A3 v76",
+     "ext": "pdf",
+     "size": 688968,
+     "date": "25.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-2UG_RotGelb-Nutzung_M1-300_A3_v76.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-2UG_RotGelb-Nutzung_M1-300_A3_v76.pdf&raw=1",
+     "thumb": "thumbs/2368e6cbfb83f668.webp",
+     "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF für Archicad M 1:200",
+       "name": "TIB_Entwurf-2UG_Archicad_M1-200_v76.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-2UG_Archicad_M1-200_v76.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/1cfeed8bef1d4a679d68/"
+    },
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf-2UG_RotGelb_M1-300_A3_v76.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf-2UG RotGelb M1-300 A3 v76",
+     "ext": "pdf",
+     "size": 683728,
+     "date": "25.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-2UG_RotGelb_M1-300_A3_v76.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-2UG_RotGelb_M1-300_A3_v76.pdf&raw=1",
+     "thumb": "thumbs/6d330aa063859f4b.webp",
+     "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF für Archicad M 1:200",
+       "name": "TIB_Entwurf-2UG_Archicad_M1-200_v76.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-2UG_Archicad_M1-200_v76.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/22f74613d9c344e3aaa2/"
+    },
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf-2UG_Nutzung_M1-300_A3_v76.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf-2UG Nutzung M1-300 A3 v76",
+     "ext": "pdf",
+     "size": 688298,
+     "date": "25.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-2UG_Nutzung_M1-300_A3_v76.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-2UG_Nutzung_M1-300_A3_v76.pdf&raw=1",
+     "thumb": "thumbs/e8cd4acde5802183.webp",
+     "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF für Archicad M 1:200",
+       "name": "TIB_Entwurf-2UG_Archicad_M1-200_v76.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-2UG_Archicad_M1-200_v76.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/f51d646c287b406fba0a/"
+    },
+    {
+     "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf-2UG_Grundriss_M1-300_A3_v76.pdf",
+     "kind": "pdf",
+     "title": "TIB Entwurf-2UG Grundriss M1-300 A3 v76",
+     "ext": "pdf",
+     "size": 683054,
+     "date": "25.11.2026",
+     "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-2UG_Grundriss_M1-300_A3_v76.pdf&dl=1",
+     "raw": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-2UG_Grundriss_M1-300_A3_v76.pdf&raw=1",
+     "thumb": "thumbs/406e24e557050f57.webp",
+     "ar": 0.7073,
+     "dxf": [
+      {
+       "label": "DXF für Archicad M 1:200",
+       "name": "TIB_Entwurf-2UG_Archicad_M1-200_v76.dxf",
+       "dl": "https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/%C3%84ltere%20Versionen/TIB_Entwurf-2UG_Archicad_M1-200_v76.dxf&dl=1"
+      }
+     ],
+     "url": "https://seafile.cloud.uni-hannover.de/seafhttp/f/3184fc72dfdf4848995d/"
     },
     {
      "id": "4_Entwurf/Grundrisse/Ältere Versionen/TIB_Entwurf_A3-Set_Grundrisse-Staffage-RotSchwarz_Schnitt_Ansichten_Axo_A3_v8.pdf",
