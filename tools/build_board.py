@@ -96,7 +96,7 @@ SECTIONS = [
     ]),
     ("Fotos", [("stack", t.replace("_2026-10-20", " 20.10."), [f"{F}/{t}/*"]) for t in
                ("Fassade", "Innen", "Innenhöfe", "Details", "Historisch", "Luftbilder", "Modellfotos_2026-10-20")]),
-    # Vorübung 2, archived: one folded box at the bottom (the design is one design, no variants)
+    # Vorübung 2 + its prints, archived: folded boxes in one row at the bottom (the design is one design, no variants)
     ("Entwurf · Volumenstudien", [("box", "Volumenstudie · Vorübung 2", [
         ("open", [f"{D}/Vergleiche/*"]),
         ("stack", "Varianten Andis", [f"{D}/Varianten_Andis/*"]),
@@ -105,16 +105,30 @@ SECTIONS = [
         ("stack", "Lagepläne Varianten", [f"{D}/Lagepläne_Varianten/*"]),
         ("stack", "Flächenbedarf (Rhino)", [f"{D}/Flächenbedarf/*"]),
         ("stack", O, [f"{D}/Vergleiche/{O}/*", f"{D}/Lagepläne_Varianten/{O}/*"]),
+    ]), ("box", "3D-Druck Volumenstudie · Varianten 12.2 · A3 · A2.2", [
+        ("open", [f"{P}/Entwurf_M1-500/*"]),  # complete variants, assembly sheet, LIESMICH
+        # one stack per print plate instead of one 70-part pile ("A1_Platte-2" -> "A1 · Platte 2")
+        *[("stack", p.replace("_", " · ").replace("-", " "), [f"{P}/Entwurf_Platten/{p}/*"]) for p in PLATES],
+        ("stack", O, [f"{P}/Entwurf_M1-500/{O}/*"]),
     ])]),
-    # presentation sheets (Planlayout), top right next to the brief
-    ("Entwurf · Layout", [("open", [f"{D}/Layout/*.pdf"]),
-                          ("stack", "Einzelblätter 1:200 · DIN", [f"{D}/Layout/Einzelblätter_DIN/*"]),
-                          ("stack", "Einzelblätter 1:200 · Übergröße", [f"{D}/Layout/Einzelblätter_Übergröße/*"]),
+    # presentation sheets (Planlayout), top right next to the brief: only the hung set lies open (= the Final wall),
+    # other formats of the same sheets + the single-sheet sets are folded into one box
+    ("Entwurf · Layout", [("stack", "Perspektiven 1–12", [f"{D}/Layout/TIB_10_Perspektive-*"]),
+                          ("box", "Alternative Layouts", [
+                              ("stack", "Andere Formate", [f"{D}/Layout/{n}" for n in (
+                                  "*gerastert*", "TIB_01_*", "TIB_02_Umbau_RotGelbSchwarz_M1-200_A2_*", "TIB_05_Axo-SW_A?_*",
+                                  "TIB_05_Axo-SW_Sondermass-*", "TIB_11_Grundrisse-EG-2OG_M1-200_*", "TIB_12_Grundrisse-3OG-UG_M1-200_*",
+                                  "TIB_1?_*Schnittlinien*", "TIB_13_Schnitte*", "TIB_14_Ansichten_M1-200_*", "TIB_15_*860x751*")]),
+                              ("stack", "Einzelblätter 1:200 · DIN", [f"{D}/Layout/Einzelblätter_DIN/*"]),
+                              ("stack", "Einzelblätter 1:200 · Übergröße", [f"{D}/Layout/Einzelblätter_Übergröße/*"])]),
+                          ("open", [f"{D}/Layout/*.pdf"]),
                           ("stack", O, [f"{D}/Layout/{O}/*", f"{D}/Layout/{O}/*/*", f"{D}/Layout/*/{O}/*"])]),
-    # the rows line up with the Bestand rows of the same name; the exploded Umbau axo lies with the Umbau plans
-    *[(f"Entwurf · {t}", [("open", [f"{D}/{t}/*"] + [f"{D}/Axonometrie/*"] * (t == "Grundrisse")),
-                          ("stack", O, [f"{D}/{t}/{O}/*", *[f"{D}/Axonometrie/{O}/*"] * (t == "Grundrisse")])])
-      for t in ("Erweiterung", "Grundrisse", "Schnitte", "Ansichten", "Lageplan", "Details")],
+    # the rows line up with the Bestand rows of the same name; the exploded Umbau axo lies with the Umbau plans;
+    # the Freiraum studies (analysis + options) are folded, the Lageplan-Entwurf lies open
+    *[(f"Entwurf · {t}", [*[("stack", "Freiraum · Analyse + Optionen 1–7", [f"{D}/Lageplan/TIB_Freiraum_*"])] * (t == "Lageplan"),
+                          ("open", [f"{D}/{t}/*"] + [f"{D}/Axonometrie/*"] * (t == "Grundrisse")),
+                          ("stack", O, [f"{D}/{t}/{O}/*", *[f"{D}/{x}/{O}/*" for x in ("Axonometrie", "Erweiterung")] * (t == "Grundrisse")])])
+      for t in ("Grundrisse", "Schnitte", "Ansichten", "Lageplan", "Details")],
     ("3D-Modelle", [
         ("open", [f"{M}/Modell-Ansichten_Web/index.html", f"{M}/Bestandsmodell/*.png"]),
         ("stack", "Modell Uni · Ansichten", [f"{M}/Bestandsmodell_Uni/*.png"]),
@@ -123,13 +137,6 @@ SECTIONS = [
     ]),
     # existing building and design variants are separate prints, never one row
     ("3D-Druck · Bestand", [("open", [f"{P}/Bestand_M1-500/*"])]),
-    # prints of the Volumenstudie variants 12.2, A3, A2.2 (27.10.), archived with it
-    ("3D-Druck · Entwurf", [("box", "Varianten 12.2 · A3 · A2.2", [
-        ("open", [f"{P}/Entwurf_M1-500/*"]),  # complete variants, assembly sheet, LIESMICH
-        # one stack per print plate instead of one 70-part pile ("A1_Platte-2" -> "A1 · Platte 2")
-        *[("stack", p.replace("_", " · ").replace("-", " "), [f"{P}/Entwurf_Platten/{p}/*"]) for p in PLATES],
-        ("stack", O, [f"{P}/Entwurf_M1-500/{O}/*"]),
-    ])]),
     ("Vorlagen · Archicad", [("open", ["8_Vorlagen/Archicad/*"])]),
 ]
 
@@ -153,7 +160,7 @@ KT_SEC = "Studio Kempe Thill"  # office background page: its own card left of th
 # level with the Bestand plans of the same name
 GRID = [
     ("Aufgabenstellung", "Entwurf · Layout"),
-    ("Referenzen", "Entwurf · Erweiterung"),
+    ("Referenzen", None),
     *[(t, f"Entwurf · {t}") for t in ("Grundrisse", "Schnitte", "Ansichten", "Lageplan", "Details")],
     ("Möblierung + Nutzung", None),
     ("Möbelbestand", None),
@@ -161,12 +168,13 @@ GRID = [
     ("Fotos", None),
     ("3D-Modelle", None),
     ("Vorlagen · Archicad", None),
-    ("3D-Druck · Bestand", "Entwurf · Volumenstudien"),  # archive (Vorübung 2) at the bottom
-    (None, "3D-Druck · Entwurf"),
+    ("3D-Druck · Bestand", "Entwurf · Volumenstudien"),  # archive (Vorübung 2 + its prints) at the bottom
 ]
 
-# current plans lie open and big (4x a normal card): the design's plan PDFs + the newest furniture inventory sheet
-BIG = [f"{D}/*/*.pdf", f"{E}/Möbelbestand/*Inventar_A3*.pdf", f"{R}/*.pdf"]
+# current plans lie open and big (4x a normal card): the design's plan PDFs + the newest furniture inventory sheet;
+# the layout sheets stay normal size (they hang at scale on the Hängeplan wall), only the presentation is big
+BIG = [f"{D}/{t}/*.pdf" for t in ("Grundrisse", "Schnitte", "Ansichten", "Lageplan", "Details", "Axonometrie")] + [
+    f"{D}/Layout/Boehm-Andis_*.pdf", f"{E}/Möbelbestand/*Inventar_A3*.pdf", f"{R}/*.pdf"]
 # reading order of the design plans (instead of newest first): floors bottom-up, per floor Grundriss, Nutzung, Rot-Gelb
 READ = ("Uebersicht", "_Grundriss_", "_Nutzung_", "_RotGelb_", "_RotGelb-Nutzung_", "RotGelb", "Nutzung", "Axo", "Ausschnitt", "Vorplatz",
         "_RotSchwarz_", "_Staffage_", "_Staffage-RotSchwarz_")
