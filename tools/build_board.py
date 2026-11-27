@@ -110,7 +110,7 @@ SECTIONS = [
     ("Entwurf · Layout", [("open", [f"{D}/Layout/*.pdf"]),
                           ("stack", "Einzelblätter 1:200 · DIN", [f"{D}/Layout/Einzelblätter_DIN/*"]),
                           ("stack", "Einzelblätter 1:200 · Übergröße", [f"{D}/Layout/Einzelblätter_Übergröße/*"]),
-                          ("stack", O, [f"{D}/Layout/{O}/*"])]),
+                          ("stack", O, [f"{D}/Layout/{O}/*", f"{D}/Layout/{O}/*/*", f"{D}/Layout/*/{O}/*"])]),
     # the rows line up with the Bestand rows of the same name; the exploded Umbau axo lies with the Umbau plans
     *[(f"Entwurf · {t}", [("open", [f"{D}/{t}/*"] + [f"{D}/Axonometrie/*"] * (t == "Grundrisse")),
                           ("stack", O, [f"{D}/{t}/{O}/*", *[f"{D}/Axonometrie/{O}/*"] * (t == "Grundrisse")])])

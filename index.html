@@ -228,8 +228,14 @@ async function sharpen(view, targets) {
   const gen = view.gen, hr = view.host.getBoundingClientRect(), dpr = devicePixelRatio || 1;
   for (const t of targets) {
     const r = t.box.getBoundingClientRect(), old = t.box.querySelector("canvas.hi");
-    const x0 = Math.max(r.left, hr.left), y0 = Math.max(r.top, hr.top), x1 = Math.min(r.right, hr.right), y1 = Math.min(r.bottom, hr.bottom);
-    if (x1 <= x0 || y1 <= y0 || r.width * dpr < t.minPx) { old?.remove(); continue; }
+    const vx0 = Math.max(r.left, hr.left), vy0 = Math.max(r.top, hr.top), vx1 = Math.min(r.right, hr.right), vy1 = Math.min(r.bottom, hr.bottom);
+    if (vx1 <= vx0 || vy1 <= vy0 || r.width * dpr < t.minPx) { old?.remove(); continue; }
+    // the sharp canvas still covers the view at enough resolution: keep it (plans got heavy, every re-render costs seconds)
+    const f = old?.f, need = [(vx0 - r.left) / r.width, (vy0 - r.top) / r.height, (vx1 - r.left) / r.width, (vy1 - r.top) / r.height];
+    if (f && f.px >= r.width * dpr * .9 && f.px <= r.width * dpr * 3 && f.a[0] <= need[0] && f.a[1] <= need[1] && f.a[2] >= need[2] && f.a[3] >= need[3]) continue;
+    // render a margin around the visible part, so small pans reuse it
+    const mx = (hr.right - hr.left) * .25, my = (hr.bottom - hr.top) * .25;
+    const x0 = Math.max(r.left, vx0 - mx), y0 = Math.max(r.top, vy0 - my), x1 = Math.min(r.right, vx1 + mx), y1 = Math.min(r.bottom, vy1 + my);
     try {
       const page = await t.page();
       if (gen !== view.gen) return;
@@ -242,6 +248,7 @@ async function sharpen(view, targets) {
       view.tasks = (view.tasks || []).concat(task);
       await task.promise;
       if (gen !== view.gen) return;
+      c.f = { px: r.width * dpr, a: [(x0 - r.left) / r.width, (y0 - r.top) / r.height, (x1 - r.left) / r.width, (y1 - r.top) / r.height] };
       old?.remove(); t.box.append(c);
     } catch (err) { if (err?.name !== "RenderingCancelledException") console.warn("pdf", err); return; }
   }
