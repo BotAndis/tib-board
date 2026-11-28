@@ -5,11 +5,13 @@ Umbau und Erweiterung der TIB (Technische Informationsbibliothek, Gebäude 1102)
 
 Es gibt genau einen Entwurf. Pläne, Axonometrien und Modelle sind Darstellungen dieses Entwurfs zum angegebenen Datum.
 
-## Aktuelle Pläne (Planstand 2026-11-27)
+## Aktuelle Pläne (Planstand 2026-11-28)
 
 Grundrisse 2.UG–3.OG aus einem 2D-Master, je Geschoss fünf Darstellungen. Rot-Gelb(-Schwarz): Bestand schwarz, Abriss gelb, Neubau rot. Rot-Schwarz: Bestand schwarz, Neubau rot, ohne Abriss. Ein EG (die frühere EG-Variante 2 ist verworfen).
 
 Nach dem Zwischenkolloquium (Grundrisse 2026-11-19): Seitenwände des Atriums (x 14,0 / 36,4) im EG–2.OG als Glaswand; Treppen- und WC-Kasten südwestlich am Rundgang (EG–2.OG) abgebrochen; Aufbau 3.OG auf dem Anbau entfällt, Treppenkerne des Anbaus enden im 2.OG. Glaswände des Atriums mit Pfosten alle 1,40, übereinander in allen Geschossen; Stahlstützen 0,20 × 0,20 auf den Achsen y −33,6 / −28,0 / −22,4 / −16,8 unter den Kuppelstützen; Atriumtüren in den Glasfeldern, Holztüren am Nordkern in der Glasebene; Wand vor dem Treppenantritt K3 (EG) entfernt; Dach des Anbaus mit Attika 0,25, OK +12,31. EG: die zwei Türen in der Flurwand vor den Spinden entfallen, die Spindreihe läuft durch. Schnitte, Ansichten und Axonometrien (2026-11-24) zeigen den Anbau ohne Aufbau, mit Attika am Dachrand.
+
+Lesetreppe Nord und Süd (Achsen 4–7, 1.OG → 2.OG): U-Wand, zwei Treppen über eine Zwischenstufe, Regal-Sitzbänke mit Tischen, Wandregale im 1.OG, Luftraum zum 2.OG mit schlanken Stahlgeländern; Holz in Boden, Wänden und Decke 1.OG, Decke 2.OG Putz. Staffage-Grundrisse 1.OG und 2.OG zeigen beide Seiten (2026-11-28).
 
 Verbindung Bestand / Anbau (Schnitt Ost, Ostflügel): Beide Häuser behalten ihre Geschosshöhen (Bestand EG ±0,00 / 1.OG +3,91 / 2.OG +7,12; Anbau EG ±0,00 / 1.OG +4,00 / 2.OG +8,00, Arbeitsstand). Der Versatz wird an der Fuge aufgenommen: EG und UGs schwellenlos, 1.OG geneigter Boden 2,1 % im Anbau, 2.OG Stufenanlage über die Breite der Bibliothek (5 × 17,6 / 28) und daneben eine Rampenbrücke im Luftraum (4 × 3,70 m, 5,95 %, Podest +7,56 auf der Fuge). Referenzen: UB Heidelberg Triplex, Kunsthal Rotterdam, Newport Street Gallery.
 
@@ -51,9 +53,9 @@ Verbindung Bestand / Anbau (Schnitt Ost, Ostflügel): Beide Häuser behalten ihr
 | 1.UG, Staffage, Rot-Schwarz, M 1:200 | 2026-11-27 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/a0fe7e02c7c641e883c2/) |
 | EG, Staffage, M 1:200 (PDF + DXF für Archicad) | 2026-11-27 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/93155d9a2dc44315a50c/) · [DXF](https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_EG_Staffage_Archicad_M1-200_v12.dxf&dl=1) |
 | EG, Staffage, Rot-Schwarz, M 1:200 | 2026-11-27 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/95decf9404de4eddb60d/) |
-| 1.OG, Staffage, M 1:200 (PDF + DXF für Archicad) | 2026-11-27 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/85b70f66c77b4bc2860b/) · [DXF](https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_1OG_Staffage_Archicad_M1-200_v18.dxf&dl=1) |
+| 1.OG, Staffage, M 1:200 (PDF + DXF für Archicad) | 2026-11-28 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/439a0cb6411d42bbae91/) · [DXF](https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_1OG_Staffage_Archicad_M1-200_v19.dxf&dl=1) |
 | 1.OG, Staffage, Rot-Schwarz, M 1:200 | 2026-11-27 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/72c22280f42c49239a98/) |
-| 2.OG, Staffage, M 1:200 (PDF + DXF für Archicad) | 2026-11-27 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/b10481f11a614cca8475/) · [DXF](https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_2OG_Staffage_Archicad_M1-200_v6.dxf&dl=1) |
+| 2.OG, Staffage, M 1:200 (PDF + DXF für Archicad) | 2026-11-28 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/cc70fc7bd00442df8ec7/) · [DXF](https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_2OG_Staffage_Archicad_M1-200_v7.dxf&dl=1) |
 | 2.OG, Staffage, Rot-Schwarz, M 1:200 | 2026-11-27 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/f9ec75dfc1f34fb486dd/) |
 | 3.OG, Staffage, M 1:200 (PDF + DXF für Archicad) | 2026-11-27 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/227bd5eb7c5e48468eeb/) · [DXF](https://seafile.cloud.uni-hannover.de/d/f0c8b2c7fd8b43f4bbd5/files/?p=/4_Entwurf/Grundrisse/TIB_3OG_Staffage_Archicad_M1-200_v6.dxf&dl=1) |
 | 3.OG, Staffage, Rot-Schwarz, M 1:200 | 2026-11-27 | [PDF](https://seafile.cloud.uni-hannover.de/seafhttp/f/81a4ad77f9af4dc2bc2d/) |
